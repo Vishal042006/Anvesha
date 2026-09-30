@@ -1,0 +1,291 @@
+{
+  "file_id": "FILE_084",
+  "filename": "42_District_wise_crimes_committed_against_women_2001_2012.csv",
+  "relative_path": "42_District_wise_crimes_committed_against_women_2001_2012.csv",
+  "file_size_bytes": 437784,
+  "dataset_category": "CRIME AGAINST WOMEN",
+  "data_grain": "district_year",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "India / Multi-State",
+  "detected_year": "2001-2012",
+  "row_count": 9017,
+  "column_count": 10,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [],
+  "numeric_columns": [
+    "Year",
+    "Rape",
+    "Kidnapping and Abduction",
+    "Dowry Deaths",
+    "Assault on women with intent to outrage her modesty",
+    "Insult to modesty of Women",
+    "Cruelty by Husband or his Relatives",
+    "Importation of Girls"
+  ],
+  "categorical_columns": [
+    "STATE/UT",
+    "DISTRICT"
+  ],
+  "geographic_columns": [
+    "STATE/UT",
+    "DISTRICT",
+    "Assault on women with intent to outrage her modesty"
+  ],
+  "year_columns": [
+    "Year"
+  ],
+  "column_details": [
+    {
+      "column_name": "STATE/UT",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 35,
+      "sample_values": [
+        "ANDHRA PRADESH",
+        "ARUNACHAL PRADESH",
+        "ASSAM",
+        "BIHAR",
+        "CHHATTISGARH"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "DISTRICT",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 808,
+      "sample_values": [
+        "ADILABAD",
+        "ANANTAPUR",
+        "CHITTOOR",
+        "CUDDAPAH",
+        "EAST GODAVARI"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Year",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 12,
+      "sample_values": [
+        "2001",
+        "2002",
+        "2003",
+        "2004",
+        "2005"
+      ],
+      "numeric_stats": {
+        "min": 2001.0,
+        "max": 2012.0,
+        "mean": 2006.6290340468006,
+        "std": 3.4636232139554894
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Rape",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 420,
+      "sample_values": [
+        "50",
+        "23",
+        "27",
+        "20",
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 3425.0,
+        "mean": 53.041366308084726,
+        "std": 190.74145000740626
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Kidnapping and Abduction",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 460,
+      "sample_values": [
+        "30",
+        "34",
+        "20",
+        "26",
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 7910.0,
+        "mean": 58.53543307086614,
+        "std": 246.9374642269014
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "Dowry Deaths",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 256,
+      "sample_values": [
+        "16",
+        "7",
+        "14",
+        "17",
+        "12"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 2322.0,
+        "mean": 20.228900964844183,
+        "std": 96.97046584082517
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Assault on women with intent to outrage her modesty",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 553,
+      "sample_values": [
+        "149",
+        "118",
+        "112",
+        "126",
+        "109"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 7118.0,
+        "mean": 100.51125651547078,
+        "std": 394.05943624995996
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Insult to modesty of Women",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 343,
+      "sample_values": [
+        "34",
+        "24",
+        "83",
+        "38",
+        "58"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 4970.0,
+        "mean": 27.515581679050683,
+        "std": 167.237521654542
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cruelty by Husband or his Relatives",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 846,
+      "sample_values": [
+        "175",
+        "154",
+        "186",
+        "57",
+        "247"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 19865.0,
+        "mean": 194.12243539980037,
+        "std": 831.9865941591921
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Importation of Girls",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 37,
+      "sample_values": [
+        "0",
+        "7",
+        "8",
+        "6",
+        "1"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 83.0,
+        "mean": 0.19784850837307308,
+        "std": 2.415038984004265
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

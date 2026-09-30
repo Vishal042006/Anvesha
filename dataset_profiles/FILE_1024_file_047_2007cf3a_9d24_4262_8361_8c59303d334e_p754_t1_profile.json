@@ -1,0 +1,213 @@
+{
+  "file_id": "FILE_1024",
+  "filename": "FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p754_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p754_t1.csv",
+  "file_size_bytes": 1307,
+  "dataset_category": "GENERAL CRIME / IPC",
+  "data_grain": "district_year",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "2007",
+  "row_count": 43,
+  "column_count": 7,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [],
+  "numeric_columns": [
+    "S. No.",
+    "Number of\nEnquires in\nwhich Charges\nwere Proved",
+    "Number of\nEnquiries\nPending at the\nend of the\nYear",
+    "Police\nPersonnel\nagainst whom\nDisciplinary\nAction Initia",
+    "Police\npersonnel\nwhose Cases\nEnquiries\nCompleted",
+    "Police\nPersonnel\nagainst whom\ncharges not\nproved"
+  ],
+  "categorical_columns": [
+    "Districts"
+  ],
+  "geographic_columns": [
+    "Districts"
+  ],
+  "year_columns": [
+    "Number of\nEnquiries\nPending at the\nend of the\nYear"
+  ],
+  "column_details": [
+    {
+      "column_name": "S. No.",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 1,
+      "null_percentage": 2.33,
+      "unique_count": 42,
+      "sample_values": [
+        "1.0",
+        "2.0",
+        "3.0",
+        "4.0",
+        "5.0"
+      ],
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 42.0,
+        "mean": 21.5,
+        "std": 12.267844146385297
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Districts",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 43,
+      "sample_values": [
+        "Ariyalur",
+        "Chennai",
+        "Coimbatore",
+        "Coimbatore City",
+        "Cuddalore"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Number of\nEnquires in\nwhich Charges\nwere Proved",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 10,
+      "sample_values": [
+        "0",
+        "8",
+        "5",
+        "7",
+        "38"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 84.0,
+        "mean": 3.9069767441860463,
+        "std": 13.881838003542226
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Number of\nEnquiries\nPending at the\nend of the\nYear",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 8,
+      "sample_values": [
+        "0",
+        "1",
+        "4",
+        "2",
+        "8"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 34.0,
+        "mean": 1.5813953488372092,
+        "std": 5.4477280460562065
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Police\nPersonnel\nagainst whom\nDisciplinary\nAction Initia",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 10,
+      "sample_values": [
+        "0",
+        "5",
+        "7",
+        "38",
+        "1"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 98.0,
+        "mean": 4.558139534883721,
+        "std": 15.813349281663136
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Police\npersonnel\nwhose Cases\nEnquiries\nCompleted",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 8,
+      "sample_values": [
+        "0",
+        "2",
+        "3",
+        "41",
+        "1"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 80.0,
+        "mean": 3.7209302325581395,
+        "std": 13.673620033785859
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Police\nPersonnel\nagainst whom\ncharges not\nproved",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "0",
+        "3",
+        "2",
+        "4",
+        "9"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 9.0,
+        "mean": 0.4186046511627907,
+        "std": 1.561936498610663
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

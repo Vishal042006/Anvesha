@@ -1,0 +1,216 @@
+{
+  "file_id": "FILE_1257",
+  "filename": "FILE_066_2ac03f2a_fdc7_43c4_8fbf_47b963e34804_p260_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_066_2ac03f2a_fdc7_43c4_8fbf_47b963e34804_p260_t1.csv",
+  "file_size_bytes": 1302,
+  "dataset_category": "GENERAL CRIME / IPC",
+  "data_grain": "district_year_crime_disposal",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "India / Multi-State",
+  "detected_year": "UNKNOWN",
+  "row_count": 44,
+  "column_count": 7,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [],
+  "numeric_columns": [
+    "S.\nNo",
+    "Cases Convicted\nOut of Cases from\nPrevious Year",
+    "Cases Convicted\nOut of Cases\nduring the Year",
+    "Cases Convicted\n(Col.13+Col.14)",
+    "Cases Discharged",
+    "Cases Acquitted"
+  ],
+  "categorical_columns": [
+    "Districts"
+  ],
+  "geographic_columns": [
+    "Districts",
+    "Cases Convicted\nOut of Cases from\nPrevious Year",
+    "Cases Convicted\nOut of Cases\nduring the Year"
+  ],
+  "year_columns": [
+    "Cases Convicted\nOut of Cases from\nPrevious Year",
+    "Cases Convicted\nOut of Cases\nduring the Year"
+  ],
+  "column_details": [
+    {
+      "column_name": "S.\nNo",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 1,
+      "null_percentage": 2.27,
+      "unique_count": 42,
+      "sample_values": [
+        "1.0",
+        "2.0",
+        "3.0",
+        "4.0",
+        "5.0"
+      ],
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 42.0,
+        "mean": 21.023255813953487,
+        "std": 12.517584530596151
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Districts",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 44,
+      "sample_values": [
+        "2",
+        "Ariyalur",
+        "Chennai",
+        "Coimbatore",
+        "Coimbatore City"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases Convicted\nOut of Cases from\nPrevious Year",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 23,
+      "sample_values": [
+        "13",
+        "11",
+        "20",
+        "4",
+        "17"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 433.0,
+        "mean": 19.977272727272727,
+        "std": 64.66963941569837
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases Convicted\nOut of Cases\nduring the Year",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 14,
+      "sample_values": [
+        "14",
+        "9",
+        "5",
+        "0",
+        "17"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 173.0,
+        "mean": 8.181818181818182,
+        "std": 26.872890054349384
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases Convicted\n(Col.13+Col.14)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 27,
+      "sample_values": [
+        "15",
+        "20",
+        "25",
+        "4",
+        "17"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 606.0,
+        "mean": 27.886363636363637,
+        "std": 90.9838257819004
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases Discharged",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "16",
+        "0",
+        "1",
+        "2",
+        "4"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 16.0,
+        "mean": 0.5454545454545454,
+        "std": 2.482071016866672
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases Acquitted",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 30,
+      "sample_values": [
+        "17",
+        "12",
+        "47",
+        "13",
+        "26"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1097.0,
+        "mean": 50.25,
+        "std": 163.8442432510573
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

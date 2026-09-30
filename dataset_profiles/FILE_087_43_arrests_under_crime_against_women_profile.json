@@ -1,0 +1,450 @@
+{
+  "file_id": "FILE_087",
+  "filename": "43_Arrests_under_crime_against_women.csv",
+  "relative_path": "43_Arrests_under_crime_against_women.csv",
+  "file_size_bytes": 448037,
+  "dataset_category": "CRIME AGAINST WOMEN",
+  "data_grain": "document_level",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "UNKNOWN",
+  "row_count": 2765,
+  "column_count": 16,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [
+    "Total_Persons_under_Trial"
+  ],
+  "numeric_columns": [
+    "Year",
+    "Persons_Acquitted",
+    "Persons_against_whom_cases_Compounded_or_Withdrawn",
+    "Persons_Arrested",
+    "Persons_Chargesheeted",
+    "Persons_Convicted",
+    "Persons_in_Custody_or_on_Bail_during_Investigation_at_Year_beginning",
+    "Persons_in_Custody_or_on_Bail_during_Investigation_at_Year_end",
+    "Persons_in_Custody_or_on_Bail_during_Trial_at_Year_End",
+    "Persons_Released_or_Freed_by_Police_or_Magistrate_before_Trial_for_want_of_evidence_or_any_other_reason",
+    "Persons_Trial_Completed",
+    "Persons_under_Trial_at_Year_beginning",
+    "Total_Persons_under_Trial"
+  ],
+  "categorical_columns": [
+    "\u00ef\u00bb\u00bfArea_Name",
+    "Group_Name",
+    "Sub_Group_Name"
+  ],
+  "geographic_columns": [],
+  "year_columns": [
+    "Year",
+    "Persons_in_Custody_or_on_Bail_during_Investigation_at_Year_beginning",
+    "Persons_in_Custody_or_on_Bail_during_Investigation_at_Year_end",
+    "Persons_in_Custody_or_on_Bail_during_Trial_at_Year_End",
+    "Persons_under_Trial_at_Year_beginning"
+  ],
+  "column_details": [
+    {
+      "column_name": "\u00ef\u00bb\u00bfArea_Name",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 35,
+      "sample_values": [
+        "Andaman & Nicobar Islands",
+        "Andhra Pradesh",
+        "Arunachal Pradesh",
+        "Assam",
+        "Bihar"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Year",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 10,
+      "sample_values": [
+        "2001",
+        "2002",
+        "2003",
+        "2004",
+        "2005"
+      ],
+      "numeric_stats": {
+        "min": 2001.0,
+        "max": 2010.0,
+        "mean": 2005.4683544303798,
+        "std": 2.8770312155568742
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Group_Name",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 8,
+      "sample_values": [
+        "Rape",
+        "Kidnapping & Abduction - Women & Girls",
+        "Dowry Deaths",
+        "Molestation",
+        "Sexual harassment"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Sub_Group_Name",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 8,
+      "sample_values": [
+        "01. Rape",
+        "02. Kidnapping & Abduction of Women & Girls",
+        "03. Dowry Deaths",
+        "04. Molestation",
+        "05. Sexual Harassment"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons_Acquitted",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1058,
+      "sample_values": [
+        "6",
+        "1168",
+        "1",
+        "403",
+        "756"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 24476.0,
+        "mean": 894.7945750452079,
+        "std": 2393.9265593744217
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons_against_whom_cases_Compounded_or_Withdrawn",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 457,
+      "sample_values": [
+        "0",
+        "13",
+        "14",
+        "67",
+        "10"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 8541.0,
+        "mean": 165.65244122965643,
+        "std": 641.0089107492335
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons_Arrested",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1238,
+      "sample_values": [
+        "3",
+        "1150",
+        "51",
+        "928",
+        "1400"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 63332.0,
+        "mean": 1873.6448462929475,
+        "std": 5090.435538204015
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons_Chargesheeted",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1224,
+      "sample_values": [
+        "3",
+        "1021",
+        "31",
+        "585",
+        "1302"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 47745.0,
+        "mean": 1748.7858951175406,
+        "std": 4736.721230442402
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons_Convicted",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 684,
+      "sample_values": [
+        "0",
+        "246",
+        "2",
+        "120",
+        "217"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 27706.0,
+        "mean": 343.41555153707054,
+        "std": 1331.866111586919
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons_in_Custody_or_on_Bail_during_Investigation_at_Year_beginning",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 743,
+      "sample_values": [
+        "6",
+        "450",
+        "25",
+        "806",
+        "719"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 13270.0,
+        "mean": 401.0130198915009,
+        "std": 1231.9295701547771
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons_in_Custody_or_on_Bail_during_Investigation_at_Year_end",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 762,
+      "sample_values": [
+        "6",
+        "545",
+        "30",
+        "959",
+        "576"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 13391.0,
+        "mean": 426.9128390596745,
+        "std": 1309.381217021424
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons_in_Custody_or_on_Bail_during_Trial_at_Year_End",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1555,
+      "sample_values": [
+        "45",
+        "2191",
+        "347",
+        "2331",
+        "5963"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 278114.0,
+        "mean": 6706.8506329113925,
+        "std": 20985.404565083834
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons_Released_or_Freed_by_Police_or_Magistrate_before_Trial_for_want_of_evidence_or_any_other_reason",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 362,
+      "sample_values": [
+        "0",
+        "34",
+        "15",
+        "190",
+        "241"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 16058.0,
+        "mean": 98.95913200723328,
+        "std": 576.5396408282983
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "Persons_Trial_Completed",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1168,
+      "sample_values": [
+        "6",
+        "1414",
+        "3",
+        "523",
+        "973"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 48532.0,
+        "mean": 1238.2101265822785,
+        "std": 3376.8978922121787
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons_under_Trial_at_Year_beginning",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1548,
+      "sample_values": [
+        "48",
+        "2597",
+        "319",
+        "2283",
+        "5634"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 266808.0,
+        "mean": 6361.927305605786,
+        "std": 19939.907079873137
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total_Persons_under_Trial",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1612,
+      "sample_values": [
+        "51",
+        "3618",
+        "350",
+        "2868",
+        "6936"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 306044.0,
+        "mean": 8110.713200723328,
+        "std": 24285.490957829043
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Parse error: Error tokenizing data. C error: Expected 16 fields in line 2452, saw 17\n"
+}

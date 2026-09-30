@@ -1,0 +1,200 @@
+{
+  "file_id": "FILE_1028",
+  "filename": "FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p75_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p75_t1.csv",
+  "file_size_bytes": 1705,
+  "dataset_category": "GENERAL CRIME / IPC",
+  "data_grain": "unknown",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "2007",
+  "row_count": 51,
+  "column_count": 8,
+  "duplicate_rows_count": 21,
+  "constant_columns": [],
+  "total_columns": [],
+  "numeric_columns": [],
+  "categorical_columns": [
+    "36",
+    "The Environmental (Protection) Act",
+    "-",
+    "-_2",
+    "-_3",
+    "0",
+    "1",
+    "0_2"
+  ],
+  "geographic_columns": [],
+  "year_columns": [],
+  "column_details": [
+    {
+      "column_name": "36",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 26,
+      "null_percentage": 50.98,
+      "unique_count": 25,
+      "sample_values": [
+        "37",
+        "38",
+        "39",
+        "40",
+        "I."
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "The Environmental (Protection) Act",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 26,
+      "null_percentage": 50.98,
+      "unique_count": 25,
+      "sample_values": [
+        "The Air & The Water (Prevention & Control of\nPollution) Act",
+        "The Cigarette and Other Tobacco Products Act",
+        "Noise Pollution Acts",
+        "The National Green Tribunal Act",
+        "Environment & Pollution\u2013 Related Acts"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "-",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 22,
+      "null_percentage": 43.14,
+      "unique_count": 8,
+      "sample_values": [
+        "-",
+        "15",
+        "(0.0)",
+        "410",
+        "(0.6)"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "-_2",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 22,
+      "null_percentage": 43.14,
+      "unique_count": 8,
+      "sample_values": [
+        "-",
+        "12",
+        "(0.0)",
+        "139",
+        "(0.2)"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "-_3",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 22,
+      "null_percentage": 43.14,
+      "unique_count": 8,
+      "sample_values": [
+        "-",
+        "28",
+        "(0.0)",
+        "172",
+        "(0.2)"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "0",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 17,
+      "null_percentage": 33.33,
+      "unique_count": 9,
+      "sample_values": [
+        "(0.0)",
+        "0",
+        "-",
+        "21",
+        "231"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "1",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 17,
+      "null_percentage": 33.33,
+      "unique_count": 9,
+      "sample_values": [
+        "(0.0)",
+        "0",
+        "-",
+        "19",
+        "297"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "0_2",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 17,
+      "null_percentage": 33.33,
+      "unique_count": 8,
+      "sample_values": [
+        "(0.0)",
+        "0",
+        "-",
+        "18",
+        "311"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "High missing values (41.4%); 21 duplicate rows"
+}

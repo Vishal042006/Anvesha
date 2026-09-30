@@ -1,0 +1,287 @@
+{
+  "file_id": "FILE_089",
+  "filename": "33_CH_not_murder_victim_age_sex.csv",
+  "relative_path": "33_CH_not_murder_victim_age_sex.csv",
+  "file_size_bytes": 46381,
+  "dataset_category": "VIOLENT CRIME",
+  "data_grain": "state_year",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "2001-2002",
+  "row_count": 936,
+  "column_count": 10,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [
+    "Victims_Total"
+  ],
+  "numeric_columns": [
+    "Year",
+    "Victims_Above_50_Yrs",
+    "Victims_Total",
+    "Victims_Upto_10_15_Yrs",
+    "Victims_Upto_10_Yrs",
+    "Victims_Upto_15_18_Yrs",
+    "Victims_Upto_18_30_Yrs",
+    "Victims_Upto_30_50_Yrs"
+  ],
+  "categorical_columns": [
+    "Area_Name",
+    "Sub_Group_Name"
+  ],
+  "geographic_columns": [],
+  "year_columns": [
+    "Year"
+  ],
+  "column_details": [
+    {
+      "column_name": "Area_Name",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 35,
+      "sample_values": [
+        "Andhra Pradesh",
+        "Arunachal Pradesh",
+        "Assam",
+        "Bihar",
+        "Chandigarh"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Year",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 10,
+      "sample_values": [
+        "2001",
+        "2002",
+        "2003",
+        "2004",
+        "2005"
+      ],
+      "numeric_stats": {
+        "min": 2001.0,
+        "max": 2010.0,
+        "mean": 2005.5673076923076,
+        "std": 2.869302700024613
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Sub_Group_Name",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 3,
+      "sample_values": [
+        "1. Male Victims",
+        "2. Female Victims",
+        "3. Total"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Victims_Above_50_Yrs",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 105,
+      "null_percentage": 11.22,
+      "unique_count": 60,
+      "sample_values": [
+        "17.0",
+        "1.0",
+        "2.0",
+        "20.0",
+        "0.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 163.0,
+        "mean": 7.7160048134777375,
+        "std": 20.62180905249501
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Victims_Total",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 2,
+      "null_percentage": 0.21,
+      "unique_count": 235,
+      "sample_values": [
+        "144.0",
+        "6.0",
+        "38.0",
+        "232.0",
+        "73.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1622.0,
+        "mean": 86.87152034261241,
+        "std": 213.2494138828358
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Victims_Upto_10_15_Yrs",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 171,
+      "null_percentage": 18.27,
+      "unique_count": 33,
+      "sample_values": [
+        "3.0",
+        "0.0",
+        "2.0",
+        "1.0",
+        "23.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 94.0,
+        "mean": 2.0836601307189544,
+        "std": 6.238565010656769
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Victims_Upto_10_Yrs",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 156,
+      "null_percentage": 16.67,
+      "unique_count": 21,
+      "sample_values": [
+        "1.0",
+        "0.0",
+        "2.0",
+        "44.0",
+        "4.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 84.0,
+        "mean": 1.876923076923077,
+        "std": 4.537135973704429
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Victims_Upto_15_18_Yrs",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 160,
+      "null_percentage": 17.09,
+      "unique_count": 49,
+      "sample_values": [
+        "5.0",
+        "0.0",
+        "19.0",
+        "3.0",
+        "10.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 112.0,
+        "mean": 4.216494845360825,
+        "std": 12.17377556224742
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Victims_Upto_18_30_Yrs",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 53,
+      "null_percentage": 5.66,
+      "unique_count": 160,
+      "sample_values": [
+        "54.0",
+        "3.0",
+        "20.0",
+        "116.0",
+        "6.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 766.0,
+        "mean": 42.53227633069083,
+        "std": 101.06182202439044
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Victims_Upto_30_50_Yrs",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 43,
+      "null_percentage": 4.59,
+      "unique_count": 139,
+      "sample_values": [
+        "64.0",
+        "2.0",
+        "16.0",
+        "74.0",
+        "0.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 688.0,
+        "mean": 34.535274356103024,
+        "std": 83.84509619333845
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

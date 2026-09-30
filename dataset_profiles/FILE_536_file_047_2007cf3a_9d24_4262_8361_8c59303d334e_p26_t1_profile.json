@@ -1,0 +1,177 @@
+{
+  "file_id": "FILE_536",
+  "filename": "FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p26_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p26_t1.csv",
+  "file_size_bytes": 2005,
+  "dataset_category": "GENERAL CRIME / IPC",
+  "data_grain": "unknown",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "2007",
+  "row_count": 49,
+  "column_count": 7,
+  "duplicate_rows_count": 11,
+  "constant_columns": [],
+  "total_columns": [],
+  "numeric_columns": [],
+  "categorical_columns": [
+    "S.No.",
+    "CRIME HEAD",
+    "Quinquennial\nAverage",
+    "2017",
+    "Percentage Change in 2017",
+    "col_6",
+    "col_7"
+  ],
+  "geographic_columns": [],
+  "year_columns": [],
+  "column_details": [
+    {
+      "column_name": "S.No.",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 25,
+      "null_percentage": 51.02,
+      "unique_count": 24,
+      "sample_values": [
+        "10.2",
+        "10.2.1",
+        "10.2.2",
+        "10.2.3",
+        "10.2.4"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "CRIME HEAD",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 25,
+      "null_percentage": 51.02,
+      "unique_count": 24,
+      "sample_values": [
+        "Grievous Hurt",
+        "Voluntarity Causing Grievous Hurt (Sec.325 IPC)",
+        "Voluntarity Causing Grievous Hurt by Dangerous\nWeapons or means (Sec.326 IPC)",
+        "Acid Attack (Sec.326A IPC)",
+        "Attempt to Acid Attack (Sec.326B IPC)"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Quinquennial\nAverage",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 14,
+      "null_percentage": 28.57,
+      "unique_count": 19,
+      "sample_values": [
+        "1096",
+        "(1.4)",
+        "-",
+        "5",
+        "(0.0)"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "2017",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 1,
+      "null_percentage": 2.04,
+      "unique_count": 29,
+      "sample_values": [
+        "640",
+        "(0.8)",
+        "305",
+        "(0.4)",
+        "317"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Percentage Change in 2017",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 24,
+      "null_percentage": 48.98,
+      "unique_count": 4,
+      "sample_values": [
+        "2007",
+        "@",
+        "-51.7",
+        "-19.1"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_6",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 24,
+      "null_percentage": 48.98,
+      "unique_count": 12,
+      "sample_values": [
+        "Q.A.",
+        "-41.6",
+        "@",
+        "0.0",
+        "-36.8"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_7",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 24,
+      "null_percentage": 48.98,
+      "unique_count": 12,
+      "sample_values": [
+        "2016",
+        "4.6",
+        "@",
+        "400.0",
+        "-12.9"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "High missing values (39.9%); 11 duplicate rows"
+}

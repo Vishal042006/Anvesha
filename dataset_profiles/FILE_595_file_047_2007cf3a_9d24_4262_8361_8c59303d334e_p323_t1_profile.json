@@ -1,0 +1,271 @@
+{
+  "file_id": "FILE_595",
+  "filename": "FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p323_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p323_t1.csv",
+  "file_size_bytes": 1714,
+  "dataset_category": "GENERAL CRIME / IPC",
+  "data_grain": "district_year_crime_disposal",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "India / Multi-State",
+  "detected_year": "2007",
+  "row_count": 43,
+  "column_count": 9,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [
+    "Total\nJuveniles\napprhended"
+  ],
+  "numeric_columns": [
+    "S.\nNo.",
+    "Cases\npending\ndisposal at\nbeginning of\nyear",
+    "Juveniles\napprehende\nd during the\nyear",
+    "Total\nJuveniles\napprhended",
+    "Juveniles\nDischarged\nduring\nInvestigatio\nn",
+    "Juveniles\nCases\nChargesheet\ned",
+    "Juveniles\nsent home\nafter adivce\nor\nadmonition",
+    "Juvenile\nSent to\nSpecial\nHome or Fit\nInstitute"
+  ],
+  "categorical_columns": [
+    "Districts"
+  ],
+  "geographic_columns": [
+    "Districts",
+    "Juvenile\nSent to\nSpecial\nHome or Fit\nInstitute"
+  ],
+  "year_columns": [
+    "Cases\npending\ndisposal at\nbeginning of\nyear",
+    "Juveniles\napprehende\nd during the\nyear"
+  ],
+  "column_details": [
+    {
+      "column_name": "S.\nNo.",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 1,
+      "null_percentage": 2.33,
+      "unique_count": 42,
+      "sample_values": [
+        "1.0",
+        "2.0",
+        "3.0",
+        "4.0",
+        "5.0"
+      ],
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 42.0,
+        "mean": 21.5,
+        "std": 12.267844146385297
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Districts",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 43,
+      "sample_values": [
+        "Ariyalur",
+        "Chennai",
+        "Coimbatore",
+        "Coimbatore City",
+        "Cuddalore"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\npending\ndisposal at\nbeginning of\nyear",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 27,
+      "sample_values": [
+        "10",
+        "188",
+        "0",
+        "14",
+        "3"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 2482.0,
+        "mean": 115.44186046511628,
+        "std": 386.14149283869295
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Juveniles\napprehende\nd during the\nyear",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 38,
+      "sample_values": [
+        "17",
+        "706",
+        "12",
+        "50",
+        "58"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 2919.0,
+        "mean": 135.7674418604651,
+        "std": 449.83355848947076
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total\nJuveniles\napprhended",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 38,
+      "sample_values": [
+        "27",
+        "894",
+        "12",
+        "64",
+        "58"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 5401.0,
+        "mean": 251.2093023255814,
+        "std": 827.0296406889375
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Juveniles\nDischarged\nduring\nInvestigatio\nn",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 11,
+      "sample_values": [
+        "1",
+        "0",
+        "9",
+        "22",
+        "6"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 138.0,
+        "mean": 6.4186046511627906,
+        "std": 21.82313381334624
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Juveniles\nCases\nChargesheet\ned",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 34,
+      "sample_values": [
+        "22",
+        "497",
+        "10",
+        "14",
+        "58"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 2628.0,
+        "mean": 122.23255813953489,
+        "std": 402.5197917174415
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Juveniles\nsent home\nafter adivce\nor\nadmonition",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 19,
+      "sample_values": [
+        "14",
+        "238",
+        "0",
+        "9",
+        "121"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 879.0,
+        "mean": 40.883720930232556,
+        "std": 138.0567877123181
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Juvenile\nSent to\nSpecial\nHome or Fit\nInstitute",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 21,
+      "sample_values": [
+        "8",
+        "163",
+        "9",
+        "0",
+        "13"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 795.0,
+        "mean": 36.97674418604651,
+        "std": 123.95611519368131
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

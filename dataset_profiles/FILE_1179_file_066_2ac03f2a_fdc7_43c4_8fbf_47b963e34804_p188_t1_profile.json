@@ -1,0 +1,238 @@
+{
+  "file_id": "FILE_1179",
+  "filename": "FILE_066_2ac03f2a_fdc7_43c4_8fbf_47b963e34804_p188_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_066_2ac03f2a_fdc7_43c4_8fbf_47b963e34804_p188_t1.csv",
+  "file_size_bytes": 1677,
+  "dataset_category": "GENERAL CRIME / IPC",
+  "data_grain": "state_year",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "UNKNOWN",
+  "row_count": 22,
+  "column_count": 8,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [
+    "Total\nCases\nDisposed\nOff by\nPolice\n(Col.7+\nCol.8+\nCol.15+\nCol.18)"
+  ],
+  "numeric_columns": [
+    "S.No",
+    "Total\nCases\nDisposed\nOff by\nPolice\n(Col.7+\nCol.8+\nCol.15+\nCol.18)",
+    "Cases\nQuash\ned at\nInvesti-\ngation\nStage",
+    "Cases\nStayed\nat\nInvesti-\ngation\nStage",
+    "Cases\nPending\nInvesti-\ngation at\nEnd of\nthe Year\n(Col.6-\nCol.9-\nCol.19-\nCol.20)",
+    "Charge-\nSheeting\nRate\n(Col.18/\nCol.19)\n*100",
+    "Pendency\nPercentage\n(Col.22/\nCol.6) *100"
+  ],
+  "categorical_columns": [
+    "Crime Head"
+  ],
+  "geographic_columns": [],
+  "year_columns": [
+    "Cases\nPending\nInvesti-\ngation at\nEnd of\nthe Year\n(Col.6-\nCol.9-\nCol.19-\nCol.20)"
+  ],
+  "column_details": [
+    {
+      "column_name": "S.No",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 3,
+      "null_percentage": 13.64,
+      "unique_count": 19,
+      "sample_values": [
+        "16.0",
+        "17.0",
+        "17.1",
+        "17.2",
+        "17.3"
+      ],
+      "numeric_stats": {
+        "min": 16.0,
+        "max": 21.0,
+        "mean": 18.836842105263155,
+        "std": 1.567095872524783
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Crime Head",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 1,
+      "null_percentage": 4.55,
+      "unique_count": 21,
+      "sample_values": [
+        "Dowry Prohibition Act",
+        "Immoral Traffic (Prevention) Act",
+        "Procuring, inducing Children for the sake of\nprostitution",
+        "Detaining a person in premises where prostitution is\ncarried on",
+        "Prostitution in or in the vicinity of public places"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total\nCases\nDisposed\nOff by\nPolice\n(Col.7+\nCol.8+\nCol.15+\nCol.18)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 18,
+      "sample_values": [
+        "19",
+        "217",
+        "135",
+        "58",
+        "10"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 5176.0,
+        "mean": 579.5454545454545,
+        "std": 1272.9847089671068
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nQuash\ned at\nInvesti-\ngation\nStage",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 7,
+      "sample_values": [
+        "20",
+        "3",
+        "0",
+        "5",
+        "2"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 31.0,
+        "mean": 3.272727272727273,
+        "std": 7.6729693648846835
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nStayed\nat\nInvesti-\ngation\nStage",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 3,
+      "sample_values": [
+        "21",
+        "0",
+        "1"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 21.0,
+        "mean": 1.0,
+        "std": 4.47213595499958
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nPending\nInvesti-\ngation at\nEnd of\nthe Year\n(Col.6-\nCol.9-\nCol.19-\nCol.20)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 19,
+      "sample_values": [
+        "22",
+        "268",
+        "933",
+        "602",
+        "39"
+      ],
+      "numeric_stats": {
+        "min": 2.0,
+        "max": 5553.0,
+        "mean": 540.0454545454545,
+        "std": 1232.9938584511908
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Charge-\nSheeting\nRate\n(Col.18/\nCol.19)\n*100",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 2,
+      "null_percentage": 9.09,
+      "unique_count": 14,
+      "sample_values": [
+        "23.0",
+        "83.9",
+        "94.8",
+        "87.9",
+        "100.0"
+      ],
+      "numeric_stats": {
+        "min": 23.0,
+        "max": 100.0,
+        "mean": 90.88,
+        "std": 17.406520254445486
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Pendency\nPercentage\n(Col.22/\nCol.6) *100",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 20,
+      "sample_values": [
+        "24.0",
+        "54.9",
+        "87.4",
+        "91.2",
+        "79.6"
+      ],
+      "numeric_stats": {
+        "min": 24.0,
+        "max": 100.0,
+        "mean": 64.04090909090908,
+        "std": 26.489632456975084
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

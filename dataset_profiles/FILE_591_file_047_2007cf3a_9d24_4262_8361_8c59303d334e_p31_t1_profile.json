@@ -1,0 +1,178 @@
+{
+  "file_id": "FILE_591",
+  "filename": "FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p31_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p31_t1.csv",
+  "file_size_bytes": 823,
+  "dataset_category": "GENERAL CRIME / IPC",
+  "data_grain": "unknown",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "2007",
+  "row_count": 19,
+  "column_count": 7,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [],
+  "numeric_columns": [],
+  "categorical_columns": [
+    "S.No.",
+    "CRIME HEAD",
+    "Quinquennial\nAverage",
+    "2017",
+    "Percentage Change in 2017",
+    "col_6",
+    "col_7"
+  ],
+  "geographic_columns": [],
+  "year_columns": [],
+  "column_details": [
+    {
+      "column_name": "S.No.",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 10,
+      "null_percentage": 52.63,
+      "unique_count": 9,
+      "sample_values": [
+        "49",
+        "50",
+        "51",
+        "52",
+        "53"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "CRIME HEAD",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 10,
+      "null_percentage": 52.63,
+      "unique_count": 9,
+      "sample_values": [
+        "Arson (Sec.435, 436 & 438 IPC)",
+        "Criminal Trespass (Sec.447 to 452 IPC)",
+        "Cruelty by Husband or his Relatives (Sec.498-A\nIPC)",
+        "Circulate False/ Fake News/ Rumours (Sec.505\nIPC/ Sec.505 r/w IT Act)",
+        "Criminal Intimidation (Sec.506 r/w IPC crimes)"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Quinquennial\nAverage",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 5,
+      "null_percentage": 26.32,
+      "unique_count": 11,
+      "sample_values": [
+        "647",
+        "(0.9)",
+        "-",
+        "1939",
+        "(2.6)"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "2017",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 1,
+      "null_percentage": 5.26,
+      "unique_count": 17,
+      "sample_values": [
+        "402",
+        "(0.5)",
+        "579",
+        "(0.7)",
+        "984"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Percentage Change in 2017",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 9,
+      "null_percentage": 47.37,
+      "unique_count": 7,
+      "sample_values": [
+        "2007",
+        "-38.4",
+        "@",
+        "-50.2",
+        "-99.0"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_6",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 9,
+      "null_percentage": 47.37,
+      "unique_count": 7,
+      "sample_values": [
+        "Q.A.",
+        "-37.9",
+        "@",
+        "-49.3",
+        "-95.4"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_7",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 9,
+      "null_percentage": 47.37,
+      "unique_count": 7,
+      "sample_values": [
+        "2016",
+        "-21.6",
+        "@",
+        "-21.7",
+        "-66.7"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "High missing values (39.8%)"
+}

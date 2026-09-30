@@ -1,0 +1,364 @@
+{
+  "file_id": "FILE_120",
+  "filename": "DATASET_GRAIN_REGISTRY.csv",
+  "relative_path": "DATASET_GRAIN_REGISTRY.csv",
+  "file_size_bytes": 27129,
+  "dataset_category": "GENERAL CRIME / IPC",
+  "data_grain": "state_year",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "1900-2099",
+  "row_count": 137,
+  "column_count": 15,
+  "duplicate_rows_count": 0,
+  "constant_columns": [
+    "reason_if_not_usable"
+  ],
+  "total_columns": [],
+  "numeric_columns": [
+    "year_start",
+    "year_end",
+    "row_count",
+    "usable_for_ml"
+  ],
+  "categorical_columns": [
+    "dataset_id",
+    "source_file",
+    "source_dataset",
+    "domain",
+    "source_grain",
+    "geographic_grain",
+    "temporal_grain",
+    "crime_grain",
+    "demographic_grain",
+    "geography_coverage",
+    "reason_if_not_usable"
+  ],
+  "geographic_columns": [],
+  "year_columns": [
+    "year_start",
+    "year_end"
+  ],
+  "column_details": [
+    {
+      "column_name": "dataset_id",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 137,
+      "sample_values": [
+        "FILE_001",
+        "FILE_002",
+        "FILE_003",
+        "FILE_004",
+        "FILE_005"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "source_file",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 137,
+      "sample_values": [
+        "01_District_wise_crimes_committed_IPC_2001_2012.csv",
+        "01_District_wise_crimes_committed_IPC_2013.csv",
+        "01_District_wise_crimes_committed_IPC_2014.csv",
+        "02_01_District_wise_crimes_committed_against_SC_2001_2012.csv",
+        "02_01_District_wise_crimes_committed_against_SC_2013.csv"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "source_dataset",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 137,
+      "sample_values": [
+        "FILE_001",
+        "FILE_002",
+        "FILE_003",
+        "FILE_004",
+        "FILE_005"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "domain",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 12,
+      "sample_values": [
+        "crime_general",
+        "crime_sc",
+        "crime_st",
+        "crime_children",
+        "police"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "source_grain",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 8,
+      "sample_values": [
+        "district_year_crime",
+        "state_year_crime_disposal",
+        "state_year_crime",
+        "state_year",
+        "unknown"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "geographic_grain",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 3,
+      "sample_values": [
+        "district",
+        "state",
+        "UNKNOWN"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "temporal_grain",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "Annual",
+        "Single-year / Aggregate"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "crime_grain",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 13,
+      "sample_values": [
+        "CRIME AGAINST WOMEN",
+        "CRIME AGAINST CHILDREN",
+        "ARRESTS / POLICE DISPOSAL",
+        "GENERAL CRIME / IPC",
+        "SPECIAL & LOCAL LAWS / SLL"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "demographic_grain",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "General Population",
+        "Gender/Age"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "year_start",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 16,
+      "null_percentage": 11.68,
+      "unique_count": 27,
+      "sample_values": [
+        "2001.0",
+        "2013.0",
+        "2014.0",
+        "1903.0",
+        "1926.0"
+      ],
+      "numeric_stats": {
+        "min": 1900.0,
+        "max": 2023.0,
+        "mean": 1984.5206611570247,
+        "std": 44.762726155726575
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "year_end",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 16,
+      "null_percentage": 11.68,
+      "unique_count": 26,
+      "sample_values": [
+        "2012.0",
+        "2013.0",
+        "2014.0",
+        "2092.0",
+        "2086.0"
+      ],
+      "numeric_stats": {
+        "min": 1988.0,
+        "max": 2099.0,
+        "mean": 2032.5206611570247,
+        "std": 33.8851243599985
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "geography_coverage",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 4,
+      "sample_values": [
+        "India / Multi-State",
+        "India (Includes Tamil Nadu)",
+        "UNKNOWN",
+        "Tamil Nadu"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "row_count",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 68,
+      "sample_values": [
+        "9017",
+        "823",
+        "838",
+        "9018",
+        "837"
+      ],
+      "numeric_stats": {
+        "min": 8.0,
+        "max": 40160.0,
+        "mean": 1471.5401459854015,
+        "std": 4023.6427616954406
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "usable_for_ml",
+      "data_type": "bool",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "True",
+        "False"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.7007299270072993,
+        "std": 0.45961882390625086
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "reason_if_not_usable",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 96,
+      "null_percentage": 70.07,
+      "unique_count": 1,
+      "sample_values": [
+        "Unstructured document or missing spatial key"
+      ],
+      "numeric_stats": null,
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

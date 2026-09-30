@@ -1,0 +1,280 @@
+{
+  "file_id": "FILE_619",
+  "filename": "FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p347_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p347_t1.csv",
+  "file_size_bytes": 1324,
+  "dataset_category": "COURT DISPOSAL",
+  "data_grain": "state_year_crime_disposal",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "India / Multi-State",
+  "detected_year": "2007",
+  "row_count": 21,
+  "column_count": 10,
+  "duplicate_rows_count": 0,
+  "constant_columns": [
+    "Cases\nWithdra\nwn From\nProsecuti\non",
+    "Cases\nCompou\nnded or\nCompro\nmised",
+    "Cases\nDisposed\noff by\nPlea\nBargainin\ng"
+  ],
+  "total_columns": [],
+  "numeric_columns": [
+    "Cases\nPending\nTrial\nfrom the\nPrevious\nYear",
+    "Cases\nSent for\nTrial\nduring\nthe year",
+    "Cases\nAbated\nby Court",
+    "Cases\nWithdra\nwn From\nProsecuti\non",
+    "Cases\nCompou\nnded or\nCompro\nmised",
+    "Cases\nDisposed\noff by\nPlea\nBargainin\ng",
+    "Cases\nQuashed",
+    "Cases\nDisposed\noff\nWithout\nTrial"
+  ],
+  "categorical_columns": [
+    "S. No.",
+    "Crime Head"
+  ],
+  "geographic_columns": [
+    "Cases\nWithdra\nwn From\nProsecuti\non",
+    "Cases\nDisposed\noff\nWithout\nTrial"
+  ],
+  "year_columns": [
+    "Cases\nPending\nTrial\nfrom the\nPrevious\nYear",
+    "Cases\nSent for\nTrial\nduring\nthe year"
+  ],
+  "column_details": [
+    {
+      "column_name": "S. No.",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 20,
+      "sample_values": [
+        "1A.8",
+        "1A.8.1",
+        "1A.8.2",
+        "1A.9",
+        "1A.10"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Crime Head",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 20,
+      "sample_values": [
+        "Rape",
+        "Rape of Women",
+        "Rape of Children",
+        "Attempt to Commit Rape",
+        "Riots"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nPending\nTrial\nfrom the\nPrevious\nYear",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 16,
+      "sample_values": [
+        "142",
+        "129",
+        "13",
+        "10",
+        "206"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 3862.0,
+        "mean": 582.3809523809524,
+        "std": 1166.340108038409
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nSent for\nTrial\nduring\nthe year",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 13,
+      "sample_values": [
+        "48",
+        "28",
+        "20",
+        "0",
+        "126"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1171.0,
+        "mean": 144.42857142857142,
+        "std": 345.210018891192
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nAbated\nby Court",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 3,
+      "sample_values": [
+        "0",
+        "4",
+        "6"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 6.0,
+        "mean": 0.7619047619047619,
+        "std": 1.9469145308606104
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nWithdra\nwn From\nProsecuti\non",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nCompou\nnded or\nCompro\nmised",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nDisposed\noff by\nPlea\nBargainin\ng",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nQuashed",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 4,
+      "sample_values": [
+        "0",
+        "3",
+        "2",
+        "18"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 18.0,
+        "mean": 2.3333333333333335,
+        "std": 5.332291564921533
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nDisposed\noff\nWithout\nTrial",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "0",
+        "3",
+        "2",
+        "6",
+        "24"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 24.0,
+        "mean": 3.0952380952380953,
+        "std": 7.133756106741818
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

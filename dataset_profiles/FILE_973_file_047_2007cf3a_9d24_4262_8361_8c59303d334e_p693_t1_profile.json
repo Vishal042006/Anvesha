@@ -1,0 +1,232 @@
+{
+  "file_id": "FILE_973",
+  "filename": "FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p693_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p693_t1.csv",
+  "file_size_bytes": 2030,
+  "dataset_category": "COURT DISPOSAL",
+  "data_grain": "unknown",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "India / Multi-State",
+  "detected_year": "2007",
+  "row_count": 34,
+  "column_count": 8,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [],
+  "numeric_columns": [
+    "Cases\nQuashed",
+    "Cases\nDisposed\noff Without\nTrial",
+    "Cases\nStayed or\nSent to\nRecord\nRoom",
+    "Cases\nConvicted",
+    "Cases\nDischarged",
+    "Cases\nAcquitted"
+  ],
+  "categorical_columns": [
+    "S. No.",
+    "Crime Head"
+  ],
+  "geographic_columns": [
+    "Cases\nDisposed\noff Without\nTrial"
+  ],
+  "year_columns": [],
+  "column_details": [
+    {
+      "column_name": "S. No.",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 34,
+      "sample_values": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "A."
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Crime Head",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 34,
+      "sample_values": [
+        "The Dowry Prohibition Act",
+        "The Immoral Traffic (Prevention) Act",
+        "The Protection of Women from Domestic\nViolence Act",
+        "The Indecent Representation of Women\n(Prohibition) Act",
+        "Crime Against Women \u2013 Related Acts"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nQuashed",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 4,
+      "sample_values": [
+        "1",
+        "0",
+        "5",
+        "3"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 5.0,
+        "mean": 0.6470588235294118,
+        "std": 1.3457532067227758
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nDisposed\noff Without\nTrial",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 9,
+      "sample_values": [
+        "1",
+        "0",
+        "2",
+        "9",
+        "3"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 64.0,
+        "mean": 5.235294117647059,
+        "std": 14.740294852380528
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nStayed or\nSent to\nRecord\nRoom",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 7,
+      "sample_values": [
+        "0",
+        "5",
+        "2",
+        "271",
+        "273"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 273.0,
+        "mean": 16.58823529411765,
+        "std": 64.82803249205891
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nConvicted",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 17,
+      "sample_values": [
+        "15",
+        "160",
+        "0",
+        "175",
+        "154"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 2243.0,
+        "mean": 215.76470588235293,
+        "std": 528.0026434061199
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nDischarged",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 11,
+      "sample_values": [
+        "3",
+        "13",
+        "0",
+        "16",
+        "1"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 47.0,
+        "mean": 6.852941176470588,
+        "std": 11.287247706341601
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nAcquitted",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 20,
+      "sample_values": [
+        "161",
+        "87",
+        "0",
+        "248",
+        "630"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 736.0,
+        "mean": 133.23529411764707,
+        "std": 207.02174659939084
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

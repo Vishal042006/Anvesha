@@ -1,0 +1,353 @@
+{
+  "file_id": "FILE_120",
+  "filename": "crime_dataset_india.csv",
+  "relative_path": "crime_dataset_india.csv",
+  "file_size_bytes": 4943559,
+  "dataset_category": "GENERAL CRIME / IPC",
+  "data_grain": "unknown",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "India / Multi-State",
+  "detected_year": "2020",
+  "row_count": 40160,
+  "column_count": 14,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [],
+  "numeric_columns": [
+    "Report Number",
+    "Crime Code",
+    "Victim Age",
+    "Police Deployed"
+  ],
+  "categorical_columns": [
+    "Date Reported",
+    "Date of Occurrence",
+    "Time of Occurrence",
+    "City",
+    "Crime Description",
+    "Victim Gender",
+    "Weapon Used",
+    "Crime Domain",
+    "Case Closed",
+    "Date Case Closed"
+  ],
+  "geographic_columns": [
+    "City"
+  ],
+  "year_columns": [
+    "Date Reported",
+    "Date of Occurrence",
+    "Date Case Closed"
+  ],
+  "column_details": [
+    {
+      "column_name": "Report Number",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 40160,
+      "sample_values": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 40160.0,
+        "mean": 20080.5,
+        "std": 11593.337741996478
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Date Reported",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 25546,
+      "sample_values": [
+        "02-01-2020 00:00",
+        "01-01-2020 19:00",
+        "02-01-2020 05:00",
+        "01-01-2020 05:00",
+        "01-01-2020 21:00"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Date of Occurrence",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 40160,
+      "sample_values": [
+        "01-01-2020 00:00",
+        "01-01-2020 01:00",
+        "01-01-2020 02:00",
+        "01-01-2020 03:00",
+        "01-01-2020 04:00"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Time of Occurrence",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 39886,
+      "sample_values": [
+        "01-01-2020 01:11",
+        "01-01-2020 06:26",
+        "01-01-2020 14:30",
+        "01-01-2020 14:46",
+        "01-01-2020 16:51"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "City",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 29,
+      "sample_values": [
+        "Ahmedabad",
+        "Chennai",
+        "Ludhiana",
+        "Pune",
+        "Delhi"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Crime Code",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 500,
+      "sample_values": [
+        "576",
+        "128",
+        "271",
+        "170",
+        "421"
+      ],
+      "numeric_stats": {
+        "min": 100.0,
+        "max": 599.0,
+        "mean": 349.36025896414344,
+        "std": 144.16920518761265
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "Crime Description",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 21,
+      "sample_values": [
+        "IDENTITY THEFT",
+        "HOMICIDE",
+        "KIDNAPPING",
+        "BURGLARY",
+        "VANDALISM"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Victim Age",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 70,
+      "sample_values": [
+        "16",
+        "37",
+        "48",
+        "49",
+        "30"
+      ],
+      "numeric_stats": {
+        "min": 10.0,
+        "max": 79.0,
+        "mean": 44.49125996015936,
+        "std": 20.22554965119239
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Victim Gender",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 3,
+      "sample_values": [
+        "M",
+        "F",
+        "X"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Weapon Used",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 5790,
+      "null_percentage": 14.42,
+      "unique_count": 6,
+      "sample_values": [
+        "Blunt Object",
+        "Poison",
+        "Firearm",
+        "Other",
+        "Knife"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Crime Domain",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 4,
+      "sample_values": [
+        "Violent Crime",
+        "Other Crime",
+        "Fire Accident",
+        "Traffic Fatality"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Police Deployed",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 19,
+      "sample_values": [
+        "13",
+        "9",
+        "15",
+        "1",
+        "18"
+      ],
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 19.0,
+        "mean": 10.00625,
+        "std": 5.46795110497
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Case Closed",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "No",
+        "Yes"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Date Case Closed",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 20098,
+      "null_percentage": 50.04,
+      "unique_count": 16011,
+      "sample_values": [
+        "29-04-2020 05:00",
+        "08-01-2020 21:00",
+        "30-03-2020 03:00",
+        "24-03-2020 16:00",
+        "01-02-2020 13:00"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

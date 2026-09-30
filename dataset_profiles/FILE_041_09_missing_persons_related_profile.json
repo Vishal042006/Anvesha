@@ -1,0 +1,591 @@
+{
+  "file_id": "FILE_041",
+  "filename": "09_missing_persons_related.csv",
+  "relative_path": "09_missing_persons_related.csv",
+  "file_size_bytes": 155309,
+  "dataset_category": "HUMAN TRAFFICKING / MISSING PERSONS",
+  "data_grain": "state_year",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "2017",
+  "row_count": 937,
+  "column_count": 24,
+  "duplicate_rows_count": 0,
+  "constant_columns": [
+    "metric_14",
+    "metric_15",
+    "metric_16",
+    "metric_17",
+    "metric_18",
+    "metric_19",
+    "metric_20"
+  ],
+  "total_columns": [],
+  "numeric_columns": [
+    "year",
+    "table_id",
+    "metric_1",
+    "metric_2",
+    "metric_3",
+    "metric_4",
+    "metric_5",
+    "metric_6",
+    "metric_7",
+    "metric_8",
+    "metric_9",
+    "metric_10",
+    "metric_11",
+    "metric_12",
+    "metric_13",
+    "metric_14",
+    "metric_15",
+    "metric_16",
+    "metric_17",
+    "metric_18",
+    "metric_19",
+    "metric_20"
+  ],
+  "categorical_columns": [
+    "table_title",
+    "row_label"
+  ],
+  "geographic_columns": [],
+  "year_columns": [
+    "year"
+  ],
+  "column_details": [
+    {
+      "column_name": "year",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 6,
+      "sample_values": [
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2022"
+      ],
+      "numeric_stats": {
+        "min": 2017.0,
+        "max": 2023.0,
+        "mean": 2020.4599786552828,
+        "std": 1.9878770403999038
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "table_id",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 3,
+      "sample_values": [
+        "11.1",
+        "11.2",
+        "11.3"
+      ],
+      "numeric_stats": {
+        "min": 11.1,
+        "max": 11.3,
+        "mean": 11.153148345784416,
+        "std": 0.05403793756716431
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "table_title",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 14,
+      "sample_values": [
+        "Missing Persons Reported And Traced For The Year 2017",
+        "Tracing of Missing Persons (Percentage Variation in 2017 Over 2016)",
+        "Missing Persons Reported And Traced For The Year 2018",
+        "Tracing of Missing Persons (Percentage Variation in 2018 Over 2017)",
+        "Missing and Traced Children (Below 18 years) (Districts) - 2019 Unrecovered/Untraced Missing No"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "row_label",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 70,
+      "sample_values": [
+        "Ariyalur",
+        "Chennai",
+        "Coimbatore",
+        "Coimbatore City",
+        "Cuddalore"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "metric_1",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 12,
+      "null_percentage": 1.28,
+      "unique_count": 291,
+      "sample_values": [
+        "20.0",
+        "1036.0",
+        "79.0",
+        "60.0",
+        "53.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 18652.0,
+        "mean": 270.72648648648646,
+        "std": 1317.3397903203795
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "metric_2",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 5,
+      "null_percentage": 0.53,
+      "unique_count": 368,
+      "sample_values": [
+        "14.0",
+        "582.0",
+        "51.0",
+        "43.0",
+        "39.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 31056.0,
+        "mean": 397.2038626609442,
+        "std": 1883.1152062433846
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "metric_3",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 13,
+      "null_percentage": 1.39,
+      "unique_count": 156,
+      "sample_values": [
+        "71.0",
+        "1343.0",
+        "162.0",
+        "84.0",
+        "133.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 49708.0,
+        "mean": 255.25854978354977,
+        "std": 2248.8120375428566
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "metric_4",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 12,
+      "null_percentage": 1.28,
+      "unique_count": 436,
+      "sample_values": [
+        "63.0",
+        "988.0",
+        "128.0",
+        "71.0",
+        "106.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 31377.0,
+        "mean": 404.2812972972973,
+        "std": 1673.8991350350366
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "metric_5",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 12,
+      "null_percentage": 1.28,
+      "unique_count": 483,
+      "sample_values": [
+        "14.0",
+        "259.0",
+        "21.0",
+        "17.0",
+        "10.0"
+      ],
+      "numeric_stats": {
+        "min": -42.7,
+        "max": 24815.0,
+        "mean": 159.6321081081081,
+        "std": 1080.0167636066658
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "metric_6",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 24,
+      "null_percentage": 2.56,
+      "unique_count": 605,
+      "sample_values": [
+        "12.0",
+        "188.0",
+        "20.0",
+        "15.0",
+        "10.0"
+      ],
+      "numeric_stats": {
+        "min": -51.6,
+        "max": 32936.0,
+        "mean": 294.70576451259586,
+        "std": 1601.5108961514024
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "metric_7",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 274,
+      "null_percentage": 29.24,
+      "unique_count": 115,
+      "sample_values": [
+        "39.0",
+        "555.0",
+        "45.0",
+        "66.0",
+        "61.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 23331.0,
+        "mean": 143.51885369532428,
+        "std": 1277.475904878173
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "metric_8",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 96,
+      "null_percentage": 10.25,
+      "unique_count": 544,
+      "sample_values": [
+        "34.0",
+        "481.0",
+        "43.0",
+        "60.0",
+        "52.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 17320.0,
+        "mean": 343.36111771700354,
+        "std": 1271.6990391273068
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "metric_9",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 100,
+      "null_percentage": 10.67,
+      "unique_count": 334,
+      "sample_values": [
+        "144.0",
+        "3193.0",
+        "307.0",
+        "227.0",
+        "264.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 11811.0,
+        "mean": 236.43966547192355,
+        "std": 841.6040606958784
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "metric_10",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 102,
+      "null_percentage": 10.89,
+      "unique_count": 373,
+      "sample_values": [
+        "123.0",
+        "2239.0",
+        "242.0",
+        "189.0",
+        "212.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 18298.0,
+        "mean": 312.6203592814371,
+        "std": 1244.887889289294
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "metric_11",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 203,
+      "null_percentage": 21.66,
+      "unique_count": 55,
+      "sample_values": [
+        "12.0",
+        "0.0",
+        "24.0",
+        "2.0",
+        "5419.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 14155.0,
+        "mean": 89.10217983651226,
+        "std": 897.2936247553671
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "metric_12",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 266,
+      "null_percentage": 28.39,
+      "unique_count": 397,
+      "sample_values": [
+        "13.0",
+        "61.0",
+        "1304.0",
+        "145.0",
+        "159.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 30112.0,
+        "mean": 412.0149031296572,
+        "std": 1693.0046829509895
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "metric_13",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 929,
+      "null_percentage": 99.15,
+      "unique_count": 2,
+      "sample_values": [
+        "14.0",
+        "26.0"
+      ],
+      "numeric_stats": {
+        "min": 14.0,
+        "max": 26.0,
+        "mean": 20.0,
+        "std": 6.4142698058981855
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "metric_14",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 937,
+      "null_percentage": 100.0,
+      "unique_count": 0,
+      "sample_values": [],
+      "numeric_stats": {},
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "metric_15",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 937,
+      "null_percentage": 100.0,
+      "unique_count": 0,
+      "sample_values": [],
+      "numeric_stats": {},
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "metric_16",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 937,
+      "null_percentage": 100.0,
+      "unique_count": 0,
+      "sample_values": [],
+      "numeric_stats": {},
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "metric_17",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 937,
+      "null_percentage": 100.0,
+      "unique_count": 0,
+      "sample_values": [],
+      "numeric_stats": {},
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "metric_18",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 937,
+      "null_percentage": 100.0,
+      "unique_count": 0,
+      "sample_values": [],
+      "numeric_stats": {},
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "metric_19",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 937,
+      "null_percentage": 100.0,
+      "unique_count": 0,
+      "sample_values": [],
+      "numeric_stats": {},
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "metric_20",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 937,
+      "null_percentage": 100.0,
+      "unique_count": 0,
+      "sample_values": [],
+      "numeric_stats": {},
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "High missing values (38.3%)"
+}

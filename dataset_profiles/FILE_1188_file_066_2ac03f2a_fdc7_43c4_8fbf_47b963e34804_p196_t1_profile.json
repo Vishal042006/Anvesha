@@ -1,0 +1,206 @@
+{
+  "file_id": "FILE_1188",
+  "filename": "FILE_066_2ac03f2a_fdc7_43c4_8fbf_47b963e34804_p196_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_066_2ac03f2a_fdc7_43c4_8fbf_47b963e34804_p196_t1.csv",
+  "file_size_bytes": 1687,
+  "dataset_category": "COURT DISPOSAL",
+  "data_grain": "state_year",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "UNKNOWN",
+  "row_count": 34,
+  "column_count": 7,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [],
+  "numeric_columns": [
+    "Cases in\nwhich\nTrials were\nCompleted\n(Col.15+\nCol.16+\nCol.17)",
+    "Cases\nDisposed\noff by\nCourts\n(Col.11+\nCol.18)",
+    "Cases\nPending\nTrial at\nEnd of the\nYear\n(Col.5 -\nCol.19)",
+    "Conviction\nRate\n(Col.15/\nCol.18)\n*100",
+    "Pendency\nPercentage\n(Col.20/\nCol.5) *100"
+  ],
+  "categorical_columns": [
+    "S. No",
+    "Crime Head"
+  ],
+  "geographic_columns": [],
+  "year_columns": [
+    "Cases\nPending\nTrial at\nEnd of the\nYear\n(Col.5 -\nCol.19)"
+  ],
+  "column_details": [
+    {
+      "column_name": "S. No",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 1,
+      "null_percentage": 2.94,
+      "unique_count": 32,
+      "sample_values": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Crime Head",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 26,
+      "sample_values": [
+        "2",
+        "Murder with Rape/Gang Rape",
+        "Dowry Deaths",
+        "Abetment to Suicide of Women",
+        "Miscarriage"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases in\nwhich\nTrials were\nCompleted\n(Col.15+\nCol.16+\nCol.17)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 18,
+      "sample_values": [
+        "18",
+        "0",
+        "58",
+        "86",
+        "1"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 2112.0,
+        "mean": 165.8235294117647,
+        "std": 390.52190956953035
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nDisposed\noff by\nCourts\n(Col.11+\nCol.18)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 19,
+      "sample_values": [
+        "19",
+        "0",
+        "60",
+        "91",
+        "1"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 2197.0,
+        "mean": 172.2058823529412,
+        "std": 406.4415258112086
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nPending\nTrial at\nEnd of the\nYear\n(Col.5 -\nCol.19)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 24,
+      "sample_values": [
+        "20",
+        "9",
+        "404",
+        "352",
+        "1"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 12677.0,
+        "mean": 985.9705882352941,
+        "std": 2357.1283310006065
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Conviction\nRate\n(Col.15/\nCol.18)\n*100",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 11,
+      "null_percentage": 32.35,
+      "unique_count": 15,
+      "sample_values": [
+        "21.0",
+        "15.5",
+        "25.6",
+        "100.0",
+        "9.4"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 100.0,
+        "mean": 16.51304347826087,
+        "std": 20.923003963620047
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Pendency\nPercentage\n(Col.20/\nCol.5) *100",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 6,
+      "null_percentage": 17.65,
+      "unique_count": 20,
+      "sample_values": [
+        "22.0",
+        "100.0",
+        "87.1",
+        "79.5",
+        "90.0"
+      ],
+      "numeric_stats": {
+        "min": 22.0,
+        "max": 100.0,
+        "mean": 85.33928571428571,
+        "std": 14.61798332561426
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

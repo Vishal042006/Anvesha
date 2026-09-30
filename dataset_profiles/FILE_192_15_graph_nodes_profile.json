@@ -1,0 +1,201 @@
+{
+  "file_id": "FILE_192",
+  "filename": "15_graph_nodes.csv",
+  "relative_path": "anvesha_training_data/00_raw/csv/15_graph_nodes.csv",
+  "file_size_bytes": 177944,
+  "dataset_category": "GENERAL CRIME / IPC",
+  "data_grain": "unknown",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "UNKNOWN",
+  "row_count": 1449,
+  "column_count": 8,
+  "duplicate_rows_count": 0,
+  "constant_columns": [
+    "source_page"
+  ],
+  "total_columns": [],
+  "numeric_columns": [
+    "source_page",
+    "confidence"
+  ],
+  "categorical_columns": [
+    "node_id",
+    "node_type",
+    "name",
+    "normalized_name",
+    "source",
+    "source_file"
+  ],
+  "geographic_columns": [],
+  "year_columns": [],
+  "column_details": [
+    {
+      "column_name": "node_id",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1449,
+      "sample_values": [
+        "NODE_STATE_TN",
+        "NODE_STATE_IN",
+        "NODE_DIST_34d4b88f",
+        "NODE_DIST_3c14de13",
+        "NODE_DIST_4d9d89ac"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "node_type",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "STATE",
+        "DISTRICT",
+        "CRIME_CATEGORY",
+        "LAW",
+        "DOCUMENT"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "name",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1449,
+      "sample_values": [
+        "Tamil Nadu",
+        "India",
+        "Adilabad",
+        "Anantapur",
+        "Chittoor"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "normalized_name",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1449,
+      "sample_values": [
+        "Tamil Nadu",
+        "India",
+        "Adilabad",
+        "Anantapur",
+        "Chittoor"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "source",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 7,
+      "sample_values": [
+        "SCRB / Government of Tamil Nadu",
+        "NCRB / Ministry of Home Affairs",
+        "Tamil Nadu SCRB / Revenue Dept",
+        "NCRB / SCRB Crime Taxonomy",
+        "Indian Penal Code / Special Laws"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "source_file",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 148,
+      "sample_values": [
+        "SYSTEM",
+        "geography_mapping.csv",
+        "01_District_wise_crimes_committed_IPC_2001_2012.csv",
+        "01_District_wise_crimes_committed_IPC_2014.csv",
+        "02_01_District_wise_crimes_committed_against_SC_2001_2012.csv"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "source_page",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 1449,
+      "null_percentage": 100.0,
+      "unique_count": 0,
+      "sample_values": [],
+      "numeric_stats": {},
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "confidence",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 4,
+      "sample_values": [
+        "1.0",
+        "0.85",
+        "0.95",
+        "0.6"
+      ],
+      "numeric_stats": {
+        "min": 0.6,
+        "max": 1.0,
+        "mean": 0.8534506556245686,
+        "std": 0.08756507730669395
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    }
+  ],
+  "notes": "Clean parse"
+}

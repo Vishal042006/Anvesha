@@ -1,0 +1,200 @@
+{
+  "file_id": "FILE_517",
+  "filename": "FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p24_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p24_t1.csv",
+  "file_size_bytes": 892,
+  "dataset_category": "GENERAL CRIME / IPC",
+  "data_grain": "unknown",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "2007",
+  "row_count": 18,
+  "column_count": 8,
+  "duplicate_rows_count": 3,
+  "constant_columns": [],
+  "total_columns": [],
+  "numeric_columns": [],
+  "categorical_columns": [
+    "S.No.",
+    "CRIME HEAD",
+    "2007",
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016"
+  ],
+  "geographic_columns": [],
+  "year_columns": [],
+  "column_details": [
+    {
+      "column_name": "S.No.",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 9,
+      "null_percentage": 50.0,
+      "unique_count": 9,
+      "sample_values": [
+        "49",
+        "50",
+        "51",
+        "52",
+        "53"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "CRIME HEAD",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 9,
+      "null_percentage": 50.0,
+      "unique_count": 9,
+      "sample_values": [
+        "Arson (Sec.435, 436 & 438 IPC)",
+        "Criminal Trespass (Sec.447 to 452 IPC)",
+        "Cruelty by Husband or his Relatives (Sec.498-A\nIPC)",
+        "Circulate False/ Fake News/ Rumours (Sec.505\nIPC/ Sec.505 r/w IT Act)",
+        "Criminal Intimidation (Sec.506 r/w IPC crimes)"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "2007",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 4,
+      "null_percentage": 22.22,
+      "unique_count": 11,
+      "sample_values": [
+        "653",
+        "(1.0)",
+        "-",
+        "1976",
+        "(3.0)"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "2012",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 4,
+      "null_percentage": 22.22,
+      "unique_count": 11,
+      "sample_values": [
+        "726",
+        "(1.0)",
+        "-",
+        "1965",
+        "(2.7)"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "2013",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 4,
+      "null_percentage": 22.22,
+      "unique_count": 11,
+      "sample_values": [
+        "645",
+        "(0.9)",
+        "-",
+        "2471",
+        "(3.3)"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "2014",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 4,
+      "null_percentage": 22.22,
+      "unique_count": 11,
+      "sample_values": [
+        "675",
+        "(0.9)",
+        "-",
+        "2103",
+        "(2.8)"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "2015",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 4,
+      "null_percentage": 22.22,
+      "unique_count": 11,
+      "sample_values": [
+        "677",
+        "(0.9)",
+        "-",
+        "1900",
+        "(2.5)"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "2016",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 4,
+      "null_percentage": 22.22,
+      "unique_count": 11,
+      "sample_values": [
+        "513",
+        "(0.7)",
+        "-",
+        "1256",
+        "(1.6)"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "High missing values (29.2%); 3 duplicate rows"
+}

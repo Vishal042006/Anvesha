@@ -1,0 +1,238 @@
+{
+  "file_id": "FILE_074",
+  "filename": "37_Home_guards_and_auxilliary_force.csv",
+  "relative_path": "37_Home_guards_and_auxilliary_force.csv",
+  "file_size_bytes": 13035,
+  "dataset_category": "GENERAL CRIME / IPC",
+  "data_grain": "state_year",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "2001-2010",
+  "row_count": 333,
+  "column_count": 8,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [],
+  "numeric_columns": [
+    "Year",
+    "HG_Lower_Subordinates_Actual_Strength",
+    "HG_Lower_Subordinates_Sanctioned_Strength",
+    "HG_Officers_Actual_Strength",
+    "HG_Officers_Sanctioned_Strength",
+    "HG_Upper_Subordinates_Actual_Strength",
+    "HG_Upper_Subordinates_Sanctioned_Strength"
+  ],
+  "categorical_columns": [
+    "Area_Name"
+  ],
+  "geographic_columns": [],
+  "year_columns": [
+    "Year"
+  ],
+  "column_details": [
+    {
+      "column_name": "Area_Name",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 35,
+      "sample_values": [
+        "Gujarat",
+        "Maharashtra",
+        "Andhra Pradesh",
+        "Karnataka",
+        "Punjab"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Year",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 10,
+      "sample_values": [
+        "2001",
+        "2002",
+        "2003",
+        "2004",
+        "2005"
+      ],
+      "numeric_stats": {
+        "min": 2001.0,
+        "max": 2010.0,
+        "mean": 2005.5915915915916,
+        "std": 2.867798185910196
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "HG_Lower_Subordinates_Actual_Strength",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 5,
+      "null_percentage": 1.5,
+      "unique_count": 250,
+      "sample_values": [
+        "39236.0",
+        "40098.0",
+        "39834.0",
+        "36740.0",
+        "39123.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 40214.0,
+        "mean": 4369.420731707317,
+        "std": 8235.538132763699
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "HG_Lower_Subordinates_Sanctioned_Strength",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 5,
+      "null_percentage": 1.5,
+      "unique_count": 166,
+      "sample_values": [
+        "45595.0",
+        "43630.0",
+        "43517.0",
+        "41965.0",
+        "40518.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 45595.0,
+        "mean": 5117.698170731707,
+        "std": 9302.814166819739
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "HG_Officers_Actual_Strength",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 17,
+      "null_percentage": 5.11,
+      "unique_count": 90,
+      "sample_values": [
+        "104.0",
+        "105.0",
+        "102.0",
+        "82.0",
+        "75.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 2717.0,
+        "mean": 95.23101265822785,
+        "std": 333.75537156881063
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "HG_Officers_Sanctioned_Strength",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 15,
+      "null_percentage": 4.5,
+      "unique_count": 81,
+      "sample_values": [
+        "155.0",
+        "150.0",
+        "153.0",
+        "817.0",
+        "145.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 3856.0,
+        "mean": 134.25786163522014,
+        "std": 466.76910461171076
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "HG_Upper_Subordinates_Actual_Strength",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 17,
+      "null_percentage": 5.11,
+      "unique_count": 162,
+      "sample_values": [
+        "1366.0",
+        "1350.0",
+        "1283.0",
+        "1199.0",
+        "1159.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 4325.0,
+        "mean": 241.5253164556962,
+        "std": 572.8571023165404
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "HG_Upper_Subordinates_Sanctioned_Strength",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 17,
+      "null_percentage": 5.11,
+      "unique_count": 115,
+      "sample_values": [
+        "1568.0",
+        "1500.0",
+        "1610.0",
+        "3717.0",
+        "1785.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 4552.0,
+        "mean": 317.61392405063293,
+        "std": 690.0736213282784
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

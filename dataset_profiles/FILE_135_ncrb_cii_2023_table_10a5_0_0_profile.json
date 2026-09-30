@@ -1,0 +1,617 @@
+{
+  "file_id": "FILE_135",
+  "filename": "NCRB_CII_2023_Table_10A.5_0_0.csv",
+  "relative_path": "NCRB_CII_2023_Table_10A.5_0_0.csv",
+  "file_size_bytes": 1815,
+  "dataset_category": "COURT DISPOSAL",
+  "data_grain": "state_year_crime_disposal",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "India / Multi-State",
+  "detected_year": "2023",
+  "row_count": 8,
+  "column_count": 22,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [
+    "Total Cases for Trial (Col.3 +Col.4) ( Col. 5 )"
+  ],
+  "numeric_columns": [
+    "Cases Pending Trial from the Previous Year ( Col. 3 )",
+    "Cases Sent for Trial during the year ( Col. 4 )",
+    "Total Cases for Trial (Col.3 +Col.4) ( Col. 5 )",
+    "Cases Abated by Court ( Col. 6 )",
+    "Cases Withdrawn from Prosecution ( Col. 7 )",
+    "Cases Compounded or Compromised ( Col. 8 )",
+    "Cases Disposed off by Plea Bargaining ( Col. 9 )",
+    "Cases Quashed ( Col. 10 )",
+    "Cases Disposed off without trial (Col.6+Col.7+Col.8+Col.9+Col.10) ( Col. 11 )",
+    "Cases Stayed or Sent to Record Room ( Col. 12 )",
+    "Cases Convicted Out of Cases from Previous Year ( Col. 13 )",
+    "Cases Convicted Out of Cases during the Year ( Col. 14 )",
+    "Cases Convicted (Col.13 +Col.14) ( Col. 15 )",
+    "Cases Discharged ( Col. 16 )",
+    "Cases Acquitted ( Col. 17 )",
+    "Cases in which Trials were Completed (Col.15+Col.16+Col.17) ( Col. 18 )",
+    "Cases Disposed off by Courts (Col.11+Col.18) ( Col. 19 )",
+    "Cases Pending Trial at End of the Year (Col.5-Col.19) ( Col. 20 )",
+    "Conviction Rate (Col.15/Col.18)*100 ( Col. 21 )",
+    "Pendency Percentage (Col.20/Col.5)*100 ( Col. 22 )"
+  ],
+  "categorical_columns": [
+    "Sl. No. ( Col. 1 )",
+    "Crime Head ( Col. 2 )"
+  ],
+  "geographic_columns": [
+    "Cases Withdrawn from Prosecution ( Col. 7 )",
+    "Cases Disposed off without trial (Col.6+Col.7+Col.8+Col.9+Col.10) ( Col. 11 )",
+    "Cases Convicted Out of Cases from Previous Year ( Col. 13 )",
+    "Cases Convicted Out of Cases during the Year ( Col. 14 )"
+  ],
+  "year_columns": [
+    "Cases Pending Trial from the Previous Year ( Col. 3 )",
+    "Cases Sent for Trial during the year ( Col. 4 )",
+    "Cases Convicted Out of Cases from Previous Year ( Col. 13 )",
+    "Cases Convicted Out of Cases during the Year ( Col. 14 )",
+    "Cases Pending Trial at End of the Year (Col.5-Col.19) ( Col. 20 )"
+  ],
+  "column_details": [
+    {
+      "column_name": "Sl. No. ( Col. 1 )",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 8,
+      "sample_values": [
+        "1",
+        "1.1",
+        "1.2",
+        "2",
+        "3"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Crime Head ( Col. 2 )",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 7,
+      "sample_values": [
+        "Offences against State",
+        "Sedition",
+        "Others",
+        "Imputation, assertions prejudicial to national integration",
+        "The Prevention of Damage to Public Property Act"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases Pending Trial from the Previous Year ( Col. 3 )",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 8,
+      "sample_values": [
+        "633",
+        "131",
+        "502",
+        "193",
+        "25729"
+      ],
+      "numeric_stats": {
+        "min": 131.0,
+        "max": 29924.0,
+        "mean": 7560.125,
+        "std": 12598.302566360733
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases Sent for Trial during the year ( Col. 4 )",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 8,
+      "sample_values": [
+        "37",
+        "10",
+        "27",
+        "32",
+        "3341"
+      ],
+      "numeric_stats": {
+        "min": 10.0,
+        "max": 4199.0,
+        "mean": 1054.375,
+        "std": 1711.2954105422177
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total Cases for Trial (Col.3 +Col.4) ( Col. 5 )",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 8,
+      "sample_values": [
+        "670",
+        "141",
+        "529",
+        "225",
+        "29070"
+      ],
+      "numeric_stats": {
+        "min": 141.0,
+        "max": 34123.0,
+        "mean": 8614.5,
+        "std": 14303.868987095764
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases Abated by Court ( Col. 6 )",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "0",
+        "20",
+        "130",
+        "1",
+        "151"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 151.0,
+        "mean": 37.75,
+        "std": 64.03291564277146
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases Withdrawn from Prosecution ( Col. 7 )",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "0",
+        "53",
+        "24",
+        "1",
+        "78"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 78.0,
+        "mean": 19.5,
+        "std": 30.303229436575144
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases Compounded or Compromised ( Col. 8 )",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "1",
+        "0",
+        "129",
+        "8",
+        "139"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 139.0,
+        "mean": 34.875,
+        "std": 61.29422601564639
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases Disposed off by Plea Bargaining ( Col. 9 )",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "0",
+        "37"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 37.0,
+        "mean": 9.25,
+        "std": 17.1276718457922
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases Quashed ( Col. 10 )",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "2",
+        "0",
+        "11",
+        "1",
+        "14"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 14.0,
+        "mean": 3.75,
+        "std": 5.522680508593631
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases Disposed off without trial (Col.6+Col.7+Col.8+Col.9+Col.10) ( Col. 11 )",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 7,
+      "sample_values": [
+        "3",
+        "1",
+        "2",
+        "0",
+        "250"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 419.0,
+        "mean": 105.125,
+        "std": 158.67436330872286
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases Stayed or Sent to Record Room ( Col. 12 )",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 4,
+      "sample_values": [
+        "0",
+        "12",
+        "4",
+        "16"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 16.0,
+        "mean": 4.0,
+        "std": 6.4142698058981855
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases Convicted Out of Cases from Previous Year ( Col. 13 )",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 6,
+      "sample_values": [
+        "0",
+        "1",
+        "587",
+        "25",
+        "5"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 618.0,
+        "mean": 154.5,
+        "std": 276.7624045484295
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases Convicted Out of Cases during the Year ( Col. 14 )",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "1",
+        "0",
+        "431",
+        "29",
+        "462"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 462.0,
+        "mean": 115.625,
+        "std": 204.62365280122012
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases Convicted (Col.13 +Col.14) ( Col. 15 )",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 6,
+      "sample_values": [
+        "1",
+        "0",
+        "1018",
+        "54",
+        "6"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1080.0,
+        "mean": 270.125,
+        "std": 481.3580305463165
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases Discharged ( Col. 16 )",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 4,
+      "sample_values": [
+        "1",
+        "0",
+        "132",
+        "135"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 135.0,
+        "mean": 33.875,
+        "std": 61.49666076881155
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases Acquitted ( Col. 17 )",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 7,
+      "sample_values": [
+        "22",
+        "12",
+        "10",
+        "4",
+        "907"
+      ],
+      "numeric_stats": {
+        "min": 4.0,
+        "max": 998.0,
+        "mean": 252.25,
+        "std": 433.2754814862513
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases in which Trials were Completed (Col.15+Col.16+Col.17) ( Col. 18 )",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 7,
+      "sample_values": [
+        "24",
+        "12",
+        "6",
+        "2057",
+        "116"
+      ],
+      "numeric_stats": {
+        "min": 6.0,
+        "max": 2213.0,
+        "mean": 556.25,
+        "std": 975.9802032535584
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases Disposed off by Courts (Col.11+Col.18) ( Col. 19 )",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 7,
+      "sample_values": [
+        "27",
+        "13",
+        "14",
+        "6",
+        "2307"
+      ],
+      "numeric_stats": {
+        "min": 6.0,
+        "max": 2632.0,
+        "mean": 661.375,
+        "std": 1123.1001656766225
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases Pending Trial at End of the Year (Col.5-Col.19) ( Col. 20 )",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 8,
+      "sample_values": [
+        "643",
+        "128",
+        "515",
+        "219",
+        "26763"
+      ],
+      "numeric_stats": {
+        "min": 128.0,
+        "max": 31491.0,
+        "mean": 7953.125,
+        "std": 13181.014522383537
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Conviction Rate (Col.15/Col.18)*100 ( Col. 21 )",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 8,
+      "sample_values": [
+        "4.2",
+        "0.0",
+        "8.3",
+        "16.7",
+        "49.5"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 60.0,
+        "mean": 29.262499999999996,
+        "std": 24.255540604158877
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Pendency Percentage (Col.20/Col.5)*100 ( Col. 22 )",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 8,
+      "sample_values": [
+        "96.0",
+        "90.8",
+        "97.4",
+        "97.3",
+        "92.1"
+      ],
+      "numeric_stats": {
+        "min": 90.8,
+        "max": 97.4,
+        "mean": 94.075,
+        "std": 2.518361145098706
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

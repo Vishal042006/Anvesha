@@ -1,0 +1,188 @@
+{
+  "file_id": "FILE_434",
+  "filename": "FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p171_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p171_t1.csv",
+  "file_size_bytes": 1443,
+  "dataset_category": "GENERAL CRIME / IPC",
+  "data_grain": "unknown",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "India / Multi-State",
+  "detected_year": "2007",
+  "row_count": 43,
+  "column_count": 6,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [
+    "Percentage\nContribution To\nState Total",
+    "Rate of Total\nCognizable Crimes"
+  ],
+  "numeric_columns": [
+    "S. No.",
+    "Incidence",
+    "Percentage\nContribution To\nState Total",
+    "Projected Female\nPopulation (in Lakhs)",
+    "Rate of Total\nCognizable Crimes"
+  ],
+  "categorical_columns": [
+    "Districts"
+  ],
+  "geographic_columns": [
+    "Districts",
+    "Percentage\nContribution To\nState Total"
+  ],
+  "year_columns": [],
+  "column_details": [
+    {
+      "column_name": "S. No.",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 1,
+      "null_percentage": 2.33,
+      "unique_count": 42,
+      "sample_values": [
+        "1.0",
+        "2.0",
+        "3.0",
+        "4.0",
+        "5.0"
+      ],
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 42.0,
+        "mean": 21.5,
+        "std": 12.267844146385297
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Districts",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 43,
+      "sample_values": [
+        "Ariyalur",
+        "Chennai",
+        "Coimbatore",
+        "Coimbatore City",
+        "Cuddalore"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Incidence",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 39,
+      "sample_values": [
+        "98",
+        "642",
+        "76",
+        "161",
+        "109"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 5444.0,
+        "mean": 253.2093023255814,
+        "std": 820.1270969486997
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "Percentage\nContribution To\nState Total",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 29,
+      "sample_values": [
+        "1.8",
+        "11.8",
+        "1.4",
+        "3.0",
+        "2.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 100.0,
+        "mean": 4.658139534883722,
+        "std": 15.0633619304169
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Projected Female\nPopulation (in Lakhs)",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 37,
+      "sample_values": [
+        "4.2",
+        "47.6",
+        "11.8",
+        "7.3",
+        "14.2"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 394.8,
+        "mean": 18.367441860465114,
+        "std": 59.26818274721482
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Rate of Total\nCognizable Crimes",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 37,
+      "sample_values": [
+        "23.6",
+        "13.5",
+        "8.3",
+        "10.5",
+        "11.4"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 44.8,
+        "mean": 13.372093023255811,
+        "std": 9.102676884704362
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

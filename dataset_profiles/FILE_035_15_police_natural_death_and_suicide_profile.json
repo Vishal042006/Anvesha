@@ -1,0 +1,259 @@
+{
+  "file_id": "FILE_035",
+  "filename": "15_Police_natural_death_and_suicide.csv",
+  "relative_path": "15_Police_natural_death_and_suicide.csv",
+  "file_size_bytes": 47367,
+  "dataset_category": "OTHER",
+  "data_grain": "state_year",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "2001-2002",
+  "row_count": 700,
+  "column_count": 9,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [
+    "Age_Total"
+  ],
+  "numeric_columns": [
+    "Year",
+    "Age_18_25_Yrs",
+    "Age_25_35_Yrs",
+    "Age_35_45_Yrs",
+    "Age_45_55_Yrs",
+    "Age_Above_55_Yrs",
+    "Age_Total"
+  ],
+  "categorical_columns": [
+    "Area_Name",
+    "Group_Name"
+  ],
+  "geographic_columns": [],
+  "year_columns": [
+    "Year"
+  ],
+  "column_details": [
+    {
+      "column_name": "Area_Name",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 35,
+      "sample_values": [
+        "Andaman & Nicobar Islands",
+        "Andhra Pradesh",
+        "Arunachal Pradesh",
+        "Assam",
+        "Bihar"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Year",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 10,
+      "sample_values": [
+        "2001",
+        "2002",
+        "2003",
+        "2004",
+        "2005"
+      ],
+      "numeric_stats": {
+        "min": 2001.0,
+        "max": 2010.0,
+        "mean": 2005.5,
+        "std": 2.874335153580267
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Group_Name",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "Natural Deaths of Policemen while in Service",
+        "Suicides by Police Personnel"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Age_18_25_Yrs",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 10,
+      "sample_values": [
+        "0",
+        "7",
+        "1",
+        "14",
+        "2"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 14.0,
+        "mean": 0.5671428571428572,
+        "std": 1.3906721163572497
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Age_25_35_Yrs",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 41,
+      "sample_values": [
+        "0",
+        "39",
+        "2",
+        "7",
+        "4"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 76.0,
+        "mean": 4.251428571428572,
+        "std": 8.19642168439179
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Age_35_45_Yrs",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 87,
+      "sample_values": [
+        "0",
+        "100",
+        "4",
+        "22",
+        "10"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 158.0,
+        "mean": 11.365714285714287,
+        "std": 22.049118569118416
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Age_45_55_Yrs",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 105,
+      "sample_values": [
+        "0",
+        "76",
+        "8",
+        "27",
+        "4"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 213.0,
+        "mean": 16.001428571428573,
+        "std": 32.47023504546328
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Age_Above_55_Yrs",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 48,
+      "sample_values": [
+        "1",
+        "11",
+        "0",
+        "3",
+        "13"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 131.0,
+        "mean": 4.701428571428571,
+        "std": 12.548880027509197
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Age_Total",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 153,
+      "sample_values": [
+        "1",
+        "233",
+        "2",
+        "17",
+        "69"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 456.0,
+        "mean": 36.887142857142855,
+        "std": 70.27790822024816
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

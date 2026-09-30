@@ -1,0 +1,236 @@
+{
+  "file_id": "FILE_701",
+  "filename": "FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p428_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p428_t1.csv",
+  "file_size_bytes": 1893,
+  "dataset_category": "GENERAL CRIME / IPC",
+  "data_grain": "unknown",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "2007",
+  "row_count": 15,
+  "column_count": 10,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [],
+  "numeric_columns": [],
+  "categorical_columns": [
+    "TABLE 12.3 (Concluded)",
+    "col_2",
+    "col_3",
+    "col_4",
+    "col_5",
+    "col_6",
+    "col_7",
+    "col_8",
+    "col_9",
+    "col_10"
+  ],
+  "geographic_columns": [],
+  "year_columns": [],
+  "column_details": [
+    {
+      "column_name": "TABLE 12.3 (Concluded)",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 1,
+      "null_percentage": 6.67,
+      "unique_count": 14,
+      "sample_values": [
+        "S.\nNo.",
+        "(1)",
+        "1",
+        "2",
+        "3"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_2",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 1,
+      "null_percentage": 6.67,
+      "unique_count": 14,
+      "sample_values": [
+        "Crime Head",
+        "(2)",
+        "Human Trafficking (Section 370 &\n370A IPC or 370 & 370 r/w other\nsection of IPC / SLL",
+        "Exploitation in Trafficked person\n(Section 370A IPC r/w other\nsection of IPC / SLL",
+        "Procuring inducing or taking a\nperson for the saking of\nprostitution Section 5ITP or 5(1)B,\n56(1)C r/w other section of IPC /\nSLL"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_3",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 1,
+      "null_percentage": 6.67,
+      "unique_count": 3,
+      "sample_values": [
+        "Cases\nEnded as\nMistake of\nFact or of\nLaw",
+        "(10)",
+        "0"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_4",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 1,
+      "null_percentage": 6.67,
+      "unique_count": 3,
+      "sample_values": [
+        "Cases in\nEnded as\nFinal\nReport as\nNon\nCognizable\nSubmitted\nDuring the\nYear",
+        "(11)",
+        "0"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_5",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 1,
+      "null_percentage": 6.67,
+      "unique_count": 4,
+      "sample_values": [
+        "Cases in\nWhich\nCharge-\nsheets\nwere\nSubmitted",
+        "(12)",
+        "3",
+        "0"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_6",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 1,
+      "null_percentage": 6.67,
+      "unique_count": 4,
+      "sample_values": [
+        "Cases in\nWhich\nCharge\nsheets\nwere not\nlaid but\nFinal\nReport as\nTrue\nsubmitted",
+        "(13)",
+        "4",
+        "0"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_7",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 1,
+      "null_percentage": 6.67,
+      "unique_count": 4,
+      "sample_values": [
+        "Total\nCases\nDisposed\nOff by\nPolice (Col.\n9+10+11\n+12+13)",
+        "(14)",
+        "7",
+        "0"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_8",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 1,
+      "null_percentage": 6.67,
+      "unique_count": 6,
+      "sample_values": [
+        "Cases\nPending\nInvesti-\ngation at\nthe End of\nthe Year\n(col. 8 -\ncol. 14)",
+        "(15)",
+        "31",
+        "0",
+        "1"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_9",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 1,
+      "null_percentage": 6.67,
+      "unique_count": 4,
+      "sample_values": [
+        "Charge-\nSheeting\nRate\n(Col.12/\n(Col.12+Co\nl.13) * 100",
+        "(16)",
+        "42.9",
+        "0.0"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_10",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 1,
+      "null_percentage": 6.67,
+      "unique_count": 6,
+      "sample_values": [
+        "Pendency\nPer\ncentage\n(Col.15/\n(Col.3+\nCol.4)) *\n100",
+        "(17)",
+        "81.6",
+        "0.0",
+        "100.0"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

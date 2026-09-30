@@ -1,0 +1,319 @@
+{
+  "file_id": "FILE_462",
+  "filename": "FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p197_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p197_t1.csv",
+  "file_size_bytes": 1871,
+  "dataset_category": "COURT DISPOSAL",
+  "data_grain": "state_year",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "2007",
+  "row_count": 22,
+  "column_count": 11,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [],
+  "numeric_columns": [
+    "S.\nNo.",
+    "Cases\nStayed or\nSent to\nRecord\nRoom",
+    "Cases\nConvicted",
+    "Cases\nDischarge\nd",
+    "Cases\nAcquitted",
+    "Cases in\nwhich\nTrials\nwere\nComplete\nd",
+    "Cases\nDisposed\noff by\nCourts",
+    "Cases\nPending\nTrial at\nEnd of\nthe Year",
+    "Convictio\nn Rate",
+    "Pendency\nPercenta\nge"
+  ],
+  "categorical_columns": [
+    "Crime Head"
+  ],
+  "geographic_columns": [],
+  "year_columns": [
+    "Cases\nPending\nTrial at\nEnd of\nthe Year"
+  ],
+  "column_details": [
+    {
+      "column_name": "S.\nNo.",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 1,
+      "null_percentage": 4.55,
+      "unique_count": 21,
+      "sample_values": [
+        "17.0",
+        "18.0",
+        "18.1",
+        "18.2",
+        "18.3"
+      ],
+      "numeric_stats": {
+        "min": 17.0,
+        "max": 24.0,
+        "mean": 20.185714285714283,
+        "std": 1.8572252728965637
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Crime Head",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 22,
+      "sample_values": [
+        "Dowry Prohibition Act",
+        "Immoral Traffic (Prevention) Act",
+        "Procuring, inducing Children for the\nsake of prostitution",
+        "Detaining a person in premises where\nprostitution is carried on",
+        "Prostitution in or in the vicinity of\npublic places"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nStayed or\nSent to\nRecord\nRoom",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "0",
+        "5",
+        "2",
+        "3",
+        "6"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 6.0,
+        "mean": 0.9545454545454546,
+        "std": 1.9390049664042277
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nConvicted",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 17,
+      "sample_values": [
+        "15",
+        "151",
+        "59",
+        "14",
+        "13"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 648.0,
+        "mean": 72.4090909090909,
+        "std": 150.15473260255143
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nDischarge\nd",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 6,
+      "sample_values": [
+        "3",
+        "12",
+        "0",
+        "1",
+        "16"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 140.0,
+        "mean": 8.409090909090908,
+        "std": 29.760406888714044
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nAcquitted",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 14,
+      "sample_values": [
+        "161",
+        "58",
+        "33",
+        "0",
+        "3"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 3379.0,
+        "mean": 261.6363636363636,
+        "std": 732.1034629883133
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases in\nwhich\nTrials\nwere\nComplete\nd",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 17,
+      "sample_values": [
+        "179",
+        "221",
+        "104",
+        "14",
+        "16"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 4167.0,
+        "mean": 342.45454545454544,
+        "std": 905.292729677493
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nDisposed\noff by\nCourts",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 17,
+      "sample_values": [
+        "180",
+        "222",
+        "105",
+        "14",
+        "16"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 4332.0,
+        "mean": 351.40909090909093,
+        "std": 939.2196689699841
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nPending\nTrial at\nEnd of\nthe Year",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 21,
+      "sample_values": [
+        "639",
+        "614",
+        "347",
+        "59",
+        "33"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 18642.0,
+        "mean": 1473.090909090909,
+        "std": 4045.9267689756102
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Convictio\nn Rate",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 16,
+      "sample_values": [
+        "8.4",
+        "68.3",
+        "56.7",
+        "100.0",
+        "81.3"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 100.0,
+        "mean": 31.936363636363637,
+        "std": 35.374547554966895
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Pendency\nPercenta\nge",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 18,
+      "sample_values": [
+        "78.0",
+        "73.4",
+        "76.8",
+        "80.8",
+        "67.3"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 100.0,
+        "mean": 77.16818181818181,
+        "std": 22.015954958331307
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

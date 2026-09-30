@@ -1,0 +1,309 @@
+{
+  "file_id": "FILE_139",
+  "filename": "tn_2023_muder_homicide_negligence.csv",
+  "relative_path": "tn_2023_muder_homicide_negligence.csv",
+  "file_size_bytes": 2530,
+  "dataset_category": "VIOLENT CRIME",
+  "data_grain": "unknown",
+  "source_organization": "Tamil Nadu SCRB",
+  "detected_state": "Tamil Nadu",
+  "detected_year": "2023",
+  "row_count": 51,
+  "column_count": 11,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [],
+  "numeric_columns": [
+    "Sl No",
+    "Murder - Incidence",
+    "Murder - Victims",
+    "Culpable homicide - Incidence",
+    "Culpable Homicide - Victims",
+    "Causing Death by Negligence - Incidence",
+    "Causing Death by Negligence - Victims",
+    "Causing Death by Negligence - Rate"
+  ],
+  "categorical_columns": [
+    "Districts/City",
+    "Murder - Rate",
+    "Culpable Homicides - Rate"
+  ],
+  "geographic_columns": [
+    "Districts/City"
+  ],
+  "year_columns": [],
+  "column_details": [
+    {
+      "column_name": "Sl No",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 1,
+      "null_percentage": 1.96,
+      "unique_count": 50,
+      "sample_values": [
+        "1.0",
+        "2.0",
+        "3.0",
+        "4.0",
+        "5.0"
+      ],
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 50.0,
+        "mean": 25.5,
+        "std": 14.577379737113251
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Districts/City",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 51,
+      "sample_values": [
+        "Ariyalur",
+        "Chennai",
+        "Coimbatore",
+        "Coimbatore City",
+        "Cuddalore"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Murder - Incidence",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 36,
+      "sample_values": [
+        "16",
+        "105",
+        "52",
+        "22",
+        "23"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1681.0,
+        "mean": 65.92156862745098,
+        "std": 231.56811897472025
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "Murder - Victims",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 36,
+      "sample_values": [
+        "16",
+        "106",
+        "52",
+        "23",
+        "53"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1742.0,
+        "mean": 68.31372549019608,
+        "std": 239.96962226049183
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Murder - Rate",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 24,
+      "sample_values": [
+        "2",
+        "1.7",
+        "1.9",
+        "1.4",
+        "2.7"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Culpable homicide - Incidence",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 14,
+      "sample_values": [
+        "1",
+        "11",
+        "7",
+        "2",
+        "3"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 157.0,
+        "mean": 6.1568627450980395,
+        "std": 21.788412102784918
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "Culpable Homicide - Victims",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 15,
+      "sample_values": [
+        "1",
+        "11",
+        "7",
+        "2",
+        "3"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 181.0,
+        "mean": 7.098039215686274,
+        "std": 25.201789541189953
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "Culpable Homicides - Rate",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 8,
+      "sample_values": [
+        "0.1",
+        "0.2",
+        "0.3",
+        "0.4",
+        "0"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "Causing Death by Negligence - Incidence",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 49,
+      "sample_values": [
+        "184",
+        "599",
+        "783",
+        "316",
+        "541"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 17882.0,
+        "mean": 701.2549019607843,
+        "std": 2462.72442504749
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "Causing Death by Negligence - Victims",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 46,
+      "sample_values": [
+        "191",
+        "606",
+        "811",
+        "323",
+        "580"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 18937.0,
+        "mean": 742.6274509803922,
+        "std": 2607.9060639584727
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Causing Death by Negligence - Rate",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 4,
+      "null_percentage": 7.84,
+      "unique_count": 43,
+      "sample_values": [
+        "22.9",
+        "9.9",
+        "30.5",
+        "28.2",
+        "19.5"
+      ],
+      "numeric_stats": {
+        "min": 7.8,
+        "max": 109.8,
+        "mean": 25.655319148936176,
+        "std": 15.246151453237637
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

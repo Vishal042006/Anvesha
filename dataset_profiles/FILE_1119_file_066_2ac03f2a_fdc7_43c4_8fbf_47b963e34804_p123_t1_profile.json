@@ -1,0 +1,287 @@
+{
+  "file_id": "FILE_1119",
+  "filename": "FILE_066_2ac03f2a_fdc7_43c4_8fbf_47b963e34804_p123_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_066_2ac03f2a_fdc7_43c4_8fbf_47b963e34804_p123_t1.csv",
+  "file_size_bytes": 1747,
+  "dataset_category": "CRIME AGAINST WOMEN",
+  "data_grain": "unknown",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "India / Multi-State",
+  "detected_year": "UNKNOWN",
+  "row_count": 44,
+  "column_count": 10,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [],
+  "numeric_columns": [
+    "S.\nNo",
+    "Murder\n(Sec. 302\nIPC)",
+    "Culpable\nHomicide not\namounting to\nMurder (Sec.\n304 IPC)",
+    "Dowry\nDeaths\n(Sec.\n304B IPC)",
+    "Infanticide\n(Sec. 315\nIPC)",
+    "Foeticide\n(Sec. 316\nIPC)",
+    "Attempt to\nCommit\nMurder\n(Sec. 307\nIPC)",
+    "Attempt to\ncommit\nCulpable\nHomicide\n(Sec. 308\nIPC)",
+    "Grievous\nHurt (Secs.\n325, 326,\n326A &\n326B IPC)"
+  ],
+  "categorical_columns": [
+    "State/UT"
+  ],
+  "geographic_columns": [
+    "State/UT"
+  ],
+  "year_columns": [],
+  "column_details": [
+    {
+      "column_name": "S.\nNo",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 1,
+      "null_percentage": 2.27,
+      "unique_count": 42,
+      "sample_values": [
+        "1.0",
+        "2.0",
+        "3.0",
+        "4.0",
+        "5.0"
+      ],
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 42.0,
+        "mean": 21.023255813953487,
+        "std": 12.517584530596151
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "State/UT",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 44,
+      "sample_values": [
+        "2",
+        "Ariyalur",
+        "Chennai",
+        "Coimbatore",
+        "Coimbatore City"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Murder\n(Sec. 302\nIPC)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 37,
+      "sample_values": [
+        "3",
+        "22",
+        "172",
+        "49",
+        "39"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1745.0,
+        "mean": 79.38636363636364,
+        "std": 258.652430511923
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Culpable\nHomicide not\namounting to\nMurder (Sec.\n304 IPC)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 10,
+      "sample_values": [
+        "4",
+        "1",
+        "11",
+        "0",
+        "3"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 68.0,
+        "mean": 3.1818181818181817,
+        "std": 10.408566970759136
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "Dowry\nDeaths\n(Sec.\n304B IPC)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 8,
+      "sample_values": [
+        "5",
+        "0",
+        "1",
+        "11",
+        "4"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 28.0,
+        "mean": 1.3863636363636365,
+        "std": 4.530085009166476
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Infanticide\n(Sec. 315\nIPC)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 4,
+      "sample_values": [
+        "6",
+        "0",
+        "1",
+        "2"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 6.0,
+        "mean": 0.22727272727272727,
+        "std": 0.961192001332172
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "Foeticide\n(Sec. 316\nIPC)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "7",
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 7.0,
+        "mean": 0.1590909090909091,
+        "std": 1.0552897060221729
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "Attempt to\nCommit\nMurder\n(Sec. 307\nIPC)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 39,
+      "sample_values": [
+        "8",
+        "27",
+        "321",
+        "29",
+        "22"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 2478.0,
+        "mean": 112.81818181818181,
+        "std": 369.34595068802446
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Attempt to\ncommit\nCulpable\nHomicide\n(Sec. 308\nIPC)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 4,
+      "sample_values": [
+        "9",
+        "0",
+        "1",
+        "4"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 9.0,
+        "mean": 0.38636363636363635,
+        "std": 1.4819206439367796
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "Grievous\nHurt (Secs.\n325, 326,\n326A &\n326B IPC)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 24,
+      "sample_values": [
+        "10",
+        "20",
+        "91",
+        "0",
+        "8"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 679.0,
+        "mean": 31.09090909090909,
+        "std": 102.59489496838006
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

@@ -1,0 +1,233 @@
+{
+  "file_id": "FILE_950",
+  "filename": "FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p672_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p672_t1.csv",
+  "file_size_bytes": 1606,
+  "dataset_category": "GENERAL CRIME / IPC",
+  "data_grain": "district_year",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "India / Multi-State",
+  "detected_year": "1909-2049",
+  "row_count": 43,
+  "column_count": 8,
+  "duplicate_rows_count": 0,
+  "constant_columns": [
+    "Cases Not\nInvestigated\nUnder 157_1_b\nCRPC",
+    "Cases Ended as\nFR Non\nCognizable"
+  ],
+  "total_columns": [],
+  "numeric_columns": [
+    "S.\nNo.",
+    "Cases Pending\nInvestigation\nfrom Previous\nYear",
+    "Cases Reported\nduring the year",
+    "Cases Not\nInvestigated\nUnder 157_1_b\nCRPC",
+    "Cases\nTransferred to\nother State or\nAgency",
+    "Cases\nWithdrawn by\nthe Govt\nduring\ninvestigation",
+    "Cases Ended as\nFR Non\nCognizable"
+  ],
+  "categorical_columns": [
+    "Districts"
+  ],
+  "geographic_columns": [
+    "Districts",
+    "Cases\nTransferred to\nother State or\nAgency"
+  ],
+  "year_columns": [
+    "Cases Pending\nInvestigation\nfrom Previous\nYear",
+    "Cases Reported\nduring the year"
+  ],
+  "column_details": [
+    {
+      "column_name": "S.\nNo.",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 1,
+      "null_percentage": 2.33,
+      "unique_count": 42,
+      "sample_values": [
+        "1.0",
+        "2.0",
+        "3.0",
+        "4.0",
+        "5.0"
+      ],
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 42.0,
+        "mean": 21.5,
+        "std": 12.267844146385297
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Districts",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 43,
+      "sample_values": [
+        "Ariyalur",
+        "Chennai",
+        "Coimbatore",
+        "Coimbatore City",
+        "Cuddalore"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases Pending\nInvestigation\nfrom Previous\nYear",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 42,
+      "sample_values": [
+        "114",
+        "16444",
+        "119",
+        "91",
+        "826"
+      ],
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 53105.0,
+        "mean": 2470.0,
+        "std": 8344.580890499848
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases Reported\nduring the year",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 43,
+      "sample_values": [
+        "2676",
+        "22378",
+        "4063",
+        "8675",
+        "7783"
+      ],
+      "numeric_stats": {
+        "min": 3.0,
+        "max": 242040.0,
+        "mean": 11257.67441860465,
+        "std": 36271.77460684228
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases Not\nInvestigated\nUnder 157_1_b\nCRPC",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nTransferred to\nother State or\nAgency",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 4,
+      "sample_values": [
+        "0",
+        "3",
+        "1",
+        "15"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 15.0,
+        "mean": 0.6976744186046512,
+        "std": 2.3149090666181604
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nWithdrawn by\nthe Govt\nduring\ninvestigation",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "0",
+        "258"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 258.0,
+        "mean": 12.0,
+        "std": 54.97531913764316
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases Ended as\nFR Non\nCognizable",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

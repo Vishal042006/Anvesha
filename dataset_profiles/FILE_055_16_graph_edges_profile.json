@@ -1,0 +1,232 @@
+{
+  "file_id": "FILE_055",
+  "filename": "16_graph_edges.csv",
+  "relative_path": "16_graph_edges.csv",
+  "file_size_bytes": 211293,
+  "dataset_category": "GENERAL CRIME / IPC",
+  "data_grain": "unknown",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "UNKNOWN",
+  "row_count": 1183,
+  "column_count": 10,
+  "duplicate_rows_count": 0,
+  "constant_columns": [
+    "source_page",
+    "source_table"
+  ],
+  "total_columns": [],
+  "numeric_columns": [
+    "source_page",
+    "source_table",
+    "confidence"
+  ],
+  "categorical_columns": [
+    "edge_id",
+    "source_node",
+    "relationship",
+    "target_node",
+    "source_file",
+    "evidence",
+    "relationship_type"
+  ],
+  "geographic_columns": [],
+  "year_columns": [],
+  "column_details": [
+    {
+      "column_name": "edge_id",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1183,
+      "sample_values": [
+        "EDGE_NODE_DIST_34d4b88f_LOCATED_IN_NODE_STATE_TN",
+        "EDGE_NODE_DIST_3c14de13_LOCATED_IN_NODE_STATE_TN",
+        "EDGE_NODE_DIST_4d9d89ac_LOCATED_IN_NODE_STATE_TN",
+        "EDGE_NODE_DIST_3ca01ef9_LOCATED_IN_NODE_STATE_TN",
+        "EDGE_NODE_DIST_0ac4e1e9_LOCATED_IN_NODE_STATE_TN"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "source_node",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1183,
+      "sample_values": [
+        "NODE_DIST_34d4b88f",
+        "NODE_DIST_3c14de13",
+        "NODE_DIST_4d9d89ac",
+        "NODE_DIST_3ca01ef9",
+        "NODE_DIST_0ac4e1e9"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "relationship",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "LOCATED_IN",
+        "GOVERNED_BY_LAW"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "target_node",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 14,
+      "sample_values": [
+        "NODE_STATE_TN",
+        "NODE_LAW_19fb7f94",
+        "NODE_LAW_de56f5d1",
+        "NODE_LAW_f26e5a09",
+        "NODE_LAW_2dd87427"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "source_file",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "geography_mapping.csv",
+        "01_District_wise_crimes_committed_IPC_2001_2012.csv",
+        "02_01_District_wise_crimes_committed_against_SC_2001_2012.csv",
+        "42_District_wise_crimes_committed_against_women_2014.csv",
+        "NCRB_CII_2023_Table_9A.2_0 (1).csv"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "source_page",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 1183,
+      "null_percentage": 100.0,
+      "unique_count": 0,
+      "sample_values": [],
+      "numeric_stats": {},
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "source_table",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 1183,
+      "null_percentage": 100.0,
+      "unique_count": 0,
+      "sample_values": [],
+      "numeric_stats": {},
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "evidence",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1183,
+      "sample_values": [
+        "District Adilabad is located in Tamil Nadu",
+        "District Anantapur is located in Tamil Nadu",
+        "District Chittoor is located in Tamil Nadu",
+        "District Cuddapah is located in Tamil Nadu",
+        "District East Godavari is located in Tamil Nadu"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "confidence",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "1.0",
+        "0.95"
+      ],
+      "numeric_stats": {
+        "min": 0.95,
+        "max": 1.0,
+        "mean": 0.9994505494505493,
+        "std": 0.005214750096042665
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "relationship_type",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "SPATIAL",
+        "LEGAL"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

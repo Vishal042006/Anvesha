@@ -1,0 +1,234 @@
+{
+  "file_id": "FILE_955",
+  "filename": "FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p677_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p677_t1.csv",
+  "file_size_bytes": 2043,
+  "dataset_category": "COURT DISPOSAL",
+  "data_grain": "state_year_crime_disposal",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "India / Multi-State",
+  "detected_year": "1905-2027",
+  "row_count": 41,
+  "column_count": 8,
+  "duplicate_rows_count": 0,
+  "constant_columns": [
+    "Cases\nDisposed\noff by Plea\nBargaining"
+  ],
+  "total_columns": [],
+  "numeric_columns": [
+    "Cases\nPending\nTrial from\nthe\nPrevious\nYear",
+    "Cases Sent\nfor Trial\nduring the\nyear",
+    "Cases\nAbated by\nCourt",
+    "Cases\nWithdrawn\nFrom\nProsecutio\nn",
+    "Cases\nCompound\ned or\nCompromis\ned",
+    "Cases\nDisposed\noff by Plea\nBargaining"
+  ],
+  "categorical_columns": [
+    "S. No.",
+    "Crime Head"
+  ],
+  "geographic_columns": [
+    "Cases\nWithdrawn\nFrom\nProsecutio\nn"
+  ],
+  "year_columns": [
+    "Cases\nPending\nTrial from\nthe\nPrevious\nYear",
+    "Cases Sent\nfor Trial\nduring the\nyear"
+  ],
+  "column_details": [
+    {
+      "column_name": "S. No.",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 41,
+      "sample_values": [
+        "23.6",
+        "23.7",
+        "23.8",
+        "23.9",
+        "23.10"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Crime Head",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 35,
+      "sample_values": [
+        "Agrarian",
+        "Students",
+        "Vigilants",
+        "Money Dispute",
+        "Water Dispute"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nPending\nTrial from\nthe\nPrevious\nYear",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 35,
+      "sample_values": [
+        "137",
+        "15",
+        "0",
+        "405",
+        "221"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 32922.0,
+        "mean": 3448.1951219512193,
+        "std": 6582.579240766922
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases Sent\nfor Trial\nduring the\nyear",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 35,
+      "sample_values": [
+        "55",
+        "10",
+        "0",
+        "70",
+        "18"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 9531.0,
+        "mean": 923.4146341463414,
+        "std": 1784.0139009493416
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nAbated by\nCourt",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 16,
+      "sample_values": [
+        "0",
+        "1",
+        "36",
+        "10",
+        "6"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 51.0,
+        "mean": 5.951219512195122,
+        "std": 11.460696356487672
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nWithdrawn\nFrom\nProsecutio\nn",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 18,
+      "sample_values": [
+        "0",
+        "22",
+        "6",
+        "14",
+        "57"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1078.0,
+        "mean": 98.21951219512195,
+        "std": 245.19568839960473
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nCompound\ned or\nCompromis\ned",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 18,
+      "sample_values": [
+        "0",
+        "7",
+        "10",
+        "36",
+        "601"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 601.0,
+        "mean": 36.5609756097561,
+        "std": 109.60498364136733
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nDisposed\noff by Plea\nBargaining",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

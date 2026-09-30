@@ -1,0 +1,234 @@
+{
+  "file_id": "FILE_954",
+  "filename": "FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p676_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p676_t1.csv",
+  "file_size_bytes": 1936,
+  "dataset_category": "COURT DISPOSAL",
+  "data_grain": "state_year_crime_disposal",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "India / Multi-State",
+  "detected_year": "2007",
+  "row_count": 38,
+  "column_count": 8,
+  "duplicate_rows_count": 0,
+  "constant_columns": [
+    "Cases\nDisposed\noff by Plea\nBargaining"
+  ],
+  "total_columns": [],
+  "numeric_columns": [
+    "Cases\nPending\nTrial from\nthe\nPrevious\nYear",
+    "Cases Sent\nfor Trial\nduring the\nyear",
+    "Cases\nAbated by\nCourt",
+    "Cases\nWithdrawn\nFrom\nProsecutio\nn",
+    "Cases\nCompound\ned or\nCompromis\ned",
+    "Cases\nDisposed\noff by Plea\nBargaining"
+  ],
+  "categorical_columns": [
+    "S. No.",
+    "Crime Head"
+  ],
+  "geographic_columns": [
+    "Cases\nWithdrawn\nFrom\nProsecutio\nn"
+  ],
+  "year_columns": [
+    "Cases\nPending\nTrial from\nthe\nPrevious\nYear",
+    "Cases Sent\nfor Trial\nduring the\nyear"
+  ],
+  "column_details": [
+    {
+      "column_name": "S. No.",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 38,
+      "sample_values": [
+        "12.2",
+        "12.2.1",
+        "12.2.2",
+        "12.2.3",
+        "12.2.4"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Crime Head",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 37,
+      "sample_values": [
+        "Sexual Harassment",
+        "at Work or Office Premises",
+        "In Public Transport System",
+        "In Shelter Homes for women and Children",
+        "Other Places"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nPending\nTrial from\nthe\nPrevious\nYear",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 27,
+      "sample_values": [
+        "227",
+        "52",
+        "0",
+        "175",
+        "107"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 161240.0,
+        "mean": 4699.3421052631575,
+        "std": 26120.201260840768
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases Sent\nfor Trial\nduring the\nyear",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 26,
+      "sample_values": [
+        "92",
+        "5",
+        "1",
+        "0",
+        "86"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 52476.0,
+        "mean": 1521.7631578947369,
+        "std": 8498.347917140609
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nAbated by\nCourt",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "1",
+        "0",
+        "3",
+        "2",
+        "284"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 284.0,
+        "mean": 7.7631578947368425,
+        "std": 46.02727405925477
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nWithdrawn\nFrom\nProsecutio\nn",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 7,
+      "sample_values": [
+        "0",
+        "6",
+        "3",
+        "1",
+        "674"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 674.0,
+        "mean": 19.63157894736842,
+        "std": 109.25754870392659
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nCompound\ned or\nCompromis\ned",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 8,
+      "sample_values": [
+        "0",
+        "1",
+        "9",
+        "6",
+        "3"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 762.0,
+        "mean": 21.263157894736842,
+        "std": 123.46367979124875
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nDisposed\noff by Plea\nBargaining",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

@@ -1,0 +1,201 @@
+{
+  "file_id": "FILE_072",
+  "filename": "35_Human_rights_violation_by_police.csv",
+  "relative_path": "35_Human_rights_violation_by_police.csv",
+  "file_size_bytes": 166423,
+  "dataset_category": "POLICE PERSONNEL / COMPLAINTS",
+  "data_grain": "state_year",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "2001-2003",
+  "row_count": 2267,
+  "column_count": 7,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [],
+  "numeric_columns": [
+    "Year",
+    "Cases_Registered_under_Human_Rights_Violations",
+    "Policemen_Chargesheeted",
+    "Policemen_Convicted"
+  ],
+  "categorical_columns": [
+    "Area_Name",
+    "Group_Name",
+    "Sub_Group_Name"
+  ],
+  "geographic_columns": [],
+  "year_columns": [
+    "Year"
+  ],
+  "column_details": [
+    {
+      "column_name": "Area_Name",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 31,
+      "sample_values": [
+        "Andhra Pradesh",
+        "Arunachal Pradesh",
+        "Assam",
+        "Bihar",
+        "Chandigarh"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Year",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 10,
+      "sample_values": [
+        "2001",
+        "2002",
+        "2003",
+        "2004",
+        "2005"
+      ],
+      "numeric_stats": {
+        "min": 2001.0,
+        "max": 2010.0,
+        "mean": 2005.4137626819586,
+        "std": 2.8011385439215783
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Group_Name",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 12,
+      "sample_values": [
+        "HR_Disappearance of Persons",
+        "HR_Illegal detention/arrests",
+        "HR_Fake encounter killings",
+        "HR_Violation against Terrorists/Extremists",
+        "HR_Extortion"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Sub_Group_Name",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 12,
+      "sample_values": [
+        "01. Disappearance of Persons",
+        "02. Illegal Detention/Arrests",
+        "03. Fake Encounter Killings",
+        "04. Violation Against Terrorists/Extremists",
+        "05. Extortion"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases_Registered_under_Human_Rights_Violations",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 2,
+      "null_percentage": 0.09,
+      "unique_count": 35,
+      "sample_values": [
+        "0.0",
+        "2.0",
+        "1.0",
+        "3.0",
+        "5.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 233.0,
+        "mean": 0.8962472406181016,
+        "std": 6.742048650782379
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Policemen_Chargesheeted",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 54,
+      "null_percentage": 2.38,
+      "unique_count": 22,
+      "sample_values": [
+        "0.0",
+        "2.0",
+        "1.0",
+        "3.0",
+        "5.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 67.0,
+        "mean": 0.3940352462720289,
+        "std": 2.6401409342048705
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Policemen_Convicted",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 104,
+      "null_percentage": 4.59,
+      "unique_count": 9,
+      "sample_values": [
+        "0.0",
+        "1.0",
+        "4.0",
+        "2.0",
+        "3.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 54.0,
+        "mean": 0.0758206195099399,
+        "std": 1.5300815639140248
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

@@ -1,0 +1,369 @@
+{
+  "file_id": "FILE_158",
+  "filename": "02_01_District_wise_crimes_committed_against_SC_2013.csv",
+  "relative_path": "anvesha_training_data/00_raw/csv/02_01_District_wise_crimes_committed_against_SC_2013.csv",
+  "file_size_bytes": 39311,
+  "dataset_category": "CRIME AGAINST WOMEN",
+  "data_grain": "district_year_crime",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "India / Multi-State",
+  "detected_year": "2013",
+  "row_count": 823,
+  "column_count": 13,
+  "duplicate_rows_count": 0,
+  "constant_columns": [
+    "Year"
+  ],
+  "total_columns": [],
+  "numeric_columns": [
+    "Year",
+    "Murder",
+    "Rape",
+    "Kidnapping and Abduction",
+    "Dacoity",
+    "Robbery",
+    "Arson",
+    "Hurt",
+    "Protection of Civil Rights (PCR) Act",
+    "Prevention of atrocities (POA) Act",
+    "Other Crimes Against SCs"
+  ],
+  "categorical_columns": [
+    "STATE/UT",
+    "DISTRICT"
+  ],
+  "geographic_columns": [
+    "STATE/UT",
+    "DISTRICT"
+  ],
+  "year_columns": [
+    "Year"
+  ],
+  "column_details": [
+    {
+      "column_name": "STATE/UT",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 35,
+      "sample_values": [
+        "Andhra Pradesh",
+        "Arunachal Pradesh",
+        "Assam",
+        "Bihar",
+        "Chhattisgarh"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "DISTRICT",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 770,
+      "sample_values": [
+        "ADILABAD",
+        "ANANTAPUR",
+        "CHITTOOR",
+        "CUDDAPAH",
+        "CYBERABAD"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Year",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "2013"
+      ],
+      "numeric_stats": {
+        "min": 2013.0,
+        "max": 2013.0,
+        "mean": 2013.0,
+        "std": 0.0
+      },
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Murder",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 24,
+      "sample_values": [
+        "2",
+        "3",
+        "0",
+        "4",
+        "1"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 222.0,
+        "mean": 1.6427703523693804,
+        "std": 9.353621576589976
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Rape",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 38,
+      "sample_values": [
+        "3",
+        "4",
+        "2",
+        "8",
+        "9"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 397.0,
+        "mean": 5.037667071688943,
+        "std": 24.653605874773778
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Kidnapping and Abduction",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 22,
+      "sample_values": [
+        "0",
+        "3",
+        "2",
+        "1",
+        "4"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 304.0,
+        "mean": 1.526123936816525,
+        "std": 11.407791140480052
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "Dacoity",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 7,
+      "sample_values": [
+        "0",
+        "3",
+        "2",
+        "1",
+        "9"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 26.0,
+        "mean": 0.10935601458080195,
+        "std": 1.0217572041789658
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Robbery",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 8,
+      "sample_values": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "16"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 22.0,
+        "mean": 0.15066828675577157,
+        "std": 1.0814275577133534
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Arson",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 13,
+      "sample_values": [
+        "0",
+        "1",
+        "5",
+        "2",
+        "3"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 51.0,
+        "mean": 0.45929526123936815,
+        "std": 2.6306231374993354
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Hurt",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 75,
+      "sample_values": [
+        "8",
+        "37",
+        "27",
+        "78",
+        "15"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 817.0,
+        "mean": 11.910085054678007,
+        "std": 55.12517657853904
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Protection of Civil Rights (PCR) Act",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 12,
+      "sample_values": [
+        "0",
+        "1",
+        "2",
+        "6",
+        "4"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 21.0,
+        "mean": 0.15066828675577157,
+        "std": 1.2278782822266454
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Prevention of atrocities (POA) Act",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 125,
+      "sample_values": [
+        "15",
+        "18",
+        "9",
+        "22",
+        "61"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 5584.0,
+        "mean": 33.96111786148238,
+        "std": 228.82802740539054
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Other Crimes Against SCs",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 131,
+      "sample_values": [
+        "42",
+        "56",
+        "55",
+        "72",
+        "58"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 5339.0,
+        "mean": 40.81895504252734,
+        "std": 253.926704619859
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

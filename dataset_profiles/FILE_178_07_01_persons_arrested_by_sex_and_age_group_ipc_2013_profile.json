@@ -1,0 +1,437 @@
+{
+  "file_id": "FILE_178",
+  "filename": "07_01_Persons_arrested_by_sex_and_age_group_IPC_2013.csv",
+  "relative_path": "anvesha_training_data/00_raw/csv/07_01_Persons_arrested_by_sex_and_age_group_IPC_2013.csv",
+  "file_size_bytes": 78622,
+  "dataset_category": "ARRESTS / POLICE DISPOSAL",
+  "data_grain": "state_year_crime",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "India (Includes Tamil Nadu)",
+  "detected_year": "2013-2042",
+  "row_count": 1140,
+  "column_count": 15,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [
+    "Male Total",
+    "Female Total",
+    "Grand Total"
+  ],
+  "numeric_columns": [
+    "Male Below 18 Years",
+    "Female Below 18 Years",
+    "Male Between 18-30 Years",
+    "Female Between 18-30 Years",
+    "Male Between 30-45 Years",
+    "Female Between 30-45 Years",
+    "Male Between 45-60 Years",
+    "Female Between 45-60 Years",
+    "Male Above 60 Years",
+    "Female Above 60 Years",
+    "Male Total",
+    "Female Total",
+    "Grand Total"
+  ],
+  "categorical_columns": [
+    "STATE/UT",
+    "CRIME HEAD"
+  ],
+  "geographic_columns": [
+    "STATE/UT"
+  ],
+  "year_columns": [
+    "Male Below 18 Years",
+    "Female Below 18 Years",
+    "Male Between 18-30 Years",
+    "Female Between 18-30 Years",
+    "Male Between 30-45 Years",
+    "Female Between 30-45 Years",
+    "Male Between 45-60 Years",
+    "Female Between 45-60 Years",
+    "Male Above 60 Years",
+    "Female Above 60 Years"
+  ],
+  "column_details": [
+    {
+      "column_name": "STATE/UT",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 38,
+      "sample_values": [
+        "Andhra Pradesh",
+        "Arunachal Pradesh",
+        "Assam",
+        "Bihar",
+        "Chhattisgarh"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "CRIME HEAD",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 30,
+      "sample_values": [
+        "Arson",
+        "Assault on Women wih intent to outrage her Modesty",
+        "Attempt to Commit Murder",
+        "Auto Theft",
+        "Burglary"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Male Below 18 Years",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 239,
+      "sample_values": [
+        "4",
+        "0",
+        "9",
+        "1",
+        "2"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 37309.0,
+        "mean": 225.17894736842106,
+        "std": 1667.1185025066816
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Female Below 18 Years",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 69,
+      "sample_values": [
+        "0",
+        "2",
+        "3",
+        "5",
+        "4"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1456.0,
+        "mean": 8.513157894736842,
+        "std": 67.44779662886836
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Male Between 18-30 Years",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 642,
+      "sample_values": [
+        "298",
+        "7",
+        "291",
+        "687",
+        "127"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1521241.0,
+        "mean": 8464.718421052632,
+        "std": 69768.86003992091
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Female Between 18-30 Years",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 240,
+      "sample_values": [
+        "11",
+        "0",
+        "7",
+        "4",
+        "1"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 75985.0,
+        "mean": 411.36578947368423,
+        "std": 3543.3897752884577
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Male Between 30-45 Years",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 601,
+      "sample_values": [
+        "359",
+        "10",
+        "421",
+        "487",
+        "92"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1192549.0,
+        "mean": 6530.886842105263,
+        "std": 55345.09522969989
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Female Between 30-45 Years",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 251,
+      "sample_values": [
+        "11",
+        "0",
+        "7",
+        "1",
+        "17"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 85954.0,
+        "mean": 464.12105263157895,
+        "std": 3980.6075459470376
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Male Between 45-60 Years",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 457,
+      "sample_values": [
+        "116",
+        "0",
+        "50",
+        "131",
+        "22"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 503038.0,
+        "mean": 2721.878947368421,
+        "std": 23669.32018419248
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Female Between 45-60 Years",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 193,
+      "sample_values": [
+        "4",
+        "0",
+        "1",
+        "6",
+        "2"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 44357.0,
+        "mean": 236.9157894736842,
+        "std": 2082.222771839711
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Male Above 60 Years",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 222,
+      "sample_values": [
+        "16",
+        "0",
+        "22",
+        "1",
+        "2"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 54988.0,
+        "mean": 293.9157894736842,
+        "std": 2588.171142857395
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Female Above 60 Years",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 101,
+      "sample_values": [
+        "1",
+        "0",
+        "4",
+        "34",
+        "2"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 6700.0,
+        "mean": 35.62105263157895,
+        "std": 323.5336424825572
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Male Total",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 719,
+      "sample_values": [
+        "793",
+        "17",
+        "771",
+        "1328",
+        "244"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 3309125.0,
+        "mean": 18236.57894736842,
+        "std": 152854.9299044628
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Female Total",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 328,
+      "sample_values": [
+        "27",
+        "0",
+        "14",
+        "8",
+        "1"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 214452.0,
+        "mean": 1156.536842105263,
+        "std": 9966.239497880175
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Grand Total",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 725,
+      "sample_values": [
+        "820",
+        "17",
+        "771",
+        "1342",
+        "252"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 3523577.0,
+        "mean": 19393.115789473683,
+        "std": 162632.28608084322
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

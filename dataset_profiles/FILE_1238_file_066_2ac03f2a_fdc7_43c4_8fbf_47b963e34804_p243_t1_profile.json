@@ -1,0 +1,185 @@
+{
+  "file_id": "FILE_1238",
+  "filename": "FILE_066_2ac03f2a_fdc7_43c4_8fbf_47b963e34804_p243_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_066_2ac03f2a_fdc7_43c4_8fbf_47b963e34804_p243_t1.csv",
+  "file_size_bytes": 1875,
+  "dataset_category": "GENERAL CRIME / IPC",
+  "data_grain": "unknown",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "India / Multi-State",
+  "detected_year": "UNKNOWN",
+  "row_count": 37,
+  "column_count": 7,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [],
+  "numeric_columns": [
+    "Cases\nTransferred to\nother State or\nAgency",
+    "Cases With-\ndrawn by\nthe Govt\nduring\ninvesti-\ngation"
+  ],
+  "categorical_columns": [
+    "S. No",
+    "Crime Head",
+    "Final Report",
+    "col_6",
+    "col_7"
+  ],
+  "geographic_columns": [
+    "Cases\nTransferred to\nother State or\nAgency"
+  ],
+  "year_columns": [],
+  "column_details": [
+    {
+      "column_name": "S. No",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 3,
+      "null_percentage": 8.11,
+      "unique_count": 34,
+      "sample_values": [
+        "1",
+        "18",
+        "18.1",
+        "18.1.1A",
+        "18.1.1B"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Crime Head",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 1,
+      "null_percentage": 2.7,
+      "unique_count": 26,
+      "sample_values": [
+        "2",
+        "Protection of Children from Sexual Offences Act,\n2012",
+        "Section 4 & 6 of POCSO Act or POCSO Act (\nSection 4 & 6) r/w Section 376 IPC",
+        "Girls",
+        "Boys"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nTransferred to\nother State or\nAgency",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 1,
+      "null_percentage": 2.7,
+      "unique_count": 9,
+      "sample_values": [
+        "8.0",
+        "10.0",
+        "7.0",
+        "0.0",
+        "3.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 17.0,
+        "mean": 2.0277777777777777,
+        "std": 4.129933317421628
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases With-\ndrawn by\nthe Govt\nduring\ninvesti-\ngation",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 1,
+      "null_percentage": 2.7,
+      "unique_count": 2,
+      "sample_values": [
+        "9.0",
+        "0.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 9.0,
+        "mean": 0.25,
+        "std": 1.5
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Final Report",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 3,
+      "sample_values": [
+        "Cases Ended\nas FR Non\nCognizable",
+        "10",
+        "0"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_6",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 4,
+      "sample_values": [
+        "Cases\nEnded as\nFinal\nReport\nFalse",
+        "11",
+        "0",
+        "24"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_7",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 11,
+      "sample_values": [
+        "Cases Ended\nas Mistake of\nFact or of\nLaw or Civil\nDispute",
+        "12",
+        "17",
+        "8",
+        "0"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

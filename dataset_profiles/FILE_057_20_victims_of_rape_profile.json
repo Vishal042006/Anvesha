@@ -1,0 +1,314 @@
+{
+  "file_id": "FILE_057",
+  "filename": "20_Victims_of_rape.csv",
+  "relative_path": "20_Victims_of_rape.csv",
+  "file_size_bytes": 62962,
+  "dataset_category": "CRIME AGAINST WOMEN",
+  "data_grain": "state_year",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "2001-2010",
+  "row_count": 1050,
+  "column_count": 11,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [
+    "Victims_of_Rape_Total"
+  ],
+  "numeric_columns": [
+    "Year",
+    "Rape_Cases_Reported",
+    "Victims_Above_50_Yrs",
+    "Victims_Between_10-14_Yrs",
+    "Victims_Between_14-18_Yrs",
+    "Victims_Between_18-30_Yrs",
+    "Victims_Between_30-50_Yrs",
+    "Victims_of_Rape_Total",
+    "Victims_Upto_10_Yrs"
+  ],
+  "categorical_columns": [
+    "Area_Name",
+    "Subgroup"
+  ],
+  "geographic_columns": [],
+  "year_columns": [
+    "Year"
+  ],
+  "column_details": [
+    {
+      "column_name": "Area_Name",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 35,
+      "sample_values": [
+        "Andaman & Nicobar Islands",
+        "Andhra Pradesh",
+        "Arunachal Pradesh",
+        "Assam",
+        "Bihar"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Year",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 10,
+      "sample_values": [
+        "2001",
+        "2002",
+        "2003",
+        "2004",
+        "2005"
+      ],
+      "numeric_stats": {
+        "min": 2001.0,
+        "max": 2010.0,
+        "mean": 2005.5,
+        "std": 2.8736500540225483
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Subgroup",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 3,
+      "sample_values": [
+        "Total Rape Victims",
+        "Victims of Incest Rape",
+        "Victims of Other Rape"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Rape_Cases_Reported",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 429,
+      "sample_values": [
+        "3",
+        "1",
+        "2",
+        "0",
+        "10"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 3135.0,
+        "mean": 361.92,
+        "std": 592.1805718091548
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Victims_Above_50_Yrs",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 25,
+      "sample_values": [
+        "0",
+        "14",
+        "8",
+        "7",
+        "6"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 43.0,
+        "mean": 1.8666666666666667,
+        "std": 4.640285868274479
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Victims_Between_10-14_Yrs",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 139,
+      "sample_values": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "138"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 416.0,
+        "mean": 23.65714285714286,
+        "std": 50.67741839709534
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Victims_Between_14-18_Yrs",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 200,
+      "sample_values": [
+        "3",
+        "1",
+        "2",
+        "0",
+        "7"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 826.0,
+        "mean": 53.08571428571429,
+        "std": 115.12789872791254
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Victims_Between_18-30_Yrs",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 364,
+      "sample_values": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "5"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1835.0,
+        "mean": 212.93714285714285,
+        "std": 350.1357599313116
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Victims_Between_30-50_Yrs",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 221,
+      "sample_values": [
+        "0",
+        "1",
+        "80",
+        "148",
+        "127"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 811.0,
+        "mean": 60.23619047619048,
+        "std": 118.32271322924967
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Victims_of_Rape_Total",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 434,
+      "sample_values": [
+        "3",
+        "1",
+        "2",
+        "0",
+        "10"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 3136.0,
+        "mean": 362.1980952380952,
+        "std": 592.4180891651251
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Victims_Upto_10_Yrs",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 86,
+      "sample_values": [
+        "0",
+        "1",
+        "2",
+        "57",
+        "35"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 131.0,
+        "mean": 10.415238095238095,
+        "std": 19.53313423082404
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

@@ -1,0 +1,280 @@
+{
+  "file_id": "FILE_1208",
+  "filename": "FILE_066_2ac03f2a_fdc7_43c4_8fbf_47b963e34804_p214_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_066_2ac03f2a_fdc7_43c4_8fbf_47b963e34804_p214_t1.csv",
+  "file_size_bytes": 1779,
+  "dataset_category": "CRIME AGAINST WOMEN",
+  "data_grain": "district_year",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "India / Multi-State",
+  "detected_year": "UNKNOWN",
+  "row_count": 44,
+  "column_count": 10,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [
+    "Rape (Total)\n(Sec.376\nIPC)\n(col.3+col.4+\ncol.10+col.2\n0 to col.26)"
+  ],
+  "numeric_columns": [
+    "S.\nNo.",
+    "Punishment\nfor causing\nDeath\n(Sec.376(A))",
+    "By Sepa-\nrated\nhusband\n(Sec.376 (B))",
+    "By Person in\nAuthority\n(Sec.376 (C))",
+    "Gang Rape\n(Sec.376(D))",
+    "Punishment\nfor Repeat\noffenders\n(Sec.376(E))",
+    "Rape of\nChild Below\n12 Yrs\nPunishment\nupto 20\nYears or\nExtended to\nLife or\nDeath\nPenalty 376",
+    "Rape/Gang\nRape of Girl\nBelow 12\nYrs\n(Imprisonm\nent for life\ntill death)\n376 DB",
+    "Rape (Total)\n(Sec.376\nIPC)\n(col.3+col.4+\ncol.10+col.2\n0 to col.26)"
+  ],
+  "categorical_columns": [
+    "Districts"
+  ],
+  "geographic_columns": [
+    "Districts",
+    "By Person in\nAuthority\n(Sec.376 (C))"
+  ],
+  "year_columns": [
+    "Rape of\nChild Below\n12 Yrs\nPunishment\nupto 20\nYears or\nExtended to\nLife or\nDeath\nPenalty 376"
+  ],
+  "column_details": [
+    {
+      "column_name": "S.\nNo.",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 1,
+      "null_percentage": 2.27,
+      "unique_count": 42,
+      "sample_values": [
+        "1.0",
+        "2.0",
+        "3.0",
+        "4.0",
+        "5.0"
+      ],
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 42.0,
+        "mean": 21.023255813953487,
+        "std": 12.517584530596151
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Districts",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 44,
+      "sample_values": [
+        "2",
+        "Ariyalur",
+        "Chennai",
+        "Coimbatore",
+        "Coimbatore City"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Punishment\nfor causing\nDeath\n(Sec.376(A))",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "20",
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 20.0,
+        "mean": 0.45454545454545453,
+        "std": 3.0151134457776405
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "By Sepa-\nrated\nhusband\n(Sec.376 (B))",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 3,
+      "sample_values": [
+        "21",
+        "0",
+        "1"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 21.0,
+        "mean": 0.5227272727272727,
+        "std": 3.165869118066516
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "By Person in\nAuthority\n(Sec.376 (C))",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "22",
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 22.0,
+        "mean": 0.5,
+        "std": 3.3166247903554
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Gang Rape\n(Sec.376(D))",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 3,
+      "sample_values": [
+        "23",
+        "0",
+        "1"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 23.0,
+        "mean": 0.5681818181818182,
+        "std": 3.46677067930914
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Punishment\nfor Repeat\noffenders\n(Sec.376(E))",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "24",
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 24.0,
+        "mean": 0.5454545454545454,
+        "std": 3.618136134933163
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Rape of\nChild Below\n12 Yrs\nPunishment\nupto 20\nYears or\nExtended to\nLife or\nDeath\nPenalty 376",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 3,
+      "sample_values": [
+        "25",
+        "0",
+        "7"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 25.0,
+        "mean": 0.8863636363636364,
+        "std": 4.001255088506373
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Rape/Gang\nRape of Girl\nBelow 12\nYrs\n(Imprisonm\nent for life\ntill death)\n376 DB",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 3,
+      "sample_values": [
+        "26",
+        "0",
+        "1"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 26.0,
+        "mean": 0.6363636363636364,
+        "std": 3.9182988067670457
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Rape (Total)\n(Sec.376\nIPC)\n(col.3+col.4+\ncol.10+col.2\n0 to col.26)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 22,
+      "sample_values": [
+        "27",
+        "14",
+        "42",
+        "6",
+        "1"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 362.0,
+        "mean": 17.068181818181817,
+        "std": 53.91353876099783
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

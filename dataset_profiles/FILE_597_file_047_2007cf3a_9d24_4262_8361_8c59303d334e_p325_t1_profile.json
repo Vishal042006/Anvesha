@@ -1,0 +1,240 @@
+{
+  "file_id": "FILE_597",
+  "filename": "FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p325_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p325_t1.csv",
+  "file_size_bytes": 1434,
+  "dataset_category": "GENERAL CRIME / IPC",
+  "data_grain": "unknown",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "2007",
+  "row_count": 43,
+  "column_count": 8,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [
+    "Education_\nTotal"
+  ],
+  "numeric_columns": [
+    "S. No.",
+    "Education_I\nlliterate",
+    "Education_\nUpto\nPrimary",
+    "Education_\nAbove\nPrimary to\nMatric",
+    "Education_\nAbove\nMatric to\nHigher\nSecondary",
+    "Education_\nAbove\nHigher\nSecondary",
+    "Education_\nTotal"
+  ],
+  "categorical_columns": [
+    "Districts"
+  ],
+  "geographic_columns": [
+    "Districts"
+  ],
+  "year_columns": [],
+  "column_details": [
+    {
+      "column_name": "S. No.",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 1,
+      "null_percentage": 2.33,
+      "unique_count": 42,
+      "sample_values": [
+        "1.0",
+        "2.0",
+        "3.0",
+        "4.0",
+        "5.0"
+      ],
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 42.0,
+        "mean": 21.5,
+        "std": 12.267844146385297
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Districts",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 43,
+      "sample_values": [
+        "Ariyalur",
+        "Chennai",
+        "Coimbatore",
+        "Coimbatore City",
+        "Cuddalore"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Education_I\nlliterate",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 12,
+      "sample_values": [
+        "1",
+        "7",
+        "0",
+        "2",
+        "9"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 123.0,
+        "mean": 5.72093023255814,
+        "std": 20.047949166454178
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Education_\nUpto\nPrimary",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 23,
+      "sample_values": [
+        "2",
+        "48",
+        "4",
+        "17",
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 601.0,
+        "mean": 27.953488372093023,
+        "std": 93.32150099020771
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Education_\nAbove\nPrimary to\nMatric",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 32,
+      "sample_values": [
+        "2",
+        "576",
+        "8",
+        "14",
+        "58"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1559.0,
+        "mean": 72.51162790697674,
+        "std": 248.51428742035884
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Education_\nAbove\nMatric to\nHigher\nSecondary",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 23,
+      "sample_values": [
+        "3",
+        "68",
+        "0",
+        "11",
+        "9"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 519.0,
+        "mean": 24.13953488372093,
+        "std": 79.49261163492126
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Education_\nAbove\nHigher\nSecondary",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 12,
+      "sample_values": [
+        "9",
+        "7",
+        "0",
+        "8",
+        "1"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 117.0,
+        "mean": 5.441860465116279,
+        "std": 18.41751537658468
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Education_\nTotal",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 38,
+      "sample_values": [
+        "17",
+        "706",
+        "12",
+        "50",
+        "58"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 2919.0,
+        "mean": 135.7674418604651,
+        "std": 449.83355848947076
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

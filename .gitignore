@@ -1,0 +1,22 @@
+.env
+.DS_Store
+__pycache__/
+*.pyc
+node_modules/
+.venv/
+venv/
+
+# Large/local research data
+data/
+*.csv
+*.parquet
+*.pdf
+*.zip
+
+# Local ML artifacts
+models/
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth

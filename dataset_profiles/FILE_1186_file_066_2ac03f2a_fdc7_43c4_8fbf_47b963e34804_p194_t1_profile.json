@@ -1,0 +1,201 @@
+{
+  "file_id": "FILE_1186",
+  "filename": "FILE_066_2ac03f2a_fdc7_43c4_8fbf_47b963e34804_p194_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_066_2ac03f2a_fdc7_43c4_8fbf_47b963e34804_p194_t1.csv",
+  "file_size_bytes": 1415,
+  "dataset_category": "COURT DISPOSAL",
+  "data_grain": "unknown",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "India / Multi-State",
+  "detected_year": "UNKNOWN",
+  "row_count": 34,
+  "column_count": 7,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [],
+  "numeric_columns": [
+    "Cases\nCompoun-\nded or\nCompro-\nmised",
+    "Cases\nDisposed\noff by Plea\nBargaining",
+    "Cases\nQuashed",
+    "Cases\nDisposed\noff\nWithout\nTrial\n(Col.6+Co\nl.7+Col.8+\nCol.9+Col\n.10)",
+    "Cases\nStayed or\nSent to\nRecord\nRoom"
+  ],
+  "categorical_columns": [
+    "S. No",
+    "Crime Head"
+  ],
+  "geographic_columns": [
+    "Cases\nDisposed\noff\nWithout\nTrial\n(Col.6+Co\nl.7+Col.8+\nCol.9+Col\n.10)"
+  ],
+  "year_columns": [],
+  "column_details": [
+    {
+      "column_name": "S. No",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 1,
+      "null_percentage": 2.94,
+      "unique_count": 32,
+      "sample_values": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Crime Head",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 26,
+      "sample_values": [
+        "2",
+        "Murder with Rape/Gang Rape",
+        "Dowry Deaths",
+        "Abetment to Suicide of Women",
+        "Miscarriage"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nCompoun-\nded or\nCompro-\nmised",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 9,
+      "sample_values": [
+        "8",
+        "0",
+        "7",
+        "5",
+        "1"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 23.0,
+        "mean": 2.176470588235294,
+        "std": 4.845932929132861
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nDisposed\noff by Plea\nBargaining",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "9",
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 9.0,
+        "mean": 0.2647058823529412,
+        "std": 1.5434872662825787
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nQuashed",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 7,
+      "sample_values": [
+        "10",
+        "0",
+        "1",
+        "2",
+        "32"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 47.0,
+        "mean": 3.4705882352941178,
+        "std": 9.65538095890968
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nDisposed\noff\nWithout\nTrial\n(Col.6+Co\nl.7+Col.8+\nCol.9+Col\n.10)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 11,
+      "sample_values": [
+        "11",
+        "0",
+        "2",
+        "5",
+        "41"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 85.0,
+        "mean": 6.676470588235294,
+        "std": 16.088242626282682
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nStayed or\nSent to\nRecord\nRoom",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 3,
+      "sample_values": [
+        "12",
+        "0",
+        "1"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 12.0,
+        "mean": 0.4411764705882353,
+        "std": 2.062525319889953
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

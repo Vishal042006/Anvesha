@@ -1,0 +1,289 @@
+{
+  "file_id": "FILE_499",
+  "filename": "FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p233_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p233_t1.csv",
+  "file_size_bytes": 2291,
+  "dataset_category": "GENERAL CRIME / IPC",
+  "data_grain": "state_year_crime",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "India / Multi-State",
+  "detected_year": "2007",
+  "row_count": 36,
+  "column_count": 10,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [
+    "Total Final\nReports\nSubmitted",
+    "Total Cases\nDisposed Off\nby Police"
+  ],
+  "numeric_columns": [
+    "Cases True but\nInsufficient\nEvidence or\nUntraced or\nNo Clue",
+    "Cases\nAbated\nduring\nInvestigati\non",
+    "Total Final\nReports\nSubmitted",
+    "Cases\nCharge-\nsheeted",
+    "Total Cases\nDisposed Off\nby Police",
+    "Cases\nQuashed at\nInvestigatio\nn Stage",
+    "Cases Stayed\nat\nInvestigation\nStage",
+    "Cases\nPending\nInvestigation\nat End of the\nYear"
+  ],
+  "categorical_columns": [
+    "S.\nNo.",
+    "CrimeHead"
+  ],
+  "geographic_columns": [
+    "Cases True but\nInsufficient\nEvidence or\nUntraced or\nNo Clue"
+  ],
+  "year_columns": [
+    "Cases\nPending\nInvestigation\nat End of the\nYear"
+  ],
+  "column_details": [
+    {
+      "column_name": "S.\nNo.",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 1,
+      "null_percentage": 2.78,
+      "unique_count": 29,
+      "sample_values": [
+        "19.1",
+        "19.1.1",
+        "19.2",
+        "19.2.1",
+        "19.3"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "CrimeHead",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 26,
+      "sample_values": [
+        "Section 4 & 6 of POCSO Act or POCSO Act (\nSection 4 & 6) r/w Section 376 IPC",
+        "GAirls",
+        "BBoys",
+        "Section 8 & 10 of POCSO Act or POCSO Act\n(Section 8 & 10) r/w Section 354 IPC",
+        "Section 12 of POCSO Act or POCSO Act\n(Section 12) r/w Section 509 IPC"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases True but\nInsufficient\nEvidence or\nUntraced or\nNo Clue",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 7,
+      "sample_values": [
+        "10",
+        "0",
+        "1",
+        "90",
+        "102"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 675.0,
+        "mean": 32.138888888888886,
+        "std": 116.68961338960666
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "Cases\nAbated\nduring\nInvestigati\non",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "1",
+        "0",
+        "2",
+        "18",
+        "68"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 68.0,
+        "mean": 2.5555555555555554,
+        "std": 11.613894251393013
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total Final\nReports\nSubmitted",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 12,
+      "sample_values": [
+        "18",
+        "0",
+        "4",
+        "3",
+        "2"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1441.0,
+        "mean": 61.583333333333336,
+        "std": 246.3361669403361
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nCharge-\nsheeted",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 20,
+      "sample_values": [
+        "1209",
+        "1198",
+        "11",
+        "297",
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 12544.0,
+        "mean": 574.7222222222222,
+        "std": 2142.0324475481707
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total Cases\nDisposed Off\nby Police",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 21,
+      "sample_values": [
+        "1230",
+        "1219",
+        "11",
+        "301",
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 14014.0,
+        "mean": 637.6944444444445,
+        "std": 2390.581529006153
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nQuashed at\nInvestigatio\nn Stage",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        "0",
+        "5"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 5.0,
+        "mean": 0.25,
+        "std": 0.8742343589025281
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases Stayed\nat\nInvestigation\nStage",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 4,
+      "sample_values": [
+        "1",
+        "0",
+        "2",
+        "8"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 8.0,
+        "mean": 0.4166666666666667,
+        "std": 1.4015297764534702
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nPending\nInvestigation\nat End of the\nYear",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 21,
+      "sample_values": [
+        "713",
+        "706",
+        "7",
+        "162",
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 7866.0,
+        "mean": 363.6111111111111,
+        "std": 1340.3229520802126
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

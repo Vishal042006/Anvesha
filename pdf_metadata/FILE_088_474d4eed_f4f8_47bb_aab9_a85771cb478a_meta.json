@@ -1,0 +1,944 @@
+{
+  "file_id": "FILE_088",
+  "filename": "474d4eed-f4f8-47bb-aab9-a85771cb478a.pdf",
+  "total_pages": 758,
+  "extracted_tables_count": 736,
+  "detected_year": "UNKNOWN",
+  "dataset_category": "COMPREHENSIVE CRIME REPORT / PDF",
+  "page_metadata": [
+    {
+      "page_number": 1,
+      "text_length": 141,
+      "detected_years": [
+        "2022"
+      ],
+      "has_tamil_nadu": true
+    },
+    {
+      "page_number": 2,
+      "text_length": 2,
+      "detected_years": [],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 3,
+      "text_length": 1135,
+      "detected_years": [
+        "2022"
+      ],
+      "has_tamil_nadu": true
+    },
+    {
+      "page_number": 4,
+      "text_length": 2,
+      "detected_years": [],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 5,
+      "text_length": 2,
+      "detected_years": [],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 6,
+      "text_length": 3,
+      "detected_years": [],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 7,
+      "text_length": 4,
+      "detected_years": [],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 8,
+      "text_length": 5,
+      "detected_years": [],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 9,
+      "text_length": 3,
+      "detected_years": [],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 10,
+      "text_length": 2,
+      "detected_years": [],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 11,
+      "text_length": 3,
+      "detected_years": [],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 12,
+      "text_length": 0,
+      "detected_years": [],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 13,
+      "text_length": 107,
+      "detected_years": [],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 14,
+      "text_length": 2,
+      "detected_years": [],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 15,
+      "text_length": 2828,
+      "detected_years": [
+        "1916",
+        "1945",
+        "2022",
+        "1944",
+        "1941",
+        "1962",
+        "2028",
+        "1956",
+        "1934"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 16,
+      "text_length": 2402,
+      "detected_years": [
+        "2004",
+        "1900",
+        "2071",
+        "1991",
+        "2074",
+        "2095",
+        "1923"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 17,
+      "text_length": 1025,
+      "detected_years": [
+        "1932",
+        "2040",
+        "2035",
+        "2013",
+        "2087",
+        "2018",
+        "1939",
+        "2015",
+        "2022",
+        "2014",
+        "2017",
+        "2021",
+        "2016",
+        "2020",
+        "2019"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 18,
+      "text_length": 2702,
+      "detected_years": [
+        "2021",
+        "2022",
+        "2020"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 19,
+      "text_length": 2426,
+      "detected_years": [
+        "2021",
+        "2022",
+        "2020"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 20,
+      "text_length": 1999,
+      "detected_years": [
+        "2022",
+        "2023",
+        "2017",
+        "2021",
+        "2020"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 21,
+      "text_length": 2414,
+      "detected_years": [
+        "1939",
+        "2022",
+        "2074",
+        "2021",
+        "2020"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 22,
+      "text_length": 2448,
+      "detected_years": [
+        "2021",
+        "2022",
+        "2020"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 23,
+      "text_length": 2405,
+      "detected_years": [
+        "2022",
+        "2084",
+        "2021",
+        "1909",
+        "2020"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 24,
+      "text_length": 1601,
+      "detected_years": [
+        "2021",
+        "2022",
+        "2020"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 25,
+      "text_length": 2561,
+      "detected_years": [
+        "1969",
+        "1939",
+        "1905",
+        "2050",
+        "2022",
+        "1950",
+        "2021",
+        "2041",
+        "1978",
+        "2020"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 26,
+      "text_length": 2545,
+      "detected_years": [
+        "2079",
+        "2022",
+        "1953",
+        "2021",
+        "1990",
+        "2020"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 27,
+      "text_length": 2676,
+      "detected_years": [
+        "1940",
+        "2013",
+        "2090",
+        "1992",
+        "2022",
+        "2021",
+        "2051",
+        "2020",
+        "1934"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 28,
+      "text_length": 2686,
+      "detected_years": [
+        "2022"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 29,
+      "text_length": 2847,
+      "detected_years": [
+        "2022"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 30,
+      "text_length": 2220,
+      "detected_years": [
+        "2022"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 31,
+      "text_length": 2234,
+      "detected_years": [
+        "2022"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 32,
+      "text_length": 2314,
+      "detected_years": [
+        "2022"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 33,
+      "text_length": 2842,
+      "detected_years": [
+        "2040",
+        "2043",
+        "2022",
+        "2059",
+        "2037",
+        "2034"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 34,
+      "text_length": 2857,
+      "detected_years": [
+        "2022"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 35,
+      "text_length": 2454,
+      "detected_years": [
+        "2022"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 36,
+      "text_length": 2316,
+      "detected_years": [
+        "2022"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 37,
+      "text_length": 2315,
+      "detected_years": [
+        "2022"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 38,
+      "text_length": 2506,
+      "detected_years": [
+        "2022"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 39,
+      "text_length": 2427,
+      "detected_years": [
+        "2022"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 40,
+      "text_length": 2252,
+      "detected_years": [
+        "2022"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 41,
+      "text_length": 2263,
+      "detected_years": [
+        "2022"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 42,
+      "text_length": 2469,
+      "detected_years": [
+        "2022"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 43,
+      "text_length": 2361,
+      "detected_years": [
+        "2022"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 44,
+      "text_length": 2281,
+      "detected_years": [
+        "2022"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 45,
+      "text_length": 2243,
+      "detected_years": [
+        "2022"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 46,
+      "text_length": 2225,
+      "detected_years": [
+        "2022"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 47,
+      "text_length": 2981,
+      "detected_years": [
+        "1916",
+        "2043",
+        "1999",
+        "2090",
+        "1992",
+        "2022",
+        "1980"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 48,
+      "text_length": 2184,
+      "detected_years": [
+        "2022"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 49,
+      "text_length": 2881,
+      "detected_years": [
+        "2022"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 50,
+      "text_length": 2137,
+      "detected_years": [
+        "2022"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 51,
+      "text_length": 2132,
+      "detected_years": [
+        "2022"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 52,
+      "text_length": 2214,
+      "detected_years": [
+        "2022"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 53,
+      "text_length": 2197,
+      "detected_years": [
+        "2022"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 54,
+      "text_length": 2289,
+      "detected_years": [
+        "2022"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 55,
+      "text_length": 2302,
+      "detected_years": [
+        "2022"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 56,
+      "text_length": 2759,
+      "detected_years": [
+        "2022"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 57,
+      "text_length": 2625,
+      "detected_years": [
+        "2022"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 58,
+      "text_length": 2490,
+      "detected_years": [
+        "2022"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 59,
+      "text_length": 2226,
+      "detected_years": [
+        "2022"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 60,
+      "text_length": 2220,
+      "detected_years": [
+        "2022"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 61,
+      "text_length": 2465,
+      "detected_years": [
+        "2022"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 62,
+      "text_length": 2300,
+      "detected_years": [
+        "2022"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 63,
+      "text_length": 2451,
+      "detected_years": [
+        "2022"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 64,
+      "text_length": 2276,
+      "detected_years": [
+        "2022"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 65,
+      "text_length": 2299,
+      "detected_years": [
+        "2022"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 66,
+      "text_length": 2445,
+      "detected_years": [
+        "2022"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 67,
+      "text_length": 2301,
+      "detected_years": [
+        "2022"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 68,
+      "text_length": 2983,
+      "detected_years": [
+        "2022",
+        "1920",
+        "1922",
+        "2092"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 69,
+      "text_length": 2503,
+      "detected_years": [
+        "1989",
+        "2022"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 70,
+      "text_length": 2288,
+      "detected_years": [
+        "2022"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 71,
+      "text_length": 2254,
+      "detected_years": [
+        "2022"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 72,
+      "text_length": 2400,
+      "detected_years": [
+        "2022"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 73,
+      "text_length": 3463,
+      "detected_years": [
+        "1907",
+        "1955",
+        "1969",
+        "1938",
+        "1939",
+        "2022",
+        "2098",
+        "1977",
+        "2069",
+        "2044",
+        "1987",
+        "1978",
+        "1974"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 74,
+      "text_length": 2263,
+      "detected_years": [
+        "1956",
+        "2022",
+        "2005",
+        "1961"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 75,
+      "text_length": 2449,
+      "detected_years": [
+        "2022",
+        "2012"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 76,
+      "text_length": 2254,
+      "detected_years": [
+        "2015",
+        "1994",
+        "2022",
+        "2006",
+        "2000"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 77,
+      "text_length": 2347,
+      "detected_years": [
+        "1971",
+        "2022",
+        "1986"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 78,
+      "text_length": 2259,
+      "detected_years": [
+        "1989",
+        "2022",
+        "1955"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 79,
+      "text_length": 2322,
+      "detected_years": [
+        "1984",
+        "2022",
+        "1955"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 80,
+      "text_length": 1842,
+      "detected_years": [
+        "2022",
+        "1923",
+        "1967"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 81,
+      "text_length": 2290,
+      "detected_years": [
+        "2022",
+        "1959"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 82,
+      "text_length": 2262,
+      "detected_years": [
+        "1908",
+        "1984",
+        "2022",
+        "1959"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 83,
+      "text_length": 2828,
+      "detected_years": [
+        "2000",
+        "1957",
+        "2022",
+        "1999"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 84,
+      "text_length": 2742,
+      "detected_years": [
+        "1988",
+        "2022",
+        "1982",
+        "1957",
+        "1998",
+        "2016"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 85,
+      "text_length": 2578,
+      "detected_years": [
+        "1988",
+        "2022",
+        "2072",
+        "1944",
+        "2089",
+        "1998",
+        "1934"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 86,
+      "text_length": 2812,
+      "detected_years": [
+        "1925",
+        "2022",
+        "1985"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 87,
+      "text_length": 2296,
+      "detected_years": [
+        "1986",
+        "2022",
+        "1980",
+        "1972",
+        "1927",
+        "1974"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 88,
+      "text_length": 2558,
+      "detected_years": [
+        "2010",
+        "2022",
+        "2003"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 89,
+      "text_length": 2578,
+      "detected_years": [
+        "1939",
+        "1983",
+        "2022",
+        "1967",
+        "1946",
+        "1955"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 90,
+      "text_length": 2245,
+      "detected_years": [
+        "1966",
+        "1989",
+        "1988",
+        "2022"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 91,
+      "text_length": 2226,
+      "detected_years": [
+        "1950",
+        "1952",
+        "2022",
+        "1955"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 92,
+      "text_length": 2250,
+      "detected_years": [
+        "2006",
+        "2022",
+        "1954",
+        "1955"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 93,
+      "text_length": 2603,
+      "detected_years": [
+        "1972",
+        "1951",
+        "2022",
+        "2003"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 94,
+      "text_length": 2702,
+      "detected_years": [
+        "2022",
+        "1976"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 95,
+      "text_length": 2387,
+      "detected_years": [
+        "1971",
+        "2022",
+        "1994",
+        "2019"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 96,
+      "text_length": 1905,
+      "detected_years": [
+        "1987",
+        "2022"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 97,
+      "text_length": 3243,
+      "detected_years": [
+        "1953",
+        "2022",
+        "1990"
+      ],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 98,
+      "text_length": 3,
+      "detected_years": [],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 99,
+      "text_length": 78,
+      "detected_years": [],
+      "has_tamil_nadu": false
+    },
+    {
+      "page_number": 100,
+      "text_length": 3,
+      "detected_years": [],
+      "has_tamil_nadu": false
+    }
+  ]
+}

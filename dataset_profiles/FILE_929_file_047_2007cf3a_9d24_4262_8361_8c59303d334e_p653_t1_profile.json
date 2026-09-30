@@ -1,0 +1,236 @@
+{
+  "file_id": "FILE_929",
+  "filename": "FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p653_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p653_t1.csv",
+  "file_size_bytes": 2041,
+  "dataset_category": "GENERAL CRIME / IPC",
+  "data_grain": "unknown",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "India / Multi-State",
+  "detected_year": "2007",
+  "row_count": 31,
+  "column_count": 8,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [
+    "Total Final\nReports\nSubmitted"
+  ],
+  "numeric_columns": [
+    "Cases\nEnded as\nFinal\nReport\nFalse",
+    "Cases\nEnded as\nMistake of\nFact or of\nLaw or Civil\nDispute",
+    "Cases True\nbut\nInsufficient\nEvidence or\nUntraced\nor No Clue",
+    "Cases\nAbated\nduring\nInvestigatio\nn",
+    "Total Final\nReports\nSubmitted",
+    "Cases\nChargeshee\nted"
+  ],
+  "categorical_columns": [
+    "S. No.",
+    "Crime Head"
+  ],
+  "geographic_columns": [
+    "Cases\nEnded as\nMistake of\nFact or of\nLaw or Civil\nDispute",
+    "Cases True\nbut\nInsufficient\nEvidence or\nUntraced\nor No Clue"
+  ],
+  "year_columns": [],
+  "column_details": [
+    {
+      "column_name": "S. No.",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 31,
+      "sample_values": [
+        "1",
+        "2",
+        "3",
+        "3.2",
+        "3.3"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Crime Head",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 30,
+      "sample_values": [
+        "Murder",
+        "Culpable Homicide not amounting to Murder",
+        "Causing Death by Negligence",
+        "Deaths due to Negligence relating to Rail\nAccidents",
+        "Deaths due to Medical Negligence"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nEnded as\nFinal\nReport\nFalse",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 7,
+      "sample_values": [
+        "1",
+        "0",
+        "72",
+        "27",
+        "31"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 72.0,
+        "mean": 7.064516129032258,
+        "std": 18.807685457229034
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nEnded as\nMistake of\nFact or of\nLaw or Civil\nDispute",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 21,
+      "sample_values": [
+        "3",
+        "1",
+        "467",
+        "0",
+        "14"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 5887.0,
+        "mean": 604.1935483870968,
+        "std": 1624.619820539662
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases True\nbut\nInsufficient\nEvidence or\nUntraced\nor No Clue",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 19,
+      "sample_values": [
+        "50",
+        "2",
+        "2188",
+        "0",
+        "15"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 2188.0,
+        "mean": 187.80645161290323,
+        "std": 477.1620562838051
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "Cases\nAbated\nduring\nInvestigatio\nn",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 10,
+      "sample_values": [
+        "35",
+        "0",
+        "1031",
+        "14",
+        "3"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1031.0,
+        "mean": 38.483870967741936,
+        "std": 184.53434566817842
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total Final\nReports\nSubmitted",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 23,
+      "sample_values": [
+        "89",
+        "3",
+        "3686",
+        "0",
+        "43"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 7110.0,
+        "mean": 837.6451612903226,
+        "std": 2017.9328126969788
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nChargeshee\nted",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 25,
+      "sample_values": [
+        "1329",
+        "56",
+        "12321",
+        "0",
+        "1"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 33282.0,
+        "mean": 3835.7419354838707,
+        "std": 8889.21939192916
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

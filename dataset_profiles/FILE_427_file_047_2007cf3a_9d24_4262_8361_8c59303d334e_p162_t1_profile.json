@@ -1,0 +1,235 @@
+{
+  "file_id": "FILE_427",
+  "filename": "FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p162_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p162_t1.csv",
+  "file_size_bytes": 1458,
+  "dataset_category": "VIOLENT CRIME",
+  "data_grain": "unknown",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "2007",
+  "row_count": 49,
+  "column_count": 9,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [
+    "Total"
+  ],
+  "numeric_columns": [
+    "Murder",
+    "Total"
+  ],
+  "categorical_columns": [
+    "S. NO",
+    "SUBDIVISION",
+    "Murder for\nGain",
+    "Dacoity",
+    "Robbery",
+    "Grave Burglary",
+    "Grave\nTheft"
+  ],
+  "geographic_columns": [],
+  "year_columns": [],
+  "column_details": [
+    {
+      "column_name": "S. NO",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 42,
+      "sample_values": [
+        "144",
+        "145",
+        "146",
+        "TOTAL",
+        "TIRUNELVELI CITY"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "SUBDIVISION",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 15,
+      "null_percentage": 30.61,
+      "unique_count": 34,
+      "sample_values": [
+        "PULIYANGUDI",
+        "TIRUNELVELI RURAL",
+        "VALLIYUR",
+        "PALAYAMKOTTAI",
+        "TIRUNELVELI TOWN"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Murder",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 7,
+      "null_percentage": 14.29,
+      "unique_count": 17,
+      "sample_values": [
+        "7.0",
+        "9.0",
+        "10.0",
+        "70.0",
+        "8.0"
+      ],
+      "numeric_stats": {
+        "min": 2.0,
+        "max": 70.0,
+        "mean": 11.619047619047619,
+        "std": 13.35254133288707
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Murder for\nGain",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 12,
+      "null_percentage": 24.49,
+      "unique_count": 8,
+      "sample_values": [
+        "0",
+        "1",
+        "5",
+        "2",
+        "-"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Dacoity",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 13,
+      "null_percentage": 26.53,
+      "unique_count": 7,
+      "sample_values": [
+        "1",
+        "4",
+        "0",
+        "2",
+        "3"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Robbery",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 7,
+      "null_percentage": 14.29,
+      "unique_count": 22,
+      "sample_values": [
+        "2",
+        "8",
+        "3",
+        "23",
+        "19"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Grave Burglary",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 8,
+      "null_percentage": 16.33,
+      "unique_count": 11,
+      "sample_values": [
+        "2",
+        "0",
+        "3",
+        "21",
+        "4"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Grave\nTheft",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 9,
+      "null_percentage": 18.37,
+      "unique_count": 7,
+      "sample_values": [
+        "1",
+        "0",
+        "6",
+        "2",
+        "4"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 7,
+      "null_percentage": 14.29,
+      "unique_count": 27,
+      "sample_values": [
+        "12.0",
+        "19.0",
+        "18.0",
+        "129.0",
+        "37.0"
+      ],
+      "numeric_stats": {
+        "min": 3.0,
+        "max": 129.0,
+        "mean": 30.571428571428573,
+        "std": 29.521503412988068
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

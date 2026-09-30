@@ -1,0 +1,206 @@
+{
+  "file_id": "FILE_978",
+  "filename": "FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p698_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p698_t1.csv",
+  "file_size_bytes": 1423,
+  "dataset_category": "COURT DISPOSAL",
+  "data_grain": "state_year",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "1911-2007",
+  "row_count": 25,
+  "column_count": 7,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [],
+  "numeric_columns": [
+    "Cases in\nwhich Trials\nwere\nCompleted",
+    "Cases\nDisposed\noff by\nCourts",
+    "Cases\nPending\nTrial at End\nof the Year",
+    "Conviction\nRate",
+    "Pendency\nPercentage"
+  ],
+  "categorical_columns": [
+    "S. No.",
+    "Crime Head"
+  ],
+  "geographic_columns": [],
+  "year_columns": [
+    "Cases\nPending\nTrial at End\nof the Year"
+  ],
+  "column_details": [
+    {
+      "column_name": "S. No.",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 25,
+      "sample_values": [
+        "53",
+        "M.",
+        "54",
+        "55",
+        "56"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Crime Head",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 25,
+      "sample_values": [
+        "The Food Safety & Standards Act",
+        "Food, Drugs and Essential Commodities Acts",
+        "Cow Slaughter Acts",
+        "The Cattle Tresspass Act",
+        "Prevention of Cruelty to Animal Act"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases in\nwhich Trials\nwere\nCompleted",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 13,
+      "sample_values": [
+        "0",
+        "7",
+        "1",
+        "16",
+        "17"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 190502.0,
+        "mean": 10845.12,
+        "std": 38515.86595408875
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nDisposed\noff by\nCourts",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 13,
+      "sample_values": [
+        "0",
+        "8",
+        "1",
+        "16",
+        "17"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 194661.0,
+        "mean": 11030.44,
+        "std": 39327.51695068819
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nPending\nTrial at End\nof the Year",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 16,
+      "sample_values": [
+        "0",
+        "100",
+        "61",
+        "1911",
+        "15"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 136074.0,
+        "mean": 8123.08,
+        "std": 27552.375162164637
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Conviction\nRate",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 12,
+      "sample_values": [
+        "0.0",
+        "57.1",
+        "100.0",
+        "81.3",
+        "82.4"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 100.0,
+        "mean": 43.812,
+        "std": 43.869117079482386
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Pendency\nPercentage",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 13,
+      "sample_values": [
+        "0.0",
+        "92.6",
+        "79.2",
+        "78.2",
+        "27.8"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 100.0,
+        "mean": 48.10799999999999,
+        "std": 43.47526998191041
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

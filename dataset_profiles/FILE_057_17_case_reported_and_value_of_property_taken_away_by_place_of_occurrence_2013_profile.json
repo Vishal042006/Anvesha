@@ -1,0 +1,314 @@
+{
+  "file_id": "FILE_057",
+  "filename": "17_Case_reported_and_value_of_property_taken_away_by_place_of_occurrence_2013.csv",
+  "relative_path": "17_Case_reported_and_value_of_property_taken_away_by_place_of_occurrence_2013.csv",
+  "file_size_bytes": 26512,
+  "dataset_category": "PROPERTY CRIME",
+  "data_grain": "state_year",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "India / Multi-State",
+  "detected_year": "2013",
+  "row_count": 385,
+  "column_count": 11,
+  "duplicate_rows_count": 0,
+  "constant_columns": [
+    "YEAR"
+  ],
+  "total_columns": [],
+  "numeric_columns": [
+    "YEAR",
+    "Dacoity (Section 395-398 IPC) - Number of cases registered",
+    "Dacoity (Section 395-398 IPC) - Value Of Property Stolen (in rupees)",
+    "Robbery(Section 392-394, 397, 398 IPC) - Number of cases registered",
+    "Robbery(Section 392-394, 397, 398 IPC) - Value Of Property Stolen (in rupees)",
+    "Burglary(Section 449-452, 454, 455, 457-460 IPC) - Number of cases registered",
+    "Burglary(Section 449-452, 454, 455, 457-460 IPC) - Value Of Property Stolen (in rupees)",
+    "Theft (Section 379-382 IPC) - Number of cases registered",
+    "Theft (Section 379-382 IPC) - Value Of Property Stolen (in rupees)"
+  ],
+  "categorical_columns": [
+    "STATE/UT",
+    "Place Of Occurrence"
+  ],
+  "geographic_columns": [
+    "STATE/UT"
+  ],
+  "year_columns": [
+    "YEAR"
+  ],
+  "column_details": [
+    {
+      "column_name": "STATE/UT",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 35,
+      "sample_values": [
+        "Andhra Pradesh",
+        "Arunachal Pradesh",
+        "Assam",
+        "Bihar",
+        "Chhattisgarh"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "YEAR",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "2013"
+      ],
+      "numeric_stats": {
+        "min": 2013.0,
+        "max": 2013.0,
+        "mean": 2013.0,
+        "std": 0.0
+      },
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Place Of Occurrence",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 11,
+      "sample_values": [
+        "RESIDENTIAL PREMISES",
+        "HIGH-WAY",
+        "RIVER & SEA",
+        "RAILWAYS",
+        "RUNNING TRAINS"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Dacoity (Section 395-398 IPC) - Number of cases registered",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 69,
+      "sample_values": [
+        "43",
+        "31",
+        "0",
+        "3",
+        "2"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 833.0,
+        "mean": 35.527272727272724,
+        "std": 105.54861591688339
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Dacoity (Section 395-398 IPC) - Value Of Property Stolen (in rupees)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 160,
+      "sample_values": [
+        "21295800",
+        "6713585",
+        "0",
+        "37500",
+        "4000"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 467262934.0,
+        "mean": 17046780.14025974,
+        "std": 56024369.72303254
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Robbery(Section 392-394, 397, 398 IPC) - Number of cases registered",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 122,
+      "sample_values": [
+        "229",
+        "109",
+        "1",
+        "14",
+        "4"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 9746.0,
+        "mean": 250.7064935064935,
+        "std": 930.0082350578595
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Robbery(Section 392-394, 397, 398 IPC) - Value Of Property Stolen (in rupees)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 220,
+      "sample_values": [
+        "23719985",
+        "11701238",
+        "8000",
+        "246920",
+        "58000"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 769345024.0,
+        "mean": 27528575.88051948,
+        "std": 89877480.4783595
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Burglary(Section 449-452, 454, 455, 457-460 IPC) - Number of cases registered",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 138,
+      "sample_values": [
+        "7264",
+        "0",
+        "20",
+        "796",
+        "1740"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 18328.0,
+        "mean": 813.7064935064935,
+        "std": 2210.469898334306
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Burglary(Section 449-452, 454, 455, 457-460 IPC) - Value Of Property Stolen (in rupees)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 183,
+      "sample_values": [
+        "409568072",
+        "0",
+        "58578851",
+        "75936113",
+        "121416764"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1753758189.0,
+        "mean": 67635562.35064936,
+        "std": 207495284.41138455
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Theft (Section 379-382 IPC) - Number of cases registered",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 206,
+      "sample_values": [
+        "10539",
+        "528",
+        "58",
+        "1627",
+        "818"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 52670.0,
+        "mean": 2950.4363636363637,
+        "std": 7564.152745827908
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Theft (Section 379-382 IPC) - Value Of Property Stolen (in rupees)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 261,
+      "sample_values": [
+        "470463463",
+        "24368531",
+        "6612000",
+        "75617986",
+        "33655111"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 5365022808.0,
+        "mean": 232699443.37662336,
+        "std": 722423038.673916
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

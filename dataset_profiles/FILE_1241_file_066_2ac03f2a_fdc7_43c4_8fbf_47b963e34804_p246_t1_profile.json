@@ -1,0 +1,213 @@
+{
+  "file_id": "FILE_1241",
+  "filename": "FILE_066_2ac03f2a_fdc7_43c4_8fbf_47b963e34804_p246_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_066_2ac03f2a_fdc7_43c4_8fbf_47b963e34804_p246_t1.csv",
+  "file_size_bytes": 1428,
+  "dataset_category": "GENERAL CRIME / IPC",
+  "data_grain": "district_year",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "UNKNOWN",
+  "row_count": 44,
+  "column_count": 7,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [
+    "Total Cases for\nInvestigation\n(Col.3+ Col.4+\nCol.5)"
+  ],
+  "numeric_columns": [
+    "S. No",
+    "Cases Pending\nInvestigation from\nPrevious Year",
+    "Cases Reported\nduring the year",
+    "Cases ReOpened\nfor Investigation",
+    "Total Cases for\nInvestigation\n(Col.3+ Col.4+\nCol.5)",
+    "Cases Not\nInvestigated\nUnder 157_1_b\nCRPC"
+  ],
+  "categorical_columns": [
+    "Districts"
+  ],
+  "geographic_columns": [
+    "Districts"
+  ],
+  "year_columns": [
+    "Cases Pending\nInvestigation from\nPrevious Year",
+    "Cases Reported\nduring the year"
+  ],
+  "column_details": [
+    {
+      "column_name": "S. No",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 1,
+      "null_percentage": 2.27,
+      "unique_count": 42,
+      "sample_values": [
+        "1.0",
+        "2.0",
+        "3.0",
+        "4.0",
+        "5.0"
+      ],
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 42.0,
+        "mean": 21.023255813953487,
+        "std": 12.517584530596151
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Districts",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 44,
+      "sample_values": [
+        "2",
+        "Ariyalur",
+        "Chennai",
+        "Coimbatore",
+        "Coimbatore City"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases Pending\nInvestigation from\nPrevious Year",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 33,
+      "sample_values": [
+        "3",
+        "23",
+        "779",
+        "8",
+        "22"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 2229.0,
+        "mean": 101.38636363636364,
+        "std": 348.966994901603
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases Reported\nduring the year",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 40,
+      "sample_values": [
+        "4",
+        "50",
+        "731",
+        "68",
+        "45"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 4139.0,
+        "mean": 188.22727272727272,
+        "std": 620.5304506381078
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases ReOpened\nfor Investigation",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "5",
+        "0",
+        "44",
+        "2",
+        "46"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 46.0,
+        "mean": 2.2045454545454546,
+        "std": 9.483350270169453
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total Cases for\nInvestigation\n(Col.3+ Col.4+\nCol.5)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 42,
+      "sample_values": [
+        "6",
+        "73",
+        "1510",
+        "76",
+        "67"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 6414.0,
+        "mean": 291.6818181818182,
+        "std": 971.9012001832016
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases Not\nInvestigated\nUnder 157_1_b\nCRPC",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "7",
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 7.0,
+        "mean": 0.1590909090909091,
+        "std": 1.0552897060221729
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

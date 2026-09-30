@@ -1,0 +1,481 @@
+{
+  "file_id": "FILE_125",
+  "filename": "d5a0c20a-e0dd-43d2-a043-bffc7d480694.csv",
+  "relative_path": "d5a0c20a-e0dd-43d2-a043-bffc7d480694.csv",
+  "file_size_bytes": 4092,
+  "dataset_category": "CRIME AGAINST CHILDREN",
+  "data_grain": "unknown",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "UNKNOWN",
+  "row_count": 50,
+  "column_count": 17,
+  "duplicate_rows_count": 0,
+  "constant_columns": [
+    "Narrated to (O/C)/SHO"
+  ],
+  "total_columns": [
+    "Total Oral Complaints",
+    "Total Written Complaints",
+    "Total Complaints"
+  ],
+  "numeric_columns": [
+    "Total Oral Complaints",
+    "Narrated to (O/C)/SHO",
+    "Dial 100 - Distress Call",
+    "Total Written Complaints",
+    "To O/C /SHO",
+    "To SP/Senior Officers",
+    "Electronic Form",
+    "Written Complaints to Courts",
+    "Written - NHRC/SHRC",
+    "Written - SCs Commission",
+    "Written - STs Commission",
+    "Written - NCW/SCW",
+    "Written - Child Welfare Bodies",
+    "Suo Moto from Police",
+    "Other Written Complaints",
+    "Total Complaints"
+  ],
+  "categorical_columns": [
+    "Districts"
+  ],
+  "geographic_columns": [
+    "Districts",
+    "Dial 100 - Distress Call"
+  ],
+  "year_columns": [],
+  "column_details": [
+    {
+      "column_name": "Districts",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 50,
+      "sample_values": [
+        "Ariyalur",
+        "Chennai",
+        "Coimbatore",
+        "Coimbatore City",
+        "Cuddalore"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total Oral Complaints",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 47,
+      "sample_values": [
+        "11259",
+        "178671",
+        "24119",
+        "26134",
+        "18261"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 700456.0,
+        "mean": 28018.24,
+        "std": 100189.47024830057
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Narrated to (O/C)/SHO",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Dial 100 - Distress Call",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 47,
+      "sample_values": [
+        "11259",
+        "178671",
+        "24119",
+        "26134",
+        "18261"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 700456.0,
+        "mean": 28018.24,
+        "std": 100189.47024830057
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total Written Complaints",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 50,
+      "sample_values": [
+        "21046",
+        "159874",
+        "51380",
+        "43954",
+        "65329"
+      ],
+      "numeric_stats": {
+        "min": 3.0,
+        "max": 1783771.0,
+        "mean": 71350.84,
+        "std": 248571.82576999135
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "To O/C /SHO",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 50,
+      "sample_values": [
+        "1758",
+        "25750",
+        "19412",
+        "4685",
+        "17201"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 365776.0,
+        "mean": 14631.04,
+        "std": 51491.27716417964
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "To SP/Senior Officers",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 46,
+      "sample_values": [
+        "3359",
+        "2992",
+        "492",
+        "2890",
+        "417"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 126791.0,
+        "mean": 5071.64,
+        "std": 17693.569801392106
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Electronic Form",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 48,
+      "sample_values": [
+        "1448",
+        "61945",
+        "5086",
+        "16050",
+        "53"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 231548.0,
+        "mean": 9261.92,
+        "std": 33386.257736172265
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Written Complaints to Courts",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 27,
+      "sample_values": [
+        "31",
+        "255",
+        "3",
+        "0",
+        "40"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 991.0,
+        "mean": 39.64,
+        "std": 143.12229108032625
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Written - NHRC/SHRC",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 18,
+      "sample_values": [
+        "37",
+        "0",
+        "95",
+        "31",
+        "6"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 628.0,
+        "mean": 25.12,
+        "std": 90.9439477516402
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Written - SCs Commission",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 13,
+      "sample_values": [
+        "20",
+        "0",
+        "55",
+        "2",
+        "1"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 229.0,
+        "mean": 9.16,
+        "std": 33.67513465270111
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Written - STs Commission",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "0",
+        "31"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 31.0,
+        "mean": 1.24,
+        "std": 6.13640857538688
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Written - NCW/SCW",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 12,
+      "sample_values": [
+        "9",
+        "0",
+        "27",
+        "23",
+        "62"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 413.0,
+        "mean": 16.52,
+        "std": 61.00426214618123
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Written - Child Welfare Bodies",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 11,
+      "sample_values": [
+        "0",
+        "2",
+        "75",
+        "29",
+        "220"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 393.0,
+        "mean": 15.72,
+        "std": 63.6004877403965
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Suo Moto from Police",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 50,
+      "sample_values": [
+        "1923",
+        "10940",
+        "9680",
+        "4337",
+        "9528"
+      ],
+      "numeric_stats": {
+        "min": 3.0,
+        "max": 231614.0,
+        "mean": 9264.56,
+        "std": 32232.85200559662
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Other Written Complaints",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 48,
+      "sample_values": [
+        "12461",
+        "57992",
+        "16707",
+        "15990",
+        "38130"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 825357.0,
+        "mean": 33014.28,
+        "std": 114908.12924423492
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total Complaints",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 50,
+      "sample_values": [
+        "32305",
+        "338545",
+        "75499",
+        "70088",
+        "83590"
+      ],
+      "numeric_stats": {
+        "min": 3.0,
+        "max": 2484227.0,
+        "mean": 99369.08,
+        "std": 347590.4341362315
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

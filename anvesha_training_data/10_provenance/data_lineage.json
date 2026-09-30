@@ -1,0 +1,65 @@
+{
+  "project": "ANVESHA",
+  "description": "Data provenance and processing lineage graph",
+  "pipeline_version": "v1.0.0-anvesha-canonical",
+  "timestamp": "2026-09-29T23:26:08.781917",
+  "nodes": [
+    {
+      "id": "raw_datasets",
+      "type": "SOURCE_FILES",
+      "count": 146
+    },
+    {
+      "id": "cleaned_tables",
+      "type": "CLEANED_DATA",
+      "count": 146
+    },
+    {
+      "id": "pdf_extracted_tables",
+      "type": "PDF_EXTRACTED",
+      "count": 723
+    },
+    {
+      "id": "tn_integrated_master",
+      "type": "INTEGRATED_TABLE",
+      "records": 87889
+    },
+    {
+      "id": "india_integrated_master",
+      "type": "INTEGRATED_TABLE",
+      "records": 2331801
+    },
+    {
+      "id": "tn_ml_features",
+      "type": "ML_DATASET",
+      "status": "Ready"
+    }
+  ],
+  "edges": [
+    {
+      "from": "raw_datasets",
+      "to": "cleaned_tables",
+      "process": "Encoding & NaN Sanitization"
+    },
+    {
+      "from": "raw_datasets",
+      "to": "pdf_extracted_tables",
+      "process": "PyMuPDF & pdfplumber Extraction"
+    },
+    {
+      "from": "cleaned_tables",
+      "to": "tn_integrated_master",
+      "process": "TN Geographic & Schema Integration"
+    },
+    {
+      "from": "cleaned_tables",
+      "to": "india_integrated_master",
+      "process": "India Geographic & Schema Integration"
+    },
+    {
+      "from": "tn_integrated_master",
+      "to": "tn_ml_features",
+      "process": "Feature Engineering & Temporal Split"
+    }
+  ]
+}

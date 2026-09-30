@@ -1,0 +1,943 @@
+{
+  "file_id": "FILE_059",
+  "filename": "17_Crime_by_place_of_occurrence_2013.csv",
+  "relative_path": "17_Crime_by_place_of_occurrence_2013.csv",
+  "file_size_bytes": 5065,
+  "dataset_category": "PROPERTY CRIME",
+  "data_grain": "state_year",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "India (Includes Tamil Nadu)",
+  "detected_year": "2013",
+  "row_count": 38,
+  "column_count": 34,
+  "duplicate_rows_count": 0,
+  "constant_columns": [
+    "YEAR"
+  ],
+  "total_columns": [
+    "TOTAL - Dacoity",
+    "TOTAL - Robbery",
+    "TOTAL - Burglary",
+    "TOTAL - Theft"
+  ],
+  "numeric_columns": [
+    "YEAR",
+    "RESIDENTIAL PREMISES - Dacoity",
+    "RESIDENTIAL PREMISES - Robbery",
+    "RESIDENTIAL PREMISES - Burglary",
+    "RESIDENTIAL PREMISES - Theft",
+    "HIGHWAYS - Dacoity",
+    "HIGHWAYS - Robbery",
+    "HIGHWAYS - Burglary",
+    "HIGHWAYS - Theft",
+    "RIVER and SEA - Dacoity",
+    "RIVER and SEA - Robbery",
+    "RIVER and SEA - Burglary",
+    "RIVER and SEA - Theft",
+    "RAILWAYS - Dacoity",
+    "RAILWAYS - Robbery",
+    "RAILWAYS - Burglary",
+    "RAILWAYS - Theft",
+    "BANKS - Dacoity",
+    "BANKS - Robbery",
+    "BANKS - Burglary",
+    "BANKS - Theft",
+    "COMMERCIAL ESTABLISHMENTS - Dacoity",
+    "COMMERCIAL ESTABLISHMENTS - Robbery",
+    "COMMERCIAL ESTABLISHMENTS - Burglary",
+    "COMMERCIAL ESTABLISHMENTS - Theft",
+    "OTHER PLACES - Dacoity",
+    "OTHER PLACES - Robbery",
+    "OTHER PLACES - Burglary",
+    "OTHER PLACES - Theft",
+    "TOTAL - Dacoity",
+    "TOTAL - Robbery",
+    "TOTAL - Burglary",
+    "TOTAL - Theft"
+  ],
+  "categorical_columns": [
+    "STATE/UT"
+  ],
+  "geographic_columns": [
+    "STATE/UT"
+  ],
+  "year_columns": [
+    "YEAR"
+  ],
+  "column_details": [
+    {
+      "column_name": "STATE/UT",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 38,
+      "sample_values": [
+        "Andhra Pradesh",
+        "Arunachal Pradesh",
+        "Assam",
+        "Bihar",
+        "Chhattisgarh"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "YEAR",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "2013"
+      ],
+      "numeric_stats": {
+        "min": 2013.0,
+        "max": 2013.0,
+        "mean": 2013.0,
+        "std": 0.0
+      },
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "RESIDENTIAL PREMISES - Dacoity",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 24,
+      "sample_values": [
+        "43",
+        "6",
+        "133",
+        "260",
+        "7"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1595.0,
+        "mean": 125.92105263157895,
+        "std": 359.05133123792604
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "RESIDENTIAL PREMISES - Robbery",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 30,
+      "sample_values": [
+        "229",
+        "19",
+        "313",
+        "85",
+        "15"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 3338.0,
+        "mean": 263.5263157894737,
+        "std": 729.8091100600213
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "RESIDENTIAL PREMISES - Burglary",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 38,
+      "sample_values": [
+        "7264",
+        "85",
+        "2652",
+        "3084",
+        "2759"
+      ],
+      "numeric_stats": {
+        "min": 2.0,
+        "max": 68887.0,
+        "mean": 5438.4473684210525,
+        "std": 15123.75391462477
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "RESIDENTIAL PREMISES - Theft",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 38,
+      "sample_values": [
+        "10539",
+        "138",
+        "6449",
+        "9360",
+        "1356"
+      ],
+      "numeric_stats": {
+        "min": 5.0,
+        "max": 95767.0,
+        "mean": 7560.5526315789475,
+        "std": 20151.21177591302
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "HIGHWAYS - Dacoity",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 20,
+      "sample_values": [
+        "31",
+        "3",
+        "12",
+        "240",
+        "7"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 820.0,
+        "mean": 64.73684210526316,
+        "std": 185.49418060523308
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "HIGHWAYS - Robbery",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 27,
+      "sample_values": [
+        "109",
+        "12",
+        "92",
+        "1244",
+        "51"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 5476.0,
+        "mean": 432.3157894736842,
+        "std": 1244.118880764087
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "HIGHWAYS - Burglary",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 14,
+      "sample_values": [
+        "0",
+        "17",
+        "9",
+        "67",
+        "15"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 626.0,
+        "mean": 49.421052631578945,
+        "std": 153.41687274255486
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "HIGHWAYS - Theft",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 29,
+      "sample_values": [
+        "528",
+        "7",
+        "22",
+        "588",
+        "37"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 30457.0,
+        "mean": 2404.5,
+        "std": 7772.59118416865
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "RIVER and SEA - Dacoity",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 3,
+      "sample_values": [
+        "0",
+        "1",
+        "2"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 2.0,
+        "mean": 0.15789473684210525,
+        "std": 0.49463695611016467
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "RIVER and SEA - Robbery",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 6,
+      "sample_values": [
+        "1",
+        "0",
+        "15",
+        "4",
+        "3"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 26.0,
+        "mean": 2.0526315789473686,
+        "std": 6.25125876371053
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "RIVER and SEA - Burglary",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "0",
+        "1",
+        "9",
+        "3",
+        "14"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 14.0,
+        "mean": 1.105263157894737,
+        "std": 3.4389617673048285
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "RIVER and SEA - Theft",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 10,
+      "sample_values": [
+        "58",
+        "1",
+        "0",
+        "14",
+        "5"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 851.0,
+        "mean": 67.1842105263158,
+        "std": 217.0763790432968
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "RAILWAYS - Dacoity",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 9,
+      "sample_values": [
+        "3",
+        "0",
+        "9",
+        "2",
+        "1"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 61.0,
+        "mean": 4.815789473684211,
+        "std": 13.752356580675487
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "RAILWAYS - Robbery",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 17,
+      "sample_values": [
+        "14",
+        "0",
+        "33",
+        "3",
+        "1"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 741.0,
+        "mean": 58.5,
+        "std": 168.12555636399455
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "RAILWAYS - Burglary",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 9,
+      "sample_values": [
+        "0",
+        "7",
+        "3",
+        "2",
+        "1"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 74.0,
+        "mean": 5.842105263157895,
+        "std": 17.012755652966373
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "RAILWAYS - Theft",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 27,
+      "sample_values": [
+        "1627",
+        "0",
+        "21",
+        "1350",
+        "193"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 18052.0,
+        "mean": 1425.157894736842,
+        "std": 3886.28831834623
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "BANKS - Dacoity",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 6,
+      "sample_values": [
+        "0",
+        "1",
+        "9",
+        "3",
+        "7"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 28.0,
+        "mean": 2.210526315789474,
+        "std": 6.518820548007638
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "BANKS - Robbery",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 8,
+      "sample_values": [
+        "4",
+        "2",
+        "1",
+        "0",
+        "3"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 48.0,
+        "mean": 3.789473684210526,
+        "std": 10.712856370146893
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "BANKS - Burglary",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 20,
+      "sample_values": [
+        "20",
+        "0",
+        "1",
+        "10",
+        "2"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 346.0,
+        "mean": 27.31578947368421,
+        "std": 77.3699799535229
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "BANKS - Theft",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 18,
+      "sample_values": [
+        "32",
+        "0",
+        "3",
+        "7",
+        "4"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 340.0,
+        "mean": 26.842105263157894,
+        "std": 73.21369179134699
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "COMMERCIAL ESTABLISHMENTS - Dacoity",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 17,
+      "sample_values": [
+        "3",
+        "0",
+        "8",
+        "19",
+        "1"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 294.0,
+        "mean": 23.210526315789473,
+        "std": 64.91289710470728
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "COMMERCIAL ESTABLISHMENTS - Robbery",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 27,
+      "sample_values": [
+        "27",
+        "13",
+        "80",
+        "38",
+        "9"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1257.0,
+        "mean": 99.23684210526316,
+        "std": 270.13404422474713
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "COMMERCIAL ESTABLISHMENTS - Burglary",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 34,
+      "sample_values": [
+        "796",
+        "54",
+        "542",
+        "312",
+        "313"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 13734.0,
+        "mean": 1084.2631578947369,
+        "std": 2984.5057237946003
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "COMMERCIAL ESTABLISHMENTS - Theft",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 36,
+      "sample_values": [
+        "2578",
+        "168",
+        "797",
+        "2129",
+        "402"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 31948.0,
+        "mean": 2522.2105263157896,
+        "std": 6884.020584944547
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "OTHER PLACES - Dacoity",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 28,
+      "sample_values": [
+        "45",
+        "15",
+        "92",
+        "42",
+        "31"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1739.0,
+        "mean": 137.28947368421052,
+        "std": 390.61420158616426
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "OTHER PLACES - Robbery",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 33,
+      "sample_values": [
+        "325",
+        "28",
+        "437",
+        "119",
+        "271"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 21041.0,
+        "mean": 1661.1315789473683,
+        "std": 4712.764375958143
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "OTHER PLACES - Burglary",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 33,
+      "sample_values": [
+        "1740",
+        "57",
+        "1072",
+        "777",
+        "376"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 20720.0,
+        "mean": 1635.7894736842106,
+        "std": 4573.340261085981
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "OTHER PLACES - Theft",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 37,
+      "sample_values": [
+        "15670",
+        "200",
+        "3223",
+        "7989",
+        "3200"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 195207.0,
+        "mean": 15411.078947368422,
+        "std": 41621.61613833095
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "TOTAL - Dacoity",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 32,
+      "sample_values": [
+        "125",
+        "24",
+        "246",
+        "579",
+        "47"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 4539.0,
+        "mean": 358.3421052631579,
+        "std": 1010.9408857076894
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "TOTAL - Robbery",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 35,
+      "sample_values": [
+        "709",
+        "75",
+        "923",
+        "1521",
+        "351"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 31927.0,
+        "mean": 2520.5526315789475,
+        "std": 7071.97886866022
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "TOTAL - Burglary",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 37,
+      "sample_values": [
+        "9820",
+        "196",
+        "4291",
+        "4185",
+        "3527"
+      ],
+      "numeric_stats": {
+        "min": 2.0,
+        "max": 104401.0,
+        "mean": 8242.184210526315,
+        "std": 22903.109367395493
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "TOTAL - Theft",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 38,
+      "sample_values": [
+        "31032",
+        "514",
+        "10515",
+        "21423",
+        "5189"
+      ],
+      "numeric_stats": {
+        "min": 8.0,
+        "max": 372622.0,
+        "mean": 29417.526315789473,
+        "std": 79369.36591376639
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

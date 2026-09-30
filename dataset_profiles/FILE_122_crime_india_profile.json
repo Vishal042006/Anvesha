@@ -1,0 +1,567 @@
+{
+  "file_id": "FILE_122",
+  "filename": "crime_india.csv",
+  "relative_path": "crime_india.csv",
+  "file_size_bytes": 1407,
+  "dataset_category": "CRIME AGAINST WOMEN",
+  "data_grain": "state_year_crime",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "India / Multi-State",
+  "detected_year": "2011-2020",
+  "row_count": 10,
+  "column_count": 20,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [],
+  "numeric_columns": [
+    "Year",
+    "Abetment to Suicide of women",
+    "Acid Attack",
+    "Assault on Outrage Modesty of Women",
+    "Attempt to Acid Attack",
+    "Attempt to Commit Rape",
+    "Buying of Minor Girls",
+    "Cruelty by Husband or his relatives",
+    "Cyber Crimes/Information Technology Act",
+    "Dowry Deaths",
+    "Dowry Prohibition Act",
+    "Human Trafficking",
+    "Immoral Traffic (Prevention) Act",
+    "Indecent Representation of Women (Prohibition) Act",
+    "Insult to the Modesty of Women",
+    "Kidnapping & Abduction",
+    "POCSO",
+    "Protection of Women from Domestic Violence Act",
+    "Rape",
+    "Selling of Minor Girls"
+  ],
+  "categorical_columns": [],
+  "geographic_columns": [
+    "Assault on Outrage Modesty of Women"
+  ],
+  "year_columns": [
+    "Year"
+  ],
+  "column_details": [
+    {
+      "column_name": "Year",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 10,
+      "sample_values": [
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015"
+      ],
+      "numeric_stats": {
+        "min": 2011.0,
+        "max": 2020.0,
+        "mean": 2015.5,
+        "std": 3.0276503540974917
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Abetment to Suicide of women",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 3,
+      "null_percentage": 30.0,
+      "unique_count": 7,
+      "sample_values": [
+        "3734.0",
+        "4060.0",
+        "4466.0",
+        "5282.0",
+        "5037.0"
+      ],
+      "numeric_stats": {
+        "min": 3734.0,
+        "max": 5282.0,
+        "mean": 4661.714285714285,
+        "std": 585.0016279993628
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "Acid Attack",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 5,
+      "null_percentage": 50.0,
+      "unique_count": 5,
+      "sample_values": [
+        "206.0",
+        "148.0",
+        "131.0",
+        "150.0",
+        "105.0"
+      ],
+      "numeric_stats": {
+        "min": 105.0,
+        "max": 206.0,
+        "mean": 148.0,
+        "std": 37.1012129181783
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "Assault on Outrage Modesty of Women",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 10,
+      "sample_values": [
+        "42968",
+        "45351",
+        "70739",
+        "82235",
+        "82422"
+      ],
+      "numeric_stats": {
+        "min": 42968.0,
+        "max": 89097.0,
+        "mean": 75731.8,
+        "std": 17406.086488479956
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Attempt to Acid Attack",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 6,
+      "null_percentage": 60.0,
+      "unique_count": 4,
+      "sample_values": [
+        "35.0",
+        "37.0",
+        "42.0",
+        "33.0"
+      ],
+      "numeric_stats": {
+        "min": 33.0,
+        "max": 42.0,
+        "mean": 36.75,
+        "std": 3.8622100754188224
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "Attempt to Commit Rape",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 10,
+      "sample_values": [
+        "3894",
+        "3764",
+        "4421",
+        "4234",
+        "4437"
+      ],
+      "numeric_stats": {
+        "min": 3741.0,
+        "max": 5729.0,
+        "mean": 4241.5,
+        "std": 577.2981609763422
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Buying of Minor Girls",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 9,
+      "sample_values": [
+        "27",
+        "15",
+        "6",
+        "14",
+        "11"
+      ],
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 27.0,
+        "mean": 10.1,
+        "std": 7.309810759064377
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cruelty by Husband or his relatives",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 10,
+      "sample_values": [
+        "99135",
+        "106527",
+        "118866",
+        "122877",
+        "113403"
+      ],
+      "numeric_stats": {
+        "min": 99135.0,
+        "max": 125298.0,
+        "mean": 111585.6,
+        "std": 8644.207105853544
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cyber Crimes/Information Technology Act",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 10,
+      "sample_values": [
+        "48",
+        "87",
+        "144",
+        "102",
+        "161"
+      ],
+      "numeric_stats": {
+        "min": 48.0,
+        "max": 2334.0,
+        "mean": 727.1,
+        "std": 790.7677633512608
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Dowry Deaths",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 10,
+      "sample_values": [
+        "8618",
+        "8233",
+        "8083",
+        "8455",
+        "7634"
+      ],
+      "numeric_stats": {
+        "min": 6966.0,
+        "max": 8618.0,
+        "mean": 7735.7,
+        "std": 583.3116281676164
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Dowry Prohibition Act",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 10,
+      "sample_values": [
+        "6619",
+        "9038",
+        "10709",
+        "10050",
+        "9894"
+      ],
+      "numeric_stats": {
+        "min": 6619.0,
+        "max": 13297.0,
+        "mean": 10267.1,
+        "std": 1864.4704014217489
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Human Trafficking",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 3,
+      "null_percentage": 30.0,
+      "unique_count": 7,
+      "sample_values": [
+        "720.0",
+        "1021.0",
+        "659.0",
+        "662.0",
+        "854.0"
+      ],
+      "numeric_stats": {
+        "min": 646.0,
+        "max": 1021.0,
+        "mean": 789.7142857142857,
+        "std": 156.85100603833592
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Immoral Traffic (Prevention) Act",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 10,
+      "sample_values": [
+        "2435",
+        "2563",
+        "2579",
+        "2070",
+        "2424"
+      ],
+      "numeric_stats": {
+        "min": 868.0,
+        "max": 2579.0,
+        "mean": 1933.3,
+        "std": 621.9185459348979
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Indecent Representation of Women (Prohibition) Act",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 10,
+      "sample_values": [
+        "453",
+        "141",
+        "362",
+        "47",
+        "40"
+      ],
+      "numeric_stats": {
+        "min": 12.0,
+        "max": 453.0,
+        "mean": 116.3,
+        "std": 159.13380114440383
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Insult to the Modesty of Women",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 10,
+      "sample_values": [
+        "8570",
+        "9173",
+        "12589",
+        "9735",
+        "8685"
+      ],
+      "numeric_stats": {
+        "min": 6939.0,
+        "max": 12589.0,
+        "mean": 8450.4,
+        "std": 1764.1817240736725
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Kidnapping & Abduction",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 10,
+      "sample_values": [
+        "35565",
+        "38262",
+        "51881",
+        "57311",
+        "59277"
+      ],
+      "numeric_stats": {
+        "min": 35565.0,
+        "max": 72780.0,
+        "mean": 58097.9,
+        "std": 12904.935691862673
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "POCSO",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 10,
+      "sample_values": [
+        "7180",
+        "7411",
+        "13037",
+        "8904",
+        "14913"
+      ],
+      "numeric_stats": {
+        "min": 7180.0,
+        "max": 46123.0,
+        "mean": 25006.5,
+        "std": 16243.631635881866
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Protection of Women from Domestic Violence Act",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 10,
+      "sample_values": [
+        "379",
+        "441",
+        "392",
+        "426",
+        "461"
+      ],
+      "numeric_stats": {
+        "min": 379.0,
+        "max": 616.0,
+        "mean": 473.0,
+        "std": 80.8867521085293
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Rape",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 10,
+      "sample_values": [
+        "24206",
+        "24923",
+        "33707",
+        "36735",
+        "34651"
+      ],
+      "numeric_stats": {
+        "min": 24206.0,
+        "max": 38947.0,
+        "mean": 32018.2,
+        "std": 4817.028147912131
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Selling of Minor Girls",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 10,
+      "sample_values": [
+        "113",
+        "108",
+        "100",
+        "82",
+        "111"
+      ],
+      "numeric_stats": {
+        "min": 12.0,
+        "max": 122.0,
+        "mean": 79.0,
+        "std": 40.24922359499622
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

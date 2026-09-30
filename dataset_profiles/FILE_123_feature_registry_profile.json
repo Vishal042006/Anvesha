@@ -1,0 +1,201 @@
+{
+  "file_id": "FILE_123",
+  "filename": "FEATURE_REGISTRY.csv",
+  "relative_path": "FEATURE_REGISTRY.csv",
+  "file_size_bytes": 710,
+  "dataset_category": "GENERAL CRIME / IPC",
+  "data_grain": "unknown",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "India / Multi-State",
+  "detected_year": "UNKNOWN",
+  "row_count": 5,
+  "column_count": 8,
+  "duplicate_rows_count": 0,
+  "constant_columns": [
+    "source_columns",
+    "uses_future_data",
+    "leakage_status",
+    "available_at_prediction_time"
+  ],
+  "total_columns": [],
+  "numeric_columns": [
+    "uses_future_data",
+    "available_at_prediction_time"
+  ],
+  "categorical_columns": [
+    "feature_name",
+    "source_columns",
+    "transformation",
+    "window",
+    "leakage_status",
+    "description"
+  ],
+  "geographic_columns": [
+    "uses_future_data"
+  ],
+  "year_columns": [],
+  "column_details": [
+    {
+      "column_name": "feature_name",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "previous_year_crime",
+        "two_year_avg",
+        "three_year_avg",
+        "five_year_avg",
+        "year_over_year_change"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "source_columns",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "crime_count"
+      ],
+      "numeric_stats": null,
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "transformation",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "shift(1)",
+        "shift(1).rolling(2).mean()",
+        "shift(1).rolling(3).mean()",
+        "shift(1).rolling(5).mean()",
+        "(crime_t - crime_t-1) / crime_t-1 * 100"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "window",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 4,
+      "sample_values": [
+        "1 year",
+        "2 years",
+        "3 years",
+        "5 years"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "uses_future_data",
+      "data_type": "bool",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "False"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "leakage_status",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "SAFE"
+      ],
+      "numeric_stats": null,
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "available_at_prediction_time",
+      "data_type": "bool",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "True"
+      ],
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 1.0,
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "description",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "Crime count in previous calendar year",
+        "2-year rolling average crime count",
+        "3-year rolling average crime count",
+        "5-year rolling average crime count",
+        "Percentage change in crime count from previous year"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

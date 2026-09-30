@@ -1,0 +1,130 @@
+{
+  "file_id": "FILE_253",
+  "filename": "GRAPH_QUALITY_REPORT.csv",
+  "relative_path": "anvesha_training_data/00_raw/csv/GRAPH_QUALITY_REPORT.csv",
+  "file_size_bytes": 325,
+  "dataset_category": "GENERAL CRIME / IPC",
+  "data_grain": "unknown",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "UNKNOWN",
+  "row_count": 5,
+  "column_count": 5,
+  "duplicate_rows_count": 0,
+  "constant_columns": [
+    "status",
+    "issue_count",
+    "recommendation"
+  ],
+  "total_columns": [],
+  "numeric_columns": [
+    "issue_count",
+    "recommendation"
+  ],
+  "categorical_columns": [
+    "check_name",
+    "status",
+    "details"
+  ],
+  "geographic_columns": [],
+  "year_columns": [],
+  "column_details": [
+    {
+      "column_name": "check_name",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "NODE_ID_UNIQUENESS",
+        "EDGE_SOURCE_EXISTENCE",
+        "EDGE_TARGET_EXISTENCE",
+        "SELF_LOOP_CHECK",
+        "DUPLICATE_EDGE_CHECK"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "status",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "PASS"
+      ],
+      "numeric_stats": null,
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "issue_count",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "details",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "Duplicate node_ids found: 0",
+        "Orphan edge sources: 0",
+        "Orphan edge targets: 0",
+        "Self-loop count: 0",
+        "Duplicate edges: 0"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "recommendation",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 5,
+      "null_percentage": 100.0,
+      "unique_count": 0,
+      "sample_values": [],
+      "numeric_stats": {},
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

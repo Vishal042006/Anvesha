@@ -1,0 +1,2233 @@
+{
+  "file_id": "FILE_060",
+  "filename": "17_Crime_by_place_of_occurrence_2014.csv",
+  "relative_path": "17_Crime_by_place_of_occurrence_2014.csv",
+  "file_size_bytes": 17801,
+  "dataset_category": "PROPERTY CRIME",
+  "data_grain": "state_year",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "India (Includes Tamil Nadu)",
+  "detected_year": "2014",
+  "row_count": 39,
+  "column_count": 82,
+  "duplicate_rows_count": 0,
+  "constant_columns": [
+    "Year"
+  ],
+  "total_columns": [
+    "Total_Dacoity_Cases reported",
+    "Total_Dacoity_Value of property stolen",
+    "Total_Robbery_Cases reported",
+    "Total_Robbery_Value of property stolen",
+    "Total_Burglary_Cases reported",
+    "Total_Burglary_Value of property stolen",
+    "Total_Theft_Cases reported",
+    "Total_Theft_Value of property stolen"
+  ],
+  "numeric_columns": [
+    "Year",
+    "Residence_Dacoity_Cases reported",
+    "Residence_Dacoity_Value of property stolen",
+    "Residence_Robbery_Cases reported",
+    "Residence_Robbery_Value of property stolen",
+    "Residence_Burglary_Cases reported",
+    "Residence_Burglary_Value of property stolen",
+    "Residence_Theft_Cases reported",
+    "Residence_Theft_Value of property stolen",
+    "Highways_Dacoity_Cases reported",
+    "Highways_Dacoity_Value of property stolen",
+    "Highways_Robbery_Cases reported",
+    "Highways_Robbery_Value of property stolen",
+    "Highways_Burglary_Cases reported",
+    "Highways_Burglary_Value of property stolen",
+    "Highways_Theft_Cases reported",
+    "Highways_Theft_Value of property stolen",
+    "RiverOrSea_Dacoity_Cases reported",
+    "RiverOrSea_Dacoity_Value of property stolen",
+    "RiverOrSea_Robbery_Cases reported",
+    "RiverOrSea_Robbery_Value of property stolen",
+    "RiverOrSea_Burglary_Cases reported",
+    "RiverOrSea_Burglary_Value of property stolen",
+    "RiverOrSea_Theft_Cases reported",
+    "RiverOrSea_Theft_Value of property stolen",
+    "Railways_Dacoity_Cases reported",
+    "Railways_Dacoity_Value of property stolen",
+    "Railways_Robbery_Cases reported",
+    "Railways_Robbery_Value of property stolen",
+    "Railways_Burglary_Cases reported",
+    "Railways_Burglary_Value of property stolen",
+    "Railways_Theft_Cases reported",
+    "Railways_Theft_Value of property stolen",
+    "Religious Places_Dacoity_Cases reported",
+    "Religious Places_Dacoity_Value of property stolen",
+    "Religious Places_Robbery_Cases reported",
+    "Religious Places_Robbery_Value of property stolen",
+    "Religious Places_Burglary_Cases reported",
+    "Religious Places_Burglary_Value of property stolen",
+    "Religious Places_Theft_Cases reported",
+    "Religious Places_Theft_Value of property stolen",
+    "ATM_Dacoity_Cases reported",
+    "ATM_Dacoity_Value of property stolen",
+    "ATM_Robbery_Cases reported",
+    "ATM_Robbery_Value of property stolen",
+    "ATM_Burglary_Cases reported",
+    "ATM_Burglary_Value of property stolen",
+    "ATM_Theft_Cases reported",
+    "ATM_Theft_Value of property stolen",
+    "Bank_Dacoity_Cases reported",
+    "Bank_Dacoity_Value of property stolen",
+    "Bank_Robbery_Cases reported",
+    "Bank_Robbery_Value of property stolen",
+    "Bank_Burglary_Cases reported",
+    "Bank_Burglary_Value of property stolen",
+    "Bank_Theft_Cases reported",
+    "Bank_Theft_Value of property stolen",
+    "CommEst_Dacoity_Cases reported",
+    "CommEst_Dacoity_Value of property stolen",
+    "CommEst_Robbery_Cases reported",
+    "CommEst_Robbery_Value of property stolen",
+    "CommEst_Burglary_Cases reported",
+    "CommEst_Burglary_Value of property stolen",
+    "CommEst_Theft_Cases reported",
+    "CommEst_Theft_Value of property stolen",
+    "OtherPlaces_Dacoity_Cases reported",
+    "OtherPlaces_Dacoity_Value of property stolen",
+    "OtherPlaces_Robbery_Cases reported",
+    "OtherPlaces_Robbery_Value of property stolen",
+    "OtherPlaces_Burglary_Cases reported",
+    "OtherPlaces_Burglary_Value of property stolen",
+    "OtherPlaces_Theft_Cases reported",
+    "OtherPlaces_Theft_Value of property stolen",
+    "Total_Dacoity_Cases reported",
+    "Total_Dacoity_Value of property stolen",
+    "Total_Robbery_Cases reported",
+    "Total_Robbery_Value of property stolen",
+    "Total_Burglary_Cases reported",
+    "Total_Burglary_Value of property stolen",
+    "Total_Theft_Cases reported",
+    "Total_Theft_Value of property stolen"
+  ],
+  "categorical_columns": [
+    "States/UTs"
+  ],
+  "geographic_columns": [
+    "States/UTs"
+  ],
+  "year_columns": [
+    "Year"
+  ],
+  "column_details": [
+    {
+      "column_name": "States/UTs",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 39,
+      "sample_values": [
+        "Andhra Pradesh",
+        "Arunachal Pradesh",
+        "Assam",
+        "Bihar",
+        "Chhattisgarh"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Year",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "2014"
+      ],
+      "numeric_stats": {
+        "min": 2014.0,
+        "max": 2014.0,
+        "mean": 2014.0,
+        "std": 0.0
+      },
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Residence_Dacoity_Cases reported",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 26,
+      "sample_values": [
+        "27",
+        "3",
+        "144",
+        "174",
+        "125"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1348.0,
+        "mean": 103.6923076923077,
+        "std": 295.6411546244743
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "Residence_Dacoity_Value of property stolen",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 32,
+      "sample_values": [
+        "7983001",
+        "67500",
+        "10693775",
+        "27725940",
+        "3076170"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 372535064.0,
+        "mean": 28656543.384615384,
+        "std": 82389918.64484358
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "Residence_Robbery_Cases reported",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 34,
+      "sample_values": [
+        "124",
+        "8",
+        "315",
+        "117",
+        "25"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 4251.0,
+        "mean": 327.0,
+        "std": 883.2974405153977
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "Residence_Robbery_Value of property stolen",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 37,
+      "sample_values": [
+        "10577950",
+        "86350",
+        "4191631",
+        "6558972",
+        "1137900"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 355179457.0,
+        "mean": 27321496.692307692,
+        "std": 74260940.41691265
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "Residence_Burglary_Cases reported",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 39,
+      "sample_values": [
+        "3530",
+        "103",
+        "2293",
+        "3693",
+        "1985"
+      ],
+      "numeric_stats": {
+        "min": 6.0,
+        "max": 76090.0,
+        "mean": 5853.076923076923,
+        "std": 16039.270864423614
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "Residence_Burglary_Value of property stolen",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 39,
+      "sample_values": [
+        "226363051",
+        "6637940",
+        "26376373",
+        "262152615",
+        "85802275"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 5951250547.0,
+        "mean": 457788503.61538464,
+        "std": 1244621120.8918624
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "Residence_Theft_Cases reported",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 39,
+      "sample_values": [
+        "5757",
+        "173",
+        "4503",
+        "6655",
+        "1235"
+      ],
+      "numeric_stats": {
+        "min": 8.0,
+        "max": 115829.0,
+        "mean": 8909.923076923076,
+        "std": 23390.022489789837
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "Residence_Theft_Value of property stolen",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 39,
+      "sample_values": [
+        "199348324",
+        "15422078",
+        "131897564",
+        "116467719",
+        "53896428"
+      ],
+      "numeric_stats": {
+        "min": 416300.0,
+        "max": 5836287468.0,
+        "mean": 448945189.84615386,
+        "std": 1221188624.9802384
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "Highways_Dacoity_Cases reported",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 21,
+      "sample_values": [
+        "25",
+        "2",
+        "213",
+        "5",
+        "52"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1073.0,
+        "mean": 82.53846153846153,
+        "std": 232.98507363007818
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Highways_Dacoity_Value of property stolen",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 30,
+      "sample_values": [
+        "11356187",
+        "160000",
+        "517160",
+        "59028180",
+        "154300"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 712570222.0,
+        "mean": 54813094.0,
+        "std": 146144068.54853633
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Highways_Robbery_Cases reported",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 31,
+      "sample_values": [
+        "155",
+        "23",
+        "74",
+        "1224",
+        "92"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 15208.0,
+        "mean": 1169.8461538461538,
+        "std": 3051.0319698376907
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Highways_Robbery_Value of property stolen",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 35,
+      "sample_values": [
+        "9135413",
+        "2041480",
+        "887600",
+        "57521104",
+        "2947100"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1441832456.0,
+        "mean": 110910188.92307693,
+        "std": 302247530.2231533
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Highways_Burglary_Cases reported",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 20,
+      "sample_values": [
+        "1",
+        "0",
+        "65",
+        "29",
+        "374"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 908.0,
+        "mean": 69.84615384615384,
+        "std": 206.13058437254088
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Highways_Burglary_Value of property stolen",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 25,
+      "sample_values": [
+        "65000",
+        "0",
+        "277000",
+        "1190150",
+        "10388186"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 41695079.0,
+        "mean": 3207313.769230769,
+        "std": 9204516.294742608
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Highways_Theft_Cases reported",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 34,
+      "sample_values": [
+        "2063",
+        "84",
+        "317",
+        "1849",
+        "477"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 69964.0,
+        "mean": 5381.846153846154,
+        "std": 14031.530320446278
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Highways_Theft_Value of property stolen",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 35,
+      "sample_values": [
+        "133931812",
+        "11213650",
+        "3798500",
+        "46605294",
+        "21201575"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 3692061821.0,
+        "mean": 284004755.46153843,
+        "std": 736175227.4553956
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "RiverOrSea_Dacoity_Cases reported",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "0",
+        "1"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.07692307692307693,
+        "std": 0.26995276239950855
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "RiverOrSea_Dacoity_Value of property stolen",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "0",
+        "25000"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 25000.0,
+        "mean": 1923.076923076923,
+        "std": 6748.819059987714
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "RiverOrSea_Robbery_Cases reported",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 6,
+      "sample_values": [
+        "1",
+        "0",
+        "12",
+        "4",
+        "2"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 27.0,
+        "mean": 2.076923076923077,
+        "std": 6.233967290428917
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "RiverOrSea_Robbery_Value of property stolen",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 10,
+      "sample_values": [
+        "25000",
+        "0",
+        "150000",
+        "109800",
+        "22000"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 990150.0,
+        "mean": 76165.38461538461,
+        "std": 230294.43915225883
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "RiverOrSea_Burglary_Cases reported",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 4,
+      "sample_values": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 3.0,
+        "mean": 0.23076923076923078,
+        "std": 0.7420291688669607
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "RiverOrSea_Burglary_Value of property stolen",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "0",
+        "17000"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 17000.0,
+        "mean": 1307.6923076923076,
+        "std": 4589.196960791646
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "RiverOrSea_Theft_Cases reported",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 16,
+      "sample_values": [
+        "6",
+        "0",
+        "51",
+        "1",
+        "15"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 978.0,
+        "mean": 75.23076923076923,
+        "std": 240.17553466036605
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "RiverOrSea_Theft_Value of property stolen",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 21,
+      "sample_values": [
+        "48500",
+        "0",
+        "156000",
+        "800000",
+        "1038500"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 88433183.0,
+        "mean": 6802552.538461538,
+        "std": 22336999.411017172
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Railways_Dacoity_Cases reported",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 12,
+      "sample_values": [
+        "2",
+        "0",
+        "12",
+        "3",
+        "1"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 75.0,
+        "mean": 5.769230769230769,
+        "std": 16.647208614535664
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Railways_Dacoity_Value of property stolen",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 16,
+      "sample_values": [
+        "15000",
+        "0",
+        "729832",
+        "36700",
+        "1400000"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 7425560.0,
+        "mean": 571196.9230769231,
+        "std": 1665982.9307193963
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Railways_Robbery_Cases reported",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 21,
+      "sample_values": [
+        "11",
+        "0",
+        "22",
+        "5",
+        "16"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 726.0,
+        "mean": 55.84615384615385,
+        "std": 158.72560541313172
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Railways_Robbery_Value of property stolen",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 23,
+      "sample_values": [
+        "4015320",
+        "0",
+        "343236",
+        "108860",
+        "2235910"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 39724387.0,
+        "mean": 3055722.076923077,
+        "std": 8727874.671054216
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Railways_Burglary_Cases reported",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 10,
+      "sample_values": [
+        "0",
+        "8",
+        "4",
+        "27",
+        "2"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 91.0,
+        "mean": 7.0,
+        "std": 20.752932576537606
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Railways_Burglary_Value of property stolen",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 14,
+      "sample_values": [
+        "0",
+        "31000",
+        "436700",
+        "1253000",
+        "174257"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 5630612.0,
+        "mean": 433124.0,
+        "std": 1351342.3976199408
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Railways_Theft_Cases reported",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 28,
+      "sample_values": [
+        "1499",
+        "1",
+        "12",
+        "1182",
+        "181"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 21839.0,
+        "mean": 1679.923076923077,
+        "std": 4476.735813799905
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Railways_Theft_Value of property stolen",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 31,
+      "sample_values": [
+        "57043722",
+        "35000",
+        "91000",
+        "17575022",
+        "10032481"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 827400305.0,
+        "mean": 63646177.307692304,
+        "std": 171107907.9213239
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Religious Places_Dacoity_Cases reported",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "1",
+        "0",
+        "2",
+        "3",
+        "8"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 8.0,
+        "mean": 0.6153846153846154,
+        "std": 1.844128443628369
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Religious Places_Dacoity_Value of property stolen",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 7,
+      "sample_values": [
+        "30000",
+        "0",
+        "61500",
+        "220000",
+        "162000"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 573500.0,
+        "mean": 44115.38461538462,
+        "std": 132905.80665003147
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Religious Places_Robbery_Cases reported",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 13,
+      "sample_values": [
+        "48",
+        "0",
+        "9",
+        "2",
+        "5"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 146.0,
+        "mean": 11.23076923076923,
+        "std": 31.842095225347236
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Religious Places_Robbery_Value of property stolen",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 19,
+      "sample_values": [
+        "7813627",
+        "0",
+        "35000",
+        "31100",
+        "147900"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 11920868.0,
+        "mean": 916989.8461538461,
+        "std": 2875401.4312280547
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Religious Places_Burglary_Cases reported",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 26,
+      "sample_values": [
+        "137",
+        "0",
+        "57",
+        "1",
+        "15"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1477.0,
+        "mean": 113.61538461538461,
+        "std": 323.90801288285013
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Religious Places_Burglary_Value of property stolen",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 30,
+      "sample_values": [
+        "5771775.0",
+        "0.0",
+        "11700.0",
+        "350000.0",
+        "364510.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 64323100.5,
+        "mean": 4947930.807692308,
+        "std": 14239810.611847728
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Religious Places_Theft_Cases reported",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 29,
+      "sample_values": [
+        "121",
+        "21",
+        "5",
+        "99",
+        "2"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 2506.0,
+        "mean": 192.76923076923077,
+        "std": 529.8184128616969
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Religious Places_Theft_Value of property stolen",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 32,
+      "sample_values": [
+        "4044289",
+        "969280",
+        "205000",
+        "1663235",
+        "1350"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 83986054.0,
+        "mean": 6460465.692307692,
+        "std": 18377612.460100155
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "ATM_Dacoity_Cases reported",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 4,
+      "sample_values": [
+        "0",
+        "5",
+        "1",
+        "8"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 8.0,
+        "mean": 0.6153846153846154,
+        "std": 1.9278483317635233
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "ATM_Dacoity_Value of property stolen",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 4,
+      "sample_values": [
+        "0",
+        "1475000",
+        "400000",
+        "1875000"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1875000.0,
+        "mean": 144230.76923076922,
+        "std": 474496.3236249605
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "ATM_Robbery_Cases reported",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 6,
+      "sample_values": [
+        "0",
+        "2",
+        "1",
+        "4",
+        "14"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 15.0,
+        "mean": 1.1538461538461537,
+        "std": 3.256883088075578
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "ATM_Robbery_Value of property stolen",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 12,
+      "sample_values": [
+        "0",
+        "135000",
+        "122350",
+        "1793200",
+        "1"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 2279551.0,
+        "mean": 175350.07692307694,
+        "std": 567379.9746967768
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "ATM_Burglary_Cases reported",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 16,
+      "sample_values": [
+        "11",
+        "2",
+        "0",
+        "1",
+        "3"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 222.0,
+        "mean": 17.076923076923077,
+        "std": 47.7484552604279
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "ATM_Burglary_Value of property stolen",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 20,
+      "sample_values": [
+        "1216300",
+        "50000",
+        "0",
+        "20000",
+        "361000"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 40639511.0,
+        "mean": 3126116.230769231,
+        "std": 9282277.633594185
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "ATM_Theft_Cases reported",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 22,
+      "sample_values": [
+        "57",
+        "0",
+        "97",
+        "2",
+        "9"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 602.0,
+        "mean": 46.30769230769231,
+        "std": 119.15848664392837
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "ATM_Theft_Value of property stolen",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 27,
+      "sample_values": [
+        "1565651",
+        "0",
+        "5185000",
+        "136698",
+        "1122400"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 34107579.0,
+        "mean": 2623659.923076923,
+        "std": 7259269.232425597
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Bank_Dacoity_Cases reported",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "0",
+        "8",
+        "1",
+        "9",
+        "21"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 21.0,
+        "mean": 1.6153846153846154,
+        "std": 4.945042092393811
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Bank_Dacoity_Value of property stolen",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 7,
+      "sample_values": [
+        "0",
+        "49338970",
+        "1215020",
+        "2417423",
+        "20898970"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 74641383.0,
+        "mean": 5741644.846153846,
+        "std": 18307314.279266167
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Bank_Robbery_Cases reported",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 8,
+      "sample_values": [
+        "0",
+        "1",
+        "9",
+        "4",
+        "2"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 47.0,
+        "mean": 3.6153846153846154,
+        "std": 10.429248811358887
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Bank_Robbery_Value of property stolen",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 17,
+      "sample_values": [
+        "0",
+        "4200000",
+        "914395",
+        "490359",
+        "1165100"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 21643149.0,
+        "mean": 1664857.6153846155,
+        "std": 4870343.222521626
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Bank_Burglary_Cases reported",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 18,
+      "sample_values": [
+        "4",
+        "1",
+        "0",
+        "2",
+        "7"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 324.0,
+        "mean": 24.923076923076923,
+        "std": 71.73539998728684
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Bank_Burglary_Value of property stolen",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 28,
+      "sample_values": [
+        "215000",
+        "30000",
+        "0",
+        "18000",
+        "515410"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 307619942.0,
+        "mean": 23663072.46153846,
+        "std": 71669093.66708569
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Bank_Theft_Cases reported",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 21,
+      "sample_values": [
+        "70",
+        "0",
+        "165",
+        "415",
+        "4"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1094.0,
+        "mean": 84.15384615384616,
+        "std": 242.39078261760636
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Bank_Theft_Value of property stolen",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 26,
+      "sample_values": [
+        "2597500",
+        "0",
+        "5973000",
+        "13018374",
+        "270268"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 41584380.0,
+        "mean": 3198798.4615384615,
+        "std": 9052866.773714194
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "CommEst_Dacoity_Cases reported",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 19,
+      "sample_values": [
+        "2",
+        "24",
+        "12",
+        "1",
+        "20"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 228.0,
+        "mean": 17.53846153846154,
+        "std": 49.79528943788186
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "CommEst_Dacoity_Value of property stolen",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 27,
+      "sample_values": [
+        "5656000",
+        "23500",
+        "587900",
+        "2413730",
+        "157883"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 93851654.0,
+        "mean": 7219358.0,
+        "std": 20339670.62910605
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "CommEst_Robbery_Cases reported",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 29,
+      "sample_values": [
+        "4",
+        "6",
+        "110",
+        "14",
+        "60"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1385.0,
+        "mean": 106.53846153846153,
+        "std": 281.81001869996766
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "CommEst_Robbery_Value of property stolen",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 32,
+      "sample_values": [
+        "1537200",
+        "126500",
+        "1458386",
+        "970960",
+        "698427"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 153204532.0,
+        "mean": 11784964.0,
+        "std": 33257652.28661942
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "CommEst_Burglary_Cases reported",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 38,
+      "sample_values": [
+        "453",
+        "51",
+        "647",
+        "594",
+        "275"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 16435.0,
+        "mean": 1264.2307692307693,
+        "std": 3394.2320770260467
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "CommEst_Burglary_Value of property stolen",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 38,
+      "sample_values": [
+        "58698377",
+        "3678635",
+        "5167008",
+        "11825555",
+        "11094928"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 2040929449.0,
+        "mean": 156994573.0,
+        "std": 404644723.4790241
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "CommEst_Theft_Cases reported",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 37,
+      "sample_values": [
+        "1047",
+        "61",
+        "1919",
+        "1916",
+        "728"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 32733.0,
+        "mean": 2517.923076923077,
+        "std": 6774.700126921973
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "CommEst_Theft_Value of property stolen",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 37,
+      "sample_values": [
+        "44014781",
+        "13901750",
+        "45335294",
+        "83127467",
+        "41883909"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 2879849434.0,
+        "mean": 221526879.53846154,
+        "std": 624915782.6465781
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "OtherPlaces_Dacoity_Cases reported",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 29,
+      "sample_values": [
+        "18",
+        "5",
+        "69",
+        "118",
+        "24"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1633.0,
+        "mean": 125.61538461538461,
+        "std": 362.899987337719
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "OtherPlaces_Dacoity_Value of property stolen",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 32,
+      "sample_values": [
+        "2112180",
+        "226000",
+        "3329396",
+        "11880081",
+        "907713067"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1387343109.0,
+        "mean": 106718700.6923077,
+        "std": 333268982.7295065
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "OtherPlaces_Robbery_Cases reported",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 35,
+      "sample_values": [
+        "90",
+        "23",
+        "529",
+        "200",
+        "216"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 16266.0,
+        "mean": 1251.2307692307693,
+        "std": 3473.6752829906136
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "OtherPlaces_Robbery_Value of property stolen",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 36,
+      "sample_values": [
+        "8044133",
+        "2264600",
+        "11398536",
+        "7459492",
+        "20941730"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1330057396.0,
+        "mean": 102312107.38461539,
+        "std": 286638505.24465925
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "OtherPlaces_Burglary_Cases reported",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 36,
+      "sample_values": [
+        "583",
+        "67",
+        "1892",
+        "346",
+        "588"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 19096.0,
+        "mean": 1468.923076923077,
+        "std": 3980.461050950964
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "OtherPlaces_Burglary_Value of property stolen",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 38,
+      "sample_values": [
+        "29022813",
+        "1928240",
+        "17537489",
+        "3885065",
+        "41656363"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1958569560.0,
+        "mean": 150659196.92307693,
+        "std": 434235196.7540343
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "OtherPlaces_Theft_Cases reported",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 38,
+      "sample_values": [
+        "4997",
+        "158",
+        "5981",
+        "10874",
+        "3057"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 195370.0,
+        "mean": 15028.461538461539,
+        "std": 40158.17046894636
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "OtherPlaces_Theft_Value of property stolen",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 39,
+      "sample_values": [
+        "199285711",
+        "37247470",
+        "130654964",
+        "416911296",
+        "125524854"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 12437218236.0,
+        "mean": 956709095.0769231,
+        "std": 2646961572.69601
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total_Dacoity_Cases reported",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 32,
+      "sample_values": [
+        "75",
+        "12",
+        "267",
+        "538",
+        "58"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 4395.0,
+        "mean": 338.0769230769231,
+        "std": 962.340441582953
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total_Dacoity_Value of property stolen",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 35,
+      "sample_values": [
+        "27152368",
+        "477000",
+        "16603231",
+        "151516733",
+        "911101420"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 2650840492.0,
+        "mean": 203910807.07692307,
+        "std": 581021846.1889391
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total_Robbery_Cases reported",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 36,
+      "sample_values": [
+        "433",
+        "61",
+        "1038",
+        "1600",
+        "405"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 38071.0,
+        "mean": 2928.5384615384614,
+        "std": 7822.59237164736
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total_Robbery_Value of property stolen",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 39,
+      "sample_values": [
+        "41148643",
+        "8718930",
+        "18121153",
+        "74012959",
+        "26477826"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 3356831946.0,
+        "mean": 258217842.0,
+        "std": 709318300.640698
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total_Burglary_Cases reported",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 39,
+      "sample_values": [
+        "4719",
+        "224",
+        "4954",
+        "4674",
+        "3247"
+      ],
+      "numeric_stats": {
+        "min": 10.0,
+        "max": 114646.0,
+        "mean": 8818.923076923076,
+        "std": 24038.018047497633
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total_Burglary_Value of property stolen",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 39,
+      "sample_values": [
+        "321352316.0",
+        "12324815.0",
+        "49369570.0",
+        "279472385.0",
+        "150182672.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 10410674801.0,
+        "mean": 800821138.5256411,
+        "std": 2151733963.2198133
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total_Theft_Cases reported",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 39,
+      "sample_values": [
+        "15617",
+        "498",
+        "12737",
+        "22888",
+        "6098"
+      ],
+      "numeric_stats": {
+        "min": 15.0,
+        "max": 440915.0,
+        "mean": 33916.53846153846,
+        "std": 89200.91950784215
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total_Theft_Value of property stolen",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 39,
+      "sample_values": [
+        "641880290",
+        "78789228",
+        "311982322",
+        "693664033",
+        "266495669"
+      ],
+      "numeric_stats": {
+        "min": 671897.0,
+        "max": 25924328460.0,
+        "mean": 1994179112.3076923,
+        "std": 5392086515.95508
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

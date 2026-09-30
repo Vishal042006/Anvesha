@@ -1,0 +1,406 @@
+{
+  "file_id": "FILE_022",
+  "filename": "04_02_Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2013.csv",
+  "relative_path": "04_02_Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2013.csv",
+  "file_size_bytes": 86380,
+  "dataset_category": "ARRESTS / POLICE DISPOSAL",
+  "data_grain": "state_year_crime_disposal",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "India (Includes Tamil Nadu)",
+  "detected_year": "1907-2049",
+  "row_count": 1140,
+  "column_count": 14,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [
+    "Total number of persons under trial during the year"
+  ],
+  "numeric_columns": [
+    "Persons in custody or on bail during the stage of investigation at the beginning of the year",
+    "Persons arrested during the year",
+    "Persons released or freed by Police or Magistrate before trial for want of evidence or any other reason",
+    "Persons in custody or on bail during the stage of investigation at the end of the year",
+    "Persons in whose cases charge sheets were laid during the year",
+    "Persons under trial at the beginning of the year",
+    "Total number of persons under trial during the year",
+    "Persons against whom cases were compounded or withdrawn",
+    "Persons in custody or on bail during the stage of trial at the end of the year",
+    "Persons in whose cases trials were completed during the year",
+    "Persons convicted",
+    "Persons acquitted"
+  ],
+  "categorical_columns": [
+    "STATE/UT",
+    "CRIME HEAD"
+  ],
+  "geographic_columns": [
+    "STATE/UT"
+  ],
+  "year_columns": [
+    "Persons in custody or on bail during the stage of investigation at the beginning of the year",
+    "Persons arrested during the year",
+    "Persons in custody or on bail during the stage of investigation at the end of the year",
+    "Persons in whose cases charge sheets were laid during the year",
+    "Persons under trial at the beginning of the year",
+    "Total number of persons under trial during the year",
+    "Persons in custody or on bail during the stage of trial at the end of the year",
+    "Persons in whose cases trials were completed during the year"
+  ],
+  "column_details": [
+    {
+      "column_name": "STATE/UT",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 38,
+      "sample_values": [
+        "Andhra Pradesh",
+        "Arunachal Pradesh",
+        "Assam",
+        "Bihar",
+        "Chhattisgarh"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "CRIME HEAD",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 30,
+      "sample_values": [
+        "Arson",
+        "Assault on Women wih intent to outrage her Modesty",
+        "Attempt to Commit Murder",
+        "Auto Theft",
+        "Burglary"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons in custody or on bail during the stage of investigation at the beginning of the year",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 574,
+      "sample_values": [
+        "411",
+        "9",
+        "1214",
+        "807",
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 831291.0,
+        "mean": 4676.63947368421,
+        "std": 36998.611418843604
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons arrested during the year",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 725,
+      "sample_values": [
+        "820",
+        "17",
+        "771",
+        "1342",
+        "252"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 3523577.0,
+        "mean": 19393.115789473683,
+        "std": 162632.28608084322
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons released or freed by Police or Magistrate before trial for want of evidence or any other reason",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 286,
+      "sample_values": [
+        "13",
+        "3",
+        "405",
+        "89",
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 201589.0,
+        "mean": 1160.071052631579,
+        "std": 9731.837926190368
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "Persons in custody or on bail during the stage of investigation at the end of the year",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 573,
+      "sample_values": [
+        "404",
+        "12",
+        "1205",
+        "653",
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 908156.0,
+        "mean": 5103.726315789474,
+        "std": 40234.23684719977
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons in whose cases charge sheets were laid during the year",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 710,
+      "sample_values": [
+        "814",
+        "11",
+        "375",
+        "1407",
+        "252"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 3245123.0,
+        "mean": 17805.957894736843,
+        "std": 150416.98547464664
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": true
+    },
+    {
+      "column_name": "Persons under trial at the beginning of the year",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 846,
+      "sample_values": [
+        "1878",
+        "124",
+        "1674",
+        "5821",
+        "1036"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 14415193.0,
+        "mean": 79667.56315789474,
+        "std": 658920.9241078531
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total number of persons under trial during the year",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 877,
+      "sample_values": [
+        "2692",
+        "135",
+        "2049",
+        "7228",
+        "1288"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 17660316.0,
+        "mean": 97473.52105263158,
+        "std": 807945.1906443413
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons against whom cases were compounded or withdrawn",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 262,
+      "sample_values": [
+        "87",
+        "0",
+        "188",
+        "17",
+        "28"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 357843.0,
+        "mean": 1939.678947368421,
+        "std": 17761.072426286042
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons in custody or on bail during the stage of trial at the end of the year",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 860,
+      "sample_values": [
+        "1815",
+        "135",
+        "1795",
+        "6033",
+        "979"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 15018970.0,
+        "mean": 82982.8605263158,
+        "std": 686043.7981112301
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons in whose cases trials were completed during the year",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 684,
+      "sample_values": [
+        "790",
+        "0",
+        "254",
+        "1007",
+        "292"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 2283503.0,
+        "mean": 12550.981578947369,
+        "std": 105969.7013444386
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons convicted",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 504,
+      "sample_values": [
+        "63",
+        "0",
+        "29",
+        "100",
+        "49"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 761368.0,
+        "mean": 4160.515789473684,
+        "std": 37411.16029054817
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons acquitted",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 632,
+      "sample_values": [
+        "727",
+        "0",
+        "225",
+        "907",
+        "243"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1522135.0,
+        "mean": 8390.465789473685,
+        "std": 69518.19011285371
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

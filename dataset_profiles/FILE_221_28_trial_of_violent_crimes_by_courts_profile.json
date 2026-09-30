@@ -1,0 +1,203 @@
+{
+  "file_id": "FILE_221",
+  "filename": "28_Trial_of_violent_crimes_by_courts.csv",
+  "relative_path": "anvesha_training_data/00_raw/csv/28_Trial_of_violent_crimes_by_courts.csv",
+  "file_size_bytes": 311607,
+  "dataset_category": "COURT DISPOSAL",
+  "data_grain": "state_year",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "2001-2002",
+  "row_count": 4473,
+  "column_count": 7,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [
+    "Trial_of_Violent_Crimes_by_Courts_Total"
+  ],
+  "numeric_columns": [
+    "Year",
+    "Trial_of_Violent_Crimes_by_Courts_By_Confession",
+    "Trial_of_Violent_Crimes_by_Courts_By_trial",
+    "Trial_of_Violent_Crimes_by_Courts_Total"
+  ],
+  "categorical_columns": [
+    "Area_Name",
+    "Group_Name",
+    "Sub_Group_Name"
+  ],
+  "geographic_columns": [],
+  "year_columns": [
+    "Year"
+  ],
+  "column_details": [
+    {
+      "column_name": "Area_Name",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 35,
+      "sample_values": [
+        "Andhra Pradesh",
+        "Arunachal Pradesh",
+        "Assam",
+        "Bihar",
+        "Chandigarh"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Year",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 10,
+      "sample_values": [
+        "2001",
+        "2002",
+        "2003",
+        "2004",
+        "2005"
+      ],
+      "numeric_stats": {
+        "min": 2001.0,
+        "max": 2010.0,
+        "mean": 2005.5092778895596,
+        "std": 2.861355971933227
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Group_Name",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 14,
+      "sample_values": [
+        "TVC- Arson",
+        "TVC- Attempt to Commit Murder",
+        "TVC- C.H. not Amounting to Murder",
+        "TVC- Dacoity",
+        "TVC- Dowry Deaths"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Sub_Group_Name",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 14,
+      "sample_values": [
+        "10. Arson",
+        "02. Attempt to Murder",
+        "03. C H Not Amounting to Murder",
+        "06. Dacoity",
+        "11. Dowry Deaths"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Trial_of_Violent_Crimes_by_Courts_By_Confession",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 1323,
+      "null_percentage": 29.58,
+      "unique_count": 159,
+      "sample_values": [
+        "20.0",
+        "0.0",
+        "5.0",
+        "22.0",
+        "18.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 2448.0,
+        "mean": 14.069206349206349,
+        "std": 80.81469677794654
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Trial_of_Violent_Crimes_by_Courts_By_trial",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 12,
+      "null_percentage": 0.27,
+      "unique_count": 1283,
+      "sample_values": [
+        "517.0",
+        "3.0",
+        "142.0",
+        "208.0",
+        "41.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 28292.0,
+        "mean": 660.3335574983188,
+        "std": 1947.2762967052115
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Trial_of_Violent_Crimes_by_Courts_Total",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 3,
+      "null_percentage": 0.07,
+      "unique_count": 1299,
+      "sample_values": [
+        "537.0",
+        "3.0",
+        "147.0",
+        "208.0",
+        "63.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 28321.0,
+        "mean": 668.9185682326622,
+        "std": 1956.9524984798468
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

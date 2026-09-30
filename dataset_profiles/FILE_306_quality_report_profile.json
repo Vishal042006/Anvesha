@@ -1,0 +1,179 @@
+{
+  "file_id": "FILE_306",
+  "filename": "quality_report.csv",
+  "relative_path": "anvesha_training_data/00_raw/csv/quality_report.csv",
+  "file_size_bytes": 49141,
+  "dataset_category": "GENERAL CRIME / IPC",
+  "data_grain": "unknown",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "UNKNOWN",
+  "row_count": 411,
+  "column_count": 7,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [],
+  "numeric_columns": [
+    "issue_count"
+  ],
+  "categorical_columns": [
+    "dataset_id",
+    "filename",
+    "check_name",
+    "status",
+    "details",
+    "recommendation"
+  ],
+  "geographic_columns": [],
+  "year_columns": [],
+  "column_details": [
+    {
+      "column_name": "dataset_id",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 137,
+      "sample_values": [
+        "FILE_001",
+        "FILE_002",
+        "FILE_003",
+        "FILE_004",
+        "FILE_005"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "filename",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 137,
+      "sample_values": [
+        "01_District_wise_crimes_committed_IPC_2001_2012.csv",
+        "01_District_wise_crimes_committed_IPC_2013.csv",
+        "01_District_wise_crimes_committed_IPC_2014.csv",
+        "02_01_District_wise_crimes_committed_against_SC_2001_2012.csv",
+        "02_01_District_wise_crimes_committed_against_SC_2013.csv"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "check_name",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 3,
+      "sample_values": [
+        "NEGATIVE_COUNTS_CHECK",
+        "MISSING_VALUES_CHECK",
+        "DUPLICATE_ROWS_CHECK"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "status",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 3,
+      "sample_values": [
+        "PASS",
+        "WARNING",
+        "FAIL"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "issue_count",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 29,
+      "sample_values": [
+        "0",
+        "2",
+        "121",
+        "1",
+        "3"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 25888.0,
+        "mean": 91.02189781021897,
+        "std": 1311.2217322888728
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "details",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 41,
+      "sample_values": [
+        "All numeric counts non-negative",
+        "Missing cell count: 0 (0.0%)",
+        "Duplicate row count: 0",
+        "Duplicate row count: 2",
+        "Missing cell count: 121 (0.1%)"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "recommendation",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 270,
+      "null_percentage": 65.69,
+      "unique_count": 4,
+      "sample_values": [
+        "Standard handling",
+        "Deduplicate exact matching rows prior to feature integration",
+        "Impute missing features carefully or exclude columns with >50% missing",
+        "Flag negative values as invalid/corrupted"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

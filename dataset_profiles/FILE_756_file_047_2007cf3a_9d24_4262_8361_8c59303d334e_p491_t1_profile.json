@@ -1,0 +1,164 @@
+{
+  "file_id": "FILE_756",
+  "filename": "FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p491_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p491_t1.csv",
+  "file_size_bytes": 405,
+  "dataset_category": "PROPERTY CRIME",
+  "data_grain": "state_year",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "2007-2017",
+  "row_count": 11,
+  "column_count": 5,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [
+    "Total Value of Property\nStolen (Rs. In Lakhs)",
+    "Total Value of Property\nRecovered (Rs. In Lakhs)"
+  ],
+  "numeric_columns": [
+    "S. No.",
+    "Year",
+    "Total Value of Property\nStolen (Rs. In Lakhs)",
+    "Total Value of Property\nRecovered (Rs. In Lakhs)",
+    "Percentage Recovery\n(Col.4/Col.3) * 100"
+  ],
+  "categorical_columns": [],
+  "geographic_columns": [],
+  "year_columns": [
+    "Year"
+  ],
+  "column_details": [
+    {
+      "column_name": "S. No.",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 11,
+      "sample_values": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 11.0,
+        "mean": 6.0,
+        "std": 3.3166247903554
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Year",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 11,
+      "sample_values": [
+        "2007",
+        "2008",
+        "2009",
+        "2010",
+        "2011"
+      ],
+      "numeric_stats": {
+        "min": 2007.0,
+        "max": 2017.0,
+        "mean": 2012.0,
+        "std": 3.3166247903554
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total Value of Property\nStolen (Rs. In Lakhs)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 11,
+      "sample_values": [
+        "6805",
+        "6795",
+        "8943",
+        "13179",
+        "11997"
+      ],
+      "numeric_stats": {
+        "min": 6795.0,
+        "max": 19981.0,
+        "mean": 12590.90909090909,
+        "std": 3890.3661127083
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total Value of Property\nRecovered (Rs. In Lakhs)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 11,
+      "sample_values": [
+        "4955",
+        "4952",
+        "5934",
+        "6603",
+        "6533"
+      ],
+      "numeric_stats": {
+        "min": 4952.0,
+        "max": 14697.0,
+        "mean": 8310.363636363636,
+        "std": 3011.4799774438907
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Percentage Recovery\n(Col.4/Col.3) * 100",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 11,
+      "sample_values": [
+        "72.8",
+        "72.9",
+        "66.3",
+        "50.1",
+        "54.5"
+      ],
+      "numeric_stats": {
+        "min": 50.1,
+        "max": 77.8,
+        "mean": 66.03636363636362,
+        "std": 8.43780453995857
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

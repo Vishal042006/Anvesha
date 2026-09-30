@@ -1,0 +1,226 @@
+{
+  "file_id": "FILE_926",
+  "filename": "FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p650_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p650_t1.csv",
+  "file_size_bytes": 1964,
+  "dataset_category": "GENERAL CRIME / IPC",
+  "data_grain": "state_year_crime",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "India / Multi-State",
+  "detected_year": "1935-2008",
+  "row_count": 38,
+  "column_count": 8,
+  "duplicate_rows_count": 0,
+  "constant_columns": [
+    "Cases Not\nInvestigate\nd Under\n157_1_b\nCRPC",
+    "Cases\nWithdrawn\nby the Govt\nduring\ninvestigatio\nn"
+  ],
+  "total_columns": [],
+  "numeric_columns": [
+    "Cases\nPending\nInvestigatio\nn from\nPrevious\nYear",
+    "Cases\nReported\nduring the\nyear",
+    "Cases Not\nInvestigate\nd Under\n157_1_b\nCRPC",
+    "Cases\nTransferred\nto other\nState or\nAgency",
+    "Cases\nWithdrawn\nby the Govt\nduring\ninvestigatio\nn",
+    "Cases\nEnded as\nFR Non\nCognizable"
+  ],
+  "categorical_columns": [
+    "S. No.",
+    "Crime Head"
+  ],
+  "geographic_columns": [
+    "Cases\nTransferred\nto other\nState or\nAgency"
+  ],
+  "year_columns": [
+    "Cases\nPending\nInvestigatio\nn from\nPrevious\nYear",
+    "Cases\nReported\nduring the\nyear"
+  ],
+  "column_details": [
+    {
+      "column_name": "S. No.",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 38,
+      "sample_values": [
+        "12.2",
+        "12.2.1",
+        "12.2.2",
+        "12.2.3",
+        "12.2.4"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Crime Head",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 37,
+      "sample_values": [
+        "Sexual Harassment",
+        "at Work or Office Premises",
+        "In Public Transport System",
+        "In Shelter Homes for women and Children",
+        "Other Places"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nPending\nInvestigatio\nn from\nPrevious\nYear",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 24,
+      "sample_values": [
+        "116",
+        "1",
+        "0",
+        "115",
+        "7"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 34875.0,
+        "mean": 1056.1052631578948,
+        "std": 5646.086148778729
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nReported\nduring the\nyear",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 28,
+      "sample_values": [
+        "69",
+        "8",
+        "1",
+        "0",
+        "60"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 65678.0,
+        "mean": 1962.8157894736842,
+        "std": 10639.67543412522
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases Not\nInvestigate\nd Under\n157_1_b\nCRPC",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nTransferred\nto other\nState or\nAgency",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 3,
+      "sample_values": [
+        "0",
+        "1",
+        "26"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 26.0,
+        "mean": 0.7631578947368421,
+        "std": 4.213454707124551
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nWithdrawn\nby the Govt\nduring\ninvestigatio\nn",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nEnded as\nFR Non\nCognizable",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "0",
+        "1"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.02631578947368421,
+        "std": 0.1622214211307626
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

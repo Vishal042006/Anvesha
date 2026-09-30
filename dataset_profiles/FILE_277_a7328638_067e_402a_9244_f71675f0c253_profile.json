@@ -1,0 +1,304 @@
+{
+  "file_id": "FILE_277",
+  "filename": "a7328638-067e-402a-9244-f71675f0c253.csv",
+  "relative_path": "anvesha_training_data/00_raw/csv/a7328638-067e-402a-9244-f71675f0c253.csv",
+  "file_size_bytes": 2604,
+  "dataset_category": "ROAD ACCIDENTS",
+  "data_grain": "unknown",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "UNKNOWN",
+  "row_count": 48,
+  "column_count": 11,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [],
+  "numeric_columns": [
+    "Sl. No",
+    "Death due to negligence relating to road accidents - I",
+    "Death due to negligence relating to road accidents - V",
+    "Hit and Run - I",
+    "Hit and Run - V",
+    "Other Accidents - I",
+    "Other Accidents - V"
+  ],
+  "categorical_columns": [
+    "District",
+    "Death due to negligence relating to road accidents - R",
+    "Hit and Run - R",
+    "Other Accidents - R"
+  ],
+  "geographic_columns": [
+    "District"
+  ],
+  "year_columns": [],
+  "column_details": [
+    {
+      "column_name": "Sl. No",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 1,
+      "null_percentage": 2.08,
+      "unique_count": 47,
+      "sample_values": [
+        "1.0",
+        "2.0",
+        "3.0",
+        "4.0",
+        "5.0"
+      ],
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 47.0,
+        "mean": 24.0,
+        "std": 13.711309200802088
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "District",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 48,
+      "sample_values": [
+        "Ariyalur",
+        "Chennai",
+        "Coimbatore",
+        "Coimbatore  City",
+        "Cuddalore"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Death due to negligence relating to road accidents - I",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 44,
+      "sample_values": [
+        "161",
+        "975",
+        "593",
+        "232",
+        "525"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 14747.0,
+        "mean": 614.4583333333334,
+        "std": 2092.5691219507767
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "Death due to negligence relating to road accidents - V",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 46,
+      "sample_values": [
+        "174",
+        "998",
+        "607",
+        "234",
+        "550"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 15384.0,
+        "mean": 641.0,
+        "std": 2182.905188923648
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "Death due to negligence relating to road accidents - R",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 39,
+      "sample_values": [
+        "20.1",
+        "13.5",
+        "24.1",
+        "19.3",
+        "19"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "Hit and Run - I",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 31,
+      "sample_values": [
+        "14",
+        "65",
+        "41",
+        "25",
+        "57"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1132.0,
+        "mean": 47.166666666666664,
+        "std": 161.0282561874783
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Hit and Run - V",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 32,
+      "sample_values": [
+        "14",
+        "65",
+        "41",
+        "25",
+        "57"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1150.0,
+        "mean": 47.916666666666664,
+        "std": 163.61212998434493
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Hit and Run - R",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 27,
+      "sample_values": [
+        "1.8",
+        "0.9",
+        "1.7",
+        "2.1",
+        "1.1"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Other Accidents - I",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 44,
+      "sample_values": [
+        "147",
+        "910",
+        "552",
+        "207",
+        "468"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 13615.0,
+        "mean": 567.2916666666666,
+        "std": 1932.180060310372
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "Other Accidents - V",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 45,
+      "sample_values": [
+        "160",
+        "933",
+        "566",
+        "209",
+        "493"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 14234.0,
+        "mean": 593.0833333333334,
+        "std": 2019.9413182263525
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "Other Accidents - R",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 39,
+      "sample_values": [
+        "18.4",
+        "12.6",
+        "22.4",
+        "17.3",
+        "17"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    }
+  ],
+  "notes": "Clean parse"
+}

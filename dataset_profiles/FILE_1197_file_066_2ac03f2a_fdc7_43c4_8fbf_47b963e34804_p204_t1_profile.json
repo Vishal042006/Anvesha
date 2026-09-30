@@ -1,0 +1,213 @@
+{
+  "file_id": "FILE_1197",
+  "filename": "FILE_066_2ac03f2a_fdc7_43c4_8fbf_47b963e34804_p204_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_066_2ac03f2a_fdc7_43c4_8fbf_47b963e34804_p204_t1.csv",
+  "file_size_bytes": 1747,
+  "dataset_category": "COURT DISPOSAL",
+  "data_grain": "district_year_crime_disposal",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "1971",
+  "row_count": 44,
+  "column_count": 7,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [],
+  "numeric_columns": [
+    "S.\nNo",
+    "Cases in which\nTrials were\nCompleted\n(Col.15+Col.16+\nCol.17)",
+    "Cases Disposed\noff by Courts\n(Col.11+Col.18)",
+    "Cases Pending\nTrial at End of the\nYear (Col.5 -\nCol.19)",
+    "Conviction Rate\n(Col.15/Col.18)\n*100",
+    "Pendency\nPercentage\n(Col.20/Col.5)\n*100"
+  ],
+  "categorical_columns": [
+    "Districts"
+  ],
+  "geographic_columns": [
+    "Districts"
+  ],
+  "year_columns": [
+    "Cases Pending\nTrial at End of the\nYear (Col.5 -\nCol.19)"
+  ],
+  "column_details": [
+    {
+      "column_name": "S.\nNo",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 1,
+      "null_percentage": 2.27,
+      "unique_count": 42,
+      "sample_values": [
+        "1.0",
+        "2.0",
+        "3.0",
+        "4.0",
+        "5.0"
+      ],
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 42.0,
+        "mean": 21.023255813953487,
+        "std": 12.517584530596151
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Districts",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 44,
+      "sample_values": [
+        "2",
+        "Ariyalur",
+        "Chennai",
+        "Coimbatore",
+        "Coimbatore City"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases in which\nTrials were\nCompleted\n(Col.15+Col.16+\nCol.17)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 40,
+      "sample_values": [
+        "18",
+        "32",
+        "201",
+        "69",
+        "118"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 3443.0,
+        "mean": 156.9090909090909,
+        "std": 509.44684174759215
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases Disposed\noff by Courts\n(Col.11+Col.18)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 39,
+      "sample_values": [
+        "19",
+        "35",
+        "226",
+        "69",
+        "118"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 3569.0,
+        "mean": 162.6590909090909,
+        "std": 528.1149427029414
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases Pending\nTrial at End of the\nYear (Col.5 -\nCol.19)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 43,
+      "sample_values": [
+        "20",
+        "189",
+        "1867",
+        "359",
+        "369"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 19713.0,
+        "mean": 896.5,
+        "std": 2931.475622545989
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Conviction Rate\n(Col.15/Col.18)\n*100",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 42,
+      "sample_values": [
+        "21.0",
+        "9.4",
+        "18.9",
+        "20.3",
+        "36.4"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 71.4,
+        "mean": 18.393181818181816,
+        "std": 14.38090461506399
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Pendency\nPercentage\n(Col.20/Col.5)\n*100",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 44,
+      "sample_values": [
+        "22.0",
+        "84.4",
+        "89.2",
+        "83.9",
+        "75.8"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 100.0,
+        "mean": 77.68863636363636,
+        "std": 18.13629556171554
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}
