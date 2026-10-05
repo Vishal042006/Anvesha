@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from backend.app.config import settings
 
-from backend.app.api.routes import health, forecasting, anomalies, trends, analytics, spatial, evidence, models, explain, research
+from backend.app.api.routes import health, forecasting, anomalies, trends, analytics, spatial, evidence, models, explain, research, classification, risk
 
 app = FastAPI(
     title=settings.PROJECT_NAME,
@@ -20,8 +20,10 @@ app.add_middleware(
 
 app.include_router(health.router, prefix=settings.API_V1_STR, tags=["Health"])
 app.include_router(models.router, prefix=settings.API_V1_STR, tags=["Model Registry"])
+app.include_router(classification.router, prefix=settings.API_V1_STR, tags=["Classification"])
 app.include_router(forecasting.router, prefix=settings.API_V1_STR, tags=["Forecasting"])
 app.include_router(anomalies.router, prefix=settings.API_V1_STR, tags=["Anomalies"])
+app.include_router(risk.router, prefix=settings.API_V1_STR, tags=["Risk Indication Engine"])
 app.include_router(trends.router, prefix=settings.API_V1_STR, tags=["Trends"])
 app.include_router(analytics.router, prefix=settings.API_V1_STR, tags=["District Analytics"])
 app.include_router(spatial.router, prefix=settings.API_V1_STR, tags=["Spatial Analysis"])

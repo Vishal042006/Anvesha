@@ -1,0 +1,292 @@
+{
+  "file_id": "FILE_407",
+  "filename": "FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p138_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p138_t1.csv",
+  "file_size_bytes": 1477,
+  "dataset_category": "GENERAL CRIME / IPC",
+  "data_grain": "unknown",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "2007",
+  "row_count": 43,
+  "column_count": 10,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [
+    "Total"
+  ],
+  "numeric_columns": [
+    "S. No.",
+    "Burning\n/Arson",
+    "Throttling/\nStrangulati\nng",
+    "Forcible\nHanging",
+    "Suffocating",
+    "Drowning",
+    "Crushing\nunder\nVehicle",
+    "Others",
+    "Total"
+  ],
+  "categorical_columns": [
+    "Districts"
+  ],
+  "geographic_columns": [
+    "Districts"
+  ],
+  "year_columns": [],
+  "column_details": [
+    {
+      "column_name": "S. No.",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 1,
+      "null_percentage": 2.33,
+      "unique_count": 42,
+      "sample_values": [
+        "1.0",
+        "2.0",
+        "3.0",
+        "4.0",
+        "5.0"
+      ],
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 42.0,
+        "mean": 21.5,
+        "std": 12.267844146385297
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Districts",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 43,
+      "sample_values": [
+        "Ariyalur",
+        "Chennai",
+        "Coimbatore",
+        "Coimbatore City",
+        "Cuddalore"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Burning\n/Arson",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 7,
+      "sample_values": [
+        "0",
+        "9",
+        "1",
+        "2",
+        "6"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 39.0,
+        "mean": 1.813953488372093,
+        "std": 6.064164112121104
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Throttling/\nStrangulati\nng",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 11,
+      "sample_values": [
+        "0",
+        "6",
+        "10",
+        "3",
+        "2"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 108.0,
+        "mean": 5.023255813953488,
+        "std": 16.35977699826624
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Forcible\nHanging",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 4,
+      "sample_values": [
+        "0",
+        "1",
+        "4",
+        "8"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 8.0,
+        "mean": 0.37209302325581395,
+        "std": 1.3631765391375132
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Suffocating",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 4,
+      "sample_values": [
+        "0",
+        "1",
+        "2",
+        "8"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 8.0,
+        "mean": 0.37209302325581395,
+        "std": 1.291423279323529
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Drowning",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "0",
+        "2",
+        "1",
+        "3",
+        "12"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 12.0,
+        "mean": 0.5581395348837209,
+        "std": 1.9061595094074737
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Crushing\nunder\nVehicle",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "0",
+        "1",
+        "5",
+        "2",
+        "12"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 12.0,
+        "mean": 0.5581395348837209,
+        "std": 1.979686429972895
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Others",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 17,
+      "sample_values": [
+        "0",
+        "7",
+        "4",
+        "18",
+        "5"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 248.0,
+        "mean": 11.534883720930232,
+        "std": 37.52545094250752
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 31,
+      "sample_values": [
+        "20",
+        "154",
+        "47",
+        "21",
+        "48"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1560.0,
+        "mean": 72.55813953488372,
+        "std": 233.90436612362402
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

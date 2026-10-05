@@ -1,0 +1,258 @@
+{
+  "file_id": "FILE_720",
+  "filename": "FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p457_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p457_t1.csv",
+  "file_size_bytes": 1696,
+  "dataset_category": "ARRESTS / POLICE DISPOSAL",
+  "data_grain": "unknown",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "2007",
+  "row_count": 44,
+  "column_count": 9,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [
+    "Cases Reported under Total Cyber\nCrimes",
+    "Persons Arrested under Total Cyber\nCrimes"
+  ],
+  "numeric_columns": [
+    "S.\nNo.",
+    "Cases Reported under Total Cyber\nCrimes",
+    "col_4",
+    "Persons Arrested under Total Cyber\nCrimes",
+    "col_7",
+    "Percentage\nShare of Cases\nReported under\nCyber Crimes"
+  ],
+  "categorical_columns": [
+    "Districts",
+    "col_5",
+    "col_8"
+  ],
+  "geographic_columns": [
+    "Districts"
+  ],
+  "year_columns": [],
+  "column_details": [
+    {
+      "column_name": "S.\nNo.",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 2,
+      "null_percentage": 4.55,
+      "unique_count": 42,
+      "sample_values": [
+        "1.0",
+        "2.0",
+        "3.0",
+        "4.0",
+        "5.0"
+      ],
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 42.0,
+        "mean": 21.5,
+        "std": 12.267844146385297
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Districts",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 1,
+      "null_percentage": 2.27,
+      "unique_count": 43,
+      "sample_values": [
+        "Ariyalur",
+        "Chennai",
+        "Coimbatore",
+        "Coimbatore City",
+        "Cuddalore"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases Reported under Total Cyber\nCrimes",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 14,
+      "sample_values": [
+        "2016",
+        "0",
+        "26",
+        "18",
+        "4"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 2016.0,
+        "mean": 52.36363636363637,
+        "std": 303.7152193435292
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_4",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 16,
+      "sample_values": [
+        "2017",
+        "0",
+        "52",
+        "19",
+        "1"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 2017.0,
+        "mean": 56.20454545454545,
+        "std": 304.4893994829098
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_5",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 19,
+      "sample_values": [
+        "% Variation",
+        "@",
+        "100.0",
+        "5.6",
+        "-75.0"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons Arrested under Total Cyber\nCrimes",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 13,
+      "sample_values": [
+        "2016",
+        "0",
+        "4",
+        "14",
+        "5"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 2016.0,
+        "mean": 50.18181818181818,
+        "std": 303.602193264075
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_7",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 14,
+      "sample_values": [
+        "2017",
+        "0",
+        "60",
+        "11",
+        "2"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 2017.0,
+        "mean": 55.29545454545455,
+        "std": 304.3382129898168
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_8",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 15,
+      "sample_values": [
+        "% Variation",
+        "@",
+        "1400.0",
+        "-21.4",
+        "-60.0"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Percentage\nShare of Cases\nReported under\nCyber Crimes",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 1,
+      "null_percentage": 2.27,
+      "unique_count": 15,
+      "sample_values": [
+        "0.0",
+        "22.8",
+        "8.3",
+        "0.4",
+        "1.3"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 100.0,
+        "mean": 4.6465116279069765,
+        "std": 15.516923922534348
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

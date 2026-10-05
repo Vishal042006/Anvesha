@@ -1,0 +1,259 @@
+{
+  "file_id": "FILE_1140",
+  "filename": "FILE_066_2ac03f2a_fdc7_43c4_8fbf_47b963e34804_p149_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_066_2ac03f2a_fdc7_43c4_8fbf_47b963e34804_p149_t1.csv",
+  "file_size_bytes": 1442,
+  "dataset_category": "VIOLENT CRIME",
+  "data_grain": "unknown",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "UNKNOWN",
+  "row_count": 49,
+  "column_count": 9,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [
+    "Total"
+  ],
+  "numeric_columns": [
+    "Murder",
+    "Murder for\nGain",
+    "Dacoity",
+    "Robbery",
+    "Grave Burglary",
+    "Grave Theft",
+    "Total"
+  ],
+  "categorical_columns": [
+    "S. NO",
+    "SUBDIVISION"
+  ],
+  "geographic_columns": [],
+  "year_columns": [],
+  "column_details": [
+    {
+      "column_name": "S. NO",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 43,
+      "sample_values": [
+        "38",
+        "39",
+        "40",
+        "41",
+        "TOTAL"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "SUBDIVISION",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 14,
+      "null_percentage": 28.57,
+      "unique_count": 35,
+      "sample_values": [
+        "VEDASANDUR",
+        "NILAKOTTAI",
+        "OTTANCHATRAM",
+        "PALANI",
+        "BHAVANI"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Murder",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 7,
+      "null_percentage": 14.29,
+      "unique_count": 18,
+      "sample_values": [
+        "18.0",
+        "6.0",
+        "7.0",
+        "69.0",
+        "4.0"
+      ],
+      "numeric_stats": {
+        "min": 4.0,
+        "max": 69.0,
+        "mean": 14.452380952380953,
+        "std": 16.03989292122944
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Murder for\nGain",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 7,
+      "null_percentage": 14.29,
+      "unique_count": 4,
+      "sample_values": [
+        "0.0",
+        "2.0",
+        "1.0",
+        "6.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 6.0,
+        "mean": 0.6666666666666666,
+        "std": 1.1825286397123063
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Dacoity",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 7,
+      "null_percentage": 14.29,
+      "unique_count": 8,
+      "sample_values": [
+        "1.0",
+        "0.0",
+        "5.0",
+        "4.0",
+        "2.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 10.0,
+        "mean": 1.3571428571428572,
+        "std": 2.0341166785661304
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Robbery",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 7,
+      "null_percentage": 14.29,
+      "unique_count": 27,
+      "sample_values": [
+        "5.0",
+        "7.0",
+        "4.0",
+        "30.0",
+        "0.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 119.0,
+        "mean": 18.11904761904762,
+        "std": 22.5779974710459
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Grave Burglary",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 7,
+      "null_percentage": 14.29,
+      "unique_count": 11,
+      "sample_values": [
+        "0.0",
+        "1.0",
+        "3.0",
+        "11.0",
+        "2.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 20.0,
+        "mean": 3.3333333333333335,
+        "std": 4.359831428083065
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Grave Theft",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 7,
+      "null_percentage": 14.29,
+      "unique_count": 10,
+      "sample_values": [
+        "1.0",
+        "0.0",
+        "2.0",
+        "4.0",
+        "5.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 16.0,
+        "mean": 2.119047619047619,
+        "std": 3.0778705099022443
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 7,
+      "null_percentage": 14.29,
+      "unique_count": 33,
+      "sample_values": [
+        "25.0",
+        "14.0",
+        "13.0",
+        "17.0",
+        "121.0"
+      ],
+      "numeric_stats": {
+        "min": 6.0,
+        "max": 207.0,
+        "mean": 40.04761904761905,
+        "std": 43.53633323174989
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

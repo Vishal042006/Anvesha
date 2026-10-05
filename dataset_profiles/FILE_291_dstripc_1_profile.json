@@ -1,0 +1,915 @@
+{
+  "file_id": "FILE_291",
+  "filename": "dstrIPC_1.csv",
+  "relative_path": "anvesha_training_data/00_raw/csv/dstrIPC_1.csv",
+  "file_size_bytes": 1019080,
+  "dataset_category": "CRIME AGAINST WOMEN",
+  "data_grain": "district_year_crime",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "India / Multi-State",
+  "detected_year": "2001",
+  "row_count": 9017,
+  "column_count": 33,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [
+    "TOTAL IPC CRIMES"
+  ],
+  "numeric_columns": [
+    "YEAR",
+    "MURDER",
+    "ATTEMPT TO MURDER",
+    "CULPABLE HOMICIDE NOT AMOUNTING TO MURDER",
+    "RAPE",
+    "CUSTODIAL RAPE",
+    "OTHER RAPE",
+    "KIDNAPPING & ABDUCTION",
+    "KIDNAPPING AND ABDUCTION OF WOMEN AND GIRLS",
+    "KIDNAPPING AND ABDUCTION OF OTHERS",
+    "DACOITY",
+    "PREPARATION AND ASSEMBLY FOR DACOITY",
+    "ROBBERY",
+    "BURGLARY",
+    "THEFT",
+    "AUTO THEFT",
+    "OTHER THEFT",
+    "RIOTS",
+    "CRIMINAL BREACH OF TRUST",
+    "CHEATING",
+    "COUNTERFIETING",
+    "ARSON",
+    "HURT/GREVIOUS HURT",
+    "DOWRY DEATHS",
+    "ASSAULT ON WOMEN WITH INTENT TO OUTRAGE HER MODESTY",
+    "INSULT TO MODESTY OF WOMEN",
+    "CRUELTY BY HUSBAND OR HIS RELATIVES",
+    "IMPORTATION OF GIRLS FROM FOREIGN COUNTRIES",
+    "CAUSING DEATH BY NEGLIGENCE",
+    "OTHER IPC CRIMES",
+    "TOTAL IPC CRIMES"
+  ],
+  "categorical_columns": [
+    "STATE/UT",
+    "DISTRICT"
+  ],
+  "geographic_columns": [
+    "STATE/UT",
+    "DISTRICT",
+    "AUTO THEFT",
+    "ASSAULT ON WOMEN WITH INTENT TO OUTRAGE HER MODESTY"
+  ],
+  "year_columns": [
+    "YEAR"
+  ],
+  "column_details": [
+    {
+      "column_name": "STATE/UT",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 35,
+      "sample_values": [
+        "ANDHRA PRADESH",
+        "ARUNACHAL PRADESH",
+        "ASSAM",
+        "BIHAR",
+        "CHHATTISGARH"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "DISTRICT",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 808,
+      "sample_values": [
+        "ADILABAD",
+        "ANANTAPUR",
+        "CHITTOOR",
+        "CUDDAPAH",
+        "EAST GODAVARI"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "YEAR",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 12,
+      "sample_values": [
+        "2001",
+        "2002",
+        "2003",
+        "2004",
+        "2005"
+      ],
+      "numeric_stats": {
+        "min": 2001.0,
+        "max": 2012.0,
+        "mean": 2006.6290340468006,
+        "std": 3.4636232139554894
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "MURDER",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 477,
+      "sample_values": [
+        "101",
+        "151",
+        "80",
+        "82",
+        "3"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 7601.0,
+        "mean": 89.28534989464345,
+        "std": 327.27503039262314
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "ATTEMPT TO MURDER",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 514,
+      "sample_values": [
+        "60",
+        "125",
+        "57",
+        "53",
+        "67"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 7964.0,
+        "mean": 78.0696462237995,
+        "std": 303.44602017996993
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "CULPABLE HOMICIDE NOT AMOUNTING TO MURDER",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 171,
+      "sample_values": [
+        "17",
+        "1",
+        "2",
+        "0",
+        "7"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1616.0,
+        "mean": 9.895530664300765,
+        "std": 59.52165651478651
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "RAPE",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 420,
+      "sample_values": [
+        "50",
+        "23",
+        "27",
+        "20",
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 3425.0,
+        "mean": 53.041366308084726,
+        "std": 190.74145000740626
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "CUSTODIAL RAPE",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "0",
+        "1",
+        "5",
+        "2",
+        "3"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 5.0,
+        "mean": 0.0057668847732061665,
+        "std": 0.11522330947387825
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "OTHER RAPE",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 419,
+      "sample_values": [
+        "50",
+        "23",
+        "27",
+        "20",
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 3425.0,
+        "mean": 53.035599423311524,
+        "std": 190.7254741096038
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "KIDNAPPING & ABDUCTION",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 534,
+      "sample_values": [
+        "46",
+        "53",
+        "59",
+        "25",
+        "49"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 8878.0,
+        "mean": 79.15204613507818,
+        "std": 317.63096365988065
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "KIDNAPPING AND ABDUCTION OF WOMEN AND GIRLS",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 460,
+      "sample_values": [
+        "30",
+        "34",
+        "20",
+        "26",
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 7910.0,
+        "mean": 58.53543307086614,
+        "std": 246.9374642269014
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "KIDNAPPING AND ABDUCTION OF OTHERS",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 307,
+      "sample_values": [
+        "16",
+        "23",
+        "25",
+        "5",
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 2416.0,
+        "mean": 20.616613064212043,
+        "std": 88.58641530151394
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "DACOITY",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 227,
+      "sample_values": [
+        "9",
+        "8",
+        "4",
+        "1",
+        "5"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1319.0,
+        "mean": 13.177109903515582,
+        "std": 56.778797730545904
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "PREPARATION AND ASSEMBLY FOR DACOITY",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 191,
+      "sample_values": [
+        "0",
+        "3",
+        "1",
+        "2",
+        "9"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1263.0,
+        "mean": 7.084617943883775,
+        "std": 42.350313722241786
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "ROBBERY",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 455,
+      "sample_values": [
+        "41",
+        "16",
+        "14",
+        "4",
+        "25"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 6949.0,
+        "mean": 55.066430076522124,
+        "std": 220.57687565895142
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "BURGLARY",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 922,
+      "sample_values": [
+        "198",
+        "191",
+        "237",
+        "98",
+        "437"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 16617.0,
+        "mean": 247.8294332926694,
+        "std": 941.2334259938484
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "THEFT",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1751,
+      "sample_values": [
+        "199",
+        "366",
+        "723",
+        "173",
+        "1021"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 53449.0,
+        "mean": 776.4289675058224,
+        "std": 2935.0086396487786
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "AUTO THEFT",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1114,
+      "sample_values": [
+        "22",
+        "57",
+        "164",
+        "36",
+        "150"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 22773.0,
+        "mean": 281.77220805145834,
+        "std": 1164.677927693661
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "OTHER THEFT",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1343,
+      "sample_values": [
+        "177",
+        "309",
+        "559",
+        "137",
+        "871"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 35960.0,
+        "mean": 494.65675945436396,
+        "std": 1895.3667070400934
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "RIOTS",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 804,
+      "sample_values": [
+        "78",
+        "168",
+        "156",
+        "164",
+        "70"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 11214.0,
+        "mean": 171.88133525562824,
+        "std": 685.0617831570635
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "CRIMINAL BREACH OF TRUST",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 411,
+      "sample_values": [
+        "16",
+        "11",
+        "33",
+        "12",
+        "50"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 4296.0,
+        "mean": 40.81645780192969,
+        "std": 172.0424339298299
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "CHEATING",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 824,
+      "sample_values": [
+        "104",
+        "65",
+        "209",
+        "37",
+        "220"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 19646.0,
+        "mean": 170.25551735610514,
+        "std": 743.5363648041391
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "COUNTERFIETING",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 167,
+      "sample_values": [
+        "1",
+        "8",
+        "9",
+        "2",
+        "3"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 599.0,
+        "mean": 5.92613951425086,
+        "std": 25.985903302856563
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "ARSON",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 295,
+      "sample_values": [
+        "30",
+        "69",
+        "38",
+        "23",
+        "41"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 2830.0,
+        "mean": 25.219917932793614,
+        "std": 98.88028223805222
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "HURT/GREVIOUS HURT",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1855,
+      "sample_values": [
+        "1131",
+        "1543",
+        "2088",
+        "795",
+        "1244"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 56768.0,
+        "mean": 747.8930908284352,
+        "std": 3024.1064673740616
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "DOWRY DEATHS",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 256,
+      "sample_values": [
+        "16",
+        "7",
+        "14",
+        "17",
+        "12"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 2322.0,
+        "mean": 20.228900964844183,
+        "std": 96.97046584082517
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "ASSAULT ON WOMEN WITH INTENT TO OUTRAGE HER MODESTY",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 553,
+      "sample_values": [
+        "149",
+        "118",
+        "112",
+        "126",
+        "109"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 7118.0,
+        "mean": 100.51125651547078,
+        "std": 394.05943624995996
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "INSULT TO MODESTY OF WOMEN",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 343,
+      "sample_values": [
+        "34",
+        "24",
+        "83",
+        "38",
+        "58"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 4970.0,
+        "mean": 27.515581679050683,
+        "std": 167.237521654542
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "CRUELTY BY HUSBAND OR HIS RELATIVES",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 846,
+      "sample_values": [
+        "175",
+        "154",
+        "186",
+        "57",
+        "247"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 19865.0,
+        "mean": 194.12243539980037,
+        "std": 831.9865941591921
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "IMPORTATION OF GIRLS FROM FOREIGN COUNTRIES",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 37,
+      "sample_values": [
+        "0",
+        "7",
+        "8",
+        "6",
+        "1"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 83.0,
+        "mean": 0.19784850837307308,
+        "std": 2.415038984004265
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "CAUSING DEATH BY NEGLIGENCE",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 854,
+      "sample_values": [
+        "181",
+        "270",
+        "404",
+        "233",
+        "431"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 16076.0,
+        "mean": 222.21670178551625,
+        "std": 936.0025395561314
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "OTHER IPC CRIMES",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 3173,
+      "sample_values": [
+        "1518",
+        "754",
+        "1262",
+        "1181",
+        "2313"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 124176.0,
+        "mean": 2174.2994344016856,
+        "std": 7988.438461917383
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "TOTAL IPC CRIMES",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 5010,
+      "sample_values": [
+        "4154",
+        "4125",
+        "5818",
+        "3140",
+        "6507"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 220335.0,
+        "mean": 5310.115115892204,
+        "std": 18524.381118854388
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

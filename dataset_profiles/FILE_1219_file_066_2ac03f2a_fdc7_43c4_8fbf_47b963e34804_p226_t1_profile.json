@@ -1,0 +1,336 @@
+{
+  "file_id": "FILE_1219",
+  "filename": "FILE_066_2ac03f2a_fdc7_43c4_8fbf_47b963e34804_p226_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_066_2ac03f2a_fdc7_43c4_8fbf_47b963e34804_p226_t1.csv",
+  "file_size_bytes": 2389,
+  "dataset_category": "CRIME AGAINST WOMEN",
+  "data_grain": "unknown",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "India / Multi-State",
+  "detected_year": "UNKNOWN",
+  "row_count": 45,
+  "column_count": 14,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [
+    "Total IPC Crimes Against\nChildren"
+  ],
+  "numeric_columns": [
+    "S.\nNo"
+  ],
+  "categorical_columns": [
+    "Districts",
+    "Assault on Women with\nIntent to Outrage her\nModesty (Sec. 354 IPC)",
+    "col_4",
+    "col_5",
+    "Insult to the Modesty of\nWomen (Sec. 509 IPC)",
+    "col_7",
+    "col_8",
+    "Other IPC Crimes",
+    "col_10",
+    "col_11",
+    "Total IPC Crimes Against\nChildren",
+    "col_13",
+    "col_14"
+  ],
+  "geographic_columns": [
+    "Districts",
+    "Assault on Women with\nIntent to Outrage her\nModesty (Sec. 354 IPC)"
+  ],
+  "year_columns": [],
+  "column_details": [
+    {
+      "column_name": "S.\nNo",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 2,
+      "null_percentage": 4.44,
+      "unique_count": 42,
+      "sample_values": [
+        "1.0",
+        "2.0",
+        "3.0",
+        "4.0",
+        "5.0"
+      ],
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 42.0,
+        "mean": 21.023255813953487,
+        "std": 12.517584530596151
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Districts",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 1,
+      "null_percentage": 2.22,
+      "unique_count": 44,
+      "sample_values": [
+        "2",
+        "Ariyalur",
+        "Chennai",
+        "Coimbatore",
+        "Coimbatore City"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Assault on Women with\nIntent to Outrage her\nModesty (Sec. 354 IPC)",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "I",
+        "93",
+        "0",
+        "1",
+        "3"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_4",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "V",
+        "94",
+        "0",
+        "1",
+        "3"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_5",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 4,
+      "sample_values": [
+        "R",
+        "95",
+        "0.0",
+        "0.2"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Insult to the Modesty of\nWomen (Sec. 509 IPC)",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 3,
+      "sample_values": [
+        "I",
+        "96",
+        "0"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_7",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 3,
+      "sample_values": [
+        "V",
+        "97",
+        "0"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_8",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 3,
+      "sample_values": [
+        "R",
+        "98",
+        "0.0"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Other IPC Crimes",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 20,
+      "sample_values": [
+        "I",
+        "99",
+        "28",
+        "419",
+        "0"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_10",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 23,
+      "sample_values": [
+        "V",
+        "100",
+        "41",
+        "419",
+        "0"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_11",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 18,
+      "sample_values": [
+        "R",
+        "101",
+        "3.3",
+        "4.2",
+        "0.0"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total IPC Crimes Against\nChildren",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 32,
+      "sample_values": [
+        "I",
+        "102",
+        "32",
+        "488",
+        "14"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_13",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 33,
+      "sample_values": [
+        "V",
+        "103",
+        "45",
+        "490",
+        "15"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_14",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 27,
+      "sample_values": [
+        "R",
+        "104",
+        "3.8",
+        "4.9",
+        "0.6"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

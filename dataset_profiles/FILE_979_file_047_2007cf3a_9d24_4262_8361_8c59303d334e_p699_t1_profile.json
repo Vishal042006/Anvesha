@@ -1,0 +1,240 @@
+{
+  "file_id": "FILE_979",
+  "filename": "FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p699_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p699_t1.csv",
+  "file_size_bytes": 1604,
+  "dataset_category": "COURT DISPOSAL",
+  "data_grain": "district_year_crime_disposal",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "India / Multi-State",
+  "detected_year": "1980-2086",
+  "row_count": 43,
+  "column_count": 8,
+  "duplicate_rows_count": 0,
+  "constant_columns": [
+    "Cases\nDisposed off\nby Plea\nBargaining"
+  ],
+  "total_columns": [],
+  "numeric_columns": [
+    "S. No.",
+    "Cases Pending\nTrial from the\nPrevious Year",
+    "Cases Sent for\nTrial during\nthe year",
+    "Cases Abated\nby Court",
+    "Cases\nWithdrawn\nFrom\nProsecution",
+    "Cases\nCompounded\nor\nCompromised",
+    "Cases\nDisposed off\nby Plea\nBargaining"
+  ],
+  "categorical_columns": [
+    "Districts"
+  ],
+  "geographic_columns": [
+    "Districts",
+    "Cases\nWithdrawn\nFrom\nProsecution"
+  ],
+  "year_columns": [
+    "Cases Pending\nTrial from the\nPrevious Year",
+    "Cases Sent for\nTrial during\nthe year"
+  ],
+  "column_details": [
+    {
+      "column_name": "S. No.",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 1,
+      "null_percentage": 2.33,
+      "unique_count": 42,
+      "sample_values": [
+        "1.0",
+        "2.0",
+        "3.0",
+        "4.0",
+        "5.0"
+      ],
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 42.0,
+        "mean": 21.5,
+        "std": 12.267844146385297
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Districts",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 43,
+      "sample_values": [
+        "Ariyalur",
+        "Chennai",
+        "Coimbatore",
+        "Coimbatore City",
+        "Cuddalore"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases Pending\nTrial from the\nPrevious Year",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 42,
+      "sample_values": [
+        "2411",
+        "20861",
+        "1334",
+        "1113",
+        "3970"
+      ],
+      "numeric_stats": {
+        "min": 14.0,
+        "max": 107851.0,
+        "mean": 5016.325581395349,
+        "std": 16372.018117043674
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases Sent for\nTrial during\nthe year",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 43,
+      "sample_values": [
+        "2532",
+        "6767",
+        "3933",
+        "8661",
+        "7147"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 222884.0,
+        "mean": 10366.697674418605,
+        "std": 33348.79878220424
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases Abated\nby Court",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 8,
+      "sample_values": [
+        "36",
+        "8",
+        "1",
+        "0",
+        "2"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 156.0,
+        "mean": 7.255813953488372,
+        "std": 26.405350308544357
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nWithdrawn\nFrom\nProsecution",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 7,
+      "sample_values": [
+        "0",
+        "182",
+        "2",
+        "37",
+        "1"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 2599.0,
+        "mean": 120.88372093023256,
+        "std": 530.2980837093654
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nCompounded\nor\nCompromised",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 7,
+      "sample_values": [
+        "0",
+        "2",
+        "1223",
+        "107",
+        "40"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1373.0,
+        "mean": 63.86046511627907,
+        "std": 276.8251624087588
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nDisposed off\nby Plea\nBargaining",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

@@ -1,0 +1,284 @@
+{
+  "file_id": "FILE_1122",
+  "filename": "FILE_066_2ac03f2a_fdc7_43c4_8fbf_47b963e34804_p126_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_066_2ac03f2a_fdc7_43c4_8fbf_47b963e34804_p126_t1.csv",
+  "file_size_bytes": 1509,
+  "dataset_category": "CRIME AGAINST WOMEN",
+  "data_grain": "unknown",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "India / Multi-State",
+  "detected_year": "UNKNOWN",
+  "row_count": 44,
+  "column_count": 10,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [],
+  "numeric_columns": [
+    "S.\nNo",
+    "Blind\nMurder/\nNo Clue/\nMotive\nNot\nKnown",
+    "Illicit\nRelation-\nship",
+    "Love\nAffairs",
+    "Dowry",
+    "Road\nRage",
+    "Extremism/\nNaxalism/\nInsurgency",
+    "Class\nConflict",
+    "During\nDacoity/R\nobbery"
+  ],
+  "categorical_columns": [
+    "State/UT"
+  ],
+  "geographic_columns": [
+    "State/UT"
+  ],
+  "year_columns": [],
+  "column_details": [
+    {
+      "column_name": "S.\nNo",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 1,
+      "null_percentage": 2.27,
+      "unique_count": 42,
+      "sample_values": [
+        "1.0",
+        "2.0",
+        "3.0",
+        "4.0",
+        "5.0"
+      ],
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 42.0,
+        "mean": 21.023255813953487,
+        "std": 12.517584530596151
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "State/UT",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 44,
+      "sample_values": [
+        "2",
+        "Ariyalur",
+        "Chennai",
+        "Coimbatore",
+        "Coimbatore City"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Blind\nMurder/\nNo Clue/\nMotive\nNot\nKnown",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 8,
+      "sample_values": [
+        "11",
+        "0",
+        "1",
+        "6",
+        "5"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 29.0,
+        "mean": 1.5681818181818181,
+        "std": 4.687428646391385
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Illicit\nRelation-\nship",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 16,
+      "sample_values": [
+        "12",
+        "3",
+        "28",
+        "0",
+        "4"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 211.0,
+        "mean": 9.863636363636363,
+        "std": 31.562850483683995
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Love\nAffairs",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 10,
+      "sample_values": [
+        "13",
+        "0",
+        "2",
+        "3",
+        "6"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 53.0,
+        "mean": 2.7045454545454546,
+        "std": 8.236559299301444
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Dowry",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "14",
+        "0",
+        "2",
+        "1",
+        "4"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 14.0,
+        "mean": 0.5,
+        "std": 2.194072352583682
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Road\nRage",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "15",
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 15.0,
+        "mean": 0.3409090909090909,
+        "std": 2.261335084333228
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Extremism/\nNaxalism/\nInsurgency",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "16",
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 16.0,
+        "mean": 0.36363636363636365,
+        "std": 2.412090756622108
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Class\nConflict",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 3,
+      "sample_values": [
+        "17",
+        "0",
+        "1"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 17.0,
+        "mean": 0.4318181818181818,
+        "std": 2.564495755075693
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "During\nDacoity/R\nobbery",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "18",
+        "0",
+        "1",
+        "4",
+        "5"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 18.0,
+        "mean": 0.6363636363636364,
+        "std": 2.8455670059978697
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

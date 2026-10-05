@@ -1,0 +1,274 @@
+{
+  "file_id": "FILE_1221",
+  "filename": "FILE_066_2ac03f2a_fdc7_43c4_8fbf_47b963e34804_p228_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_066_2ac03f2a_fdc7_43c4_8fbf_47b963e34804_p228_t1.csv",
+  "file_size_bytes": 2117,
+  "dataset_category": "CRIME AGAINST CHILDREN",
+  "data_grain": "unknown",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "UNKNOWN",
+  "row_count": 47,
+  "column_count": 11,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [],
+  "numeric_columns": [
+    "S.\nNo"
+  ],
+  "categorical_columns": [
+    "Districts",
+    "Protection of Children from Sexual Offences Act (POCSO) r/w Sec.376,354, 509 IPC)",
+    "col_4",
+    "col_5",
+    "col_6",
+    "col_7",
+    "col_8",
+    "col_9",
+    "col_10",
+    "col_11"
+  ],
+  "geographic_columns": [
+    "Districts"
+  ],
+  "year_columns": [],
+  "column_details": [
+    {
+      "column_name": "S.\nNo",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 4,
+      "null_percentage": 8.51,
+      "unique_count": 42,
+      "sample_values": [
+        "1.0",
+        "2.0",
+        "3.0",
+        "4.0",
+        "5.0"
+      ],
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 42.0,
+        "mean": 21.023255813953487,
+        "std": 12.517584530596151
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Districts",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 3,
+      "null_percentage": 6.38,
+      "unique_count": 44,
+      "sample_values": [
+        "2",
+        "Ariyalur",
+        "Chennai",
+        "Coimbatore",
+        "Coimbatore City"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Protection of Children from Sexual Offences Act (POCSO) r/w Sec.376,354, 509 IPC)",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 1,
+      "null_percentage": 2.13,
+      "unique_count": 28,
+      "sample_values": [
+        "Section 8 & 10 of POCSO Act or\nPOCSO Act (Section 8 & 10) r/w\nSection 354 IPC (Total)",
+        "I",
+        "117",
+        "2",
+        "66"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_4",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 2,
+      "null_percentage": 4.26,
+      "unique_count": 26,
+      "sample_values": [
+        "V",
+        "118",
+        "2",
+        "71",
+        "20"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_5",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 2,
+      "null_percentage": 4.26,
+      "unique_count": 14,
+      "sample_values": [
+        "R",
+        "119",
+        "0.2",
+        "0.7",
+        "0.4"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_6",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 28,
+      "sample_values": [
+        "Section 8 & 10 of POCSO Act or POCSO Act (Section 8 & 10) r/w Section 354\nIPC",
+        "Girls",
+        "I",
+        "120",
+        "2"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_7",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 2,
+      "null_percentage": 4.26,
+      "unique_count": 25,
+      "sample_values": [
+        "V",
+        "121",
+        "2",
+        "68",
+        "17"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_8",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 2,
+      "null_percentage": 4.26,
+      "unique_count": 13,
+      "sample_values": [
+        "R",
+        "122",
+        "0.2",
+        "0.6",
+        "0.7"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_9",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 1,
+      "null_percentage": 2.13,
+      "unique_count": 8,
+      "sample_values": [
+        "Boys",
+        "I",
+        "123",
+        "0",
+        "3"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_10",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 2,
+      "null_percentage": 4.26,
+      "unique_count": 8,
+      "sample_values": [
+        "V",
+        "124",
+        "0",
+        "3",
+        "2"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_11",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 2,
+      "null_percentage": 4.26,
+      "unique_count": 5,
+      "sample_values": [
+        "R",
+        "125",
+        "0.0",
+        "0.1",
+        "0.3"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

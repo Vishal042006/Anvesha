@@ -1,0 +1,353 @@
+{
+  "file_id": "FILE_315",
+  "filename": "tn_master_crime_dataset.csv",
+  "relative_path": "anvesha_training_data/00_raw/csv/tn_master_crime_dataset.csv",
+  "file_size_bytes": 19642384,
+  "dataset_category": "GENERAL CRIME / IPC",
+  "data_grain": "district_year_crime",
+  "source_organization": "Tamil Nadu SCRB",
+  "detected_state": "Tamil Nadu",
+  "detected_year": "2001",
+  "row_count": 87889,
+  "column_count": 14,
+  "duplicate_rows_count": 13647,
+  "constant_columns": [
+    "state",
+    "transformation_version",
+    "processing_timestamp"
+  ],
+  "total_columns": [],
+  "numeric_columns": [
+    "year",
+    "crime_count",
+    "source_year",
+    "population",
+    "crime_rate"
+  ],
+  "categorical_columns": [
+    "state",
+    "district",
+    "crime_category",
+    "crime_head_raw",
+    "source_file",
+    "source_dataset",
+    "source_organization",
+    "transformation_version",
+    "processing_timestamp"
+  ],
+  "geographic_columns": [
+    "state",
+    "district"
+  ],
+  "year_columns": [
+    "year",
+    "source_year"
+  ],
+  "column_details": [
+    {
+      "column_name": "state",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "Tamil Nadu"
+      ],
+      "numeric_stats": null,
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "district",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 86,
+      "sample_values": [
+        "ARIYALUR",
+        "CHENGAI",
+        "CHENNAI",
+        "CHENNAI RLY.",
+        "COIMBATORE RURAL"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "year",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 150,
+      "sample_values": [
+        "2001.0",
+        "2002.0",
+        "2003.0",
+        "2004.0",
+        "2005.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 109597.0,
+        "mean": 2019.674038389332,
+        "std": 2013.314863929832
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "crime_category",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 7,
+      "sample_values": [
+        "CRIME AGAINST WOMEN",
+        "CRIME AGAINST CHILDREN",
+        "ARRESTS / POLICE DISPOSAL",
+        "GENERAL CRIME / IPC",
+        "SPECIAL & LOCAL LAWS / SLL"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "crime_head_raw",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 600,
+      "sample_values": [
+        "murder",
+        "attempt_to_murder",
+        "culpable_homicide_not_amounting_to_murder",
+        "rape",
+        "custodial_rape"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "crime_count",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 3826,
+      "sample_values": [
+        "24",
+        "41",
+        "1",
+        "6",
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1182580791.0,
+        "mean": 309612.65424569626,
+        "std": 10105859.167632991
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "source_file",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 55,
+      "sample_values": [
+        "01_District_wise_crimes_committed_IPC_2001_2012.csv",
+        "01_District_wise_crimes_committed_IPC_2013.csv",
+        "01_District_wise_crimes_committed_IPC_2014.csv",
+        "02_01_District_wise_crimes_committed_against_SC_2001_2012.csv",
+        "02_01_District_wise_crimes_committed_against_SC_2013.csv"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "source_dataset",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 55,
+      "sample_values": [
+        "FILE_001",
+        "FILE_002",
+        "FILE_003",
+        "FILE_004",
+        "FILE_005"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "source_year",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 150,
+      "sample_values": [
+        "2001.0",
+        "2002.0",
+        "2003.0",
+        "2004.0",
+        "2005.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 109597.0,
+        "mean": 2019.674038389332,
+        "std": 2013.314863929832
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "source_organization",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "NCRB / MHA India",
+        "Tamil Nadu SCRB"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "transformation_version",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "v1.0.0-anvesha-training"
+      ],
+      "numeric_stats": null,
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "processing_timestamp",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "2026-09-29T23:36:04.789295"
+      ],
+      "numeric_stats": null,
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "population",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "3000000",
+        "1515000",
+        "1500150",
+        "1500001",
+        "1500000"
+      ],
+      "numeric_stats": {
+        "min": 1500000.0,
+        "max": 3000000.0,
+        "mean": 1575749.966287021,
+        "std": 326784.6951221717
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "crime_rate",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 4271,
+      "sample_values": [
+        "0.8",
+        "1.37",
+        "0.03",
+        "0.2",
+        "0.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 78838719.4,
+        "mean": 20154.477397626553,
+        "std": 668984.6110498289
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "13647 duplicate rows"
+}

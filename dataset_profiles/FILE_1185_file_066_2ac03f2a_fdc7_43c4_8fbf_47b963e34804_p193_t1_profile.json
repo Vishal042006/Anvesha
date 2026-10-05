@@ -1,0 +1,208 @@
+{
+  "file_id": "FILE_1185",
+  "filename": "FILE_066_2ac03f2a_fdc7_43c4_8fbf_47b963e34804_p193_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_066_2ac03f2a_fdc7_43c4_8fbf_47b963e34804_p193_t1.csv",
+  "file_size_bytes": 1505,
+  "dataset_category": "COURT DISPOSAL",
+  "data_grain": "state_year_crime_disposal",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "India / Multi-State",
+  "detected_year": "UNKNOWN",
+  "row_count": 34,
+  "column_count": 7,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [
+    "Total\nCases for\nTrial\n(Col.3+\nCol.4)"
+  ],
+  "numeric_columns": [
+    "Cases\nPending\nTrial from\nthe\nPrevious\nYear",
+    "Cases\nSent for\nTrial\nduring the\nyear",
+    "Total\nCases for\nTrial\n(Col.3+\nCol.4)",
+    "Cases\nAbated by\nCourt",
+    "Cases\nWith-\ndrawn\nFrom\nProse-\ncution"
+  ],
+  "categorical_columns": [
+    "S. No",
+    "Crime Head"
+  ],
+  "geographic_columns": [
+    "Cases\nWith-\ndrawn\nFrom\nProse-\ncution"
+  ],
+  "year_columns": [
+    "Cases\nPending\nTrial from\nthe\nPrevious\nYear",
+    "Cases\nSent for\nTrial\nduring the\nyear"
+  ],
+  "column_details": [
+    {
+      "column_name": "S. No",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 1,
+      "null_percentage": 2.94,
+      "unique_count": 32,
+      "sample_values": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Crime Head",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 26,
+      "sample_values": [
+        "2",
+        "Murder with Rape/Gang Rape",
+        "Dowry Deaths",
+        "Abetment to Suicide of Women",
+        "Miscarriage"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nPending\nTrial from\nthe\nPrevious\nYear",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 25,
+      "sample_values": [
+        "3",
+        "4",
+        "427",
+        "256",
+        "1"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 13032.0,
+        "mean": 1014.6470588235294,
+        "std": 2424.4584260276647
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nSent for\nTrial\nduring the\nyear",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 21,
+      "sample_values": [
+        "4",
+        "5",
+        "37",
+        "187",
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1842.0,
+        "mean": 142.58823529411765,
+        "std": 340.70089233698184
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total\nCases for\nTrial\n(Col.3+\nCol.4)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 24,
+      "sample_values": [
+        "5",
+        "9",
+        "464",
+        "443",
+        "1"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 14874.0,
+        "mean": 1157.1764705882354,
+        "std": 2763.149876615764
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nAbated by\nCourt",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 6,
+      "sample_values": [
+        "6",
+        "0",
+        "1",
+        "3",
+        "2"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 15.0,
+        "mean": 1.411764705882353,
+        "std": 2.8616338526435148
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nWith-\ndrawn\nFrom\nProse-\ncution",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "7",
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 7.0,
+        "mean": 0.20588235294117646,
+        "std": 1.2004900959975617
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

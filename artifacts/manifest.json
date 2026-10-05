@@ -1,0 +1,123 @@
+{
+  "project": "ANVESHA",
+  "version": "1.0.0-MVP",
+  "scope": "TAMIL NADU, INDIA",
+  "generated_at": "2026-10-05T18:02:27.834960",
+  "git_commit": "CANONICAL_V1_REBUILD",
+  "datasets": {
+    "primary": "NCRB Official IPC (2001-2014)",
+    "records_count": 538,
+    "reporting_units_count": 53,
+    "synthetic_fraction": 0.0
+  },
+  "canonical_models": {
+    "forecasting": [
+      {
+        "model": "3-Year Mean",
+        "mae": 724.0509683995923,
+        "rmse": 1437.9493168580495,
+        "wape": 15.218047561353162,
+        "r2": 0.7792386246562124,
+        "smape": 14.791676970372878,
+        "canonical_status": "CANONICAL_V1"
+      },
+      {
+        "model": "LSTM",
+        "mae": 4694.94296093162,
+        "rmse": 5602.0351341293945,
+        "wape": 98.67795002777578,
+        "r2": -2.350638619891196,
+        "smape": 190.64215474810925,
+        "canonical_status": "CANONICAL_V1"
+      },
+      {
+        "model": "LightGBM",
+        "mae": 494.6941011906175,
+        "rmse": 1090.1988839070912,
+        "wape": 10.397442568000177,
+        "r2": 0.8731041557206942,
+        "smape": 10.03934847490037,
+        "canonical_status": "CANONICAL_V1"
+      },
+      {
+        "model": "MLP",
+        "mae": 357.01889486050385,
+        "rmse": 796.2137182350165,
+        "wape": 7.503795671039601,
+        "r2": 0.932314561745185,
+        "smape": 11.370914734434237,
+        "canonical_status": "CANONICAL_V1"
+      },
+      {
+        "model": "Persistence",
+        "mae": 616.8837920489296,
+        "rmse": 1265.909745274294,
+        "wape": 12.965616091887533,
+        "r2": 0.8289033840931478,
+        "smape": 12.198834126438902,
+        "canonical_status": "CANONICAL_V1"
+      },
+      {
+        "model": "Random Forest",
+        "mae": 494.6941011906175,
+        "rmse": 1090.1988839070912,
+        "wape": 10.397442568000177,
+        "r2": 0.8731041557206942,
+        "smape": 10.03934847490037,
+        "canonical_status": "CANONICAL_V1"
+      },
+      {
+        "model": "Ridge",
+        "mae": 368.4449585524094,
+        "rmse": 753.5302765157227,
+        "wape": 7.743947798847413,
+        "r2": 0.9393770107741117,
+        "smape": 14.176968098836218,
+        "canonical_status": "CANONICAL_V1"
+      },
+      {
+        "model": "XGBoost",
+        "mae": 368.4449585524094,
+        "rmse": 753.5302765157227,
+        "wape": 7.743947798847413,
+        "r2": 0.9393770107741117,
+        "smape": 14.176968098836218,
+        "canonical_status": "CANONICAL_V1"
+      }
+    ],
+    "best_forecasting_model": "MLP",
+    "best_mae": 357.01889486050385,
+    "best_wape": 7.503795671039601,
+    "classification": {
+      "accuracy": 0.8787878787878788,
+      "macro_f1": 0.7767660910518053,
+      "weighted_f1": 0.8509490509490509,
+      "precision_macro": 0.8010204081632654,
+      "recall_macro": 0.7738095238095237,
+      "model_name": "LogisticRegression_TFIDF"
+    },
+    "anomaly": {
+      "model": "IsolationForest",
+      "contamination": 0.08,
+      "severity_distribution": {
+        "NORMAL": 337,
+        "WATCH": 41,
+        "SEVERE_ANOMALY": 13,
+        "ANOMALOUS": 8
+      }
+    }
+  },
+  "artifacts_manifest": [
+    "artifacts/models/classification/classifier.joblib",
+    "artifacts/models/anomaly/isolation_forest.joblib",
+    "artifacts/models/forecast/ridge.joblib",
+    "artifacts/models/forecast/random_forest.joblib",
+    "artifacts/predictions/forecast_predictions.parquet",
+    "artifacts/predictions/anomaly_results.parquet",
+    "artifacts/predictions/classification_results.parquet",
+    "artifacts/predictions/risk_indications.parquet",
+    "artifacts/metrics/model_comparison.csv",
+    "artifacts/maps/tamil_nadu_crime.geojson",
+    "artifacts/maps/police_stations.geojson"
+  ]
+}

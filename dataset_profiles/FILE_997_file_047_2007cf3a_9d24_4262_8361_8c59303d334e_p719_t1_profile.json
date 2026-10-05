@@ -1,0 +1,187 @@
+{
+  "file_id": "FILE_997",
+  "filename": "FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p719_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p719_t1.csv",
+  "file_size_bytes": 1446,
+  "dataset_category": "ARRESTS / POLICE DISPOSAL",
+  "data_grain": "unknown",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "India / Multi-State",
+  "detected_year": "2007",
+  "row_count": 43,
+  "column_count": 6,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [
+    "Total No.of\nPersons Arrested"
+  ],
+  "numeric_columns": [
+    "S. No.",
+    "Total No.of\nPersons Arrested",
+    "Persons Arrested\nfor First Time",
+    "Persons Arrested\nin the Past but\nnot Convicted",
+    "Persons Arrested\nwere Convicted\nin Past"
+  ],
+  "categorical_columns": [
+    "Districts"
+  ],
+  "geographic_columns": [
+    "Districts",
+    "Persons Arrested\nin the Past but\nnot Convicted"
+  ],
+  "year_columns": [],
+  "column_details": [
+    {
+      "column_name": "S. No.",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 1,
+      "null_percentage": 2.33,
+      "unique_count": 42,
+      "sample_values": [
+        "1.0",
+        "2.0",
+        "3.0",
+        "4.0",
+        "5.0"
+      ],
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 42.0,
+        "mean": 21.5,
+        "std": 12.267844146385297
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Districts",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 43,
+      "sample_values": [
+        "Ariyalur",
+        "Chennai",
+        "Coimbatore",
+        "Coimbatore City",
+        "Cuddalore"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total No.of\nPersons Arrested",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 43,
+      "sample_values": [
+        "15810",
+        "114003",
+        "5388",
+        "3996",
+        "11594"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 435364.0,
+        "mean": 20249.488372093023,
+        "std": 67086.90291007134
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons Arrested\nfor First Time",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 43,
+      "sample_values": [
+        "15810",
+        "106990",
+        "5388",
+        "2850",
+        "11579"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 415028.0,
+        "mean": 19303.627906976744,
+        "std": 63922.41032429686
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons Arrested\nin the Past but\nnot Convicted",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 23,
+      "sample_values": [
+        "0",
+        "5934",
+        "869",
+        "115",
+        "731"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 18378.0,
+        "mean": 854.7906976744187,
+        "std": 2928.2448388244247
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons Arrested\nwere Convicted\nin Past",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 20,
+      "sample_values": [
+        "0",
+        "1079",
+        "277",
+        "15",
+        "16"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1958.0,
+        "mean": 91.06976744186046,
+        "std": 336.50821792475887
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

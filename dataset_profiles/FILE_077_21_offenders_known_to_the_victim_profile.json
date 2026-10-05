@@ -1,0 +1,211 @@
+{
+  "file_id": "FILE_077",
+  "filename": "21_Offenders_known_to_the_victim.csv",
+  "relative_path": "21_Offenders_known_to_the_victim.csv",
+  "file_size_bytes": 11521,
+  "dataset_category": "GENERAL CRIME / IPC",
+  "data_grain": "state_year",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "2001-2010",
+  "row_count": 350,
+  "column_count": 7,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [],
+  "numeric_columns": [
+    "Year",
+    "No_of_Cases_in_which_offenders_were_known_to_the_Victims",
+    "No_of_Cases_in_which_offenders_were_Neighbours",
+    "No_of_Cases_in_which_offenders_were_Other_Known_persons",
+    "No_of_Cases_in_which_offenders_were_Parentsclose_family_members",
+    "No_of_Cases_in_which_offenders_were_Relatives"
+  ],
+  "categorical_columns": [
+    "Area_Name"
+  ],
+  "geographic_columns": [],
+  "year_columns": [
+    "Year"
+  ],
+  "column_details": [
+    {
+      "column_name": "Area_Name",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 35,
+      "sample_values": [
+        "Madhya Pradesh",
+        "West Bengal",
+        "Assam",
+        "Bihar",
+        "Uttar Pradesh"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Year",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 10,
+      "sample_values": [
+        "2007",
+        "2008",
+        "2009",
+        "2010",
+        "2003"
+      ],
+      "numeric_stats": {
+        "min": 2001.0,
+        "max": 2010.0,
+        "mean": 2005.5,
+        "std": 2.8763933959876518
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "No_of_Cases_in_which_offenders_were_known_to_the_Victims",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 248,
+      "sample_values": [
+        "3010",
+        "2937",
+        "2998",
+        "3135",
+        "2134"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 3135.0,
+        "mean": 481.29714285714283,
+        "std": 616.2856599053669
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "No_of_Cases_in_which_offenders_were_Neighbours",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 186,
+      "sample_values": [
+        "1397",
+        "1279",
+        "1254",
+        "1223",
+        "1037"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1397.0,
+        "mean": 166.39714285714285,
+        "std": 233.14838909698292
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "No_of_Cases_in_which_offenders_were_Other_Known_persons",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 222,
+      "sample_values": [
+        "1384",
+        "1433",
+        "1528",
+        "1659",
+        "987"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1677.0,
+        "mean": 270.72857142857146,
+        "std": 343.9313885659947
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "No_of_Cases_in_which_offenders_were_Parentsclose_family_members",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 55,
+      "sample_values": [
+        "49",
+        "52",
+        "14",
+        "21",
+        "4"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 301.0,
+        "mean": 12.045714285714286,
+        "std": 25.893503990678234
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "No_of_Cases_in_which_offenders_were_Relatives",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 103,
+      "sample_values": [
+        "180",
+        "173",
+        "202",
+        "232",
+        "106"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 253.0,
+        "mean": 32.12,
+        "std": 48.58003646245464
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

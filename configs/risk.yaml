@@ -1,0 +1,12 @@
+target: ANVESHA_INDICATION_LEVEL
+thresholds:
+  CRITICAL: 1.0
+  HIGH: 0.75
+  LOW: 0.25
+  MODERATE: 0.5
+version: '1.0'
+weights:
+  anomaly_score: 0.25
+  crime_rate_normalized: 0.25
+  forecast_change: 0.25
+  recent_trend: 0.25

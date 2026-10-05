@@ -14,7 +14,6 @@ import { districtApi, forecastApi, anomalyApi, trendApi, evidenceApi, geographyA
 import type { DistrictAnalyticsResponse, ForecastResponse, AnomalyResponse, TrendResponse, EvidenceSearchResponse } from '../types';
 import { ApiLoadingState, ApiErrorState } from '../components/ui/ApiStateHandlers';
 import { MapLibreView } from '../components/MapLibreView';
-import type { SectionId } from '../components/layout/Sidebar';
 
 interface ExplorePageProps {
   selectedState?: string;
@@ -25,7 +24,7 @@ interface ExplorePageProps {
   onSelectUnit: (unit: string) => void;
   onSelectCategory: (cat: string) => void;
   onSelectYear: (yr: number) => void;
-  onNavigate: (section: SectionId) => void;
+  onNavigate: (section: any) => void;
 }
 
 export const ExplorePage: React.FC<ExplorePageProps> = ({

@@ -1,0 +1,1247 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "reporting_unit": "ARIYALUR",
+        "district": "ARIYALUR",
+        "year": 2014,
+        "observed_count": 1615,
+        "crime_rate_per_100k": 107.7,
+        "trend_pct": -18.9,
+        "anomaly_status": "NORMAL",
+        "forecast_next_year": 1393,
+        "forecast_change_pct": -13.7,
+        "forecast_concern": "LOW",
+        "top_category": "PROPERTY",
+        "source_confidence": "HIGH",
+        "lat": 11.1401,
+        "lon": 79.0786
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.92859999999999,
+              10.9901
+            ],
+            [
+              79.2286,
+              10.9901
+            ],
+            [
+              79.2286,
+              11.2901
+            ],
+            [
+              78.92859999999999,
+              11.2901
+            ],
+            [
+              78.92859999999999,
+              10.9901
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "reporting_unit": "CHENNAI",
+        "district": "CHENNAI",
+        "year": 2014,
+        "observed_count": 16861,
+        "crime_rate_per_100k": 1124.1,
+        "trend_pct": -5.0,
+        "anomaly_status": "SEVERE_ANOMALY",
+        "forecast_next_year": 17738,
+        "forecast_change_pct": 5.2,
+        "forecast_concern": "HIGH",
+        "top_category": "PROPERTY",
+        "source_confidence": "HIGH",
+        "lat": 13.0827,
+        "lon": 80.2707
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.1207,
+              12.9327
+            ],
+            [
+              80.42070000000001,
+              12.9327
+            ],
+            [
+              80.42070000000001,
+              13.232700000000001
+            ],
+            [
+              80.1207,
+              13.232700000000001
+            ],
+            [
+              80.1207,
+              12.9327
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "reporting_unit": "CUDDALORE",
+        "district": "CUDDALORE",
+        "year": 2014,
+        "observed_count": 9442,
+        "crime_rate_per_100k": 629.5,
+        "trend_pct": 7.8,
+        "anomaly_status": "WATCH",
+        "forecast_next_year": 8906,
+        "forecast_change_pct": -5.7,
+        "forecast_concern": "MODERATE",
+        "top_category": "PROPERTY",
+        "source_confidence": "HIGH",
+        "lat": 11.748,
+        "lon": 79.7714
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.6214,
+              11.597999999999999
+            ],
+            [
+              79.9214,
+              11.597999999999999
+            ],
+            [
+              79.9214,
+              11.898
+            ],
+            [
+              79.6214,
+              11.898
+            ],
+            [
+              79.6214,
+              11.597999999999999
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "reporting_unit": "DHARMAPURI",
+        "district": "DHARMAPURI",
+        "year": 2014,
+        "observed_count": 4354,
+        "crime_rate_per_100k": 290.3,
+        "trend_pct": -1.4,
+        "anomaly_status": "NORMAL",
+        "forecast_next_year": 4359,
+        "forecast_change_pct": 0.1,
+        "forecast_concern": "LOW",
+        "top_category": "PROPERTY",
+        "source_confidence": "HIGH",
+        "lat": 12.1211,
+        "lon": 78.1582
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.00819999999999,
+              11.9711
+            ],
+            [
+              78.3082,
+              11.9711
+            ],
+            [
+              78.3082,
+              12.2711
+            ],
+            [
+              78.00819999999999,
+              12.2711
+            ],
+            [
+              78.00819999999999,
+              11.9711
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "reporting_unit": "DINDIGUL",
+        "district": "DINDIGUL",
+        "year": 2014,
+        "observed_count": 6250,
+        "crime_rate_per_100k": 416.7,
+        "trend_pct": 6.9,
+        "anomaly_status": "NORMAL",
+        "forecast_next_year": 6036,
+        "forecast_change_pct": -3.4,
+        "forecast_concern": "LOW",
+        "top_category": "PROPERTY",
+        "source_confidence": "HIGH",
+        "lat": 10.3673,
+        "lon": 77.9803
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.8303,
+              10.2173
+            ],
+            [
+              78.1303,
+              10.2173
+            ],
+            [
+              78.1303,
+              10.5173
+            ],
+            [
+              77.8303,
+              10.5173
+            ],
+            [
+              77.8303,
+              10.2173
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "reporting_unit": "ERODE",
+        "district": "ERODE",
+        "year": 2014,
+        "observed_count": 4370,
+        "crime_rate_per_100k": 291.3,
+        "trend_pct": 0.6,
+        "anomaly_status": "NORMAL",
+        "forecast_next_year": 4512,
+        "forecast_change_pct": 3.3,
+        "forecast_concern": "LOW",
+        "top_category": "PROPERTY",
+        "source_confidence": "HIGH",
+        "lat": 11.341,
+        "lon": 77.7172
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5672,
+              11.190999999999999
+            ],
+            [
+              77.86720000000001,
+              11.190999999999999
+            ],
+            [
+              77.86720000000001,
+              11.491
+            ],
+            [
+              77.5672,
+              11.491
+            ],
+            [
+              77.5672,
+              11.190999999999999
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "reporting_unit": "KANCHIPURAM",
+        "district": "KANCHIPURAM",
+        "year": 2014,
+        "observed_count": 8066,
+        "crime_rate_per_100k": 537.7,
+        "trend_pct": 1.1,
+        "anomaly_status": "NORMAL",
+        "forecast_next_year": 7873,
+        "forecast_change_pct": -2.4,
+        "forecast_concern": "LOW",
+        "top_category": "PROPERTY",
+        "source_confidence": "HIGH",
+        "lat": 10.8,
+        "lon": 78.7
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.55,
+              10.65
+            ],
+            [
+              78.85000000000001,
+              10.65
+            ],
+            [
+              78.85000000000001,
+              10.950000000000001
+            ],
+            [
+              78.55,
+              10.950000000000001
+            ],
+            [
+              78.55,
+              10.65
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "reporting_unit": "KANYAKUMARI",
+        "district": "KANYAKUMARI",
+        "year": 2014,
+        "observed_count": 4041,
+        "crime_rate_per_100k": 269.4,
+        "trend_pct": -3.9,
+        "anomaly_status": "NORMAL",
+        "forecast_next_year": 4151,
+        "forecast_change_pct": 2.7,
+        "forecast_concern": "LOW",
+        "top_category": "PROPERTY",
+        "source_confidence": "HIGH",
+        "lat": 8.0883,
+        "lon": 77.5385
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.3885,
+              7.9383
+            ],
+            [
+              77.6885,
+              7.9383
+            ],
+            [
+              77.6885,
+              8.2383
+            ],
+            [
+              77.3885,
+              8.2383
+            ],
+            [
+              77.3885,
+              7.9383
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "reporting_unit": "KARUR",
+        "district": "KARUR",
+        "year": 2014,
+        "observed_count": 2241,
+        "crime_rate_per_100k": 149.4,
+        "trend_pct": 11.3,
+        "anomaly_status": "NORMAL",
+        "forecast_next_year": 2426,
+        "forecast_change_pct": 8.3,
+        "forecast_concern": "LOW",
+        "top_category": "PROPERTY",
+        "source_confidence": "HIGH",
+        "lat": 10.9601,
+        "lon": 78.0766
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.9266,
+              10.8101
+            ],
+            [
+              78.2266,
+              10.8101
+            ],
+            [
+              78.2266,
+              11.110100000000001
+            ],
+            [
+              77.9266,
+              11.110100000000001
+            ],
+            [
+              77.9266,
+              10.8101
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "reporting_unit": "KRISHNAGIRI",
+        "district": "KRISHNAGIRI",
+        "year": 2014,
+        "observed_count": 5095,
+        "crime_rate_per_100k": 339.7,
+        "trend_pct": -0.1,
+        "anomaly_status": "NORMAL",
+        "forecast_next_year": 5115,
+        "forecast_change_pct": 0.4,
+        "forecast_concern": "LOW",
+        "top_category": "PROPERTY",
+        "source_confidence": "HIGH",
+        "lat": 12.5186,
+        "lon": 78.2137
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.0637,
+              12.368599999999999
+            ],
+            [
+              78.36370000000001,
+              12.368599999999999
+            ],
+            [
+              78.36370000000001,
+              12.6686
+            ],
+            [
+              78.0637,
+              12.6686
+            ],
+            [
+              78.0637,
+              12.368599999999999
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "reporting_unit": "NAGAPATTINAM",
+        "district": "NAGAPATTINAM",
+        "year": 2014,
+        "observed_count": 4386,
+        "crime_rate_per_100k": 292.4,
+        "trend_pct": 11.9,
+        "anomaly_status": "NORMAL",
+        "forecast_next_year": 4320,
+        "forecast_change_pct": -1.5,
+        "forecast_concern": "LOW",
+        "top_category": "PROPERTY",
+        "source_confidence": "HIGH",
+        "lat": 10.7672,
+        "lon": 79.8449
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.69489999999999,
+              10.6172
+            ],
+            [
+              79.9949,
+              10.6172
+            ],
+            [
+              79.9949,
+              10.917200000000001
+            ],
+            [
+              79.69489999999999,
+              10.917200000000001
+            ],
+            [
+              79.69489999999999,
+              10.6172
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "reporting_unit": "NAMAKKAL",
+        "district": "NAMAKKAL",
+        "year": 2014,
+        "observed_count": 4003,
+        "crime_rate_per_100k": 266.9,
+        "trend_pct": -2.7,
+        "anomaly_status": "NORMAL",
+        "forecast_next_year": 4086,
+        "forecast_change_pct": 2.1,
+        "forecast_concern": "LOW",
+        "top_category": "PROPERTY",
+        "source_confidence": "HIGH",
+        "lat": 11.2189,
+        "lon": 78.1674
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.0174,
+              11.0689
+            ],
+            [
+              78.3174,
+              11.0689
+            ],
+            [
+              78.3174,
+              11.3689
+            ],
+            [
+              78.0174,
+              11.3689
+            ],
+            [
+              78.0174,
+              11.0689
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "reporting_unit": "NILGIRIS",
+        "district": "NILGIRIS",
+        "year": 2014,
+        "observed_count": 1199,
+        "crime_rate_per_100k": 79.9,
+        "trend_pct": -0.3,
+        "anomaly_status": "NORMAL",
+        "forecast_next_year": 1235,
+        "forecast_change_pct": 3.0,
+        "forecast_concern": "LOW",
+        "top_category": "PROPERTY",
+        "source_confidence": "HIGH",
+        "lat": 11.4916,
+        "lon": 76.7337
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.5837,
+              11.3416
+            ],
+            [
+              76.8837,
+              11.3416
+            ],
+            [
+              76.8837,
+              11.6416
+            ],
+            [
+              76.5837,
+              11.6416
+            ],
+            [
+              76.5837,
+              11.3416
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "reporting_unit": "PERAMBALUR",
+        "district": "PERAMBALUR",
+        "year": 2014,
+        "observed_count": 1770,
+        "crime_rate_per_100k": 118.0,
+        "trend_pct": 36.2,
+        "anomaly_status": "WATCH",
+        "forecast_next_year": 2486,
+        "forecast_change_pct": 40.5,
+        "forecast_concern": "HIGH",
+        "top_category": "PROPERTY",
+        "source_confidence": "HIGH",
+        "lat": 11.2342,
+        "lon": 78.8837
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.7337,
+              11.0842
+            ],
+            [
+              79.03370000000001,
+              11.0842
+            ],
+            [
+              79.03370000000001,
+              11.3842
+            ],
+            [
+              78.7337,
+              11.3842
+            ],
+            [
+              78.7337,
+              11.0842
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "reporting_unit": "PUDUKOTTAI",
+        "district": "PUDUKOTTAI",
+        "year": 2014,
+        "observed_count": 3720,
+        "crime_rate_per_100k": 248.0,
+        "trend_pct": 10.1,
+        "anomaly_status": "NORMAL",
+        "forecast_next_year": 3752,
+        "forecast_change_pct": 0.9,
+        "forecast_concern": "LOW",
+        "top_category": "PROPERTY",
+        "source_confidence": "HIGH",
+        "lat": 10.8,
+        "lon": 78.7
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.55,
+              10.65
+            ],
+            [
+              78.85000000000001,
+              10.65
+            ],
+            [
+              78.85000000000001,
+              10.950000000000001
+            ],
+            [
+              78.55,
+              10.950000000000001
+            ],
+            [
+              78.55,
+              10.65
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "reporting_unit": "RAMNATHAPURAM",
+        "district": "RAMNATHAPURAM",
+        "year": 2014,
+        "observed_count": 3819,
+        "crime_rate_per_100k": 254.6,
+        "trend_pct": 6.6,
+        "anomaly_status": "NORMAL",
+        "forecast_next_year": 3811,
+        "forecast_change_pct": -0.2,
+        "forecast_concern": "LOW",
+        "top_category": "PROPERTY",
+        "source_confidence": "HIGH",
+        "lat": 10.8,
+        "lon": 78.7
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.55,
+              10.65
+            ],
+            [
+              78.85000000000001,
+              10.65
+            ],
+            [
+              78.85000000000001,
+              10.950000000000001
+            ],
+            [
+              78.55,
+              10.950000000000001
+            ],
+            [
+              78.55,
+              10.65
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "reporting_unit": "SIVAGANGAI",
+        "district": "SIVAGANGAI",
+        "year": 2014,
+        "observed_count": 3738,
+        "crime_rate_per_100k": 249.2,
+        "trend_pct": -0.1,
+        "anomaly_status": "NORMAL",
+        "forecast_next_year": 3714,
+        "forecast_change_pct": -0.6,
+        "forecast_concern": "LOW",
+        "top_category": "PROPERTY",
+        "source_confidence": "HIGH",
+        "lat": 9.8433,
+        "lon": 78.4809
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.3309,
+              9.693299999999999
+            ],
+            [
+              78.63090000000001,
+              9.693299999999999
+            ],
+            [
+              78.63090000000001,
+              9.9933
+            ],
+            [
+              78.3309,
+              9.9933
+            ],
+            [
+              78.3309,
+              9.693299999999999
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "reporting_unit": "THANJAVUR",
+        "district": "THANJAVUR",
+        "year": 2014,
+        "observed_count": 6225,
+        "crime_rate_per_100k": 415.0,
+        "trend_pct": -4.4,
+        "anomaly_status": "NORMAL",
+        "forecast_next_year": 6370,
+        "forecast_change_pct": 2.3,
+        "forecast_concern": "LOW",
+        "top_category": "PROPERTY",
+        "source_confidence": "HIGH",
+        "lat": 10.787,
+        "lon": 79.1378
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.9878,
+              10.637
+            ],
+            [
+              79.2878,
+              10.637
+            ],
+            [
+              79.2878,
+              10.937000000000001
+            ],
+            [
+              78.9878,
+              10.937000000000001
+            ],
+            [
+              78.9878,
+              10.637
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "reporting_unit": "THENI",
+        "district": "THENI",
+        "year": 2014,
+        "observed_count": 4554,
+        "crime_rate_per_100k": 303.6,
+        "trend_pct": 5.6,
+        "anomaly_status": "NORMAL",
+        "forecast_next_year": 4568,
+        "forecast_change_pct": 0.3,
+        "forecast_concern": "LOW",
+        "top_category": "PROPERTY",
+        "source_confidence": "HIGH",
+        "lat": 10.0104,
+        "lon": 77.4768
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.32679999999999,
+              9.8604
+            ],
+            [
+              77.6268,
+              9.8604
+            ],
+            [
+              77.6268,
+              10.160400000000001
+            ],
+            [
+              77.32679999999999,
+              10.160400000000001
+            ],
+            [
+              77.32679999999999,
+              9.8604
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "reporting_unit": "THIRUVALLUR",
+        "district": "THIRUVALLUR",
+        "year": 2014,
+        "observed_count": 4037,
+        "crime_rate_per_100k": 269.1,
+        "trend_pct": 0.8,
+        "anomaly_status": "NORMAL",
+        "forecast_next_year": 4029,
+        "forecast_change_pct": -0.2,
+        "forecast_concern": "LOW",
+        "top_category": "PROPERTY",
+        "source_confidence": "HIGH",
+        "lat": 13.1432,
+        "lon": 79.9048
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.75479999999999,
+              12.9932
+            ],
+            [
+              80.0548,
+              12.9932
+            ],
+            [
+              80.0548,
+              13.2932
+            ],
+            [
+              79.75479999999999,
+              13.2932
+            ],
+            [
+              79.75479999999999,
+              12.9932
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "reporting_unit": "THIRUVANNAMALAI",
+        "district": "THIRUVANNAMALAI",
+        "year": 2014,
+        "observed_count": 4411,
+        "crime_rate_per_100k": 294.1,
+        "trend_pct": -4.4,
+        "anomaly_status": "NORMAL",
+        "forecast_next_year": 4454,
+        "forecast_change_pct": 1.0,
+        "forecast_concern": "LOW",
+        "top_category": "PROPERTY",
+        "source_confidence": "HIGH",
+        "lat": 10.8,
+        "lon": 78.7
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.55,
+              10.65
+            ],
+            [
+              78.85000000000001,
+              10.65
+            ],
+            [
+              78.85000000000001,
+              10.950000000000001
+            ],
+            [
+              78.55,
+              10.950000000000001
+            ],
+            [
+              78.55,
+              10.65
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "reporting_unit": "THIRUVARUR",
+        "district": "THIRUVARUR",
+        "year": 2014,
+        "observed_count": 4041,
+        "crime_rate_per_100k": 269.4,
+        "trend_pct": 2.0,
+        "anomaly_status": "NORMAL",
+        "forecast_next_year": 4079,
+        "forecast_change_pct": 1.0,
+        "forecast_concern": "LOW",
+        "top_category": "PROPERTY",
+        "source_confidence": "HIGH",
+        "lat": 10.7726,
+        "lon": 79.6365
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.48649999999999,
+              10.6226
+            ],
+            [
+              79.7865,
+              10.6226
+            ],
+            [
+              79.7865,
+              10.922600000000001
+            ],
+            [
+              79.48649999999999,
+              10.922600000000001
+            ],
+            [
+              79.48649999999999,
+              10.6226
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "reporting_unit": "THOOTHUGUDI",
+        "district": "THOOTHUGUDI",
+        "year": 2014,
+        "observed_count": 5344,
+        "crime_rate_per_100k": 356.3,
+        "trend_pct": -3.2,
+        "anomaly_status": "NORMAL",
+        "forecast_next_year": 5436,
+        "forecast_change_pct": 1.7,
+        "forecast_concern": "LOW",
+        "top_category": "PROPERTY",
+        "source_confidence": "HIGH",
+        "lat": 10.8,
+        "lon": 78.7
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.55,
+              10.65
+            ],
+            [
+              78.85000000000001,
+              10.65
+            ],
+            [
+              78.85000000000001,
+              10.950000000000001
+            ],
+            [
+              78.55,
+              10.950000000000001
+            ],
+            [
+              78.55,
+              10.65
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "reporting_unit": "TIRUPPUR",
+        "district": "TIRUPPUR",
+        "year": 2014,
+        "observed_count": 6539,
+        "crime_rate_per_100k": 435.9,
+        "trend_pct": 10.9,
+        "anomaly_status": "NORMAL",
+        "forecast_next_year": 6265,
+        "forecast_change_pct": -4.2,
+        "forecast_concern": "LOW",
+        "top_category": "PROPERTY",
+        "source_confidence": "HIGH",
+        "lat": 11.1085,
+        "lon": 77.3411
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.19109999999999,
+              10.958499999999999
+            ],
+            [
+              77.4911,
+              10.958499999999999
+            ],
+            [
+              77.4911,
+              11.2585
+            ],
+            [
+              77.19109999999999,
+              11.2585
+            ],
+            [
+              77.19109999999999,
+              10.958499999999999
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "reporting_unit": "VELLORE",
+        "district": "VELLORE",
+        "year": 2014,
+        "observed_count": 10492,
+        "crime_rate_per_100k": 699.5,
+        "trend_pct": 7.0,
+        "anomaly_status": "NORMAL",
+        "forecast_next_year": 9961,
+        "forecast_change_pct": -5.1,
+        "forecast_concern": "MODERATE",
+        "top_category": "PROPERTY",
+        "source_confidence": "HIGH",
+        "lat": 12.9165,
+        "lon": 79.1325
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.98249999999999,
+              12.766499999999999
+            ],
+            [
+              79.2825,
+              12.766499999999999
+            ],
+            [
+              79.2825,
+              13.0665
+            ],
+            [
+              78.98249999999999,
+              13.0665
+            ],
+            [
+              78.98249999999999,
+              12.766499999999999
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "reporting_unit": "VILLUPURAM",
+        "district": "VILLUPURAM",
+        "year": 2014,
+        "observed_count": 9643,
+        "crime_rate_per_100k": 642.9,
+        "trend_pct": 9.6,
+        "anomaly_status": "WATCH",
+        "forecast_next_year": 9192,
+        "forecast_change_pct": -4.7,
+        "forecast_concern": "MODERATE",
+        "top_category": "PROPERTY",
+        "source_confidence": "HIGH",
+        "lat": 11.9401,
+        "lon": 79.4861
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.33609999999999,
+              11.790099999999999
+            ],
+            [
+              79.6361,
+              11.790099999999999
+            ],
+            [
+              79.6361,
+              12.0901
+            ],
+            [
+              79.33609999999999,
+              12.0901
+            ],
+            [
+              79.33609999999999,
+              11.790099999999999
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "reporting_unit": "VIRUDHUNAGAR",
+        "district": "VIRUDHUNAGAR",
+        "year": 2014,
+        "observed_count": 4285,
+        "crime_rate_per_100k": 285.7,
+        "trend_pct": -1.2,
+        "anomaly_status": "NORMAL",
+        "forecast_next_year": 4303,
+        "forecast_change_pct": 0.4,
+        "forecast_concern": "LOW",
+        "top_category": "PROPERTY",
+        "source_confidence": "HIGH",
+        "lat": 9.5872,
+        "lon": 77.9575
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.80749999999999,
+              9.437199999999999
+            ],
+            [
+              78.1075,
+              9.437199999999999
+            ],
+            [
+              78.1075,
+              9.7372
+            ],
+            [
+              77.80749999999999,
+              9.7372
+            ],
+            [
+              77.80749999999999,
+              9.437199999999999
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "file_id": "FILE_405",
+  "filename": "FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p136_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p136_t1.csv",
+  "file_size_bytes": 1332,
+  "dataset_category": "VIOLENT CRIME",
+  "data_grain": "unknown",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "India / Multi-State",
+  "detected_year": "2007",
+  "row_count": 43,
+  "column_count": 8,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [
+    "Total\nMotives of\nMurder"
+  ],
+  "numeric_columns": [
+    "S. No.",
+    "Petty\nQuarell\n/Dispute",
+    "Money\nDispute",
+    "Water\nDispute",
+    "Blind\nMurder /No\nClue/\nMotive Not\nKnown",
+    "Other\nCauses or\nMotive",
+    "Total\nMotives of\nMurder"
+  ],
+  "categorical_columns": [
+    "Districts"
+  ],
+  "geographic_columns": [
+    "Districts",
+    "Petty\nQuarell\n/Dispute",
+    "Money\nDispute",
+    "Water\nDispute"
+  ],
+  "year_columns": [],
+  "column_details": [
+    {
+      "column_name": "S. No.",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 1,
+      "null_percentage": 2.33,
+      "unique_count": 42,
+      "sample_values": [
+        "1.0",
+        "2.0",
+        "3.0",
+        "4.0",
+        "5.0"
+      ],
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 42.0,
+        "mean": 21.5,
+        "std": 12.267844146385297
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Districts",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 43,
+      "sample_values": [
+        "Ariyalur",
+        "Chennai",
+        "Coimbatore",
+        "Coimbatore City",
+        "Cuddalore"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Petty\nQuarell\n/Dispute",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 19,
+      "sample_values": [
+        "0",
+        "39",
+        "21",
+        "4",
+        "5"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 291.0,
+        "mean": 13.534883720930232,
+        "std": 44.0396730434261
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Money\nDispute",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 10,
+      "sample_values": [
+        "0",
+        "13",
+        "1",
+        "4",
+        "2"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 76.0,
+        "mean": 3.5348837209302326,
+        "std": 11.609414974820472
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Water\nDispute",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "0",
+        "1"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.046511627906976744,
+        "std": 0.21308263231644634
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Blind\nMurder /No\nClue/\nMotive Not\nKnown",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 6,
+      "sample_values": [
+        "0",
+        "3",
+        "2",
+        "1",
+        "4"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 29.0,
+        "mean": 1.3488372093023255,
+        "std": 4.4394536393260555
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Other\nCauses or\nMotive",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 9,
+      "sample_values": [
+        "1",
+        "2",
+        "0",
+        "3",
+        "4"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 74.0,
+        "mean": 3.441860465116279,
+        "std": 11.410734973994144
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total\nMotives of\nMurder",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 31,
+      "sample_values": [
+        "20",
+        "154",
+        "47",
+        "21",
+        "48"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1560.0,
+        "mean": 72.55813953488372,
+        "std": 233.90436612362402
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

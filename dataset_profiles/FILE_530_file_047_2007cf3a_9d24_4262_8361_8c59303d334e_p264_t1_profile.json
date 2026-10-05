@@ -1,0 +1,278 @@
+{
+  "file_id": "FILE_530",
+  "filename": "FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p264_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p264_t1.csv",
+  "file_size_bytes": 1431,
+  "dataset_category": "COURT DISPOSAL",
+  "data_grain": "unknown",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "India / Multi-State",
+  "detected_year": "2007",
+  "row_count": 43,
+  "column_count": 10,
+  "duplicate_rows_count": 0,
+  "constant_columns": [
+    "Offences\nagainst the\nState (Total)",
+    "Communal/Rel\nigious",
+    "Sectarian",
+    "Industrial",
+    "Political",
+    "Caste Conflict"
+  ],
+  "total_columns": [
+    "Offences\nagainst the\nState (Total)"
+  ],
+  "numeric_columns": [
+    "S.\nNo.",
+    "Offences\nagainst the\nState (Total)",
+    "Unlawful\nAssembly",
+    "Riots",
+    "Communal/Rel\nigious",
+    "Sectarian",
+    "Industrial",
+    "Political",
+    "Caste Conflict"
+  ],
+  "categorical_columns": [
+    "Districts"
+  ],
+  "geographic_columns": [
+    "Districts",
+    "Offences\nagainst the\nState (Total)"
+  ],
+  "year_columns": [],
+  "column_details": [
+    {
+      "column_name": "S.\nNo.",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 1,
+      "null_percentage": 2.33,
+      "unique_count": 42,
+      "sample_values": [
+        "1.0",
+        "2.0",
+        "3.0",
+        "4.0",
+        "5.0"
+      ],
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 42.0,
+        "mean": 21.5,
+        "std": 12.267844146385297
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Districts",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 43,
+      "sample_values": [
+        "Ariyalur",
+        "Chennai",
+        "Coimbatore",
+        "Coimbatore City",
+        "Cuddalore"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Offences\nagainst the\nState (Total)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "is_constant": true,
+      "is_total_column": true,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Unlawful\nAssembly",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "0",
+        "1",
+        "20",
+        "11",
+        "33"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 33.0,
+        "mean": 1.5348837209302326,
+        "std": 5.9974154640196495
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Riots",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 8,
+      "sample_values": [
+        "1",
+        "2",
+        "0",
+        "4",
+        "5"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 44.0,
+        "mean": 2.046511627906977,
+        "std": 7.013434347810781
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Communal/Rel\nigious",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Sectarian",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Industrial",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Political",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Caste Conflict",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

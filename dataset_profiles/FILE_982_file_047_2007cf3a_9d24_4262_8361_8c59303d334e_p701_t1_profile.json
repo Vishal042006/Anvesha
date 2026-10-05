@@ -1,0 +1,213 @@
+{
+  "file_id": "FILE_982",
+  "filename": "FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p701_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p701_t1.csv",
+  "file_size_bytes": 1814,
+  "dataset_category": "COURT DISPOSAL",
+  "data_grain": "district_year_crime_disposal",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "1946-2042",
+  "row_count": 43,
+  "column_count": 7,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [],
+  "numeric_columns": [
+    "S. No.",
+    "Cases in\nwhich Trials\nwere\nCompleted",
+    "Cases\nDisposed off\nby Courts",
+    "Cases Pending\nTrial at End of\nthe Year",
+    "Conviction\nRate",
+    "Pendency\nPercentage"
+  ],
+  "categorical_columns": [
+    "Districts"
+  ],
+  "geographic_columns": [
+    "Districts"
+  ],
+  "year_columns": [
+    "Cases Pending\nTrial at End of\nthe Year"
+  ],
+  "column_details": [
+    {
+      "column_name": "S. No.",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 1,
+      "null_percentage": 2.33,
+      "unique_count": 42,
+      "sample_values": [
+        "1.0",
+        "2.0",
+        "3.0",
+        "4.0",
+        "5.0"
+      ],
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 42.0,
+        "mean": 21.5,
+        "std": 12.267844146385297
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Districts",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 43,
+      "sample_values": [
+        "Ariyalur",
+        "Chennai",
+        "Coimbatore",
+        "Coimbatore City",
+        "Cuddalore"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases in\nwhich Trials\nwere\nCompleted",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 43,
+      "sample_values": [
+        "1641",
+        "2012",
+        "3639",
+        "8415",
+        "5288"
+      ],
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 190502.0,
+        "mean": 8860.558139534884,
+        "std": 28572.357989182758
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nDisposed off\nby Courts",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 43,
+      "sample_values": [
+        "1677",
+        "2219",
+        "3642",
+        "8453",
+        "5288"
+      ],
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 194661.0,
+        "mean": 9054.0,
+        "std": 29194.772099682177
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases Pending\nTrial at End of\nthe Year",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 43,
+      "sample_values": [
+        "3266",
+        "25409",
+        "1625",
+        "1321",
+        "5829"
+      ],
+      "numeric_stats": {
+        "min": 13.0,
+        "max": 136074.0,
+        "mean": 6329.023255813953,
+        "std": 20622.049137811293
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Conviction\nRate",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 36,
+      "sample_values": [
+        "96.6",
+        "83.3",
+        "97.2",
+        "99.3",
+        "87.4"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 100.0,
+        "mean": 90.37441860465117,
+        "std": 16.364728229062475
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Pendency\nPercentage",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 43,
+      "sample_values": [
+        "66.1",
+        "92.0",
+        "30.9",
+        "13.5",
+        "52.4"
+      ],
+      "numeric_stats": {
+        "min": 6.0,
+        "max": 92.9,
+        "mean": 41.63255813953488,
+        "std": 19.55641072495073
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

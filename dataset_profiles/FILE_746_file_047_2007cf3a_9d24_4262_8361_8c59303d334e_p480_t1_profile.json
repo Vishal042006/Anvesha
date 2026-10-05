@@ -1,0 +1,280 @@
+{
+  "file_id": "FILE_746",
+  "filename": "FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p480_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p480_t1.csv",
+  "file_size_bytes": 1161,
+  "dataset_category": "COURT DISPOSAL",
+  "data_grain": "state_year",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "2007",
+  "row_count": 22,
+  "column_count": 12,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [
+    "Total Number of\nPersons under\nTrial"
+  ],
+  "numeric_columns": [
+    "S. No."
+  ],
+  "categorical_columns": [
+    "CrimeHead",
+    "Persons Pending\nTrial From\nPrevious Years",
+    "col_4",
+    "Total Number of\nPersons under\nTrial",
+    "col_6",
+    "Persons Abated",
+    "col_8",
+    "Persons Cases\nwere Withdrawn",
+    "col_10",
+    "Persons Cases\nCompounded or\nCompromised",
+    "col_12"
+  ],
+  "geographic_columns": [],
+  "year_columns": [
+    "Persons Pending\nTrial From\nPrevious Years"
+  ],
+  "column_details": [
+    {
+      "column_name": "S. No.",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 2,
+      "null_percentage": 9.09,
+      "unique_count": 20,
+      "sample_values": [
+        "14.3",
+        "14.4",
+        "14.5",
+        "15.0",
+        "16.0"
+      ],
+      "numeric_stats": {
+        "min": 14.3,
+        "max": 29.0,
+        "mean": 20.575,
+        "std": 4.751384839679569
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "CrimeHead",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 1,
+      "null_percentage": 4.55,
+      "unique_count": 21,
+      "sample_values": [
+        "Online Banking Fraud",
+        "OTP Frauds",
+        "Others",
+        "Cheating",
+        "Forgery"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons Pending\nTrial From\nPrevious Years",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 10,
+      "sample_values": [
+        "Male",
+        "5",
+        "0",
+        "2",
+        "53"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_4",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 4,
+      "sample_values": [
+        "Female",
+        "0",
+        "2",
+        "6"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total Number of\nPersons under\nTrial",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 10,
+      "sample_values": [
+        "Male",
+        "17",
+        "0",
+        "2",
+        "64"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_6",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "Female",
+        "0",
+        "3",
+        "2",
+        "7"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons Abated",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "Male",
+        "0"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_8",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "Female",
+        "0"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons Cases\nwere Withdrawn",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 3,
+      "sample_values": [
+        "Male",
+        "0",
+        "3"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_10",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "Female",
+        "0"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons Cases\nCompounded or\nCompromised",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "Male",
+        "0"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_12",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "Female",
+        "0"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

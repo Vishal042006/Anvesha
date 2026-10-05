@@ -1,0 +1,236 @@
+{
+  "file_id": "FILE_581",
+  "filename": "FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p310_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p310_t1.csv",
+  "file_size_bytes": 1359,
+  "dataset_category": "CRIME AGAINST WOMEN",
+  "data_grain": "unknown",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "2007",
+  "row_count": 43,
+  "column_count": 8,
+  "duplicate_rows_count": 0,
+  "constant_columns": [
+    "Circulate\nFalse/Fake\nNews/Rumour\ns",
+    "Insult to the\nModesty of\nWomen"
+  ],
+  "total_columns": [
+    "Miscellaneous\nIPC\nCrimes(Total)",
+    "Total\nCognizable\nIPC crimes"
+  ],
+  "numeric_columns": [
+    "S.\nNo.",
+    "Circulate\nFalse/Fake\nNews/Rumour\ns",
+    "Criminal\nIntimidation",
+    "Insult to the\nModesty of\nWomen",
+    "Miscellaneous\nIPC\nCrimes(Total)",
+    "Other IPC\ncrimes",
+    "Total\nCognizable\nIPC crimes"
+  ],
+  "categorical_columns": [
+    "Districts"
+  ],
+  "geographic_columns": [
+    "Districts"
+  ],
+  "year_columns": [],
+  "column_details": [
+    {
+      "column_name": "S.\nNo.",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 1,
+      "null_percentage": 2.33,
+      "unique_count": 42,
+      "sample_values": [
+        "1.0",
+        "2.0",
+        "3.0",
+        "4.0",
+        "5.0"
+      ],
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 42.0,
+        "mean": 21.5,
+        "std": 12.267844146385297
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Districts",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 43,
+      "sample_values": [
+        "Ariyalur",
+        "Chennai",
+        "Coimbatore",
+        "Coimbatore City",
+        "Cuddalore"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Circulate\nFalse/Fake\nNews/Rumour\ns",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Criminal\nIntimidation",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 9,
+      "sample_values": [
+        "0",
+        "1",
+        "21",
+        "2",
+        "6"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 48.0,
+        "mean": 2.2325581395348837,
+        "std": 8.026258125090852
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "Insult to the\nModesty of\nWomen",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Miscellaneous\nIPC\nCrimes(Total)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 17,
+      "sample_values": [
+        "4",
+        "47",
+        "2",
+        "11",
+        "31"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 297.0,
+        "mean": 13.813953488372093,
+        "std": 45.66349788134599
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Other IPC\ncrimes",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 7,
+      "sample_values": [
+        "0",
+        "6",
+        "2",
+        "3",
+        "19"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 41.0,
+        "mean": 1.9069767441860466,
+        "std": 6.934434276676183
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total\nCognizable\nIPC crimes",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 33,
+      "sample_values": [
+        "13",
+        "642",
+        "12",
+        "50",
+        "51"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 2504.0,
+        "mean": 116.46511627906976,
+        "std": 387.1640078729531
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

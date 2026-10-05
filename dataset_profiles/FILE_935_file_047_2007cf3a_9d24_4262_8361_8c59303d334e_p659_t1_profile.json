@@ -1,0 +1,229 @@
+{
+  "file_id": "FILE_935",
+  "filename": "FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p659_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p659_t1.csv",
+  "file_size_bytes": 2212,
+  "dataset_category": "GENERAL CRIME / IPC",
+  "data_grain": "state_year",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "2007",
+  "row_count": 41,
+  "column_count": 8,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [
+    "Total Cases\nDisposed\nOff by\nPolice"
+  ],
+  "numeric_columns": [
+    "Total Cases\nDisposed\nOff by\nPolice",
+    "Cases\nQuashed at\nInvestigatio\nn Stage",
+    "Cases\nStayed at\nInvestigatio\nn Stage",
+    "Cases\nPending\nInvestigatio\nn at End of\nthe Year",
+    "Charge-\nsheeting\nRate",
+    "Pendency\nPercentage"
+  ],
+  "categorical_columns": [
+    "S. No.",
+    "Crime Head"
+  ],
+  "geographic_columns": [],
+  "year_columns": [
+    "Cases\nPending\nInvestigatio\nn at End of\nthe Year"
+  ],
+  "column_details": [
+    {
+      "column_name": "S. No.",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 41,
+      "sample_values": [
+        "23.6",
+        "23.7",
+        "23.8",
+        "23.9",
+        "23.10"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Crime Head",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 35,
+      "sample_values": [
+        "Agrarian",
+        "Students",
+        "Vigilants",
+        "Money Dispute",
+        "Water Dispute"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total Cases\nDisposed\nOff by\nPolice",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 35,
+      "sample_values": [
+        "57",
+        "12",
+        "0",
+        "86",
+        "19"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 12571.0,
+        "mean": 1193.3658536585365,
+        "std": 2330.3349411200265
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nQuashed at\nInvestigatio\nn Stage",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "0",
+        "2"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 2.0,
+        "mean": 0.0975609756097561,
+        "std": 0.43616957991018185
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nStayed at\nInvestigatio\nn Stage",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "0",
+        "2"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 2.0,
+        "mean": 0.0975609756097561,
+        "std": 0.43616957991018185
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nPending\nInvestigatio\nn at End of\nthe Year",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 38,
+      "sample_values": [
+        "48",
+        "11",
+        "0",
+        "59",
+        "12"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 10105.0,
+        "mean": 980.3170731707318,
+        "std": 1909.1499605717777
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Charge-\nsheeting\nRate",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 31,
+      "sample_values": [
+        "96.5",
+        "83.3",
+        "0.0",
+        "81.4",
+        "94.7"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 100.0,
+        "mean": 72.0609756097561,
+        "std": 31.13543702960327
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Pendency\nPercentage",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 37,
+      "sample_values": [
+        "45.7",
+        "47.8",
+        "0.0",
+        "40.7",
+        "38.7"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 100.0,
+        "mean": 44.556097560975616,
+        "std": 20.409483687497925
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

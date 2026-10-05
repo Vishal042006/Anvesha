@@ -1,0 +1,234 @@
+{
+  "file_id": "FILE_956",
+  "filename": "FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p678_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p678_t1.csv",
+  "file_size_bytes": 2004,
+  "dataset_category": "COURT DISPOSAL",
+  "data_grain": "state_year_crime_disposal",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "India / Multi-State",
+  "detected_year": "1984-2007",
+  "row_count": 37,
+  "column_count": 8,
+  "duplicate_rows_count": 0,
+  "constant_columns": [
+    "Cases\nDisposed\noff by Plea\nBargaining"
+  ],
+  "total_columns": [],
+  "numeric_columns": [
+    "Cases\nPending\nTrial from\nthe\nPrevious\nYear",
+    "Cases Sent\nfor Trial\nduring the\nyear",
+    "Cases\nAbated by\nCourt",
+    "Cases\nWithdrawn\nFrom\nProsecutio\nn",
+    "Cases\nCompound\ned or\nCompromis\ned",
+    "Cases\nDisposed\noff by Plea\nBargaining"
+  ],
+  "categorical_columns": [
+    "S. No.",
+    "Crime Head"
+  ],
+  "geographic_columns": [
+    "Cases\nWithdrawn\nFrom\nProsecutio\nn"
+  ],
+  "year_columns": [
+    "Cases\nPending\nTrial from\nthe\nPrevious\nYear",
+    "Cases Sent\nfor Trial\nduring the\nyear"
+  ],
+  "column_details": [
+    {
+      "column_name": "S. No.",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 1,
+      "null_percentage": 2.7,
+      "unique_count": 36,
+      "sample_values": [
+        "33",
+        "34",
+        "35",
+        "D.",
+        "36"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Crime Head",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 37,
+      "sample_values": [
+        "Criminal Misappropriation",
+        "Criminal Breach of Trust",
+        "Dishonestly Receiving/Dealing-in Stolen\nProperty",
+        "Offences against Property (Total)",
+        "Counterfeiting"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nPending\nTrial from\nthe\nPrevious\nYear",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 31,
+      "sample_values": [
+        "3",
+        "709",
+        "16",
+        "60472",
+        "267"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 350418.0,
+        "mean": 15885.0,
+        "std": 58879.5998113476
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases Sent\nfor Trial\nduring the\nyear",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 28,
+      "sample_values": [
+        "0",
+        "129",
+        "1",
+        "15430",
+        "22"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 144907.0,
+        "mean": 6904.081081081081,
+        "std": 25489.628123108312
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nAbated by\nCourt",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 11,
+      "sample_values": [
+        "0",
+        "1",
+        "112",
+        "16",
+        "7"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 494.0,
+        "mean": 20.675675675675677,
+        "std": 82.55908794919554
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nWithdrawn\nFrom\nProsecutio\nn",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 19,
+      "sample_values": [
+        "0",
+        "25",
+        "1985",
+        "2",
+        "87"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 3442.0,
+        "mean": 175.51351351351352,
+        "std": 643.7435489049632
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nCompound\ned or\nCompromis\ned",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 15,
+      "sample_values": [
+        "0",
+        "9",
+        "701",
+        "17",
+        "1"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 2960.0,
+        "mean": 159.05405405405406,
+        "std": 519.9978069369323
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nDisposed\noff by Plea\nBargaining",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

@@ -1,0 +1,242 @@
+{
+  "file_id": "FILE_631",
+  "filename": "FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p358_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p358_t1.csv",
+  "file_size_bytes": 1713,
+  "dataset_category": "COURT DISPOSAL",
+  "data_grain": "state_year",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "2007",
+  "row_count": 29,
+  "column_count": 10,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [],
+  "numeric_columns": [],
+  "categorical_columns": [
+    "S. No.",
+    "Crime Head",
+    "Persons\nDischarged",
+    "col_4",
+    "Persons\nAcquitted",
+    "col_6",
+    "Persons\nwhose Cases\nTrials were\nCompleted",
+    "col_8",
+    "Persons\nPending Trial\nat the End of\nthe Year",
+    "col_10"
+  ],
+  "geographic_columns": [],
+  "year_columns": [
+    "Persons\nPending Trial\nat the End of\nthe Year"
+  ],
+  "column_details": [
+    {
+      "column_name": "S. No.",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 1,
+      "null_percentage": 3.45,
+      "unique_count": 28,
+      "sample_values": [
+        "1A",
+        "1A.1",
+        "1A.2",
+        "1A.3",
+        "1A.4"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Crime Head",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 1,
+      "null_percentage": 3.45,
+      "unique_count": 25,
+      "sample_values": [
+        "SC/ST (Prevention of Atrocities) Act",
+        "Murder",
+        "Attempt to Commit Murder",
+        "Simple Hurt",
+        "Grievous Hurt"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons\nDischarged",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 4,
+      "sample_values": [
+        "Male",
+        "14",
+        "0",
+        "6"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_4",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "Female",
+        "0"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons\nAcquitted",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 14,
+      "sample_values": [
+        "Male",
+        "1423",
+        "43",
+        "67",
+        "385"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_6",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "Female",
+        "45",
+        "0",
+        "5",
+        "18"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons\nwhose Cases\nTrials were\nCompleted",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 14,
+      "sample_values": [
+        "Male",
+        "1609",
+        "47",
+        "70",
+        "420"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_8",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "Female",
+        "45",
+        "0",
+        "5",
+        "18"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons\nPending Trial\nat the End of\nthe Year",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 19,
+      "sample_values": [
+        "Male",
+        "5911",
+        "693",
+        "590",
+        "1393"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_10",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 6,
+      "sample_values": [
+        "Female",
+        "255",
+        "16",
+        "17",
+        "73"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

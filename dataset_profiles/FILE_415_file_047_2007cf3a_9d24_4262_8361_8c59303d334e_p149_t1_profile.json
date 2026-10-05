@@ -1,0 +1,367 @@
+{
+  "file_id": "FILE_415",
+  "filename": "FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p149_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p149_t1.csv",
+  "file_size_bytes": 2649,
+  "dataset_category": "PROPERTY CRIME",
+  "data_grain": "unknown",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "2007",
+  "row_count": 42,
+  "column_count": 15,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [],
+  "numeric_columns": [
+    "S.\nNo.",
+    "%\nVARIATION\nIN 2017\nOVER 2016"
+  ],
+  "categorical_columns": [
+    "Districts",
+    "PROPERTY CRIMES 2016",
+    "col_4",
+    "col_5",
+    "col_6",
+    "col_7",
+    "col_8",
+    "PROPERTY CRIMES 2017",
+    "col_10",
+    "col_11",
+    "col_12",
+    "col_13",
+    "col_14"
+  ],
+  "geographic_columns": [
+    "Districts"
+  ],
+  "year_columns": [],
+  "column_details": [
+    {
+      "column_name": "S.\nNo.",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 2,
+      "null_percentage": 4.76,
+      "unique_count": 40,
+      "sample_values": [
+        "1.0",
+        "2.0",
+        "3.0",
+        "4.0",
+        "5.0"
+      ],
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 40.0,
+        "mean": 20.5,
+        "std": 11.69045194450012
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Districts",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 1,
+      "null_percentage": 2.38,
+      "unique_count": 41,
+      "sample_values": [
+        "Ariyalur",
+        "Chennai",
+        "Coimbatore",
+        "Coimbatore City",
+        "Cuddalore"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "PROPERTY CRIMES 2016",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 1,
+      "null_percentage": 2.38,
+      "unique_count": 11,
+      "sample_values": [
+        "r\no\nf\nr n\ne ia\nd\nr G\nu\nM",
+        "2",
+        "7",
+        "5",
+        "4"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_4",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 12,
+      "sample_values": [
+        "y\nt\nio\nc\na\nD",
+        "0",
+        "11",
+        "4",
+        "1"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_5",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 36,
+      "sample_values": [
+        "y\nr\ne\nb\nb\no\nR",
+        "10",
+        "103",
+        "76",
+        "87"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_6",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 37,
+      "sample_values": [
+        "y\nr\na\nlg\nr\nu\nB",
+        "16",
+        "541",
+        "97",
+        "121"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_7",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 40,
+      "sample_values": [
+        "t\nf\ne\nh\nT",
+        "40",
+        "3070",
+        "206",
+        "472"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_8",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 41,
+      "sample_values": [
+        "la\nt\no\nT",
+        "68",
+        "3732",
+        "388",
+        "683"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "PROPERTY CRIMES 2017",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 10,
+      "sample_values": [
+        "r\no\nf\nr n\ne ia\nd\nr G\nu\nM",
+        "2",
+        "10",
+        "0",
+        "3"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_10",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 11,
+      "sample_values": [
+        "y\nt\nio\nc\na\nD",
+        "4",
+        "8",
+        "1",
+        "0"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_11",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 36,
+      "sample_values": [
+        "y\nr\ne\nb\nb\no\nR",
+        "13",
+        "155",
+        "73",
+        "93"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_12",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 40,
+      "sample_values": [
+        "y\nr\na\nlg\nr\nu\nB",
+        "29",
+        "712",
+        "144",
+        "104"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_13",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 42,
+      "sample_values": [
+        "t\nf\ne\nh\nT",
+        "22",
+        "4158",
+        "207",
+        "449"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_14",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 41,
+      "sample_values": [
+        "la\nt\no\nT",
+        "70",
+        "5043",
+        "425",
+        "646"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "%\nVARIATION\nIN 2017\nOVER 2016",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 1,
+      "null_percentage": 2.38,
+      "unique_count": 41,
+      "sample_values": [
+        "2.9",
+        "35.1",
+        "9.5",
+        "-5.4",
+        "-12.6"
+      ],
+      "numeric_stats": {
+        "min": -17.6,
+        "max": 270.9,
+        "mean": 22.50487804878049,
+        "std": 60.378307160848394
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

@@ -1,0 +1,179 @@
+{
+  "file_id": "FILE_064",
+  "filename": "18_04_Juveniles_arrested_Recidivism.csv",
+  "relative_path": "18_04_Juveniles_arrested_Recidivism.csv",
+  "file_size_bytes": 14493,
+  "dataset_category": "ARRESTS / POLICE DISPOSAL",
+  "data_grain": "state_year",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "2001-2002",
+  "row_count": 350,
+  "column_count": 6,
+  "duplicate_rows_count": 0,
+  "constant_columns": [
+    "Sub_Group_Name"
+  ],
+  "total_columns": [
+    "Recidivism_Total"
+  ],
+  "numeric_columns": [
+    "Year",
+    "Recidivism_New_Delinquent",
+    "Recidivism_Old_Delinquent",
+    "Recidivism_Total"
+  ],
+  "categorical_columns": [
+    "Area_Name",
+    "Sub_Group_Name"
+  ],
+  "geographic_columns": [],
+  "year_columns": [
+    "Year"
+  ],
+  "column_details": [
+    {
+      "column_name": "Area_Name",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 35,
+      "sample_values": [
+        "Andaman & Nicobar Islands",
+        "Andhra Pradesh",
+        "Arunachal Pradesh",
+        "Assam",
+        "Bihar"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Year",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 10,
+      "sample_values": [
+        "2001",
+        "2002",
+        "2003",
+        "2004",
+        "2005"
+      ],
+      "numeric_stats": {
+        "min": 2001.0,
+        "max": 2010.0,
+        "mean": 2005.5,
+        "std": 2.8763933959876518
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Sub_Group_Name",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "4. Recidivism"
+      ],
+      "numeric_stats": null,
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Recidivism_New_Delinquent",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 257,
+      "sample_values": [
+        "16",
+        "1392",
+        "130",
+        "248",
+        "576"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 7167.0,
+        "mean": 849.8542857142858,
+        "std": 1515.0011655820942
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "Recidivism_Old_Delinquent",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 130,
+      "sample_values": [
+        "0",
+        "173",
+        "7",
+        "5",
+        "10"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 3512.0,
+        "mean": 97.21714285714286,
+        "std": 266.8774844050313
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "Recidivism_Total",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 256,
+      "sample_values": [
+        "16",
+        "1565",
+        "137",
+        "253",
+        "586"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 8536.0,
+        "mean": 947.0714285714286,
+        "std": 1684.668449788944
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    }
+  ],
+  "notes": "Clean parse"
+}

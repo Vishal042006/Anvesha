@@ -1,0 +1,614 @@
+{
+  "file_id": "FILE_239",
+  "filename": "42_Cases_under_crime_against_women.csv",
+  "relative_path": "anvesha_training_data/00_raw/csv/42_Cases_under_crime_against_women.csv",
+  "file_size_bytes": 501781,
+  "dataset_category": "CRIME AGAINST WOMEN",
+  "data_grain": "document_level",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "UNKNOWN",
+  "row_count": 2765,
+  "column_count": 22,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [
+    "Total_Cases_for_Trial"
+  ],
+  "numeric_columns": [
+    "Year",
+    "Cases_Acquitted_or_Discharged",
+    "Cases_charge_sheets_were_not_laid_but_Final_Report_submitted",
+    "Cases_Chargesheeted",
+    "Cases_Compounded_or_Withdrawn",
+    "Cases_Convicted",
+    "Cases_Declared_False_on_Account_of_Mistake_of_Fact_or_of_Law",
+    "Cases_Investigated_Chargesheets+FR_Submitted",
+    "Cases_not_Investigated_or_in_which_investigation_was_refused",
+    "Cases_Pending_Investigation_at_Year_End",
+    "Cases_Pending_Investigation_from_previous_year",
+    "Cases_Pending_Trial_at_Year_End",
+    "Cases_Pending_Trial_from_the_previous_year",
+    "Cases_Reported",
+    "Cases_Sent_for_Trial",
+    "Cases_Trials_Completed",
+    "Cases_Withdrawn_by_the_Govt",
+    "Cases_withdrawn_by_the_Govt_during_investigation",
+    "Total_Cases_for_Trial"
+  ],
+  "categorical_columns": [
+    "\u00ef\u00bb\u00bfArea_Name",
+    "Group_Name",
+    "Sub_Group_Name"
+  ],
+  "geographic_columns": [
+    "Cases_charge_sheets_were_not_laid_but_Final_Report_submitted"
+  ],
+  "year_columns": [
+    "Year",
+    "Cases_Pending_Investigation_at_Year_End",
+    "Cases_Pending_Investigation_from_previous_year",
+    "Cases_Pending_Trial_at_Year_End",
+    "Cases_Pending_Trial_from_the_previous_year"
+  ],
+  "column_details": [
+    {
+      "column_name": "\u00ef\u00bb\u00bfArea_Name",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 35,
+      "sample_values": [
+        "Andaman & Nicobar Islands",
+        "Andhra Pradesh",
+        "Arunachal Pradesh",
+        "Assam",
+        "Bihar"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Year",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 10,
+      "sample_values": [
+        "2001",
+        "2002",
+        "2003",
+        "2004",
+        "2005"
+      ],
+      "numeric_stats": {
+        "min": 2001.0,
+        "max": 2010.0,
+        "mean": 2005.4683544303798,
+        "std": 2.8770312155568742
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Group_Name",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 8,
+      "sample_values": [
+        "Rape",
+        "Kidnapping & Abduction - Women & Girls",
+        "Dowry Deaths",
+        "Molestation",
+        "Sexual harassment"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Sub_Group_Name",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 8,
+      "sample_values": [
+        "01. Rape",
+        "02. Kidnapping & Abduction of Women & Girls",
+        "03. Dowry Deaths",
+        "04. Molestation",
+        "05. Sexual Harassment"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases_Acquitted_or_Discharged",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 877,
+      "sample_values": [
+        "5",
+        "731",
+        "1",
+        "334",
+        "406"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 11606.0,
+        "mean": 432.1392405063291,
+        "std": 1053.2223058499815
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases_charge_sheets_were_not_laid_but_Final_Report_submitted",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 379,
+      "sample_values": [
+        "2",
+        "22",
+        "95",
+        "141",
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 3746.0,
+        "mean": 68.47884267631103,
+        "std": 226.4665407317806
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "Cases_Chargesheeted",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1103,
+      "sample_values": [
+        "3",
+        "769",
+        "25",
+        "495",
+        "685"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 23851.0,
+        "mean": 912.9515370705244,
+        "std": 2318.9876491473506
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases_Compounded_or_Withdrawn",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 361,
+      "sample_values": [
+        "0",
+        "35",
+        "10",
+        "1",
+        "7"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 5167.0,
+        "mean": 91.88933092224231,
+        "std": 379.3795663068026
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases_Convicted",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 542,
+      "sample_values": [
+        "0",
+        "197",
+        "2",
+        "101",
+        "155"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 10307.0,
+        "mean": 186.44810126582277,
+        "std": 639.6898363732505
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases_Declared_False_on_Account_of_Mistake_of_Fact_or_of_Law",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 415,
+      "sample_values": [
+        "0",
+        "74",
+        "45",
+        "105",
+        "2"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 7358.0,
+        "mean": 104.22314647377938,
+        "std": 423.3115260528928
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases_Investigated_Chargesheets+FR_Submitted",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1121,
+      "sample_values": [
+        "5",
+        "791",
+        "27",
+        "590",
+        "826"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 25353.0,
+        "mean": 981.4303797468355,
+        "std": 2454.156714661619
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases_not_Investigated_or_in_which_investigation_was_refused",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 67,
+      "sample_values": [
+        "0",
+        "3",
+        "1",
+        "4",
+        "10"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 119.0,
+        "mean": 1.8933092224231465,
+        "std": 8.904248774871244
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases_Pending_Investigation_at_Year_End",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 768,
+      "sample_values": [
+        "1",
+        "393",
+        "18",
+        "1045",
+        "488"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 17892.0,
+        "mean": 379.49403254972873,
+        "std": 1133.2155472539969
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases_Pending_Investigation_from_previous_year",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 739,
+      "sample_values": [
+        "3",
+        "390",
+        "12",
+        "863",
+        "531"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 16529.0,
+        "mean": 346.14177215189875,
+        "std": 1022.9189782401608
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases_Pending_Trial_at_Year_End",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1448,
+      "sample_values": [
+        "34",
+        "1974",
+        "282",
+        "1964",
+        "3185"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 114591.0,
+        "mean": 3460.5884267631104,
+        "std": 9766.712108416716
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases_Pending_Trial_from_the_previous_year",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1426,
+      "sample_values": [
+        "36",
+        "2170",
+        "260",
+        "1914",
+        "3061"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 110593.0,
+        "mean": 3258.840144665461,
+        "std": 9161.620176440438
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases_Reported",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1166,
+      "sample_values": [
+        "3",
+        "871",
+        "33",
+        "817",
+        "888"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 27244.0,
+        "mean": 1121.3960216998191,
+        "std": 2770.338758389662
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases_Sent_for_Trial",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1103,
+      "sample_values": [
+        "3",
+        "769",
+        "25",
+        "495",
+        "685"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 23851.0,
+        "mean": 912.9515370705244,
+        "std": 2318.9876491473506
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases_Trials_Completed",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 980,
+      "sample_values": [
+        "5",
+        "928",
+        "3",
+        "435",
+        "561"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 17283.0,
+        "mean": 618.587341772152,
+        "std": 1555.6609960542014
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases_Withdrawn_by_the_Govt",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 25,
+      "sample_values": [
+        "0",
+        "2",
+        "158",
+        "5",
+        "1"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 306.0,
+        "mean": 0.7265822784810126,
+        "std": 10.865099935115417
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases_withdrawn_by_the_Govt_during_investigation",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 35,
+      "sample_values": [
+        "0",
+        "25",
+        "1",
+        "2",
+        "9"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 153.0,
+        "mean": 0.4969258589511754,
+        "std": 5.155302437638041
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total_Cases_for_Trial",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1507,
+      "sample_values": [
+        "39",
+        "2937",
+        "285",
+        "2409",
+        "3746"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 125253.0,
+        "mean": 4171.065099457504,
+        "std": 11244.076720930925
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Parse error: Error tokenizing data. C error: Expected 22 fields in line 2452, saw 23\n"
+}

@@ -1,0 +1,259 @@
+{
+  "file_id": "FILE_422",
+  "filename": "FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p158_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p158_t1.csv",
+  "file_size_bytes": 1442,
+  "dataset_category": "VIOLENT CRIME",
+  "data_grain": "unknown",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "2007",
+  "row_count": 49,
+  "column_count": 9,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [
+    "Total"
+  ],
+  "numeric_columns": [
+    "Murder",
+    "Murder for\nGain",
+    "Dacoity",
+    "Robbery",
+    "Grave Burglary",
+    "Grave\nTheft",
+    "Total"
+  ],
+  "categorical_columns": [
+    "S. NO",
+    "SUBDIVISION"
+  ],
+  "geographic_columns": [],
+  "year_columns": [],
+  "column_details": [
+    {
+      "column_name": "S. NO",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 44,
+      "sample_values": [
+        "ARIYALUR",
+        "1",
+        "2",
+        "TOTAL",
+        "CHENNAI CITY"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "SUBDIVISION",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 13,
+      "null_percentage": 26.53,
+      "unique_count": 36,
+      "sample_values": [
+        "ARIYALUR",
+        "JAYAMKONDAM",
+        "ADYAR",
+        "ANNA NAGAR",
+        "FLOWER BAZAAR"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Murder",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 7,
+      "null_percentage": 14.29,
+      "unique_count": 22,
+      "sample_values": [
+        "9.0",
+        "18.0",
+        "16.0",
+        "15.0",
+        "2.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 144.0,
+        "mean": 15.119047619047619,
+        "std": 22.855006796240808
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Murder for\nGain",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 15,
+      "null_percentage": 30.61,
+      "unique_count": 5,
+      "sample_values": [
+        "2.0",
+        "0.0",
+        "1.0",
+        "10.0",
+        "3.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 10.0,
+        "mean": 1.0588235294117647,
+        "std": 1.8247652646148056
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Dacoity",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 17,
+      "null_percentage": 34.69,
+      "unique_count": 4,
+      "sample_values": [
+        "4.0",
+        "1.0",
+        "0.0",
+        "8.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 8.0,
+        "mean": 1.3125,
+        "std": 1.9250052366916621
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Robbery",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 8,
+      "null_percentage": 16.33,
+      "unique_count": 25,
+      "sample_values": [
+        "6.0",
+        "7.0",
+        "13.0",
+        "9.0",
+        "18.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 155.0,
+        "mean": 17.585365853658537,
+        "std": 28.460477516861957
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Grave Burglary",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 9,
+      "null_percentage": 18.37,
+      "unique_count": 12,
+      "sample_values": [
+        "2.0",
+        "4.0",
+        "3.0",
+        "8.0",
+        "7.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 50.0,
+        "mean": 4.425,
+        "std": 7.957861779558885
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Grave\nTheft",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 9,
+      "null_percentage": 18.37,
+      "unique_count": 10,
+      "sample_values": [
+        "2.0",
+        "1.0",
+        "3.0",
+        "4.0",
+        "5.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 29.0,
+        "mean": 3.35,
+        "std": 5.111826408512834
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 7,
+      "null_percentage": 14.29,
+      "unique_count": 30,
+      "sample_values": [
+        "19.0",
+        "25.0",
+        "44.0",
+        "32.0",
+        "45.0"
+      ],
+      "numeric_stats": {
+        "min": 3.0,
+        "max": 396.0,
+        "mean": 41.54761904761905,
+        "std": 63.531517962981205
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

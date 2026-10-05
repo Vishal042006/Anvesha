@@ -1,0 +1,272 @@
+{
+  "file_id": "FILE_514",
+  "filename": "FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p247_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p247_t1.csv",
+  "file_size_bytes": 2108,
+  "dataset_category": "COURT DISPOSAL",
+  "data_grain": "unknown",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "India / Multi-State",
+  "detected_year": "2007",
+  "row_count": 34,
+  "column_count": 10,
+  "duplicate_rows_count": 0,
+  "constant_columns": [
+    "Persons Cases\nCompounded\nor\nCompromised\nFemale",
+    "Persons\nCases\ndisposed off\nby Plea\nBargaining\nMale",
+    "Persons\nCases\ndisposed off\nby Plea\nBargaining\nFemale",
+    "Persons\nCases\nQuashed by\nCourts\nFemale",
+    "Persons\nDisposed Off\nWithout\nTrial Female"
+  ],
+  "total_columns": [],
+  "numeric_columns": [
+    "Persons Cases\nCompounded\nor\nCompromised\nMale",
+    "Persons Cases\nCompounded\nor\nCompromised\nFemale",
+    "Persons\nCases\ndisposed off\nby Plea\nBargaining\nMale",
+    "Persons\nCases\ndisposed off\nby Plea\nBargaining\nFemale",
+    "Persons\nCases\nQuashed by\nCourts\nMale",
+    "Persons\nCases\nQuashed by\nCourts\nFemale",
+    "Persons\nDisposed\nOff Without\nTrial Male",
+    "Persons\nDisposed Off\nWithout\nTrial Female"
+  ],
+  "categorical_columns": [
+    "S. No.",
+    "CrimeHead"
+  ],
+  "geographic_columns": [
+    "Persons\nDisposed\nOff Without\nTrial Male",
+    "Persons\nDisposed Off\nWithout\nTrial Female"
+  ],
+  "year_columns": [],
+  "column_details": [
+    {
+      "column_name": "S. No.",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 1,
+      "null_percentage": 2.94,
+      "unique_count": 33,
+      "sample_values": [
+        "19.1.1B",
+        "19.2",
+        "19.2.1A",
+        "19.2.1B",
+        "19.3"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "CrimeHead",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 25,
+      "sample_values": [
+        "Boys",
+        "Section 8 & 10 of POCSO Act or POCSO\nAct (Section 8 & 10) r/w Section 354\nIPC",
+        "Girls",
+        "Section 12 of POCSO Act or POCSO Act\n(Section 12) r/w Section 509 IPC",
+        "Section 14 & 15 of POCSO Act"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons Cases\nCompounded\nor\nCompromised\nMale",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 4,
+      "sample_values": [
+        "0",
+        "1",
+        "34",
+        "119"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 119.0,
+        "mean": 4.588235294117647,
+        "std": 21.036933822927516
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons Cases\nCompounded\nor\nCompromised\nFemale",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons\nCases\ndisposed off\nby Plea\nBargaining\nMale",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons\nCases\ndisposed off\nby Plea\nBargaining\nFemale",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons\nCases\nQuashed by\nCourts\nMale",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 4,
+      "sample_values": [
+        "0",
+        "2",
+        "5",
+        "25"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 25.0,
+        "mean": 1.1470588235294117,
+        "std": 4.397880708217046
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons\nCases\nQuashed by\nCourts\nFemale",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons\nDisposed\nOff Without\nTrial Male",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 6,
+      "sample_values": [
+        "0",
+        "2",
+        "1",
+        "9",
+        "44"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 167.0,
+        "mean": 6.647058823529412,
+        "std": 29.343196364839425
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons\nDisposed Off\nWithout\nTrial Female",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

@@ -1,0 +1,310 @@
+{
+  "file_id": "FILE_455",
+  "filename": "FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p190_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p190_t1.csv",
+  "file_size_bytes": 2053,
+  "dataset_category": "GENERAL CRIME / IPC",
+  "data_grain": "state_year_crime",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "India / Multi-State",
+  "detected_year": "2007",
+  "row_count": 35,
+  "column_count": 11,
+  "duplicate_rows_count": 0,
+  "constant_columns": [
+    "Cases\nNot\nInvestiga\nted\nUnder\n157_1_b\nCRPC",
+    "Cases\nWithdra\nwn by\nthe Govt\nduring\ninvestiga\ntion",
+    "Cases\nEnded as\nFR Non\nCognizab\nle"
+  ],
+  "total_columns": [],
+  "numeric_columns": [
+    "Cases\nPending\nInvestigat\nion from\nPrevious\nYear",
+    "Cases\nReporte\nd during\nthe year",
+    "Cases\nNot\nInvestiga\nted\nUnder\n157_1_b\nCRPC",
+    "Cases\nTransferr\ned to\nother\nState or\nAgency",
+    "Cases\nWithdra\nwn by\nthe Govt\nduring\ninvestiga\ntion",
+    "Cases\nEnded as\nFR Non\nCognizab\nle",
+    "Cases\nEnded as\nFinal\nReport\nFalse",
+    "Cases\nEnded as\nMistake\nof Fact or\nof Law or\nCivil\nDispute",
+    "Cases True\nbut\nInsufficient\nEvidence or\nUntraced or\nNo Clue"
+  ],
+  "categorical_columns": [
+    "S. No.",
+    "Crime Head"
+  ],
+  "geographic_columns": [
+    "Cases\nTransferr\ned to\nother\nState or\nAgency",
+    "Cases\nEnded as\nMistake\nof Fact or\nof Law or\nCivil\nDispute",
+    "Cases True\nbut\nInsufficient\nEvidence or\nUntraced or\nNo Clue"
+  ],
+  "year_columns": [
+    "Cases\nPending\nInvestigat\nion from\nPrevious\nYear",
+    "Cases\nReporte\nd during\nthe year"
+  ],
+  "column_details": [
+    {
+      "column_name": "S. No.",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 35,
+      "sample_values": [
+        "1",
+        "1.1",
+        "1.2",
+        "2",
+        "3"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Crime Head",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 27,
+      "sample_values": [
+        "Murder of Women",
+        "Honour Killig",
+        "Murder with Rape/Gang Rape",
+        "Dowry Deaths",
+        "Abetment to Suicide of Women"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nPending\nInvestigat\nion from\nPrevious\nYear",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 19,
+      "sample_values": [
+        "0",
+        "42",
+        "121",
+        "3",
+        "1417"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 3371.0,
+        "mean": 258.34285714285716,
+        "std": 622.0118659194034
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nReporte\nd during\nthe year",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 22,
+      "sample_values": [
+        "4",
+        "2",
+        "48",
+        "220",
+        "1"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 3173.0,
+        "mean": 253.34285714285716,
+        "std": 581.2471855900056
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nNot\nInvestiga\nted\nUnder\n157_1_b\nCRPC",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nTransferr\ned to\nother\nState or\nAgency",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 4,
+      "sample_values": [
+        "0",
+        "21",
+        "1",
+        "22"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 22.0,
+        "mean": 1.2857142857142858,
+        "std": 5.055989043706884
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nWithdra\nwn by\nthe Govt\nduring\ninvestiga\ntion",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nEnded as\nFR Non\nCognizab\nle",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nEnded as\nFinal\nReport\nFalse",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "0",
+        "1",
+        "8",
+        "2",
+        "11"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 11.0,
+        "mean": 0.7142857142857143,
+        "std": 2.269638848848354
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nEnded as\nMistake\nof Fact or\nof Law or\nCivil\nDispute",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 14,
+      "sample_values": [
+        "0",
+        "4",
+        "246",
+        "455",
+        "48"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 821.0,
+        "mean": 73.82857142857142,
+        "std": 172.67301395382881
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases True\nbut\nInsufficient\nEvidence or\nUntraced or\nNo Clue",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 15,
+      "sample_values": [
+        "0",
+        "9",
+        "37",
+        "116",
+        "18"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 189.0,
+        "mean": 16.97142857142857,
+        "std": 38.871950959896154
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": true
+    }
+  ],
+  "notes": "Clean parse"
+}

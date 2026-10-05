@@ -1,0 +1,431 @@
+{
+  "file_id": "FILE_091",
+  "filename": "67aec008-462b-40af-9373-4e02c9570f4a.csv",
+  "relative_path": "67aec008-462b-40af-9373-4e02c9570f4a.csv",
+  "file_size_bytes": 3142,
+  "dataset_category": "GENERAL CRIME / IPC",
+  "data_grain": "unknown",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "UNKNOWN",
+  "row_count": 46,
+  "column_count": 15,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [
+    "Total - 2020",
+    "Total - 2021",
+    "Total Deaths 2021"
+  ],
+  "numeric_columns": [
+    "S.No.",
+    "2020- Fatal",
+    "2021- Fatal",
+    "2020- Non-fatal",
+    "2021- Non-fatal",
+    "Total - 2020",
+    "Total - 2021",
+    "Death by Lorries - 2021",
+    "Death by Buses-2021",
+    "Death by Cars/Jeeps 2021",
+    "Death by Three-wheelers - 2021",
+    "Death by Two-wheelers 2021",
+    "Death by Others 2021",
+    "Total Deaths 2021"
+  ],
+  "categorical_columns": [
+    "District"
+  ],
+  "geographic_columns": [
+    "District"
+  ],
+  "year_columns": [],
+  "column_details": [
+    {
+      "column_name": "S.No.",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 1,
+      "null_percentage": 2.17,
+      "unique_count": 45,
+      "sample_values": [
+        "1.0",
+        "2.0",
+        "3.0",
+        "4.0",
+        "5.0"
+      ],
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 45.0,
+        "mean": 23.0,
+        "std": 13.133925536563698
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "District",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 46,
+      "sample_values": [
+        "Chennai City",
+        "Coimbatore City",
+        "Madurai City",
+        "Salem City",
+        "Thiruchirapalli City"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "2020- Fatal",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 44,
+      "sample_values": [
+        "885",
+        "187",
+        "158",
+        "151",
+        "127"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 13868.0,
+        "mean": 602.9565217391304,
+        "std": 2007.6893845249817
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "2021- Fatal",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 44,
+      "sample_values": [
+        "975",
+        "232",
+        "152",
+        "147",
+        "126"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 14747.0,
+        "mean": 641.1739130434783,
+        "std": 2134.4673580112344
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "2020- Non-fatal",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 46,
+      "sample_values": [
+        "3502",
+        "520",
+        "372",
+        "473",
+        "271"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 35976.0,
+        "mean": 1564.1739130434783,
+        "std": 5218.704557452071
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "2021- Non-fatal",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 45,
+      "sample_values": [
+        "4059",
+        "634",
+        "466",
+        "537",
+        "273"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 40935.0,
+        "mean": 1779.7826086956522,
+        "std": 5937.735370447945
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total - 2020",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 45,
+      "sample_values": [
+        "4387",
+        "707",
+        "530",
+        "624",
+        "398"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 49844.0,
+        "mean": 2167.1304347826085,
+        "std": 7224.466182843764
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total - 2021",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 1,
+      "null_percentage": 2.17,
+      "unique_count": 44,
+      "sample_values": [
+        "5034.0",
+        "866.0",
+        "618.0",
+        "684.0",
+        "399.0"
+      ],
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 55682.0,
+        "mean": 2474.7555555555555,
+        "std": 8152.9958998784205
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Death by Lorries - 2021",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 38,
+      "sample_values": [
+        "156",
+        "34",
+        "12",
+        "28",
+        "13"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 2192.0,
+        "mean": 95.30434782608695,
+        "std": 317.77496367119903
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Death by Buses-2021",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 28,
+      "sample_values": [
+        "69",
+        "19",
+        "16",
+        "13",
+        "17"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 991.0,
+        "mean": 43.08695652173913,
+        "std": 143.49770824139108
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Death by Cars/Jeeps 2021",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 40,
+      "sample_values": [
+        "181",
+        "48",
+        "29",
+        "35",
+        "30"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 3728.0,
+        "mean": 162.08695652173913,
+        "std": 540.0478096566783
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Death by Three-wheelers - 2021",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 18,
+      "sample_values": [
+        "35",
+        "9",
+        "8",
+        "1",
+        "3"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 307.0,
+        "mean": 13.347826086956522,
+        "std": 44.669262308315346
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Death by Two-wheelers 2021",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 41,
+      "sample_values": [
+        "464",
+        "103",
+        "65",
+        "59",
+        "43"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 6493.0,
+        "mean": 282.30434782608694,
+        "std": 940.0581038677041
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Death by Others 2021",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 35,
+      "sample_values": [
+        "93",
+        "21",
+        "24",
+        "13",
+        "5"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1673.0,
+        "mean": 72.73913043478261,
+        "std": 242.55028663329534
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total Deaths 2021",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 46,
+      "sample_values": [
+        "998",
+        "234",
+        "154",
+        "149",
+        "130"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 15384.0,
+        "mean": 668.8695652173913,
+        "std": 2226.6119614906274
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

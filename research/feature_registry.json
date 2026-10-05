@@ -1,0 +1,69 @@
+{
+  "feature_groups": {
+    "GROUP_A_TEMPORAL": {
+      "name": "Temporal Features Only",
+      "features": [
+        "crime_t_minus_1",
+        "crime_t_minus_2",
+        "crime_t_minus_3",
+        "rolling_mean_3",
+        "rolling_std_3",
+        "rolling_mean_5",
+        "year_over_year_change",
+        "historical_growth",
+        "historical_variability"
+      ],
+      "leakage_guarantee": "All temporal aggregations use observations available strictly on or before year t."
+    },
+    "GROUP_B_POPULATION": {
+      "name": "Population Features",
+      "features": [
+        "population",
+        "population_density",
+        "population_growth_rate"
+      ],
+      "leakage_guarantee": "Derived from census projections aligned up to year t."
+    },
+    "GROUP_C_SPATIAL": {
+      "name": "Spatial & Neighborhood Context",
+      "features": [
+        "spatial_lag_t_minus_1",
+        "neighbor_aggregate_t_minus_1",
+        "state_aggregate_t_minus_1"
+      ],
+      "leakage_guarantee": "Constructed from neighboring reporting unit observations at year t-1."
+    },
+    "GROUP_D_CRIME_CONTEXT": {
+      "name": "Crime Category Ratios",
+      "features": [
+        "violent_crime_ratio_t_minus_1",
+        "property_crime_ratio_t_minus_1",
+        "sll_to_ipc_ratio_t_minus_1"
+      ],
+      "leakage_guarantee": "Historical crime type proportions at year t-1."
+    },
+    "GROUP_E_FULL": {
+      "name": "Full Feature Set (A + B + C + D)",
+      "features": [
+        "crime_t_minus_1",
+        "crime_t_minus_2",
+        "crime_t_minus_3",
+        "rolling_mean_3",
+        "rolling_std_3",
+        "rolling_mean_5",
+        "year_over_year_change",
+        "historical_growth",
+        "historical_variability",
+        "population",
+        "population_density",
+        "population_growth_rate",
+        "spatial_lag_t_minus_1",
+        "neighbor_aggregate_t_minus_1",
+        "state_aggregate_t_minus_1",
+        "violent_crime_ratio_t_minus_1",
+        "property_crime_ratio_t_minus_1",
+        "sll_to_ipc_ratio_t_minus_1"
+      ]
+    }
+  }
+}

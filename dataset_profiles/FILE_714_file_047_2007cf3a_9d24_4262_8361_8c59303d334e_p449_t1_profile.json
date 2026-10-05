@@ -1,0 +1,200 @@
+{
+  "file_id": "FILE_714",
+  "filename": "FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p449_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p449_t1.csv",
+  "file_size_bytes": 529,
+  "dataset_category": "GENERAL CRIME / IPC",
+  "data_grain": "unknown",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "2007",
+  "row_count": 12,
+  "column_count": 8,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [],
+  "numeric_columns": [],
+  "categorical_columns": [
+    "TABLE - 15A.1\nIncidence & Detection Of Bank & ATM Crimes\nDuring 2011 \u2013 2017",
+    "col_2",
+    "col_3",
+    "col_4",
+    "col_5",
+    "col_6",
+    "col_7",
+    "col_8"
+  ],
+  "geographic_columns": [],
+  "year_columns": [],
+  "column_details": [
+    {
+      "column_name": "TABLE - 15A.1\nIncidence & Detection Of Bank & ATM Crimes\nDuring 2011 \u2013 2017",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 1,
+      "null_percentage": 8.33,
+      "unique_count": 11,
+      "sample_values": [
+        "S.No.",
+        "(1)",
+        "1",
+        "2",
+        "3"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "col_2",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 3,
+      "null_percentage": 25.0,
+      "unique_count": 9,
+      "sample_values": [
+        "Year",
+        "(2)",
+        "2011",
+        "2012",
+        "2013"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_3",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 1,
+      "null_percentage": 8.33,
+      "unique_count": 10,
+      "sample_values": [
+        "Bank",
+        "Reported",
+        "(3)",
+        "31",
+        "33"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_4",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 2,
+      "null_percentage": 16.67,
+      "unique_count": 10,
+      "sample_values": [
+        "Detected",
+        "(4)",
+        "11",
+        "19",
+        "12"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_5",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 3,
+      "null_percentage": 25.0,
+      "unique_count": 9,
+      "sample_values": [
+        "% Detected",
+        "(5)",
+        "35.5",
+        "57.6",
+        "34.3"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_6",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 1,
+      "null_percentage": 8.33,
+      "unique_count": 10,
+      "sample_values": [
+        "ATM",
+        "Reported",
+        "(6)",
+        "11",
+        "14"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_7",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 2,
+      "null_percentage": 16.67,
+      "unique_count": 10,
+      "sample_values": [
+        "Detected",
+        "(7)",
+        "10",
+        "8",
+        "21"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_8",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 3,
+      "null_percentage": 25.0,
+      "unique_count": 9,
+      "sample_values": [
+        "% Detected",
+        "(8)",
+        "90.9",
+        "57.1",
+        "52.5"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

@@ -1,0 +1,315 @@
+{
+  "file_id": "FILE_065",
+  "filename": "29_Period_of_trials_by_courts.csv",
+  "relative_path": "29_Period_of_trials_by_courts.csv",
+  "file_size_bytes": 178078,
+  "dataset_category": "COURT DISPOSAL",
+  "data_grain": "state_year",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "1931-2034",
+  "row_count": 1786,
+  "column_count": 11,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [
+    "PT_Total"
+  ],
+  "numeric_columns": [
+    "Year",
+    "PT_1_3_Years",
+    "PT_3_5_Years",
+    "PT_5_10_Years",
+    "PT_6_12_Months",
+    "PT_Less_than_6_Months",
+    "PT_Over_10_Years",
+    "PT_Total"
+  ],
+  "categorical_columns": [
+    "Area_Name",
+    "Group_Name",
+    "Sub_Group_Name"
+  ],
+  "geographic_columns": [],
+  "year_columns": [
+    "Year",
+    "PT_1_3_Years",
+    "PT_3_5_Years",
+    "PT_5_10_Years",
+    "PT_Over_10_Years"
+  ],
+  "column_details": [
+    {
+      "column_name": "Area_Name",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 35,
+      "sample_values": [
+        "Andhra Pradesh",
+        "Arunachal Pradesh",
+        "Assam",
+        "Bihar",
+        "Chhattisgarh"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Year",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 7,
+      "sample_values": [
+        "2004",
+        "2005",
+        "2006",
+        "2007",
+        "2008"
+      ],
+      "numeric_stats": {
+        "min": 2004.0,
+        "max": 2010.0,
+        "mean": 2006.9988801791712,
+        "std": 1.9971966011151991
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Group_Name",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 8,
+      "sample_values": [
+        "PT1. District/Session Judge",
+        "PT2. Additional Session Judge",
+        "PT3. Chief Judicial Magistrate",
+        "PT4. Judicial Magistrate (I)",
+        "PT5. Judicial Magistrate (II)"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Sub_Group_Name",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 8,
+      "sample_values": [
+        "1. District/Session Judge",
+        "2. Additional Session Judge",
+        "3. Chief Judicial Magistrate",
+        "4. Judicial Magistrate (I)",
+        "5. Judicial Magistrate (II)"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "PT_1_3_Years",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 13,
+      "null_percentage": 0.73,
+      "unique_count": 1138,
+      "sample_values": [
+        "1931.0",
+        "13.0",
+        "582.0",
+        "297.0",
+        "239.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 49979.0,
+        "mean": 2632.0518894529046,
+        "std": 5908.507866584899
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "PT_3_5_Years",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 31,
+      "null_percentage": 1.74,
+      "unique_count": 1042,
+      "sample_values": [
+        "805.0",
+        "6.0",
+        "444.0",
+        "590.0",
+        "171.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 52137.0,
+        "mean": 1880.48547008547,
+        "std": 4203.834803344223
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "PT_5_10_Years",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 75,
+      "null_percentage": 4.2,
+      "unique_count": 867,
+      "sample_values": [
+        "196.0",
+        "0.0",
+        "170.0",
+        "594.0",
+        "72.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 23875.0,
+        "mean": 969.0987726475745,
+        "std": 2266.8731462078986
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "PT_6_12_Months",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 35,
+      "null_percentage": 1.96,
+      "unique_count": 942,
+      "sample_values": [
+        "293.0",
+        "5.0",
+        "127.0",
+        "11.0",
+        "222.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 40641.0,
+        "mean": 1499.154768703598,
+        "std": 4007.6122563411545
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "PT_Less_than_6_Months",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 101,
+      "null_percentage": 5.66,
+      "unique_count": 766,
+      "sample_values": [
+        "44.0",
+        "0.0",
+        "69.0",
+        "271.0",
+        "1.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 33737.0,
+        "mean": 1075.6367952522255,
+        "std": 3172.297184407342
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "PT_Over_10_Years",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 152,
+      "null_percentage": 8.51,
+      "unique_count": 523,
+      "sample_values": [
+        "57.0",
+        "0.0",
+        "22.0",
+        "233.0",
+        "17.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 10629.0,
+        "mean": 279.7515299877601,
+        "std": 743.3542370992002
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "PT_Total",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 3,
+      "null_percentage": 0.17,
+      "unique_count": 1384,
+      "sample_values": [
+        "3326.0",
+        "24.0",
+        "1414.0",
+        "1725.0",
+        "992.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 144584.0,
+        "mean": 8143.348289399888,
+        "std": 18106.003512652234
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

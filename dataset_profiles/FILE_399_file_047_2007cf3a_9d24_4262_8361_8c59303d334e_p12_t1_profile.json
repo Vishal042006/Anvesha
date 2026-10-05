@@ -1,0 +1,96 @@
+{
+  "file_id": "FILE_399",
+  "filename": "FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p12_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p12_t1.csv",
+  "file_size_bytes": 1909,
+  "dataset_category": "GENERAL CRIME / IPC",
+  "data_grain": "unknown",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "2007",
+  "row_count": 29,
+  "column_count": 3,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [],
+  "numeric_columns": [
+    "PAGES"
+  ],
+  "categorical_columns": [
+    "CHAPTER &\nTABLE NO.",
+    "TITLE"
+  ],
+  "geographic_columns": [],
+  "year_columns": [],
+  "column_details": [
+    {
+      "column_name": "CHAPTER &\nTABLE NO.",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 1,
+      "null_percentage": 3.45,
+      "unique_count": 28,
+      "sample_values": [
+        "19.7",
+        "19.8",
+        "19.9",
+        "CHAPTER 20",
+        "20.1"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "TITLE",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 29,
+      "sample_values": [
+        "Disposal of SLL Criminal Crime Cases by Courts During 2017 (Crime Head wise)",
+        "Disposal of SLL Criminal Crime Cases by Courts During 2017 (District wise)",
+        "Duration of Completion of Trials by Various Courts During 2017",
+        "DETENTIONS",
+        "Detentions During 2015 \u2013 2017"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "PAGES",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 8,
+      "null_percentage": 27.59,
+      "unique_count": 21,
+      "sample_values": [
+        "680.0",
+        "689.0",
+        "692.0",
+        "705.0",
+        "706.0"
+      ],
+      "numeric_stats": {
+        "min": 680.0,
+        "max": 747.0,
+        "mean": 719.2380952380952,
+        "std": 18.289080791293916
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

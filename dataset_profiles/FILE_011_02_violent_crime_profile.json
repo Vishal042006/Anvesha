@@ -1,0 +1,662 @@
+{
+  "file_id": "FILE_011",
+  "filename": "02_violent_crime.csv",
+  "relative_path": "02_violent_crime.csv",
+  "file_size_bytes": 617890,
+  "dataset_category": "VIOLENT CRIME",
+  "data_grain": "state_year",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "2017",
+  "row_count": 3715,
+  "column_count": 24,
+  "duplicate_rows_count": 6,
+  "constant_columns": [],
+  "total_columns": [],
+  "numeric_columns": [
+    "year",
+    "table_id",
+    "metric_1",
+    "metric_2",
+    "metric_3",
+    "metric_4",
+    "metric_5",
+    "metric_6",
+    "metric_7",
+    "metric_8",
+    "metric_9",
+    "metric_10",
+    "metric_11",
+    "metric_12",
+    "metric_13",
+    "metric_14",
+    "metric_15",
+    "metric_16",
+    "metric_17",
+    "metric_18",
+    "metric_19",
+    "metric_20"
+  ],
+  "categorical_columns": [
+    "table_title",
+    "row_label"
+  ],
+  "geographic_columns": [],
+  "year_columns": [
+    "year"
+  ],
+  "column_details": [
+    {
+      "column_name": "year",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 6,
+      "sample_values": [
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2022"
+      ],
+      "numeric_stats": {
+        "min": 2017.0,
+        "max": 2023.0,
+        "mean": 2019.9580080753701,
+        "std": 2.1762318950674393
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "table_id",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 6,
+      "sample_values": [
+        "3.1",
+        "3.3",
+        "3.4",
+        "3.5",
+        "3.6"
+      ],
+      "numeric_stats": {
+        "min": 3.1,
+        "max": 3.6,
+        "mean": 3.253755047106326,
+        "std": 0.12924026904960473
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "table_title",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 30,
+      "sample_values": [
+        "Incidence and Rate of Violent Crimes During 2017 Culpable Attempt to",
+        "Age-Group & Gender-Wise Victims of Murder During 2017",
+        "Age Group & Sex-wise Victims of Kidnapping & Abduction During 2017",
+        "Purpose-wise and Sex-wise Detail of Kidnapping & Abduction During 2017 CrimeHead Child Victims Adult Victims Total Recovered Grand Total No. Recovery of",
+        "Number of Victims Murdered by Use of Fire Arms During 2017 No. of Victims Murdered"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "row_label",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 118,
+      "sample_values": [
+        "Ariyalur",
+        "Chennai",
+        "Coimbatore",
+        "Coimbatore City",
+        "Cuddalore"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "metric_1",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 913,
+      "null_percentage": 24.58,
+      "unique_count": 134,
+      "sample_values": [
+        "20.0",
+        "154.0",
+        "47.0",
+        "21.0",
+        "48.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 2240.0,
+        "mean": 20.925053533190578,
+        "std": 120.32062702859363
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "metric_2",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 44,
+      "null_percentage": 1.18,
+      "unique_count": 123,
+      "sample_values": [
+        "1.0",
+        "9.0",
+        "0.0",
+        "2.0",
+        "4.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 2295.0,
+        "mean": 8.223099972759465,
+        "std": 60.4048202623952
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "metric_3",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 30,
+      "null_percentage": 0.81,
+      "unique_count": 66,
+      "sample_values": [
+        "1.0",
+        "3.0",
+        "0.0",
+        "6.0",
+        "2.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 796.0,
+        "mean": 2.8548168249660786,
+        "std": 24.444953156009507
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "metric_4",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 31,
+      "null_percentage": 0.83,
+      "unique_count": 165,
+      "sample_values": [
+        "31.0",
+        "244.0",
+        "27.0",
+        "18.0",
+        "58.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 3573.0,
+        "mean": 17.11102062975027,
+        "std": 129.2468141223716
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "metric_5",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 120,
+      "null_percentage": 3.23,
+      "unique_count": 141,
+      "sample_values": [
+        "0.0",
+        "1.0",
+        "3.0",
+        "5.0",
+        "17.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 2444.0,
+        "mean": 14.635605006954103,
+        "std": 104.27319090922786
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "metric_6",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 207,
+      "null_percentage": 5.57,
+      "unique_count": 237,
+      "sample_values": [
+        "22.0",
+        "54.0",
+        "21.0",
+        "5.0",
+        "14.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 10957.0,
+        "mean": 31.640792474344355,
+        "std": 285.5465134155991
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "metric_7",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 420,
+      "null_percentage": 11.31,
+      "unique_count": 151,
+      "sample_values": [
+        "4.0",
+        "31.0",
+        "0.0",
+        "21.0",
+        "2.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 922.0,
+        "mean": 7.90330804248862,
+        "std": 43.82144759776145
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "metric_8",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 892,
+      "null_percentage": 24.01,
+      "unique_count": 194,
+      "sample_values": [
+        "0.0",
+        "1.0",
+        "2.0",
+        "11.0",
+        "4.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 10995.0,
+        "mean": 31.175699610343607,
+        "std": 317.41280763557006
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "metric_9",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 1806,
+      "null_percentage": 48.61,
+      "unique_count": 196,
+      "sample_values": [
+        "7.0",
+        "29.0",
+        "12.0",
+        "6.0",
+        "11.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 15898.0,
+        "mean": 51.09533787323206,
+        "std": 514.5450437202174
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "metric_10",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 2528,
+      "null_percentage": 68.05,
+      "unique_count": 83,
+      "sample_values": [
+        "9.0",
+        "4.0",
+        "2.0",
+        "0.0",
+        "15.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1269.0,
+        "mean": 12.290042122999157,
+        "std": 79.78431343885188
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "metric_11",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 2948,
+      "null_percentage": 79.35,
+      "unique_count": 90,
+      "sample_values": [
+        "23.0",
+        "119.0",
+        "24.0",
+        "22.0",
+        "51.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1512.0,
+        "mean": 8.602216427640156,
+        "std": 71.02170289444052
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "metric_12",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 3089,
+      "null_percentage": 83.15,
+      "unique_count": 39,
+      "sample_values": [
+        "13.0",
+        "25.0",
+        "37.0",
+        "3.0",
+        "1.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 490.0,
+        "mean": 5.722044728434505,
+        "std": 30.225754204856415
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "metric_13",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 3430,
+      "null_percentage": 92.33,
+      "unique_count": 15,
+      "sample_values": [
+        "14.0",
+        "26.0",
+        "38.0",
+        "0.0",
+        "1.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 38.0,
+        "mean": 1.880701754385965,
+        "std": 4.852015647525759
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "metric_14",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 3506,
+      "null_percentage": 94.37,
+      "unique_count": 23,
+      "sample_values": [
+        "15.0",
+        "4.0",
+        "5.0",
+        "11.0",
+        "1.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 302.0,
+        "mean": 4.3875598086124405,
+        "std": 21.40830262820205
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "metric_15",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 3508,
+      "null_percentage": 94.43,
+      "unique_count": 22,
+      "sample_values": [
+        "16.0",
+        "4.0",
+        "6.0",
+        "11.0",
+        "2.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 320.0,
+        "mean": 4.647342995169082,
+        "std": 22.76870361406813
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "metric_16",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 3563,
+      "null_percentage": 95.91,
+      "unique_count": 13,
+      "sample_values": [
+        "17.0",
+        "6.0",
+        "34.0",
+        "0.0",
+        "1.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 34.0,
+        "mean": 2.8684210526315788,
+        "std": 4.675827950945007
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "metric_17",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 3608,
+      "null_percentage": 97.12,
+      "unique_count": 12,
+      "sample_values": [
+        "1.0",
+        "3.0",
+        "0.0",
+        "2.0",
+        "4.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 34.0,
+        "mean": 2.2149532710280373,
+        "std": 4.179979320575322
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "metric_18",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 3611,
+      "null_percentage": 97.2,
+      "unique_count": 11,
+      "sample_values": [
+        "7.0",
+        "3.0",
+        "1.0",
+        "4.0",
+        "0.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 35.0,
+        "mean": 3.173076923076923,
+        "std": 4.155806109674738
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "metric_19",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 3653,
+      "null_percentage": 98.33,
+      "unique_count": 2,
+      "sample_values": [
+        "36.0",
+        "0.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 36.0,
+        "mean": 0.5806451612903226,
+        "std": 4.572004572006863
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "metric_20",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 3654,
+      "null_percentage": 98.36,
+      "unique_count": 10,
+      "sample_values": [
+        "0.0",
+        "5.0",
+        "3.0",
+        "4.0",
+        "2.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 9.0,
+        "mean": 2.9672131147540983,
+        "std": 2.8923301627739186
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "High missing values (46.6%); 6 duplicate rows"
+}

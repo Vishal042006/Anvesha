@@ -1,0 +1,267 @@
+{
+  "file_id": "FILE_859",
+  "filename": "FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p588_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p588_t1.csv",
+  "file_size_bytes": 2584,
+  "dataset_category": "GENERAL CRIME / IPC",
+  "data_grain": "state_year",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "1925-2007",
+  "row_count": 45,
+  "column_count": 11,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [],
+  "numeric_columns": [],
+  "categorical_columns": [
+    "S. No.",
+    "Crime Head",
+    "Below 18 Years",
+    "col_4",
+    "col_5",
+    "18 Years & Above \u2013 Below\n30 Years",
+    "col_7",
+    "col_8",
+    "30 Years & Above \u2013 Below\n45 Years",
+    "col_10",
+    "col_11"
+  ],
+  "geographic_columns": [],
+  "year_columns": [
+    "Below 18 Years",
+    "18 Years & Above \u2013 Below\n30 Years",
+    "30 Years & Above \u2013 Below\n45 Years"
+  ],
+  "column_details": [
+    {
+      "column_name": "S. No.",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 1,
+      "null_percentage": 2.22,
+      "unique_count": 44,
+      "sample_values": [
+        "23.17",
+        "24",
+        "24.1",
+        "24.2",
+        "25"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Crime Head",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 1,
+      "null_percentage": 2.22,
+      "unique_count": 38,
+      "sample_values": [
+        "Other Riots",
+        "Offences promoting enmity between\ndifferent groups",
+        "Promoting enmity between groups",
+        "Imputation, assertions prejudicial to\nnational integration",
+        "Affray"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Below 18 Years",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 25,
+      "sample_values": [
+        "Boys",
+        "31",
+        "0",
+        "1",
+        "115"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_4",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "Girls",
+        "0"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_5",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 25,
+      "sample_values": [
+        "Total",
+        "31",
+        "0",
+        "1",
+        "115"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "18 Years & Above \u2013 Below\n30 Years",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 33,
+      "sample_values": [
+        "Male",
+        "1628",
+        "61",
+        "0",
+        "568"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_7",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 20,
+      "sample_values": [
+        "Female",
+        "73",
+        "0",
+        "136",
+        "6303"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_8",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 34,
+      "sample_values": [
+        "Total",
+        "1701",
+        "61",
+        "0",
+        "704"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "30 Years & Above \u2013 Below\n45 Years",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 36,
+      "sample_values": [
+        "Male",
+        "1730",
+        "75",
+        "0",
+        "570"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_10",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 22,
+      "sample_values": [
+        "Female",
+        "141",
+        "0",
+        "131",
+        "6605"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_11",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 37,
+      "sample_values": [
+        "Total",
+        "1871",
+        "75",
+        "0",
+        "701"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

@@ -1,0 +1,292 @@
+{
+  "file_id": "FILE_882",
+  "filename": "FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p609_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p609_t1.csv",
+  "file_size_bytes": 2415,
+  "dataset_category": "COURT DISPOSAL",
+  "data_grain": "state_year",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "2007",
+  "row_count": 32,
+  "column_count": 12,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [
+    "Total Number of\nPersons under\nTrial"
+  ],
+  "numeric_columns": [],
+  "categorical_columns": [
+    "S. No.",
+    "Crime Head",
+    "Persons Pending\nTrial From\nPrevious Years",
+    "col_4",
+    "Total Number of\nPersons under\nTrial",
+    "col_6",
+    "Persons\nAbated",
+    "col_8",
+    "Persons Cases\nwere\nWithdrawn",
+    "col_10",
+    "Persons Cases\nCompounded\n/Compromised",
+    "col_12"
+  ],
+  "geographic_columns": [],
+  "year_columns": [
+    "Persons Pending\nTrial From\nPrevious Years"
+  ],
+  "column_details": [
+    {
+      "column_name": "S. No.",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 1,
+      "null_percentage": 3.12,
+      "unique_count": 30,
+      "sample_values": [
+        "1",
+        "2",
+        "3",
+        "3.2",
+        "3.3"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Crime Head",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 1,
+      "null_percentage": 3.12,
+      "unique_count": 30,
+      "sample_values": [
+        "Murder",
+        "Culpable Homicide not amounting to\nMurder",
+        "Causing Death by Negligence",
+        "Deaths due to Negligence relating to\nRail Accidents",
+        "Deaths due to Medical Negligence"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons Pending\nTrial From\nPrevious Years",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 28,
+      "sample_values": [
+        "Male",
+        "14804",
+        "179",
+        "48225",
+        "0"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_4",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 24,
+      "sample_values": [
+        "Female",
+        "839",
+        "6",
+        "29",
+        "0"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total Number of\nPersons under\nTrial",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 28,
+      "sample_values": [
+        "Male",
+        "17999",
+        "251",
+        "62782",
+        "0"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_6",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 25,
+      "sample_values": [
+        "Female",
+        "1101",
+        "12",
+        "208",
+        "0"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons\nAbated",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 13,
+      "sample_values": [
+        "Male",
+        "27",
+        "1",
+        "148",
+        "0"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_8",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 6,
+      "sample_values": [
+        "Female",
+        "1",
+        "0",
+        "6",
+        "2"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons Cases\nwere\nWithdrawn",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 16,
+      "sample_values": [
+        "Male",
+        "1",
+        "0",
+        "41",
+        "3"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_10",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 8,
+      "sample_values": [
+        "Female",
+        "0",
+        "3",
+        "2",
+        "12"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons Cases\nCompounded\n/Compromised",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 12,
+      "sample_values": [
+        "Male",
+        "0",
+        "85",
+        "8",
+        "21"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_12",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 10,
+      "sample_values": [
+        "Female",
+        "0",
+        "7",
+        "2",
+        "1"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

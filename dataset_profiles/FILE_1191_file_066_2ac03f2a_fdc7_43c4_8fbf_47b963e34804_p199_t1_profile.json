@@ -1,0 +1,215 @@
+{
+  "file_id": "FILE_1191",
+  "filename": "FILE_066_2ac03f2a_fdc7_43c4_8fbf_47b963e34804_p199_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_066_2ac03f2a_fdc7_43c4_8fbf_47b963e34804_p199_t1.csv",
+  "file_size_bytes": 1355,
+  "dataset_category": "GENERAL CRIME / IPC",
+  "data_grain": "state_year_crime_disposal",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "India / Multi-State",
+  "detected_year": "UNKNOWN",
+  "row_count": 22,
+  "column_count": 7,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [],
+  "numeric_columns": [
+    "S. No",
+    "Cases\nConvicted\nOut of\nCases from\nPrevious\nYear",
+    "Cases\nConvicted\nOut of\nCases\nduring the\nYear",
+    "Cases\nConvicted\n(Col.13+\nCol.14)",
+    "Cases Dis-\ncharged",
+    "Cases\nAcquitted"
+  ],
+  "categorical_columns": [
+    "Crime Head"
+  ],
+  "geographic_columns": [
+    "Cases\nConvicted\nOut of\nCases from\nPrevious\nYear",
+    "Cases\nConvicted\nOut of\nCases\nduring the\nYear"
+  ],
+  "year_columns": [
+    "Cases\nConvicted\nOut of\nCases from\nPrevious\nYear",
+    "Cases\nConvicted\nOut of\nCases\nduring the\nYear"
+  ],
+  "column_details": [
+    {
+      "column_name": "S. No",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 2,
+      "null_percentage": 9.09,
+      "unique_count": 20,
+      "sample_values": [
+        "1.0",
+        "16.0",
+        "17.0",
+        "17.1",
+        "17.2"
+      ],
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 21.0,
+        "mean": 17.945,
+        "std": 4.27015037329206
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Crime Head",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 22,
+      "sample_values": [
+        "2",
+        "Dowry Prohibition Act",
+        "Immoral Traffic (Prevention) Act",
+        "Procuring, inducing Children for the sake of\nprostitution",
+        "Detaining a person in premises where prostitution is\ncarried on"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nConvicted\nOut of\nCases from\nPrevious\nYear",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 13,
+      "sample_values": [
+        "13",
+        "4",
+        "23",
+        "1",
+        "7"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 544.0,
+        "mean": 64.81818181818181,
+        "std": 138.53541282307785
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nConvicted\nOut of\nCases\nduring the\nYear",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 10,
+      "sample_values": [
+        "14",
+        "2",
+        "11",
+        "3",
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 85.0,
+        "mean": 8.772727272727273,
+        "std": 18.890490976961114
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nConvicted\n(Col.13+\nCol.14)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 13,
+      "sample_values": [
+        "15",
+        "6",
+        "34",
+        "4",
+        "1"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 629.0,
+        "mean": 73.04545454545455,
+        "std": 156.59638056777177
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases Dis-\ncharged",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 6,
+      "sample_values": [
+        "16",
+        "4",
+        "1",
+        "0",
+        "5"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 28.0,
+        "mean": 2.5,
+        "std": 6.709978354943444
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nAcquitted",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 16,
+      "sample_values": [
+        "17",
+        "127",
+        "39",
+        "21",
+        "2"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 2786.0,
+        "mean": 258.3636363636364,
+        "std": 632.2993222362593
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

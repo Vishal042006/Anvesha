@@ -1,0 +1,200 @@
+{
+  "file_id": "FILE_1239",
+  "filename": "FILE_066_2ac03f2a_fdc7_43c4_8fbf_47b963e34804_p244_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_066_2ac03f2a_fdc7_43c4_8fbf_47b963e34804_p244_t1.csv",
+  "file_size_bytes": 2119,
+  "dataset_category": "GENERAL CRIME / IPC",
+  "data_grain": "unknown",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "UNKNOWN",
+  "row_count": 37,
+  "column_count": 8,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [],
+  "numeric_columns": [],
+  "categorical_columns": [
+    "S. No",
+    "Crime Head",
+    "Final Report",
+    "col_4",
+    "col_5",
+    "Chargesheets submitted",
+    "col_7",
+    "col_8"
+  ],
+  "geographic_columns": [],
+  "year_columns": [],
+  "column_details": [
+    {
+      "column_name": "S. No",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 4,
+      "null_percentage": 10.81,
+      "unique_count": 33,
+      "sample_values": [
+        "18",
+        "18.1",
+        "18.1.1A",
+        "18.1.1B",
+        "18.2"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Crime Head",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 2,
+      "null_percentage": 5.41,
+      "unique_count": 25,
+      "sample_values": [
+        "Protection of Children from Sexual Offences Act,\n2012",
+        "Section 4 & 6 of POCSO Act or POCSO Act (\nSection 4 & 6) r/w Section 376 IPC",
+        "Girls",
+        "Boys",
+        "Section 8 & 10 of POCSO Act or POCSO Act\n(Section 8 & 10) r/w Section 354 IPC"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Final Report",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 10,
+      "sample_values": [
+        "Cases True\nbut\nInsufficient\nEvidence or\nUntraced or\nNo Clue",
+        "13",
+        "7",
+        "4",
+        "0"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_4",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 7,
+      "sample_values": [
+        "Cases\nAbated\nduring\nInvesti-\ngation",
+        "14",
+        "5",
+        "3",
+        "0"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_5",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 12,
+      "sample_values": [
+        "Total\n(Col.10+\nCol.11+\nCol.12+\nCol.13+\nCol.14)",
+        "15",
+        "29",
+        "0",
+        "8"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Chargesheets submitted",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 18,
+      "sample_values": [
+        "Cases Charge-\nsheeted Out\nof Cases from\nPrevious Year",
+        "16",
+        "716",
+        "533",
+        "523"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_7",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 21,
+      "sample_values": [
+        "Cases\nCharge-\nsheeted\nOut of\nCases\nduring the\nYear",
+        "17",
+        "1512",
+        "1103",
+        "1093"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_8",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 25,
+      "sample_values": [
+        "Cases\nCharge-\nsheeted\n(Col.16+\nCol.17)",
+        "18",
+        "2228",
+        "1636",
+        "1616"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

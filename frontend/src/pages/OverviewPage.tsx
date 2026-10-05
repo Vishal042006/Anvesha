@@ -3,13 +3,12 @@ import { ArrowRight, LineChart, BookOpen, BarChart3, AlertCircle, FileText } fro
 import { districtApi } from '../services/api';
 import type { SummaryData } from '../types';
 import { ApiLoadingState, ApiErrorState } from '../components/ui/ApiStateHandlers';
-import type { SectionId } from '../components/layout/Sidebar';
 
 interface OverviewPageProps {
   selectedUnit: string;
   selectedCategory: string;
   selectedYear: number;
-  onNavigate: (section: SectionId) => void;
+  onNavigate: (section: any) => void;
 }
 
 export const OverviewPage: React.FC<OverviewPageProps> = ({

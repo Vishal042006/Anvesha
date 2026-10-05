@@ -1,0 +1,1606 @@
+{
+  "file_id": "FILE_017",
+  "filename": "04_01_Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv",
+  "relative_path": "04_01_Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv",
+  "file_size_bytes": 500424,
+  "dataset_category": "ARRESTS / POLICE DISPOSAL",
+  "data_grain": "state_year_crime_disposal",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "India / Multi-State",
+  "detected_year": "1904-2036",
+  "row_count": 2730,
+  "column_count": 57,
+  "duplicate_rows_count": 0,
+  "constant_columns": [
+    "Year"
+  ],
+  "total_columns": [
+    "Persons in custody during inv stage at beginning of Year_Total",
+    "Persons on bail during inv stage at beginning of Year_Total",
+    "Persons arrested during the year_Total",
+    "Persons in custody during inv stage at year end_Total",
+    "Persons on Bail during inv stage at year end_Total",
+    "Persons charge sheeted_Total",
+    "Persons in custody during trial stage at begin of year_Total",
+    "Persons on Bail during trial stage at begin of year_Total",
+    "Total number of persons under Trial_Male",
+    "Total number of persons under Trial_Female",
+    "Total number of persons under Trial_Total",
+    "Persons against whom cases were compounded by Courts_Total",
+    "Persons against whom cases were withdrawn_Total",
+    "Persons in custody during trial stage at Year end_Total",
+    "Persons on bail during trial stage at Year End_Total",
+    "Persons whose cases trials were completed during the year_Total",
+    "Persons convicted_Total",
+    "Persons acquitted_Total",
+    "Persons Discharged by Court_Total"
+  ],
+  "numeric_columns": [
+    "Year",
+    "Persons in custody during inv stage at beginning of Year_Male",
+    "Persons in custody during inv stage at beginning of Year_Female",
+    "Persons in custody during inv stage at beginning of Year_Total",
+    "Persons on bail during inv stage at beginning of Year_Male",
+    "Persons on bail during inv stage at beginning of Year_Female",
+    "Persons on bail during inv stage at beginning of Year_Total",
+    "Persons arrested during the year_Male",
+    "Persons arrested during the year_Female",
+    "Persons arrested during the year_Total",
+    "Persons released or freed before trial for want of evidence_Male",
+    "Persons released or freed before trial for want of evidence_Fem",
+    "Persons released or freed before trial for want of evidence_Tot",
+    "Persons in custody during inv stage at year end_Male",
+    "Persons in custody during inv stage at year end_Female",
+    "Persons in custody during inv stage at year end_Total",
+    "Persons on Bail during inv stage at year end_Male",
+    "Persons on Bail during inv stage at Year end_Female",
+    "Persons on Bail during inv stage at year end_Total",
+    "Persons charge sheeted_Male",
+    "Persons charge sheeted_Female",
+    "Persons charge sheeted_Total",
+    "Persons in custody during trial stage at begin of year_Male",
+    "Persons in custody during trial stage at begin of year_Female",
+    "Persons in custody during trial stage at begin of year_Total",
+    "Persons on Bail during trial stage at begin of year_Male",
+    "Persons on Bail during trial stage at begin of year_Female",
+    "Persons on Bail during trial stage at begin of year_Total",
+    "Total number of persons under Trial_Male",
+    "Total number of persons under Trial_Female",
+    "Total number of persons under Trial_Total",
+    "Persons against whom cases were compounded by Courts_Male",
+    "Persons against whom cases were compounded by Courts_Female",
+    "Persons against whom cases were compounded by Courts_Total",
+    "Persons against whom cases were withdrawn_Male",
+    "Persons against whom cases were withdrawn_Female",
+    "Persons against whom cases were withdrawn_Total",
+    "Persons in custody during trial stage at Year end_Male",
+    "Persons in custody during trial stage at Year end_Female",
+    "Persons in custody during trial stage at Year end_Total",
+    "Persons on bail during trial stage at Year End_Male",
+    "Persons on bail during trial stage at Year End_Female",
+    "Persons on bail during trial stage at Year End_Total",
+    "Persons whose cases trials were completed during the year_Male",
+    "Persons whose cases trials were completed during the year_Female",
+    "Persons whose cases trials were completed during the year_Total",
+    "Persons convicted_Male",
+    "Persons convicted_Female",
+    "Persons convicted_Total",
+    "Persons acquitted_Male",
+    "Persons acquitted_Female",
+    "Persons acquitted_Total",
+    "Persons Discharged by Court_Male",
+    "Persons Discharged by Court_Female",
+    "Persons Discharged by Court_Total"
+  ],
+  "categorical_columns": [
+    "States/UTs",
+    "Crime Head"
+  ],
+  "geographic_columns": [
+    "States/UTs"
+  ],
+  "year_columns": [
+    "Year",
+    "Persons in custody during inv stage at beginning of Year_Male",
+    "Persons in custody during inv stage at beginning of Year_Female",
+    "Persons in custody during inv stage at beginning of Year_Total",
+    "Persons on bail during inv stage at beginning of Year_Male",
+    "Persons on bail during inv stage at beginning of Year_Female",
+    "Persons on bail during inv stage at beginning of Year_Total",
+    "Persons arrested during the year_Male",
+    "Persons arrested during the year_Female",
+    "Persons arrested during the year_Total",
+    "Persons in custody during inv stage at year end_Male",
+    "Persons in custody during inv stage at year end_Female",
+    "Persons in custody during inv stage at year end_Total",
+    "Persons on Bail during inv stage at year end_Male",
+    "Persons on Bail during inv stage at Year end_Female",
+    "Persons on Bail during inv stage at year end_Total",
+    "Persons in custody during trial stage at begin of year_Male",
+    "Persons in custody during trial stage at begin of year_Female",
+    "Persons in custody during trial stage at begin of year_Total",
+    "Persons on Bail during trial stage at begin of year_Male",
+    "Persons on Bail during trial stage at begin of year_Female",
+    "Persons on Bail during trial stage at begin of year_Total",
+    "Persons in custody during trial stage at Year end_Male",
+    "Persons in custody during trial stage at Year end_Female",
+    "Persons in custody during trial stage at Year end_Total",
+    "Persons on bail during trial stage at Year End_Male",
+    "Persons on bail during trial stage at Year End_Female",
+    "Persons on bail during trial stage at Year End_Total",
+    "Persons whose cases trials were completed during the year_Male",
+    "Persons whose cases trials were completed during the year_Female",
+    "Persons whose cases trials were completed during the year_Total"
+  ],
+  "column_details": [
+    {
+      "column_name": "States/UTs",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 39,
+      "sample_values": [
+        "Andhra Pradesh",
+        "Arunachal Pradesh",
+        "Assam",
+        "Bihar",
+        "Chhattisgarh"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Crime Head",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 70,
+      "sample_values": [
+        "1 - Arms Act, 1959",
+        "2 - Narcotic Drugs & Psychotropic Substances Act, 1985",
+        "3 - Gambling Act, 1867",
+        "4 - Excise Act, 1944",
+        "5 - Prohibition Act"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Year",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "2014"
+      ],
+      "numeric_stats": {
+        "min": 2014.0,
+        "max": 2014.0,
+        "mean": 2014.0,
+        "std": 0.0
+      },
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons in custody during inv stage at beginning of Year_Male",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 223,
+      "sample_values": [
+        "4",
+        "26",
+        "15",
+        "103",
+        "31"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 82836.0,
+        "mean": 189.2,
+        "std": 2468.751838275497
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons in custody during inv stage at beginning of Year_Female",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 58,
+      "sample_values": [
+        "0",
+        "36",
+        "50",
+        "86",
+        "4"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 3215.0,
+        "mean": 7.332967032967033,
+        "std": 112.19528388927243
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons in custody during inv stage at beginning of Year_Total",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 221,
+      "sample_values": [
+        "4",
+        "26",
+        "15",
+        "103",
+        "31"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 86051.0,
+        "mean": 196.53296703296704,
+        "std": 2564.169051936386
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons on bail during inv stage at beginning of Year_Male",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 299,
+      "sample_values": [
+        "96",
+        "447",
+        "907",
+        "877",
+        "286"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 267013.0,
+        "mean": 595.1461538461539,
+        "std": 8419.386081233037
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons on bail during inv stage at beginning of Year_Female",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 87,
+      "sample_values": [
+        "0",
+        "17",
+        "32",
+        "24",
+        "1"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 8239.0,
+        "mean": 18.927472527472528,
+        "std": 273.0470141000685
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons on bail during inv stage at beginning of Year_Total",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 300,
+      "sample_values": [
+        "96",
+        "464",
+        "907",
+        "909",
+        "310"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 275252.0,
+        "mean": 614.0736263736263,
+        "std": 8668.031689013642
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons arrested during the year_Male",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 468,
+      "sample_values": [
+        "261",
+        "739",
+        "24119",
+        "5599",
+        "1710"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 4660638.0,
+        "mean": 10270.028571428571,
+        "std": 171122.00171430322
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons arrested during the year_Female",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 190,
+      "sample_values": [
+        "3",
+        "42",
+        "0",
+        "155",
+        "46"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 143744.0,
+        "mean": 319.0901098901099,
+        "std": 5465.210853889954
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons arrested during the year_Total",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 481,
+      "sample_values": [
+        "264",
+        "781",
+        "24119",
+        "5754",
+        "1756"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 4804382.0,
+        "mean": 10589.118681318681,
+        "std": 174641.1196820301
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons released or freed before trial for want of evidence_Male",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 131,
+      "sample_values": [
+        "0",
+        "6",
+        "1581",
+        "32",
+        "1619"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 59210.0,
+        "mean": 132.11428571428573,
+        "std": 2009.5724458939085
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "Persons released or freed before trial for want of evidence_Fem",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 37,
+      "sample_values": [
+        "0",
+        "24",
+        "2",
+        "10",
+        "33"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1343.0,
+        "mean": 2.9945054945054945,
+        "std": 44.57177428044903
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "Persons released or freed before trial for want of evidence_Tot",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 137,
+      "sample_values": [
+        "0",
+        "6",
+        "1605",
+        "32",
+        "1643"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 60553.0,
+        "mean": 135.10879120879122,
+        "std": 2049.9668719618508
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "Persons in custody during inv stage at year end_Male",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 214,
+      "sample_values": [
+        "8",
+        "25",
+        "18",
+        "24",
+        "37"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 66033.0,
+        "mean": 148.63406593406594,
+        "std": 1937.2879050503998
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons in custody during inv stage at year end_Female",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 61,
+      "sample_values": [
+        "0",
+        "2",
+        "23",
+        "8",
+        "92"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 3129.0,
+        "mean": 7.103296703296703,
+        "std": 104.67488774983909
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons in custody during inv stage at year end_Total",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 216,
+      "sample_values": [
+        "8",
+        "25",
+        "18",
+        "26",
+        "37"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 69162.0,
+        "mean": 155.73736263736265,
+        "std": 2030.6484707317663
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons on Bail during inv stage at year end_Male",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 330,
+      "sample_values": [
+        "187",
+        "698",
+        "1025",
+        "1171",
+        "279"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 248972.0,
+        "mean": 558.321978021978,
+        "std": 7487.495863771606
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons on Bail during inv stage at Year end_Female",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 107,
+      "sample_values": [
+        "3",
+        "47",
+        "0",
+        "23",
+        "17"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 16002.0,
+        "mean": 36.25604395604395,
+        "std": 544.8645116263175
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons on Bail during inv stage at year end_Total",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 332,
+      "sample_values": [
+        "190",
+        "745",
+        "1025",
+        "1194",
+        "296"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 264974.0,
+        "mean": 594.578021978022,
+        "std": 7977.82160296416
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons charge sheeted_Male",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 453,
+      "sample_values": [
+        "166",
+        "483",
+        "23998",
+        "3803",
+        "1711"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 4636272.0,
+        "mean": 10215.304395604395,
+        "std": 170765.3595317443
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons charge sheeted_Female",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 171,
+      "sample_values": [
+        "0",
+        "12",
+        "138",
+        "53",
+        "1"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 134724.0,
+        "mean": 298.9967032967033,
+        "std": 5167.245858356931
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons charge sheeted_Total",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 464,
+      "sample_values": [
+        "166",
+        "495",
+        "23998",
+        "3941",
+        "1764"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 4770996.0,
+        "mean": 10514.301098901098,
+        "std": 174052.09622943605
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons in custody during trial stage at begin of year_Male",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 349,
+      "sample_values": [
+        "55",
+        "134",
+        "223",
+        "204",
+        "108"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1128983.0,
+        "mean": 2521.6593406593406,
+        "std": 35754.82034379714
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons in custody during trial stage at begin of year_Female",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 83,
+      "sample_values": [
+        "0",
+        "2",
+        "1",
+        "3",
+        "69"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 148303.0,
+        "mean": 326.789010989011,
+        "std": 6752.8096107916035
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons in custody during trial stage at begin of year_Total",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 348,
+      "sample_values": [
+        "55",
+        "134",
+        "223",
+        "204",
+        "108"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1277286.0,
+        "mean": 2848.4483516483515,
+        "std": 41521.67985766828
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons on Bail during trial stage at begin of year_Male",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 534,
+      "sample_values": [
+        "364",
+        "1102",
+        "1441",
+        "1358",
+        "417"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 5304260.0,
+        "mean": 11749.650549450549,
+        "std": 169793.18654104683
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons on Bail during trial stage at begin of year_Female",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 190,
+      "sample_values": [
+        "0",
+        "22",
+        "32",
+        "3",
+        "234"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 182533.0,
+        "mean": 409.01428571428573,
+        "std": 6971.496162098959
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons on Bail during trial stage at begin of year_Total",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 548,
+      "sample_values": [
+        "364",
+        "1124",
+        "1441",
+        "1390",
+        "420"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 5486793.0,
+        "mean": 12158.664835164835,
+        "std": 175587.8289287633
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total number of persons under Trial_Male",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 621,
+      "sample_values": [
+        "585",
+        "1719",
+        "25662",
+        "5365",
+        "2236"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 11069515.0,
+        "mean": 24486.614285714284,
+        "std": 366982.5544291212
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total number of persons under Trial_Female",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 238,
+      "sample_values": [
+        "0",
+        "34",
+        "170",
+        "56",
+        "4"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 465560.0,
+        "mean": 1034.8,
+        "std": 18677.877415463798
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total number of persons under Trial_Total",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 639,
+      "sample_values": [
+        "585",
+        "1753",
+        "25662",
+        "5535",
+        "2292"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 11535075.0,
+        "mean": 25521.414285714287,
+        "std": 380641.36541573086
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons against whom cases were compounded by Courts_Male",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 97,
+      "sample_values": [
+        "0",
+        "279",
+        "704",
+        "535",
+        "15"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 13823.0,
+        "mean": 30.658241758241758,
+        "std": 445.47756503843055
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons against whom cases were compounded by Courts_Female",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 26,
+      "sample_values": [
+        "0",
+        "23",
+        "7",
+        "48",
+        "78"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 337.0,
+        "mean": 0.7450549450549451,
+        "std": 11.150303261444957
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons against whom cases were compounded by Courts_Total",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 93,
+      "sample_values": [
+        "0",
+        "279",
+        "727",
+        "542",
+        "15"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 14160.0,
+        "mean": 31.403296703296704,
+        "std": 454.92133941293037
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons against whom cases were withdrawn_Male",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 64,
+      "sample_values": [
+        "0",
+        "9",
+        "22",
+        "1",
+        "32"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 7425.0,
+        "mean": 16.361538461538462,
+        "std": 258.4608855783826
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons against whom cases were withdrawn_Female",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 19,
+      "sample_values": [
+        "0",
+        "2",
+        "1",
+        "7",
+        "173"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 341.0,
+        "mean": 0.7494505494505495,
+        "std": 12.563865782724413
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons against whom cases were withdrawn_Total",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 64,
+      "sample_values": [
+        "0",
+        "9",
+        "22",
+        "1",
+        "32"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 7766.0,
+        "mean": 17.110989010989012,
+        "std": 270.6839845344505
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons in custody during trial stage at Year end_Male",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 360,
+      "sample_values": [
+        "22",
+        "45",
+        "2",
+        "59",
+        "56"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1004005.0,
+        "mean": 2230.343956043956,
+        "std": 32360.504217022226
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons in custody during trial stage at Year end_Female",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 103,
+      "sample_values": [
+        "0",
+        "12",
+        "1",
+        "13",
+        "2"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 132041.0,
+        "mean": 291.04505494505497,
+        "std": 5890.110985380591
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons in custody during trial stage at Year end_Total",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 363,
+      "sample_values": [
+        "22",
+        "45",
+        "2",
+        "59",
+        "56"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1136046.0,
+        "mean": 2521.389010989011,
+        "std": 37616.765227204065
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons on bail during trial stage at Year End_Male",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 572,
+      "sample_values": [
+        "435",
+        "1424",
+        "3516",
+        "2544",
+        "658"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 6086456.0,
+        "mean": 13493.365934065934,
+        "std": 196087.8228084795
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons on bail during trial stage at Year End_Female",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 211,
+      "sample_values": [
+        "0",
+        "32",
+        "41",
+        "12",
+        "4"
+      ],
+      "numeric_stats": {
+        "min": -1.0,
+        "max": 260226.0,
+        "mean": 580.589010989011,
+        "std": 10269.897291560912
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons on bail during trial stage at Year End_Total",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 575,
+      "sample_values": [
+        "435",
+        "1456",
+        "3516",
+        "2585",
+        "670"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 6346682.0,
+        "mean": 14073.954945054946,
+        "std": 204160.69585089118
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons whose cases trials were completed during the year_Male",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 405,
+      "sample_values": [
+        "128",
+        "241",
+        "21865",
+        "2036",
+        "987"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 3957806.0,
+        "mean": 8715.884615384615,
+        "std": 146538.6924891678
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons whose cases trials were completed during the year_Female",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 142,
+      "sample_values": [
+        "0",
+        "2",
+        "106",
+        "37",
+        "133"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 72615.0,
+        "mean": 161.67142857142858,
+        "std": 2650.2470268148454
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons whose cases trials were completed during the year_Total",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 410,
+      "sample_values": [
+        "128",
+        "243",
+        "21865",
+        "2142",
+        "1024"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 4030421.0,
+        "mean": 8877.556043956043,
+        "std": 148330.36427236078
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons convicted_Male",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 292,
+      "sample_values": [
+        "39",
+        "32",
+        "21135",
+        "722",
+        "431"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 3613088.0,
+        "mean": 7944.621978021978,
+        "std": 137787.87313912032
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons convicted_Female",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 103,
+      "sample_values": [
+        "0",
+        "8",
+        "12",
+        "4",
+        "3"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 40852.0,
+        "mean": 90.62637362637362,
+        "std": 1463.0526211024487
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons convicted_Total",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 289,
+      "sample_values": [
+        "39",
+        "32",
+        "21135",
+        "730",
+        "443"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 3653940.0,
+        "mean": 8035.248351648352,
+        "std": 138795.74896860673
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons acquitted_Male",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 341,
+      "sample_values": [
+        "89",
+        "209",
+        "730",
+        "1314",
+        "556"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 331622.0,
+        "mean": 742.2010989010989,
+        "std": 10101.917873567068
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons acquitted_Female",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 117,
+      "sample_values": [
+        "0",
+        "2",
+        "98",
+        "25",
+        "129"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 31112.0,
+        "mean": 69.60109890109891,
+        "std": 1185.7340629678938
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons acquitted_Total",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 344,
+      "sample_values": [
+        "89",
+        "211",
+        "730",
+        "1412",
+        "581"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 362734.0,
+        "mean": 811.8021978021978,
+        "std": 11147.28926843415
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons Discharged by Court_Male",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 100,
+      "sample_values": [
+        "0",
+        "5",
+        "1",
+        "6",
+        "22"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 13096.0,
+        "mean": 29.06153846153846,
+        "std": 425.3112677581657
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons Discharged by Court_Female",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 27,
+      "sample_values": [
+        "0",
+        "7",
+        "4",
+        "49",
+        "60"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 651.0,
+        "mean": 1.443956043956044,
+        "std": 22.62284914657093
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons Discharged by Court_Total",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 102,
+      "sample_values": [
+        "0",
+        "5",
+        "1",
+        "6",
+        "22"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 13747.0,
+        "mean": 30.505494505494507,
+        "std": 447.0752379445031
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

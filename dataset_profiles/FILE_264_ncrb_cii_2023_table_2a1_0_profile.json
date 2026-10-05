@@ -1,0 +1,235 @@
+{
+  "file_id": "FILE_264",
+  "filename": "NCRB_CII_2023_Table_2A.1_0.csv",
+  "relative_path": "anvesha_training_data/00_raw/csv/NCRB_CII_2023_Table_2A.1_0.csv",
+  "file_size_bytes": 1818,
+  "dataset_category": "VIOLENT CRIME",
+  "data_grain": "state_year",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "India (Includes Tamil Nadu)",
+  "detected_year": "2023",
+  "row_count": 39,
+  "column_count": 8,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [],
+  "numeric_columns": [
+    "2021",
+    "2022",
+    "2023",
+    "Mid-Year Projected Population (in Lakhs) (2023)",
+    "Rate of Murder (2023)",
+    "Chargesheeting Rate (2023)"
+  ],
+  "categorical_columns": [
+    "Sl. No.",
+    "State/UT"
+  ],
+  "geographic_columns": [
+    "State/UT"
+  ],
+  "year_columns": [
+    "Mid-Year Projected Population (in Lakhs) (2023)"
+  ],
+  "column_details": [
+    {
+      "column_name": "Sl. No.",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 39,
+      "sample_values": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "State/UT",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 39,
+      "sample_values": [
+        "Andhra Pradesh",
+        "Arunachal Pradesh",
+        "Assam",
+        "Bihar",
+        "Chhattisgarh"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "2021",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 38,
+      "sample_values": [
+        "956",
+        "49",
+        "1192",
+        "2799",
+        "1007"
+      ],
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 29272.0,
+        "mean": 2251.6923076923076,
+        "std": 6350.439488122667
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "2022",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 39,
+      "sample_values": [
+        "925",
+        "56",
+        "1072",
+        "2930",
+        "1013"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 28522.0,
+        "mean": 2194.0,
+        "std": 6184.202373790819
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "2023",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 39,
+      "sample_values": [
+        "922",
+        "57",
+        "1025",
+        "2862",
+        "958"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 27721.0,
+        "mean": 2132.3846153846152,
+        "std": 6007.981978455103
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Mid-Year Projected Population (in Lakhs) (2023)",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 37,
+      "sample_values": [
+        "532.2",
+        "15.7",
+        "358.2",
+        "1273.7",
+        "302.9"
+      ],
+      "numeric_stats": {
+        "min": 0.7,
+        "max": 13923.3,
+        "mean": 1071.025641025641,
+        "std": 3019.029756022005
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": true
+    },
+    {
+      "column_name": "Rate of Murder (2023)",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 24,
+      "sample_values": [
+        "1.7",
+        "3.6",
+        "2.9",
+        "2.2",
+        "3.2"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 4.7,
+        "mean": 1.9871794871794874,
+        "std": 0.9119613008812344
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Chargesheeting Rate (2023)",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 33,
+      "sample_values": [
+        "91.7",
+        "84.2",
+        "67.2",
+        "92.6",
+        "94.1"
+      ],
+      "numeric_stats": {
+        "min": 51.7,
+        "max": 100.0,
+        "mean": 85.5076923076923,
+        "std": 11.562220343483126
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

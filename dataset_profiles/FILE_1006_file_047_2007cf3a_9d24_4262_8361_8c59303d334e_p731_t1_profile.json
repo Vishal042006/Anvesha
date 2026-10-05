@@ -1,0 +1,127 @@
+{
+  "file_id": "FILE_1006",
+  "filename": "FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p731_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p731_t1.csv",
+  "file_size_bytes": 357,
+  "dataset_category": "GENERAL CRIME / IPC",
+  "data_grain": "unknown",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "2007",
+  "row_count": 10,
+  "column_count": 4,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [],
+  "numeric_columns": [
+    "S. No.",
+    "Killed",
+    "Injured"
+  ],
+  "categorical_columns": [
+    "Events"
+  ],
+  "geographic_columns": [],
+  "year_columns": [],
+  "column_details": [
+    {
+      "column_name": "S. No.",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 1,
+      "null_percentage": 10.0,
+      "unique_count": 9,
+      "sample_values": [
+        "1.0",
+        "2.0",
+        "3.0",
+        "4.0",
+        "5.0"
+      ],
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 9.0,
+        "mean": 5.0,
+        "std": 2.7386127875258306
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Events",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 10,
+      "sample_values": [
+        "By Anti National in Firing",
+        "By Anti National in Bomb Explosion",
+        "By Dacoits and Robbers",
+        "During Riots in Police Firing",
+        "During Riots in Police Lathi Charge"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Killed",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "0",
+        "9",
+        "1",
+        "2",
+        "12"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 12.0,
+        "mean": 2.4,
+        "std": 4.376706016578627
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Injured",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 4,
+      "sample_values": [
+        "0",
+        "32",
+        "18",
+        "50"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 50.0,
+        "mean": 10.0,
+        "std": 17.78888541883511
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

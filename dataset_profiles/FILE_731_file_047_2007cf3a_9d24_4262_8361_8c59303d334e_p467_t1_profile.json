@@ -1,0 +1,311 @@
+{
+  "file_id": "FILE_731",
+  "filename": "FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p467_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p467_t1.csv",
+  "file_size_bytes": 2208,
+  "dataset_category": "GENERAL CRIME / IPC",
+  "data_grain": "state_year",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "2007",
+  "row_count": 28,
+  "column_count": 11,
+  "duplicate_rows_count": 0,
+  "constant_columns": [
+    "Cases\nAbated\nduring\nInvestigat\nion",
+    "Cases\nStayed at\nInvestigat\nion Stage"
+  ],
+  "total_columns": [
+    "Total\nFinal\nReports\nSubmitte\nd",
+    "Total\nCases\nDisposed\nOff by\nPolice"
+  ],
+  "numeric_columns": [
+    "Cases\nAbated\nduring\nInvestigat\nion",
+    "Total\nFinal\nReports\nSubmitte\nd",
+    "Cases\nChargesh\neeted",
+    "Total\nCases\nDisposed\nOff by\nPolice",
+    "Cases\nQuashed\nat\nInvestigat\nion Stage",
+    "Cases\nStayed at\nInvestigat\nion Stage",
+    "Cases\nPending\nInvestigat\nion at\nEnd of\nthe Year",
+    "Charge\nSheeting\nRate",
+    "Pendency\nPercenta\nge"
+  ],
+  "categorical_columns": [
+    "S. No.",
+    "Crime Head"
+  ],
+  "geographic_columns": [],
+  "year_columns": [
+    "Cases\nPending\nInvestigat\nion at\nEnd of\nthe Year"
+  ],
+  "column_details": [
+    {
+      "column_name": "S. No.",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 28,
+      "sample_values": [
+        "1",
+        "2",
+        "2.1",
+        "2.1.1",
+        "2.1.2"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Crime Head",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 27,
+      "sample_values": [
+        "Tampering computer source\ndocuments",
+        "Computer Related Offences",
+        "Ransom-ware",
+        "Offences other than Ransom-ware",
+        "Dishonestly receiving stolen\ncomputer resource or\ncommunication device"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nAbated\nduring\nInvestigat\nion",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total\nFinal\nReports\nSubmitte\nd",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 9,
+      "sample_values": [
+        "1",
+        "26",
+        "4",
+        "2",
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 41.0,
+        "mean": 4.178571428571429,
+        "std": 9.4086389436776
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nChargesh\neeted",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 12,
+      "sample_values": [
+        "0",
+        "26",
+        "8",
+        "7",
+        "1"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 60.0,
+        "mean": 6.428571428571429,
+        "std": 12.375090187261552
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total\nCases\nDisposed\nOff by\nPolice",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 15,
+      "sample_values": [
+        "1",
+        "53",
+        "12",
+        "9",
+        "3"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 102.0,
+        "mean": 10.714285714285714,
+        "std": 21.47842525239575
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nQuashed\nat\nInvestigat\nion Stage",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 4,
+      "sample_values": [
+        "0",
+        "2",
+        "1",
+        "3"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 3.0,
+        "mean": 0.35714285714285715,
+        "std": 0.8261595987094031
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nStayed at\nInvestigat\nion Stage",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nPending\nInvestigat\nion at\nEnd of\nthe Year",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 18,
+      "sample_values": [
+        "7",
+        "191",
+        "61",
+        "27",
+        "34"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 296.0,
+        "mean": 33.535714285714285,
+        "std": 64.96579278977694
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Charge\nSheeting\nRate",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 13,
+      "sample_values": [
+        "0.0",
+        "50.0",
+        "66.7",
+        "77.8",
+        "33.3"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 100.0,
+        "mean": 42.18928571428571,
+        "std": 41.3762889631222
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Pendency\nPercenta\nge",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 17,
+      "sample_values": [
+        "87.5",
+        "77.6",
+        "81.3",
+        "71.1",
+        "91.9"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 100.0,
+        "mean": 56.03928571428572,
+        "std": 39.12882180397457
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

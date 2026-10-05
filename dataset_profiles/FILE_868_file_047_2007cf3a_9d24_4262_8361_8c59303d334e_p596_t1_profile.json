@@ -1,0 +1,278 @@
+{
+  "file_id": "FILE_868",
+  "filename": "FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p596_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p596_t1.csv",
+  "file_size_bytes": 2725,
+  "dataset_category": "GENERAL CRIME / IPC",
+  "data_grain": "state_year",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "2007",
+  "row_count": 41,
+  "column_count": 11,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [
+    "Total of Overall\nAge-Group",
+    "Grand Total\nof Male +\nFemale"
+  ],
+  "numeric_columns": [
+    "Grand Total\nof Male +\nFemale"
+  ],
+  "categorical_columns": [
+    "S. No.",
+    "Crime Head",
+    "45 Years & Above \u2013 Below\n60 Years",
+    "col_4",
+    "col_5",
+    "60 Years & Above",
+    "col_7",
+    "col_8",
+    "Total of Overall\nAge-Group",
+    "col_10"
+  ],
+  "geographic_columns": [],
+  "year_columns": [
+    "45 Years & Above \u2013 Below\n60 Years",
+    "60 Years & Above"
+  ],
+  "column_details": [
+    {
+      "column_name": "S. No.",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 1,
+      "null_percentage": 2.44,
+      "unique_count": 40,
+      "sample_values": [
+        "13",
+        "14",
+        "C.",
+        "15",
+        "16"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Crime Head",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 1,
+      "null_percentage": 2.44,
+      "unique_count": 40,
+      "sample_values": [
+        "The Protn. of Civil Rights Act against SCs",
+        "The Protn. of Civil Rights Act against STs",
+        "Scheduled Castes and Scheduled Tribes \u2013\nRelated Acts",
+        "The Prevention of Damage to Public\nProperty Act",
+        "The Unlawful Activities (P) Act"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "45 Years & Above \u2013 Below\n60 Years",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 26,
+      "sample_values": [
+        "Male",
+        "0",
+        "39",
+        "601",
+        "1"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_4",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 11,
+      "sample_values": [
+        "Female",
+        "0",
+        "37",
+        "1",
+        "38"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_5",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 26,
+      "sample_values": [
+        "Total",
+        "0",
+        "39",
+        "638",
+        "1"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "60 Years & Above",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 19,
+      "sample_values": [
+        "Male",
+        "0",
+        "1",
+        "26",
+        "7"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_7",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 9,
+      "sample_values": [
+        "Female",
+        "0",
+        "2",
+        "1",
+        "232"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_8",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 18,
+      "sample_values": [
+        "Total",
+        "0",
+        "1",
+        "28",
+        "7"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total of Overall\nAge-Group",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 31,
+      "sample_values": [
+        "Male",
+        "1",
+        "0",
+        "221",
+        "3569"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_10",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 19,
+      "sample_values": [
+        "Female",
+        "0",
+        "5",
+        "120",
+        "1"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Grand Total\nof Male +\nFemale",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 1,
+      "null_percentage": 2.44,
+      "unique_count": 29,
+      "sample_values": [
+        "1.0",
+        "0.0",
+        "226.0",
+        "3689.0",
+        "3.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 151910.0,
+        "mean": 9387.325,
+        "std": 32821.3897019701
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

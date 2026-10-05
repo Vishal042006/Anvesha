@@ -1,0 +1,186 @@
+{
+  "file_id": "FILE_297",
+  "filename": "fb405b53-616d-4c31-8110-7c26868d15f5.csv",
+  "relative_path": "anvesha_training_data/00_raw/csv/fb405b53-616d-4c31-8110-7c26868d15f5.csv",
+  "file_size_bytes": 1569,
+  "dataset_category": "GENERAL CRIME / IPC",
+  "data_grain": "unknown",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "UNKNOWN",
+  "row_count": 49,
+  "column_count": 6,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [
+    "Total"
+  ],
+  "numeric_columns": [
+    "Num of Cases Registered",
+    "Male",
+    "Female",
+    "Trasngender",
+    "Total"
+  ],
+  "categorical_columns": [
+    "Districts"
+  ],
+  "geographic_columns": [
+    "Districts"
+  ],
+  "year_columns": [],
+  "column_details": [
+    {
+      "column_name": "Districts",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 49,
+      "sample_values": [
+        "Avadi City",
+        "Chennai City",
+        "Coimbatore City",
+        "Madurai City",
+        "Salem City"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Num of Cases Registered",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 48,
+      "sample_values": [
+        "752",
+        "1566",
+        "376",
+        "381",
+        "233"
+      ],
+      "numeric_stats": {
+        "min": 44.0,
+        "max": 19732.0,
+        "mean": 805.3877551020408,
+        "std": 2770.872108623373
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Male",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 46,
+      "sample_values": [
+        "543",
+        "1201",
+        "289",
+        "273",
+        "161"
+      ],
+      "numeric_stats": {
+        "min": 41.0,
+        "max": 14219.0,
+        "mean": 580.3673469387755,
+        "std": 1997.6276627318628
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Female",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 42,
+      "sample_values": [
+        "213",
+        "377",
+        "87",
+        "108",
+        "72"
+      ],
+      "numeric_stats": {
+        "min": 5.0,
+        "max": 5599.0,
+        "mean": 228.53061224489795,
+        "std": 785.736440704961
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Trasngender",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "1",
+        "3",
+        "0",
+        "2",
+        "16"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 16.0,
+        "mean": 0.6530612244897959,
+        "std": 2.3233508524700848
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 49,
+      "sample_values": [
+        "757",
+        "1581",
+        "376",
+        "381",
+        "233"
+      ],
+      "numeric_stats": {
+        "min": 46.0,
+        "max": 19834.0,
+        "mean": 809.5510204081633,
+        "std": 2785.2759442978636
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

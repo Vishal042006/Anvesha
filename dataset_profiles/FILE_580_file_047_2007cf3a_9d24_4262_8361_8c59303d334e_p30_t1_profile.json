@@ -1,0 +1,176 @@
+{
+  "file_id": "FILE_580",
+  "filename": "FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p30_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p30_t1.csv",
+  "file_size_bytes": 2063,
+  "dataset_category": "GENERAL CRIME / IPC",
+  "data_grain": "unknown",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "2007",
+  "row_count": 49,
+  "column_count": 7,
+  "duplicate_rows_count": 9,
+  "constant_columns": [],
+  "total_columns": [],
+  "numeric_columns": [],
+  "categorical_columns": [
+    "S.No.",
+    "CRIME HEAD",
+    "Quinquennial\nAverage",
+    "2017",
+    "Percentage Change in 2017",
+    "col_6",
+    "col_7"
+  ],
+  "geographic_columns": [],
+  "year_columns": [],
+  "column_details": [
+    {
+      "column_name": "S.No.",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 25,
+      "null_percentage": 51.02,
+      "unique_count": 24,
+      "sample_values": [
+        "36.4",
+        "37",
+        "37.1",
+        "37.1.1",
+        "37.1.2"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "CRIME HEAD",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 25,
+      "null_percentage": 51.02,
+      "unique_count": 24,
+      "sample_values": [
+        "Counterfeit Currency & Bank Notes (Sec.489-A to\n489-E IPC)",
+        "Forgery, Cheating and Fraud",
+        "Fraud (Sec.420 r/w Sec.465, 468 to 471 IPC/IT\nAct)",
+        "Bank",
+        "ATM"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Quinquennial\nAverage",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 22,
+      "null_percentage": 44.9,
+      "unique_count": 7,
+      "sample_values": [
+        "148",
+        "(0.2)",
+        "4330",
+        "(5.7)",
+        "-"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "2017",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 1,
+      "null_percentage": 2.04,
+      "unique_count": 35,
+      "sample_values": [
+        "52",
+        "(0.1)",
+        "3298",
+        "(4.2)",
+        "222"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Percentage Change in 2017",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 24,
+      "null_percentage": 48.98,
+      "unique_count": 3,
+      "sample_values": [
+        "2007",
+        "@",
+        "31.4"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_6",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 24,
+      "null_percentage": 48.98,
+      "unique_count": 5,
+      "sample_values": [
+        "Q.A.",
+        "-64.9",
+        "-23.8",
+        "@",
+        "-6.7"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_7",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 24,
+      "null_percentage": 48.98,
+      "unique_count": 5,
+      "sample_values": [
+        "2016",
+        "-47.5",
+        "0.6",
+        "@",
+        "-8.4"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "High missing values (42.3%); 9 duplicate rows"
+}

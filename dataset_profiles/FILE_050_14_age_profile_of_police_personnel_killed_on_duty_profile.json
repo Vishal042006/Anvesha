@@ -1,0 +1,240 @@
+{
+  "file_id": "FILE_050",
+  "filename": "14_Age_profile_of_police_personnel_killed_on_duty.csv",
+  "relative_path": "14_Age_profile_of_police_personnel_killed_on_duty.csv",
+  "file_size_bytes": 10767,
+  "dataset_category": "GENERAL CRIME / IPC",
+  "data_grain": "state_year",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "2001-2010",
+  "row_count": 350,
+  "column_count": 8,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [
+    "Age_Total"
+  ],
+  "numeric_columns": [
+    "Year",
+    "Age_18_25_Yrs",
+    "Age_25_35_Yrs",
+    "Age_35_45_Yrs",
+    "Age_45_55_Yrs",
+    "Age_Above_55_Yrs",
+    "Age_Total"
+  ],
+  "categorical_columns": [
+    "Area_Name"
+  ],
+  "geographic_columns": [],
+  "year_columns": [
+    "Year"
+  ],
+  "column_details": [
+    {
+      "column_name": "Area_Name",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 35,
+      "sample_values": [
+        "Jammu & Kashmir",
+        "Chhattisgarh",
+        "Punjab",
+        "Maharashtra",
+        "Uttar Pradesh"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Year",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 10,
+      "sample_values": [
+        "2001",
+        "2010",
+        "2004",
+        "2002",
+        "2007"
+      ],
+      "numeric_stats": {
+        "min": 2001.0,
+        "max": 2010.0,
+        "mean": 2005.5,
+        "std": 2.8763933959876518
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Age_18_25_Yrs",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 17,
+      "sample_values": [
+        "52",
+        "8",
+        "4",
+        "27",
+        "10"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 52.0,
+        "mean": 1.62,
+        "std": 4.71796542036249
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Age_25_35_Yrs",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 42,
+      "sample_values": [
+        "67",
+        "54",
+        "48",
+        "43",
+        "38"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 67.0,
+        "mean": 6.925714285714286,
+        "std": 9.979645268691
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Age_35_45_Yrs",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 46,
+      "sample_values": [
+        "24",
+        "18",
+        "9",
+        "27",
+        "40"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 67.0,
+        "mean": 8.771428571428572,
+        "std": 12.281058432974705
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Age_45_55_Yrs",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 37,
+      "sample_values": [
+        "7",
+        "2",
+        "4",
+        "8",
+        "23"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 48.0,
+        "mean": 5.78,
+        "std": 8.90607789634147
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Age_Above_55_Yrs",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 12,
+      "sample_values": [
+        "0",
+        "1",
+        "2",
+        "4",
+        "6"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 13.0,
+        "mean": 0.8371428571428572,
+        "std": 1.7458236230501085
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Age_Total",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 91,
+      "sample_values": [
+        "150",
+        "82",
+        "65",
+        "96",
+        "80"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 152.0,
+        "mean": 23.934285714285714,
+        "std": 31.06401047229751
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

@@ -1,0 +1,277 @@
+{
+  "file_id": "FILE_526",
+  "filename": "FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p260_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p260_t1.csv",
+  "file_size_bytes": 1597,
+  "dataset_category": "CRIME AGAINST WOMEN",
+  "data_grain": "unknown",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "India / Multi-State",
+  "detected_year": "2007",
+  "row_count": 43,
+  "column_count": 10,
+  "duplicate_rows_count": 0,
+  "constant_columns": [
+    "at Work or\nOffice\nPremises",
+    "In Public\nTransport\nSystem",
+    "In Shelter\nHomes for\nwomen and\nChildren",
+    "Assault or use\nof Criminal\nForce on\nwomen with\nintent to"
+  ],
+  "total_columns": [],
+  "numeric_columns": [
+    "S.\nNo.",
+    "Assault on\nWomen with\nIntent to\nOutrage her\nModesty",
+    "Assault on\nWomen with\nIntent to\nOutrage her\nModesty_2",
+    "Sexual\nHarassment",
+    "at Work or\nOffice\nPremises",
+    "In Public\nTransport\nSystem",
+    "In Shelter\nHomes for\nwomen and\nChildren",
+    "Other Places",
+    "Assault or use\nof Criminal\nForce on\nwomen with\nintent to"
+  ],
+  "categorical_columns": [
+    "Districts"
+  ],
+  "geographic_columns": [
+    "Districts",
+    "Assault on\nWomen with\nIntent to\nOutrage her\nModesty",
+    "Assault on\nWomen with\nIntent to\nOutrage her\nModesty_2"
+  ],
+  "year_columns": [],
+  "column_details": [
+    {
+      "column_name": "S.\nNo.",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 1,
+      "null_percentage": 2.33,
+      "unique_count": 42,
+      "sample_values": [
+        "1.0",
+        "2.0",
+        "3.0",
+        "4.0",
+        "5.0"
+      ],
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 42.0,
+        "mean": 21.5,
+        "std": 12.267844146385297
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Districts",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 43,
+      "sample_values": [
+        "Ariyalur",
+        "Chennai",
+        "Coimbatore",
+        "Coimbatore City",
+        "Cuddalore"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Assault on\nWomen with\nIntent to\nOutrage her\nModesty",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 4,
+      "sample_values": [
+        "0",
+        "1",
+        "3",
+        "9"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 9.0,
+        "mean": 0.4186046511627907,
+        "std": 1.4513139882047592
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Assault on\nWomen with\nIntent to\nOutrage her\nModesty_2",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 4,
+      "sample_values": [
+        "0",
+        "1",
+        "3",
+        "6"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 6.0,
+        "mean": 0.27906976744186046,
+        "std": 1.0310785244529341
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Sexual\nHarassment",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 3,
+      "sample_values": [
+        "0",
+        "1",
+        "2"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 2.0,
+        "mean": 0.09302325581395349,
+        "std": 0.3660570791018469
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "at Work or\nOffice\nPremises",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "In Public\nTransport\nSystem",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "In Shelter\nHomes for\nwomen and\nChildren",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Other Places",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 3,
+      "sample_values": [
+        "0",
+        "1",
+        "2"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 2.0,
+        "mean": 0.09302325581395349,
+        "std": 0.3660570791018469
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Assault or use\nof Criminal\nForce on\nwomen with\nintent to",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

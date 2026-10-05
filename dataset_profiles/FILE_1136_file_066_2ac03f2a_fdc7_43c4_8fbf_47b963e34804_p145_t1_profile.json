@@ -1,0 +1,120 @@
+{
+  "file_id": "FILE_1136",
+  "filename": "FILE_066_2ac03f2a_fdc7_43c4_8fbf_47b963e34804_p145_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_066_2ac03f2a_fdc7_43c4_8fbf_47b963e34804_p145_t1.csv",
+  "file_size_bytes": 969,
+  "dataset_category": "GENERAL CRIME / IPC",
+  "data_grain": "unknown",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "UNKNOWN",
+  "row_count": 42,
+  "column_count": 4,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [],
+  "numeric_columns": [
+    "col_3"
+  ],
+  "categorical_columns": [
+    "TABLE - 5.3\nIncidence of Grave Crimes (Districts / Cities) - 2019",
+    "col_2",
+    "col_4"
+  ],
+  "geographic_columns": [
+    "TABLE - 5.3\nIncidence of Grave Crimes (Districts / Cities) - 2019"
+  ],
+  "year_columns": [],
+  "column_details": [
+    {
+      "column_name": "TABLE - 5.3\nIncidence of Grave Crimes (Districts / Cities) - 2019",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 16,
+      "sample_values": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "col_2",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 2,
+      "null_percentage": 4.76,
+      "unique_count": 40,
+      "sample_values": [
+        "Chennai",
+        "Madurai",
+        "Madurai City",
+        "Kanchipuram",
+        "Railway Chennai"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_3",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 1,
+      "null_percentage": 2.38,
+      "unique_count": 38,
+      "sample_values": [
+        "972.0",
+        "207.0",
+        "195.0",
+        "188.0",
+        "178.0"
+      ],
+      "numeric_stats": {
+        "min": 19.0,
+        "max": 972.0,
+        "mean": 121.63414634146342,
+        "std": 143.51267471856988
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_4",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 37,
+      "null_percentage": 88.1,
+      "unique_count": 5,
+      "sample_values": [
+        "ABOVE 122",
+        "GRAVE CRIMES",
+        "BELOW 122 & ABOVE 75",
+        "BELOW 75 & ABOVE 50",
+        "BELOW 50"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "High missing values (23.8%)"
+}

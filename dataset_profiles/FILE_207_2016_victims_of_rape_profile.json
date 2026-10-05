@@ -1,0 +1,432 @@
+{
+  "file_id": "FILE_207",
+  "filename": "2016 Victims of Rape.csv",
+  "relative_path": "anvesha_training_data/00_raw/csv/2016 Victims of Rape.csv",
+  "file_size_bytes": 2805,
+  "dataset_category": "CRIME AGAINST WOMEN",
+  "data_grain": "state_year",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "India (Includes Tamil Nadu)",
+  "detected_year": "1988-2016",
+  "row_count": 36,
+  "column_count": 15,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [
+    "Child Victims of Rape (Below 18 Yrs) - Total Girl /Child Victims",
+    "Women Victims of Rape (Above 18 Yrs) - Total Women/Adult Victims",
+    "Total Victims"
+  ],
+  "numeric_columns": [
+    "S. No",
+    "Cases Reported",
+    "Child Victims of Rape (Below 18 Yrs) - Below 6 Years",
+    "Child Victims of Rape (Below 18 Yrs) - 6 Years & Above - Below 12 Years",
+    "Child Victims of Rape (Below 18 Yrs) - 12 Years & Above - Below 16 Years",
+    "Child Victims of Rape (Below 18 Yrs) - 16 Years & Above - Below 18 Years",
+    "Child Victims of Rape (Below 18 Yrs) - Total Girl /Child Victims",
+    "Women Victims of Rape (Above 18 Yrs) - 18 Years & Above - Below 30 Years",
+    "Women Victims of Rape (Above 18 Yrs) - 30 Years & Above - Below 45 Years",
+    "Women Victims of Rape (Above 18 Yrs) - 45 Years & Above - Below 60 Years",
+    "Women Victims of Rape (Above 18 Yrs) - 60 Years & Above",
+    "Women Victims of Rape (Above 18 Yrs) - Total Women/Adult Victims",
+    "Total Victims"
+  ],
+  "categorical_columns": [
+    "Category",
+    "State/UT"
+  ],
+  "geographic_columns": [
+    "State/UT"
+  ],
+  "year_columns": [
+    "Child Victims of Rape (Below 18 Yrs) - Below 6 Years",
+    "Child Victims of Rape (Below 18 Yrs) - 6 Years & Above - Below 12 Years",
+    "Child Victims of Rape (Below 18 Yrs) - 12 Years & Above - Below 16 Years",
+    "Child Victims of Rape (Below 18 Yrs) - 16 Years & Above - Below 18 Years",
+    "Women Victims of Rape (Above 18 Yrs) - 18 Years & Above - Below 30 Years",
+    "Women Victims of Rape (Above 18 Yrs) - 30 Years & Above - Below 45 Years",
+    "Women Victims of Rape (Above 18 Yrs) - 45 Years & Above - Below 60 Years",
+    "Women Victims of Rape (Above 18 Yrs) - 60 Years & Above"
+  ],
+  "column_details": [
+    {
+      "column_name": "S. No",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 36,
+      "sample_values": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 36.0,
+        "mean": 18.5,
+        "std": 10.535653752852738
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Category",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "State",
+        "Union Territory"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "State/UT",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 36,
+      "sample_values": [
+        "Andhra Pradesh",
+        "Arunachal Pradesh",
+        "Assam",
+        "Bihar",
+        "Chhattisgarh"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases Reported",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 35,
+      "sample_values": [
+        "988",
+        "59",
+        "1772",
+        "605",
+        "1908"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 5562.0,
+        "mean": 904.4166666666666,
+        "std": 1274.4250552419987
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Child Victims of Rape (Below 18 Yrs) - Below 6 Years",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 13,
+      "sample_values": [
+        "14",
+        "1",
+        "2",
+        "0",
+        "47"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 105.0,
+        "mean": 8.277777777777779,
+        "std": 20.52540044657019
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Child Victims of Rape (Below 18 Yrs) - 6 Years & Above - Below 12 Years",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 16,
+      "sample_values": [
+        "46",
+        "9",
+        "44",
+        "0",
+        "77"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 207.0,
+        "mean": 22.72222222222222,
+        "std": 49.4932094107644
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Child Victims of Rape (Below 18 Yrs) - 12 Years & Above - Below 16 Years",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 20,
+      "sample_values": [
+        "185",
+        "19",
+        "29",
+        "0",
+        "396"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1275.0,
+        "mean": 104.41666666666667,
+        "std": 249.5477480792576
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Child Victims of Rape (Below 18 Yrs) - 16 Years & Above - Below 18 Years",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 22,
+      "sample_values": [
+        "296",
+        "13",
+        "25",
+        "0",
+        "614"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1550.0,
+        "mean": 148.5,
+        "std": 332.7646529992545
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Child Victims of Rape (Below 18 Yrs) - Total Girl /Child Victims",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 23,
+      "sample_values": [
+        "541",
+        "42",
+        "100",
+        "0",
+        "1134"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 3082.0,
+        "mean": 283.9166666666667,
+        "std": 628.8317228911769
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Women Victims of Rape (Above 18 Yrs) - 18 Years & Above - Below 30 Years",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 33,
+      "sample_values": [
+        "333",
+        "24",
+        "1291",
+        "546",
+        "525"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 2313.0,
+        "mean": 469.44444444444446,
+        "std": 596.6588134625515
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Women Victims of Rape (Above 18 Yrs) - 30 Years & Above - Below 45 Years",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 31,
+      "sample_values": [
+        "121",
+        "5",
+        "582",
+        "68",
+        "245"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 779.0,
+        "mean": 163.75,
+        "std": 225.60032611425265
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Women Victims of Rape (Above 18 Yrs) - 45 Years & Above - Below 60 Years",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 17,
+      "sample_values": [
+        "6",
+        "0",
+        "75",
+        "2",
+        "14"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 104.0,
+        "mean": 13.972222222222221,
+        "std": 23.838128055834186
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Women Victims of Rape (Above 18 Yrs) - 60 Years & Above",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 10,
+      "sample_values": [
+        "4",
+        "0",
+        "8",
+        "1",
+        "3"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 46.0,
+        "mean": 3.861111111111111,
+        "std": 8.845185220632835
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Women Victims of Rape (Above 18 Yrs) - Total Women/Adult Victims",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 35,
+      "sample_values": [
+        "464",
+        "29",
+        "1948",
+        "616",
+        "792"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 3109.0,
+        "mean": 651.0277777777778,
+        "std": 839.5230784239045
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total Victims",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 35,
+      "sample_values": [
+        "1005",
+        "71",
+        "2048",
+        "616",
+        "1926"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 5599.0,
+        "mean": 934.9444444444445,
+        "std": 1317.7939996057141
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

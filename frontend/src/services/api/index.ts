@@ -127,6 +127,18 @@ export const explainabilityApi = {
   },
 };
 
+export const classificationApi = {
+  getClassification: () => fetchJson<any>('/classification'),
+};
+
+export const riskApi = {
+  getRiskIndications: () => fetchJson<any>('/risk'),
+};
+
+export const policeStationsApi = {
+  getPoliceStations: () => fetchJson<any>('/police-stations'),
+};
+
 export const researchApi = {
   searchScholarly: (query: string) => {
     return fetchJson<ScholarlySearchResponse>(`/research/search?query=${encodeURIComponent(query)}`);

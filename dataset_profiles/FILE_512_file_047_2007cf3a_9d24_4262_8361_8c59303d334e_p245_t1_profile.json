@@ -1,0 +1,283 @@
+{
+  "file_id": "FILE_512",
+  "filename": "FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p245_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p245_t1.csv",
+  "file_size_bytes": 2123,
+  "dataset_category": "COURT DISPOSAL",
+  "data_grain": "state_year",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "2007",
+  "row_count": 34,
+  "column_count": 10,
+  "duplicate_rows_count": 0,
+  "constant_columns": [
+    "Persons\nAbated\nFemale",
+    "Persons Cases\nwere\nWithdrawn\nFemale"
+  ],
+  "total_columns": [
+    "Total\nNumber of\nPersons\nunder Trial\nMale",
+    "Total\nNumber of\nPersons\nunder Trial\nFemale"
+  ],
+  "numeric_columns": [
+    "Persons\nPending Trial\nFrom\nPrevious\nYears Male",
+    "Persons\nPending\nTrial From\nPrevious\nYears\nFemale",
+    "Total\nNumber of\nPersons\nunder Trial\nMale",
+    "Total\nNumber of\nPersons\nunder Trial\nFemale",
+    "Persons\nAbated\nMale",
+    "Persons\nAbated\nFemale",
+    "Persons Cases\nwere\nWithdrawn\nMale",
+    "Persons Cases\nwere\nWithdrawn\nFemale"
+  ],
+  "categorical_columns": [
+    "S. No.",
+    "CrimeHead"
+  ],
+  "geographic_columns": [],
+  "year_columns": [
+    "Persons\nPending Trial\nFrom\nPrevious\nYears Male",
+    "Persons\nPending\nTrial From\nPrevious\nYears\nFemale"
+  ],
+  "column_details": [
+    {
+      "column_name": "S. No.",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 1,
+      "null_percentage": 2.94,
+      "unique_count": 33,
+      "sample_values": [
+        "19.1.1B",
+        "19.2",
+        "19.2.1A",
+        "19.2.1B",
+        "19.3"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "CrimeHead",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 25,
+      "sample_values": [
+        "Boys",
+        "Section 8 & 10 of POCSO Act or POCSO\nAct (Section 8 & 10) r/w Section 354\nIPC",
+        "Girls",
+        "Section 12 of POCSO Act or POCSO Act\n(Section 12) r/w Section 509 IPC",
+        "Section 14 & 15 of POCSO Act"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons\nPending Trial\nFrom\nPrevious\nYears Male",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 14,
+      "sample_values": [
+        "9",
+        "405",
+        "0",
+        "56",
+        "33"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 24127.0,
+        "mean": 1034.0882352941176,
+        "std": 4222.182764283057
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons\nPending\nTrial From\nPrevious\nYears\nFemale",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 9,
+      "sample_values": [
+        "0",
+        "3",
+        "1",
+        "2",
+        "9"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 836.0,
+        "mean": 38.26470588235294,
+        "std": 147.86056265720353
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total\nNumber of\nPersons\nunder Trial\nMale",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 20,
+      "sample_values": [
+        "24",
+        "741",
+        "0",
+        "160",
+        "156"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 38893.0,
+        "mean": 1669.8235294117646,
+        "std": 6812.153348291692
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total\nNumber of\nPersons\nunder Trial\nFemale",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 11,
+      "sample_values": [
+        "1",
+        "13",
+        "0",
+        "2",
+        "4"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1617.0,
+        "mean": 73.47058823529412,
+        "std": 285.34999618162885
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons\nAbated\nMale",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 4,
+      "sample_values": [
+        "0",
+        "3",
+        "4",
+        "19"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 19.0,
+        "mean": 0.7647058823529411,
+        "std": 3.3308368548005594
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons\nAbated\nFemale",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons Cases\nwere\nWithdrawn\nMale",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 3,
+      "sample_values": [
+        "0",
+        "1",
+        "4"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 4.0,
+        "mean": 0.14705882352941177,
+        "std": 0.702046918106487
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons Cases\nwere\nWithdrawn\nFemale",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

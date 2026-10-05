@@ -1,0 +1,243 @@
+{
+  "file_id": "FILE_708",
+  "filename": "FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p434_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p434_t1.csv",
+  "file_size_bytes": 1577,
+  "dataset_category": "GENERAL CRIME / IPC",
+  "data_grain": "unknown",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "2007",
+  "row_count": 16,
+  "column_count": 10,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [],
+  "numeric_columns": [],
+  "categorical_columns": [
+    "TABLE 12.6 (Concluded)",
+    "col_2",
+    "col_3",
+    "col_4",
+    "col_5",
+    "col_6",
+    "col_7",
+    "col_8",
+    "col_9",
+    "col_10"
+  ],
+  "geographic_columns": [],
+  "year_columns": [],
+  "column_details": [
+    {
+      "column_name": "TABLE 12.6 (Concluded)",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 2,
+      "null_percentage": 12.5,
+      "unique_count": 14,
+      "sample_values": [
+        "S.\nNo.",
+        "(1)",
+        "1",
+        "2",
+        "3"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_2",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 2,
+      "null_percentage": 12.5,
+      "unique_count": 14,
+      "sample_values": [
+        "Crime Head",
+        "(2)",
+        "Human Trafficking (Section 370 & 370A IPC or 370 & 370\nr/w other section of IPC / SLL",
+        "Exploitation in Trafficked person (Section 370A IPC r/w\nother section of IPC / SLL",
+        "Procuring inducing or taking a person for the saking of\nprostitution Section 5ITP or 5(1)B, 56(1)C r/w other\nsection of IPC / SLL"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_3",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 1,
+      "null_percentage": 6.25,
+      "unique_count": 8,
+      "sample_values": [
+        "Persons in whose\nCases Trials were\nCompleted\nDuring the Year",
+        "Male",
+        "(9)",
+        "1",
+        "0"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_4",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 2,
+      "null_percentage": 12.5,
+      "unique_count": 6,
+      "sample_values": [
+        "Female",
+        "(10)",
+        "1",
+        "0",
+        "5"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_5",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 2,
+      "null_percentage": 12.5,
+      "unique_count": 5,
+      "sample_values": [
+        "Persons\nConvicted",
+        "Male",
+        "(11)",
+        "0",
+        "2"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_6",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 3,
+      "null_percentage": 18.75,
+      "unique_count": 4,
+      "sample_values": [
+        "Female",
+        "(12)",
+        "0",
+        "1"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_7",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 1,
+      "null_percentage": 6.25,
+      "unique_count": 8,
+      "sample_values": [
+        "Persons\nAcquitted/\nDischarged",
+        "Male",
+        "(13)",
+        "1",
+        "0"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_8",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 2,
+      "null_percentage": 12.5,
+      "unique_count": 6,
+      "sample_values": [
+        "Female",
+        "(14)",
+        "1",
+        "0",
+        "4"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_9",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 1,
+      "null_percentage": 6.25,
+      "unique_count": 11,
+      "sample_values": [
+        "Persons Whose\ncases pending\nTrial at the end of\nthe year",
+        "Male",
+        "(15)",
+        "54",
+        "0"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_10",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 2,
+      "null_percentage": 12.5,
+      "unique_count": 8,
+      "sample_values": [
+        "Female",
+        "(16)",
+        "25",
+        "0",
+        "15"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

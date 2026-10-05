@@ -1,0 +1,243 @@
+{
+  "file_id": "FILE_996",
+  "filename": "FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p716_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p716_t1.csv",
+  "file_size_bytes": 1666,
+  "dataset_category": "GENERAL CRIME / IPC",
+  "data_grain": "unknown",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "2007",
+  "row_count": 46,
+  "column_count": 10,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [],
+  "numeric_columns": [],
+  "categorical_columns": [
+    "TABLE 20.2\nDetentions During 2017 (Gender wise & District / City Wise)",
+    "col_2",
+    "col_3",
+    "col_4",
+    "col_5",
+    "col_6",
+    "col_7",
+    "col_8",
+    "col_9",
+    "col_10"
+  ],
+  "geographic_columns": [
+    "TABLE 20.2\nDetentions During 2017 (Gender wise & District / City Wise)"
+  ],
+  "year_columns": [],
+  "column_details": [
+    {
+      "column_name": "TABLE 20.2\nDetentions During 2017 (Gender wise & District / City Wise)",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 3,
+      "null_percentage": 6.52,
+      "unique_count": 43,
+      "sample_values": [
+        "S.No.",
+        "(1)",
+        "1",
+        "2",
+        "3"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_2",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 3,
+      "null_percentage": 6.52,
+      "unique_count": 43,
+      "sample_values": [
+        "Districts",
+        "(2)",
+        "Ariyalur",
+        "Chennai City",
+        "Coimbatore"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_3",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 2,
+      "null_percentage": 4.35,
+      "unique_count": 4,
+      "sample_values": [
+        "National Security Act",
+        "Male",
+        "(3)",
+        "0"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_4",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 3,
+      "null_percentage": 6.52,
+      "unique_count": 3,
+      "sample_values": [
+        "Female",
+        "(4)",
+        "0"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_5",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 1,
+      "null_percentage": 2.17,
+      "unique_count": 37,
+      "sample_values": [
+        "TNPBDGIFS Act",
+        "Goondas",
+        "Male",
+        "(5)",
+        "28"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_6",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 3,
+      "null_percentage": 6.52,
+      "unique_count": 9,
+      "sample_values": [
+        "Female",
+        "(6)",
+        "0",
+        "11",
+        "1"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_7",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 2,
+      "null_percentage": 4.35,
+      "unique_count": 19,
+      "sample_values": [
+        "Bootleggers",
+        "Male",
+        "(7)",
+        "4",
+        "7"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_8",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 3,
+      "null_percentage": 6.52,
+      "unique_count": 10,
+      "sample_values": [
+        "Female",
+        "(8)",
+        "0",
+        "1",
+        "2"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_9",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 2,
+      "null_percentage": 4.35,
+      "unique_count": 37,
+      "sample_values": [
+        "Total",
+        "Male",
+        "(9)",
+        "32",
+        "789"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_10",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 3,
+      "null_percentage": 6.52,
+      "unique_count": 12,
+      "sample_values": [
+        "Female",
+        "(10)",
+        "0",
+        "12",
+        "2"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

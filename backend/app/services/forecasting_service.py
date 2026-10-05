@@ -64,9 +64,10 @@ class ForecastingService:
 
     def _load_data(self):
         paths = [
-            os.path.join(settings.DATA_DIR, "canonical", "crime", "anvesha_crime_ml_ready.parquet"),
-            os.path.join(settings.DATA_DIR, "canonical", "crime", "anvesha_extended_crime_master.parquet"),
-            os.path.join(settings.DATA_DIR, "04_integrated", "anvesha_clean_crime_master.parquet")
+            os.path.join(settings.DATA_DIR, "04_integrated", "anvesha_extended_crime_master.parquet"),
+            os.path.join(settings.DATA_DIR, "canonical", "crime", "anvesha_clean_crime_master.parquet"),
+            os.path.join(settings.DATA_DIR, "canonical", "district_ipc_2001_2014.csv"),
+            os.path.join(settings.DATA_DIR, "final", "anvesha_master_dataset.csv")
         ]
         for path in paths:
             if os.path.exists(path):
@@ -148,7 +149,8 @@ class ForecastingService:
         year_lookup = {}
         for _, row in sub_df.iterrows():
             y_int = int(row['year'])
-            val = float(row['crime_count'])
+            val_raw = row.get('crime_count', row.get('total_ipc', 0.0))
+            val = float(val_raw) if pd.notna(val_raw) else 0.0
             prov = str(row.get('source_provenance', 'NCRB Official District Panel (2001-2014)'))
             year_lookup[y_int] = (val, prov)
 

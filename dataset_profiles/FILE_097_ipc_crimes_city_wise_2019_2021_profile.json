@@ -1,0 +1,238 @@
+{
+  "file_id": "FILE_097",
+  "filename": "IPC_crimes_(City-wise)_2019-2021.csv",
+  "relative_path": "IPC_crimes_(City-wise)_2019-2021.csv",
+  "file_size_bytes": 1606,
+  "dataset_category": "GENERAL CRIME / IPC",
+  "data_grain": "unknown",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "2019-2021",
+  "row_count": 34,
+  "column_count": 8,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [],
+  "numeric_columns": [
+    "S.No",
+    "2019",
+    "2020",
+    "2021",
+    "Population",
+    "RateofCognizableCrimes",
+    "ChargesSheetingRate"
+  ],
+  "categorical_columns": [
+    "City"
+  ],
+  "geographic_columns": [
+    "City"
+  ],
+  "year_columns": [],
+  "column_details": [
+    {
+      "column_name": "S.No",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 34,
+      "sample_values": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 34.0,
+        "mean": 17.5,
+        "std": 9.958246164193104
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "City",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 34,
+      "sample_values": [
+        "Agra",
+        "Allahabad",
+        "Amritsar",
+        "Asansol",
+        "Aurangabad"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "2019",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 34,
+      "sample_values": [
+        "6510",
+        "5621",
+        "2589",
+        "4244",
+        "5636"
+      ],
+      "numeric_stats": {
+        "min": 1534.0,
+        "max": 22248.0,
+        "mean": 5929.735294117647,
+        "std": 4072.6516736740714
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "2020",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 34,
+      "sample_values": [
+        "6285",
+        "5455",
+        "3178",
+        "4335",
+        "6248"
+      ],
+      "numeric_stats": {
+        "min": 1241.0,
+        "max": 24140.0,
+        "mean": 7143.882352941177,
+        "std": 4951.932238513635
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "2021",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 34,
+      "sample_values": [
+        "5665",
+        "4130",
+        "3349",
+        "4864",
+        "7366"
+      ],
+      "numeric_stats": {
+        "min": 2016.0,
+        "max": 32104.0,
+        "mean": 6828.0,
+        "std": 5657.133881885398
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Population",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 31,
+      "sample_values": [
+        "17.5",
+        "12.2",
+        "11.8",
+        "12.4",
+        "11.9"
+      ],
+      "numeric_stats": {
+        "min": 10.0,
+        "max": 18.8,
+        "mean": 13.729411764705883,
+        "std": 2.6662343678116183
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "RateofCognizableCrimes",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 34,
+      "sample_values": [
+        "324.5",
+        "339.4",
+        "282.9",
+        "391.3",
+        "619.5"
+      ],
+      "numeric_stats": {
+        "min": 118.7,
+        "max": 2308.0,
+        "mean": 495.9029411764706,
+        "std": 388.09263146463877
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "ChargesSheetingRate",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 31,
+      "sample_values": [
+        "58.0",
+        "68.2",
+        "54.8",
+        "95.8",
+        "82.6"
+      ],
+      "numeric_stats": {
+        "min": 10.0,
+        "max": 99.3,
+        "mean": 73.60294117647061,
+        "std": 19.96288200020254
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

@@ -1,0 +1,294 @@
+{
+  "file_id": "FILE_1120",
+  "filename": "FILE_066_2ac03f2a_fdc7_43c4_8fbf_47b963e34804_p124_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_066_2ac03f2a_fdc7_43c4_8fbf_47b963e34804_p124_t1.csv",
+  "file_size_bytes": 1847,
+  "dataset_category": "CRIME AGAINST WOMEN",
+  "data_grain": "unknown",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "India / Multi-State",
+  "detected_year": "UNKNOWN",
+  "row_count": 44,
+  "column_count": 10,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [
+    "Total\nViolent\nCrimes\n(Cols. 3 to\n17)"
+  ],
+  "numeric_columns": [
+    "S.\nNo",
+    "Kidnapping\nand\nAbduction\n(Secs. 363-\n369 IPC)*",
+    "Rape (Sec.\n376 IPC)",
+    "Attempt to\nCommit\nRape (Sec.\n376 r/w 511\nIPC)",
+    "Rioting\n(Secs. 147-\n151 & 153A\nIPC)**",
+    "Robbery\n(Secs. 392\nto 394 IPC)",
+    "Dacoity\n(Secs. 395\nto 398 IPC)",
+    "Arson\n(Secs. 435\nto 438 IPC)",
+    "Total\nViolent\nCrimes\n(Cols. 3 to\n17)"
+  ],
+  "categorical_columns": [
+    "State/UT"
+  ],
+  "geographic_columns": [
+    "State/UT"
+  ],
+  "year_columns": [],
+  "column_details": [
+    {
+      "column_name": "S.\nNo",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 1,
+      "null_percentage": 2.27,
+      "unique_count": 42,
+      "sample_values": [
+        "1.0",
+        "2.0",
+        "3.0",
+        "4.0",
+        "5.0"
+      ],
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 42.0,
+        "mean": 21.023255813953487,
+        "std": 12.517584530596151
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "State/UT",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 44,
+      "sample_values": [
+        "2",
+        "Ariyalur",
+        "Chennai",
+        "Coimbatore",
+        "Coimbatore City"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Kidnapping\nand\nAbduction\n(Secs. 363-\n369 IPC)*",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 30,
+      "sample_values": [
+        "11",
+        "49",
+        "16",
+        "7",
+        "24"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 898.0,
+        "mean": 41.06818181818182,
+        "std": 133.69026990168274
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "Rape (Sec.\n376 IPC)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 21,
+      "sample_values": [
+        "12",
+        "14",
+        "42",
+        "6",
+        "1"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 362.0,
+        "mean": 16.727272727272727,
+        "std": 53.89669862451284
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Attempt to\nCommit\nRape (Sec.\n376 r/w 511\nIPC)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "13",
+        "0",
+        "1",
+        "2",
+        "8"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 13.0,
+        "mean": 0.6590909090909091,
+        "std": 2.3021040105226067
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Rioting\n(Secs. 147-\n151 & 153A\nIPC)**",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 32,
+      "sample_values": [
+        "14",
+        "48",
+        "61",
+        "33",
+        "21"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1722.0,
+        "mean": 78.5909090909091,
+        "std": 256.28520796645705
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Robbery\n(Secs. 392\nto 394 IPC)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 33,
+      "sample_values": [
+        "15",
+        "13",
+        "693",
+        "61",
+        "82"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 2444.0,
+        "mean": 111.43181818181819,
+        "std": 374.323662817961
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Dacoity\n(Secs. 395\nto 398 IPC)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 12,
+      "sample_values": [
+        "16",
+        "0",
+        "17",
+        "3",
+        "1"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 113.0,
+        "mean": 5.5,
+        "std": 17.02733780008312
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Arson\n(Secs. 435\nto 438 IPC)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 20,
+      "sample_values": [
+        "17",
+        "4",
+        "19",
+        "5",
+        "3"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 395.0,
+        "mean": 18.34090909090909,
+        "std": 58.94102025687862
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total\nViolent\nCrimes\n(Cols. 3 to\n17)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 41,
+      "sample_values": [
+        "18",
+        "160",
+        "1477",
+        "203",
+        "184"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 10946.0,
+        "mean": 497.95454545454544,
+        "std": 1627.9959281496626
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

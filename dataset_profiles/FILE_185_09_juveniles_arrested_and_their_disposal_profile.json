@@ -1,0 +1,294 @@
+{
+  "file_id": "FILE_185",
+  "filename": "09_Juveniles_arrested_and_their_disposal.csv",
+  "relative_path": "anvesha_training_data/00_raw/csv/09_Juveniles_arrested_and_their_disposal.csv",
+  "file_size_bytes": 14386,
+  "dataset_category": "ARRESTS / POLICE DISPOSAL",
+  "data_grain": "state_year_crime_disposal",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "India / Multi-State",
+  "detected_year": "2001-2010",
+  "row_count": 349,
+  "column_count": 10,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [],
+  "numeric_columns": [
+    "Year",
+    "Juveniles_Acquitted_or_Otherwise_Disposed_of",
+    "Juveniles_Arrested",
+    "Juveniles_Dealt_with_Fine",
+    "Juveniles_Released_on_Probation_and_placed_under_the_Care_of_Fit_Institutions",
+    "Juveniles_Released_on_Probation_and_placed_under_the_Care_of_Parent_Guardian",
+    "Juveniles_Sent_Home_after_Advice_or_Admonition",
+    "Juveniles_Sent_to_Special_Home",
+    "Juveniles_whose_Cases_Pending_Disposal"
+  ],
+  "categorical_columns": [
+    "Area_Name"
+  ],
+  "geographic_columns": [
+    "Juveniles_Released_on_Probation_and_placed_under_the_Care_of_Fit_Institutions"
+  ],
+  "year_columns": [
+    "Year"
+  ],
+  "column_details": [
+    {
+      "column_name": "Area_Name",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 35,
+      "sample_values": [
+        "Madhya Pradesh",
+        "Maharashtra",
+        "Tamil Nadu",
+        "Gujarat",
+        "Rajasthan"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Year",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 10,
+      "sample_values": [
+        "2002",
+        "2003",
+        "2004",
+        "2007",
+        "2001"
+      ],
+      "numeric_stats": {
+        "min": 2001.0,
+        "max": 2010.0,
+        "mean": 2005.5100286532952,
+        "std": 2.8743889404159906
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Juveniles_Acquitted_or_Otherwise_Disposed_of",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 118,
+      "sample_values": [
+        "435",
+        "304",
+        "605",
+        "401",
+        "180"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 2259.0,
+        "mean": 56.203438395415475,
+        "std": 153.03283168768218
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Juveniles_Arrested",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 256,
+      "sample_values": [
+        "8536",
+        "7672",
+        "7433",
+        "7350",
+        "7328"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 8536.0,
+        "mean": 949.6131805157593,
+        "std": 1686.4150124431403
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Juveniles_Dealt_with_Fine",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 83,
+      "sample_values": [
+        "388",
+        "512",
+        "398",
+        "929",
+        "322"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 929.0,
+        "mean": 34.77650429799427,
+        "std": 102.31426355511387
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Juveniles_Released_on_Probation_and_placed_under_the_Care_of_Fit_Institutions",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 105,
+      "sample_values": [
+        "329",
+        "364",
+        "161",
+        "343",
+        "181"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 414.0,
+        "mean": 37.49283667621776,
+        "std": 81.089336857491
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Juveniles_Released_on_Probation_and_placed_under_the_Care_of_Parent_Guardian",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 149,
+      "sample_values": [
+        "3774",
+        "2587",
+        "1435",
+        "810",
+        "1425"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 5033.0,
+        "mean": 186.49283667621776,
+        "std": 514.5339405270421
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Juveniles_Sent_Home_after_Advice_or_Admonition",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 146,
+      "sample_values": [
+        "1239",
+        "1011",
+        "1642",
+        "1466",
+        "1917"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1917.0,
+        "mean": 114.70487106017193,
+        "std": 271.0693839674284
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Juveniles_Sent_to_Special_Home",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 163,
+      "sample_values": [
+        "515",
+        "403",
+        "572",
+        "533",
+        "1361"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1482.0,
+        "mean": 135.44699140401147,
+        "std": 244.9577858854909
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Juveniles_whose_Cases_Pending_Disposal",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 208,
+      "sample_values": [
+        "1856",
+        "2491",
+        "2620",
+        "2868",
+        "1942"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 3361.0,
+        "mean": 384.49570200573066,
+        "std": 680.1202294902962
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

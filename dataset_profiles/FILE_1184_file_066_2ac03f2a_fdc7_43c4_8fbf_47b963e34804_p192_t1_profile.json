@@ -1,0 +1,240 @@
+{
+  "file_id": "FILE_1184",
+  "filename": "FILE_066_2ac03f2a_fdc7_43c4_8fbf_47b963e34804_p192_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_066_2ac03f2a_fdc7_43c4_8fbf_47b963e34804_p192_t1.csv",
+  "file_size_bytes": 1839,
+  "dataset_category": "GENERAL CRIME / IPC",
+  "data_grain": "district_year",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "1923",
+  "row_count": 44,
+  "column_count": 8,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [
+    "Total Cases\nDisposed Off\nby Police\n(Col.7+ Col.8+\nCol.15+ Col.18)"
+  ],
+  "numeric_columns": [
+    "S.\nNo",
+    "Total Cases\nDisposed Off\nby Police\n(Col.7+ Col.8+\nCol.15+ Col.18)",
+    "Cases Quashed\nat\nInvestigation\nStage",
+    "Cases Stayed\nat Investi-\ngation Stage",
+    "Cases Pending\nInvestigation\nat End of the\nYear (Col.6-\nCol.9- Col.19-\nCol.20)",
+    "Charge-\nSheeting Rate\n(Col.18/\nCol.19) *100",
+    "Pendency\nPercentage\n(Col.22/ Col.6)\n*100"
+  ],
+  "categorical_columns": [
+    "Districts"
+  ],
+  "geographic_columns": [
+    "Districts"
+  ],
+  "year_columns": [
+    "Cases Pending\nInvestigation\nat End of the\nYear (Col.6-\nCol.9- Col.19-\nCol.20)"
+  ],
+  "column_details": [
+    {
+      "column_name": "S.\nNo",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 2,
+      "null_percentage": 4.55,
+      "unique_count": 42,
+      "sample_values": [
+        "1.0",
+        "2.0",
+        "3.0",
+        "4.0",
+        "5.0"
+      ],
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 42.0,
+        "mean": 21.5,
+        "std": 12.267844146385297
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Districts",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 1,
+      "null_percentage": 2.27,
+      "unique_count": 43,
+      "sample_values": [
+        "Ariyalur",
+        "Chennai",
+        "Coimbatore",
+        "Coimbatore City",
+        "Cuddalore"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total Cases\nDisposed Off\nby Police\n(Col.7+ Col.8+\nCol.15+ Col.18)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 41,
+      "sample_values": [
+        "19",
+        "59",
+        "408",
+        "76",
+        "83"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 5176.0,
+        "mean": 235.70454545454547,
+        "std": 767.5862069469053
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases Quashed\nat\nInvestigation\nStage",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 7,
+      "sample_values": [
+        "20",
+        "0",
+        "17",
+        "1",
+        "3"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 31.0,
+        "mean": 1.8636363636363635,
+        "std": 5.959518121189541
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases Stayed\nat Investi-\ngation Stage",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 3,
+      "sample_values": [
+        "21",
+        "0",
+        "1"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 21.0,
+        "mean": 0.5227272727272727,
+        "std": 3.165869118066516
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases Pending\nInvestigation\nat End of the\nYear (Col.6-\nCol.9- Col.19-\nCol.20)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 40,
+      "sample_values": [
+        "22",
+        "24",
+        "1923",
+        "62",
+        "33"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 5553.0,
+        "mean": 252.9090909090909,
+        "std": 867.2607187772533
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Charge-\nSheeting Rate\n(Col.18/\nCol.19) *100",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 42,
+      "sample_values": [
+        "23.0",
+        "84.7",
+        "94.1",
+        "71.1",
+        "95.2"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 100.0,
+        "mean": 81.56136363636364,
+        "std": 18.4972432378335
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Pendency\nPercentage\n(Col.22/ Col.6)\n*100",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 43,
+      "sample_values": [
+        "24.0",
+        "28.9",
+        "81.9",
+        "44.9",
+        "28.4"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 81.9,
+        "mean": 42.10681818181818,
+        "std": 15.901621940489795
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

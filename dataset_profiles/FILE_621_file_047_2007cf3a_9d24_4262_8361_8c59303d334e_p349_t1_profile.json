@@ -1,0 +1,311 @@
+{
+  "file_id": "FILE_621",
+  "filename": "FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p349_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p349_t1.csv",
+  "file_size_bytes": 1489,
+  "dataset_category": "COURT DISPOSAL",
+  "data_grain": "state_year",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "2007",
+  "row_count": 21,
+  "column_count": 11,
+  "duplicate_rows_count": 0,
+  "constant_columns": [
+    "Cases\nStayed or\nSent to\nRecord\nRoom"
+  ],
+  "total_columns": [],
+  "numeric_columns": [
+    "Cases\nStayed or\nSent to\nRecord\nRoom",
+    "Cases\nConvicte\nd",
+    "Cases\nDischarg\ned",
+    "Cases\nAcquitte\nd",
+    "Cases in\nwhich\nTrials\nwere\nComplete\nd",
+    "Cases\nDisposed\noff by\nCourts",
+    "Cases\nPending\nTrial at\nEnd of\nthe Year",
+    "Convicti\non Rate",
+    "Pendenc\ny\nPercent\nage"
+  ],
+  "categorical_columns": [
+    "S. No.",
+    "Crime Head"
+  ],
+  "geographic_columns": [],
+  "year_columns": [
+    "Cases\nPending\nTrial at\nEnd of\nthe Year"
+  ],
+  "column_details": [
+    {
+      "column_name": "S. No.",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 20,
+      "sample_values": [
+        "1A.8",
+        "1A.8.1",
+        "1A.8.2",
+        "1A.9",
+        "1A.10"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Crime Head",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 20,
+      "sample_values": [
+        "Rape",
+        "Rape of Women",
+        "Rape of Children",
+        "Attempt to Commit Rape",
+        "Riots"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nStayed or\nSent to\nRecord\nRoom",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nConvicte\nd",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 9,
+      "sample_values": [
+        "4",
+        "3",
+        "1",
+        "0",
+        "6"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 97.0,
+        "mean": 12.714285714285714,
+        "std": 29.59247008470712
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nDischarg\ned",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 4,
+      "sample_values": [
+        "0",
+        "2",
+        "1",
+        "7"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 7.0,
+        "mean": 0.8095238095238095,
+        "std": 2.11232212550661
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nAcquitte\nd",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 13,
+      "sample_values": [
+        "33",
+        "25",
+        "8",
+        "0",
+        "70"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 671.0,
+        "mean": 92.38095238095238,
+        "std": 197.64424509468424
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases in\nwhich\nTrials\nwere\nComplete\nd",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 13,
+      "sample_values": [
+        "37",
+        "28",
+        "9",
+        "0",
+        "78"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 775.0,
+        "mean": 105.9047619047619,
+        "std": 228.1273558260615
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nDisposed\noff by\nCourts",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 13,
+      "sample_values": [
+        "37",
+        "28",
+        "9",
+        "0",
+        "81"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 799.0,
+        "mean": 109.0,
+        "std": 235.23158801487526
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nPending\nTrial at\nEnd of\nthe Year",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 18,
+      "sample_values": [
+        "153",
+        "129",
+        "24",
+        "10",
+        "251"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 4234.0,
+        "mean": 617.8095238095239,
+        "std": 1267.2919402824125
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Convicti\non Rate",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 11,
+      "sample_values": [
+        "10.8",
+        "10.7",
+        "11.1",
+        "0.0",
+        "7.7"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 33.3,
+        "mean": 7.052380952380952,
+        "std": 9.880770164699664
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Pendenc\ny\nPercent\nage",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 14,
+      "sample_values": [
+        "80.5",
+        "82.2",
+        "72.7",
+        "100.0",
+        "75.6"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 100.0,
+        "mean": 77.25238095238095,
+        "std": 30.073420474691922
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

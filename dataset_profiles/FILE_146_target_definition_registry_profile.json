@@ -1,0 +1,133 @@
+{
+  "file_id": "FILE_146",
+  "filename": "TARGET_DEFINITION_REGISTRY.csv",
+  "relative_path": "TARGET_DEFINITION_REGISTRY.csv",
+  "file_size_bytes": 811,
+  "dataset_category": "GENERAL CRIME / IPC",
+  "data_grain": "unknown",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "UNKNOWN",
+  "row_count": 5,
+  "column_count": 5,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [],
+  "numeric_columns": [],
+  "categorical_columns": [
+    "target_name",
+    "task",
+    "target_type",
+    "definition",
+    "leakage_firewall_rule"
+  ],
+  "geographic_columns": [],
+  "year_columns": [],
+  "column_details": [
+    {
+      "column_name": "target_name",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "crime_count_next_year",
+        "crime_rate_next_year",
+        "trend_direction",
+        "anomaly_score",
+        "future_disposal_outcome"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "task",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "Task A: Count Forecasting",
+        "Task B: Rate Forecasting",
+        "Task E: Trend Classification",
+        "Task D: Anomaly Detection",
+        "Task F: Court Disposal Analysis"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "target_type",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "Continuous / Integer",
+        "Continuous / Float",
+        "Categorical (UP, DOWN, STABLE)",
+        "Continuous (Z-Score)",
+        "Categorical (HIGH_CONVICTION, LOW_CONVICTION)"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "definition",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "Total crime count in year t+1",
+        "Crime rate per 100k population in year t+1",
+        "UP if YoY > +5%, DOWN if YoY < -5%, STABLE otherwise",
+        "Z-score of YoY percentage change across history",
+        "HIGH_CONVICTION if conviction rate > 40%"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "leakage_firewall_rule",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 4,
+      "sample_values": [
+        "feature_year < target_year",
+        "Evaluated strictly on YoY % change",
+        "Unsupervised feature computation",
+        "Quarantined from incident models"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

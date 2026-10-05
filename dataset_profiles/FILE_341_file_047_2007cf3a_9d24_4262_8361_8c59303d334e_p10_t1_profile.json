@@ -1,0 +1,96 @@
+{
+  "file_id": "FILE_341",
+  "filename": "FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p10_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p10_t1.csv",
+  "file_size_bytes": 2477,
+  "dataset_category": "GENERAL CRIME / IPC",
+  "data_grain": "unknown",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "2007",
+  "row_count": 30,
+  "column_count": 3,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [],
+  "numeric_columns": [
+    "PAGES"
+  ],
+  "categorical_columns": [
+    "CHAPTER &\nTABLE NO.",
+    "TITLE"
+  ],
+  "geographic_columns": [],
+  "year_columns": [],
+  "column_details": [
+    {
+      "column_name": "CHAPTER &\nTABLE NO.",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 30,
+      "sample_values": [
+        "CHAPTER 13",
+        "13.1",
+        "CHAPTER 14",
+        "14.1",
+        "14.2"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "TITLE",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 29,
+      "sample_values": [
+        "SUICIDES",
+        "Suicides During 2016 (District / City Wise- Sex Wise)",
+        "ROAD ACCIDENTS & DEATHS",
+        "District/City Wise Comparative Statements of Road Accidents\nfor the Year 2016 and 2017",
+        "Road Accidental Deaths According to Type of Vehicles 2017 (District / City Wise)"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "PAGES",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 6,
+      "null_percentage": 20.0,
+      "unique_count": 24,
+      "sample_values": [
+        "425.0",
+        "429.0",
+        "430.0",
+        "431.0",
+        "432.0"
+      ],
+      "numeric_stats": {
+        "min": 425.0,
+        "max": 483.0,
+        "mean": 452.2083333333333,
+        "std": 18.584657455913014
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

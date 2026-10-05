@@ -1,0 +1,315 @@
+{
+  "file_id": "FILE_205",
+  "filename": "2016 Cases against Police Personnels.csv",
+  "relative_path": "anvesha_training_data/00_raw/csv/2016 Cases against Police Personnels.csv",
+  "file_size_bytes": 2490,
+  "dataset_category": "ARRESTS / POLICE DISPOSAL",
+  "data_grain": "state_year_crime_disposal",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "India (Includes Tamil Nadu)",
+  "detected_year": "2016",
+  "row_count": 36,
+  "column_count": 11,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [
+    "Total Number of Criminal Cases Registered during the year"
+  ],
+  "numeric_columns": [
+    "S. No.",
+    "Total Number of Criminal Cases Registered during the year",
+    "Police Personnel Arrested",
+    "Cases Chargesheeted",
+    "Police Personnel Chargesheeted",
+    "Police Personnel whose Cases were withdrawn/ Disposed Off",
+    "Police Personnel whose Trials were Completed",
+    "Police Personnel Convicted",
+    "Police Personnel Acquitted"
+  ],
+  "categorical_columns": [
+    "Category",
+    "State/UT"
+  ],
+  "geographic_columns": [
+    "State/UT"
+  ],
+  "year_columns": [
+    "Total Number of Criminal Cases Registered during the year"
+  ],
+  "column_details": [
+    {
+      "column_name": "S. No.",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 36,
+      "sample_values": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 36.0,
+        "mean": 18.5,
+        "std": 10.535653752852738
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Category",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "State",
+        "UT"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "State/UT",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 36,
+      "sample_values": [
+        "Andhra Pradesh",
+        "Arunachal Pradesh",
+        "Assam",
+        "Bihar",
+        "Chhattisgarh"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total Number of Criminal Cases Registered during the year",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 31,
+      "sample_values": [
+        "100",
+        "24",
+        "37",
+        "43",
+        "65"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 487.0,
+        "mean": 73.0,
+        "std": 102.96906608991155
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Police Personnel Arrested",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 26,
+      "sample_values": [
+        "36",
+        "10",
+        "18",
+        "0",
+        "26"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 388.0,
+        "mean": 36.97222222222222,
+        "std": 71.13467553515699
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases Chargesheeted",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 24,
+      "sample_values": [
+        "28",
+        "13",
+        "8",
+        "40",
+        "32"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 196.0,
+        "mean": 30.305555555555557,
+        "std": 42.26367534855735
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Police Personnel Chargesheeted",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 23,
+      "sample_values": [
+        "29",
+        "13",
+        "8",
+        "40",
+        "38"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 209.0,
+        "mean": 30.666666666666668,
+        "std": 47.80316785677343
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Police Personnel whose Cases were withdrawn/ Disposed Off",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 10,
+      "sample_values": [
+        "5",
+        "0",
+        "1",
+        "2",
+        "11"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 37.0,
+        "mean": 2.7777777777777777,
+        "std": 6.862365735813229
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Police Personnel whose Trials were Completed",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 9,
+      "sample_values": [
+        "8",
+        "6",
+        "0",
+        "1",
+        "3"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 24.0,
+        "mean": 2.0277777777777777,
+        "std": 4.765867398857429
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Police Personnel Convicted",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "0",
+        "5",
+        "1",
+        "20",
+        "3"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 20.0,
+        "mean": 0.8611111111111112,
+        "std": 3.4238889983490792
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Police Personnel Acquitted",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 7,
+      "sample_values": [
+        "8",
+        "1",
+        "0",
+        "3",
+        "4"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 9.0,
+        "mean": 1.1666666666666667,
+        "std": 2.466924053495423
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

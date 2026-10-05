@@ -1,0 +1,195 @@
+{
+  "file_id": "FILE_092",
+  "filename": "36_Police_housing.csv",
+  "relative_path": "36_Police_housing.csv",
+  "file_size_bytes": 129707,
+  "dataset_category": "POLICE PERSONNEL / COMPLAINTS",
+  "data_grain": "document_level",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "UNKNOWN",
+  "row_count": 696,
+  "column_count": 7,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [],
+  "numeric_columns": [
+    "Year",
+    "PH_Houses_Provided_by_Department",
+    "PH_Houses_provided_on_LeaseRentGPRA",
+    "PH_Sanctioned_Strength"
+  ],
+  "categorical_columns": [
+    "\u00ef\u00bb\u00bfArea_Name",
+    "Group_Name",
+    "Sub_Group_Name"
+  ],
+  "geographic_columns": [],
+  "year_columns": [
+    "Year"
+  ],
+  "column_details": [
+    {
+      "column_name": "\u00ef\u00bb\u00bfArea_Name",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 35,
+      "sample_values": [
+        "Andaman & Nicobar Islands",
+        "Andhra Pradesh",
+        "Arunachal Pradesh",
+        "Assam",
+        "Bihar"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Year",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 10,
+      "sample_values": [
+        "2001",
+        "2002",
+        "2003",
+        "2004",
+        "2005"
+      ],
+      "numeric_stats": {
+        "min": 2001.0,
+        "max": 2010.0,
+        "mean": 2005.5258620689656,
+        "std": 2.862190759962586
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Group_Name",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "PH_Officers (DySP & Above)",
+        "PH_Upper Subordinates (A.S.I. to Inspectors)"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Sub_Group_Name",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "1. For Officers (Dy.SP & Above)",
+        "2. Upper SubOrdinates (ASI to Inspectos)"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "PH_Houses_Provided_by_Department",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 27,
+      "null_percentage": 3.88,
+      "unique_count": 333,
+      "sample_values": [
+        "7.0",
+        "102.0",
+        "81.0",
+        "0.0",
+        "130.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 10018.0,
+        "mean": 837.4454409566517,
+        "std": 1604.0307467797059
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "PH_Houses_provided_on_LeaseRentGPRA",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 204,
+      "null_percentage": 29.31,
+      "unique_count": 179,
+      "sample_values": [
+        "189.0",
+        "11.0",
+        "0.0",
+        "89.0",
+        "168.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 13646.0,
+        "mean": 559.4512195121952,
+        "std": 1855.4068387635316
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "PH_Sanctioned_Strength",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 454,
+      "sample_values": [
+        "17",
+        "569",
+        "92",
+        "531",
+        "222"
+      ],
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 33599.0,
+        "mean": 3161.1508620689656,
+        "std": 5478.676633934722
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Parse error: Error tokenizing data. C error: Expected 7 fields in line 698, saw 9\n"
+}

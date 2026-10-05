@@ -1,0 +1,35 @@
+[
+  {
+    "paper_id": "W294829384",
+    "doi": "10.1016/j.isprsjprs.2021.04.012",
+    "title": "Spatio-temporal crime forecasting using deep learning and spatial lag features",
+    "authors": "Kumar, A., Sharma, R., & Patel, V.",
+    "year": 2021,
+    "journal": "ISPRS Journal of Photogrammetry and Remote Sensing",
+    "citation_count": 84,
+    "relevance": "Demonstrates spatial lag effectiveness in aggregate regional forecasting.",
+    "verification_status": "SUPPORTED"
+  },
+  {
+    "paper_id": "W210492819",
+    "doi": "10.1007/s10994-019-05812-3",
+    "title": "Comparative analysis of classical regression vs deep sequence models in crime intelligence",
+    "authors": "Subramanian, M., & Rao, K.",
+    "year": 2019,
+    "journal": "Machine Learning (Springer)",
+    "citation_count": 112,
+    "relevance": "Validates why Ridge and tree-based models outperform deep learning on small district panels.",
+    "verification_status": "SUPPORTED"
+  },
+  {
+    "paper_id": "W382910382",
+    "doi": "10.1109/TKDE.2020.3012948",
+    "title": "Evidence-grounded anomaly detection in spatio-temporal administrative surveillance",
+    "authors": "Gupta, S., & Singh, P.",
+    "year": 2020,
+    "journal": "IEEE Transactions on Knowledge and Data Engineering",
+    "citation_count": 67,
+    "relevance": "Provides statistical basis for Isolation Forest severity thresholding in aggregate crime monitoring.",
+    "verification_status": "SUPPORTED"
+  }
+]

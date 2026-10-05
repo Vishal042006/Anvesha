@@ -1,0 +1,298 @@
+{
+  "file_id": "FILE_467",
+  "filename": "FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p201_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p201_t1.csv",
+  "file_size_bytes": 1828,
+  "dataset_category": "ARRESTS / POLICE DISPOSAL",
+  "data_grain": "state_year",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "2007",
+  "row_count": 23,
+  "column_count": 12,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [],
+  "numeric_columns": [
+    "S.\nNo."
+  ],
+  "categorical_columns": [
+    "Crime Head",
+    "Persons Bailed by\nPolice during the\nYear",
+    "col_4",
+    "Persons Granted\nBail by Court\nduring the Year",
+    "col_6",
+    "Persons in\nCustody at End of\nthe Year",
+    "col_8",
+    "Persons Whose\nCases FR\nSubmitted",
+    "col_10",
+    "Persons Charge\nsheeted",
+    "col_12"
+  ],
+  "geographic_columns": [],
+  "year_columns": [
+    "Persons Bailed by\nPolice during the\nYear",
+    "Persons Granted\nBail by Court\nduring the Year",
+    "Persons in\nCustody at End of\nthe Year"
+  ],
+  "column_details": [
+    {
+      "column_name": "S.\nNo.",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 2,
+      "null_percentage": 8.7,
+      "unique_count": 21,
+      "sample_values": [
+        "17.0",
+        "18.0",
+        "18.1",
+        "18.2",
+        "18.3"
+      ],
+      "numeric_stats": {
+        "min": 17.0,
+        "max": 24.0,
+        "mean": 20.185714285714283,
+        "std": 1.8572252728965637
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Crime Head",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 1,
+      "null_percentage": 4.35,
+      "unique_count": 22,
+      "sample_values": [
+        "Dowry Prohibition Act",
+        "Immoral Traffic (Prevention) Act",
+        "Procuring, inducing Children for the\nsake of prostitution",
+        "Detaining a person in premises\nwhere prostitution is carried on",
+        "Prostitution in or in the vicinity of\npublic places"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons Bailed by\nPolice during the\nYear",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 8,
+      "sample_values": [
+        "Male",
+        "4",
+        "5",
+        "3",
+        "0"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_4",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "Female",
+        "0",
+        "2",
+        "1",
+        "15"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons Granted\nBail by Court\nduring the Year",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 18,
+      "sample_values": [
+        "Male",
+        "479",
+        "296",
+        "41",
+        "72"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_6",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 15,
+      "sample_values": [
+        "Female",
+        "303",
+        "227",
+        "97",
+        "9"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons in\nCustody at End of\nthe Year",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 16,
+      "sample_values": [
+        "Male",
+        "20",
+        "14",
+        "4",
+        "0"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_8",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 8,
+      "sample_values": [
+        "Female",
+        "2",
+        "1",
+        "0",
+        "14"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons Whose\nCases FR\nSubmitted",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 15,
+      "sample_values": [
+        "Male",
+        "38",
+        "66",
+        "25",
+        "10"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_10",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 11,
+      "sample_values": [
+        "Female",
+        "24",
+        "40",
+        "12",
+        "0"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons Charge\nsheeted",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 21,
+      "sample_values": [
+        "Male",
+        "338",
+        "313",
+        "145",
+        "40"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_12",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 16,
+      "sample_values": [
+        "Female",
+        "141",
+        "158",
+        "51",
+        "9"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

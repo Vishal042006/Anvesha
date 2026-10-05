@@ -1,0 +1,964 @@
+{
+  "file_id": "FILE_090",
+  "filename": "58c25a7e-7193-4503-9e96-a52842fcd305.csv",
+  "relative_path": "58c25a7e-7193-4503-9e96-a52842fcd305.csv",
+  "file_size_bytes": 6140,
+  "dataset_category": "CRIME AGAINST WOMEN",
+  "data_grain": "unknown",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "India / Multi-State",
+  "detected_year": "UNKNOWN",
+  "row_count": 50,
+  "column_count": 37,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [
+    "Sexual Harrassment Total - I",
+    "Sexual Harrassment Total - V",
+    "Sexual Harrassment Total - R"
+  ],
+  "numeric_columns": [
+    "Assault on Women with Intent to Outrage her Modesty - Incidents (I)",
+    "Assault on Women with Intent to Outrage her Modesty - Victims (V)",
+    "Assault on Women with Intent to Outrage her Modesty - R (Crime Rate)",
+    "Assault on Women - I",
+    "Assault on Women - V",
+    "Sexual Harrassment Total - I",
+    "Sexual Harrassment Total - V",
+    "SH At work/premises - I",
+    "SH At work/premises - V",
+    "SH in Public transport - I",
+    "SH in Public transport - V",
+    "SH in shelter homes for women and children - I",
+    "SH in shelter homes for women and children - V",
+    "SH in Other places - I",
+    "SH in Other places - V",
+    "Assault or use of Criminal\nForce on women with intent\nto Disrobe (Sec.354B IPC) - I",
+    "Assault or use of Criminal\nForce on women with intent\nto Disrobe (Sec.354B IPC) - V",
+    "Voyeurism - I",
+    "Voyeurism - V",
+    "Stalking - I",
+    "Stalking - V",
+    "Rape (Sec 376) - I",
+    "Rape - V",
+    "Attempt to Commit Rape (Sec.376/511) - I",
+    "Attempt to Commit Rape - V"
+  ],
+  "categorical_columns": [
+    "Districts",
+    "Assault on Women - R",
+    "Sexual Harrassment Total - R",
+    "SH At work/premises - R",
+    "SH in Public transport - R",
+    "SH in shelter homes for women and children - R",
+    "SH in Other places - R",
+    "Assault or use of Criminal\nForce on women with intent\nto Disrobe (Sec.354B IPC) - R",
+    "Voyeurism - R",
+    "Stalking - R",
+    "Rape - R",
+    "Attempt to Commit Rape - R"
+  ],
+  "geographic_columns": [
+    "Districts",
+    "Assault on Women with Intent to Outrage her Modesty - Incidents (I)",
+    "Assault on Women with Intent to Outrage her Modesty - Victims (V)",
+    "Assault on Women with Intent to Outrage her Modesty - R (Crime Rate)"
+  ],
+  "year_columns": [],
+  "column_details": [
+    {
+      "column_name": "Districts",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 50,
+      "sample_values": [
+        "Ariyalur",
+        "Chennai",
+        "Coimbatore",
+        "Coimbatore City",
+        "Cuddalore"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Assault on Women with Intent to Outrage her Modesty - Incidents (I)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 34,
+      "sample_values": [
+        "4",
+        "139",
+        "21",
+        "10",
+        "37"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1414.0,
+        "mean": 56.56,
+        "std": 198.00537613810346
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "Assault on Women with Intent to Outrage her Modesty - Victims (V)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 34,
+      "sample_values": [
+        "4",
+        "139",
+        "21",
+        "10",
+        "37"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1417.0,
+        "mean": 56.68,
+        "std": 198.4127258920616
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Assault on Women with Intent to Outrage her Modesty - R (Crime Rate)",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 4,
+      "null_percentage": 8.0,
+      "unique_count": 40,
+      "sample_values": [
+        "1.0",
+        "4.6",
+        "1.6",
+        "1.8",
+        "2.7"
+      ],
+      "numeric_stats": {
+        "min": 0.2,
+        "max": 10.8,
+        "mean": 3.6608695652173915,
+        "std": 2.413985018904961
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Assault on Women - I",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 32,
+      "sample_values": [
+        "3",
+        "77",
+        "21",
+        "10",
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1045.0,
+        "mean": 41.8,
+        "std": 146.79431674479576
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Assault on Women - V",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 33,
+      "sample_values": [
+        "3",
+        "77",
+        "21",
+        "10",
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1048.0,
+        "mean": 41.92,
+        "std": 147.20038265256386
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Assault on Women - R",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 37,
+      "sample_values": [
+        "0.7",
+        "2.5",
+        "1.6",
+        "1.8",
+        "0"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Sexual Harrassment Total - I",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 18,
+      "sample_values": [
+        "0",
+        "40",
+        "37",
+        "7",
+        "10"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 243.0,
+        "mean": 9.72,
+        "std": 34.96472858321596
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Sexual Harrassment Total - V",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 18,
+      "sample_values": [
+        "0",
+        "40",
+        "37",
+        "7",
+        "10"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 243.0,
+        "mean": 9.72,
+        "std": 34.96472858321596
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Sexual Harrassment Total - R",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 20,
+      "sample_values": [
+        "0",
+        "1.3",
+        "2.7",
+        "0.9",
+        "0.4"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "SH At work/premises - I",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "0",
+        "2",
+        "10",
+        "1",
+        "15"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 15.0,
+        "mean": 0.6,
+        "std": 2.5394841192330255
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "SH At work/premises - V",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "0",
+        "2",
+        "10",
+        "1",
+        "15"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 15.0,
+        "mean": 0.6,
+        "std": 2.5394841192330255
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "SH At work/premises - R",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 4,
+      "sample_values": [
+        "0",
+        "0.1",
+        "0.7",
+        "-"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "SH in Public transport - I",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "0",
+        "2",
+        "8",
+        "1",
+        "15"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 15.0,
+        "mean": 0.6,
+        "std": 2.407471363764674
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "SH in Public transport - V",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "0",
+        "2",
+        "8",
+        "1",
+        "15"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 15.0,
+        "mean": 0.6,
+        "std": 2.407471363764674
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "SH in Public transport - R",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 6,
+      "sample_values": [
+        "0",
+        "0.1",
+        "0.6",
+        "0.3",
+        "-"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "SH in shelter homes for women and children - I",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "0",
+        "2"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 2.0,
+        "mean": 0.08,
+        "std": 0.3958973274443149
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "SH in shelter homes for women and children - V",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "0",
+        "2"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 2.0,
+        "mean": 0.08,
+        "std": 0.3958973274443149
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "SH in shelter homes for women and children - R",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 3,
+      "sample_values": [
+        "0",
+        "-",
+        "0.3"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "SH in Other places - I",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 17,
+      "sample_values": [
+        "0",
+        "36",
+        "19",
+        "7",
+        "9"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 211.0,
+        "mean": 8.44,
+        "std": 30.329590858312827
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "SH in Other places - V",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 17,
+      "sample_values": [
+        "0",
+        "36",
+        "19",
+        "7",
+        "9"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 211.0,
+        "mean": 8.44,
+        "std": 30.329590858312827
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "SH in Other places - R",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 19,
+      "sample_values": [
+        "0",
+        "1.2",
+        "1.4",
+        "0.9",
+        "0.8"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Assault or use of Criminal\nForce on women with intent\nto Disrobe (Sec.354B IPC) - I",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 6,
+      "sample_values": [
+        "0",
+        "4",
+        "1",
+        "2",
+        "3"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 28.0,
+        "mean": 1.12,
+        "std": 3.9879410062572083
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Assault or use of Criminal\nForce on women with intent\nto Disrobe (Sec.354B IPC) - V",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 6,
+      "sample_values": [
+        "0",
+        "4",
+        "1",
+        "2",
+        "3"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 28.0,
+        "mean": 1.12,
+        "std": 3.9879410062572083
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Assault or use of Criminal\nForce on women with intent\nto Disrobe (Sec.354B IPC) - R",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 7,
+      "sample_values": [
+        "0",
+        "0.1",
+        "0.2",
+        "0.3",
+        "-"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Voyeurism - I",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 6,
+      "sample_values": [
+        "0",
+        "4",
+        "1",
+        "3",
+        "2"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 32.0,
+        "mean": 1.28,
+        "std": 4.5894288471287075
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Voyeurism - V",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 6,
+      "sample_values": [
+        "0",
+        "4",
+        "1",
+        "3",
+        "2"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 32.0,
+        "mean": 1.28,
+        "std": 4.5894288471287075
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Voyeurism - R",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 9,
+      "sample_values": [
+        "0",
+        "0.1",
+        "0.3",
+        "0.2",
+        "-"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Stalking - I",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 9,
+      "sample_values": [
+        "1",
+        "14",
+        "0",
+        "3",
+        "5"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 66.0,
+        "mean": 2.64,
+        "std": 9.475553938898749
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Stalking - V",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 9,
+      "sample_values": [
+        "1",
+        "14",
+        "0",
+        "3",
+        "5"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 66.0,
+        "mean": 2.64,
+        "std": 9.475553938898749
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Stalking - R",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 11,
+      "sample_values": [
+        "0.2",
+        "0.5",
+        "0",
+        "0.1",
+        "0.3"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Rape (Sec 376) - I",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 22,
+      "sample_values": [
+        "7",
+        "36",
+        "13",
+        "26",
+        "6"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 421.0,
+        "mean": 16.84,
+        "std": 58.75697440148129
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Rape - V",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 22,
+      "sample_values": [
+        "7",
+        "36",
+        "13",
+        "26",
+        "6"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 421.0,
+        "mean": 16.84,
+        "std": 58.75697440148129
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Rape - R",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 24,
+      "sample_values": [
+        "1.7",
+        "1.2",
+        "1",
+        "1.3",
+        "1.9"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Attempt to Commit Rape (Sec.376/511) - I",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "3",
+        "0",
+        "2",
+        "1",
+        "21"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 21.0,
+        "mean": 0.84,
+        "std": 3.012626489850167
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Attempt to Commit Rape - V",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "3",
+        "0",
+        "2",
+        "1",
+        "21"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 21.0,
+        "mean": 0.84,
+        "std": 3.012626489850167
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Attempt to Commit Rape - R",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 7,
+      "sample_values": [
+        "0.7",
+        "0",
+        "0.4",
+        "0.2",
+        "0.1"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

@@ -1,0 +1,367 @@
+{
+  "file_id": "FILE_212",
+  "filename": "2018 Escapes from Police Custody.csv",
+  "relative_path": "anvesha_training_data/00_raw/csv/2018 Escapes from Police Custody.csv",
+  "file_size_bytes": 2941,
+  "dataset_category": "ARRESTS / POLICE DISPOSAL",
+  "data_grain": "unknown",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "India (Includes Tamil Nadu)",
+  "detected_year": "2018",
+  "row_count": 36,
+  "column_count": 13,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [
+    "Persons Escaped - Total"
+  ],
+  "numeric_columns": [
+    "S. No.",
+    "Cases Reported",
+    "Persons Escaped - From lockup",
+    "Persons Escaped - Outside Lockup",
+    "Persons Escaped - Total",
+    "Escapees - Re-Arrested",
+    "Escapees - Absconding",
+    "Cases against Police for Negligence",
+    "Action taken for Negligence - Police Personnel Arrested",
+    "Action taken for Negligence - Police Personnel Chargesheeted",
+    "Action taken for Negligence - Police Personnel Convicted"
+  ],
+  "categorical_columns": [
+    "Category",
+    "State/UT"
+  ],
+  "geographic_columns": [
+    "State/UT",
+    "Persons Escaped - Outside Lockup"
+  ],
+  "year_columns": [],
+  "column_details": [
+    {
+      "column_name": "S. No.",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 36,
+      "sample_values": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 36.0,
+        "mean": 18.5,
+        "std": 10.535653752852738
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Category",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "State",
+        "Union Territory"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "State/UT",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 36,
+      "sample_values": [
+        "Andhra Pradesh",
+        "Arunachal Pradesh",
+        "Assam",
+        "Bihar",
+        "Chhattisgarh"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases Reported",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 22,
+      "sample_values": [
+        "26",
+        "2",
+        "38",
+        "54",
+        "31"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 312.0,
+        "mean": 35.583333333333336,
+        "std": 62.4226950486989
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons Escaped - From lockup",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 18,
+      "sample_values": [
+        "1",
+        "2",
+        "25",
+        "14",
+        "5"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 26.0,
+        "mean": 5.638888888888889,
+        "std": 6.9904129360055
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons Escaped - Outside Lockup",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 25,
+      "sample_values": [
+        "35",
+        "0",
+        "12",
+        "50",
+        "27"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 80.0,
+        "mean": 20.38888888888889,
+        "std": 22.636604714839034
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "Persons Escaped - Total",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 24,
+      "sample_values": [
+        "36",
+        "2",
+        "37",
+        "64",
+        "32"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 106.0,
+        "mean": 26.02777777777778,
+        "std": 28.059616239215803
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Escapees - Re-Arrested",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 25,
+      "sample_values": [
+        "22",
+        "2",
+        "6",
+        "35",
+        "24"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 94.0,
+        "mean": 18.22222222222222,
+        "std": 22.178639802568224
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Escapees - Absconding",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 16,
+      "sample_values": [
+        "6",
+        "0",
+        "28",
+        "18",
+        "15"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 28.0,
+        "mean": 6.166666666666667,
+        "std": 7.625146368618581
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases against Police for Negligence",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 10,
+      "sample_values": [
+        "3",
+        "0",
+        "1",
+        "11",
+        "17"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 52.0,
+        "mean": 3.7777777777777777,
+        "std": 9.642498523607756
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Action taken for Negligence - Police Personnel Arrested",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 8,
+      "sample_values": [
+        "0",
+        "20",
+        "12",
+        "7",
+        "1"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 61.0,
+        "mean": 4.138888888888889,
+        "std": 12.102308582079415
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Action taken for Negligence - Police Personnel Chargesheeted",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 8,
+      "sample_values": [
+        "1",
+        "0",
+        "20",
+        "12",
+        "7"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 54.0,
+        "mean": 3.1944444444444446,
+        "std": 9.632740136621695
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Action taken for Negligence - Police Personnel Convicted",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 4,
+      "sample_values": [
+        "0",
+        "2",
+        "1",
+        "4"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 4.0,
+        "mean": 0.25,
+        "std": 0.806225774829855
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

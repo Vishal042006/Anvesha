@@ -1,0 +1,287 @@
+{
+  "file_id": "FILE_043",
+  "filename": "18_02_Juveniles_arrested_Economic_setup.csv",
+  "relative_path": "18_02_Juveniles_arrested_Economic_setup.csv",
+  "file_size_bytes": 19467,
+  "dataset_category": "ARRESTS / POLICE DISPOSAL",
+  "data_grain": "state_year",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "2001-2002",
+  "row_count": 350,
+  "column_count": 10,
+  "duplicate_rows_count": 0,
+  "constant_columns": [
+    "Sub_Group_Name"
+  ],
+  "total_columns": [
+    "Economic_Set_up_Total"
+  ],
+  "numeric_columns": [
+    "Year",
+    "Economic_Set_up_Annual_Income_250001_to_50000",
+    "Economic_Set_up_Annual_Income_upto_Rs_25000",
+    "Economic_Set_up_Middle_income_from_100001_to_200000",
+    "Economic_Set_up_Middle_income_from_50001_to_100000",
+    "Economic_Set_up_Total",
+    "Economic_Set_up_Upper_income_above_Rs_300000",
+    "Economic_Set_up_Upper_middle_income_from_200001_to_300000"
+  ],
+  "categorical_columns": [
+    "Area_Name",
+    "Sub_Group_Name"
+  ],
+  "geographic_columns": [],
+  "year_columns": [
+    "Year"
+  ],
+  "column_details": [
+    {
+      "column_name": "Area_Name",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 35,
+      "sample_values": [
+        "Andaman & Nicobar Islands",
+        "Andhra Pradesh",
+        "Arunachal Pradesh",
+        "Assam",
+        "Bihar"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Year",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 10,
+      "sample_values": [
+        "2001",
+        "2002",
+        "2003",
+        "2004",
+        "2005"
+      ],
+      "numeric_stats": {
+        "min": 2001.0,
+        "max": 2010.0,
+        "mean": 2005.5,
+        "std": 2.8763933959876518
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Sub_Group_Name",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "2. Economic Setup"
+      ],
+      "numeric_stats": null,
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Economic_Set_up_Annual_Income_250001_to_50000",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 190,
+      "sample_values": [
+        "12",
+        "104",
+        "38",
+        "47",
+        "213"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1797.0,
+        "mean": 187.17142857142858,
+        "std": 328.9303394881288
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Economic_Set_up_Annual_Income_upto_Rs_25000",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 232,
+      "sample_values": [
+        "4",
+        "1421",
+        "99",
+        "177",
+        "303"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 6916.0,
+        "mean": 656.6514285714286,
+        "std": 1217.647792873946
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Economic_Set_up_Middle_income_from_100001_to_200000",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 78,
+      "sample_values": [
+        "0",
+        "9",
+        "13",
+        "12",
+        "19"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 343.0,
+        "mean": 20.622857142857143,
+        "std": 49.41283365026904
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "Economic_Set_up_Middle_income_from_50001_to_100000",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 131,
+      "sample_values": [
+        "0",
+        "27",
+        "16",
+        "58",
+        "2"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 2625.0,
+        "mean": 76.66857142857143,
+        "std": 195.98463154095927
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "Economic_Set_up_Total",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 256,
+      "sample_values": [
+        "16",
+        "1565",
+        "137",
+        "253",
+        "586"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 8536.0,
+        "mean": 947.0714285714286,
+        "std": 1684.668449788944
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Economic_Set_up_Upper_income_above_Rs_300000",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 20,
+      "sample_values": [
+        "0",
+        "4",
+        "3",
+        "1",
+        "5"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 67.0,
+        "mean": 1.322857142857143,
+        "std": 5.798062403075991
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Economic_Set_up_Upper_middle_income_from_200001_to_300000",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 35,
+      "sample_values": [
+        "0",
+        "2",
+        "7",
+        "1",
+        "3"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 128.0,
+        "mean": 4.634285714285714,
+        "std": 15.823451871968205
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    }
+  ],
+  "notes": "Clean parse"
+}

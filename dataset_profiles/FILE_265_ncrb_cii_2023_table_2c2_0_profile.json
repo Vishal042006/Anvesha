@@ -1,0 +1,1177 @@
+{
+  "file_id": "FILE_265",
+  "filename": "NCRB_CII_2023_Table_2C.2_0.csv",
+  "relative_path": "anvesha_training_data/00_raw/csv/NCRB_CII_2023_Table_2C.2_0.csv",
+  "file_size_bytes": 7511,
+  "dataset_category": "CRIME AGAINST CHILDREN",
+  "data_grain": "state_year",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "India (Includes Tamil Nadu)",
+  "detected_year": "1906-2084",
+  "row_count": 39,
+  "column_count": 42,
+  "duplicate_rows_count": 0,
+  "constant_columns": [
+    "Child Victims - Below 6 Years - Transgender - (Col.5)",
+    "Child Victims - 6 Years to 12 Years - Transgender - (Col.9)",
+    "Child Victims - 16 Years to 18 Years - Transgender - (Col.17)",
+    "Adult Victims - 30 Years to 60 Years - Transgender - (Col.29)",
+    "Adult Victims - 60 Years & above - Transgender - (Col.33)"
+  ],
+  "total_columns": [
+    "Child Victims - Below 6 Years - Total - (Col.6)",
+    "Child Victims - 6 Years to 12 Years - Total - (Col.10)",
+    "Child Victims - 12 Years to 16 Years - Total - (Col.14)",
+    "Child Victims - 16 Years to 18 Years - Total - (Col.18)",
+    "Child Victims - Total Child Victims - Male - (Col.19)",
+    "Child Victims - Total Child Victims - Female - (Col.20)",
+    "Child Victims - Total Child Victims - Transgender - (Col.21)",
+    "Child Victims - Total Child Victims - Total - (Col.22)",
+    "Adult Victims - 18 Years to 30 Years - Total - (Col.26)",
+    "Adult Victims - 30 Years to 60 Years - Total - (Col.30)",
+    "Adult Victims - 60 Years & above - Total - (Col.34)",
+    "Adult Victims -Total Adult Victims - Male - (Col.35)",
+    "Adult Victims - Total Adult Victims - Female - (Col.36)",
+    "Adult Victims - Total Adult Victims - Transgender - (Col.37)",
+    "Adult Victims -Total Adult Victims - Total - (Col.38)",
+    "Total Victims (Child + Adult) - Male - (Col.39)",
+    "Total Victims (Child + Adult) - Female - (Col.40)",
+    "Total Victims (Child + Adult) - Transgender - (Col.41)",
+    "Total Victims (Child + Adult) - Total - (Col.42)"
+  ],
+  "numeric_columns": [
+    "Child Victims - Below 6 Years - Male - (Col.3)",
+    "Child Victims - Below 6 Years - Female - (Col.4)",
+    "Child Victims - Below 6 Years - Transgender - (Col.5)",
+    "Child Victims - Below 6 Years - Total - (Col.6)",
+    "Child Victims - 6 Years to 12 Years - Male - (Col.7)",
+    "Child Victims - 6 Years to 12 Years - Female - (Col.8)",
+    "Child Victims - 6 Years to 12 Years - Transgender - (Col.9)",
+    "Child Victims - 6 Years to 12 Years - Total - (Col.10)",
+    "Child Victims - 12 Years to 16 Years - Male - (Col.11)",
+    "Child Victims - 12 Years to 16 Years - Female - (Col.12)",
+    "Child Victims - 12 Years to 16 Years - Transgender - (Col.13)",
+    "Child Victims - 12 Years to 16 Years - Total - (Col.14)",
+    "Child Victims - 16 Years to 18 Years - Male - (Col.15)",
+    "Child Victims - 16 Years to 18 Years - Female - (Col.16)",
+    "Child Victims - 16 Years to 18 Years - Transgender - (Col.17)",
+    "Child Victims - 16 Years to 18 Years - Total - (Col.18)",
+    "Child Victims - Total Child Victims - Male - (Col.19)",
+    "Child Victims - Total Child Victims - Female - (Col.20)",
+    "Child Victims - Total Child Victims - Transgender - (Col.21)",
+    "Child Victims - Total Child Victims - Total - (Col.22)",
+    "Adult Victims - 18 Years to 30 Years - Male - (Col.23)",
+    "Adult Victims - 18 Years to 30 Years - Female - (Col.24)",
+    "Adult Victims - 18 Years to 30 Years - Transgender - (Col.25)",
+    "Adult Victims - 18 Years to 30 Years - Total - (Col.26)",
+    "Adult Victims - 30 Years to 60 Years - Male - (Col.27)",
+    "Adult Victims - 30 Years to 60 Years - Female - (Col.28)",
+    "Adult Victims - 30 Years to 60 Years - Transgender - (Col.29)",
+    "Adult Victims - 30 Years to 60 Years - Total - (Col.30)",
+    "Adult Victims - 60 Years & above - Male - (Col.31)",
+    "Adult Victims - 60 Years & above - Female - (Col.32)",
+    "Adult Victims - 60 Years & above - Transgender - (Col.33)",
+    "Adult Victims - 60 Years & above - Total - (Col.34)",
+    "Adult Victims -Total Adult Victims - Male - (Col.35)",
+    "Adult Victims - Total Adult Victims - Female - (Col.36)",
+    "Adult Victims - Total Adult Victims - Transgender - (Col.37)",
+    "Adult Victims -Total Adult Victims - Total - (Col.38)",
+    "Total Victims (Child + Adult) - Male - (Col.39)",
+    "Total Victims (Child + Adult) - Female - (Col.40)",
+    "Total Victims (Child + Adult) - Transgender - (Col.41)",
+    "Total Victims (Child + Adult) - Total - (Col.42)"
+  ],
+  "categorical_columns": [
+    "Sl. No.",
+    "State/UT"
+  ],
+  "geographic_columns": [
+    "State/UT"
+  ],
+  "year_columns": [
+    "Child Victims - Below 6 Years - Male - (Col.3)",
+    "Child Victims - Below 6 Years - Female - (Col.4)",
+    "Child Victims - Below 6 Years - Transgender - (Col.5)",
+    "Child Victims - Below 6 Years - Total - (Col.6)",
+    "Child Victims - 6 Years to 12 Years - Male - (Col.7)",
+    "Child Victims - 6 Years to 12 Years - Female - (Col.8)",
+    "Child Victims - 6 Years to 12 Years - Transgender - (Col.9)",
+    "Child Victims - 6 Years to 12 Years - Total - (Col.10)",
+    "Child Victims - 12 Years to 16 Years - Male - (Col.11)",
+    "Child Victims - 12 Years to 16 Years - Female - (Col.12)",
+    "Child Victims - 12 Years to 16 Years - Transgender - (Col.13)",
+    "Child Victims - 12 Years to 16 Years - Total - (Col.14)",
+    "Child Victims - 16 Years to 18 Years - Male - (Col.15)",
+    "Child Victims - 16 Years to 18 Years - Female - (Col.16)",
+    "Child Victims - 16 Years to 18 Years - Transgender - (Col.17)",
+    "Child Victims - 16 Years to 18 Years - Total - (Col.18)",
+    "Adult Victims - 18 Years to 30 Years - Male - (Col.23)",
+    "Adult Victims - 18 Years to 30 Years - Female - (Col.24)",
+    "Adult Victims - 18 Years to 30 Years - Transgender - (Col.25)",
+    "Adult Victims - 18 Years to 30 Years - Total - (Col.26)",
+    "Adult Victims - 30 Years to 60 Years - Male - (Col.27)",
+    "Adult Victims - 30 Years to 60 Years - Female - (Col.28)",
+    "Adult Victims - 30 Years to 60 Years - Transgender - (Col.29)",
+    "Adult Victims - 30 Years to 60 Years - Total - (Col.30)",
+    "Adult Victims - 60 Years & above - Male - (Col.31)",
+    "Adult Victims - 60 Years & above - Female - (Col.32)",
+    "Adult Victims - 60 Years & above - Transgender - (Col.33)",
+    "Adult Victims - 60 Years & above - Total - (Col.34)"
+  ],
+  "column_details": [
+    {
+      "column_name": "Sl. No.",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 39,
+      "sample_values": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "State/UT",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 39,
+      "sample_values": [
+        "Andhra Pradesh",
+        "Arunachal Pradesh",
+        "Assam",
+        "Bihar",
+        "Chhattisgarh"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Child Victims - Below 6 Years - Male - (Col.3)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 19,
+      "sample_values": [
+        "12",
+        "1",
+        "2",
+        "36",
+        "14"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 497.0,
+        "mean": 38.23076923076923,
+        "std": 104.31946418232529
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Child Victims - Below 6 Years - Female - (Col.4)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 21,
+      "sample_values": [
+        "3",
+        "2",
+        "7",
+        "38",
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 541.0,
+        "mean": 41.61538461538461,
+        "std": 115.9347855215471
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Child Victims - Below 6 Years - Transgender - (Col.5)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Child Victims - Below 6 Years - Total - (Col.6)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 21,
+      "sample_values": [
+        "15",
+        "3",
+        "9",
+        "74",
+        "17"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1038.0,
+        "mean": 79.84615384615384,
+        "std": 220.07481245459027
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Child Victims - 6 Years to 12 Years - Male - (Col.7)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 26,
+      "sample_values": [
+        "7",
+        "0",
+        "14",
+        "128",
+        "91"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 2365.0,
+        "mean": 181.92307692307693,
+        "std": 491.7530608694713
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Child Victims - 6 Years to 12 Years - Female - (Col.8)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 27,
+      "sample_values": [
+        "24",
+        "5",
+        "100",
+        "279",
+        "118"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 3280.0,
+        "mean": 252.30769230769232,
+        "std": 703.6914752273841
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Child Victims - 6 Years to 12 Years - Transgender - (Col.9)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Child Victims - 6 Years to 12 Years - Total - (Col.10)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 29,
+      "sample_values": [
+        "31",
+        "5",
+        "114",
+        "407",
+        "209"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 5645.0,
+        "mean": 434.2307692307692,
+        "std": 1193.55985587429
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Child Victims - 12 Years to 16 Years - Male - (Col.11)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 31,
+      "sample_values": [
+        "18",
+        "4",
+        "69",
+        "319",
+        "252"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 7189.0,
+        "mean": 553.0,
+        "std": 1499.3663222912046
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Child Victims - 12 Years to 16 Years - Female - (Col.12)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 34,
+      "sample_values": [
+        "107",
+        "15",
+        "554",
+        "1897",
+        "988"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 24353.0,
+        "mean": 1873.3076923076924,
+        "std": 5137.029779499589
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Child Victims - 12 Years to 16 Years - Transgender - (Col.13)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "0",
+        "1"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.07692307692307693,
+        "std": 0.26995276239950855
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Child Victims - 12 Years to 16 Years - Total - (Col.14)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 36,
+      "sample_values": [
+        "125",
+        "19",
+        "623",
+        "2216",
+        "1240"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 31543.0,
+        "mean": 2426.3846153846152,
+        "std": 6632.935079527822
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Child Victims - 16 Years to 18 Years - Male - (Col.15)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 30,
+      "sample_values": [
+        "22",
+        "0",
+        "76",
+        "307",
+        "172"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 5982.0,
+        "mean": 460.15384615384613,
+        "std": 1271.3101724818657
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Child Victims - 16 Years to 18 Years - Female - (Col.16)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 36,
+      "sample_values": [
+        "225",
+        "5",
+        "965",
+        "3271",
+        "1344"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 37898.0,
+        "mean": 2915.230769230769,
+        "std": 8133.985093296872
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Child Victims - 16 Years to 18 Years - Transgender - (Col.17)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Child Victims - 16 Years to 18 Years - Total - (Col.18)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 36,
+      "sample_values": [
+        "247",
+        "5",
+        "1041",
+        "3578",
+        "1516"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 43880.0,
+        "mean": 3375.3846153846152,
+        "std": 9400.376861469535
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Child Victims - Total Child Victims - Male - (Col.19)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 36,
+      "sample_values": [
+        "59",
+        "5",
+        "161",
+        "790",
+        "529"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 16033.0,
+        "mean": 1233.3076923076924,
+        "std": 3363.6067511702704
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Child Victims - Total Child Victims - Female - (Col.20)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 38,
+      "sample_values": [
+        "359",
+        "27",
+        "1626",
+        "5485",
+        "2453"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 66072.0,
+        "mean": 5082.461538461538,
+        "std": 14080.969615324517
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Child Victims - Total Child Victims - Transgender - (Col.21)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "0",
+        "1"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.07692307692307693,
+        "std": 0.26995276239950855
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Child Victims - Total Child Victims - Total - (Col.22)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 37,
+      "sample_values": [
+        "418",
+        "32",
+        "1787",
+        "6275",
+        "2982"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 82106.0,
+        "mean": 6315.846153846154,
+        "std": 17432.480575877322
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Adult Victims - 18 Years to 30 Years - Male - (Col.23)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 31,
+      "sample_values": [
+        "56",
+        "3",
+        "62",
+        "905",
+        "15"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 4621.0,
+        "mean": 355.46153846153845,
+        "std": 1019.7020164877333
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Adult Victims - 18 Years to 30 Years - Female - (Col.24)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 32,
+      "sample_values": [
+        "121",
+        "1",
+        "1121",
+        "4679",
+        "8"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 19068.0,
+        "mean": 1466.7692307692307,
+        "std": 4296.595558429086
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Adult Victims - 18 Years to 30 Years - Transgender - (Col.25)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 4,
+      "sample_values": [
+        "3",
+        "0",
+        "1",
+        "4"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 4.0,
+        "mean": 0.3076923076923077,
+        "std": 1.004040420497055
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Adult Victims - 18 Years to 30 Years - Total - (Col.26)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 33,
+      "sample_values": [
+        "180",
+        "4",
+        "1183",
+        "5584",
+        "23"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 23693.0,
+        "mean": 1822.5384615384614,
+        "std": 5301.934829783488
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Adult Victims - 30 Years to 60 Years - Male - (Col.27)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 30,
+      "sample_values": [
+        "102",
+        "17",
+        "105",
+        "575",
+        "18"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 3491.0,
+        "mean": 268.53846153846155,
+        "std": 765.8432520037479
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Adult Victims - 30 Years to 60 Years - Female - (Col.28)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 30,
+      "sample_values": [
+        "65",
+        "11",
+        "560",
+        "2020",
+        "16"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 6832.0,
+        "mean": 525.5384615384615,
+        "std": 1529.9998769548256
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Adult Victims - 30 Years to 60 Years - Transgender - (Col.29)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Adult Victims - 30 Years to 60 Years - Total - (Col.30)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 33,
+      "sample_values": [
+        "167",
+        "28",
+        "665",
+        "2595",
+        "34"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 10323.0,
+        "mean": 794.0769230769231,
+        "std": 2285.6226306450058
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Adult Victims - 60 Years & above - Male - (Col.31)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 16,
+      "sample_values": [
+        "0",
+        "2",
+        "24",
+        "6",
+        "1"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 140.0,
+        "mean": 10.76923076923077,
+        "std": 30.433241467757224
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Adult Victims - 60 Years & above - Female - (Col.32)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 14,
+      "sample_values": [
+        "1",
+        "0",
+        "3",
+        "10",
+        "4"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 142.0,
+        "mean": 10.923076923076923,
+        "std": 29.4675420147094
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Adult Victims - 60 Years & above - Transgender - (Col.33)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Adult Victims - 60 Years & above - Total - (Col.34)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 19,
+      "sample_values": [
+        "1",
+        "0",
+        "5",
+        "34",
+        "2"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 282.0,
+        "mean": 21.692307692307693,
+        "std": 58.953663270024755
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Adult Victims -Total Adult Victims - Male - (Col.35)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 34,
+      "sample_values": [
+        "158",
+        "20",
+        "169",
+        "1504",
+        "33"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 8252.0,
+        "mean": 634.7692307692307,
+        "std": 1812.782137192188
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Adult Victims - Total Adult Victims - Female - (Col.36)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 34,
+      "sample_values": [
+        "187",
+        "12",
+        "1684",
+        "6709",
+        "24"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 26042.0,
+        "mean": 2003.2307692307693,
+        "std": 5848.327837764887
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Adult Victims - Total Adult Victims - Transgender - (Col.37)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 4,
+      "sample_values": [
+        "3",
+        "0",
+        "1",
+        "4"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 4.0,
+        "mean": 0.3076923076923077,
+        "std": 1.004040420497055
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Adult Victims -Total Adult Victims - Total - (Col.38)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 36,
+      "sample_values": [
+        "348",
+        "32",
+        "1853",
+        "8213",
+        "57"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 34298.0,
+        "mean": 2638.3076923076924,
+        "std": 7635.053135147013
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total Victims (Child + Adult) - Male - (Col.39)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 39,
+      "sample_values": [
+        "217",
+        "25",
+        "330",
+        "2294",
+        "562"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 24285.0,
+        "mean": 1868.076923076923,
+        "std": 5139.108080430707
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total Victims (Child + Adult) - Female - (Col.40)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 39,
+      "sample_values": [
+        "546",
+        "39",
+        "3310",
+        "12194",
+        "2477"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 92114.0,
+        "mean": 7085.692307692308,
+        "std": 19780.280750966213
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total Victims (Child + Adult) - Transgender - (Col.41)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 4,
+      "sample_values": [
+        "3",
+        "0",
+        "1",
+        "5"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 5.0,
+        "mean": 0.38461538461538464,
+        "std": 1.2055875312670408
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total Victims (Child + Adult) - Total - (Col.42)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 39,
+      "sample_values": [
+        "766",
+        "64",
+        "3640",
+        "14488",
+        "3039"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 116404.0,
+        "mean": 8954.153846153846,
+        "std": 24903.231027464837
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

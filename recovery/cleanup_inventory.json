@@ -1,0 +1,97 @@
+{
+  "project": "ANVESHA",
+  "version": "4.0.0-RESEARCH",
+  "timestamp": "2026-10-05T14:30:00Z",
+  "classification_counts": {
+    "A_RESEARCH": 18,
+    "B_TRAINING": 12,
+    "C_PROVENANCE": 14,
+    "D_API": 10,
+    "E_FRONTEND": 9,
+    "F_OBSOLETE": 7,
+    "G_DUPLICATE": 5,
+    "H_STALE_REPORT": 8,
+    "I_EXPERIMENTAL": 4,
+    "J_LEGACY_ARTIFACT": 6
+  },
+  "inventory": [
+    {
+      "path": "data/canonical/district_ipc_2001_2014.csv",
+      "category": "A_RESEARCH",
+      "purpose": "Official NCRB district-level 2001-2014 benchmark dataset. Zero synthetic observations.",
+      "action": "KEEP_FROZEN"
+    },
+    {
+      "path": "data/final/anvesha_master_dataset.csv",
+      "category": "A_RESEARCH",
+      "purpose": "Master consolidated dataset for cross-validation.",
+      "action": "KEEP_FROZEN"
+    },
+    {
+      "path": "scripts/execute_v4_research_pipeline.py",
+      "category": "B_TRAINING",
+      "purpose": "Unified model-first training, ablation, and backtesting pipeline.",
+      "action": "EXECUTE"
+    },
+    {
+      "path": "models/checkpoints/",
+      "category": "B_TRAINING",
+      "purpose": "PyTorch deep learning model checkpoints (best_mlp.pt, best_lstm.pt, best_gru.pt).",
+      "action": "KEEP_ARTIFACTS"
+    },
+    {
+      "path": "data_lineage.json",
+      "category": "C_PROVENANCE",
+      "purpose": "Full provenance graph from raw NCRB publications to canonical metrics.",
+      "action": "KEEP"
+    },
+    {
+      "path": "backend/app/main.py",
+      "category": "D_API",
+      "purpose": "FastAPI research service serving model comparison, training logs, and forecasts.",
+      "action": "MAINTAIN"
+    },
+    {
+      "path": "frontend/src/App.tsx",
+      "category": "E_FRONTEND",
+      "purpose": "Thin academic research interface.",
+      "action": "UPDATE"
+    },
+    {
+      "path": "frontend/src/pages/EvidencePage.tsx",
+      "category": "F_OBSOLETE",
+      "purpose": "Dashboard-first Qwen/Chatbot evidence page.",
+      "action": "DEPRIORITIZE"
+    },
+    {
+      "path": "frontend/src/pages/ExplorePage.tsx",
+      "category": "F_OBSOLETE",
+      "purpose": "Heavy 3D globe / decorative GIS exploration page.",
+      "action": "DEPRIORITIZE"
+    },
+    {
+      "path": "scripts/build_extended_crime_master.py",
+      "category": "G_DUPLICATE",
+      "purpose": "Superseded by build_clean_master.py.",
+      "action": "ARCHIVE_REFERENCE"
+    },
+    {
+      "path": "research/v32_independent_validation_report.md",
+      "category": "H_STALE_REPORT",
+      "purpose": "Legacy V3.2 report superseded by V4.0 model-first pipeline.",
+      "action": "ARCHIVE_REFERENCE"
+    },
+    {
+      "path": "artifacts/forecasting/v2/test_leakage_and_features.py",
+      "category": "I_EXPERIMENTAL",
+      "purpose": "Scratch leakage testing script.",
+      "action": "KEEP_SCRATCH"
+    },
+    {
+      "path": "research/v33_model_comparison.csv",
+      "category": "J_LEGACY_ARTIFACT",
+      "purpose": "Legacy V3.3 model metrics.",
+      "action": "ARCHIVE_REFERENCE"
+    }
+  ]
+}

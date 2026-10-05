@@ -1,0 +1,838 @@
+{
+  "file_id": "FILE_079",
+  "filename": "23_Anti_corruprion_cases.csv",
+  "relative_path": "23_Anti_corruprion_cases.csv",
+  "file_size_bytes": 80281,
+  "dataset_category": "COURT DISPOSAL",
+  "data_grain": "state_year_crime_disposal",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "India / Multi-State",
+  "detected_year": "1901-2098",
+  "row_count": 346,
+  "column_count": 29,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [
+    "AC03_Total_No_of_cases_for_investigation_during_the_year",
+    "AC17_Percentage_of_cases_charge_sheeted_to_total_cases_investigated",
+    "AC20_Total_No_of_cases_for_trial_during_the_year",
+    "AC27_Total_amount_of_fine_imposed_during_the_year_in_Rs"
+  ],
+  "numeric_columns": [
+    "Year",
+    "AC01_No_of_cases_pending_investigation_from_previous_year",
+    "AC02_No_of_cases_registered_during_the_year",
+    "AC03_Total_No_of_cases_for_investigation_during_the_year",
+    "AC04_No_of_cases_investigated_during_the_year",
+    "AC05_No_of_cases_not_investigatedor_in_which_investigation_was_dropped_due_to_any_reason_during_the_year",
+    "AC06_No_of_cases_transferred_to_local_police_during_the_year",
+    "AC07_No_of_cases_declared_false_mistake_of_fact_or_of_law_or_non_cognizable_or_civil_in_nature",
+    "AC08_No_of_cases_in_which_charge_sheets_were_laid_during_the_year",
+    "AC09_No_of_cases_pending_departmental_sanction_for_prosecution_during_the_year",
+    "AC10_No_of_cases_sent_up_for_trial_and_also_reported_for_departmental_action_during_the_year",
+    "AC11_No_of_cases_reported_for_regular_departmental_action_during_the_year",
+    "AC12_No_of_cases_reported_for_suitable_action_during_the_year",
+    "AC13_No_of_cases_in_which_charge_sheets_were_not_laid_but_final_report_submitted_during_the_year",
+    "AC14_No_of_cases_pending_investigation_at_the_end_of_the_year",
+    "AC15_No_of_cases_resulted_in_recoveries_or_seizures_during_the_year",
+    "AC16_Value_of_property_recoveredseized_during_the_year_in_Rs",
+    "AC17_Percentage_of_cases_charge_sheeted_to_total_cases_investigated",
+    "AC18_No_of_cases_pending_trial_from_the_previous_year",
+    "AC19_No_of_cases_sent_up_for_trial_during_the_year",
+    "AC20_Total_No_of_cases_for_trial_during_the_year",
+    "AC21_No_of_cases_withdrawn_or_other_wise_disposed_off_on_account_of_death_of_the_accused_during_the_year",
+    "AC22_No_of_cases_in_which_trials_were_completed_during_the_year",
+    "AC23_No_of_cases_convicted_during_the_year",
+    "AC24_No_of_cases_acquitted_or_discharged_during_the_year",
+    "AC25_No_of_cases_pending_trial_at_the_end_of_the_year",
+    "AC26_Percentage_of_cases_convicted_to_cases_in_which_trials_were_completed_during_the_year",
+    "AC27_Total_amount_of_fine_imposed_during_the_year_in_Rs"
+  ],
+  "categorical_columns": [
+    "Area_Name"
+  ],
+  "geographic_columns": [
+    "AC09_No_of_cases_pending_departmental_sanction_for_prosecution_during_the_year",
+    "AC13_No_of_cases_in_which_charge_sheets_were_not_laid_but_final_report_submitted_during_the_year"
+  ],
+  "year_columns": [
+    "Year",
+    "AC01_No_of_cases_pending_investigation_from_previous_year",
+    "AC02_No_of_cases_registered_during_the_year",
+    "AC03_Total_No_of_cases_for_investigation_during_the_year",
+    "AC04_No_of_cases_investigated_during_the_year",
+    "AC05_No_of_cases_not_investigatedor_in_which_investigation_was_dropped_due_to_any_reason_during_the_year",
+    "AC06_No_of_cases_transferred_to_local_police_during_the_year",
+    "AC08_No_of_cases_in_which_charge_sheets_were_laid_during_the_year",
+    "AC09_No_of_cases_pending_departmental_sanction_for_prosecution_during_the_year",
+    "AC10_No_of_cases_sent_up_for_trial_and_also_reported_for_departmental_action_during_the_year",
+    "AC11_No_of_cases_reported_for_regular_departmental_action_during_the_year",
+    "AC12_No_of_cases_reported_for_suitable_action_during_the_year",
+    "AC13_No_of_cases_in_which_charge_sheets_were_not_laid_but_final_report_submitted_during_the_year",
+    "AC14_No_of_cases_pending_investigation_at_the_end_of_the_year",
+    "AC15_No_of_cases_resulted_in_recoveries_or_seizures_during_the_year",
+    "AC16_Value_of_property_recoveredseized_during_the_year_in_Rs",
+    "AC18_No_of_cases_pending_trial_from_the_previous_year",
+    "AC19_No_of_cases_sent_up_for_trial_during_the_year",
+    "AC20_Total_No_of_cases_for_trial_during_the_year",
+    "AC21_No_of_cases_withdrawn_or_other_wise_disposed_off_on_account_of_death_of_the_accused_during_the_year",
+    "AC22_No_of_cases_in_which_trials_were_completed_during_the_year",
+    "AC23_No_of_cases_convicted_during_the_year",
+    "AC24_No_of_cases_acquitted_or_discharged_during_the_year",
+    "AC25_No_of_cases_pending_trial_at_the_end_of_the_year",
+    "AC26_Percentage_of_cases_convicted_to_cases_in_which_trials_were_completed_during_the_year",
+    "AC27_Total_amount_of_fine_imposed_during_the_year_in_Rs"
+  ],
+  "column_details": [
+    {
+      "column_name": "Area_Name",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 35,
+      "sample_values": [
+        "Rajasthan",
+        "Maharashtra",
+        "Tamil Nadu",
+        "Punjab",
+        "Karnataka"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Year",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 10,
+      "sample_values": [
+        "2010",
+        "2003",
+        "2009",
+        "2001",
+        "2002"
+      ],
+      "numeric_stats": {
+        "min": 2001.0,
+        "max": 2010.0,
+        "mean": 2005.5346820809248,
+        "std": 2.8691683464174442
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "AC01_No_of_cases_pending_investigation_from_previous_year",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 174,
+      "sample_values": [
+        "740.0",
+        "724.0",
+        "509.0",
+        "347.0",
+        "505.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1210.0,
+        "mean": 156.21387283236993,
+        "std": 222.52150635948445
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "AC02_No_of_cases_registered_during_the_year",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 149,
+      "sample_values": [
+        "576.0",
+        "528.0",
+        "521.0",
+        "498.0",
+        "497.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 576.0,
+        "mean": 93.92196531791907,
+        "std": 133.3885562423412
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "AC03_Total_No_of_cases_for_investigation_during_the_year",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 203,
+      "sample_values": [
+        "1316.0",
+        "1252.0",
+        "1030.0",
+        "845.0",
+        "1002.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1572.0,
+        "mean": 250.15028901734104,
+        "std": 340.7851215749782
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "AC04_No_of_cases_investigated_during_the_year",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 198,
+      "sample_values": [
+        "1316.0",
+        "1252.0",
+        "1030.0",
+        "845.0",
+        "1002.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1572.0,
+        "mean": 211.17341040462426,
+        "std": 327.5130513844837
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "AC05_No_of_cases_not_investigatedor_in_which_investigation_was_dropped_due_to_any_reason_during_the_year",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 21,
+      "sample_values": [
+        "0.0",
+        "2.0",
+        "3.0",
+        "102.0",
+        "10.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 102.0,
+        "mean": 1.930635838150289,
+        "std": 9.150645064790977
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "AC06_No_of_cases_transferred_to_local_police_during_the_year",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 8,
+      "sample_values": [
+        "0.0",
+        "3.0",
+        "6.0",
+        "1.0",
+        "2.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 12.0,
+        "mean": 0.3092485549132948,
+        "std": 1.1394257447927199
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "AC07_No_of_cases_declared_false_mistake_of_fact_or_of_law_or_non_cognizable_or_civil_in_nature",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 32,
+      "sample_values": [
+        "0.0",
+        "4.0",
+        "1.0",
+        "6.0",
+        "8.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 52.0,
+        "mean": 2.945086705202312,
+        "std": 7.851512666479072
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "AC08_No_of_cases_in_which_charge_sheets_were_laid_during_the_year",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 140,
+      "sample_values": [
+        "281.0",
+        "446.0",
+        "479.0",
+        "156.0",
+        "472.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 485.0,
+        "mean": 71.29190751445087,
+        "std": 105.38483675738118
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": true
+    },
+    {
+      "column_name": "AC09_No_of_cases_pending_departmental_sanction_for_prosecution_during_the_year",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 102,
+      "sample_values": [
+        "196.0",
+        "250.0",
+        "237.0",
+        "90.0",
+        "199.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 350.0,
+        "mean": 38.225433526011564,
+        "std": 64.17011847335137
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "AC10_No_of_cases_sent_up_for_trial_and_also_reported_for_departmental_action_during_the_year",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 75,
+      "sample_values": [
+        "126.0",
+        "1.0",
+        "0.0",
+        "67.0",
+        "176.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 292.0,
+        "mean": 20.27456647398844,
+        "std": 45.830276562677824
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "AC11_No_of_cases_reported_for_regular_departmental_action_during_the_year",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 58,
+      "sample_values": [
+        "126.0",
+        "37.0",
+        "2.0",
+        "115.0",
+        "8.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 292.0,
+        "mean": 13.271676300578035,
+        "std": 33.952159967478075
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "AC12_No_of_cases_reported_for_suitable_action_during_the_year",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 31,
+      "sample_values": [
+        "48.0",
+        "0.0",
+        "19.0",
+        "21.0",
+        "78.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 151.0,
+        "mean": 3.459537572254335,
+        "std": 14.311841000689542
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "AC13_No_of_cases_in_which_charge_sheets_were_not_laid_but_final_report_submitted_during_the_year",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 76,
+      "sample_values": [
+        "70.0",
+        "26.0",
+        "44.0",
+        "243.0",
+        "27.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 243.0,
+        "mean": 17.976878612716764,
+        "std": 34.426978594646485
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": true,
+      "is_identifier": true
+    },
+    {
+      "column_name": "AC14_No_of_cases_pending_investigation_at_the_end_of_the_year",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 174,
+      "sample_values": [
+        "965.0",
+        "780.0",
+        "520.0",
+        "492.0",
+        "491.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1210.0,
+        "mean": 156.7456647398844,
+        "std": 226.04490780256458
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "AC15_No_of_cases_resulted_in_recoveries_or_seizures_during_the_year",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 108,
+      "sample_values": [
+        "225.0",
+        "155.0",
+        "154.0",
+        "182.0",
+        "32.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 370.0,
+        "mean": 40.59537572254335,
+        "std": 72.62034195396367
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "AC16_Value_of_property_recoveredseized_during_the_year_in_Rs",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 174,
+      "sample_values": [
+        "1481450.0",
+        "28841870.0",
+        "9114731.0",
+        "10466646.0",
+        "7993106.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 98482855.0,
+        "mean": 5217286.64450867,
+        "std": 14577010.51941886
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "AC17_Percentage_of_cases_charge_sheeted_to_total_cases_investigated",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 32,
+      "sample_values": [
+        "0.0",
+        "27.5",
+        "29.0",
+        "22.9",
+        "30.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1818.0,
+        "mean": 9.575433526011562,
+        "std": 99.12542283748351
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "AC18_No_of_cases_pending_trial_from_the_previous_year",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 191,
+      "sample_values": [
+        "1817.0",
+        "2042.0",
+        "2602.0",
+        "308.0",
+        "2321.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 2680.0,
+        "mean": 382.23410404624275,
+        "std": 600.5980209071631
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "AC19_No_of_cases_sent_up_for_trial_during_the_year",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 136,
+      "sample_values": [
+        "281.0",
+        "446.0",
+        "479.0",
+        "156.0",
+        "472.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 2098.0,
+        "mean": 77.13294797687861,
+        "std": 151.06257350575888
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "AC20_Total_No_of_cases_for_trial_during_the_year",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 199,
+      "sample_values": [
+        "2098.0",
+        "2488.0",
+        "3081.0",
+        "464.0",
+        "2793.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 3140.0,
+        "mean": 451.46242774566474,
+        "std": 698.3448340754628
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "AC21_No_of_cases_withdrawn_or_other_wise_disposed_off_on_account_of_death_of_the_accused_during_the_year",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 23,
+      "sample_values": [
+        "8.0",
+        "5.0",
+        "13.0",
+        "3.0",
+        "11.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 47.0,
+        "mean": 2.433526011560694,
+        "std": 4.88564033103636
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "AC22_No_of_cases_in_which_trials_were_completed_during_the_year",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 120,
+      "sample_values": [
+        "57.0",
+        "366.0",
+        "396.0",
+        "52.0",
+        "287.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 617.0,
+        "mean": 55.88728323699422,
+        "std": 98.10923524680902
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "AC23_No_of_cases_convicted_during_the_year",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 81,
+      "sample_values": [
+        "11.0",
+        "68.0",
+        "113.0",
+        "26.0",
+        "97.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 172.0,
+        "mean": 19.216763005780347,
+        "std": 32.64800159339347
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "AC24_No_of_cases_acquitted_or_discharged_during_the_year",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 105,
+      "sample_values": [
+        "46.0",
+        "298.0",
+        "283.0",
+        "26.0",
+        "190.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 458.0,
+        "mean": 36.86705202312139,
+        "std": 69.95294245177278
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "AC25_No_of_cases_pending_trial_at_the_end_of_the_year",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 193,
+      "sample_values": [
+        "2033.0",
+        "2117.0",
+        "2680.0",
+        "399.0",
+        "2503.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 2727.0,
+        "mean": 395.7919075144509,
+        "std": 616.2758205599057
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "AC26_Percentage_of_cases_convicted_to_cases_in_which_trials_were_completed_during_the_year",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 24,
+      "sample_values": [
+        "0.0",
+        "31.2",
+        "18.8",
+        "13.1",
+        "24.3"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 19000.0,
+        "mean": 64.44219653179191,
+        "std": 1026.6765719980476
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "AC27_Total_amount_of_fine_imposed_during_the_year_in_Rs",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 154,
+      "sample_values": [
+        "33750.0",
+        "383000.0",
+        "404600.0",
+        "149300.0",
+        "1061500.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 9153000.0,
+        "mean": 340227.887283237,
+        "std": 973573.2271960123
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

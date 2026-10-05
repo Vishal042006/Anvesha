@@ -1,8 +1,10 @@
 import os
-from dotenv import load_dotenv
 
-# Load environment variables from .env file at workspace root
-load_dotenv(os.path.abspath(".env"))
+try:
+    from dotenv import load_dotenv
+    load_dotenv(os.path.abspath(".env"))
+except ImportError:
+    pass
 
 class Settings:
     PROJECT_NAME: str = "ANVESHA Research AI Platform"

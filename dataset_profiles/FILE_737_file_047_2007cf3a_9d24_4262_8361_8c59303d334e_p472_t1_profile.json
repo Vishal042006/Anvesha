@@ -1,0 +1,278 @@
+{
+  "file_id": "FILE_737",
+  "filename": "FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p472_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p472_t1.csv",
+  "file_size_bytes": 1334,
+  "dataset_category": "COURT DISPOSAL",
+  "data_grain": "state_year",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "2007",
+  "row_count": 27,
+  "column_count": 10,
+  "duplicate_rows_count": 0,
+  "constant_columns": [
+    "Cases\nConvicted",
+    "Cases\nDischarge\nd",
+    "Conviction\nRate"
+  ],
+  "total_columns": [],
+  "numeric_columns": [
+    "S. No.",
+    "Cases\nConvicted",
+    "Cases\nDischarge\nd",
+    "Cases\nAcquitted",
+    "Cases in\nwhich\nTrials\nwere\nComplete\nd",
+    "Cases\nDisposed\noff by\nCourts",
+    "Cases\nPending\nTrial at\nEnd of the\nYear",
+    "Conviction\nRate",
+    "Pendency\nPercentag\ne"
+  ],
+  "categorical_columns": [
+    "Crime Head"
+  ],
+  "geographic_columns": [],
+  "year_columns": [
+    "Cases\nPending\nTrial at\nEnd of the\nYear"
+  ],
+  "column_details": [
+    {
+      "column_name": "S. No.",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 1,
+      "null_percentage": 3.7,
+      "unique_count": 26,
+      "sample_values": [
+        "11.0",
+        "12.0",
+        "13.0",
+        "14.0",
+        "14.1"
+      ],
+      "numeric_stats": {
+        "min": 11.0,
+        "max": 29.0,
+        "mean": 18.838461538461537,
+        "std": 5.287424849438669
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Crime Head",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 27,
+      "sample_values": [
+        "Abetment of Suicide (Online)",
+        "Cyber Stalking/Bullying of\nWomen/Children",
+        "Data theft",
+        "Fraud",
+        "Credit Card/Debit Card"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nConvicted",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nDischarge\nd",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nAcquitted",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 3,
+      "sample_values": [
+        "0",
+        "2",
+        "9"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 9.0,
+        "mean": 0.48148148148148145,
+        "std": 1.7839103627526194
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases in\nwhich\nTrials\nwere\nComplete\nd",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 3,
+      "sample_values": [
+        "0",
+        "2",
+        "9"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 9.0,
+        "mean": 0.48148148148148145,
+        "std": 1.7839103627526194
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nDisposed\noff by\nCourts",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 3,
+      "sample_values": [
+        "0",
+        "2",
+        "12"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 12.0,
+        "mean": 0.5925925925925926,
+        "std": 2.341256389522831
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nPending\nTrial at\nEnd of the\nYear",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 10,
+      "sample_values": [
+        "0",
+        "1",
+        "16",
+        "3",
+        "11"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 222.0,
+        "mean": 13.555555555555555,
+        "std": 43.60075275755731
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Conviction\nRate",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Pendency\nPercentag\ne",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "0.0",
+        "100.0",
+        "90.5",
+        "96.9",
+        "94.9"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 100.0,
+        "mean": 58.60370370370371,
+        "std": 49.55852392320915
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

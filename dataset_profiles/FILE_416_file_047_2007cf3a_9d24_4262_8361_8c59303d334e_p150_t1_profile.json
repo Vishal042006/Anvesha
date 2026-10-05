@@ -1,0 +1,233 @@
+{
+  "file_id": "FILE_416",
+  "filename": "FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p150_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p150_t1.csv",
+  "file_size_bytes": 345,
+  "dataset_category": "GENERAL CRIME / IPC",
+  "data_grain": "state_year",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "1946-2013",
+  "row_count": 7,
+  "column_count": 8,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [],
+  "numeric_columns": [
+    "YEARS",
+    "col_4",
+    "col_5",
+    "col_6",
+    "col_7",
+    "% VARIATION\nIN 2017\nOVER 2016"
+  ],
+  "categorical_columns": [
+    "S. NO",
+    "CRIME HEADS"
+  ],
+  "geographic_columns": [],
+  "year_columns": [
+    "YEARS"
+  ],
+  "column_details": [
+    {
+      "column_name": "S. NO",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 1,
+      "null_percentage": 14.29,
+      "unique_count": 6,
+      "sample_values": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "CRIME HEADS",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 2,
+      "null_percentage": 28.57,
+      "unique_count": 5,
+      "sample_values": [
+        "MURDER FOR GAIN",
+        "DACOITY",
+        "ROBBERY",
+        "BURGLARY",
+        "THEFT"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "YEARS",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 7,
+      "sample_values": [
+        "2013",
+        "121",
+        "83",
+        "2186",
+        "5125"
+      ],
+      "numeric_stats": {
+        "min": 83.0,
+        "max": 19465.0,
+        "mean": 5849.0,
+        "std": 7272.448441435205
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_4",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 7,
+      "sample_values": [
+        "2014",
+        "127",
+        "101",
+        "1969",
+        "5266"
+      ],
+      "numeric_stats": {
+        "min": 101.0,
+        "max": 19432.0,
+        "mean": 5839.714285714285,
+        "std": 7278.209342832564
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_5",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 7,
+      "sample_values": [
+        "2015",
+        "107",
+        "93",
+        "1763",
+        "5131"
+      ],
+      "numeric_stats": {
+        "min": 93.0,
+        "max": 18290.0,
+        "mean": 5513.571428571428,
+        "std": 6838.54126397199
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_6",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 7,
+      "sample_values": [
+        "2016",
+        "92",
+        "109",
+        "1680",
+        "4535"
+      ],
+      "numeric_stats": {
+        "min": 92.0,
+        "max": 18544.0,
+        "mean": 5586.285714285715,
+        "std": 7071.013946959463
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_7",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 7,
+      "sample_values": [
+        "2017",
+        "94",
+        "97",
+        "1841",
+        "4751"
+      ],
+      "numeric_stats": {
+        "min": 94.0,
+        "max": 22205.0,
+        "mean": 6632.428571428572,
+        "std": 8689.305339652548
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "% VARIATION\nIN 2017\nOVER 2016",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 1,
+      "null_percentage": 14.29,
+      "unique_count": 6,
+      "sample_values": [
+        "2.2",
+        "-11.0",
+        "9.6",
+        "4.8",
+        "27.2"
+      ],
+      "numeric_stats": {
+        "min": -11.0,
+        "max": 27.2,
+        "mean": 8.75,
+        "std": 13.487735169404832
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

@@ -1,0 +1,229 @@
+{
+  "file_id": "FILE_651",
+  "filename": "FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p376_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p376_t1.csv",
+  "file_size_bytes": 1149,
+  "dataset_category": "GENERAL CRIME / IPC",
+  "data_grain": "state_year",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "2007",
+  "row_count": 21,
+  "column_count": 8,
+  "duplicate_rows_count": 0,
+  "constant_columns": [
+    "Cases\nQuashe\nd at\nInvestig\nation\nStage",
+    "Cases\nStayed\nat\nInvestig\nation\nStage"
+  ],
+  "total_columns": [
+    "Total\nFinal\nReport\ns\nSubmit\nted",
+    "Total\nCases\nDispos\ned Off\nby\nPolice"
+  ],
+  "numeric_columns": [
+    "Total\nFinal\nReport\ns\nSubmit\nted",
+    "Cases\nCharge\nsheete\nd",
+    "Total\nCases\nDispos\ned Off\nby\nPolice",
+    "Cases\nQuashe\nd at\nInvestig\nation\nStage",
+    "Cases\nStayed\nat\nInvestig\nation\nStage",
+    "Cases\nPendin\ng\nInvestig\nation\nat End\nof the\nYear"
+  ],
+  "categorical_columns": [
+    "S. No.",
+    "Crime Head"
+  ],
+  "geographic_columns": [],
+  "year_columns": [
+    "Cases\nPendin\ng\nInvestig\nation\nat End\nof the\nYear"
+  ],
+  "column_details": [
+    {
+      "column_name": "S. No.",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 20,
+      "sample_values": [
+        "1A.8",
+        "1A.8.1",
+        "1A.8.2",
+        "1A.9",
+        "1A.10"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Crime Head",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 20,
+      "sample_values": [
+        "Rape",
+        "Rape of Women",
+        "Rape of Children",
+        "Attempt to Commit Rape",
+        "Riots"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total\nFinal\nReport\ns\nSubmit\nted",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 4,
+      "sample_values": [
+        "0",
+        "3",
+        "4",
+        "7"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 7.0,
+        "mean": 1.1904761904761905,
+        "std": 2.3370718349902644
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nCharge\nsheete\nd",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "2",
+        "1",
+        "0",
+        "4",
+        "16"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 16.0,
+        "mean": 2.0,
+        "std": 4.753945729601885
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total\nCases\nDispos\ned Off\nby\nPolice",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 7,
+      "sample_values": [
+        "2",
+        "1",
+        "0",
+        "3",
+        "4"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 23.0,
+        "mean": 3.1904761904761907,
+        "std": 6.801610453554714
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nQuashe\nd at\nInvestig\nation\nStage",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nStayed\nat\nInvestig\nation\nStage",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nPendin\ng\nInvestig\nation\nat End\nof the\nYear",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 4,
+      "sample_values": [
+        "1",
+        "0",
+        "2",
+        "7"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 7.0,
+        "mean": 1.0476190476190477,
+        "std": 2.085094493690645
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

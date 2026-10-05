@@ -1,0 +1,96 @@
+{
+  "file_id": "FILE_1055",
+  "filename": "FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p9_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_047_2007cf3a_9d24_4262_8361_8c59303d334e_p9_t1.csv",
+  "file_size_bytes": 2911,
+  "dataset_category": "GENERAL CRIME / IPC",
+  "data_grain": "unknown",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "2007",
+  "row_count": 30,
+  "column_count": 3,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [],
+  "numeric_columns": [
+    "PAGES"
+  ],
+  "categorical_columns": [
+    "CHAPTER &\nTABLE NO.",
+    "TITLE"
+  ],
+  "geographic_columns": [],
+  "year_columns": [],
+  "column_details": [
+    {
+      "column_name": "CHAPTER &\nTABLE NO.",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 30,
+      "sample_values": [
+        "CHAPTER 10",
+        "10.1",
+        "10.2",
+        "10.3",
+        "10.4"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "TITLE",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 30,
+      "sample_values": [
+        "CRIME AGAINST WEAKER SECTIONS OF SOCIETY (SCs STs)",
+        "Incidence & Rate of Crime Committed Against Scheduled Castes During 2017",
+        "Cases Reported (I), Rate (R) and Number of Victims(V) to Total Crimes Committed\nAgainst Scheduled Castes During 2017",
+        "Disposal of Cases by Police For Crimes Committed Against Scheduled Castes During\n2017",
+        "Disposal of Cases by Courts For Crimes Committed Against Scheduled Castes\nDuring 2017"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "PAGES",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 4,
+      "null_percentage": 13.33,
+      "unique_count": 26,
+      "sample_values": [
+        "317.0",
+        "318.0",
+        "330.0",
+        "334.0",
+        "338.0"
+      ],
+      "numeric_stats": {
+        "min": 317.0,
+        "max": 421.0,
+        "mean": 376.84615384615387,
+        "std": 33.63414016465092
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

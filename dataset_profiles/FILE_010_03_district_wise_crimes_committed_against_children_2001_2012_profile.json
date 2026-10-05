@@ -1,0 +1,429 @@
+{
+  "file_id": "FILE_010",
+  "filename": "03_District_wise_crimes_committed_against_children_2001_2012.csv",
+  "relative_path": "03_District_wise_crimes_committed_against_children_2001_2012.csv",
+  "file_size_bytes": 502519,
+  "dataset_category": "CRIME AGAINST WOMEN",
+  "data_grain": "district_year_crime",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "India / Multi-State",
+  "detected_year": "2001-2012",
+  "row_count": 9015,
+  "column_count": 15,
+  "duplicate_rows_count": 1,
+  "constant_columns": [],
+  "total_columns": [
+    "Total"
+  ],
+  "numeric_columns": [
+    "Year",
+    "Murder",
+    "Rape",
+    "Kidnapping and Abduction",
+    "Foeticide",
+    "Abetment of suicide",
+    "Exposure and abandonment",
+    "Procuration of minor girls",
+    "Buying of girls for prostitution",
+    "Selling of girls for prostitution",
+    "Prohibition of child marriage act",
+    "Other Crimes",
+    "Total"
+  ],
+  "categorical_columns": [
+    "STATE/UT",
+    "DISTRICT"
+  ],
+  "geographic_columns": [
+    "STATE/UT",
+    "DISTRICT",
+    "Buying of girls for prostitution",
+    "Selling of girls for prostitution"
+  ],
+  "year_columns": [
+    "Year"
+  ],
+  "column_details": [
+    {
+      "column_name": "STATE/UT",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 35,
+      "sample_values": [
+        "ANDHRA PRADESH",
+        "ARUNACHAL PRADESH",
+        "ASSAM",
+        "BIHAR",
+        "CHHATTISGARH"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "DISTRICT",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 821,
+      "sample_values": [
+        "ADILABAD",
+        "ANANTAPUR",
+        "CHITTOOR",
+        "CUDDAPAH",
+        "EAST GODAVARI"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Year",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 12,
+      "sample_values": [
+        "2001",
+        "2002",
+        "2003",
+        "2004",
+        "2005"
+      ],
+      "numeric_stats": {
+        "min": 2001.0,
+        "max": 2012.0,
+        "mean": 2006.6296173044925,
+        "std": 3.463241506569702
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Murder",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 11,
+      "null_percentage": 0.12,
+      "unique_count": 125,
+      "sample_values": [
+        "0.0",
+        "19.0",
+        "2.0",
+        "1.0",
+        "3.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 528.0,
+        "mean": 3.782985339848956,
+        "std": 19.335029877323638
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Rape",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 11,
+      "null_percentage": 0.12,
+      "unique_count": 208,
+      "sample_values": [
+        "0.0",
+        "12.0",
+        "4.0",
+        "11.0",
+        "18.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1632.0,
+        "mean": 12.58229675699689,
+        "std": 57.724731445638845
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Kidnapping and Abduction",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 11,
+      "null_percentage": 0.12,
+      "unique_count": 282,
+      "sample_values": [
+        "0.0",
+        "29.0",
+        "2.0",
+        "12.0",
+        "4.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 4239.0,
+        "mean": 19.23545091070635,
+        "std": 118.68196091540337
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "Foeticide",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 11,
+      "null_percentage": 0.12,
+      "unique_count": 31,
+      "sample_values": [
+        "0.0",
+        "2.0",
+        "1.0",
+        "4.0",
+        "3.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 64.0,
+        "mean": 0.27454464682363394,
+        "std": 1.753159209712763
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "Abetment of suicide",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 11,
+      "null_percentage": 0.12,
+      "unique_count": 18,
+      "sample_values": [
+        "0.0",
+        "6.0",
+        "1.0",
+        "7.0",
+        "2.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 57.0,
+        "mean": 0.12383385162150155,
+        "std": 1.0044290043252195
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "Exposure and abandonment",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 11,
+      "null_percentage": 0.12,
+      "unique_count": 91,
+      "sample_values": [
+        "0.0",
+        "19.0",
+        "3.0",
+        "22.0",
+        "1.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 321.0,
+        "mean": 2.1081741448245226,
+        "std": 12.715876156571946
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Procuration of minor girls",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 11,
+      "null_percentage": 0.12,
+      "unique_count": 64,
+      "sample_values": [
+        "0.0",
+        "2.0",
+        "4.0",
+        "3.0",
+        "1.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 369.0,
+        "mean": 0.9060417592181252,
+        "std": 8.053666705890295
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Buying of girls for prostitution",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 11,
+      "null_percentage": 0.12,
+      "unique_count": 21,
+      "sample_values": [
+        "0.0",
+        "1.0",
+        "3.0",
+        "8.0",
+        "5.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 48.0,
+        "mean": 0.0759662372278987,
+        "std": 1.2536756618369167
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Selling of girls for prostitution",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 11,
+      "null_percentage": 0.12,
+      "unique_count": 35,
+      "sample_values": [
+        "0.0",
+        "1.0",
+        "2.0",
+        "11.0",
+        "13.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 115.0,
+        "mean": 0.17081297201243892,
+        "std": 2.5654011122466054
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Prohibition of child marriage act",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 11,
+      "null_percentage": 0.12,
+      "unique_count": 30,
+      "sample_values": [
+        "0.0",
+        "2.0",
+        "6.0",
+        "1.0",
+        "11.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 43.0,
+        "mean": 0.24877832074633496,
+        "std": 1.55654418048323
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Other Crimes",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 11,
+      "null_percentage": 0.12,
+      "unique_count": 258,
+      "sample_values": [
+        "0.0",
+        "1.0",
+        "39.0",
+        "6.0",
+        "47.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 3004.0,
+        "mean": 15.063638382940916,
+        "std": 102.80336513059011
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 449,
+      "sample_values": [
+        "0",
+        "66",
+        "25",
+        "9",
+        "18"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 6033.0,
+        "mean": 54.50593455352191,
+        "std": 257.4855176827253
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "1 duplicate rows"
+}

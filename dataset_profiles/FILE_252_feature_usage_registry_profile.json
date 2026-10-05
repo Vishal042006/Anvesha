@@ -1,0 +1,111 @@
+{
+  "file_id": "FILE_252",
+  "filename": "FEATURE_USAGE_REGISTRY.csv",
+  "relative_path": "anvesha_training_data/00_raw/csv/FEATURE_USAGE_REGISTRY.csv",
+  "file_size_bytes": 1339,
+  "dataset_category": "GENERAL CRIME / IPC",
+  "data_grain": "unknown",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "UNKNOWN",
+  "row_count": 16,
+  "column_count": 4,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [],
+  "numeric_columns": [],
+  "categorical_columns": [
+    "feature_name",
+    "status",
+    "usage_rule",
+    "leakage_risk"
+  ],
+  "geographic_columns": [],
+  "year_columns": [],
+  "column_details": [
+    {
+      "column_name": "feature_name",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 16,
+      "sample_values": [
+        "previous_year_crime",
+        "two_year_avg",
+        "three_year_avg",
+        "five_year_avg",
+        "year_over_year_change"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "status",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "SAFE",
+        "CONDITIONAL",
+        "POST_OUTCOME",
+        "LEAKAGE",
+        "METADATA_ONLY"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "usage_rule",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 13,
+      "sample_values": [
+        "Retrospective 1-year lag feature.",
+        "Retrospective 2-year rolling average.",
+        "Retrospective 3-year rolling average.",
+        "Retrospective 5-year rolling average.",
+        "Percentage change from year t-1 to t."
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "leakage_risk",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 4,
+      "sample_values": [
+        "NONE",
+        "MODERATE",
+        "HIGH",
+        "CRITICAL"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

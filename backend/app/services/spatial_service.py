@@ -4,40 +4,65 @@ import pandas as pd
 import numpy as np
 from backend.app.config import settings
 
+WORKSPACE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", ".."))
+
 class SpatialService:
     def __init__(self):
+        self.tn_geojson_path = os.path.join(WORKSPACE_DIR, "artifacts", "maps", "tamil_nadu_crime.geojson")
+        self.ps_geojson_path = os.path.join(WORKSPACE_DIR, "artifacts", "maps", "police_stations.geojson")
         self.geojson_path = os.path.join(settings.DATA_DIR, "01_raw", "ANVESHA_INDIA_DATASETS", "india_district_boundaries.geojson")
-        self.geo_csv_path = os.path.join(settings.DATA_DIR, "01_raw", "ANVESHA_INDIA_DATASETS", "india_district_geography.csv")
-        self.city_csv_path = os.path.join(settings.DATA_DIR, "01_raw", "ANVESHA_INDIA_DATASETS", "india_city_locations.csv")
-        self.master_path = os.path.join(settings.DATA_DIR, "canonical", "anvesha_india_crime_master.parquet")
-        self.raw_official_path = os.path.join(settings.DATA_DIR, "01_raw", "ANVESHA_INDIA_DATASETS", "india_official_crime_observations_2001_2014.csv")
-        self.raw_synthetic_path = os.path.join(settings.DATA_DIR, "01_raw", "ANVESHA_INDIA_DATASETS", "india_synthetic_crime_gapfill_2015_2023.csv")
+        self.master_path = os.path.join(settings.DATA_DIR, "canonical", "anvesha_official_only.parquet")
         self._load_data()
 
     def _load_data(self):
+        self.tn_geojson = None
+        if os.path.exists(self.tn_geojson_path):
+            try:
+                with open(self.tn_geojson_path, "r", encoding="utf-8") as f:
+                    self.tn_geojson = json.load(f)
+            except Exception as e:
+                print(f"Error loading TN GeoJSON: {e}")
+                
+        self.ps_geojson = None
+        if os.path.exists(self.ps_geojson_path):
+            try:
+                with open(self.ps_geojson_path, "r", encoding="utf-8") as f:
+                    self.ps_geojson = json.load(f)
+            except Exception as e:
+                print(f"Error loading PS GeoJSON: {e}")
+
         self.geojson_data = None
         if os.path.exists(self.geojson_path):
             try:
                 with open(self.geojson_path, "r", encoding="utf-8") as gf:
                     self.geojson_data = json.load(gf)
-            except Exception as e:
-                print(f"Error loading GeoJSON boundaries: {e}")
+            except Exception:
+                pass
 
-        # Load master data for lookup
         if os.path.exists(self.master_path):
             try:
                 self.df_master = pd.read_parquet(self.master_path)
             except Exception:
                 self.df_master = pd.DataFrame()
         else:
-            dfs = []
-            if os.path.exists(self.raw_official_path):
-                dfs.append(pd.read_csv(self.raw_official_path))
-            if os.path.exists(self.raw_synthetic_path):
-                dfs.append(pd.read_csv(self.raw_synthetic_path))
-            self.df_master = pd.concat(dfs, ignore_index=True) if dfs else pd.DataFrame()
+            self.df_master = pd.DataFrame()
 
-    def get_spatial_crime(self, state_ut: str = None, category: str = "ipc_total", year: int = 2022, layer: str = "observed"):
+    def get_spatial_crime(self, state_ut: str = "TAMIL NADU", category: str = "TOTAL_IPC", year: int = 2023, layer: str = "observed"):
+        if self.tn_geojson and (not state_ut or "TAMIL" in state_ut.upper()):
+            features = self.tn_geojson.get("features", [])
+            return {
+                "type": "FeatureCollection",
+                "metadata": {
+                    "layer": layer,
+                    "state_ut": "TAMIL NADU",
+                    "year": year,
+                    "category": category,
+                    "district_count": len(features),
+                    "disclaimer": "Forecast layer represents aggregate statistical indications."
+                },
+                "features": features
+            }
+        
         if not self.geojson_data:
             return {"type": "FeatureCollection", "features": []}
 
@@ -146,5 +171,10 @@ class SpatialService:
                 "location_type": "CITY_REFERENCE_POINT"
             })
         return cities
+
+    def get_police_stations(self):
+        if self.ps_geojson:
+            return self.ps_geojson
+        return {"type": "FeatureCollection", "features": []}
 
 spatial_service = SpatialService()

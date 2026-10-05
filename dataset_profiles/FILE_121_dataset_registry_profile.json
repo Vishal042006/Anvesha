@@ -1,0 +1,121 @@
+{
+  "file_id": "FILE_121",
+  "filename": "DATASET_REGISTRY.csv",
+  "relative_path": "DATASET_REGISTRY.csv",
+  "file_size_bytes": 1107,
+  "dataset_category": "GENERAL CRIME / IPC",
+  "data_grain": "unknown",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "UNKNOWN",
+  "row_count": 33,
+  "column_count": 4,
+  "duplicate_rows_count": 0,
+  "constant_columns": [
+    "format"
+  ],
+  "total_columns": [],
+  "numeric_columns": [
+    "rows",
+    "columns"
+  ],
+  "categorical_columns": [
+    "dataset",
+    "format"
+  ],
+  "geographic_columns": [],
+  "year_columns": [],
+  "column_details": [
+    {
+      "column_name": "dataset",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 33,
+      "sample_values": [
+        "01_core_crime_incidence.csv",
+        "02_violent_crime.csv",
+        "03_property_and_grave_crime.csv",
+        "04_railway_crime.csv",
+        "05_women_crime.csv"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "rows",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 29,
+      "sample_values": [
+        "20124",
+        "3715",
+        "3080",
+        "346",
+        "8571"
+      ],
+      "numeric_stats": {
+        "min": 346.0,
+        "max": 899273.0,
+        "mean": 40533.0,
+        "std": 155695.97000063135
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "columns",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 7,
+      "sample_values": [
+        "24",
+        "7",
+        "3",
+        "19",
+        "20"
+      ],
+      "numeric_stats": {
+        "min": 3.0,
+        "max": 24.0,
+        "mean": 20.515151515151516,
+        "std": 4.835553304180997
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "format",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "CSV"
+      ],
+      "numeric_stats": null,
+      "is_constant": true,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

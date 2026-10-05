@@ -1,0 +1,679 @@
+{
+  "file_id": "FILE_131",
+  "filename": "NCRB_CII-2019_Table_17A.1.csv",
+  "relative_path": "NCRB_CII-2019_Table_17A.1.csv",
+  "file_size_bytes": 18087,
+  "dataset_category": "GENERAL CRIME / IPC",
+  "data_grain": "state_year_crime",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "India / Multi-State",
+  "detected_year": "1900-2093",
+  "row_count": 142,
+  "column_count": 24,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [
+    "Total Cases for Investigation (Col.3+ Col.4+ Col.5)",
+    "Final Report - Total (Col.10+ Col.11+ Col.12+ Col.13+ Col.14)",
+    "Total Cases Disposed Off by Police (Col.7+ Col.8+ Col.15+ Col.18)"
+  ],
+  "numeric_columns": [
+    "Cases Pending Investigation from Previous Year",
+    "Cases Reported during the year",
+    "Cases Reopened for Investigation",
+    "Total Cases for Investigation (Col.3+ Col.4+ Col.5)",
+    "Cases Not Investigated Under 157_1_b CRPC",
+    "Cases Transferred to other State or Agency",
+    "Cases Withdrawn by the Govt during investigation",
+    "Final Report - Cases Ended as FR Non Cognizable",
+    "Final Report - Cases Ended as Final Report False",
+    "Final Report - Cases Ended as Mistake of Fact or of Law or Civil Dispute",
+    "Final Report - Cases True but Insufficient Evidence or Untraced or No Clue",
+    "Final Report - Cases Abated during Investigation",
+    "Final Report - Total (Col.10+ Col.11+ Col.12+ Col.13+ Col.14)",
+    "Chargesheets submitted - Cases Chargesheeted Out of Cases from Previous Year",
+    "Chargesheets submitted - Cases Chargesheeted Out of Cases during the Year",
+    "Chargesheets submitted - Cases Chargesheeted (Col.16+ Col.17)",
+    "Total Cases Disposed Off by Police (Col.7+ Col.8+ Col.15+ Col.18)",
+    "Cases Quashed at Investigation Stage",
+    "Cases Stayed at Investigation Stage",
+    "Cases Pending Investigation at End of the Year (Col.6- Col.9- Col.19- Col.20)",
+    "Charge-Sheeting Rate (Col.18/ Col.19) *100",
+    "Pendency Percentage (Col.22/ Col.6) *100"
+  ],
+  "categorical_columns": [
+    "S. No",
+    "Crime Head"
+  ],
+  "geographic_columns": [
+    "Cases Transferred to other State or Agency",
+    "Final Report - Cases Ended as Mistake of Fact or of Law or Civil Dispute",
+    "Final Report - Cases True but Insufficient Evidence or Untraced or No Clue",
+    "Chargesheets submitted - Cases Chargesheeted Out of Cases from Previous Year",
+    "Chargesheets submitted - Cases Chargesheeted Out of Cases during the Year"
+  ],
+  "year_columns": [
+    "Cases Pending Investigation from Previous Year",
+    "Cases Reported during the year",
+    "Chargesheets submitted - Cases Chargesheeted Out of Cases from Previous Year",
+    "Chargesheets submitted - Cases Chargesheeted Out of Cases during the Year",
+    "Cases Pending Investigation at End of the Year (Col.6- Col.9- Col.19- Col.20)"
+  ],
+  "column_details": [
+    {
+      "column_name": "S. No",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 136,
+      "sample_values": [
+        "1",
+        "2",
+        "3",
+        "3.1",
+        "3.1.1"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Crime Head",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 138,
+      "sample_values": [
+        "Murder",
+        "Culpable Homicide not amounting to Murder",
+        "Causing Death by Negligence",
+        "Deaths due to Negligence relating to Road Accidents",
+        "Hit and Run"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases Pending Investigation from Previous Year",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 141,
+      "sample_values": [
+        "19589",
+        "1620",
+        "47517",
+        "42405",
+        "11021"
+      ],
+      "numeric_stats": {
+        "min": 3.0,
+        "max": 1242827.0,
+        "mean": 33478.84507042253,
+        "std": 117276.5319573071
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases Reported during the year",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 140,
+      "sample_values": [
+        "28918",
+        "3470",
+        "144842",
+        "136587",
+        "47530"
+      ],
+      "numeric_stats": {
+        "min": 3.0,
+        "max": 3225701.0,
+        "mean": 87875.78169014085,
+        "std": 311688.54736012145
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases Reopened for Investigation",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 42,
+      "sample_values": [
+        "46",
+        "14",
+        "23",
+        "20",
+        "6"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 2150.0,
+        "mean": 57.91549295774648,
+        "std": 245.8417150043501
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total Cases for Investigation (Col.3+ Col.4+ Col.5)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 141,
+      "sample_values": [
+        "48553",
+        "5104",
+        "192382",
+        "179012",
+        "58557"
+      ],
+      "numeric_stats": {
+        "min": 10.0,
+        "max": 4470678.0,
+        "mean": 121412.54225352113,
+        "std": 428044.179116841
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases Not Investigated Under 157_1_b CRPC",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 21,
+      "sample_values": [
+        "1",
+        "0",
+        "21",
+        "18",
+        "9"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 207.0,
+        "mean": 5.957746478873239,
+        "std": 23.592243357906327
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases Transferred to other State or Agency",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 46,
+      "sample_values": [
+        "94",
+        "1",
+        "36",
+        "35",
+        "13"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 3673.0,
+        "mean": 97.71830985915493,
+        "std": 417.95655151361314
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases Withdrawn by the Govt during investigation",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 12,
+      "sample_values": [
+        "0",
+        "1",
+        "3",
+        "2",
+        "7"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 53.0,
+        "mean": 1.204225352112676,
+        "std": 4.905545757904906
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Final Report - Cases Ended as FR Non Cognizable",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 62,
+      "sample_values": [
+        "7",
+        "4",
+        "93",
+        "40",
+        "24"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 11477.0,
+        "mean": 373.2323943661972,
+        "std": 1652.8483931861547
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Final Report - Cases Ended as Final Report False",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 113,
+      "sample_values": [
+        "873",
+        "120",
+        "1439",
+        "1043",
+        "471"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 121745.0,
+        "mean": 3124.4154929577467,
+        "std": 11689.664274670597
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Final Report - Cases Ended as Mistake of Fact or of Law or Civil Dispute",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 112,
+      "sample_values": [
+        "762",
+        "89",
+        "2849",
+        "2568",
+        "1019"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 151069.0,
+        "mean": 4192.669014084507,
+        "std": 14968.175163544513
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Final Report - Cases True but Insufficient Evidence or Untraced or No Clue",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 127,
+      "sample_values": [
+        "2087",
+        "386",
+        "22790",
+        "21676",
+        "11172"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 733303.0,
+        "mean": 20330.75352112676,
+        "std": 89950.24325523754
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "Final Report - Cases Abated during Investigation",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 72,
+      "sample_values": [
+        "229",
+        "24",
+        "5316",
+        "5208",
+        "365"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 14925.0,
+        "mean": 435.80281690140845,
+        "std": 1662.4220868617049
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Final Report - Total (Col.10+ Col.11+ Col.12+ Col.13+ Col.14)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 132,
+      "sample_values": [
+        "3958",
+        "623",
+        "32487",
+        "30535",
+        "13051"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1032519.0,
+        "mean": 28456.87323943662,
+        "std": 114315.52873540294
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Chargesheets submitted - Cases Chargesheeted Out of Cases from Previous Year",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 132,
+      "sample_values": [
+        "7380",
+        "793",
+        "23891",
+        "22405",
+        "4723"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 461170.0,
+        "mean": 12484.802816901409,
+        "std": 43890.88667717207
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Chargesheets submitted - Cases Chargesheeted Out of Cases during the Year",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 139,
+      "sample_values": [
+        "16183",
+        "1898",
+        "83843",
+        "79236",
+        "27333"
+      ],
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 1662754.0,
+        "mean": 44959.99295774648,
+        "std": 165222.92165287051
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Chargesheets submitted - Cases Chargesheeted (Col.16+ Col.17)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 139,
+      "sample_values": [
+        "23563",
+        "2691",
+        "107734",
+        "101641",
+        "32056"
+      ],
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 2123924.0,
+        "mean": 57444.795774647886,
+        "std": 208414.22028189385
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total Cases Disposed Off by Police (Col.7+ Col.8+ Col.15+ Col.18)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 140,
+      "sample_values": [
+        "27616",
+        "3315",
+        "140278",
+        "132229",
+        "45129"
+      ],
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 3160323.0,
+        "mean": 86005.34507042254,
+        "std": 305636.4893098667
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases Quashed at Investigation Stage",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 56,
+      "sample_values": [
+        "1",
+        "3",
+        "48",
+        "42",
+        "14"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 2564.0,
+        "mean": 68.66901408450704,
+        "std": 249.63566989824568
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases Stayed at Investigation Stage",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 45,
+      "sample_values": [
+        "89",
+        "3",
+        "37",
+        "0",
+        "18"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1353.0,
+        "mean": 34.83802816901409,
+        "std": 131.0791346344255
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases Pending Investigation at End of the Year (Col.6- Col.9- Col.19- Col.20)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 140,
+      "sample_values": [
+        "20936",
+        "1786",
+        "52056",
+        "46741",
+        "13414"
+      ],
+      "numeric_stats": {
+        "min": 5.0,
+        "max": 1307738.0,
+        "mean": 35337.32394366197,
+        "std": 123379.80368847396
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Charge-Sheeting Rate (Col.18/ Col.19) *100",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 117,
+      "sample_values": [
+        "85.3",
+        "81.2",
+        "76.8",
+        "76.9",
+        "71.0"
+      ],
+      "numeric_stats": {
+        "min": 20.4,
+        "max": 100.0,
+        "mean": 73.32816901408451,
+        "std": 20.69541480103345
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Pendency Percentage (Col.22/ Col.6) *100",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 123,
+      "sample_values": [
+        "43.1",
+        "35.0",
+        "27.1",
+        "26.1",
+        "22.9"
+      ],
+      "numeric_stats": {
+        "min": 6.1,
+        "max": 97.6,
+        "mean": 40.2105633802817,
+        "std": 16.294260869060736
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

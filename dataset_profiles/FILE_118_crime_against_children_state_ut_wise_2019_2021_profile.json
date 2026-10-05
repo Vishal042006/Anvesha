@@ -1,0 +1,252 @@
+{
+  "file_id": "FILE_118",
+  "filename": "crime_against_children_(State-UT-wise)_2019-2021.csv",
+  "relative_path": "crime_against_children_(State-UT-wise)_2019-2021.csv",
+  "file_size_bytes": 1824,
+  "dataset_category": "CRIME AGAINST CHILDREN",
+  "data_grain": "unknown",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "India / Multi-State",
+  "detected_year": "2019-2021",
+  "row_count": 36,
+  "column_count": 9,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [],
+  "numeric_columns": [
+    "S.No",
+    "2020",
+    "2021",
+    "midPopulation",
+    "RateofCrimeAgainstChildren",
+    "ChargesSheetingRate"
+  ],
+  "categorical_columns": [
+    "State/UT",
+    "Name",
+    "2019"
+  ],
+  "geographic_columns": [
+    "State/UT"
+  ],
+  "year_columns": [],
+  "column_details": [
+    {
+      "column_name": "S.No",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 36,
+      "sample_values": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 36.0,
+        "mean": 18.5,
+        "std": 10.535653752852738
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "State/UT",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "State",
+        "UT"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Name",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 36,
+      "sample_values": [
+        "Andhra Pradesh",
+        "Arunachal Pradesh",
+        "Assam",
+        "Bihar",
+        "Chhattisgarh"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "2019",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 35,
+      "sample_values": [
+        "2524",
+        "153",
+        "6608",
+        "9320",
+        "5665"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "2020",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 34,
+      "sample_values": [
+        "2648",
+        "113",
+        "4622",
+        "6591",
+        "5056"
+      ],
+      "numeric_stats": {
+        "min": 2.0,
+        "max": 17008.0,
+        "mean": 3570.3055555555557,
+        "std": 4510.29678985094
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "2021",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 35,
+      "sample_values": [
+        "2669",
+        "162",
+        "5282",
+        "6894",
+        "6001"
+      ],
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 19173.0,
+        "mean": 4150.111111111111,
+        "std": 5122.170130369006
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "midPopulation",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 36,
+      "sample_values": [
+        "151.1",
+        "5.9",
+        "120.8",
+        "475.0",
+        "97.5"
+      ],
+      "numeric_stats": {
+        "min": 0.2,
+        "max": 853.3,
+        "mean": 123.37500000000003,
+        "std": 172.756757775616
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "RateofCrimeAgainstChildren",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 36,
+      "sample_values": [
+        "17.7",
+        "27.5",
+        "43.7",
+        "14.5",
+        "61.6"
+      ],
+      "numeric_stats": {
+        "min": 1.2,
+        "max": 128.5,
+        "mean": 41.37777777777778,
+        "std": 27.77021128692821
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "ChargesSheetingRate",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 36,
+      "sample_values": [
+        "93.2",
+        "69.6",
+        "56.0",
+        "68.9",
+        "70.4"
+      ],
+      "numeric_stats": {
+        "min": 32.1,
+        "max": 95.2,
+        "mean": 70.66666666666667,
+        "std": 16.72390931741568
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

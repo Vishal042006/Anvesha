@@ -1,0 +1,248 @@
+{
+  "file_id": "FILE_224",
+  "filename": "31_Serious_fraud.csv",
+  "relative_path": "anvesha_training_data/00_raw/csv/31_Serious_fraud.csv",
+  "file_size_bytes": 36978,
+  "dataset_category": "ECONOMIC OFFENCES",
+  "data_grain": "state_year",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "2001-2003",
+  "row_count": 448,
+  "column_count": 9,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [],
+  "numeric_columns": [
+    "Year",
+    "Loss_of_Property_1_10_Crores",
+    "Loss_of_Property_10_25_Crores",
+    "Loss_of_Property_25_50_Crores",
+    "Loss_of_Property_50_100_Crores",
+    "Loss_of_Property_Above_100_Crores"
+  ],
+  "categorical_columns": [
+    "Area_Name",
+    "Group_Name",
+    "Sub_Group_Name"
+  ],
+  "geographic_columns": [],
+  "year_columns": [
+    "Year"
+  ],
+  "column_details": [
+    {
+      "column_name": "Area_Name",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 33,
+      "sample_values": [
+        "Andhra Pradesh",
+        "Arunachal Pradesh",
+        "Assam",
+        "Bihar",
+        "Chandigarh"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Year",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 10,
+      "sample_values": [
+        "2001",
+        "2002",
+        "2003",
+        "2004",
+        "2005"
+      ],
+      "numeric_stats": {
+        "min": 2001.0,
+        "max": 2010.0,
+        "mean": 2005.6294642857142,
+        "std": 2.8412474303886817
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Group_Name",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "Serious Fraud - Cheating",
+        "Serious Fraud - Criminal Breach of Trust"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Sub_Group_Name",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "2. Cheating ",
+        "1. Criminal Breach of Trust"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Loss_of_Property_1_10_Crores",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 4,
+      "null_percentage": 0.89,
+      "unique_count": 48,
+      "sample_values": [
+        "4.0",
+        "0.0",
+        "2.0",
+        "14.0",
+        "52.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 3131.0,
+        "mean": 19.56981981981982,
+        "std": 183.0226079584035
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Loss_of_Property_10_25_Crores",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 62,
+      "null_percentage": 13.84,
+      "unique_count": 11,
+      "sample_values": [
+        "0.0",
+        "1.0",
+        "2.0",
+        "7.0",
+        "3.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 23.0,
+        "mean": 0.45077720207253885,
+        "std": 1.8902104375661652
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Loss_of_Property_25_50_Crores",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 66,
+      "null_percentage": 14.73,
+      "unique_count": 9,
+      "sample_values": [
+        "0.0",
+        "1.0",
+        "2.0",
+        "6.0",
+        "15.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 15.0,
+        "mean": 0.23821989528795812,
+        "std": 1.1809089314062546
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Loss_of_Property_50_100_Crores",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 69,
+      "null_percentage": 15.4,
+      "unique_count": 5,
+      "sample_values": [
+        "0.0",
+        "1.0",
+        "2.0",
+        "4.0",
+        "15.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 15.0,
+        "mean": 0.10554089709762533,
+        "std": 0.8353600182529024
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Loss_of_Property_Above_100_Crores",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 71,
+      "null_percentage": 15.85,
+      "unique_count": 4,
+      "sample_values": [
+        "0.0",
+        "1.0",
+        "2.0",
+        "5.0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 5.0,
+        "mean": 0.058355437665782495,
+        "std": 0.33705617141623206
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

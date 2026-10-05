@@ -1,0 +1,503 @@
+{
+  "file_id": "FILE_068",
+  "filename": "2016 Escapes from Police Custody.csv",
+  "relative_path": "2016 Escapes from Police Custody.csv",
+  "file_size_bytes": 4042,
+  "dataset_category": "ARRESTS / POLICE DISPOSAL",
+  "data_grain": "unknown",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "India (Includes Tamil Nadu)",
+  "detected_year": "2016",
+  "row_count": 36,
+  "column_count": 18,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [
+    "Total Number of Persons Escaped from Police Custody"
+  ],
+  "numeric_columns": [
+    "S. No.",
+    "Number of Cases Registered (U/S 224, 225 B)",
+    "Total Number of Persons Escaped from Police Custody",
+    "Persons Escaped from Lockup",
+    "Persons Escaped Outside the Lockup",
+    "Escapees Rearrested who Escaped - From Lockup",
+    "Escapees Rearrested who Escaped - Other than Lockup",
+    "Number of Persons Chargedsheeted for Offence of Escape",
+    "Disposal by Courts - Trials Completed - Cases Involved",
+    "Disposal by Courts - Trials Completed - Number of Persons",
+    "Disposal by Courts - Convicted - Cases Involved",
+    "Disposal by Courts - Convicted - Number of Persons",
+    "Disposal by Courts - Acquitted - Cases Involved",
+    "Disposal by Courts - Acquitted - Number of Persons",
+    "Disposal by Courts - Number Pending for Trial - Cases Involved",
+    "Disposal by Courts - Number Pending for Trial - Number of Persons"
+  ],
+  "categorical_columns": [
+    "Category",
+    "State/UT"
+  ],
+  "geographic_columns": [
+    "State/UT",
+    "Persons Escaped Outside the Lockup"
+  ],
+  "year_columns": [],
+  "column_details": [
+    {
+      "column_name": "S. No.",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 36,
+      "sample_values": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 36.0,
+        "mean": 18.5,
+        "std": 10.535653752852738
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Category",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "State",
+        "UT"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "State/UT",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 36,
+      "sample_values": [
+        "Andhra Pradesh",
+        "Arunachal Pradesh",
+        "Assam",
+        "Bihar",
+        "Chhattisgarh"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Number of Cases Registered (U/S 224, 225 B)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 26,
+      "sample_values": [
+        "33",
+        "8",
+        "39",
+        "49",
+        "27"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 282.0,
+        "mean": 31.75,
+        "std": 50.96854772448257
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total Number of Persons Escaped from Police Custody",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 25,
+      "sample_values": [
+        "34",
+        "18",
+        "42",
+        "51",
+        "28"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 327.0,
+        "mean": 36.666666666666664,
+        "std": 59.34836620690219
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons Escaped from Lockup",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 15,
+      "sample_values": [
+        "4",
+        "14",
+        "8",
+        "9",
+        "1"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 34.0,
+        "mean": 5.833333333333333,
+        "std": 8.213229745790805
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Persons Escaped Outside the Lockup",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 24,
+      "sample_values": [
+        "30",
+        "4",
+        "34",
+        "42",
+        "27"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 293.0,
+        "mean": 30.833333333333332,
+        "std": 52.533798644301356
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "Escapees Rearrested who Escaped - From Lockup",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 13,
+      "sample_values": [
+        "2",
+        "13",
+        "8",
+        "19",
+        "1"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 27.0,
+        "mean": 4.666666666666667,
+        "std": 7.107340270050797
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Escapees Rearrested who Escaped - Other than Lockup",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 23,
+      "sample_values": [
+        "20",
+        "4",
+        "14",
+        "12",
+        "18"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 235.0,
+        "mean": 21.944444444444443,
+        "std": 41.880745282251425
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Number of Persons Chargedsheeted for Offence of Escape",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 25,
+      "sample_values": [
+        "19",
+        "9",
+        "10",
+        "38",
+        "16"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 260.0,
+        "mean": 26.916666666666668,
+        "std": 47.39461994783795
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Disposal by Courts - Trials Completed - Cases Involved",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 11,
+      "sample_values": [
+        "37",
+        "0",
+        "3",
+        "1",
+        "9"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 215.0,
+        "mean": 9.36111111111111,
+        "std": 35.99297771016513
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Disposal by Courts - Trials Completed - Number of Persons",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 13,
+      "sample_values": [
+        "6",
+        "0",
+        "3",
+        "1",
+        "7"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 415.0,
+        "mean": 14.666666666666666,
+        "std": 68.95298605364592
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Disposal by Courts - Convicted - Cases Involved",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 10,
+      "sample_values": [
+        "4",
+        "0",
+        "3",
+        "1",
+        "8"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 57.0,
+        "mean": 3.361111111111111,
+        "std": 9.686965551053724
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Disposal by Courts - Convicted - Number of Persons",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 9,
+      "sample_values": [
+        "4",
+        "0",
+        "3",
+        "1",
+        "8"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 83.0,
+        "mean": 4.194444444444445,
+        "std": 13.923914565430112
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Disposal by Courts - Acquitted - Cases Involved",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 7,
+      "sample_values": [
+        "33",
+        "0",
+        "3",
+        "5",
+        "1"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 158.0,
+        "mean": 6.0,
+        "std": 26.694033576277462
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Disposal by Courts - Acquitted - Number of Persons",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 7,
+      "sample_values": [
+        "2",
+        "0",
+        "1",
+        "7",
+        "6"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 332.0,
+        "mean": 10.472222222222221,
+        "std": 55.27773310997636
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Disposal by Courts - Number Pending for Trial - Cases Involved",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 21,
+      "sample_values": [
+        "12",
+        "2",
+        "4",
+        "30",
+        "14"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 2087.0,
+        "mean": 76.88888888888889,
+        "std": 346.55403848072757
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Disposal by Courts - Number Pending for Trial - Number of Persons",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 24,
+      "sample_values": [
+        "12",
+        "6",
+        "4",
+        "39",
+        "13"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 4522.0,
+        "mean": 149.47222222222223,
+        "std": 750.8285132766378
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

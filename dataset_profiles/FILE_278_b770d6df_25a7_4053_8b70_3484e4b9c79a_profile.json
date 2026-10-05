@@ -1,0 +1,691 @@
+{
+  "file_id": "FILE_278",
+  "filename": "b770d6df-25a7-4053-8b70-3484e4b9c79a.csv",
+  "relative_path": "anvesha_training_data/00_raw/csv/b770d6df-25a7-4053-8b70-3484e4b9c79a.csv",
+  "file_size_bytes": 5220,
+  "dataset_category": "PROPERTY CRIME",
+  "data_grain": "unknown",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "India / Multi-State",
+  "detected_year": "UNKNOWN",
+  "row_count": 48,
+  "column_count": 26,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [
+    "Burglary Total - I",
+    "Burglary Total - V",
+    "Burglary Total - R"
+  ],
+  "numeric_columns": [
+    "Sl. No",
+    "Theft - Incidents (I)",
+    "Theft - Victims (V)",
+    "Auto/Vehicle Theft - Incidents (I)",
+    "Auto/Vehicle Theft - Victims (V)",
+    "Other Thefts - I",
+    "Other Thefts - V",
+    "Burglary Total - I",
+    "Burglary Total - V",
+    "Burglary Day Time - I",
+    "Burglary Day Time - V",
+    "Burglary - Night - I",
+    "Burglary - Night - V",
+    "Extortion & Blackmailing - I",
+    "Extortion & Blackmailing - V",
+    "Robbery - I",
+    "Robbery - V"
+  ],
+  "categorical_columns": [
+    "District",
+    "Theft - Crime Rate ( R)",
+    "Auto/Vehicle Theft - Crime Rate ( R)",
+    "Other Thefts - R",
+    "Burglary Total - R",
+    "Burglary Day Time - R",
+    "Burglary - Night -R",
+    "Extortion & Blackmailing - R",
+    "Robbery -R"
+  ],
+  "geographic_columns": [
+    "District",
+    "Auto/Vehicle Theft - Incidents (I)",
+    "Auto/Vehicle Theft - Victims (V)",
+    "Auto/Vehicle Theft - Crime Rate ( R)"
+  ],
+  "year_columns": [],
+  "column_details": [
+    {
+      "column_name": "Sl. No",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 1,
+      "null_percentage": 2.08,
+      "unique_count": 47,
+      "sample_values": [
+        "1.0",
+        "2.0",
+        "3.0",
+        "4.0",
+        "5.0"
+      ],
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 47.0,
+        "mean": 24.0,
+        "std": 13.711309200802088
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "District",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 48,
+      "sample_values": [
+        "Ariyalur",
+        "Chennai",
+        "Coimbatore",
+        "Coimbatore  City",
+        "Cuddalore"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Theft - Incidents (I)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 47,
+      "sample_values": [
+        "77",
+        "4054",
+        "208",
+        "554",
+        "252"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 14274.0,
+        "mean": 594.75,
+        "std": 2097.929125833682
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "Theft - Victims (V)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 47,
+      "sample_values": [
+        "77",
+        "4054",
+        "208",
+        "554",
+        "252"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 14382.0,
+        "mean": 599.25,
+        "std": 2112.478241106624
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Theft - Crime Rate ( R)",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 38,
+      "sample_values": [
+        "9.6",
+        "56.1",
+        "8.5",
+        "46.2",
+        "9.1"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Auto/Vehicle Theft - Incidents (I)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 41,
+      "sample_values": [
+        "44",
+        "1919",
+        "87",
+        "383",
+        "106"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 6718.0,
+        "mean": 279.9166666666667,
+        "std": 987.1751624805194
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "Auto/Vehicle Theft - Victims (V)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 41,
+      "sample_values": [
+        "44",
+        "1919",
+        "87",
+        "383",
+        "106"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 6810.0,
+        "mean": 283.75,
+        "std": 999.6745108581965
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Auto/Vehicle Theft - Crime Rate ( R)",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 42,
+      "sample_values": [
+        "5.5",
+        "26.5",
+        "3.5",
+        "31.9",
+        "3.8"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Other Thefts - I",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 42,
+      "sample_values": [
+        "33",
+        "2135",
+        "121",
+        "171",
+        "146"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 7556.0,
+        "mean": 314.8333333333333,
+        "std": 1117.0627581625658
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Other Thefts - V",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 42,
+      "sample_values": [
+        "33",
+        "2135",
+        "121",
+        "171",
+        "146"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 7572.0,
+        "mean": 315.5,
+        "std": 1119.207565408707
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Other Thefts - R",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 36,
+      "sample_values": [
+        "4.1",
+        "29.5",
+        "4.9",
+        "14.3",
+        "5.3"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Burglary Total - I",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 42,
+      "sample_values": [
+        "53",
+        "714",
+        "195",
+        "176",
+        "157"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 5157.0,
+        "mean": 214.875,
+        "std": 735.7394782035514
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Burglary Total - V",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 40,
+      "sample_values": [
+        "53",
+        "714",
+        "195",
+        "177",
+        "157"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 5201.0,
+        "mean": 216.70833333333334,
+        "std": 741.8823947153974
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Burglary Total - R",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 38,
+      "sample_values": [
+        "6.6",
+        "9.9",
+        "7.9",
+        "14.7",
+        "5.7"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Burglary Day Time - I",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 27,
+      "sample_values": [
+        "7",
+        "108",
+        "45",
+        "39",
+        "24"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1008.0,
+        "mean": 42.0,
+        "std": 143.44203366264924
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Burglary Day Time - V",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 26,
+      "sample_values": [
+        "7",
+        "108",
+        "45",
+        "39",
+        "24"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1024.0,
+        "mean": 42.666666666666664,
+        "std": 145.70683672876694
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Burglary Day Time - R",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 23,
+      "sample_values": [
+        "0.9",
+        "1.5",
+        "1.8",
+        "3.3",
+        "0.6"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Burglary - Night - I",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 41,
+      "sample_values": [
+        "46",
+        "606",
+        "150",
+        "137",
+        "133"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 4149.0,
+        "mean": 172.875,
+        "std": 592.5959703225741
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Burglary - Night - V",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 41,
+      "sample_values": [
+        "46",
+        "606",
+        "150",
+        "138",
+        "133"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 4177.0,
+        "mean": 174.04166666666666,
+        "std": 596.4793502278407
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Burglary - Night -R",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 37,
+      "sample_values": [
+        "5.8",
+        "8.4",
+        "6.1",
+        "11.4",
+        "4.8"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Extortion & Blackmailing - I",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 33,
+      "sample_values": [
+        "0",
+        "205",
+        "85",
+        "60",
+        "19"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1657.0,
+        "mean": 69.04166666666667,
+        "std": 239.63349305326207
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Extortion & Blackmailing - V",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 33,
+      "sample_values": [
+        "0",
+        "205",
+        "85",
+        "60",
+        "19"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1658.0,
+        "mean": 69.08333333333333,
+        "std": 239.7724837666558
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Extortion & Blackmailing - R",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 31,
+      "sample_values": [
+        "0",
+        "2.8",
+        "3.5",
+        "5",
+        "0.7"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Robbery - I",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 32,
+      "sample_values": [
+        "18",
+        "609",
+        "56",
+        "94",
+        "36"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 2558.0,
+        "mean": 106.58333333333333,
+        "std": 371.4982794458214
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Robbery - V",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 31,
+      "sample_values": [
+        "18",
+        "609",
+        "56",
+        "94",
+        "36"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 2572.0,
+        "mean": 107.16666666666667,
+        "std": 373.40431189508774
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Robbery -R",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 25,
+      "sample_values": [
+        "2.3",
+        "8.4",
+        "7.8",
+        "1.3",
+        "0.9"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

@@ -1,0 +1,515 @@
+{
+  "file_id": "FILE_138",
+  "filename": "tn_2023_ipc_sll_2021_23_totals.csv",
+  "relative_path": "tn_2023_ipc_sll_2021_23_totals.csv",
+  "file_size_bytes": 5719,
+  "dataset_category": "GENERAL CRIME / IPC",
+  "data_grain": "district_year_crime",
+  "source_organization": "Tamil Nadu SCRB",
+  "detected_state": "Tamil Nadu",
+  "detected_year": "2021-2023",
+  "row_count": 51,
+  "column_count": 20,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [
+    "Rate of Total Cognizable Crime (IPC) (2023)",
+    "Rate of Total Cognizable Crime (SLL) (2023)",
+    "Total - 2021",
+    "Total - 2022",
+    "Rate of Total Cognizable Crime (IPC+SLL) (2023)"
+  ],
+  "numeric_columns": [
+    "Sl No",
+    "IPC 2023",
+    "Share of districts in percentage (2023)",
+    "SLL 2023",
+    "Share of districts in percentage (2023).1",
+    "Share of districts in percentage (2023).2",
+    "Mid-year Projected Population (in Lakhs) (2023).2"
+  ],
+  "categorical_columns": [
+    "Districts/City",
+    "IPC 2021",
+    "IPC 2022",
+    "Mid-year Projected Population (in Lakhs) (2023)",
+    "Rate of Total Cognizable Crime (IPC) (2023)",
+    "SLL 2021",
+    "SLL 2022",
+    "Mid-year Projected Population (in Lakhs) (2023).1",
+    "Rate of Total Cognizable Crime (SLL) (2023)",
+    "Total - 2021",
+    "Total - 2022",
+    "Rate of Total Cognizable Crime (IPC+SLL) (2023)",
+    "Unnamed: 19"
+  ],
+  "geographic_columns": [
+    "Districts/City",
+    "Share of districts in percentage (2023)",
+    "Share of districts in percentage (2023).1",
+    "Share of districts in percentage (2023).2"
+  ],
+  "year_columns": [
+    "Mid-year Projected Population (in Lakhs) (2023)",
+    "Mid-year Projected Population (in Lakhs) (2023).1",
+    "Mid-year Projected Population (in Lakhs) (2023).2"
+  ],
+  "column_details": [
+    {
+      "column_name": "Sl No",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 1,
+      "null_percentage": 1.96,
+      "unique_count": 50,
+      "sample_values": [
+        "1.0",
+        "2.0",
+        "3.0",
+        "4.0",
+        "5.0"
+      ],
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 50.0,
+        "mean": 25.5,
+        "std": 14.577379737113251
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Districts/City",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 51,
+      "sample_values": [
+        "Ariyalur",
+        "Chennai",
+        "Coimbatore",
+        "Coimbatore City",
+        "Cuddalore"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "IPC 2021",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 49,
+      "sample_values": [
+        "4242",
+        "46077",
+        "9332",
+        "3738",
+        "16045"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "IPC 2022",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 51,
+      "sample_values": [
+        "1775",
+        "15086",
+        "4852",
+        "4542",
+        "15096"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "IPC 2023",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 51,
+      "sample_values": [
+        "1836",
+        "15698",
+        "4294",
+        "4697",
+        "8344"
+      ],
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 203804.0,
+        "mean": 7992.313725490196,
+        "std": 28085.63766232855
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Share of districts in percentage (2023)",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 27,
+      "sample_values": [
+        "0.9",
+        "7.7",
+        "2.1",
+        "2.3",
+        "4.1"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 100.0,
+        "mean": 3.923529411764706,
+        "std": 13.780545536883425
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Mid-year Projected Population (in Lakhs) (2023)",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 45,
+      "sample_values": [
+        "8.1",
+        "60.6",
+        "25.7",
+        "11.2",
+        "27.8"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": true
+    },
+    {
+      "column_name": "Rate of Total Cognizable Crime (IPC) (2023)",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 46,
+      "sample_values": [
+        "226.7",
+        "259",
+        "167.1",
+        "419.4",
+        "300.1"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "SLL 2021",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 49,
+      "sample_values": [
+        "4510",
+        "69170",
+        "12968",
+        "10225",
+        "16578"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "SLL 2022",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 51,
+      "sample_values": [
+        "2551",
+        "24052",
+        "10187",
+        "4708",
+        "11265"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "SLL 2023",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 51,
+      "sample_values": [
+        "2539",
+        "20804",
+        "9497",
+        "4115",
+        "10579"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 335847.0,
+        "mean": 13170.470588235294,
+        "std": 46263.9639492134
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Share of districts in percentage (2023).1",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 29,
+      "sample_values": [
+        "0.8",
+        "6.2",
+        "2.8",
+        "1.2",
+        "3.1"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 100.0,
+        "mean": 3.923529411764706,
+        "std": 13.774768066799442
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Mid-year Projected Population (in Lakhs) (2023).1",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 45,
+      "sample_values": [
+        "8.1",
+        "60.6",
+        "25.7",
+        "11.2",
+        "27.8"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": true
+    },
+    {
+      "column_name": "Rate of Total Cognizable Crime (SLL) (2023)",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 48,
+      "sample_values": [
+        "313.5",
+        "343.3",
+        "369.5",
+        "367.4",
+        "380.5"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total - 2021",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 49,
+      "sample_values": [
+        "8752",
+        "115247",
+        "22300",
+        "13963",
+        "32623"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total - 2022",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 50,
+      "sample_values": [
+        "4326",
+        "39138",
+        "15039",
+        "9250",
+        "26361"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Share of districts in percentage (2023).2",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 51,
+      "sample_values": [
+        "4375",
+        "36502",
+        "13791",
+        "8812",
+        "18923"
+      ],
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 539651.0,
+        "mean": 21162.78431372549,
+        "std": 74298.95590768788
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Mid-year Projected Population (in Lakhs) (2023).2",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 26,
+      "sample_values": [
+        "0.8",
+        "6.8",
+        "2.6",
+        "1.6",
+        "3.5"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 100.0,
+        "mean": 3.923529411764706,
+        "std": 13.767782511868702
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": true
+    },
+    {
+      "column_name": "Rate of Total Cognizable Crime (IPC+SLL) (2023)",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 45,
+      "sample_values": [
+        "8.1",
+        "60.6",
+        "25.7",
+        "11.2",
+        "27.8"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Unnamed: 19",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 48,
+      "sample_values": [
+        "540.1",
+        "602.3",
+        "536.6",
+        "786.8",
+        "680.7"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

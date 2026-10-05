@@ -1,0 +1,224 @@
+{
+  "file_id": "FILE_1135",
+  "filename": "FILE_066_2ac03f2a_fdc7_43c4_8fbf_47b963e34804_p144_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_066_2ac03f2a_fdc7_43c4_8fbf_47b963e34804_p144_t1.csv",
+  "file_size_bytes": 1626,
+  "dataset_category": "GENERAL CRIME / IPC",
+  "data_grain": "unknown",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "UNKNOWN",
+  "row_count": 45,
+  "column_count": 9,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [],
+  "numeric_columns": [],
+  "categorical_columns": [
+    "TABLE - 5.2\nIncidence of Grave Crimes (District / City Wise) During 2019",
+    "col_2",
+    "col_3",
+    "col_4",
+    "col_5",
+    "col_6",
+    "col_7",
+    "col_8",
+    "col_9"
+  ],
+  "geographic_columns": [
+    "TABLE - 5.2\nIncidence of Grave Crimes (District / City Wise) During 2019"
+  ],
+  "year_columns": [],
+  "column_details": [
+    {
+      "column_name": "TABLE - 5.2\nIncidence of Grave Crimes (District / City Wise) During 2019",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 1,
+      "null_percentage": 2.22,
+      "unique_count": 44,
+      "sample_values": [
+        "S. No.",
+        "(1)",
+        "1",
+        "2",
+        "3"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": true,
+      "is_year": false,
+      "is_identifier": true
+    },
+    {
+      "column_name": "col_2",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 3,
+      "null_percentage": 6.67,
+      "unique_count": 42,
+      "sample_values": [
+        "Districts",
+        "(2)",
+        "Ariyalur",
+        "Chennai",
+        "Coimbatore"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_3",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 1,
+      "null_percentage": 2.22,
+      "unique_count": 37,
+      "sample_values": [
+        "Grave Crimes",
+        "Murder",
+        "(3)",
+        "22",
+        "168"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_4",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 3,
+      "null_percentage": 6.67,
+      "unique_count": 10,
+      "sample_values": [
+        "Murder for\nGain",
+        "(4)",
+        "0",
+        "4",
+        "5"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_5",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 2,
+      "null_percentage": 4.44,
+      "unique_count": 13,
+      "sample_values": [
+        "Dacoity",
+        "(5)",
+        "0",
+        "17",
+        "3"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_6",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 2,
+      "null_percentage": 4.44,
+      "unique_count": 34,
+      "sample_values": [
+        "Robbery",
+        "(6)",
+        "13",
+        "693",
+        "61"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_7",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 2,
+      "null_percentage": 4.44,
+      "unique_count": 22,
+      "sample_values": [
+        "Grave\nBurglary",
+        "(7)",
+        "1",
+        "46",
+        "13"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_8",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 2,
+      "null_percentage": 4.44,
+      "unique_count": 16,
+      "sample_values": [
+        "Grave Theft",
+        "(8)",
+        "4",
+        "44",
+        "5"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "col_9",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 2,
+      "null_percentage": 4.44,
+      "unique_count": 40,
+      "sample_values": [
+        "Total",
+        "(9)",
+        "40",
+        "972",
+        "131"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

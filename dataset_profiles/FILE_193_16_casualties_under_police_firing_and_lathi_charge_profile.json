@@ -1,0 +1,233 @@
+{
+  "file_id": "FILE_193",
+  "filename": "16_Casualties_under_police_firing_and_lathi_charge.csv",
+  "relative_path": "anvesha_training_data/00_raw/csv/16_Casualties_under_police_firing_and_lathi_charge.csv",
+  "file_size_bytes": 96269,
+  "dataset_category": "GENERAL CRIME / IPC",
+  "data_grain": "state_year",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "2001-2002",
+  "row_count": 1749,
+  "column_count": 8,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [],
+  "numeric_columns": [
+    "Year",
+    "Civilians_Injured",
+    "Civilians_Killed",
+    "No_of_Firings",
+    "Policemen_Injured",
+    "Policemen_Killed"
+  ],
+  "categorical_columns": [
+    "Area_Name",
+    "Group_Name"
+  ],
+  "geographic_columns": [],
+  "year_columns": [
+    "Year"
+  ],
+  "column_details": [
+    {
+      "column_name": "Area_Name",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 35,
+      "sample_values": [
+        "Andaman & Nicobar Islands",
+        "Andhra Pradesh",
+        "Arunachal Pradesh",
+        "Assam",
+        "Bihar"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Year",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 10,
+      "sample_values": [
+        "2001",
+        "2002",
+        "2003",
+        "2004",
+        "2005"
+      ],
+      "numeric_stats": {
+        "min": 2001.0,
+        "max": 2010.0,
+        "mean": 2005.499142367067,
+        "std": 2.873699956146776
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Group_Name",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "Against Extremists & Terrorists",
+        "Against others",
+        "Anti Dacoity Operations",
+        "Riot Control",
+        "Total Casualties under Police Firing & Lathi Charge"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Civilians_Injured",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 85,
+      "sample_values": [
+        "0",
+        "4",
+        "14",
+        "82",
+        "5"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 494.0,
+        "mean": 6.375643224699829,
+        "std": 28.586456067189165
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Civilians_Killed",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 77,
+      "sample_values": [
+        "0",
+        "105",
+        "26",
+        "7",
+        "2"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 230.0,
+        "mean": 4.689536878216123,
+        "std": 17.69963636074372
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "No_of_Firings",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 122,
+      "sample_values": [
+        "0",
+        "108",
+        "37",
+        "12",
+        "2"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1250.0,
+        "mean": 14.4505431675243,
+        "std": 66.14601840294628
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Policemen_Injured",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 130,
+      "sample_values": [
+        "0",
+        "14",
+        "3",
+        "13",
+        "86"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 2952.0,
+        "mean": 15.51286449399657,
+        "std": 107.02696189463848
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Policemen_Killed",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 36,
+      "sample_values": [
+        "0",
+        "8",
+        "9",
+        "5",
+        "2"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 68.0,
+        "mean": 1.2246998284734134,
+        "std": 5.144073758473404
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}

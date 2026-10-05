@@ -1,0 +1,233 @@
+{
+  "file_id": "FILE_1175",
+  "filename": "FILE_066_2ac03f2a_fdc7_43c4_8fbf_47b963e34804_p184_t1.csv",
+  "relative_path": "anvesha_training_data/01_extracted/pdf_tables/FILE_066_2ac03f2a_fdc7_43c4_8fbf_47b963e34804_p184_t1.csv",
+  "file_size_bytes": 1810,
+  "dataset_category": "GENERAL CRIME / IPC",
+  "data_grain": "state_year",
+  "source_organization": "NCRB / MHA India",
+  "detected_state": "UNKNOWN",
+  "detected_year": "UNKNOWN",
+  "row_count": 34,
+  "column_count": 8,
+  "duplicate_rows_count": 0,
+  "constant_columns": [],
+  "total_columns": [
+    "Total\nCases\nDisposed\nOff by\nPolice\n(Col.7+\nCol.8+\nCol.15+\nCol.18)"
+  ],
+  "numeric_columns": [
+    "Total\nCases\nDisposed\nOff by\nPolice\n(Col.7+\nCol.8+\nCol.15+\nCol.18)",
+    "Cases\nQuash\ned at\nInvesti-\ngation\nStage",
+    "Cases\nStayed\nat\nInvesti-\ngation\nStage",
+    "Cases\nPending\nInvesti-\ngation at\nEnd of\nthe Year\n(Col.6-\nCol.9-\nCol.19-\nCol.20)",
+    "Charge-\nSheeting\nRate\n(Col.18/\nCol.19)\n*100",
+    "Pendency\nPercentage\n(Col.22/\nCol.6) *100"
+  ],
+  "categorical_columns": [
+    "S.No",
+    "Crime Head"
+  ],
+  "geographic_columns": [],
+  "year_columns": [
+    "Cases\nPending\nInvesti-\ngation at\nEnd of\nthe Year\n(Col.6-\nCol.9-\nCol.19-\nCol.20)"
+  ],
+  "column_details": [
+    {
+      "column_name": "S.No",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 2,
+      "null_percentage": 5.88,
+      "unique_count": 32,
+      "sample_values": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Crime Head",
+      "data_type": "object",
+      "inferred_type": "categorical",
+      "null_count": 1,
+      "null_percentage": 2.94,
+      "unique_count": 25,
+      "sample_values": [
+        "Murder with Rape/Gang Rape",
+        "Dowry Deaths",
+        "Abetment to Suicide of Women",
+        "Miscarriage",
+        "Acid Attack"
+      ],
+      "numeric_stats": null,
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Total\nCases\nDisposed\nOff by\nPolice\n(Col.7+\nCol.8+\nCol.15+\nCol.18)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 25,
+      "sample_values": [
+        "19",
+        "5",
+        "37",
+        "195",
+        "0"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 2585.0,
+        "mean": 215.64705882352942,
+        "std": 474.4806335960974
+      },
+      "is_constant": false,
+      "is_total_column": true,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nQuash\ned at\nInvesti-\ngation\nStage",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 8,
+      "sample_values": [
+        "20",
+        "0",
+        "1",
+        "12",
+        "2"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 23.0,
+        "mean": 2.235294117647059,
+        "std": 5.399544445034575
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nStayed\nat\nInvesti-\ngation\nStage",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 3,
+      "sample_values": [
+        "21",
+        "0",
+        "1"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 21.0,
+        "mean": 0.7058823529411765,
+        "std": 3.5973846709225095
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Cases\nPending\nInvesti-\ngation at\nEnd of\nthe Year\n(Col.6-\nCol.9-\nCol.19-\nCol.20)",
+      "data_type": "int64",
+      "inferred_type": "numeric",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_count": 24,
+      "sample_values": [
+        "22",
+        "6",
+        "21",
+        "286",
+        "5"
+      ],
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 3359.0,
+        "mean": 265.47058823529414,
+        "std": 616.4754774200264
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": true,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Charge-\nSheeting\nRate\n(Col.18/\nCol.19)\n*100",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 7,
+      "null_percentage": 20.59,
+      "unique_count": 19,
+      "sample_values": [
+        "23.0",
+        "100.0",
+        "95.9",
+        "50.0",
+        "84.5"
+      ],
+      "numeric_stats": {
+        "min": 8.5,
+        "max": 100.0,
+        "mean": 70.0925925925926,
+        "std": 31.76008532644426
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    },
+    {
+      "column_name": "Pendency\nPercentage\n(Col.22/\nCol.6) *100",
+      "data_type": "float64",
+      "inferred_type": "numeric",
+      "null_count": 6,
+      "null_percentage": 17.65,
+      "unique_count": 25,
+      "sample_values": [
+        "24.0",
+        "54.5",
+        "35.6",
+        "59.3",
+        "100.0"
+      ],
+      "numeric_stats": {
+        "min": 24.0,
+        "max": 100.0,
+        "mean": 57.932142857142864,
+        "std": 16.725696654293014
+      },
+      "is_constant": false,
+      "is_total_column": false,
+      "is_geographic": false,
+      "is_year": false,
+      "is_identifier": false
+    }
+  ],
+  "notes": "Clean parse"
+}
