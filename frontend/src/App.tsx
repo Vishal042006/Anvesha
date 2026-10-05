@@ -2,19 +2,18 @@ import { useState, useEffect } from 'react';
 import { Sidebar } from './components/layout/Sidebar';
 import type { SectionId } from './components/layout/Sidebar';
 
-import { CommandCenterPage } from './pages/CommandCenterPage';
-import { DataPage } from './pages/DataPage';
-import { ClassificationPage } from './pages/ClassificationPage';
+import { OverviewPage } from './pages/OverviewPage';
+import { CrimeAnalysisPage } from './pages/CrimeAnalysisPage';
 import { AnomaliesPage } from './pages/AnomaliesPage';
-import { ForecastPage } from './pages/ForecastPage';
 import { MapPage } from './pages/MapPage';
-import { ExplainPage } from './pages/ExplainPage';
 import { ResearchPage } from './pages/ResearchPage';
 import { MethodologyPage } from './pages/MethodologyPage';
+import { AboutModal } from './components/AboutModal';
 
 export function App() {
-  const [currentSection, setCurrentSection] = useState<SectionId>('command_center');
+  const [currentSection, setCurrentSection] = useState<SectionId>('overview');
   const [backendOnline, setBackendOnline] = useState<boolean>(true);
+  const [showAboutModal, setShowAboutModal] = useState<boolean>(false);
 
   useEffect(() => {
     fetch('/api/v1/health')
@@ -22,44 +21,63 @@ export function App() {
       .catch(() => setBackendOnline(false));
   }, []);
 
+  const handleSelectSection = (section: SectionId) => {
+    if (section === 'about') {
+      setShowAboutModal(true);
+    } else {
+      setCurrentSection(section);
+    }
+  };
+
   const renderSection = () => {
     switch (currentSection) {
+      case 'overview':
       case 'command_center':
-        return <CommandCenterPage onNavigate={setCurrentSection} />;
-      case 'data':
-        return <DataPage />;
-      case 'classification':
-        return <ClassificationPage />;
+        return <OverviewPage onNavigate={handleSelectSection} />;
+
+      case 'analysis':
+      case 'forecast':
+      case 'explain':
+        return <CrimeAnalysisPage onNavigate={handleSelectSection} />;
+
       case 'anomalies':
         return <AnomaliesPage />;
-      case 'forecast':
-        return <ForecastPage />;
+
       case 'map':
         return <MapPage />;
-      case 'explain':
-        return <ExplainPage />;
+
       case 'research':
+      case 'data':
+      case 'classification':
         return <ResearchPage />;
+
       case 'methodology':
         return <MethodologyPage />;
+
       default:
-        return <CommandCenterPage onNavigate={setCurrentSection} />;
+        return <OverviewPage onNavigate={handleSelectSection} />;
     }
   };
 
   return (
     <div className="flex h-screen bg-[#F8FAFC] text-[#0F172A] font-sans overflow-hidden">
-      {/* Research Sidebar */}
+      {/* Compact Research Sidebar */}
       <Sidebar
         currentSection={currentSection}
-        onSelectSection={setCurrentSection}
+        onSelectSection={handleSelectSection}
         backendOnline={backendOnline}
       />
 
-      {/* Main Research Content View */}
+      {/* Main Content Area */}
       <main className="flex-1 overflow-y-auto bg-[#F8FAFC] pb-12">
         {renderSection()}
       </main>
+
+      {/* About System & Scope Modal */}
+      <AboutModal
+        isOpen={showAboutModal}
+        onClose={() => setShowAboutModal(false)}
+      />
     </div>
   );
 }
