@@ -1,0 +1,24 @@
+[
+  {
+    "experiment_id": "ANV-CLASS-TFIDF-LOGREG-001",
+    "model": "TFIDF_LogisticRegression",
+    "task": "CRIME_CATEGORY_CLASSIFICATION",
+    "framework": "scikit-learn",
+    "dataset": "Crime Taxonomy Benchmark",
+    "dataset_version": "1.0",
+    "train_rows": 132,
+    "validation_rows": 0,
+    "test_rows": 33,
+    "epochs": "N/A",
+    "best_epoch": "N/A",
+    "accuracy": 0.9394,
+    "precision": 0.9592,
+    "recall": 0.9286,
+    "macro_f1": 0.9286,
+    "weighted_f1": 0.9343,
+    "balanced_accuracy": 0.9394,
+    "training_wall_time_sec": 0.0905,
+    "inference_time_sec": 0.0,
+    "model_size_mb": 0.011
+  }
+]

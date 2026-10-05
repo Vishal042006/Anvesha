@@ -550,7 +550,7 @@ for idx, r in tax_df.iterrows():
     records.append((f"{src} INCIDENT", cat))
 
 df_class = pd.DataFrame(records, columns=["text", "target"])
-train_c = df_class.sample(frac=0.8, random_seed=SEED)
+train_c = df_class.sample(frac=0.8, random_state=SEED)
 test_c = df_class.drop(train_c.index)
 
 t0 = time.perf_counter()

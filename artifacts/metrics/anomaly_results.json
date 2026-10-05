@@ -1,0 +1,19 @@
+[
+  {
+    "experiment_id": "ANV-ANOMALY-IF-001",
+    "model": "IsolationForest",
+    "task": "SPATIO_TEMPORAL_ANOMALY_DETECTION",
+    "framework": "scikit-learn",
+    "dataset": "Tamil Nadu Panel (2004-2014)",
+    "dataset_version": "ANVESHA-DATA-v1.0",
+    "sample_count": 399,
+    "feature_count": 4,
+    "contamination": 0.08,
+    "anomaly_count": 18,
+    "anomaly_rate": 4.51,
+    "mean_anomaly_score": 0.1685,
+    "training_wall_time_sec": 0.2167,
+    "inference_time_sec": 0.0001,
+    "model_size_mb": 0.8982
+  }
+]

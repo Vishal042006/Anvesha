@@ -1,0 +1,57 @@
+{
+  "CYBER": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5.0
+  },
+  "ECONOMIC": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3.0
+  },
+  "OTHER": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 4.0
+  },
+  "PROPERTY": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9.0
+  },
+  "PUBLIC_ORDER": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3.0
+  },
+  "VIOLENT": {
+    "precision": 0.7142857142857143,
+    "recall": 1.0,
+    "f1-score": 0.8333333333333334,
+    "support": 5.0
+  },
+  "WOMEN_AND_CHILDREN": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4.0
+  },
+  "accuracy": 0.9393939393939394,
+  "macro avg": {
+    "precision": 0.9591836734693878,
+    "recall": 0.9285714285714286,
+    "f1-score": 0.9285714285714285,
+    "support": 33.0
+  },
+  "weighted avg": {
+    "precision": 0.9567099567099567,
+    "recall": 0.9393939393939394,
+    "f1-score": 0.9343434343434343,
+    "support": 33.0
+  }
+}
