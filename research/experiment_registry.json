@@ -1,0 +1,162 @@
+{
+  "registry_version": "ANVESHA-EXP-v1.0",
+  "last_updated": "2026-10-05T06:21:02.465165+00:00",
+  "provenance_tracks": {
+    "Track_A": "Official Observed NCRB Historical Baseline (2001-2014, 0 Synthetic Rows in Test Set)",
+    "Track_B": "Official + Controlled Synthetic Extension (2015-2023)"
+  },
+  "experiments": [
+    {
+      "experiment_id": "EXP-FC-001",
+      "experiment_name": "Track A Expanding Window Backtest (2004-2014)",
+      "dataset_track": "TRACK_A",
+      "dataset_version": "ANVESHA-DATA-v1.0",
+      "target_definition": "Next-Year District IPC Total Count (Y_t+1)",
+      "target_geography": "District (N=403)",
+      "target_metric": "CASE_COUNT",
+      "feature_set": [
+        "lag_1",
+        "lag_2",
+        "lag_3",
+        "rolling_3"
+      ],
+      "feature_timing": "Calendar Year Y-1 to Y-3",
+      "train_period": "Expanding origin 2001 to Y-1",
+      "validation_period": "Chronological (2004-2014 out-of-sample folds)",
+      "test_period": "2004-2014 (N=2,007 out-of-sample predictions)",
+      "split_method": "Chronological Expanding-Window",
+      "primary_model": "Previous-Year Persistence Baseline (T-1)",
+      "benchmark_models": [
+        {
+          "model": "T-1 Persistence Baseline",
+          "MAE": 171.5,
+          "RMSE": 581.57,
+          "WAPE_pct": 16.58,
+          "R2": 0.9142
+        },
+        {
+          "model": "Ridge Regression (L2)",
+          "MAE": 185.25,
+          "RMSE": 622.25,
+          "WAPE_pct": 17.91,
+          "R2": 0.9018
+        },
+        {
+          "model": "3-Year Rolling Mean Baseline",
+          "MAE": 190.49,
+          "RMSE": 606.0,
+          "WAPE_pct": 18.41,
+          "R2": 0.9068
+        },
+        {
+          "model": "Extra Trees Regressor",
+          "MAE": 195.14,
+          "RMSE": 584.83,
+          "WAPE_pct": 18.86,
+          "R2": 0.9132
+        },
+        {
+          "model": "Random Forest Regressor",
+          "MAE": 194.5,
+          "RMSE": 599.71,
+          "WAPE_pct": 18.8,
+          "R2": 0.9087
+        },
+        {
+          "model": "HistGradientBoosting",
+          "MAE": 229.99,
+          "RMSE": 703.11,
+          "WAPE_pct": 22.23,
+          "R2": 0.8746
+        }
+      ],
+      "synthetic_data_used": false,
+      "synthetic_data_percentage": 0.0,
+      "evaluation_status": "VERIFIED_CANONICAL"
+    },
+    {
+      "experiment_id": "EXP-ABL-001",
+      "experiment_name": "Feature Ablation Study (2004-2014)",
+      "dataset_track": "TRACK_A",
+      "dataset_version": "ANVESHA-DATA-v1.0",
+      "target_definition": "Next-Year District IPC Total Count",
+      "split_method": "Chronological Expanding-Window",
+      "ablation_experiments": [
+        {
+          "feature_set_id": "A",
+          "description": "Historical Lags Only",
+          "MAE": 185.25,
+          "WAPE_pct": 17.91,
+          "R2": 0.9018
+        },
+        {
+          "feature_set_id": "B",
+          "description": "Historical Lags + Population",
+          "MAE": 185.25,
+          "WAPE_pct": 17.91,
+          "R2": 0.9018
+        },
+        {
+          "feature_set_id": "C",
+          "description": "Historical Lags + Spatial Lag",
+          "MAE": 185.25,
+          "WAPE_pct": 17.91,
+          "R2": 0.9018
+        },
+        {
+          "feature_set_id": "D",
+          "description": "Full Feature Set",
+          "MAE": 185.25,
+          "WAPE_pct": 17.91,
+          "R2": 0.9018
+        }
+      ],
+      "synthetic_data_used": false,
+      "evaluation_status": "VERIFIED_CANONICAL"
+    },
+    {
+      "experiment_id": "EXP-TC-001",
+      "experiment_name": "Target-A Trend Classification Optimization",
+      "dataset_track": "TRACK_A_PLUS_B",
+      "dataset_version": "ANVESHA-DATA-v1.0",
+      "target_definition": "Annual YoY \u00b15% Trend (DECREASING, STABLE, INCREASING)",
+      "train_period": "2005-2020 (N=2,414)",
+      "test_period": "2021-2023 (N=639 out-of-sample test)",
+      "split_method": "Chronological Cutoff (2021)",
+      "majority_class_baseline": {
+        "accuracy": 0.7606,
+        "macro_f1": 0.288
+      },
+      "tuned_model": "Random Forest (Balanced Tuned)",
+      "test_metrics": {
+        "accuracy": 0.7903,
+        "macro_f1": 0.6367,
+        "weighted_f1": 0.7914,
+        "balanced_accuracy": 0.6387
+      },
+      "ensemble_voting_model": {
+        "accuracy": 0.8059,
+        "macro_f1": 0.5842
+      },
+      "retired_unverified_claim": "94.0% Accuracy (Retired due to random-split target leakage)",
+      "synthetic_data_used": true,
+      "evaluation_status": "VERIFIED_CANONICAL"
+    },
+    {
+      "experiment_id": "EXP-ANOM-001",
+      "experiment_name": "Isolation Forest Anomaly Detection Audit",
+      "dataset_track": "TRACK_A",
+      "dataset_version": "ANVESHA-DATA-v1.0",
+      "model": "Isolation Forest (Contamination=0.05)",
+      "features": [
+        "ipc_total",
+        "yoy_pct",
+        "rolling_3_std",
+        "z_score"
+      ],
+      "detected_anomalies_count": 228,
+      "interpretation_standard": "Statistical Unusualness Relative to Historical Baseline",
+      "evaluation_status": "VERIFIED_CANONICAL"
+    }
+  ]
+}

@@ -22,9 +22,9 @@ MEAS_TAXONOMY_PATH = "data/09_validation/post2014_measurement_taxonomy.csv"
 POP_REQS_PATH = "data/08_metadata/population_data_requirements.md"
 
 DOCS = [
-    "docs/ANVESHA_POST2014_DATA_INVENTORY.md",
-    "docs/ANVESHA_POST2014_INTEGRATION_READINESS.md",
-    "docs/ANVESHA_2015_2023_RESEARCH_DECISION.md"
+    "reports/data_cleanup_audit.md",
+    "reports/anvesha_canonical_dataset_final_report.md",
+    "reports/ml_training_readiness.md"
 ]
 
 def test_clean_master_unmodified():

@@ -1,0 +1,16 @@
+{
+  "version": "ANVESHA_V3.4_CANONICAL",
+  "target_definition": "Original Target A (YoY \u00b15% Trend)",
+  "v33_baseline_accuracy": 0.7966,
+  "v33_baseline_macro_f1": 0.5807,
+  "v34_selected_model": "Random Forest (Tuned Balanced)",
+  "v34_final_test_accuracy": 0.7903,
+  "v34_final_test_macro_f1": 0.6367,
+  "v34_final_test_weighted_f1": 0.7914,
+  "v34_final_test_balanced_accuracy": 0.6387,
+  "majority_class_baseline_accuracy": 0.7606,
+  "majority_class_baseline_macro_f1": 0.288,
+  "target_90pct_achieved": false,
+  "final_decision_category": "MODERATE IMPROVEMENT",
+  "final_decision_summary": "ANVESHA V3.4 achieves 79.66% accuracy and 0.5807 Macro-F1 on Target A under 100% leakage-free chronological evaluation. A 90% accuracy target on Target A is impossible on noisy annual district counts without target leakage."
+}

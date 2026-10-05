@@ -1,0 +1,152 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, Cambria, serif;
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "IBM Plex Mono", JetBrains Mono, monospace;
+
+  --color-paper: #F8F7F3;
+  --color-surface: #FFFFFF;
+  --color-surface-muted: #F1F0EB;
+  --color-ink: #111111;
+  --color-ink-secondary: #4B4B4B;
+  --color-ink-muted: #777777;
+  --color-border-warm: #D8D6D0;
+  --color-border-strong: #1A1A1A;
+  --color-crimson: #A61B1B;
+  --color-rust: #C83A2A;
+  --color-amber-warn: #B7791F;
+  --color-forest-green: #26734D;
+  --color-navy-info: #2457A6;
+}
+
+@layer base {
+  :root {
+    --bg-paper: #F8F7F3;
+    --bg-surface: #FFFFFF;
+    --bg-surface-muted: #F1F0EB;
+    --text-primary: #111111;
+    --text-secondary: #4B4B4B;
+    --text-muted: #777777;
+    --border-warm: #D8D6D0;
+    --border-strong: #1A1A1A;
+    --accent-crimson: #A61B1B;
+    --accent-rust: #C83A2A;
+  }
+
+  body {
+    background-color: var(--bg-paper);
+    color: var(--text-primary);
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-serif-headline {
+    font-family: "Playfair Display", Georgia, serif;
+  }
+
+  code, pre, .font-data {
+    font-family: "IBM Plex Mono", monospace;
+  }
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #F1F0EB;
+}
+::-webkit-scrollbar-thumb {
+  background: #D8D6D0;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #1A1A1A;
+}
+
+/* Editorial Research Card Styling */
+.editorial-card {
+  background: #FFFFFF;
+  border: 1px solid #D8D6D0;
+  border-radius: 2px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.02);
+}
+
+.editorial-card-strong {
+  background: #FFFFFF;
+  border: 1px solid #1A1A1A;
+  border-radius: 2px;
+}
+
+.editorial-card-hover {
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+.editorial-card-hover:hover {
+  border-color: #1A1A1A;
+  box-shadow: 0 2px 6px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* Provenance Badges */
+.badge-observed {
+  background: #F1F0EB;
+  color: #111111;
+  border: 1px solid #1A1A1A;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 700;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 2px 6px;
+}
+
+.badge-derived {
+  background: #EFF6FF;
+  color: #2457A6;
+  border: 1px solid #BFDBFE;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 700;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 2px 6px;
+}
+
+.badge-modelled {
+  background: #FEF2F2;
+  color: #A61B1B;
+  border: 1px solid #FECACA;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 700;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 2px 6px;
+}
+
+.badge-synthetic {
+  background: #FFFBEB;
+  color: #B7791F;
+  border: 1px solid #FDE68A;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 700;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 2px 6px;
+}
+
+.badge-success {
+  background: #ECFDF5;
+  color: #26734D;
+  border: 1px solid #A7F3D0;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 700;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 2px 6px;
+}

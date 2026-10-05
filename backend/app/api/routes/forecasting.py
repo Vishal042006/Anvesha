@@ -11,13 +11,20 @@ def get_forecast(
     year: int = Query(2024, description="Forecast target year"),
     model: str = Query("RandomForestRegressor", description="Model name")
 ):
-    res = forecasting_service.forecast(district, crime_category, year, model)
-    return res
+    return forecasting_service.forecast(district, crime_category, year, model)
+
+@router.get("/forecast/{district}", response_model=ForecastResponse)
+def get_forecast_by_district(
+    district: str,
+    crime_category: str = Query("PROPERTY_CRIME", description="Crime category"),
+    year: int = Query(2024, description="Forecast target year"),
+    model: str = Query("RandomForestRegressor", description="Model name")
+):
+    return forecasting_service.forecast(district, crime_category, year, model)
 
 @router.post("/forecast", response_model=ForecastResponse)
 def post_forecast(req: ForecastRequest):
-    res = forecasting_service.forecast(req.district, req.crime_category, req.year, req.model)
-    return res
+    return forecasting_service.forecast(req.district, req.crime_category, req.year, req.model)
 
 @router.post("/forecast/bulk", response_model=BulkForecastResponse)
 def bulk_forecast(req: BulkForecastRequest):

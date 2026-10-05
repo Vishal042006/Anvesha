@@ -1,0 +1,223 @@
+{
+  "model_version": "ANVESHA_V2_AUDITED",
+  "selected_forecasting_model": "3-Year Rolling Mean Baseline",
+  "selection_rationale": "Simple 3-Year Rolling Mean Baseline selected because it produced the lowest validation MAE (28.2548) among the evaluated forecasting candidates.",
+  "forecast_features": [
+    "lag_1",
+    "lag_2",
+    "lag_3",
+    "rolling_3"
+  ],
+  "trend_features": [
+    "lag_1",
+    "lag_2",
+    "lag_3",
+    "rolling_3",
+    "historical_momentum"
+  ],
+  "anomaly_features": [
+    "lag_1",
+    "lag_2",
+    "lag_3",
+    "rolling_3"
+  ],
+  "train_period": "2002-2017",
+  "validation_period": "2018-2020",
+  "test_period": "2021-2023",
+  "validation_candidate_comparison": [
+    {
+      "Candidate": "Previous-Year Baseline",
+      "MAE": 37.98638497652583,
+      "RMSE": 166.71880100096323,
+      "R2": 0.9940009698864993,
+      "WAPE (%)": 3.4161355628785377,
+      "sMAPE (%)": 4.340724862128648
+    },
+    {
+      "Candidate": "3-Year Rolling Mean Baseline",
+      "MAE": 28.25477308294211,
+      "RMSE": 96.60423355747733,
+      "R2": 0.9979857925226772,
+      "WAPE (%)": 2.540966591302354,
+      "sMAPE (%)": 3.6952542294793846
+    },
+    {
+      "Candidate": "Ridge Regression",
+      "MAE": 48.05202261261945,
+      "RMSE": 159.38783089873206,
+      "R2": 0.9945169500011649,
+      "WAPE (%)": 4.321343645009993,
+      "sMAPE (%)": 27.491673863738598
+    },
+    {
+      "Candidate": "HistGradientBoosting",
+      "MAE": 106.88020845025936,
+      "RMSE": 370.4188515268838,
+      "R2": 0.9703859335079514,
+      "WAPE (%)": 9.611793311746592,
+      "sMAPE (%)": 20.186759347696473
+    }
+  ],
+  "final_test_metrics": {
+    "MAE": 31.21465832029212,
+    "RMSE": 85.18199985085789,
+    "R2": 0.9984261503989434,
+    "WAPE": 2.7992329422963236,
+    "sMAPE": 3.6054701927375072,
+    "test_rows": 639,
+    "min_pred": 10.0,
+    "max_pred": 16335.866666666669,
+    "negative_preds_clamped": 0
+  },
+  "test_metrics_by_year": [
+    {
+      "year": 2021,
+      "sample_count": 213,
+      "MAE": 36.787793427230056,
+      "RMSE": 105.07566109233201,
+      "WAPE": 3.2880411863266708,
+      "R2": 0.9976210433544955
+    },
+    {
+      "year": 2022,
+      "sample_count": 213,
+      "MAE": 28.007668231611895,
+      "RMSE": 69.93377935621916,
+      "WAPE": 2.5137730164194667,
+      "R2": 0.9989453951231374
+    },
+    {
+      "year": 2023,
+      "sample_count": 213,
+      "MAE": 28.848513302034423,
+      "RMSE": 76.3956232171693,
+      "WAPE": 2.593499102189705,
+      "R2": 0.998717978218653
+    }
+  ],
+  "test_metrics_by_category": [
+    {
+      "crime_category": "CRIME_AGAINST_CHILDREN",
+      "sample_count": 99,
+      "MAE": 0.020875420875420925,
+      "RMSE": 0.08314794192830982,
+      "WAPE": 0.20512820512820565,
+      "R2": 0.9900569640870925
+    },
+    {
+      "crime_category": "CRIME_AGAINST_WOMEN",
+      "sample_count": 108,
+      "MAE": 3.954320987654319,
+      "RMSE": 12.711482609178864,
+      "WAPE": 5.509897775312112,
+      "R2": 0.9915329903568905
+    },
+    {
+      "crime_category": "ECONOMIC_OFFENCES",
+      "sample_count": 108,
+      "MAE": 5.4376543209876536,
+      "RMSE": 10.358219733592382,
+      "WAPE": 4.352541535420912,
+      "R2": 0.995177831516512
+    },
+    {
+      "crime_category": "OTHER_IPC_SLL",
+      "sample_count": 108,
+      "MAE": 127.00586419753087,
+      "RMSE": 195.1978290321072,
+      "WAPE": 2.5876070613232924,
+      "R2": 0.9955459398769323
+    },
+    {
+      "crime_category": "PROPERTY_CRIME",
+      "sample_count": 108,
+      "MAE": 33.92654320987656,
+      "RMSE": 64.31059759450984,
+      "WAPE": 3.5539027880429135,
+      "R2": 0.9928523665730463
+    },
+    {
+      "crime_category": "VIOLENT_CRIME",
+      "sample_count": 108,
+      "MAE": 14.343209876543197,
+      "RMSE": 20.597278976470825,
+      "WAPE": 2.712041658715303,
+      "R2": 0.9973143397922546
+    }
+  ],
+  "trend_metrics": {
+    "accuracy": 0.6651017214397497,
+    "macro_precision": 0.4692048366594821,
+    "macro_recall": 0.5060631064847098,
+    "macro_f1": 0.479846401585532,
+    "confusion_matrix": [
+      [
+        22,
+        33,
+        16
+      ],
+      [
+        48,
+        366,
+        73
+      ],
+      [
+        15,
+        29,
+        37
+      ]
+    ],
+    "per_class": {
+      "DECREASING": {
+        "precision": 0.25882352941176473,
+        "recall": 0.30985915492957744,
+        "f1-score": 0.28205128205128205,
+        "support": 71.0
+      },
+      "STABLE": {
+        "precision": 0.8551401869158879,
+        "recall": 0.7515400410677618,
+        "f1-score": 0.8,
+        "support": 487.0
+      },
+      "INCREASING": {
+        "precision": 0.29365079365079366,
+        "recall": 0.4567901234567901,
+        "f1-score": 0.357487922705314,
+        "support": 81.0
+      },
+      "accuracy": 0.6651017214397497,
+      "macro avg": {
+        "precision": 0.4692048366594821,
+        "recall": 0.5060631064847098,
+        "f1-score": 0.4798464015855321,
+        "support": 639.0
+      },
+      "weighted avg": {
+        "precision": 0.717708068704205,
+        "recall": 0.6651017214397497,
+        "f1-score": 0.6863570622296894,
+        "support": 639.0
+      }
+    }
+  },
+  "anomaly_metrics": {
+    "train_observations": 2517,
+    "test_observations": 639,
+    "anomalies_detected": 24,
+    "anomaly_rate_pct": 3.755868544600939,
+    "decision_score_stats": {
+      "min": -0.25897785735256407,
+      "mean": 0.14462969592475497,
+      "max": 0.2126200912537819,
+      "std": 0.0819398604318651
+    }
+  },
+  "software_versions": {
+    "python": "3.13.9",
+    "pandas": "2.3.3",
+    "numpy": "2.3.5",
+    "joblib": "1.5.2"
+  },
+  "training_timestamp": "2026-10-03T18:38:03.920967"
+}

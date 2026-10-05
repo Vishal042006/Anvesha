@@ -1,0 +1,46 @@
+{
+  "release": "ANVESHA-DATA-v1.0",
+  "metrics": {
+    "forecasting": {
+      "primary_model": "Previous-Year Persistence Baseline (T-1)",
+      "track": "Track A (Official Ground Truth)",
+      "evaluation_type": "11-Fold Expanding Window Backtest (2004-2014)",
+      "out_of_sample_n": 2007,
+      "MAE": 171.5,
+      "RMSE": 581.57,
+      "WAPE_pct": 16.58,
+      "R2": 0.9142,
+      "ridge_regression": {
+        "MAE": 185.25,
+        "RMSE": 622.25,
+        "WAPE_pct": 17.91,
+        "R2": 0.9018
+      },
+      "rolling_mean_3yr": {
+        "MAE": 190.49,
+        "RMSE": 606.0,
+        "WAPE_pct": 18.41,
+        "R2": 0.9068
+      }
+    },
+    "trend_classification": {
+      "target": "Target A (Annual YoY \u00b15% Trend)",
+      "evaluation_period": "2021-2023 Out-of-Sample Chronological Test (N=639)",
+      "random_forest_tuned": {
+        "accuracy": 0.7903,
+        "macro_f1": 0.6367,
+        "weighted_f1": 0.7914,
+        "balanced_accuracy": 0.6387
+      },
+      "voting_ensemble": {
+        "accuracy": 0.8059,
+        "macro_f1": 0.5842
+      },
+      "majority_class_baseline": {
+        "accuracy": 0.7606,
+        "macro_f1": 0.288
+      },
+      "status": "VERIFIED_LEAKAGE_FREE"
+    }
+  }
+}

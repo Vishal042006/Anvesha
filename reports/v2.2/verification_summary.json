@@ -1,0 +1,136 @@
+{
+  "timestamp": "2026-10-04T16:35:00+05:30",
+  "certification_status": "PASS WITH LIMITATIONS",
+  "dataset_provenance": {
+    "total_canonical_rows": 4557,
+    "official_observed_rows_2001_2014": 2640,
+    "synthetic_candidate_rows_2015_2023": 1917,
+    "provenance_isolation_verified": true
+  },
+  "track_a_official_backtest_2004_2014": {
+    "evaluation_type": "Expanding-Window Chronological Backtesting",
+    "evaluation_years": [
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014
+    ],
+    "total_sample_count": 2007,
+    "candidates": {
+      "Previous-Year Baseline": {
+        "MAE": 171.5,
+        "RMSE": 581.57,
+        "WAPE_pct": 16.58,
+        "R2": 0.9142
+      },
+      "Ridge Regression": {
+        "MAE": 185.25,
+        "RMSE": 622.25,
+        "WAPE_pct": 17.91,
+        "R2": 0.9018
+      },
+      "3-Year Rolling Mean Baseline (Selected)": {
+        "MAE": 190.49,
+        "RMSE": 606.0,
+        "WAPE_pct": 18.41,
+        "R2": 0.9068
+      },
+      "HistGradientBoosting": {
+        "MAE": 229.99,
+        "RMSE": 703.11,
+        "WAPE_pct": 22.23,
+        "R2": 0.8746
+      }
+    },
+    "per_category_rolling_3": {
+      "CRIME_AGAINST_CHILDREN": {
+        "sample_count": 307,
+        "metrics": {
+          "MAE": 0.27,
+          "RMSE": 1.27,
+          "WAPE_pct": 119.81,
+          "R2": -0.047
+        }
+      },
+      "CRIME_AGAINST_WOMEN": {
+        "sample_count": 340,
+        "metrics": {
+          "MAE": 32.28,
+          "RMSE": 74.46,
+          "WAPE_pct": 64.43,
+          "R2": 0.1577
+        }
+      },
+      "ECONOMIC_OFFENCES": {
+        "sample_count": 340,
+        "metrics": {
+          "MAE": 29.47,
+          "RMSE": 59.77,
+          "WAPE_pct": 31.25,
+          "R2": 0.7518
+        }
+      },
+      "OTHER_IPC_SLL": {
+        "sample_count": 340,
+        "metrics": {
+          "MAE": 737.34,
+          "RMSE": 1417.2,
+          "WAPE_pct": 16.53,
+          "R2": 0.7223
+        }
+      },
+      "PROPERTY_CRIME": {
+        "sample_count": 340,
+        "metrics": {
+          "MAE": 218.45,
+          "RMSE": 347.01,
+          "WAPE_pct": 21.59,
+          "R2": 0.8857
+        }
+      },
+      "VIOLENT_CRIME": {
+        "sample_count": 340,
+        "metrics": {
+          "MAE": 106.65,
+          "RMSE": 172.51,
+          "WAPE_pct": 21.75,
+          "R2": 0.7269
+        }
+      }
+    }
+  },
+  "track_a_official_held_out_2013_2014": {
+    "evaluation_period": "2013-2014",
+    "sample_count": 363,
+    "metrics": {
+      "MAE": 244.75,
+      "RMSE": 820.29,
+      "WAPE_pct": 20.01,
+      "R2": 0.8743
+    }
+  },
+  "track_b_extended_candidate_2021_2023": {
+    "evaluation_period": "2021-2023",
+    "sample_count": 639,
+    "metrics": {
+      "MAE": 31.21,
+      "RMSE": 85.18,
+      "WAPE_pct": 2.8,
+      "R2": 0.9984
+    },
+    "experimental_notice": "Track B evaluation uses candidate synthetic extensions. 2.80% WAPE is NOT verified real-world forecasting accuracy."
+  },
+  "verification_checks": {
+    "calendar_lag_safeguards_passing": true,
+    "missing_history_warnings_passing": true,
+    "legal_disclaimers_passing": true,
+    "api_contract_tests_passing": true
+  }
+}

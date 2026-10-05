@@ -90,7 +90,7 @@ def test_security_env_files():
     assert os.path.exists(".env.example")
     with open(".env.example") as f:
         content = f.read()
-    assert "your_openweather_api_key_here" in content
+    assert "HF_TOKEN" in content or "OPENALEX_API_KEY" in content
 
     # Check gitignore
     if os.path.exists(".gitignore"):

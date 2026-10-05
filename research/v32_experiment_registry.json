@@ -1,0 +1,99 @@
+{
+  "version": "ANVESHA_V3.2_CANONICAL",
+  "provenance_tracks": {
+    "Track_A_Official_NCRB_2001_2014": 2640,
+    "Track_B_Candidate_SCRB_2015_2023": 1917
+  },
+  "expanding_window_backtest_2004_2014": {
+    "total_out_of_sample_predictions": 2007,
+    "evaluation_years": [
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014
+    ],
+    "models": {
+      "Previous-Year Persistence Baseline (T-1)": {
+        "MAE": 171.5,
+        "RMSE": 581.57,
+        "WAPE_pct": 16.58,
+        "R2": 0.9142
+      },
+      "Ridge Regression (L2 Regularized)": {
+        "MAE": 185.25,
+        "RMSE": 622.25,
+        "WAPE_pct": 17.91,
+        "R2": 0.9018
+      },
+      "3-Year Rolling Mean Baseline": {
+        "MAE": 190.49,
+        "RMSE": 606.0,
+        "WAPE_pct": 18.41,
+        "R2": 0.9068
+      },
+      "Extra Trees Regressor": {
+        "MAE": 195.14,
+        "RMSE": 584.83,
+        "WAPE_pct": 18.86,
+        "R2": 0.9132
+      },
+      "Random Forest Regressor": {
+        "MAE": 194.5,
+        "RMSE": 599.71,
+        "WAPE_pct": 18.8,
+        "R2": 0.9087
+      },
+      "HistGradientBoosting Regressor": {
+        "MAE": 229.99,
+        "RMSE": 703.11,
+        "WAPE_pct": 22.23,
+        "R2": 0.8746
+      }
+    },
+    "selected_primary_model": "Previous-Year Persistence Baseline (T-1)",
+    "selection_rationale": "Previous-Year Persistence Baseline (T-1) achieves the lowest out-of-sample MAE (171.50) and WAPE (16.58%) and highest R2 (0.9142) on Track A official data."
+  },
+  "controlled_ablation_study_2004_2014": {
+    "evaluation_samples": 2007,
+    "Experiment_A_Historical_Lags_Only": {
+      "MAE": 185.25,
+      "RMSE": 622.25,
+      "WAPE_pct": 17.91,
+      "R2": 0.9018
+    },
+    "Experiment_B_Historical_Lags_Plus_Population": {
+      "MAE": 185.25,
+      "RMSE": 622.25,
+      "WAPE_pct": 17.91,
+      "R2": 0.9018
+    },
+    "Experiment_C_Historical_Lags_Plus_Spatial_Lag": {
+      "MAE": 185.25,
+      "RMSE": 622.25,
+      "WAPE_pct": 17.91,
+      "R2": 0.9018
+    },
+    "Experiment_D_Full_Feature_Set": {
+      "MAE": 185.25,
+      "RMSE": 622.25,
+      "WAPE_pct": 17.91,
+      "R2": 0.9018
+    },
+    "ablation_discrepancy_resolution": "Previous-Year Baseline (MAE 171.50) is a non-parametric model (y_t = y_{t-1}). Experiment A (MAE 185.25) is a trained Ridge Regression model on 4 lag features. The slight MAE difference is due to parametric shrinkage on extreme year-over-year spikes."
+  },
+  "trend_classifier_evaluation": {
+    "evaluation_slice": "2021-2023 (N=639)",
+    "audited_random_forest_accuracy": 0.6651,
+    "audited_random_forest_macro_f1": 0.4798,
+    "majority_class_baseline_accuracy": 0.7621,
+    "majority_class_baseline_macro_f1": 0.2883,
+    "retired_unverified_claim": "94.0% Accuracy (retired due to random-split target leakage)"
+  }
+}

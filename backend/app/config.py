@@ -1,4 +1,8 @@
 import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env file at workspace root
+load_dotenv(os.path.abspath(".env"))
 
 class Settings:
     PROJECT_NAME: str = "ANVESHA Research AI Platform"
@@ -12,5 +16,11 @@ class Settings:
     ]
     DATA_DIR: str = os.path.abspath("data")
     MODELS_DIR: str = os.path.abspath("models")
+
+    # API Credentials for Scholarly Research Engine
+    HF_TOKEN: str = os.getenv("HF_TOKEN", "")
+    OPENALEX_API_KEY: str = os.getenv("OPENALEX_API_KEY", "")
+    SEMANTIC_SCHOLAR_API_KEY: str = os.getenv("SEMANTIC_SCHOLAR_API_KEY", "")
+    CROSSREF_EMAIL: str = os.getenv("CROSSREF_EMAIL", "")
 
 settings = Settings()

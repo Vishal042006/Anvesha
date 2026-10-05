@@ -2,12 +2,12 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from backend.app.config import settings
 
-from backend.app.api.routes import health, forecasting, anomalies, trends, analytics, spatial, evidence, models, explain
+from backend.app.api.routes import health, forecasting, anomalies, trends, analytics, spatial, evidence, models, explain, research
 
 app = FastAPI(
     title=settings.PROJECT_NAME,
     version=settings.VERSION,
-    description="ANVESHA Research AI Platform API - Crime Intelligence, Forecasting, Trends, Anomalies, and Evidence Retrieval"
+    description="ANVESHA Research AI Platform API - Crime Intelligence, Forecasting, Trends, Anomalies, Evidence Retrieval, and Scholarly Synthesis"
 )
 
 app.add_middleware(
@@ -27,6 +27,7 @@ app.include_router(analytics.router, prefix=settings.API_V1_STR, tags=["District
 app.include_router(spatial.router, prefix=settings.API_V1_STR, tags=["Spatial Analysis"])
 app.include_router(evidence.router, prefix=settings.API_V1_STR, tags=["Evidence Retrieval"])
 app.include_router(explain.router, prefix=settings.API_V1_STR, tags=["Explainability"])
+app.include_router(research.router, prefix=settings.API_V1_STR, tags=["Scholarly Research"])
 
 @app.get("/")
 def root():

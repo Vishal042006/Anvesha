@@ -1,0 +1,53 @@
+{
+  "version": "ANVESHA_V3.0_CANONICAL",
+  "experiments": [
+    {
+      "id": "TRACK_A_HELD_OUT_OFFICIAL",
+      "track": "Track A",
+      "dataset": "anvesha_crime_ml_ready.parquet",
+      "provenance": "100% Official NCRB Data",
+      "model": "3-Year Rolling Mean Baseline",
+      "evaluation_window": "2013-2014",
+      "sample_count": 363,
+      "metrics": {
+        "MAE": 244.75,
+        "RMSE": 820.29,
+        "WAPE_pct": 20.01,
+        "R2": 0.8743
+      },
+      "status": "CANONICAL_OFFICIAL_BENCHMARK"
+    },
+    {
+      "id": "TRACK_A_EXPANDING_BACKTEST",
+      "track": "Track A",
+      "dataset": "anvesha_crime_ml_ready.parquet",
+      "provenance": "100% Official NCRB Data",
+      "model": "Previous-Year Baseline",
+      "evaluation_window": "2004-2014",
+      "sample_count": 2007,
+      "metrics": {
+        "MAE": 171.5,
+        "RMSE": 581.57,
+        "WAPE_pct": 16.58,
+        "R2": 0.9142
+      },
+      "status": "CANONICAL_BACKTEST_BASELINE"
+    },
+    {
+      "id": "TRACK_B_EXTENDED_CANDIDATE",
+      "track": "Track B",
+      "dataset": "anvesha_crime_ml_ready.parquet",
+      "provenance": "Candidate Synthetic Extension",
+      "model": "3-Year Rolling Mean Baseline",
+      "evaluation_window": "2021-2023",
+      "sample_count": 639,
+      "metrics": {
+        "MAE": 31.21,
+        "RMSE": 85.18,
+        "WAPE_pct": 2.8,
+        "R2": 0.9984
+      },
+      "status": "EXPERIMENTAL_SYNTHETIC_TRACK"
+    }
+  ]
+}

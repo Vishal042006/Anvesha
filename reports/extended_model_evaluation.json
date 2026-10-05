@@ -1,0 +1,41 @@
+{
+  "test_period": "2021-2023 (Recent Holdout)",
+  "test_observations": 639,
+  "model_results": {
+    "Ridge_Regression": {
+      "MAE": 75.28,
+      "RMSE": 136.65,
+      "R2": 0.9959,
+      "sMAPE_pct": 62.69,
+      "WAPE_pct": 6.75
+    },
+    "Random_Forest": {
+      "MAE": 58.61,
+      "RMSE": 141.98,
+      "R2": 0.9956,
+      "sMAPE_pct": 10.89,
+      "WAPE_pct": 5.26
+    },
+    "Extra_Trees": {
+      "MAE": 63.6,
+      "RMSE": 162.95,
+      "R2": 0.9942,
+      "sMAPE_pct": 10.03,
+      "WAPE_pct": 5.7
+    },
+    "Hist_Gradient_Boosting": {
+      "MAE": 76.48,
+      "RMSE": 226.65,
+      "R2": 0.9889,
+      "sMAPE_pct": 23.96,
+      "WAPE_pct": 6.86
+    },
+    "3Yr_Mean_Baseline": {
+      "MAE": 31.21,
+      "RMSE": 85.18,
+      "R2": 0.9984,
+      "sMAPE_pct": 3.61,
+      "WAPE_pct": 2.8
+    }
+  }
+}
