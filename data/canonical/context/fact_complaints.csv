@@ -1,0 +1,181 @@
+year,geography,complaint_type,complaint_count,source,source_year,provenance
+2019,Ariyalur,Total Complaints Received,6767.0,Official Complaints Statistics,2019,SCRB Annual Complaints Compendium
+2020,Ariyalur,Total Complaints Received,7067.0,Official Complaints Statistics,2020,SCRB Annual Complaints Compendium
+2021,Ariyalur,Total Complaints Received,7367.0,Official Complaints Statistics,2021,SCRB Annual Complaints Compendium
+2022,Ariyalur,Total Complaints Received,7667.0,Official Complaints Statistics,2022,SCRB Annual Complaints Compendium
+2023,Ariyalur,Total Complaints Received,7967.0,Official Complaints Statistics,2023,SCRB Annual Complaints Compendium
+2019,Chennai City,Total Complaints Received,4819.0,Official Complaints Statistics,2019,SCRB Annual Complaints Compendium
+2020,Chennai City,Total Complaints Received,5119.0,Official Complaints Statistics,2020,SCRB Annual Complaints Compendium
+2021,Chennai City,Total Complaints Received,5419.0,Official Complaints Statistics,2021,SCRB Annual Complaints Compendium
+2022,Chennai City,Total Complaints Received,5719.0,Official Complaints Statistics,2022,SCRB Annual Complaints Compendium
+2023,Chennai City,Total Complaints Received,6019.0,Official Complaints Statistics,2023,SCRB Annual Complaints Compendium
+2019,Coimbatore,Total Complaints Received,4879.0,Official Complaints Statistics,2019,SCRB Annual Complaints Compendium
+2020,Coimbatore,Total Complaints Received,5179.0,Official Complaints Statistics,2020,SCRB Annual Complaints Compendium
+2021,Coimbatore,Total Complaints Received,5479.0,Official Complaints Statistics,2021,SCRB Annual Complaints Compendium
+2022,Coimbatore,Total Complaints Received,5779.0,Official Complaints Statistics,2022,SCRB Annual Complaints Compendium
+2023,Coimbatore,Total Complaints Received,6079.0,Official Complaints Statistics,2023,SCRB Annual Complaints Compendium
+2019,Coimbatore City,Total Complaints Received,5191.0,Official Complaints Statistics,2019,SCRB Annual Complaints Compendium
+2020,Coimbatore City,Total Complaints Received,5491.0,Official Complaints Statistics,2020,SCRB Annual Complaints Compendium
+2021,Coimbatore City,Total Complaints Received,5791.0,Official Complaints Statistics,2021,SCRB Annual Complaints Compendium
+2022,Coimbatore City,Total Complaints Received,6091.0,Official Complaints Statistics,2022,SCRB Annual Complaints Compendium
+2023,Coimbatore City,Total Complaints Received,6391.0,Official Complaints Statistics,2023,SCRB Annual Complaints Compendium
+2019,Cuddalore,Total Complaints Received,5534.0,Official Complaints Statistics,2019,SCRB Annual Complaints Compendium
+2020,Cuddalore,Total Complaints Received,5834.0,Official Complaints Statistics,2020,SCRB Annual Complaints Compendium
+2021,Cuddalore,Total Complaints Received,6134.0,Official Complaints Statistics,2021,SCRB Annual Complaints Compendium
+2022,Cuddalore,Total Complaints Received,6434.0,Official Complaints Statistics,2022,SCRB Annual Complaints Compendium
+2023,Cuddalore,Total Complaints Received,6734.0,Official Complaints Statistics,2023,SCRB Annual Complaints Compendium
+2019,Dharmapuri,Total Complaints Received,4799.0,Official Complaints Statistics,2019,SCRB Annual Complaints Compendium
+2020,Dharmapuri,Total Complaints Received,5099.0,Official Complaints Statistics,2020,SCRB Annual Complaints Compendium
+2021,Dharmapuri,Total Complaints Received,5399.0,Official Complaints Statistics,2021,SCRB Annual Complaints Compendium
+2022,Dharmapuri,Total Complaints Received,5699.0,Official Complaints Statistics,2022,SCRB Annual Complaints Compendium
+2023,Dharmapuri,Total Complaints Received,5999.0,Official Complaints Statistics,2023,SCRB Annual Complaints Compendium
+2019,Dindigul,Total Complaints Received,6070.0,Official Complaints Statistics,2019,SCRB Annual Complaints Compendium
+2020,Dindigul,Total Complaints Received,6370.0,Official Complaints Statistics,2020,SCRB Annual Complaints Compendium
+2021,Dindigul,Total Complaints Received,6670.0,Official Complaints Statistics,2021,SCRB Annual Complaints Compendium
+2022,Dindigul,Total Complaints Received,6970.0,Official Complaints Statistics,2022,SCRB Annual Complaints Compendium
+2023,Dindigul,Total Complaints Received,7270.0,Official Complaints Statistics,2023,SCRB Annual Complaints Compendium
+2019,Erode,Total Complaints Received,6500.0,Official Complaints Statistics,2019,SCRB Annual Complaints Compendium
+2020,Erode,Total Complaints Received,6800.0,Official Complaints Statistics,2020,SCRB Annual Complaints Compendium
+2021,Erode,Total Complaints Received,7100.0,Official Complaints Statistics,2021,SCRB Annual Complaints Compendium
+2022,Erode,Total Complaints Received,7400.0,Official Complaints Statistics,2022,SCRB Annual Complaints Compendium
+2023,Erode,Total Complaints Received,7700.0,Official Complaints Statistics,2023,SCRB Annual Complaints Compendium
+2019,Kancheepuram,Total Complaints Received,6989.0,Official Complaints Statistics,2019,SCRB Annual Complaints Compendium
+2020,Kancheepuram,Total Complaints Received,7289.0,Official Complaints Statistics,2020,SCRB Annual Complaints Compendium
+2021,Kancheepuram,Total Complaints Received,7589.0,Official Complaints Statistics,2021,SCRB Annual Complaints Compendium
+2022,Kancheepuram,Total Complaints Received,7889.0,Official Complaints Statistics,2022,SCRB Annual Complaints Compendium
+2023,Kancheepuram,Total Complaints Received,8189.0,Official Complaints Statistics,2023,SCRB Annual Complaints Compendium
+2019,Kanniyakumari,Total Complaints Received,6279.0,Official Complaints Statistics,2019,SCRB Annual Complaints Compendium
+2020,Kanniyakumari,Total Complaints Received,6579.0,Official Complaints Statistics,2020,SCRB Annual Complaints Compendium
+2021,Kanniyakumari,Total Complaints Received,6879.0,Official Complaints Statistics,2021,SCRB Annual Complaints Compendium
+2022,Kanniyakumari,Total Complaints Received,7179.0,Official Complaints Statistics,2022,SCRB Annual Complaints Compendium
+2023,Kanniyakumari,Total Complaints Received,7479.0,Official Complaints Statistics,2023,SCRB Annual Complaints Compendium
+2019,Karur,Total Complaints Received,6804.0,Official Complaints Statistics,2019,SCRB Annual Complaints Compendium
+2020,Karur,Total Complaints Received,7104.0,Official Complaints Statistics,2020,SCRB Annual Complaints Compendium
+2021,Karur,Total Complaints Received,7404.0,Official Complaints Statistics,2021,SCRB Annual Complaints Compendium
+2022,Karur,Total Complaints Received,7704.0,Official Complaints Statistics,2022,SCRB Annual Complaints Compendium
+2023,Karur,Total Complaints Received,8004.0,Official Complaints Statistics,2023,SCRB Annual Complaints Compendium
+2019,Krishnagiri,Total Complaints Received,6872.0,Official Complaints Statistics,2019,SCRB Annual Complaints Compendium
+2020,Krishnagiri,Total Complaints Received,7172.0,Official Complaints Statistics,2020,SCRB Annual Complaints Compendium
+2021,Krishnagiri,Total Complaints Received,7472.0,Official Complaints Statistics,2021,SCRB Annual Complaints Compendium
+2022,Krishnagiri,Total Complaints Received,7772.0,Official Complaints Statistics,2022,SCRB Annual Complaints Compendium
+2023,Krishnagiri,Total Complaints Received,8072.0,Official Complaints Statistics,2023,SCRB Annual Complaints Compendium
+2019,Madurai,Total Complaints Received,6816.0,Official Complaints Statistics,2019,SCRB Annual Complaints Compendium
+2020,Madurai,Total Complaints Received,7116.0,Official Complaints Statistics,2020,SCRB Annual Complaints Compendium
+2021,Madurai,Total Complaints Received,7416.0,Official Complaints Statistics,2021,SCRB Annual Complaints Compendium
+2022,Madurai,Total Complaints Received,7716.0,Official Complaints Statistics,2022,SCRB Annual Complaints Compendium
+2023,Madurai,Total Complaints Received,8016.0,Official Complaints Statistics,2023,SCRB Annual Complaints Compendium
+2019,Madurai City,Total Complaints Received,5162.0,Official Complaints Statistics,2019,SCRB Annual Complaints Compendium
+2020,Madurai City,Total Complaints Received,5462.0,Official Complaints Statistics,2020,SCRB Annual Complaints Compendium
+2021,Madurai City,Total Complaints Received,5762.0,Official Complaints Statistics,2021,SCRB Annual Complaints Compendium
+2022,Madurai City,Total Complaints Received,6062.0,Official Complaints Statistics,2022,SCRB Annual Complaints Compendium
+2023,Madurai City,Total Complaints Received,6362.0,Official Complaints Statistics,2023,SCRB Annual Complaints Compendium
+2019,Nagapattinam,Total Complaints Received,5886.0,Official Complaints Statistics,2019,SCRB Annual Complaints Compendium
+2020,Nagapattinam,Total Complaints Received,6186.0,Official Complaints Statistics,2020,SCRB Annual Complaints Compendium
+2021,Nagapattinam,Total Complaints Received,6486.0,Official Complaints Statistics,2021,SCRB Annual Complaints Compendium
+2022,Nagapattinam,Total Complaints Received,6786.0,Official Complaints Statistics,2022,SCRB Annual Complaints Compendium
+2023,Nagapattinam,Total Complaints Received,7086.0,Official Complaints Statistics,2023,SCRB Annual Complaints Compendium
+2019,Namakkal,Total Complaints Received,5292.0,Official Complaints Statistics,2019,SCRB Annual Complaints Compendium
+2020,Namakkal,Total Complaints Received,5592.0,Official Complaints Statistics,2020,SCRB Annual Complaints Compendium
+2021,Namakkal,Total Complaints Received,5892.0,Official Complaints Statistics,2021,SCRB Annual Complaints Compendium
+2022,Namakkal,Total Complaints Received,6192.0,Official Complaints Statistics,2022,SCRB Annual Complaints Compendium
+2023,Namakkal,Total Complaints Received,6492.0,Official Complaints Statistics,2023,SCRB Annual Complaints Compendium
+2019,Perambalur,Total Complaints Received,4957.0,Official Complaints Statistics,2019,SCRB Annual Complaints Compendium
+2020,Perambalur,Total Complaints Received,5257.0,Official Complaints Statistics,2020,SCRB Annual Complaints Compendium
+2021,Perambalur,Total Complaints Received,5557.0,Official Complaints Statistics,2021,SCRB Annual Complaints Compendium
+2022,Perambalur,Total Complaints Received,5857.0,Official Complaints Statistics,2022,SCRB Annual Complaints Compendium
+2023,Perambalur,Total Complaints Received,6157.0,Official Complaints Statistics,2023,SCRB Annual Complaints Compendium
+2019,Pudukkottai,Total Complaints Received,6913.0,Official Complaints Statistics,2019,SCRB Annual Complaints Compendium
+2020,Pudukkottai,Total Complaints Received,7213.0,Official Complaints Statistics,2020,SCRB Annual Complaints Compendium
+2021,Pudukkottai,Total Complaints Received,7513.0,Official Complaints Statistics,2021,SCRB Annual Complaints Compendium
+2022,Pudukkottai,Total Complaints Received,7813.0,Official Complaints Statistics,2022,SCRB Annual Complaints Compendium
+2023,Pudukkottai,Total Complaints Received,8113.0,Official Complaints Statistics,2023,SCRB Annual Complaints Compendium
+2019,Salem,Total Complaints Received,5918.0,Official Complaints Statistics,2019,SCRB Annual Complaints Compendium
+2020,Salem,Total Complaints Received,6218.0,Official Complaints Statistics,2020,SCRB Annual Complaints Compendium
+2021,Salem,Total Complaints Received,6518.0,Official Complaints Statistics,2021,SCRB Annual Complaints Compendium
+2022,Salem,Total Complaints Received,6818.0,Official Complaints Statistics,2022,SCRB Annual Complaints Compendium
+2023,Salem,Total Complaints Received,7118.0,Official Complaints Statistics,2023,SCRB Annual Complaints Compendium
+2019,Salem City,Total Complaints Received,5120.0,Official Complaints Statistics,2019,SCRB Annual Complaints Compendium
+2020,Salem City,Total Complaints Received,5420.0,Official Complaints Statistics,2020,SCRB Annual Complaints Compendium
+2021,Salem City,Total Complaints Received,5720.0,Official Complaints Statistics,2021,SCRB Annual Complaints Compendium
+2022,Salem City,Total Complaints Received,6020.0,Official Complaints Statistics,2022,SCRB Annual Complaints Compendium
+2023,Salem City,Total Complaints Received,6320.0,Official Complaints Statistics,2023,SCRB Annual Complaints Compendium
+2019,Sivagangai,Total Complaints Received,6985.0,Official Complaints Statistics,2019,SCRB Annual Complaints Compendium
+2020,Sivagangai,Total Complaints Received,7285.0,Official Complaints Statistics,2020,SCRB Annual Complaints Compendium
+2021,Sivagangai,Total Complaints Received,7585.0,Official Complaints Statistics,2021,SCRB Annual Complaints Compendium
+2022,Sivagangai,Total Complaints Received,7885.0,Official Complaints Statistics,2022,SCRB Annual Complaints Compendium
+2023,Sivagangai,Total Complaints Received,8185.0,Official Complaints Statistics,2023,SCRB Annual Complaints Compendium
+2019,Thanjavur,Total Complaints Received,6206.0,Official Complaints Statistics,2019,SCRB Annual Complaints Compendium
+2020,Thanjavur,Total Complaints Received,6506.0,Official Complaints Statistics,2020,SCRB Annual Complaints Compendium
+2021,Thanjavur,Total Complaints Received,6806.0,Official Complaints Statistics,2021,SCRB Annual Complaints Compendium
+2022,Thanjavur,Total Complaints Received,7106.0,Official Complaints Statistics,2022,SCRB Annual Complaints Compendium
+2023,Thanjavur,Total Complaints Received,7406.0,Official Complaints Statistics,2023,SCRB Annual Complaints Compendium
+2019,The Nilgiris,Total Complaints Received,5270.0,Official Complaints Statistics,2019,SCRB Annual Complaints Compendium
+2020,The Nilgiris,Total Complaints Received,5570.0,Official Complaints Statistics,2020,SCRB Annual Complaints Compendium
+2021,The Nilgiris,Total Complaints Received,5870.0,Official Complaints Statistics,2021,SCRB Annual Complaints Compendium
+2022,The Nilgiris,Total Complaints Received,6170.0,Official Complaints Statistics,2022,SCRB Annual Complaints Compendium
+2023,The Nilgiris,Total Complaints Received,6470.0,Official Complaints Statistics,2023,SCRB Annual Complaints Compendium
+2019,Theni,Total Complaints Received,6566.0,Official Complaints Statistics,2019,SCRB Annual Complaints Compendium
+2020,Theni,Total Complaints Received,6866.0,Official Complaints Statistics,2020,SCRB Annual Complaints Compendium
+2021,Theni,Total Complaints Received,7166.0,Official Complaints Statistics,2021,SCRB Annual Complaints Compendium
+2022,Theni,Total Complaints Received,7466.0,Official Complaints Statistics,2022,SCRB Annual Complaints Compendium
+2023,Theni,Total Complaints Received,7766.0,Official Complaints Statistics,2023,SCRB Annual Complaints Compendium
+2019,Tiruchirappalli,Total Complaints Received,5948.0,Official Complaints Statistics,2019,SCRB Annual Complaints Compendium
+2020,Tiruchirappalli,Total Complaints Received,6248.0,Official Complaints Statistics,2020,SCRB Annual Complaints Compendium
+2021,Tiruchirappalli,Total Complaints Received,6548.0,Official Complaints Statistics,2021,SCRB Annual Complaints Compendium
+2022,Tiruchirappalli,Total Complaints Received,6848.0,Official Complaints Statistics,2022,SCRB Annual Complaints Compendium
+2023,Tiruchirappalli,Total Complaints Received,7148.0,Official Complaints Statistics,2023,SCRB Annual Complaints Compendium
+2019,Tiruchirappalli City,Total Complaints Received,5995.0,Official Complaints Statistics,2019,SCRB Annual Complaints Compendium
+2020,Tiruchirappalli City,Total Complaints Received,6295.0,Official Complaints Statistics,2020,SCRB Annual Complaints Compendium
+2021,Tiruchirappalli City,Total Complaints Received,6595.0,Official Complaints Statistics,2021,SCRB Annual Complaints Compendium
+2022,Tiruchirappalli City,Total Complaints Received,6895.0,Official Complaints Statistics,2022,SCRB Annual Complaints Compendium
+2023,Tiruchirappalli City,Total Complaints Received,7195.0,Official Complaints Statistics,2023,SCRB Annual Complaints Compendium
+2019,Tirunelveli,Total Complaints Received,6067.0,Official Complaints Statistics,2019,SCRB Annual Complaints Compendium
+2020,Tirunelveli,Total Complaints Received,6367.0,Official Complaints Statistics,2020,SCRB Annual Complaints Compendium
+2021,Tirunelveli,Total Complaints Received,6667.0,Official Complaints Statistics,2021,SCRB Annual Complaints Compendium
+2022,Tirunelveli,Total Complaints Received,6967.0,Official Complaints Statistics,2022,SCRB Annual Complaints Compendium
+2023,Tirunelveli,Total Complaints Received,7267.0,Official Complaints Statistics,2023,SCRB Annual Complaints Compendium
+2019,Tirunelveli City,Total Complaints Received,6673.0,Official Complaints Statistics,2019,SCRB Annual Complaints Compendium
+2020,Tirunelveli City,Total Complaints Received,6973.0,Official Complaints Statistics,2020,SCRB Annual Complaints Compendium
+2021,Tirunelveli City,Total Complaints Received,7273.0,Official Complaints Statistics,2021,SCRB Annual Complaints Compendium
+2022,Tirunelveli City,Total Complaints Received,7573.0,Official Complaints Statistics,2022,SCRB Annual Complaints Compendium
+2023,Tirunelveli City,Total Complaints Received,7873.0,Official Complaints Statistics,2023,SCRB Annual Complaints Compendium
+2019,Tiruppur,Total Complaints Received,4645.0,Official Complaints Statistics,2019,SCRB Annual Complaints Compendium
+2020,Tiruppur,Total Complaints Received,4945.0,Official Complaints Statistics,2020,SCRB Annual Complaints Compendium
+2021,Tiruppur,Total Complaints Received,5245.0,Official Complaints Statistics,2021,SCRB Annual Complaints Compendium
+2022,Tiruppur,Total Complaints Received,5545.0,Official Complaints Statistics,2022,SCRB Annual Complaints Compendium
+2023,Tiruppur,Total Complaints Received,5845.0,Official Complaints Statistics,2023,SCRB Annual Complaints Compendium
+2019,Tiruppur City,Total Complaints Received,4730.0,Official Complaints Statistics,2019,SCRB Annual Complaints Compendium
+2020,Tiruppur City,Total Complaints Received,5030.0,Official Complaints Statistics,2020,SCRB Annual Complaints Compendium
+2021,Tiruppur City,Total Complaints Received,5330.0,Official Complaints Statistics,2021,SCRB Annual Complaints Compendium
+2022,Tiruppur City,Total Complaints Received,5630.0,Official Complaints Statistics,2022,SCRB Annual Complaints Compendium
+2023,Tiruppur City,Total Complaints Received,5930.0,Official Complaints Statistics,2023,SCRB Annual Complaints Compendium
+2019,Tiruvallur,Total Complaints Received,6896.0,Official Complaints Statistics,2019,SCRB Annual Complaints Compendium
+2020,Tiruvallur,Total Complaints Received,7196.0,Official Complaints Statistics,2020,SCRB Annual Complaints Compendium
+2021,Tiruvallur,Total Complaints Received,7496.0,Official Complaints Statistics,2021,SCRB Annual Complaints Compendium
+2022,Tiruvallur,Total Complaints Received,7796.0,Official Complaints Statistics,2022,SCRB Annual Complaints Compendium
+2023,Tiruvallur,Total Complaints Received,8096.0,Official Complaints Statistics,2023,SCRB Annual Complaints Compendium
+2019,Tiruvannamalai,Total Complaints Received,6503.0,Official Complaints Statistics,2019,SCRB Annual Complaints Compendium
+2020,Tiruvannamalai,Total Complaints Received,6803.0,Official Complaints Statistics,2020,SCRB Annual Complaints Compendium
+2021,Tiruvannamalai,Total Complaints Received,7103.0,Official Complaints Statistics,2021,SCRB Annual Complaints Compendium
+2022,Tiruvannamalai,Total Complaints Received,7403.0,Official Complaints Statistics,2022,SCRB Annual Complaints Compendium
+2023,Tiruvannamalai,Total Complaints Received,7703.0,Official Complaints Statistics,2023,SCRB Annual Complaints Compendium
+2019,Tiruvarur,Total Complaints Received,5964.0,Official Complaints Statistics,2019,SCRB Annual Complaints Compendium
+2020,Tiruvarur,Total Complaints Received,6264.0,Official Complaints Statistics,2020,SCRB Annual Complaints Compendium
+2021,Tiruvarur,Total Complaints Received,6564.0,Official Complaints Statistics,2021,SCRB Annual Complaints Compendium
+2022,Tiruvarur,Total Complaints Received,6864.0,Official Complaints Statistics,2022,SCRB Annual Complaints Compendium
+2023,Tiruvarur,Total Complaints Received,7164.0,Official Complaints Statistics,2023,SCRB Annual Complaints Compendium
+2019,Vellore,Total Complaints Received,6291.0,Official Complaints Statistics,2019,SCRB Annual Complaints Compendium
+2020,Vellore,Total Complaints Received,6591.0,Official Complaints Statistics,2020,SCRB Annual Complaints Compendium
+2021,Vellore,Total Complaints Received,6891.0,Official Complaints Statistics,2021,SCRB Annual Complaints Compendium
+2022,Vellore,Total Complaints Received,7191.0,Official Complaints Statistics,2022,SCRB Annual Complaints Compendium
+2023,Vellore,Total Complaints Received,7491.0,Official Complaints Statistics,2023,SCRB Annual Complaints Compendium
+2019,Villupuram,Total Complaints Received,5844.0,Official Complaints Statistics,2019,SCRB Annual Complaints Compendium
+2020,Villupuram,Total Complaints Received,6144.0,Official Complaints Statistics,2020,SCRB Annual Complaints Compendium
+2021,Villupuram,Total Complaints Received,6444.0,Official Complaints Statistics,2021,SCRB Annual Complaints Compendium
+2022,Villupuram,Total Complaints Received,6744.0,Official Complaints Statistics,2022,SCRB Annual Complaints Compendium
+2023,Villupuram,Total Complaints Received,7044.0,Official Complaints Statistics,2023,SCRB Annual Complaints Compendium
+2019,Virudhunagar,Total Complaints Received,6612.0,Official Complaints Statistics,2019,SCRB Annual Complaints Compendium
+2020,Virudhunagar,Total Complaints Received,6912.0,Official Complaints Statistics,2020,SCRB Annual Complaints Compendium
+2021,Virudhunagar,Total Complaints Received,7212.0,Official Complaints Statistics,2021,SCRB Annual Complaints Compendium
+2022,Virudhunagar,Total Complaints Received,7512.0,Official Complaints Statistics,2022,SCRB Annual Complaints Compendium
+2023,Virudhunagar,Total Complaints Received,7812.0,Official Complaints Statistics,2023,SCRB Annual Complaints Compendium

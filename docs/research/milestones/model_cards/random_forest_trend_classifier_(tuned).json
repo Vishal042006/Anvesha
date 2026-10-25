@@ -1,0 +1,14 @@
+{
+  "model_name": "Random Forest Trend Classifier (Tuned)",
+  "version": "1.0.0",
+  "purpose": "Annual YoY \u00b15% trend direction classification",
+  "target": "DECREASING, STABLE, INCREASING",
+  "training_data": "Model-Ready IPC Panel (2005-2020)",
+  "metrics": {
+    "Accuracy": 0.7903,
+    "Macro-F1": 0.6367,
+    "Balanced_Accuracy": 0.6387
+  },
+  "limitations": "STABLE class represents 76% of test set; minority trends have ~50-60% recall.",
+  "ethical_constraints": "Output represents statistical trajectory direction, not local danger or criminality."
+}

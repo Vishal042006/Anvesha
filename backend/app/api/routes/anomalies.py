@@ -18,12 +18,12 @@ def get_anomalies(
 def investigate_anomaly(
     payload: dict = Body(...)
 ):
-    district = payload.get("district", "Pune")
-    state_ut = payload.get("state_ut", "Maharashtra")
-    category = payload.get("crime_category", "Property Crime")
-    year = int(payload.get("year", 2022))
-    obs_val = float(payload.get("observed_volume", 1420.0))
-    prev_val = float(payload.get("previous_year_volume", 1080.0))
+    district = payload.get("district", "Chennai")
+    state_ut = payload.get("state_ut", "TAMIL NADU")
+    category = payload.get("crime_category", "ALL_CRIME")
+    year = int(payload.get("year", 2023))
+    obs_val = float(payload["observed_volume"]) if payload.get("observed_volume") is not None else None
+    prev_val = float(payload["previous_year_volume"]) if payload.get("previous_year_volume") is not None else None
     
     return explainability_service.investigate_unusual_change(
         district=district,

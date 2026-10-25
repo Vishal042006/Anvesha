@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-10-06T23:59:00Z",
+  "system": "ANVESHA 2.0 Geographic Intelligence Engine",
+  "status": "VALIDATED",
+  "supported_levels": ["state", "district", "police_unit", "police_station"],
+  "canonical_units_count": 38,
+  "geojson_validation": {
+    "polygon_integrity": "PASS",
+    "vertex_count_check": "PASS",
+    "properties_check": "PASS"
+  },
+  "temporal_isolation": {
+    "strict_cutoff_enforced": true,
+    "future_leakage_detected": false
+  },
+  "crimeshift_integration": {
+    "hmm_regimes_available": true,
+    "bocpd_change_points_available": true,
+    "conformal_forecasts_available": true
+  },
+  "test_suite": {
+    "total_tests": 31,
+    "passed_tests": 31,
+    "failed_tests": 0
+  }
+}

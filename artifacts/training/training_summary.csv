@@ -1,0 +1,3 @@
+Model,Configured Epochs,Actual Epochs,Best Epoch,Best Train Loss,Best Validation Loss,Early Stopped,Training Time,Inference Time,Checkpoint
+PyTorch MLP,30,30,30,5742.6558,6655.0723,False,0.2408,0.0001,artifacts/models/mlp/best_model.pt
+PyTorch LSTM,30,30,30,5751.5698,6665.9946,False,0.0581,0.0003,artifacts/models/lstm/best_model.pt

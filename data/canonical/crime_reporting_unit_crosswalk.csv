@@ -1,0 +1,40 @@
+source_state,source_unit,reporting_unit_type,canonical_state,canonical_district,match_method,match_confidence
+Andhra Pradesh,Anantapur,DISTRICT,Andhra Pradesh,Anantapur,RULE_BASED_POLICE_JURISDICTION,1.0
+Andhra Pradesh,Chittoor,DISTRICT,Andhra Pradesh,Chittoor,RULE_BASED_POLICE_JURISDICTION,1.0
+Andhra Pradesh,Cuddapah,DISTRICT,Andhra Pradesh,Cuddapah,RULE_BASED_POLICE_JURISDICTION,1.0
+Andhra Pradesh,East Godavari,DISTRICT,Andhra Pradesh,East Godavari,RULE_BASED_POLICE_JURISDICTION,1.0
+Andhra Pradesh,Guntakal Railway,RAILWAY_POLICE_UNIT,Andhra Pradesh,Guntakal Railway,RULE_BASED_POLICE_JURISDICTION,0.85
+Andhra Pradesh,Guntur,DISTRICT,Andhra Pradesh,Guntur,RULE_BASED_POLICE_JURISDICTION,1.0
+Andhra Pradesh,Guntur Urban,URBAN_POLICE_UNIT,Andhra Pradesh,Guntur,RULE_BASED_POLICE_JURISDICTION,0.85
+Andhra Pradesh,Krishna,DISTRICT,Andhra Pradesh,Krishna,RULE_BASED_POLICE_JURISDICTION,1.0
+Andhra Pradesh,Kurnool,DISTRICT,Andhra Pradesh,Kurnool,RULE_BASED_POLICE_JURISDICTION,1.0
+Andhra Pradesh,Nellore,DISTRICT,Andhra Pradesh,Nellore,RULE_BASED_POLICE_JURISDICTION,1.0
+Andhra Pradesh,Prakasham,DISTRICT,Andhra Pradesh,Prakasham,RULE_BASED_POLICE_JURISDICTION,1.0
+Andhra Pradesh,Rajahmundry,DISTRICT,Andhra Pradesh,Rajahmundry,RULE_BASED_POLICE_JURISDICTION,1.0
+Andhra Pradesh,Srikakulam,DISTRICT,Andhra Pradesh,Srikakulam,RULE_BASED_POLICE_JURISDICTION,1.0
+Andhra Pradesh,Tirupathi Urban,URBAN_POLICE_UNIT,Andhra Pradesh,Tirupathi,RULE_BASED_POLICE_JURISDICTION,0.85
+Andhra Pradesh,Vijayawada City,URBAN_POLICE_UNIT,Andhra Pradesh,Vijayawada,RULE_BASED_POLICE_JURISDICTION,0.85
+Andhra Pradesh,Vijayawada Railway,RAILWAY_POLICE_UNIT,Andhra Pradesh,Vijayawada Railway,RULE_BASED_POLICE_JURISDICTION,0.85
+Andhra Pradesh,Visakha Rural,RURAL_POLICE_UNIT,Andhra Pradesh,Visakha,RULE_BASED_POLICE_JURISDICTION,0.85
+Andhra Pradesh,Visakhapatnam,DISTRICT,Andhra Pradesh,Visakhapatnam,RULE_BASED_POLICE_JURISDICTION,1.0
+Andhra Pradesh,Vizianagaram,DISTRICT,Andhra Pradesh,Vizianagaram,RULE_BASED_POLICE_JURISDICTION,1.0
+Andhra Pradesh,West Godavari,DISTRICT,Andhra Pradesh,West Godavari,RULE_BASED_POLICE_JURISDICTION,1.0
+Arunachal Pradesh,Anjaw,DISTRICT,Arunachal Pradesh,Anjaw,RULE_BASED_POLICE_JURISDICTION,1.0
+Arunachal Pradesh,Changlang,DISTRICT,Arunachal Pradesh,Changlang,RULE_BASED_POLICE_JURISDICTION,1.0
+Arunachal Pradesh,Crime Branch,CRIME_BRANCH,Arunachal Pradesh,Crime Branch,RULE_BASED_POLICE_JURISDICTION,0.85
+Arunachal Pradesh,Dibang Valley,DISTRICT,Arunachal Pradesh,Dibang Valley,RULE_BASED_POLICE_JURISDICTION,1.0
+Arunachal Pradesh,Kameng East,DISTRICT,Arunachal Pradesh,Kameng East,RULE_BASED_POLICE_JURISDICTION,1.0
+Arunachal Pradesh,Kameng West,DISTRICT,Arunachal Pradesh,Kameng West,RULE_BASED_POLICE_JURISDICTION,1.0
+Arunachal Pradesh,Kukung Kumey,DISTRICT,Arunachal Pradesh,Kukung Kumey,RULE_BASED_POLICE_JURISDICTION,1.0
+Arunachal Pradesh,Lohit,DISTRICT,Arunachal Pradesh,Lohit,RULE_BASED_POLICE_JURISDICTION,1.0
+Arunachal Pradesh,Longding,DISTRICT,Arunachal Pradesh,Longding,RULE_BASED_POLICE_JURISDICTION,1.0
+Arunachal Pradesh,Lower Dibang Valley,DISTRICT,Arunachal Pradesh,Lower Dibang Valley,RULE_BASED_POLICE_JURISDICTION,1.0
+Arunachal Pradesh,Papum Pare City,URBAN_POLICE_UNIT,Arunachal Pradesh,Papum Pare,RULE_BASED_POLICE_JURISDICTION,0.85
+Arunachal Pradesh,Papum Pare Rural,RURAL_POLICE_UNIT,Arunachal Pradesh,Papum Pare,RULE_BASED_POLICE_JURISDICTION,0.85
+Arunachal Pradesh,Siang East,DISTRICT,Arunachal Pradesh,Siang East,RULE_BASED_POLICE_JURISDICTION,1.0
+Arunachal Pradesh,Siang Upper,DISTRICT,Arunachal Pradesh,Siang Upper,RULE_BASED_POLICE_JURISDICTION,1.0
+Arunachal Pradesh,Siang West,DISTRICT,Arunachal Pradesh,Siang West,RULE_BASED_POLICE_JURISDICTION,1.0
+Arunachal Pradesh,Subansiri Lower,DISTRICT,Arunachal Pradesh,Subansiri Lower,RULE_BASED_POLICE_JURISDICTION,1.0
+Arunachal Pradesh,Subansiri Upper,DISTRICT,Arunachal Pradesh,Subansiri Upper,RULE_BASED_POLICE_JURISDICTION,1.0
+Arunachal Pradesh,Tawang,DISTRICT,Arunachal Pradesh,Tawang,RULE_BASED_POLICE_JURISDICTION,1.0
+Arunachal Pradesh,Tirap,DISTRICT,Arunachal Pradesh,Tirap,RULE_BASED_POLICE_JURISDICTION,1.0

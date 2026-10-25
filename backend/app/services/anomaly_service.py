@@ -2,101 +2,118 @@ import os
 import pandas as pd
 from backend.app.config import settings
 
+WORKSPACE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", ".."))
 LEGAL_DISCLAIMER = "Statistical anomaly flags indicate aggregate population volume trajectory outliers, NOT evidence of individual wrongdoing or official misconduct."
 
-EVALUATION_METRICS = {
-    "train_observations": 2517,
-    "test_observations": 639,
-    "anomalies_detected": 24,
-    "anomaly_rate_pct": 3.76,
-    "limitations": "IsolationForest trained on 2002-2017 features. Flags statistical volume trajectory outliers, not evidence of wrongdoing by an individual."
-}
-
 class AnomalyService:
-    def get_anomalies(self, district: str = None, year: int = None, crime_category: str = None, method: str = "IsolationForest"):
-        paths = [
-            os.path.join(settings.DATA_DIR, "canonical", "crime", "anvesha_crime_ml_ready.parquet"),
-            os.path.join(settings.DATA_DIR, "05_ml", "06_tn_crime_anomaly_detection.csv"),
-            os.path.join(settings.DATA_DIR, "06_tn_crime_anomaly_detection.csv")
-        ]
-        
+    def __init__(self):
+        self.parquet_path = os.path.join(WORKSPACE_DIR, "artifacts", "predictions", "anomaly_results.parquet")
+
+    def get_anomalies(self, district: str = None, year: int = None, crime_category: str = None, severity: str = None):
         df = pd.DataFrame()
-        for p in paths:
-            if os.path.exists(p):
-                if p.endswith(".parquet"):
-                    df = pd.read_parquet(p)
-                else:
-                    df = pd.read_csv(p, low_memory=False)
-                break
+        if os.path.exists(self.parquet_path):
+            df = pd.read_parquet(self.parquet_path)
+
+        # Filter by reporting unit / district if requested
+        if not df.empty and district and district.upper() != "ALL":
+            d_clean = district.strip().upper()
+            df = df[df['unit'].str.upper() == d_clean]
+
+        # Filter by year
+        if not df.empty and year:
+            df = df[df['year'] == int(year)]
+
+        # Filter by category
+        if not df.empty and crime_category and crime_category.upper() != "ALL":
+            c_clean = crime_category.strip().upper()
+            df = df[df['category'].str.upper() == c_clean]
+
+        # Filter by severity
+        if not df.empty and severity and severity.upper() != "ALL":
+            s_clean = severity.strip().upper()
+            df = df[df['severity'].str.upper() == s_clean]
 
         results = []
         if not df.empty:
-            if district:
-                df = df[df['district'].str.upper() == district.upper()]
-            if year:
-                df = df[pd.to_numeric(df['year'], errors='coerce') == year]
-            if crime_category and 'crime_category' in df.columns:
-                df = df[df['crime_category'].str.upper() == crime_category.upper()]
-
-            # Filter for anomaly flag if present, else top rows
-            if 'ml_eligible_anomaly' in df.columns:
-                df = df[df['ml_eligible_anomaly'] == True]
-
-            for _, r in df.head(100).iterrows():
-                obs = float(r.get('crime_count', 100.0))
-                base = float(r.get('rolling_3', obs * 0.8))
-                score = float(r.get('anomaly_score', -0.65))
-                flag = bool(r.get('anomaly_flag', True))
-                r_year = int(r.get('year', 2022))
-                r_prov = str(r.get('source_provenance', 'NCRB Official District Panel (2001-2014)' if r_year <= 2014 else 'SCRB Extracted District PDF Compendiums (2015-2023)'))
-                p_type = "OFFICIAL_OBSERVED" if r_year <= 2014 else "SYNTHETIC_CANDIDATE_ESTIMATE"
-
+            for _, r in df.iterrows():
+                obs = float(r['observed'])
+                exp = float(r['expected'])
+                diff = round(obs - exp, 2)
+                pct = round((diff / exp * 100), 2) if exp > 0 else 0.0
+                
                 results.append({
-                    "district": str(r.get('district', 'CHENNAI')),
-                    "year": r_year,
-                    "crime_category": str(r.get('crime_category', 'PROPERTY_CRIME')),
-                    "observed_count": obs,
-                    "historical_baseline": base,
-                    "anomaly_score": score,
-                    "anomaly_flag": flag,
-                    "anomaly_method": method,
+                    "reporting_unit": str(r['unit']),
+                    "district": str(r['unit']),
+                    "year": int(r['year']),
+                    "category": str(r['category']),
+                    "crime_category": str(r['category']),
+                    "observed": obs,
+                    "expected": exp,
+                    "difference": diff,
+                    "change_pct": pct,
+                    "score": float(r['anomaly_score']),
+                    "severity": str(r['severity']),
+                    "user_severity": str(r['severity']).replace("_ANOMALY", "").title(),
+                    "model": str(r.get('model', 'IsolationForest')),
+                    "experiment_id": str(r.get('experiment_id', 'ANV-ANOMALY-IF-001')),
                     "data_type": "STATISTICAL_ANOMALY_FLAG",
-                    "provenance_type": p_type,
-                    "source_provenance": r_prov,
-                    "supporting_features": {
-                        "z_score": round((obs - base) / (base * 0.2 + 1.0), 2),
-                        "percentage_deviation": round(((obs - base) / (base + 1.0)) * 100, 1),
-                        "historical_max": round(obs * 1.1, 1)
-                    },
-                    "provenance_id": f"PROV-ANOM-{r.get('district', 'DIST')}-{r_year}",
+                    "provenance_type": "OFFICIAL_OBSERVED",
                     "legal_disclaimer": LEGAL_DISCLAIMER
                 })
 
-        if not results:
-            results = [
-                {
-                    "district": district or "ARIYALUR",
-                    "year": year or 2022,
-                    "crime_category": crime_category or "PROPERTY_CRIME",
-                    "observed_count": 412.0,
-                    "historical_baseline": 280.0,
-                    "anomaly_score": -0.72,
-                    "anomaly_flag": True,
-                    "anomaly_method": method,
-                    "data_type": "STATISTICAL_ANOMALY_FLAG",
-                    "provenance_type": "SYNTHETIC_CANDIDATE_ESTIMATE",
-                    "source_provenance": "SCRB Extracted District PDF Compendiums (2015-2023)",
-                    "supporting_features": {"z_score": 2.45, "percentage_deviation": 47.1, "historical_max": 450.0},
-                    "provenance_id": "PROV-ANOM-ARIYALUR-2022",
-                    "legal_disclaimer": LEGAL_DISCLAIMER
-                }
-            ]
+        # Dynamic statistical anomaly detection on real historical series if parquet had no matches
+        if not results and district:
+            from backend.app.services.analytics_service import analytics_service
+            import numpy as np
+            cat_name = crime_category or "ALL_CRIME"
+            a_res = analytics_service.get_district_analytics(district, state_ut="TAMIL NADU", category=cat_name)
+            if a_res.get("status") == "success" and a_res.get("historical_trajectory"):
+                traj = a_res["historical_trajectory"]
+                counts = [float(r["crime_count"]) for r in traj]
+                if len(counts) >= 4:
+                    c_arr = np.array(counts, dtype=float)
+                    mean_c = float(np.mean(c_arr))
+                    std_c = float(np.std(c_arr))
+                    for idx, r in enumerate(traj):
+                        if year and int(r["year"]) != int(year):
+                            continue
+                        c_val = float(r["crime_count"])
+                        z_score = abs(c_val - mean_c) / (std_c + 1e-5)
+                        is_anom = False
+                        if z_score >= 2.0:
+                            is_anom = True
+                        elif idx > 0:
+                            jump = abs(c_val - float(counts[idx - 1]))
+                            if jump > 2.0 * (std_c + 1e-5) and jump > 0.25 * (mean_c + 1e-5):
+                                is_anom = True
+                        if is_anom:
+                            exp_val = round(mean_c, 1)
+                            diff_val = round(c_val - exp_val, 1)
+                            pct_val = round((diff_val / (exp_val + 1e-5)) * 100.0, 2)
+                            results.append({
+                                "reporting_unit": district.upper(),
+                                "district": district.upper(),
+                                "year": int(r["year"]),
+                                "category": cat_name,
+                                "crime_category": cat_name,
+                                "observed": c_val,
+                                "expected": exp_val,
+                                "difference": diff_val,
+                                "change_pct": pct_val,
+                                "score": round(-float(z_score) / 10.0, 4),
+                                "severity": "HIGH_ANOMALY" if z_score >= 3.0 else "WATCH",
+                                "user_severity": "High" if z_score >= 3.0 else "Watch",
+                                "model": "Dispersion / Z-Score Analysis",
+                                "experiment_id": "ANV-ANOMALY-STAT-001",
+                                "data_type": "STATISTICAL_ANOMALY_FLAG",
+                                "provenance_type": str(r.get("provenance", "OFFICIAL_OBSERVED")),
+                                "legal_disclaimer": LEGAL_DISCLAIMER
+                            })
 
         return {
             "total_anomalies": len(results),
             "anomalies": results,
-            "evaluation_metrics": EVALUATION_METRICS
+            "legal_disclaimer": LEGAL_DISCLAIMER
         }
 
 anomaly_service = AnomalyService()
-

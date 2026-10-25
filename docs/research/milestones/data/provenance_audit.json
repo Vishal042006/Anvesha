@@ -1,0 +1,26 @@
+{
+  "audit_timestamp": "2026-10-04T18:55:00+05:30",
+  "dataset_path": "data/canonical/crime/anvesha_crime_ml_ready.parquet",
+  "sha256_hash": "361378fb63d334d719da9053609c75e0f772b3041fbd0eec25920cb7160ab94b",
+  "total_records": 4557,
+  "track_a_official_observed": {
+    "record_count": 2640,
+    "year_span": [
+      2001,
+      2014
+    ],
+    "source": "NCRB Official District Panel (2001-2014)",
+    "synthetic_count": 0,
+    "integrity_status": "VERIFIED_OFFICIAL_GROUND_TRUTH"
+  },
+  "track_b_synthetic_candidate": {
+    "record_count": 1917,
+    "year_span": [
+      2015,
+      2023
+    ],
+    "source": "SCRB Extracted District PDF Compendiums (2015-2023)",
+    "synthetic_count": 1917,
+    "integrity_status": "EXPERIMENTAL_CANDIDATE_EXTENSION"
+  }
+}

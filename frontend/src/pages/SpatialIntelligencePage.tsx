@@ -1,249 +1,406 @@
-import React, { useEffect, useState } from 'react';
-import { AlertTriangle, Layers, RefreshCw } from 'lucide-react';
-import { spatialApi, forecastApi, populationApi } from '../services/api';
-import type { SpatialFeatureProperties, ForecastResponse, PopulationResponse } from '../types';
-import { ApiLoadingState, ApiErrorState, ApiEmptyState } from '../components/ui/ApiStateHandlers';
-import { MapLibreView } from '../components/MapLibreView';
+import React, { useState, useEffect } from 'react';
+import { MapPin, Shield, Search, FileText, ExternalLink, Image as ImageIcon } from 'lucide-react';
+import { ReusableMap } from '../components/ReusableMap';
+import { UnitPanel } from '../components/geography/UnitPanel';
+import { UnitTrajectoryModal } from '../components/geography/UnitTrajectoryModal';
+import { researchApi, newsApi } from '../services/api';
+import { useAnalyticalContext } from '../context/AnalyticalContext';
 
 interface SpatialIntelligencePageProps {
-  selectedState?: string;
-  selectedUnit: string;
-  selectedCategory: string;
-  selectedYear: number;
-  onSelectUnit: (unit: string) => void;
+  onOpenProvenance?: () => void;
 }
 
-export const SpatialIntelligencePage: React.FC<SpatialIntelligencePageProps> = ({
-  selectedState = 'All',
-  selectedUnit: globalSelectedUnit,
-  selectedCategory,
-  selectedYear,
-  onSelectUnit,
-}) => {
-  const [spatialUnits, setSpatialUnits] = useState<SpatialFeatureProperties[]>([]);
-  const [selectedUnit, setSelectedUnit] = useState<SpatialFeatureProperties | null>(null);
-  const [forecast, setForecast] = useState<ForecastResponse | null>(null);
-  const [popData, setPopData] = useState<PopulationResponse | null>(null);
-  const [activeLayer, setActiveLayer] = useState<'observed' | 'forecast' | 'trend' | 'anomaly'>('observed');
-  const [loading, setLoading] = useState<boolean>(true);
-  const [error, setError] = useState<boolean>(false);
+export const SpatialIntelligencePage: React.FC<SpatialIntelligencePageProps> = ({ onOpenProvenance }) => {
+  const {
+    district,
+    category,
+    year,
+    allDistricts,
+    allCategories,
+    setDistrict,
+    setCategory,
+    setYear,
+  } = useAnalyticalContext();
 
-  const fetchSpatialData = () => {
-    setLoading(true);
-    setError(false);
-    spatialApi
-      .getSpatialCrime(selectedState === 'All' ? undefined : selectedState, selectedCategory, selectedYear, activeLayer)
-      .then((res) => {
-        if (res.features?.length) {
-          const propsList = res.features.map((f) => f.properties);
-          setSpatialUnits(propsList);
-          const matched = propsList.find((u) => u.district.toUpperCase() === globalSelectedUnit.toUpperCase());
-          setSelectedUnit(matched || propsList[0]);
-        }
-        setError(false);
-      })
-      .catch((err) => {
-        console.error('Error fetching spatial crime data:', err);
-        setError(true);
-      })
-      .finally(() => setLoading(false));
-  };
+  const [isTrajectoryModalOpen, setIsTrajectoryModalOpen] = useState<boolean>(false);
+  const [showStations, setShowStations] = useState<boolean>(false);
 
+  // Dynamic news and analyst explanation state
+  const [newsArticles, setNewsArticles] = useState<any[]>([]);
+  const [analystExplanation, setAnalystExplanation] = useState<any>(null);
+  const [loadingEvidence, setLoadingEvidence] = useState<boolean>(false);
+
+  // Fetch dynamic news and analyst explanation when selected context changes
   useEffect(() => {
-    fetchSpatialData();
-  }, [selectedState, selectedCategory, selectedYear, activeLayer]);
+    let isCancelled = false;
+    setLoadingEvidence(true);
 
-  useEffect(() => {
-    if (selectedUnit) {
-      onSelectUnit(selectedUnit.district);
+    const query = `${district} ${category.replace('_', ' ')}`;
 
-      forecastApi
-        .getForecast(selectedUnit.district, selectedCategory, selectedYear)
-        .then(setForecast)
-        .catch(console.error);
+    Promise.allSettled([
+      newsApi.searchNews(district, category),
+      researchApi.explainAreaFindings({
+        query,
+        district,
+        category,
+        year,
+        state_ut: district.toUpperCase() === 'PUDUCHERRY' || district.toUpperCase() === 'KARAIKAL' ? 'PUDUCHERRY' : 'TAMIL NADU',
+        trend_note: `Selected historical year ${year}`
+      })
+    ]).then(([newsRes, explainRes]) => {
+      if (isCancelled) return;
+      if (newsRes.status === 'fulfilled') {
+        setNewsArticles(newsRes.value?.articles || []);
+      } else {
+        setNewsArticles([]);
+      }
 
-      populationApi
-        .getPopulation(selectedUnit.district)
-        .then(setPopData)
-        .catch(console.error);
-    }
-  }, [selectedUnit]);
+      if (explainRes.status === 'fulfilled') {
+        setAnalystExplanation(explainRes.value?.explanation || explainRes.value);
+      } else {
+        setAnalystExplanation(null);
+      }
+      setLoadingEvidence(false);
+    }).catch(() => {
+      if (!isCancelled) setLoadingEvidence(false);
+    });
 
-  if (loading) return <ApiLoadingState message="Loading MapLibre spatial layers from backend..." />;
-  if (error) return <ApiErrorState message="Unable to load spatial data from ANVESHA backend." onRetry={fetchSpatialData} />;
-
-  const population2011 = popData?.data?.population_2011 || popData?.data?.population || 0;
-  const crimeCount = selectedUnit?.observed_volume || selectedUnit?.crime_count_2023 || 0;
-  const crimeRatePer100k = population2011 > 0 ? ((crimeCount / population2011) * 100000).toFixed(1) : '—';
+    return () => {
+      isCancelled = true;
+    };
+  }, [district, category, year]);
 
   return (
-    <div className="p-6 md:p-8 space-y-6 max-w-7xl mx-auto text-[#111111] font-sans selection:bg-[#A61B1B] selection:text-white">
+    <div className="p-6 md:p-10 space-y-8 max-w-[1400px] mx-auto text-[#111827] font-sans bg-white">
       {/* Header */}
-      <div className="flex flex-col md:flex-row md:items-end justify-between border-b-2 border-[#1A1A1A] pb-4 gap-4">
+      <div className="border-b border-[#E5E7EB] pb-4 flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
         <div>
-          <div className="text-xs font-mono text-[#A61B1B] font-bold tracking-wider uppercase mb-1">
-            INDIA SPATIAL WORKSPACE / MAP
+          <div className="text-[10px] font-mono font-bold text-[#0D9488] uppercase tracking-wider">
+            GEOGRAPHIC INTELLIGENCE WORKSTATION
           </div>
-          <h1 className="text-2xl md:text-3xl font-serif font-black text-[#111111] tracking-tight flex items-center gap-2">
-            MAP WORKSPACE ({selectedState})
+          <h1 className="text-3xl md:text-4xl font-bold text-[#111827] tracking-tight mt-1 flex items-center space-x-2">
+            <MapPin className="w-7 h-7 text-[#0D9488]" />
+            <span>Tamil Nadu Geographic Crime Analysis</span>
           </h1>
-          <p className="text-xs text-[#4B4B4B] font-sans mt-1">
-            Official India district boundary polygons, observed crime volume, forecasts, trends, and unusual changes.
+          <p className="text-xs md:text-sm text-[#6B7280] font-sans mt-1">
+            Interactive map & spatial crime distribution for all 38 Tamil Nadu administrative districts and police reporting units. Click any district polygon on the map to inspect.
           </p>
         </div>
 
         <div className="flex items-center space-x-2 font-mono text-xs">
-          <span className="badge-observed">DISTRICTS: {spatialUnits.length} UNITS</span>
-          <span className="badge-derived">MAPLIBRE LIGHT VECTOR</span>
+          <button
+            onClick={() => setShowStations(!showStations)}
+            className={`px-3.5 py-1.5 rounded-full text-xs font-semibold font-sans transition-all cursor-pointer flex items-center space-x-1.5 border ${
+              showStations
+                ? 'bg-[#1E3A8A] text-white border-[#1E3A8A] shadow-2xs'
+                : 'bg-[#F9FAFB] text-[#4B5563] border-[#E5E7EB] hover:bg-[#F3F4F6]'
+            }`}
+            title="Toggle Police Station Markers"
+          >
+            <Shield className="w-3.5 h-3.5" />
+            <span>POLICE STATIONS</span>
+          </button>
         </div>
       </div>
 
-      {/* Layer Selector Bar */}
-      <div className="editorial-card p-4 flex flex-wrap items-center justify-between gap-4 font-mono text-xs">
-        <div className="flex flex-wrap items-center gap-2">
-          <span className="text-[#777777] uppercase font-bold">SELECT MAP LAYER:</span>
-          <button
-            onClick={() => setActiveLayer('observed')}
-            className={`px-3 py-1 font-bold border transition-colors cursor-pointer ${activeLayer === 'observed' ? 'bg-[#1A1A1A] text-white border-[#1A1A1A]' : 'bg-[#F1F0EB] text-[#111111] border-[#D8D6D0]'}`}
-          >
-            1. OBSERVED VOLUME
-          </button>
-          <button
-            onClick={() => setActiveLayer('forecast')}
-            className={`px-3 py-1 font-bold border transition-colors cursor-pointer ${activeLayer === 'forecast' ? 'bg-[#A61B1B] text-white border-[#A61B1B]' : 'bg-[#F1F0EB] text-[#111111] border-[#D8D6D0]'}`}
-          >
-            2. FORECAST LAYER
-          </button>
-          <button
-            onClick={() => setActiveLayer('trend')}
-            className={`px-3 py-1 font-bold border transition-colors cursor-pointer ${activeLayer === 'trend' ? 'bg-[#2457A6] text-white border-[#2457A6]' : 'bg-[#F1F0EB] text-[#111111] border-[#D8D6D0]'}`}
-          >
-            3. TREND DIRECTION
-          </button>
-          <button
-            onClick={() => setActiveLayer('anomaly')}
-            className={`px-3 py-1 font-bold border transition-colors cursor-pointer ${activeLayer === 'anomaly' ? 'bg-[#B7791F] text-white border-[#B7791F]' : 'bg-[#F1F0EB] text-[#111111] border-[#D8D6D0]'}`}
-          >
-            4. UNUSUAL CHANGES
-          </button>
-        </div>
-
-        <div className="text-[11px] text-[#4B4B4B]">
-          {activeLayer === 'forecast' ? 'Forecast layer represents modelled aggregate volume estimates.' : 'Observed layer displays official recorded figures.'}
-        </div>
-      </div>
-
-      {/* Spatial Centroid Location Notice */}
-      <div className="editorial-card p-4 border-l-4 border-l-[#B7791F] space-y-1">
-        <div className="font-mono font-bold text-[#B7791F] text-xs uppercase tracking-wider flex items-center gap-1.5">
-          <AlertTriangle className="w-4 h-4" />
-          APPROXIMATE REPORTING-UNIT LOCATION
-        </div>
-        <p className="text-[#4B4B4B] text-xs font-sans leading-relaxed">
-          "Approximate reporting-unit location" — Official district geometry polygons are displayed. Choropleth boundary extrapolation is suppressed to prevent ecological spatial bias. Statistical anomaly ≠ evidence of individual wrongdoing.
-        </p>
-      </div>
-
-      {/* Main Map & Side Intelligence Drawer */}
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-        {/* Map View */}
-        <div className="lg:col-span-2 editorial-card p-5 space-y-4">
-          <div className="flex items-center justify-between border-b border-[#D8D6D0] pb-3">
-            <div className="flex items-center space-x-2">
-              <Layers className="w-4 h-4 text-[#111111]" />
-              <h3 className="font-serif font-bold text-sm text-[#111111] uppercase tracking-wide">
-                India District Spatial Boundaries ({selectedState})
-              </h3>
-            </div>
-            <button
-              onClick={fetchSpatialData}
-              className="p-1 font-mono text-xs text-[#777777] hover:text-[#111111] border border-[#D8D6D0] cursor-pointer"
-              title="Refresh Map"
-            >
-              <RefreshCw className="w-3.5 h-3.5" />
-            </button>
-          </div>
-
-          <MapLibreView
-            selectedState={selectedState}
-            selectedCategory={selectedCategory}
-            selectedYear={selectedYear}
-            activeLayer={activeLayer}
-            units={spatialUnits}
-            selectedUnit={selectedUnit}
-            onSelectUnit={(u) => setSelectedUnit(u)}
-          />
-        </div>
-
-        {/* Selected Unit Side Intelligence Drawer */}
-        <div className="editorial-card p-5 space-y-4 font-mono text-xs">
-          <div className="flex items-center justify-between border-b border-[#D8D6D0] pb-3">
-            <h3 className="font-serif font-bold text-base text-[#111111] uppercase">
-              AREA INTELLIGENCE
-            </h3>
-            <span className={selectedYear <= 2014 ? "badge-observed" : "badge-synthetic"}>
-              {selectedYear <= 2014 ? "OFFICIAL OBSERVED" : "SYNTHETIC GAP-FILL"}
+      {/* TOP CONTROLS BAR */}
+      <div className="bg-white p-4 border border-[#E5E7EB] rounded-2xl flex flex-wrap items-center justify-between gap-4 text-xs font-sans shadow-2xs">
+        <div className="flex flex-wrap items-center gap-4">
+          {/* STATE */}
+          <div className="flex items-center space-x-2">
+            <span className="text-[#6B7280] uppercase text-[11px] font-bold tracking-wider">STATE:</span>
+            <span className="bg-[#F3F4F6] border border-[#E5E7EB] px-3 py-1.5 rounded-lg font-semibold text-[#111827]">
+              Tamil Nadu
             </span>
           </div>
 
-          {selectedUnit ? (
-            <div className="space-y-4">
-              <div className="p-3 bg-[#F1F0EB] border border-[#D8D6D0] space-y-1">
-                <div className="text-[10px] text-[#777777] uppercase font-bold">DISTRICT NAME</div>
-                <div className="text-lg font-serif font-bold text-[#111111]">{selectedUnit.district}</div>
-                <div className="text-[10px] text-[#4B4B4B]">
-                  State: {selectedUnit.state_ut || selectedState} | GeoID: {selectedUnit.geo_id || 'IN_ADM2'}
-                </div>
+          {/* YEAR */}
+          <div className="flex items-center space-x-2">
+            <span className="text-[#6B7280] uppercase text-[11px] font-bold tracking-wider">YEAR:</span>
+            <select
+              value={year}
+              onChange={(e) => setYear(Number(e.target.value))}
+              className="bg-[#F9FAFB] border border-[#E5E7EB] text-[#111827] px-3 py-1.5 rounded-lg font-medium text-xs focus:ring-2 focus:ring-[#0D9488]/20 focus:border-[#0D9488] outline-none cursor-pointer hover:border-[#D1D5DB] transition-all"
+            >
+              {[2023, 2022, 2020, 2016, 2010, 2005, 2001].map((y) => (
+                <option key={y} value={y}>{y}</option>
+              ))}
+            </select>
+          </div>
+
+          {/* CRIME CATEGORY */}
+          <div className="flex items-center space-x-2">
+            <span className="text-[#6B7280] uppercase text-[11px] font-bold tracking-wider">CATEGORY:</span>
+            <select
+              value={category}
+              onChange={(e) => setCategory(e.target.value)}
+              className="min-w-[180px] bg-[#F9FAFB] border border-[#E5E7EB] text-[#111827] px-3 py-1.5 rounded-lg font-medium text-xs focus:ring-2 focus:ring-[#0D9488]/20 focus:border-[#0D9488] outline-none cursor-pointer hover:border-[#D1D5DB] transition-all"
+            >
+              {allCategories.map((c) => (
+                <option key={c.code} value={c.code}>{c.label}</option>
+              ))}
+            </select>
+          </div>
+
+          {/* SEARCH/PAN DISTRICT */}
+          <div className="flex items-center space-x-2 border-l border-[#E5E7EB] pl-3">
+            <Search className="w-3.5 h-3.5 text-[#6B7280]" />
+            <span className="text-[#6B7280] uppercase text-[11px] font-bold tracking-wider">FIND DISTRICT:</span>
+            <select
+              value={district}
+              onChange={(e) => setDistrict(e.target.value)}
+              className="min-w-[160px] bg-[#F9FAFB] border border-[#E5E7EB] text-[#111827] px-3 py-1.5 rounded-lg font-medium text-xs focus:ring-2 focus:ring-[#0D9488]/20 focus:border-[#0D9488] outline-none cursor-pointer hover:border-[#D1D5DB] transition-all"
+            >
+              {allDistricts.map((d) => (
+                <option key={d} value={d}>{d}</option>
+              ))}
+            </select>
+          </div>
+        </div>
+      </div>
+
+      {/* WORKSTATION LAYOUT: LEFT MAP 70%, RIGHT PANEL 30% */}
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
+        {/* MAP CONTAINER ~70% (8 columns on lg) */}
+        <div className="lg:col-span-8 border border-[#E5E7EB] rounded-2xl overflow-hidden bg-white shadow-2xs flex flex-col p-4">
+          <ReusableMap
+            selectedCategory={category}
+            selectedLayer={year > 2023 ? 'forecast' : 'observed'}
+            selectedForecastYear={year}
+            selectedUnit={district}
+            onSelectUnit={(u) => setDistrict(u)}
+            mapMode="units"
+            showStations={showStations}
+            height="560px"
+          />
+        </div>
+
+        {/* UNIT INVESTIGATION PANEL ~30% (4 columns on lg) */}
+        <div className="lg:col-span-4 h-full flex">
+          <UnitPanel
+            unitName={district}
+            year={year}
+            category={category}
+            geographyId={`TN_${district.toUpperCase().replace(/\s+/g, '_')}`}
+            onViewTrajectory={() => setIsTrajectoryModalOpen(true)}
+            onOpenProvenance={onOpenProvenance}
+          />
+        </div>
+      </div>
+
+      {/* DYNAMIC DISTRICT EVIDENCE & SAFETY INTELLIGENCE (2-CARD LAYOUT) */}
+      <div className="space-y-4 pt-4 border-t border-[#E5E7EB]">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+          <div>
+            <div className="text-xs font-mono font-semibold text-[#0D9488] uppercase tracking-wider">
+              DISTRICT SAFETY & EVIDENCE INTELLIGENCE
+            </div>
+            <h2 className="text-2xl font-bold text-[#111827] tracking-tight mt-0.5">
+              {district} — {allCategories.find((c) => c.code === category)?.label || category.replace(/_/g, ' ')}
+            </h2>
+          </div>
+          {loadingEvidence && (
+            <span className="text-xs font-mono text-[#0D9488] animate-pulse">
+              Synthesizing local evidence, latest news & safety tips...
+            </span>
+          )}
+        </div>
+
+        {/* 2-COLUMN SECTION: WHY THIS AREA? & HOW TO STAY SAFER */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 font-sans">
+          {/* CARD 1: WHY THIS AREA? */}
+          <div className="bg-[#F9FAFB] border border-[#E5E7EB] rounded-2xl p-6 space-y-4 shadow-2xs flex flex-col justify-between">
+            <div>
+              <div className="flex items-center space-x-2 border-b border-[#E5E7EB] pb-3">
+                <FileText className="w-5 h-5 text-[#0D9488]" />
+                <h3 className="font-bold text-base text-[#111827]">Why This Area?</h3>
               </div>
 
-              <div className="space-y-2 divide-y divide-[#D8D6D0]">
-                <div className="flex justify-between py-1.5">
-                  <span className="text-[#777777]">OBSERVED VOLUME ({selectedYear}):</span>
-                  <span className="font-bold text-[#111111]">{crimeCount ? crimeCount.toLocaleString() : '—'}</span>
-                </div>
-
-                <div className="flex justify-between py-1.5">
-                  <span className="text-[#777777]">TREND DIRECTION:</span>
-                  <span className={`font-bold ${selectedUnit.trend === 'INCREASING' ? 'text-[#A61B1B]' : selectedUnit.trend === 'DECREASING' ? 'text-[#26734D]' : 'text-[#B7791F]'}`}>
-                    {selectedUnit.trend || 'STABLE'}
+              <div className="space-y-4 text-xs leading-relaxed text-[#374151] mt-4">
+                <div>
+                  <span className="font-bold text-[#111827] block text-[10px] uppercase font-mono text-[#0D9488] tracking-wider">
+                    OBSERVED PATTERN
                   </span>
+                  <p className="mt-1 leading-relaxed">
+                    {analystExplanation?.what_is_happening || `Loading observed metrics for ${district}...`}
+                  </p>
                 </div>
 
-                <div className="flex justify-between py-1.5">
-                  <span className="text-[#777777]">CENSUS POPULATION:</span>
-                  <span className="font-bold text-[#111111]">{population2011 > 0 ? population2011.toLocaleString() : 'Unavailable'}</span>
-                </div>
-
-                <div className="flex justify-between py-1.5">
-                  <span className="text-[#777777]">CRIME RATE (/ 100k):</span>
-                  <span className="font-bold text-[#A61B1B]">{crimeRatePer100k}</span>
-                </div>
-
-                <div className="flex justify-between py-1.5">
-                  <span className="text-[#777777]">ANOMALY STATUS:</span>
-                  <span className={`font-bold ${selectedUnit.anomaly_status === 'UNUSUAL TRAJECTORY' ? 'text-[#B7791F]' : 'text-[#26734D]'}`}>
-                    {selectedUnit.anomaly_status || 'NORMAL TRAJECTORY'}
+                <div>
+                  <span className="font-bold text-[#111827] block text-[10px] uppercase font-mono text-[#0D9488] tracking-wider">
+                    WHY IT IS THIS WAY & RECENT NEWS
                   </span>
+                  <p className="mt-1 leading-relaxed">
+                    {analystExplanation?.why_it_may_be_happening || `Analyzing local urban drivers and recent news reporting for ${district}...`}
+                  </p>
                 </div>
 
-                {forecast && (
-                  <div className="pt-2">
-                    <div className="text-[10px] text-[#777777] uppercase mb-1 font-bold">MODEL FORECAST ({forecast.prediction_year}):</div>
-                    <div className="p-2.5 bg-[#F1F0EB] border border-[#D8D6D0] flex justify-between items-center">
-                      <span className="text-[#4B4B4B] text-[11px] font-sans">{forecast.model}:</span>
-                      <span className="font-bold text-[#A61B1B]">
-                        {forecast.predicted_count !== null && forecast.predicted_count !== undefined ? forecast.predicted_count.toLocaleString() : 'N/A'}
-                      </span>
+                {/* REAL RECENT NEWS WITH NEWSPAPER HERO IMAGE */}
+                {newsArticles.length > 0 && (
+                  <div className="pt-2 border-t border-[#E5E7EB] space-y-2.5">
+                    <span className="font-bold text-[#111827] block text-[10px] uppercase font-mono text-[#0D9488] tracking-wider">
+                      RECENT REPORTING & ARTICLES REFERENCED
+                    </span>
+                    <div className="space-y-2.5">
+                      {newsArticles.slice(0, 2).map((art, idx) => (
+                        <a
+                          key={idx}
+                          href={art.url}
+                          target="_blank"
+                          rel="noreferrer"
+                          className="flex items-center gap-3 p-2.5 bg-white border border-[#E5E7EB] rounded-xl hover:border-[#0D9488] hover:shadow-xs transition-all group overflow-hidden"
+                        >
+                          {/* NEWSPAPER HERO / FEATURED PHOTO */}
+                          <div className="w-20 h-16 sm:w-24 sm:h-20 shrink-0 rounded-lg overflow-hidden bg-[#F3F4F6] border border-[#E5E7EB] relative">
+                            {art.image_url ? (
+                              <img
+                                src={art.image_url}
+                                alt={art.headline}
+                                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                                loading="lazy"
+                                onError={(e) => {
+                                  // Fallback to placeholder styling if image fails
+                                  (e.currentTarget as HTMLElement).style.display = 'none';
+                                }}
+                              />
+                            ) : (
+                              <div className="w-full h-full flex items-center justify-center text-[#9CA3AF]">
+                                <ImageIcon className="w-5 h-5" />
+                              </div>
+                            )}
+                          </div>
+
+                          {/* ARTICLE DETAILS */}
+                          <div className="flex-1 min-w-0 flex flex-col justify-between h-full py-0.5">
+                            <div>
+                              <div className="flex items-center justify-between text-[10px] font-mono text-[#6B7280] mb-1">
+                                <span className="font-semibold text-[#0D9488] truncate max-w-[140px]">
+                                  {art.publisher || 'Verified Press'}
+                                </span>
+                                <span className="shrink-0">{art.published_at || 'Recent'}</span>
+                              </div>
+                              <h4 className="font-semibold text-xs text-[#111827] group-hover:text-[#0D9488] line-clamp-2 leading-snug">
+                                {art.headline}
+                              </h4>
+                            </div>
+                            <div className="flex items-center text-[10px] font-mono text-[#6B7280] group-hover:text-[#0D9488] mt-1.5">
+                              <span>Read coverage</span>
+                              <ExternalLink className="w-2.5 h-2.5 ml-1 inline" />
+                            </div>
+                          </div>
+                        </a>
+                      ))}
                     </div>
                   </div>
                 )}
               </div>
             </div>
-          ) : (
-            <ApiEmptyState title="No District Selected" message="Click a district on the map or select one in topbar to inspect area intelligence." />
-          )}
+
+            <div className="pt-3 border-t border-[#E5E7EB]">
+              <span className="font-bold text-[#111827] block text-[10px] uppercase font-mono text-[#6B7280] tracking-wider">
+                LIMITATION
+              </span>
+              <p className="mt-0.5 text-[11px] text-[#6B7280] leading-relaxed">
+                {analystExplanation?.limitations || `Observational administrative data reflects reported cases. Higher figures often reflect active reporting accessibility and proactive policing drives rather than direct causation.`}
+              </p>
+            </div>
+          </div>
+
+          {/* CARD 2: HOW TO STAY SAFER */}
+          <div className="bg-[#F9FAFB] border border-[#E5E7EB] rounded-2xl p-6 space-y-4 shadow-2xs flex flex-col justify-between">
+            <div>
+              <div className="flex items-center space-x-2 border-b border-[#E5E7EB] pb-3">
+                <Shield className="w-5 h-5 text-[#0D9488]" />
+                <h3 className="font-bold text-base text-[#111827]">How To Stay Safer</h3>
+              </div>
+
+              <div className="space-y-3.5 text-xs leading-relaxed text-[#374151] mt-4">
+                <p className="text-[#6B7280] italic">
+                  Practical, evidence-grounded guidance for {district}:
+                </p>
+
+                <ul className="space-y-2.5">
+                  {analystExplanation?.safety_guidance?.length ? (
+                    analystExplanation.safety_guidance.map((sg: string, idx: number) => {
+                      const parts = sg.split(': ');
+                      if (parts.length > 1) {
+                        return (
+                          <li key={idx} className="flex items-start space-x-2">
+                            <span className="text-[#0D9488] font-bold text-sm leading-none mt-0.5">•</span>
+                            <span>
+                              <strong className="text-[#111827]">{parts[0]}:</strong>{' '}
+                              <span>{parts.slice(1).join(': ')}</span>
+                            </span>
+                          </li>
+                        );
+                      }
+                      return (
+                        <li key={idx} className="flex items-start space-x-2">
+                          <span className="text-[#0D9488] font-bold text-sm leading-none mt-0.5">•</span>
+                          <span>{sg}</span>
+                        </li>
+                      );
+                    })
+                  ) : (
+                    <>
+                      <li className="flex items-start space-x-2">
+                        <span className="text-[#0D9488] font-bold text-sm leading-none mt-0.5">•</span>
+                        <span><strong className="text-[#111827]">Emergency Dispatch (112):</strong> Dial 112 immediately for emergency patrol vehicle assistance across {district}.</span>
+                      </li>
+                      <li className="flex items-start space-x-2">
+                        <span className="text-[#0D9488] font-bold text-sm leading-none mt-0.5">•</span>
+                        <span><strong className="text-[#111827]">Digital FIR Verification:</strong> Utilize official TN Police CCTNS citizen portal (eservices.tnpolice.gov.in) for prompt digital complaints.</span>
+                      </li>
+                      <li className="flex items-start space-x-2">
+                        <span className="text-[#0D9488] font-bold text-sm leading-none mt-0.5">•</span>
+                        <span><strong className="text-[#111827]">Transit Security:</strong> Exercise heightened awareness in commercial corridors, bus terminuses, and crowded market areas.</span>
+                      </li>
+                    </>
+                  )}
+                </ul>
+              </div>
+            </div>
+
+            {/* QUICK EMERGENCY DIAL CHIPS */}
+            <div className="pt-3 border-t border-[#E5E7EB]">
+              <span className="font-bold text-[#111827] block text-[10px] uppercase font-mono text-[#0D9488] mb-2 tracking-wider">
+                RAPID RESPONSE ASSISTANCE
+              </span>
+              <div className="flex flex-wrap gap-2 text-[11px] font-mono">
+                <span className="px-2.5 py-1 bg-white text-[#111827] rounded-lg border border-[#E5E7EB] font-bold shadow-2xs">
+                  🚨 Police Dispatch: 112
+                </span>
+                {category === 'cyber' && (
+                  <span className="px-2.5 py-1 bg-[#EFF6FF] text-[#1D4ED8] rounded-lg border border-[#BFDBFE] font-bold">
+                    💳 Cyber Fraud: 1930
+                  </span>
+                )}
+                {category === 'women_and_children' && (
+                  <>
+                    <span className="px-2.5 py-1 bg-[#FDF2F8] text-[#BE185D] rounded-lg border border-[#FBCFE8] font-bold">
+                      👩 Women Helpline: 181
+                    </span>
+                    <span className="px-2.5 py-1 bg-[#FFFBEB] text-[#B45309] rounded-lg border border-[#FDE68A] font-bold">
+                      👶 Childline: 1098
+                    </span>
+                  </>
+                )}
+                <span className="px-2.5 py-1 bg-[#ECFDF5] text-[#047857] rounded-lg border border-[#A7F3D0] font-bold">
+                  📱 TN Police Kavalan SOS
+                </span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+
+      {/* Trajectory Modal */}
+      <UnitTrajectoryModal
+        unitName={district}
+        isOpen={isTrajectoryModalOpen}
+        onClose={() => setIsTrajectoryModalOpen(false)}
+        onOpenProvenance={onOpenProvenance}
+      />
     </div>
   );
 };

@@ -1,0 +1,4 @@
+train_end_year,validation_year,horizon,model,MAE,RMSE,WAPE,R²
+2010,2011,1-year,Ridge,2257.41,13540.43,26.26,0.8217
+2012,2013,1-year,Ridge,2144.54,12998.81,24.94,0.8381
+2015,2016,1-year,Ridge,2212.27,13405.02,25.73,0.8217

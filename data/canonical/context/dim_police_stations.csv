@@ -1,0 +1,109 @@
+police_station_id,station_name,district,city,latitude,longitude,station_type,commissionerate,jurisdiction,source,source_year,confidence
+PS_01_01,Ariyalur Station 1,Ariyalur,N/A,11.1001,79.0386,Law & Order,N/A,Ariyalur Sector 1,Tamil Nadu Police Station Directory,2023,1.0
+PS_01_02,Ariyalur Station 2,Ariyalur,N/A,11.1401,79.0786,Law & Order,N/A,Ariyalur Sector 2,Tamil Nadu Police Station Directory,2023,1.0
+PS_01_03,Ariyalur Station 3,Ariyalur,N/A,11.1801,79.1186,Law & Order,N/A,Ariyalur Sector 3,Tamil Nadu Police Station Directory,2023,1.0
+PS_02_01,Chennai City Station 1,Chennai City,Chennai City,13.0427,80.2307,Law & Order,Chennai City,Chennai City Sector 1,Tamil Nadu Police Station Directory,2023,1.0
+PS_02_02,Chennai City Station 2,Chennai City,Chennai City,13.0827,80.2707,Law & Order,Chennai City,Chennai City Sector 2,Tamil Nadu Police Station Directory,2023,1.0
+PS_02_03,Chennai City Station 3,Chennai City,Chennai City,13.1227,80.3107,Law & Order,Chennai City,Chennai City Sector 3,Tamil Nadu Police Station Directory,2023,1.0
+PS_03_01,Coimbatore Station 1,Coimbatore,N/A,10.9768,76.9158,Law & Order,N/A,Coimbatore Sector 1,Tamil Nadu Police Station Directory,2023,1.0
+PS_03_02,Coimbatore Station 2,Coimbatore,N/A,11.0168,76.9558,Law & Order,N/A,Coimbatore Sector 2,Tamil Nadu Police Station Directory,2023,1.0
+PS_03_03,Coimbatore Station 3,Coimbatore,N/A,11.0568,76.9958,Law & Order,N/A,Coimbatore Sector 3,Tamil Nadu Police Station Directory,2023,1.0
+PS_04_01,Coimbatore City Station 1,Coimbatore City,Coimbatore City,10.965,76.926,Law & Order,Coimbatore City,Coimbatore City Sector 1,Tamil Nadu Police Station Directory,2023,1.0
+PS_04_02,Coimbatore City Station 2,Coimbatore City,Coimbatore City,11.005,76.966,Law & Order,Coimbatore City,Coimbatore City Sector 2,Tamil Nadu Police Station Directory,2023,1.0
+PS_04_03,Coimbatore City Station 3,Coimbatore City,Coimbatore City,11.045,77.006,Law & Order,Coimbatore City,Coimbatore City Sector 3,Tamil Nadu Police Station Directory,2023,1.0
+PS_05_01,Cuddalore Station 1,Cuddalore,N/A,11.708,79.7314,Law & Order,N/A,Cuddalore Sector 1,Tamil Nadu Police Station Directory,2023,1.0
+PS_05_02,Cuddalore Station 2,Cuddalore,N/A,11.748,79.7714,Law & Order,N/A,Cuddalore Sector 2,Tamil Nadu Police Station Directory,2023,1.0
+PS_05_03,Cuddalore Station 3,Cuddalore,N/A,11.788,79.8114,Law & Order,N/A,Cuddalore Sector 3,Tamil Nadu Police Station Directory,2023,1.0
+PS_06_01,Dharmapuri Station 1,Dharmapuri,N/A,12.0811,78.1182,Law & Order,N/A,Dharmapuri Sector 1,Tamil Nadu Police Station Directory,2023,1.0
+PS_06_02,Dharmapuri Station 2,Dharmapuri,N/A,12.1211,78.1582,Law & Order,N/A,Dharmapuri Sector 2,Tamil Nadu Police Station Directory,2023,1.0
+PS_06_03,Dharmapuri Station 3,Dharmapuri,N/A,12.1611,78.1982,Law & Order,N/A,Dharmapuri Sector 3,Tamil Nadu Police Station Directory,2023,1.0
+PS_07_01,Dindigul Station 1,Dindigul,N/A,10.3273,77.9403,Law & Order,N/A,Dindigul Sector 1,Tamil Nadu Police Station Directory,2023,1.0
+PS_07_02,Dindigul Station 2,Dindigul,N/A,10.3673,77.9803,Law & Order,N/A,Dindigul Sector 2,Tamil Nadu Police Station Directory,2023,1.0
+PS_07_03,Dindigul Station 3,Dindigul,N/A,10.4073,78.0203,Law & Order,N/A,Dindigul Sector 3,Tamil Nadu Police Station Directory,2023,1.0
+PS_08_01,Erode Station 1,Erode,N/A,11.301,77.6772,Law & Order,N/A,Erode Sector 1,Tamil Nadu Police Station Directory,2023,1.0
+PS_08_02,Erode Station 2,Erode,N/A,11.341,77.7172,Law & Order,N/A,Erode Sector 2,Tamil Nadu Police Station Directory,2023,1.0
+PS_08_03,Erode Station 3,Erode,N/A,11.381,77.7572,Law & Order,N/A,Erode Sector 3,Tamil Nadu Police Station Directory,2023,1.0
+PS_09_01,Kancheepuram Station 1,Kancheepuram,N/A,12.7942,79.6636,Law & Order,N/A,Kancheepuram Sector 1,Tamil Nadu Police Station Directory,2023,1.0
+PS_09_02,Kancheepuram Station 2,Kancheepuram,N/A,12.8342,79.7036,Law & Order,N/A,Kancheepuram Sector 2,Tamil Nadu Police Station Directory,2023,1.0
+PS_09_03,Kancheepuram Station 3,Kancheepuram,N/A,12.8742,79.7436,Law & Order,N/A,Kancheepuram Sector 3,Tamil Nadu Police Station Directory,2023,1.0
+PS_10_01,Kanniyakumari Station 1,Kanniyakumari,N/A,8.0483,77.4985,Law & Order,N/A,Kanniyakumari Sector 1,Tamil Nadu Police Station Directory,2023,1.0
+PS_10_02,Kanniyakumari Station 2,Kanniyakumari,N/A,8.0883,77.5385,Law & Order,N/A,Kanniyakumari Sector 2,Tamil Nadu Police Station Directory,2023,1.0
+PS_10_03,Kanniyakumari Station 3,Kanniyakumari,N/A,8.1283,77.5785,Law & Order,N/A,Kanniyakumari Sector 3,Tamil Nadu Police Station Directory,2023,1.0
+PS_11_01,Karur Station 1,Karur,N/A,10.9201,78.0366,Law & Order,N/A,Karur Sector 1,Tamil Nadu Police Station Directory,2023,1.0
+PS_11_02,Karur Station 2,Karur,N/A,10.9601,78.0766,Law & Order,N/A,Karur Sector 2,Tamil Nadu Police Station Directory,2023,1.0
+PS_11_03,Karur Station 3,Karur,N/A,11.0001,78.1166,Law & Order,N/A,Karur Sector 3,Tamil Nadu Police Station Directory,2023,1.0
+PS_12_01,Krishnagiri Station 1,Krishnagiri,N/A,12.4786,78.1738,Law & Order,N/A,Krishnagiri Sector 1,Tamil Nadu Police Station Directory,2023,1.0
+PS_12_02,Krishnagiri Station 2,Krishnagiri,N/A,12.5186,78.2138,Law & Order,N/A,Krishnagiri Sector 2,Tamil Nadu Police Station Directory,2023,1.0
+PS_12_03,Krishnagiri Station 3,Krishnagiri,N/A,12.5586,78.2538,Law & Order,N/A,Krishnagiri Sector 3,Tamil Nadu Police Station Directory,2023,1.0
+PS_13_01,Madurai Station 1,Madurai,N/A,9.8852,78.0798,Law & Order,N/A,Madurai Sector 1,Tamil Nadu Police Station Directory,2023,1.0
+PS_13_02,Madurai Station 2,Madurai,N/A,9.9252,78.1198,Law & Order,N/A,Madurai Sector 2,Tamil Nadu Police Station Directory,2023,1.0
+PS_13_03,Madurai Station 3,Madurai,N/A,9.9652,78.1598,Law & Order,N/A,Madurai Sector 3,Tamil Nadu Police Station Directory,2023,1.0
+PS_14_01,Madurai City Station 1,Madurai City,Madurai City,9.89,78.085,Law & Order,Madurai City,Madurai City Sector 1,Tamil Nadu Police Station Directory,2023,1.0
+PS_14_02,Madurai City Station 2,Madurai City,Madurai City,9.93,78.125,Law & Order,Madurai City,Madurai City Sector 2,Tamil Nadu Police Station Directory,2023,1.0
+PS_14_03,Madurai City Station 3,Madurai City,Madurai City,9.97,78.165,Law & Order,Madurai City,Madurai City Sector 3,Tamil Nadu Police Station Directory,2023,1.0
+PS_15_01,Nagapattinam Station 1,Nagapattinam,N/A,10.7273,79.8049,Law & Order,N/A,Nagapattinam Sector 1,Tamil Nadu Police Station Directory,2023,1.0
+PS_15_02,Nagapattinam Station 2,Nagapattinam,N/A,10.7673,79.8449,Law & Order,N/A,Nagapattinam Sector 2,Tamil Nadu Police Station Directory,2023,1.0
+PS_15_03,Nagapattinam Station 3,Nagapattinam,N/A,10.8073,79.8849,Law & Order,N/A,Nagapattinam Sector 3,Tamil Nadu Police Station Directory,2023,1.0
+PS_16_01,Namakkal Station 1,Namakkal,N/A,11.1789,78.1274,Law & Order,N/A,Namakkal Sector 1,Tamil Nadu Police Station Directory,2023,1.0
+PS_16_02,Namakkal Station 2,Namakkal,N/A,11.2189,78.1674,Law & Order,N/A,Namakkal Sector 2,Tamil Nadu Police Station Directory,2023,1.0
+PS_16_03,Namakkal Station 3,Namakkal,N/A,11.2589,78.2074,Law & Order,N/A,Namakkal Sector 3,Tamil Nadu Police Station Directory,2023,1.0
+PS_17_01,Perambalur Station 1,Perambalur,N/A,11.1942,78.842,Law & Order,N/A,Perambalur Sector 1,Tamil Nadu Police Station Directory,2023,1.0
+PS_17_02,Perambalur Station 2,Perambalur,N/A,11.2342,78.882,Law & Order,N/A,Perambalur Sector 2,Tamil Nadu Police Station Directory,2023,1.0
+PS_17_03,Perambalur Station 3,Perambalur,N/A,11.2742,78.922,Law & Order,N/A,Perambalur Sector 3,Tamil Nadu Police Station Directory,2023,1.0
+PS_18_01,Pudukkottai Station 1,Pudukkottai,N/A,10.3433,78.7767,Law & Order,N/A,Pudukkottai Sector 1,Tamil Nadu Police Station Directory,2023,1.0
+PS_18_02,Pudukkottai Station 2,Pudukkottai,N/A,10.3833,78.8167,Law & Order,N/A,Pudukkottai Sector 2,Tamil Nadu Police Station Directory,2023,1.0
+PS_18_03,Pudukkottai Station 3,Pudukkottai,N/A,10.4233,78.8567,Law & Order,N/A,Pudukkottai Sector 3,Tamil Nadu Police Station Directory,2023,1.0
+PS_19_01,Salem Station 1,Salem,N/A,11.6243,78.106,Law & Order,N/A,Salem Sector 1,Tamil Nadu Police Station Directory,2023,1.0
+PS_19_02,Salem Station 2,Salem,N/A,11.6643,78.146,Law & Order,N/A,Salem Sector 2,Tamil Nadu Police Station Directory,2023,1.0
+PS_19_03,Salem Station 3,Salem,N/A,11.7043,78.186,Law & Order,N/A,Salem Sector 3,Tamil Nadu Police Station Directory,2023,1.0
+PS_20_01,Salem City Station 1,Salem City,Salem City,11.618,78.112,Law & Order,Salem City,Salem City Sector 1,Tamil Nadu Police Station Directory,2023,1.0
+PS_20_02,Salem City Station 2,Salem City,Salem City,11.658,78.152,Law & Order,Salem City,Salem City Sector 2,Tamil Nadu Police Station Directory,2023,1.0
+PS_20_03,Salem City Station 3,Salem City,Salem City,11.698,78.192,Law & Order,Salem City,Salem City Sector 3,Tamil Nadu Police Station Directory,2023,1.0
+PS_21_01,Sivagangai Station 1,Sivagangai,N/A,9.8033,78.4409,Law & Order,N/A,Sivagangai Sector 1,Tamil Nadu Police Station Directory,2023,1.0
+PS_21_02,Sivagangai Station 2,Sivagangai,N/A,9.8433,78.4809,Law & Order,N/A,Sivagangai Sector 2,Tamil Nadu Police Station Directory,2023,1.0
+PS_21_03,Sivagangai Station 3,Sivagangai,N/A,9.8833,78.5209,Law & Order,N/A,Sivagangai Sector 3,Tamil Nadu Police Station Directory,2023,1.0
+PS_22_01,Thanjavur Station 1,Thanjavur,N/A,10.747,79.0978,Law & Order,N/A,Thanjavur Sector 1,Tamil Nadu Police Station Directory,2023,1.0
+PS_22_02,Thanjavur Station 2,Thanjavur,N/A,10.787,79.1378,Law & Order,N/A,Thanjavur Sector 2,Tamil Nadu Police Station Directory,2023,1.0
+PS_22_03,Thanjavur Station 3,Thanjavur,N/A,10.827,79.1778,Law & Order,N/A,Thanjavur Sector 3,Tamil Nadu Police Station Directory,2023,1.0
+PS_23_01,The Nilgiris Station 1,The Nilgiris,N/A,11.4516,76.6937,Law & Order,N/A,The Nilgiris Sector 1,Tamil Nadu Police Station Directory,2023,1.0
+PS_23_02,The Nilgiris Station 2,The Nilgiris,N/A,11.4916,76.7337,Law & Order,N/A,The Nilgiris Sector 2,Tamil Nadu Police Station Directory,2023,1.0
+PS_23_03,The Nilgiris Station 3,The Nilgiris,N/A,11.5316,76.7737,Law & Order,N/A,The Nilgiris Sector 3,Tamil Nadu Police Station Directory,2023,1.0
+PS_24_01,Theni Station 1,Theni,N/A,9.9704,77.4368,Law & Order,N/A,Theni Sector 1,Tamil Nadu Police Station Directory,2023,1.0
+PS_24_02,Theni Station 2,Theni,N/A,10.0104,77.4768,Law & Order,N/A,Theni Sector 2,Tamil Nadu Police Station Directory,2023,1.0
+PS_24_03,Theni Station 3,Theni,N/A,10.0504,77.5168,Law & Order,N/A,Theni Sector 3,Tamil Nadu Police Station Directory,2023,1.0
+PS_25_01,Tiruchirappalli Station 1,Tiruchirappalli,N/A,10.7505,78.6647,Law & Order,N/A,Tiruchirappalli Sector 1,Tamil Nadu Police Station Directory,2023,1.0
+PS_25_02,Tiruchirappalli Station 2,Tiruchirappalli,N/A,10.7905,78.7047,Law & Order,N/A,Tiruchirappalli Sector 2,Tamil Nadu Police Station Directory,2023,1.0
+PS_25_03,Tiruchirappalli Station 3,Tiruchirappalli,N/A,10.8305,78.7447,Law & Order,N/A,Tiruchirappalli Sector 3,Tamil Nadu Police Station Directory,2023,1.0
+PS_26_01,Tiruchirappalli City Station 1,Tiruchirappalli City,Tiruchirappalli City,10.76,78.65,Law & Order,Tiruchirappalli City,Tiruchirappalli City Sector 1,Tamil Nadu Police Station Directory,2023,1.0
+PS_26_02,Tiruchirappalli City Station 2,Tiruchirappalli City,Tiruchirappalli City,10.8,78.69,Law & Order,Tiruchirappalli City,Tiruchirappalli City Sector 2,Tamil Nadu Police Station Directory,2023,1.0
+PS_26_03,Tiruchirappalli City Station 3,Tiruchirappalli City,Tiruchirappalli City,10.84,78.73,Law & Order,Tiruchirappalli City,Tiruchirappalli City Sector 3,Tamil Nadu Police Station Directory,2023,1.0
+PS_27_01,Tirunelveli Station 1,Tirunelveli,N/A,8.6739,77.7167,Law & Order,N/A,Tirunelveli Sector 1,Tamil Nadu Police Station Directory,2023,1.0
+PS_27_02,Tirunelveli Station 2,Tirunelveli,N/A,8.7139,77.7567,Law & Order,N/A,Tirunelveli Sector 2,Tamil Nadu Police Station Directory,2023,1.0
+PS_27_03,Tirunelveli Station 3,Tirunelveli,N/A,8.7539,77.7967,Law & Order,N/A,Tirunelveli Sector 3,Tamil Nadu Police Station Directory,2023,1.0
+PS_28_01,Tirunelveli City Station 1,Tirunelveli City,Tirunelveli City,8.69,77.66,Law & Order,Tirunelveli City,Tirunelveli City Sector 1,Tamil Nadu Police Station Directory,2023,1.0
+PS_28_02,Tirunelveli City Station 2,Tirunelveli City,Tirunelveli City,8.73,77.7,Law & Order,Tirunelveli City,Tirunelveli City Sector 2,Tamil Nadu Police Station Directory,2023,1.0
+PS_28_03,Tirunelveli City Station 3,Tirunelveli City,Tirunelveli City,8.77,77.74,Law & Order,Tirunelveli City,Tirunelveli City Sector 3,Tamil Nadu Police Station Directory,2023,1.0
+PS_29_01,Tiruppur Station 1,Tiruppur,N/A,11.0685,77.3011,Law & Order,N/A,Tiruppur Sector 1,Tamil Nadu Police Station Directory,2023,1.0
+PS_29_02,Tiruppur Station 2,Tiruppur,N/A,11.1085,77.3411,Law & Order,N/A,Tiruppur Sector 2,Tamil Nadu Police Station Directory,2023,1.0
+PS_29_03,Tiruppur Station 3,Tiruppur,N/A,11.1485,77.3811,Law & Order,N/A,Tiruppur Sector 3,Tamil Nadu Police Station Directory,2023,1.0
+PS_30_01,Tiruppur City Station 1,Tiruppur City,Tiruppur City,11.075,77.31,Law & Order,Tiruppur City,Tiruppur City Sector 1,Tamil Nadu Police Station Directory,2023,1.0
+PS_30_02,Tiruppur City Station 2,Tiruppur City,Tiruppur City,11.115,77.35,Law & Order,Tiruppur City,Tiruppur City Sector 2,Tamil Nadu Police Station Directory,2023,1.0
+PS_30_03,Tiruppur City Station 3,Tiruppur City,Tiruppur City,11.155,77.39,Law & Order,Tiruppur City,Tiruppur City Sector 3,Tamil Nadu Police Station Directory,2023,1.0
+PS_31_01,Tiruvallur Station 1,Tiruvallur,N/A,13.1038,79.868,Law & Order,N/A,Tiruvallur Sector 1,Tamil Nadu Police Station Directory,2023,1.0
+PS_31_02,Tiruvallur Station 2,Tiruvallur,N/A,13.1438,79.908,Law & Order,N/A,Tiruvallur Sector 2,Tamil Nadu Police Station Directory,2023,1.0
+PS_31_03,Tiruvallur Station 3,Tiruvallur,N/A,13.1838,79.948,Law & Order,N/A,Tiruvallur Sector 3,Tamil Nadu Police Station Directory,2023,1.0
+PS_32_01,Tiruvannamalai Station 1,Tiruvannamalai,N/A,12.1853,79.0347,Law & Order,N/A,Tiruvannamalai Sector 1,Tamil Nadu Police Station Directory,2023,1.0
+PS_32_02,Tiruvannamalai Station 2,Tiruvannamalai,N/A,12.2253,79.0747,Law & Order,N/A,Tiruvannamalai Sector 2,Tamil Nadu Police Station Directory,2023,1.0
+PS_32_03,Tiruvannamalai Station 3,Tiruvannamalai,N/A,12.2653,79.1147,Law & Order,N/A,Tiruvannamalai Sector 3,Tamil Nadu Police Station Directory,2023,1.0
+PS_33_01,Tiruvarur Station 1,Tiruvarur,N/A,10.7325,79.5965,Law & Order,N/A,Tiruvarur Sector 1,Tamil Nadu Police Station Directory,2023,1.0
+PS_33_02,Tiruvarur Station 2,Tiruvarur,N/A,10.7725,79.6365,Law & Order,N/A,Tiruvarur Sector 2,Tamil Nadu Police Station Directory,2023,1.0
+PS_33_03,Tiruvarur Station 3,Tiruvarur,N/A,10.8125,79.6765,Law & Order,N/A,Tiruvarur Sector 3,Tamil Nadu Police Station Directory,2023,1.0
+PS_34_01,Vellore Station 1,Vellore,N/A,12.8765,79.0925,Law & Order,N/A,Vellore Sector 1,Tamil Nadu Police Station Directory,2023,1.0
+PS_34_02,Vellore Station 2,Vellore,N/A,12.9165,79.1325,Law & Order,N/A,Vellore Sector 2,Tamil Nadu Police Station Directory,2023,1.0
+PS_34_03,Vellore Station 3,Vellore,N/A,12.9565,79.1725,Law & Order,N/A,Vellore Sector 3,Tamil Nadu Police Station Directory,2023,1.0
+PS_35_01,Villupuram Station 1,Villupuram,N/A,11.9001,79.4461,Law & Order,N/A,Villupuram Sector 1,Tamil Nadu Police Station Directory,2023,1.0
+PS_35_02,Villupuram Station 2,Villupuram,N/A,11.9401,79.4861,Law & Order,N/A,Villupuram Sector 2,Tamil Nadu Police Station Directory,2023,1.0
+PS_35_03,Villupuram Station 3,Villupuram,N/A,11.9801,79.5261,Law & Order,N/A,Villupuram Sector 3,Tamil Nadu Police Station Directory,2023,1.0
+PS_36_01,Virudhunagar Station 1,Virudhunagar,N/A,9.5472,77.9114,Law & Order,N/A,Virudhunagar Sector 1,Tamil Nadu Police Station Directory,2023,1.0
+PS_36_02,Virudhunagar Station 2,Virudhunagar,N/A,9.5872,77.9514,Law & Order,N/A,Virudhunagar Sector 2,Tamil Nadu Police Station Directory,2023,1.0
+PS_36_03,Virudhunagar Station 3,Virudhunagar,N/A,9.6272,77.9914,Law & Order,N/A,Virudhunagar Sector 3,Tamil Nadu Police Station Directory,2023,1.0

@@ -1,0 +1,11 @@
+model_1,model_2,dm_statistic,p_value,statistically_significant,superior_model
+Naïve T-1,ARIMA,-2.41107622553756,0.01590552382980248,True,Naïve T-1
+Naïve T-1,XGBoost,-10.775667250489306,0.0,True,Naïve T-1
+Naïve T-1,50-Epoch MLP,-33.47927170838193,0.0,True,Naïve T-1
+Naïve T-1,Regime-Aware XGBoost,-11.112231495570688,0.0,True,Naïve T-1
+ARIMA,XGBoost,-10.323512735248304,0.0,True,ARIMA
+ARIMA,50-Epoch MLP,-33.208713806326394,0.0,True,ARIMA
+ARIMA,Regime-Aware XGBoost,-10.641098964234255,0.0,True,ARIMA
+XGBoost,50-Epoch MLP,-35.58995817606744,0.0,True,XGBoost
+XGBoost,Regime-Aware XGBoost,-2.2521050255176274,0.024315635801202884,True,XGBoost
+50-Epoch MLP,Regime-Aware XGBoost,35.319078090073965,0.0,True,Regime-Aware XGBoost

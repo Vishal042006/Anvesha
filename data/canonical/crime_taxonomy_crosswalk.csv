@@ -1,0 +1,89 @@
+source_category,canonical_category,parent_category,relationship_type,source_dataset
+Murder,MURDER,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Attempt to commit Murder,ATTEMPT_TO_COMMIT_MURDER,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Culpable Homicide not amounting to Murder,CULPABLE_HOMICIDE_NOT_AMOUNTING_TO_MURDER,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Attempt to commit Culpable Homicide,ATTEMPT_TO_COMMIT_CULPABLE_HOMICIDE,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Rape,RAPE,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Custodial Rape,CUSTODIAL_RAPE,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Custodial_Gang Rape,CUSTODIAL_GANG_RAPE,IPC_TOTAL,COMPONENT,Indian-Crime-Data
+Custodial_Other Rape,CUSTODIAL_OTHER_RAPE,IPC_TOTAL,COMPONENT,Indian-Crime-Data
+Rape other than Custodial,RAPE_OTHER_THAN_CUSTODIAL,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Rape_Gang Rape,RAPE_GANG_RAPE,IPC_TOTAL,COMPONENT,Indian-Crime-Data
+Rape_Others,RAPE_OTHERS,IPC_TOTAL,COMPONENT,Indian-Crime-Data
+Attempt to commit Rape,ATTEMPT_TO_COMMIT_RAPE,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Kidnapping & Abduction_Total,KIDNAPPING_&_ABDUCTION_TOTAL,ROOT,TOTAL,Indian-Crime-Data
+Kidnapping & Abduction,KIDNAPPING_&_ABDUCTION,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Kidnapping & Abduction in order to Murder,KIDNAPPING_&_ABDUCTION_IN_ORDER_TO_MURDER,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Kidnapping for Ransom,KIDNAPPING_FOR_RANSOM,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Kidnapping & Abduction of Women to compel her for marriage,KIDNAPPING_&_ABDUCTION_OF_WOMEN_TO_COMPEL_HER_FOR_MARRIAGE,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Other Kidnapping,OTHER_KIDNAPPING,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Dacoity,DACOITY,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Dacoity with Murder,DACOITY_WITH_MURDER,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Other Dacoity,OTHER_DACOITY,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Making Preparation and Assembly for committing Dacoity,MAKING_PREPARATION_AND_ASSEMBLY_FOR_COMMITTING_DACOITY,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Robbery,ROBBERY,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Criminal Trespass/Burglary,CRIMINAL_TRESPASS/BURGLARY,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Criminal Trespass or Burglary,CRIMINAL_TRESPASS_OR_BURGLARY,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+House Trespass & House Breaking,HOUSE_TRESPASS_&_HOUSE_BREAKING,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Theft,THEFT,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Auto Theft,AUTO_THEFT,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Other Thefts,OTHER_THEFTS,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Unlawful Assembly,UNLAWFUL_ASSEMBLY,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Riots,RIOTS,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Riots_Communal,RIOTS_COMMUNAL,IPC_TOTAL,COMPONENT,Indian-Crime-Data
+Riots_Industrial,RIOTS_INDUSTRIAL,IPC_TOTAL,COMPONENT,Indian-Crime-Data
+Riots_Political,RIOTS_POLITICAL,IPC_TOTAL,COMPONENT,Indian-Crime-Data
+Riots_Caste Conflict,RIOTS_CASTE_CONFLICT,IPC_TOTAL,COMPONENT,Indian-Crime-Data
+Riots_SC/STs Vs Non-SCs/STs,RIOTS_SC/STS_VS_NON-SCS/STS,IPC_TOTAL,COMPONENT,Indian-Crime-Data
+Riots_Other Caste Conflict,RIOTS_OTHER_CASTE_CONFLICT,IPC_TOTAL,COMPONENT,Indian-Crime-Data
+Riots_Agrarian,RIOTS_AGRARIAN,IPC_TOTAL,COMPONENT,Indian-Crime-Data
+Riots_Students,RIOTS_STUDENTS,IPC_TOTAL,COMPONENT,Indian-Crime-Data
+Riots_Sectarian,RIOTS_SECTARIAN,IPC_TOTAL,COMPONENT,Indian-Crime-Data
+Riots_Others,RIOTS_OTHERS,IPC_TOTAL,COMPONENT,Indian-Crime-Data
+Criminal Breach of Trust,CRIMINAL_BREACH_OF_TRUST,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Cheating,CHEATING,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Forgery,FORGERY,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Counterfeiting,COUNTERFEITING,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Counterfeit Offences related to Counterfeit Coin,COUNTERFEIT_OFFENCES_RELATED_TO_COUNTERFEIT_COIN,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Counterfeiting Government Stamp,COUNTERFEITING_GOVERNMENT_STAMP,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Counterfeit currency & Bank notes,COUNTERFEIT_CURRENCY_&_BANK_NOTES,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Counterfeiting currency notes/Bank notes,COUNTERFEITING_CURRENCY_NOTES/BANK_NOTES,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Using forged or counterfeiting currency/Bank notes,USING_FORGED_OR_COUNTERFEITING_CURRENCY/BANK_NOTES,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Possession of forged or counterfeiting currency/Bank notes,POSSESSION_OF_FORGED_OR_COUNTERFEITING_CURRENCY/BANK_NOTES,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Making or Possessing materials for forged currency/Bank notes,MAKING_OR_POSSESSING_MATERIALS_FOR_FORGED_CURRENCY/BANK_NOTES,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Making or Using documents resembling currency,MAKING_OR_USING_DOCUMENTS_RESEMBLING_CURRENCY,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Arson,ARSON,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Grievous Hurt,GRIEVOUS_HURT,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Hurt,HURT,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Acid attack,ACID_ATTACK,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Attempt to Acid Attack,ATTEMPT_TO_ACID_ATTACK,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Dowry Deaths,DOWRY_DEATHS,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Assault on Women with intent to outrage her Modesty,ASSAULT_ON_WOMEN_WITH_INTENT_TO_OUTRAGE_HER_MODESTY,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Sexual Harassment,SEXUAL_HARASSMENT,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Assault or use of criminal force to women with intent to Disrobe,ASSAULT_OR_USE_OF_CRIMINAL_FORCE_TO_WOMEN_WITH_INTENT_TO_DISROBE,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Voyeurism,VOYEURISM,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Stalking,STALKING,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Other Assault on Women,OTHER_ASSAULT_ON_WOMEN,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Insult to the Modesty of Women,INSULT_TO_THE_MODESTY_OF_WOMEN,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+At Office premises,AT_OFFICE_PREMISES,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Other places related to work,OTHER_PLACES_RELATED_TO_WORK,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+In Public Transport system,IN_PUBLIC_TRANSPORT_SYSTEM,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+"Places other than 231, 232 & 233","PLACES_OTHER_THAN_231,_232_&_233",IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Cruelty by Husband or his Relatives,CRUELTY_BY_HUSBAND_OR_HIS_RELATIVES,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Importation of Girls from Foreign Country,IMPORTATION_OF_GIRLS_FROM_FOREIGN_COUNTRY,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Causing Death by Negligence,CAUSING_DEATH_BY_NEGLIGENCE,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Deaths due to negligent driving/act,DEATHS_DUE_TO_NEGLIGENT_DRIVING/ACT,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Deaths due to Other Causes,DEATHS_DUE_TO_OTHER_CAUSES,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Offences against State,OFFENCES_AGAINST_STATE,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Sedition,SEDITION,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Other offences against State,OTHER_OFFENCES_AGAINST_STATE,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Offences promoting enmity between different groups,OFFENCES_PROMOTING_ENMITY_BETWEEN_DIFFERENT_GROUPS,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Promoting enmity between different groups,PROMOTING_ENMITY_BETWEEN_DIFFERENT_GROUPS,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+"Imputation, assertions prejudicial to national integration","IMPUTATION,_ASSERTIONS_PREJUDICIAL_TO_NATIONAL_INTEGRATION",IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Extortion,EXTORTION,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Disclosure of Identity of Victims,DISCLOSURE_OF_IDENTITY_OF_VICTIMS,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Incidence of Rash Driving,INCIDENCE_OF_RASH_DRIVING,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+HumanTrafficking,HUMANTRAFFICKING,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Unnatural Offence,UNNATURAL_OFFENCE,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Other IPC crimes,OTHER_IPC_CRIMES,IPC_TOTAL,INDEPENDENT,Indian-Crime-Data
+Total Cognizable IPC crimes,TOTAL_COGNIZABLE_IPC_CRIMES,ROOT,TOTAL,Indian-Crime-Data

@@ -13,7 +13,7 @@ interface HistoryPoint {
 
 export const CrimeExplorerPage: React.FC = () => {
   const [categories, setCategories] = useState<string[]>([]);
-  const [selectedDistrict, setSelectedDistrict] = useState<string>('Chennai City');
+  const [selectedDistrict, setSelectedDistrict] = useState<string>('Chennai');
   const [selectedCategory, setSelectedCategory] = useState<string>('TOTAL IPC CRIMES');
   const [selectedMetric, setSelectedMetric] = useState<'count' | 'rate'>('count');
   const [historyData, setHistoryData] = useState<HistoryPoint[]>([]);
@@ -26,13 +26,12 @@ export const CrimeExplorerPage: React.FC = () => {
   const [loading, setLoading] = useState<boolean>(true);
 
   const districts = [
-    'Ariyalur', 'Chennai City', 'Coimbatore', 'Coimbatore City', 'Cuddalore', 'Dharmapuri',
+    'Ariyalur', 'Chennai', 'Coimbatore', 'Cuddalore', 'Dharmapuri',
     'Dindigul', 'Erode', 'Kancheepuram', 'Kanniyakumari', 'Karur', 'Krishnagiri',
-    'Madurai', 'Madurai City', 'Nagapattinam', 'Namakkal', 'Perambalur', 'Pudukkottai',
-    'Salem', 'Salem City', 'Sivagangai', 'Thanjavur', 'The Nilgiris', 'Theni',
-    'Tiruchirappalli', 'Tiruchirappalli City', 'Tirunelveli', 'Tirunelveli City',
-    'Tiruppur', 'Tiruppur City', 'Tiruvallur', 'Tiruvannamalai', 'Tiruvarur', 'Vellore',
-    'Villupuram', 'Virudhunagar'
+    'Madurai', 'Nagapattinam', 'Namakkal', 'Perambalur', 'Pudukkottai',
+    'Salem', 'Sivagangai', 'Thanjavur', 'The Nilgiris', 'Theni',
+    'Tiruchirappalli', 'Tirunelveli', 'Tiruppur', 'Tiruvallur', 'Tiruvannamalai',
+    'Tiruvarur', 'Vellore', 'Villupuram', 'Virudhunagar'
   ];
 
   useEffect(() => {

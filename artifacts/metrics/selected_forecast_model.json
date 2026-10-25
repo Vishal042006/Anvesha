@@ -1,0 +1,13 @@
+{
+  "selected_model_id": "ANV-FC-BEST-001",
+  "model_name": "T-1 Persistence",
+  "task": "Next-Year Crime Forecasting",
+  "selection_policy": "Lowest MAE and WAPE on verified chronological test fold",
+  "metrics": {
+    "mae": 2130.328197226502,
+    "rmse": 15910.863836967521,
+    "wape": 24.77816584119556,
+    "r2": 0.7537997116218997
+  },
+  "selection_timestamp": "2026-10-06T08:16:31.177634"
+}

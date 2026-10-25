@@ -26,7 +26,7 @@
     "scheduler": "N/A",
     "loss_function": "N/A",
     "device": "mps",
-    "hardware": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "hardware": "macOS-26.6.2-arm64-arm-64bit",
     "MAE": 571.73,
     "RMSE": 1187.47,
     "WAPE": 10.92,
@@ -47,7 +47,7 @@
     "artifact_path": "N/A",
     "checkpoint_path": "N/A",
     "status": "COMPLETED",
-    "timestamp": "2026-10-05T19:17:10.573081"
+    "timestamp": "2026-10-06T07:44:14.497573"
   },
   {
     "experiment_id": "ANV-FC-3YEAR-MEAN-001",
@@ -76,7 +76,7 @@
     "scheduler": "N/A",
     "loss_function": "N/A",
     "device": "mps",
-    "hardware": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "hardware": "macOS-26.6.2-arm64-arm-64bit",
     "MAE": 734.6,
     "RMSE": 1666.81,
     "WAPE": 14.03,
@@ -97,7 +97,7 @@
     "artifact_path": "N/A",
     "checkpoint_path": "N/A",
     "status": "COMPLETED",
-    "timestamp": "2026-10-05T19:17:10.590967"
+    "timestamp": "2026-10-06T07:44:14.507866"
   },
   {
     "experiment_id": "ANV-FC-RIDGE-001",
@@ -126,7 +126,7 @@
     "scheduler": "N/A",
     "loss_function": "N/A",
     "device": "mps",
-    "hardware": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "hardware": "macOS-26.6.2-arm64-arm-64bit",
     "MAE": 610.09,
     "RMSE": 1227.51,
     "WAPE": 11.65,
@@ -139,15 +139,15 @@
     "weighted_f1": "N/A",
     "balanced_accuracy": "N/A",
     "anomaly_rate": "N/A",
-    "training_wall_time_sec": 0.0135,
+    "training_wall_time_sec": 0.0104,
     "inference_time_sec": 0.0,
-    "total_experiment_time_sec": 0.0136,
+    "total_experiment_time_sec": 0.0104,
     "model_size_mb": 0.0006,
     "random_seed": 42,
     "artifact_path": "artifacts/models/forecast/ridge.joblib",
     "checkpoint_path": "artifacts/models/forecast/ridge.joblib",
     "status": "COMPLETED",
-    "timestamp": "2026-10-05T19:17:10.612574"
+    "timestamp": "2026-10-06T07:44:14.525362"
   },
   {
     "experiment_id": "ANV-FC-RF-001",
@@ -176,7 +176,7 @@
     "scheduler": "N/A",
     "loss_function": "N/A",
     "device": "mps",
-    "hardware": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "hardware": "macOS-26.6.2-arm64-arm-64bit",
     "MAE": 838.93,
     "RMSE": 1592.82,
     "WAPE": 16.02,
@@ -189,15 +189,15 @@
     "weighted_f1": "N/A",
     "balanced_accuracy": "N/A",
     "anomaly_rate": "N/A",
-    "training_wall_time_sec": 0.0984,
+    "training_wall_time_sec": 0.0928,
     "inference_time_sec": 0.0001,
-    "total_experiment_time_sec": 0.0985,
+    "total_experiment_time_sec": 0.0929,
     "model_size_mb": 0.6297,
     "random_seed": 42,
     "artifact_path": "artifacts/models/forecast/random_forest.joblib",
     "checkpoint_path": "artifacts/models/forecast/random_forest.joblib",
     "status": "COMPLETED",
-    "timestamp": "2026-10-05T19:17:10.739476"
+    "timestamp": "2026-10-06T07:44:14.643393"
   },
   {
     "experiment_id": "ANV-FC-XGBOOST-001",
@@ -226,7 +226,7 @@
     "scheduler": "N/A",
     "loss_function": "N/A",
     "device": "mps",
-    "hardware": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "hardware": "macOS-26.6.2-arm64-arm-64bit",
     "MAE": 887.45,
     "RMSE": 1689.96,
     "WAPE": 16.95,
@@ -239,15 +239,15 @@
     "weighted_f1": "N/A",
     "balanced_accuracy": "N/A",
     "anomaly_rate": "N/A",
-    "training_wall_time_sec": 0.1363,
+    "training_wall_time_sec": 0.1248,
     "inference_time_sec": 0.0,
-    "total_experiment_time_sec": 0.1364,
+    "total_experiment_time_sec": 0.1248,
     "model_size_mb": 0.166,
     "random_seed": 42,
     "artifact_path": "artifacts/models/forecast/xgboost.json",
     "checkpoint_path": "artifacts/models/forecast/xgboost.json",
     "status": "COMPLETED",
-    "timestamp": "2026-10-05T19:17:10.888040"
+    "timestamp": "2026-10-06T07:44:14.779264"
   },
   {
     "experiment_id": "ANV-FC-LIGHTGBM-001",
@@ -276,7 +276,7 @@
     "scheduler": "N/A",
     "loss_function": "N/A",
     "device": "mps",
-    "hardware": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "hardware": "macOS-26.6.2-arm64-arm-64bit",
     "MAE": 857.71,
     "RMSE": 1723.23,
     "WAPE": 16.38,
@@ -289,15 +289,15 @@
     "weighted_f1": "N/A",
     "balanced_accuracy": "N/A",
     "anomaly_rate": "N/A",
-    "training_wall_time_sec": 0.1117,
+    "training_wall_time_sec": 0.1039,
     "inference_time_sec": 0.0,
-    "total_experiment_time_sec": 0.1118,
+    "total_experiment_time_sec": 0.1039,
     "model_size_mb": 0.0735,
     "random_seed": 42,
     "artifact_path": "artifacts/models/forecast/lightgbm.txt",
     "checkpoint_path": "artifacts/models/forecast/lightgbm.txt",
     "status": "COMPLETED",
-    "timestamp": "2026-10-05T19:17:11.009253"
+    "timestamp": "2026-10-06T07:44:14.893167"
   },
   {
     "experiment_id": "ANV-FC-MLP-001",
@@ -326,7 +326,7 @@
     "scheduler": "ReduceLROnPlateau",
     "loss_function": "Huber Loss",
     "device": "mps",
-    "hardware": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "hardware": "macOS-26.6.2-arm64-arm-64bit",
     "MAE": 590.64,
     "RMSE": 1256.61,
     "WAPE": 11.28,
@@ -339,15 +339,15 @@
     "weighted_f1": "N/A",
     "balanced_accuracy": "N/A",
     "anomaly_rate": "N/A",
-    "training_wall_time_sec": 2.5912,
+    "training_wall_time_sec": 2.7443,
     "inference_time_sec": 0.0001,
-    "total_experiment_time_sec": 2.5913,
+    "total_experiment_time_sec": 2.7443,
     "model_size_mb": 0.0056,
     "random_seed": 42,
     "artifact_path": "artifacts/models/mlp/best_model.pt",
     "checkpoint_path": "artifacts/models/mlp/best_model.pt",
     "status": "COMPLETED",
-    "timestamp": "2026-10-05T19:17:15.656944"
+    "timestamp": "2026-10-06T07:44:20.390564"
   },
   {
     "experiment_id": "ANV-FC-LSTM-001",
@@ -376,7 +376,7 @@
     "scheduler": "ReduceLROnPlateau",
     "loss_function": "Huber Loss",
     "device": "mps",
-    "hardware": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "hardware": "macOS-26.6.2-arm64-arm-64bit",
     "MAE": 5099.83,
     "RMSE": 6218.92,
     "WAPE": 97.38,
@@ -389,14 +389,14 @@
     "weighted_f1": "N/A",
     "balanced_accuracy": "N/A",
     "anomaly_rate": "N/A",
-    "training_wall_time_sec": 6.9409,
+    "training_wall_time_sec": 2.4157,
     "inference_time_sec": 0.0002,
-    "total_experiment_time_sec": 6.9412,
+    "total_experiment_time_sec": 2.4159,
     "model_size_mb": 0.0075,
     "random_seed": 42,
     "artifact_path": "artifacts/models/lstm/best_model.pt",
     "checkpoint_path": "artifacts/models/lstm/best_model.pt",
     "status": "COMPLETED",
-    "timestamp": "2026-10-05T19:17:23.592664"
+    "timestamp": "2026-10-06T07:44:23.239407"
   }
 ]

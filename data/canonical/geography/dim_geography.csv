@@ -1,0 +1,39 @@
+geography_id,name,normalized_name,geography_type,district,state,valid_from,valid_to,latitude,longitude,geometry_source,mapping_status,source
+GEO_TN_001,Ariyalur,ARIYALUR,District,Ariyalur,Tamil Nadu,2001,2025,11.1401,79.0786,Census Geocoding / Point Centroid,EXACT,ANVESHA Geographic Crosswalk
+GEO_TN_002,Chennai City,CHENNAI CITY,Commissionerate,Chennai City,Tamil Nadu,2001,2025,13.0827,80.2707,Census Geocoding / Point Centroid,EXACT,ANVESHA Geographic Crosswalk
+GEO_TN_003,Coimbatore,COIMBATORE,District,Coimbatore,Tamil Nadu,2001,2025,11.0168,76.9558,Census Geocoding / Point Centroid,EXACT,ANVESHA Geographic Crosswalk
+GEO_TN_004,Coimbatore City,COIMBATORE CITY,Commissionerate,Coimbatore City,Tamil Nadu,2001,2025,11.005,76.966,Census Geocoding / Point Centroid,EXACT,ANVESHA Geographic Crosswalk
+GEO_TN_005,Cuddalore,CUDDALORE,District,Cuddalore,Tamil Nadu,2001,2025,11.748,79.7714,Census Geocoding / Point Centroid,EXACT,ANVESHA Geographic Crosswalk
+GEO_TN_006,Dharmapuri,DHARMAPURI,District,Dharmapuri,Tamil Nadu,2001,2025,12.1211,78.1582,Census Geocoding / Point Centroid,EXACT,ANVESHA Geographic Crosswalk
+GEO_TN_007,Dindigul,DINDIGUL,District,Dindigul,Tamil Nadu,2001,2025,10.3673,77.9803,Census Geocoding / Point Centroid,EXACT,ANVESHA Geographic Crosswalk
+GEO_TN_008,Erode,ERODE,District,Erode,Tamil Nadu,2001,2025,11.341,77.7172,Census Geocoding / Point Centroid,EXACT,ANVESHA Geographic Crosswalk
+GEO_TN_009,Kancheepuram,KANCHEEPURAM,District,Kancheepuram,Tamil Nadu,2001,2025,12.8342,79.7036,Census Geocoding / Point Centroid,EXACT,ANVESHA Geographic Crosswalk
+GEO_TN_010,Kanniyakumari,KANNIYAKUMARI,District,Kanniyakumari,Tamil Nadu,2001,2025,8.0883,77.5385,Census Geocoding / Point Centroid,EXACT,ANVESHA Geographic Crosswalk
+GEO_TN_011,Karur,KARUR,District,Karur,Tamil Nadu,2001,2025,10.9601,78.0766,Census Geocoding / Point Centroid,EXACT,ANVESHA Geographic Crosswalk
+GEO_TN_012,Krishnagiri,KRISHNAGIRI,District,Krishnagiri,Tamil Nadu,2001,2025,12.5186,78.2138,Census Geocoding / Point Centroid,EXACT,ANVESHA Geographic Crosswalk
+GEO_TN_013,Madurai,MADURAI,District,Madurai,Tamil Nadu,2001,2025,9.9252,78.1198,Census Geocoding / Point Centroid,EXACT,ANVESHA Geographic Crosswalk
+GEO_TN_014,Madurai City,MADURAI CITY,Commissionerate,Madurai City,Tamil Nadu,2001,2025,9.93,78.125,Census Geocoding / Point Centroid,EXACT,ANVESHA Geographic Crosswalk
+GEO_TN_015,Nagapattinam,NAGAPATTINAM,District,Nagapattinam,Tamil Nadu,2001,2025,10.7673,79.8449,Census Geocoding / Point Centroid,EXACT,ANVESHA Geographic Crosswalk
+GEO_TN_016,Namakkal,NAMAKKAL,District,Namakkal,Tamil Nadu,2001,2025,11.2189,78.1674,Census Geocoding / Point Centroid,EXACT,ANVESHA Geographic Crosswalk
+GEO_TN_017,Perambalur,PERAMBALUR,District,Perambalur,Tamil Nadu,2001,2025,11.2342,78.882,Census Geocoding / Point Centroid,EXACT,ANVESHA Geographic Crosswalk
+GEO_TN_018,Pudukkottai,PUDUKKOTTAI,District,Pudukkottai,Tamil Nadu,2001,2025,10.3833,78.8167,Census Geocoding / Point Centroid,EXACT,ANVESHA Geographic Crosswalk
+GEO_TN_019,Salem,SALEM,District,Salem,Tamil Nadu,2001,2025,11.6643,78.146,Census Geocoding / Point Centroid,EXACT,ANVESHA Geographic Crosswalk
+GEO_TN_020,Salem City,SALEM CITY,Commissionerate,Salem City,Tamil Nadu,2001,2025,11.658,78.152,Census Geocoding / Point Centroid,EXACT,ANVESHA Geographic Crosswalk
+GEO_TN_021,Sivagangai,SIVAGANGAI,District,Sivagangai,Tamil Nadu,2001,2025,9.8433,78.4809,Census Geocoding / Point Centroid,EXACT,ANVESHA Geographic Crosswalk
+GEO_TN_022,Thanjavur,THANJAVUR,District,Thanjavur,Tamil Nadu,2001,2025,10.787,79.1378,Census Geocoding / Point Centroid,EXACT,ANVESHA Geographic Crosswalk
+GEO_TN_023,The Nilgiris,THE NILGIRIS,District,The Nilgiris,Tamil Nadu,2001,2025,11.4916,76.7337,Census Geocoding / Point Centroid,EXACT,ANVESHA Geographic Crosswalk
+GEO_TN_024,Theni,THENI,District,Theni,Tamil Nadu,2001,2025,10.0104,77.4768,Census Geocoding / Point Centroid,EXACT,ANVESHA Geographic Crosswalk
+GEO_TN_025,Tiruchirappalli,TIRUCHIRAPPALLI,District,Tiruchirappalli,Tamil Nadu,2001,2025,10.7905,78.7047,Census Geocoding / Point Centroid,EXACT,ANVESHA Geographic Crosswalk
+GEO_TN_026,Tiruchirappalli City,TIRUCHIRAPPALLI CITY,Commissionerate,Tiruchirappalli City,Tamil Nadu,2001,2025,10.8,78.69,Census Geocoding / Point Centroid,EXACT,ANVESHA Geographic Crosswalk
+GEO_TN_027,Tirunelveli,TIRUNELVELI,District,Tirunelveli,Tamil Nadu,2001,2025,8.7139,77.7567,Census Geocoding / Point Centroid,EXACT,ANVESHA Geographic Crosswalk
+GEO_TN_028,Tirunelveli City,TIRUNELVELI CITY,Commissionerate,Tirunelveli City,Tamil Nadu,2001,2025,8.73,77.7,Census Geocoding / Point Centroid,EXACT,ANVESHA Geographic Crosswalk
+GEO_TN_029,Tiruppur,TIRUPPUR,District,Tiruppur,Tamil Nadu,2001,2025,11.1085,77.3411,Census Geocoding / Point Centroid,EXACT,ANVESHA Geographic Crosswalk
+GEO_TN_030,Tiruppur City,TIRUPPUR CITY,Commissionerate,Tiruppur City,Tamil Nadu,2001,2025,11.115,77.35,Census Geocoding / Point Centroid,EXACT,ANVESHA Geographic Crosswalk
+GEO_TN_031,Tiruvallur,TIRUVALLUR,District,Tiruvallur,Tamil Nadu,2001,2025,13.1438,79.908,Census Geocoding / Point Centroid,EXACT,ANVESHA Geographic Crosswalk
+GEO_TN_032,Tiruvannamalai,TIRUVANNAMALAI,District,Tiruvannamalai,Tamil Nadu,2001,2025,12.2253,79.0747,Census Geocoding / Point Centroid,EXACT,ANVESHA Geographic Crosswalk
+GEO_TN_033,Tiruvarur,TIRUVARUR,District,Tiruvarur,Tamil Nadu,2001,2025,10.7725,79.6365,Census Geocoding / Point Centroid,EXACT,ANVESHA Geographic Crosswalk
+GEO_TN_034,Vellore,VELLORE,District,Vellore,Tamil Nadu,2001,2025,12.9165,79.1325,Census Geocoding / Point Centroid,EXACT,ANVESHA Geographic Crosswalk
+GEO_TN_035,Villupuram,VILLUPURAM,District,Villupuram,Tamil Nadu,2001,2025,11.9401,79.4861,Census Geocoding / Point Centroid,EXACT,ANVESHA Geographic Crosswalk
+GEO_TN_036,Virudhunagar,VIRUDHUNAGAR,District,Virudhunagar,Tamil Nadu,2001,2025,9.5872,77.9514,Census Geocoding / Point Centroid,EXACT,ANVESHA Geographic Crosswalk
+GEO_TN_039,Karaikal,KARAIKAL,District,Karaikal,Puducherry,2001,2025,10.9254,79.7903,Census Geocoding / Point Centroid,EXACT,ANVESHA Geographic Crosswalk
+GEO_TN_040,Puducherry,PUDUCHERRY,District,Puducherry,Puducherry,2001,2025,11.9366,79.7381,Census Geocoding / Point Centroid,EXACT,ANVESHA Geographic Crosswalk

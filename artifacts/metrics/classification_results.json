@@ -17,7 +17,7 @@
     "macro_f1": 0.9286,
     "weighted_f1": 0.9343,
     "balanced_accuracy": 0.9394,
-    "training_wall_time_sec": 0.0905,
+    "training_wall_time_sec": 0.0738,
     "inference_time_sec": 0.0,
     "model_size_mb": 0.011
   }

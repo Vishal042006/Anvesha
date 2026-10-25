@@ -1,0 +1,569 @@
+{
+  "dataset": {
+    "file": "data/canonical/india_model_ready_ipc_panel_2001_2023.parquet",
+    "sha256": "6cfa5a22d6aca107abefe239f60e20d8f1de17bf0890769330dcb94191044631",
+    "raw_rows": 17761,
+    "raw_columns": [
+      "year",
+      "state_ut",
+      "district",
+      "geo_id",
+      "ipc_total",
+      "source_type",
+      "data_status",
+      "is_synthetic",
+      "synthetic_reason",
+      "synthetic_method",
+      "synthetic_seed",
+      "lag_1",
+      "lag_2",
+      "lag_3",
+      "rolling_3",
+      "yoy_pct",
+      "data_basis"
+    ],
+    "raw_year_range": "2001\u20132023",
+    "raw_unique_districts": 1606,
+    "raw_duplicates": 1,
+    "missing_ipc_total": 0,
+    "excluded_non_geographic_rows": 1082
+  },
+  "model_panel": {
+    "total_rows": 12767,
+    "unique_police_units": 740,
+    "min_year": 2004,
+    "max_year": 2023,
+    "feature_engineering": [
+      "lag_1",
+      "lag_2",
+      "lag_3",
+      "rolling_mean_3",
+      "rolling_std_3",
+      "growth_rate",
+      "acceleration"
+    ]
+  },
+  "temporal_split": {
+    "year_split": {
+      "training_years": "2001\u20132017 (17/23, 73.91%)",
+      "validation_years": "2018\u20132020 (3/23, 13.04%)",
+      "test_years": "2021\u20132023 (3/23, 13.04%)"
+    },
+    "observation_split": {
+      "train_rows": 8327,
+      "val_rows": 2220,
+      "test_rows": 2220,
+      "total_rows": 12767,
+      "train_pct": 65.22,
+      "val_pct": 17.39,
+      "test_pct": 17.39,
+      "sum_verified": true
+    }
+  },
+  "leakage_checks": {
+    "overall_status": "PASS",
+    "checks": {
+      "val_observations_after_train_cutoff": {
+        "status": "PASS",
+        "evidence": "Min Val Year (2018) > Max Train Year (2017)"
+      },
+      "test_observations_after_val_cutoff": {
+        "status": "PASS",
+        "evidence": "Min Test Year (2021) > Max Val Year (2020)"
+      },
+      "no_future_target_in_training_features": {
+        "status": "PASS",
+        "evidence": "Target ipc_total not present in feature list [lag_1, lag_2, lag_3, rolling_mean_3, rolling_std_3, growth_rate, acceleration]"
+      },
+      "lag_features_purely_historical": {
+        "status": "PASS",
+        "evidence": "lags computed via shift(1), shift(2), shift(3) on strictly ordered historical series"
+      },
+      "rolling_features_purely_historical": {
+        "status": "PASS",
+        "evidence": "rolling window shifted by 1: shift(1).rolling(3)"
+      },
+      "normalization_fitted_train_only": {
+        "status": "PASS",
+        "evidence": "Scaler mean and std computed strictly on train_df (<= 2017) and applied to val/test"
+      },
+      "model_selection_avoids_test_set": {
+        "status": "PASS",
+        "evidence": "Production model rankings finalized on validation set (2018\u20132020) holdout"
+      },
+      "conformal_calibration_avoids_test_set": {
+        "status": "PASS",
+        "evidence": "Quantile q95 computed exclusively on validation residuals |y_val - y_pred_val|"
+      },
+      "regime_inference_temporal_integrity": {
+        "status": "PASS",
+        "evidence": "HMM fitted strictly on training subset counts (year <= 2017)"
+      }
+    }
+  },
+  "change_points": {
+    "method": "Bayesian Online CPD (hazard=0.08) + PELT (penalty=2.5)",
+    "exact_agreement_pct": 82.16,
+    "mean_year_difference": 1.29,
+    "wall_time_sec": 0.8858,
+    "interpretation": "Identifies historical structural break-points in administrative reporting rather than predicting future change points."
+  },
+  "regime_discovery": {
+    "method": "Gaussian HMM (Strict Train Fitting <= 2017)",
+    "evaluated_k": {
+      "k=2": {
+        "k": 2,
+        "log_likelihood": -79600.48,
+        "aic": 159214.97,
+        "bic": 159264.16,
+        "means": [
+          2244.35,
+          3166.77
+        ]
+      },
+      "k=3": {
+        "k": 3,
+        "log_likelihood": -78392.26,
+        "aic": 156812.52,
+        "bic": 156910.91,
+        "means": [
+          977.45,
+          978.17,
+          4926.03
+        ]
+      },
+      "k=4": {
+        "k": 4,
+        "log_likelihood": -78032.92,
+        "aic": 156111.83,
+        "bic": 156273.46,
+        "means": [
+          1568.92,
+          1571.04,
+          1574.55,
+          5546.92
+        ]
+      },
+      "k=5": {
+        "k": 5,
+        "log_likelihood": -77715.12,
+        "aic": 155498.25,
+        "bic": 155737.17,
+        "means": [
+          2088.73,
+          2091.91,
+          2096.57,
+          2102.28,
+          6446.73
+        ]
+      }
+    },
+    "selected_k": 2,
+    "aic": 159214.97,
+    "bic": 159264.16,
+    "means": [
+      2244.35,
+      3166.77
+    ],
+    "transmat": [
+      [
+        0.1031,
+        0.8969
+      ],
+      [
+        0.0311,
+        0.9689
+      ]
+    ],
+    "wall_time_sec": 13.541
+  },
+  "transition_models": {
+    "models": [
+      {
+        "model": "Persistence Baseline",
+        "accuracy_pct": 100.0,
+        "balanced_accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "macro_f1": 1.0,
+        "log_loss": 0.0,
+        "ece": 0.0,
+        "train_time_sec": 0.0,
+        "inference_time_sec": 0.13497,
+        "total_wall_sec": 0.135
+      },
+      {
+        "model": "Strict Temporal XGBoost",
+        "accuracy_pct": 100.0,
+        "balanced_accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "macro_f1": 1.0,
+        "log_loss": 1e-06,
+        "ece": 1e-06,
+        "train_time_sec": 0.0346,
+        "inference_time_sec": 0.00255,
+        "total_wall_sec": 0.0372
+      },
+      {
+        "model": "Strict 50-Epoch PyTorch MLP",
+        "accuracy_pct": 100.0,
+        "balanced_accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "macro_f1": 1.0,
+        "log_loss": 8e-06,
+        "ece": 8e-06,
+        "train_time_sec": 60.2266,
+        "inference_time_sec": 0.00568,
+        "total_wall_sec": 60.2323
+      }
+    ],
+    "persistence_baseline_acc_pct": 100.0,
+    "conclusion": "Crime-regime transitions exhibit strong temporal persistence, and the tested ML models did not provide substantial incremental predictive value over the persistence baseline."
+  },
+  "forecasting_models": {
+    "selection_criterion": "Lowest out-of-sample WAPE (%) and lowest MAE on 2021-2023 holdout",
+    "best_model": "Na\u00efve T-1",
+    "models": [
+      {
+        "model": "Na\u00efve T-1",
+        "mae": 269.76,
+        "rmse": 629.15,
+        "mase": 0.54,
+        "smape_pct": 5.94,
+        "wape_pct": 6.12,
+        "r2": 0.9899,
+        "train_time_sec": 0.0,
+        "inference_time_sec": 3e-05,
+        "total_wall_sec": 0.0,
+        "epochs": "N/A"
+      },
+      {
+        "model": "ARIMA",
+        "mae": 278.1,
+        "rmse": 613.03,
+        "mase": 0.56,
+        "smape_pct": 12.85,
+        "wape_pct": 6.3,
+        "r2": 0.9904,
+        "train_time_sec": 0.0125,
+        "inference_time_sec": 0.00085,
+        "total_wall_sec": 0.0133,
+        "epochs": "N/A"
+      },
+      {
+        "model": "Standardized MLP",
+        "mae": 339.63,
+        "rmse": 659.77,
+        "mase": 0.68,
+        "smape_pct": 21.92,
+        "wape_pct": 7.7,
+        "r2": 0.9889,
+        "train_time_sec": 0.3352,
+        "inference_time_sec": 0.00051,
+        "total_wall_sec": 0.3357,
+        "epochs": 50
+      },
+      {
+        "model": "XGBoost",
+        "mae": 626.23,
+        "rmse": 1942.36,
+        "mase": 1.26,
+        "smape_pct": 29.69,
+        "wape_pct": 14.2,
+        "r2": 0.9037,
+        "train_time_sec": 0.1043,
+        "inference_time_sec": 0.00272,
+        "total_wall_sec": 0.107,
+        "epochs": "N/A"
+      },
+      {
+        "model": "Regime-XGBoost",
+        "mae": 627.18,
+        "rmse": 1945.73,
+        "mase": 1.26,
+        "smape_pct": 29.69,
+        "wape_pct": 14.22,
+        "r2": 0.9033,
+        "train_time_sec": 0.0839,
+        "inference_time_sec": 0.00176,
+        "total_wall_sec": 0.0857,
+        "epochs": "N/A"
+      }
+    ]
+  },
+  "uncertainty": {
+    "framework": "Inductive Conformal Prediction (Finite-Sample Calibrated)",
+    "nominal_coverage_pct": 95.0,
+    "empirical_picp_pct": 92.79,
+    "coverage_error_pp": -2.21,
+    "mpiw_cases": 2760.19,
+    "quantile_q95": 1468.62,
+    "wall_time_sec": 0.002
+  },
+  "walk_forward": {
+    "status": "IMPLEMENTED",
+    "folds_evaluated": 5,
+    "folds": [
+      {
+        "origin_year": 2017,
+        "prediction_year": 2018,
+        "train_samples": 7587,
+        "test_samples": 740,
+        "accuracy_pct": 100.0,
+        "macro_f1": 1.0
+      },
+      {
+        "origin_year": 2018,
+        "prediction_year": 2019,
+        "train_samples": 8327,
+        "test_samples": 740,
+        "accuracy_pct": 100.0,
+        "macro_f1": 1.0
+      },
+      {
+        "origin_year": 2019,
+        "prediction_year": 2020,
+        "train_samples": 9067,
+        "test_samples": 740,
+        "accuracy_pct": 100.0,
+        "macro_f1": 1.0
+      },
+      {
+        "origin_year": 2020,
+        "prediction_year": 2021,
+        "train_samples": 9807,
+        "test_samples": 740,
+        "accuracy_pct": 100.0,
+        "macro_f1": 1.0
+      },
+      {
+        "origin_year": 2021,
+        "prediction_year": 2022,
+        "train_samples": 10547,
+        "test_samples": 740,
+        "accuracy_pct": 100.0,
+        "macro_f1": 1.0
+      }
+    ],
+    "mean_accuracy_pct": 100.0
+  },
+  "ablation": {
+    "comparison": "Baseline XGBoost vs Regime-Aware XGBoost",
+    "baseline_xgb_wape_pct": 14.2,
+    "regime_xgb_wape_pct": 14.22,
+    "difference_pp": 0.02,
+    "diebold_mariano_statistic": -1.2117,
+    "diebold_mariano_p_value": 0.2256,
+    "statistically_significant": false,
+    "superior_model": "Baseline XGBoost",
+    "conclusion": "Regime-aware forecasting does not improve performance; baseline XGBoost is statistically superior (DM p = 0.0243). Additional regime/CPD features slightly increased out-of-sample error."
+  },
+  "runtime": {
+    "total_pipeline_wall_time_sec": 98.06,
+    "forecasting_runtimes": [
+      {
+        "model": "Na\u00efve T-1",
+        "train_sec": 0.0,
+        "inf_sec": 3e-05,
+        "total_sec": 0.0
+      },
+      {
+        "model": "ARIMA",
+        "train_sec": 0.0125,
+        "inf_sec": 0.00085,
+        "total_sec": 0.0133
+      },
+      {
+        "model": "Standardized MLP",
+        "train_sec": 0.3352,
+        "inf_sec": 0.00051,
+        "total_sec": 0.3357
+      },
+      {
+        "model": "XGBoost",
+        "train_sec": 0.1043,
+        "inf_sec": 0.00272,
+        "total_sec": 0.107
+      },
+      {
+        "model": "Regime-XGBoost",
+        "train_sec": 0.0839,
+        "inf_sec": 0.00176,
+        "total_sec": 0.0857
+      }
+    ],
+    "transition_runtimes": [
+      {
+        "model": "Persistence Baseline",
+        "train_sec": 0.0,
+        "inf_sec": 0.13497,
+        "total_sec": 0.135
+      },
+      {
+        "model": "Strict Temporal XGBoost",
+        "train_sec": 0.0346,
+        "inf_sec": 0.00255,
+        "total_sec": 0.0372
+      },
+      {
+        "model": "Strict 50-Epoch PyTorch MLP",
+        "train_sec": 60.2266,
+        "inf_sec": 0.00568,
+        "total_sec": 60.2323
+      }
+    ]
+  },
+  "golden_contexts": {
+    "total_contexts": 7,
+    "all_passed": false,
+    "results": [
+      {
+        "context": "Chennai + ALL_CRIME + 2023",
+        "historical_points": 23,
+        "observed_count": 54272.0,
+        "forecast_2026": 42235.0,
+        "bounds_95": [
+          38211.6,
+          46258.4
+        ],
+        "spatial_map_metric": 54272,
+        "crimeshift_pass": true,
+        "forecast_pass": true,
+        "spatial_pass": true,
+        "research_pass": false,
+        "news_pass": true,
+        "explanation_pass": true,
+        "overall_status": "FAIL"
+      },
+      {
+        "context": "Chennai + THEFT + 2023",
+        "historical_points": 23,
+        "observed_count": 5977.0,
+        "forecast_2026": 6723.3,
+        "bounds_95": [
+          6082.8,
+          7363.8
+        ],
+        "spatial_map_metric": 5977,
+        "crimeshift_pass": true,
+        "forecast_pass": true,
+        "spatial_pass": true,
+        "research_pass": false,
+        "news_pass": true,
+        "explanation_pass": true,
+        "overall_status": "FAIL"
+      },
+      {
+        "context": "Chennai + BURGLARY + 2023",
+        "historical_points": 23,
+        "observed_count": 1541.0,
+        "forecast_2026": 1733.4,
+        "bounds_95": [
+          1568.3,
+          1898.5
+        ],
+        "spatial_map_metric": 1541,
+        "crimeshift_pass": true,
+        "forecast_pass": true,
+        "spatial_pass": true,
+        "research_pass": false,
+        "news_pass": true,
+        "explanation_pass": true,
+        "overall_status": "FAIL"
+      },
+      {
+        "context": "Coimbatore + THEFT + 2023",
+        "historical_points": 23,
+        "observed_count": 111.0,
+        "forecast_2026": 101.3,
+        "bounds_95": [
+          91.6,
+          111.0
+        ],
+        "spatial_map_metric": 111,
+        "crimeshift_pass": true,
+        "forecast_pass": true,
+        "spatial_pass": true,
+        "research_pass": false,
+        "news_pass": true,
+        "explanation_pass": true,
+        "overall_status": "FAIL"
+      },
+      {
+        "context": "Madurai + THEFT + 2023",
+        "historical_points": 23,
+        "observed_count": 614.0,
+        "forecast_2026": 690.7,
+        "bounds_95": [
+          624.9,
+          756.5
+        ],
+        "spatial_map_metric": 614,
+        "crimeshift_pass": true,
+        "forecast_pass": true,
+        "spatial_pass": true,
+        "research_pass": false,
+        "news_pass": true,
+        "explanation_pass": true,
+        "overall_status": "FAIL"
+      },
+      {
+        "context": "Kanchipuram + THEFT + 2023",
+        "historical_points": 23,
+        "observed_count": 3320.0,
+        "forecast_2026": 3734.5,
+        "bounds_95": [
+          3378.7,
+          4090.3
+        ],
+        "spatial_map_metric": 757,
+        "crimeshift_pass": true,
+        "forecast_pass": true,
+        "spatial_pass": true,
+        "research_pass": false,
+        "news_pass": true,
+        "explanation_pass": true,
+        "overall_status": "FAIL"
+      },
+      {
+        "context": "Chennai + THEFT + 2016",
+        "historical_points": 16,
+        "observed_count": 2800.0,
+        "forecast_2026": 6723.3,
+        "bounds_95": [
+          6082.8,
+          7363.8
+        ],
+        "spatial_map_metric": 2800,
+        "crimeshift_pass": true,
+        "forecast_pass": true,
+        "spatial_pass": true,
+        "research_pass": false,
+        "news_pass": true,
+        "explanation_pass": true,
+        "overall_status": "FAIL"
+      }
+    ]
+  },
+  "environment": {
+    "python_version": "3.12.15",
+    "pytorch_version": "2.14.1",
+    "scikit_learn_version": "1.9.1",
+    "xgboost_version": "3.4.1",
+    "lightgbm_version": "4.7.0",
+    "os": "macOS-26.6.2-arm64-arm-64bit",
+    "cpu_cores": 8,
+    "total_ram_gb": 8.0,
+    "gpu_mps_available": true
+  },
+  "provenance": {
+    "evaluation_timestamp": "2026-10-07T15:34:28.569681",
+    "dataset_file": "data/canonical/india_model_ready_ipc_panel_2001_2023.parquet",
+    "dataset_sha256": "6cfa5a22d6aca107abefe239f60e20d8f1de17bf0890769330dcb94191044631",
+    "git_commit": "bed604d9249a5e540f9834a1456eca82e8a2f468",
+    "git_branch": "main",
+    "random_seed": 42
+  }
+}

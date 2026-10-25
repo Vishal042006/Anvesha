@@ -1,0 +1,2 @@
+model,task,framework,optimizer,loss,learning_rate,batch_size,configured_epochs,actual_epochs,best_epoch,early_stopping,scheduler,train_time_seconds,validation_time_seconds,inference_time_seconds,parameter_count,checkpoint,model_artifact,status
+LSTM,Forecast,PyTorch,AdamW,HuberLoss,0.01,Full,30,30,30,False,N/A,0.0581,0.01,0.00033,1489,artifacts/models/lstm/best_model.pt,artifacts/models/lstm/best_model.pt,COMPLETED

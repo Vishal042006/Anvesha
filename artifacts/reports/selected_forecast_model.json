@@ -1,0 +1,16 @@
+{
+  "selected_production_model": "T-1 Persistence",
+  "selection_criteria": [
+    "Lowest WAPE",
+    "Lowest MAE",
+    "Lowest RMSE",
+    "Highest R2"
+  ],
+  "validation_wape_pct": 7.758367919667418,
+  "validation_mae": 298.21469676848164,
+  "validation_rmse": 800.3332260296518,
+  "validation_r2": 0.9755924778088083,
+  "final_test_wape_pct": 8.253463659196731,
+  "selection_timestamp": "2026-10-06T13:58:44.668210",
+  "selection_pipeline": "ANVESHA Canonical Validation Benchmarking"
+}

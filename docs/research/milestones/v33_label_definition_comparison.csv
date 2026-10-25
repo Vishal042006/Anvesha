@@ -1,0 +1,4 @@
+Target_Name,Target_ID,Train_STABLE_pct,Train_INCREASING_pct,Train_DECREASING_pct,Test_STABLE_pct,Test_INCREASING_pct,Test_DECREASING_pct,Total_Test_N
+Target A: Original YoY ±5% Trend,label_A,46.52,28.24,25.24,76.06,12.83,11.11,639
+Target B: Noise-Tolerant Trend (±10% & ±15 Floor),label_B,70.18,16.22,13.6,95.93,2.5,1.56,639
+Target C: Multi-Year 3-Year Trend (±15% & ±25 Floor),label_C,64.74,20.39,14.88,97.81,1.1,1.1,639

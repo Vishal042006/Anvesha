@@ -1,0 +1,7 @@
+Model,n_estimators,max_depth,class_weight,CV_Macro_F1,CV_Accuracy,learning_rate
+RandomForest,50,4,None,0.3012,0.761,
+RandomForest,100,6,balanced,0.542,0.785,
+RandomForest,150,6,balanced,0.551,0.792,
+ExtraTrees,100,6,balanced,0.531,0.778,
+XGBoost,100,4,,0.518,0.765,0.05
+LightGBM,100,4,,0.509,0.758,0.05

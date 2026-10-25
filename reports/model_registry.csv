@@ -1,0 +1,11 @@
+model,purpose,type,production_or_benchmark,input,output
+3Yr_Mean_Baseline,Default Production Crime Forecasting (Next-Year Prediction),Rule-Based Temporal Rolling Mean,PRODUCTION,"Recent 3-Year Historical Crime Counts (lag_1, lag_2, lag_3)",Next-Year Expected Crime Incident Count
+IsolationForest,Crime Anomaly & Outlier Spike Detector,Unsupervised Isolation Forest (contamination=0.05),PRODUCTION,"Temporal Lags, Rolling Means, Baseline Rate, Spatial Lag",Anomaly Score & Binary Outlier Indicator (-1 or 1)
+RandomForestClassifier,Crime Trend Direction Classification,Supervised Random Forest Classifier (100 trees),PRODUCTION,"Temporal Lags, Rolling Stats, Year-over-Year Momentum","Trend Direction (DECREASING, STABLE, INCREASING)"
+BAAI/bge-m3,Dense Semantic Research Retrieval,Dense Embedding Model (HF Inference API / Fallback),PRODUCTION,User Crime Problem Query & Candidate Paper Texts,1024-dim Embedding Vectors & Dense Similarity Scores
+BAAI/bge-reranker-v2-m3,Scholarly Evidence Reranking,Cross-Encoder Reranker (HF Inference API / Fallback),PRODUCTION,Query + Candidate Paper Text Pairs,"Normalized Relevance Score [0, 1]"
+Qwen/Qwen3-8B,Grounded Decision Support Explanation Synthesis,Instruction-Tuned LLM (HF Inference API / Fallback),PRODUCTION,Observed Area Finding + Top Reranked Paper Abstracts & DOIs,Simple 5-Section Grounded Public Explanation
+Ridge_Regression,Linear L2 Regularized Forecasting Benchmark,Scikit-Learn Ridge (alpha=1.0 / 10.0),BENCHMARK,Temporal Lag Features + District Categorical Dummies,Next-Year Forecast Count (Evaluated against 3Yr Mean)
+HistGradientBoostingRegressor,Non-linear Gradient Boosted Forecasting Benchmark,"HistGradientBoosting (max_iter=100, max_depth=4)",BENCHMARK,Spatial Lag & Historical Rolling Features,Next-Year Forecast Count (Evaluated against 3Yr Mean)
+ExtraTreesRegressor,Extremely Randomized Trees Forecasting Benchmark,"ExtraTreesRegressor (100 trees, max_depth=6)",BENCHMARK,Spatial Lag & Historical Rolling Features,Next-Year Forecast Count
+RandomForestRegressor,Random Forest Forecasting Benchmark,"RandomForestRegressor (100 trees, max_depth=6)",BENCHMARK,Spatial Lag & Historical Rolling Features,Next-Year Forecast Count

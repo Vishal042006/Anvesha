@@ -1,0 +1,10 @@
+reference_model,comparison_model,dm_stat_L1,p_val_L1,significant_L1_p05,dm_stat_L2,p_val_L2,significant_L2_p05
+Naïve T-1,3-Year Historical Mean,-6.236,0.0,True,-3.738,0.0002,True
+Naïve T-1,ARIMA,4.384,0.0,True,2.944,0.0032,True
+Naïve T-1,Ridge Autoregressive (L2),3.548,0.0004,True,2.72,0.0065,True
+Naïve T-1,Random Forest Regressor,-2.237,0.0253,True,-1.732,0.0833,False
+Naïve T-1,XGBoost,-3.916,0.0001,True,-2.316,0.0206,True
+Naïve T-1,LightGBM Regressor,-4.036,0.0001,True,-2.481,0.0131,True
+Naïve T-1,50-Epoch MLP Regressor,3.318,0.0009,True,2.671,0.0076,True
+Naïve T-1,Regime-Aware XGBoost,-3.916,0.0001,True,-2.316,0.0206,True
+Naïve T-1,PyTorch LSTM (50 Epochs),-3.374,0.0007,True,-2.219,0.0265,True

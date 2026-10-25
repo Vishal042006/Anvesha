@@ -1,0 +1,11 @@
+dataset,purpose,domain,production_or_reference,source,years
+anvesha_extended_crime_master.parquet,"Canonical Extended Analytical Panel (4,558 records)",CORE_CRIME,PRODUCTION,State Crime Records Bureau (SCRB) Tamil Nadu & NCRB,2001-2023
+anvesha_clean_crime_master.parquet,"Frozen Benchmark V1 Panel (2,640 records, SHA256 verified)",CORE_CRIME,REFERENCE_BENCHMARK,NCRB Crime in India (2001-2014),2001-2014
+dim_geography.csv,Standardized Geographic Units & Lat/Lon Centroids (36 Units),GEOGRAPHY,PRODUCTION,Tamil Nadu Police Department Administrative Boundaries,Standardized
+dim_crime_taxonomy.csv,Canonical IPC Legal Taxonomy Crosswalk (18 Categories),CRIME_CATEGORIES,PRODUCTION,Indian Penal Code (IPC) & SCRB Legal Classification,Standardized
+dim_police_stations.csv,Police Station Reference Directory (108 Stations),POLICE_STATIONS,PRODUCTION,Tamil Nadu Police Station Directory,Standardized
+fact_road_safety.csv,Domain-Separated Traffic Crash Series (32 Years),ROAD_SAFETY,PRODUCTION,Ministry of Road Transport & Highways (MoRTH) & SCRB,1993-2025
+fact_complaints.csv,Domain-Separated Public Complaints Received (550 records),COMPLAINTS,PRODUCTION,Tamil Nadu Public Grievance Portal & SCRB,2019-2023
+fact_suicides.csv,Domain-Separated Non-Crime Social Mortality Series,SUICIDES,PRODUCTION,Accidental Deaths & Suicides in India (ADSI),2015-2023
+fact_crimes_against_women.csv,Crimes Against Women Spatial & Temporal Layer,CRIMES_AGAINST_WOMEN,PRODUCTION,SCRB & NCRB Gender Crime Compendiums,2001-2023
+tn_population_clean.csv,Census Projections for Rate per 100k Population Denominators,POPULATION,PRODUCTION,Census of India 2001/2011 & Official Projections,2001-2023

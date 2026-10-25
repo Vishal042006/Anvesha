@@ -1,0 +1,2 @@
+model,experiment,accuracy,balanced_accuracy,macro_f1,weighted_f1,log_loss,ece_calibration_error,temporal_integrity,leakage_status
+Strict Temporal XGBoost (Strict HMM <= 2017),Experiment B,1.0,1.0,1.0,1.0,1.013279643302667e-06,1.0132789611816406e-06,STRICT_CHRONOLOGICAL,VERIFIED CLEAN

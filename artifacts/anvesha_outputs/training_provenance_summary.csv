@@ -1,0 +1,10 @@
+model,official_training_rows,extended_panel_rows,official_percentage,extended_percentage
+Naïve T-1 (Persistence),6107,2220,73.34,26.66
+3-Year Historical Mean,6107,2220,73.34,26.66
+Ridge Autoregressive (L2),6107,2220,73.34,26.66
+Random Forest Regressor,6107,2220,73.34,26.66
+LightGBM Regressor,6107,2220,73.34,26.66
+XGBoost Regressor,6107,2220,73.34,26.66
+Regime-Aware XGBoost,6107,2220,73.34,26.66
+PyTorch MLP (50 Epochs),6107,2220,73.34,26.66
+PyTorch LSTM (50 Epochs),6107,2220,73.34,26.66

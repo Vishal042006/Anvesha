@@ -1,0 +1,5 @@
+Experiment_ID,Composition,MAE,RMSE,WAPE,R2
+A,Temporal Lags Only,350.78,692.27,10.54,0.9447
+B,Temporal + Population,350.78,692.27,10.54,0.9447
+C,Temporal + Spatial Lag,350.78,692.27,10.54,0.9447
+D,Full Feature Set (Temporal + Pop + Spatial),350.78,692.27,10.54,0.9447

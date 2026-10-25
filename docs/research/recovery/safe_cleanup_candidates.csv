@@ -1,0 +1,3 @@
+path,reason,replacement,references_checked,hash_comparison,confidence
+data/04_integrated/02_india_crime_master.csv,Duplicate CSV export of canonical parquet dataset,data/final/anvesha_india_extended.parquet,"backend/app/, frontend/src/",Matches canonical parquet data,DEFINITELY_UNNECESSARY
+data/04_integrated/01_tn_crime_master.csv,Duplicate CSV export of TN master parquet,data/final/anvesha_india_official.parquet,"backend/app/, frontend/src/",Matches canonical official parquet data,DEFINITELY_UNNECESSARY

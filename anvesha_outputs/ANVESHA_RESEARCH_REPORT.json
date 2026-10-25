@@ -1,0 +1,29 @@
+{
+  "title": "ANVESHA 2.0 \u2014 CRIME-SHIFT Research Engine Master Report",
+  "timestamp": "2026-10-06T22:57:04.458172",
+  "selected_best_model": "Na\u00efve T-1",
+  "tasks": {
+    "task_1_change_point": {
+      "bocpd_pelt_agreement_pct": 82.16216216216216,
+      "mean_year_difference": 1.2918918918918918
+    },
+    "task_2_regime_discovery": {
+      "optimal_states_k": 2,
+      "bic_score": 241608.8612728561
+    },
+    "task_3_regime_transition": {
+      "best_classifier": "XGBoost Classifier",
+      "accuracy": 0.9932432432432432,
+      "macro_f1": 0.9903457484920319
+    },
+    "task_4_forecasting": {
+      "best_model": "Na\u00efve T-1",
+      "wape_pct": 6.11578831271484,
+      "mae": 269.7608108108108
+    },
+    "task_5_uncertainty": {
+      "picp_95": 92.74774774774774,
+      "mpiw_95": 2753.3802671250323
+    }
+  }
+}

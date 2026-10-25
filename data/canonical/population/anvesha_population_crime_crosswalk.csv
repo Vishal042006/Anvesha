@@ -1,0 +1,37 @@
+crime_unit_id,crime_unit_name,population_area,population_district,mapping_type,mapping_confidence,mapping_basis,source,notes
+TN_POLICE_01,Ariyalur,ARIYALUR,ARIYALUR,ONE_TO_ONE,0.9,CENSUS_REFERENCE,Census 2001/2011 District Aggregation,Direct match to Census district aggregate of urban/town populations.
+TN_POLICE_02,Chennai City,CHENNAI,CHENNAI,PARTIAL,0.5,NAME_MATCH_ONLY,Census 2001/2011 District Aggregation,Urban Police Commissionerate embedded within district boundary; urban population split unavailable.
+TN_POLICE_03,Coimbatore,COIMBATORE,COIMBATORE,ONE_TO_ONE,0.9,CENSUS_REFERENCE,Census 2001/2011 District Aggregation,Direct match to Census district aggregate of urban/town populations.
+TN_POLICE_04,Coimbatore City,COIMBATORE,COIMBATORE,PARTIAL,0.5,NAME_MATCH_ONLY,Census 2001/2011 District Aggregation,Urban Police Commissionerate embedded within district boundary; urban population split unavailable.
+TN_POLICE_05,Cuddalore,CUDDALORE,CUDDALORE,ONE_TO_ONE,0.9,CENSUS_REFERENCE,Census 2001/2011 District Aggregation,Direct match to Census district aggregate of urban/town populations.
+TN_POLICE_06,Dharmapuri,DHARMAPURI,DHARMAPURI,ONE_TO_ONE,0.9,CENSUS_REFERENCE,Census 2001/2011 District Aggregation,Direct match to Census district aggregate of urban/town populations.
+TN_POLICE_07,Dindigul,DINDIGUL,DINDIGUL,ONE_TO_ONE,0.9,CENSUS_REFERENCE,Census 2001/2011 District Aggregation,Direct match to Census district aggregate of urban/town populations.
+TN_POLICE_08,Erode,ERODE,ERODE,ONE_TO_ONE,0.9,CENSUS_REFERENCE,Census 2001/2011 District Aggregation,Direct match to Census district aggregate of urban/town populations.
+TN_POLICE_09,Kancheepuram,KANCHIPURAM,KANCHIPURAM,ONE_TO_ONE,0.9,CENSUS_REFERENCE,Census 2001/2011 District Aggregation,Direct match to Census district aggregate of urban/town populations.
+TN_POLICE_10,Kanniyakumari,KANYAKUMARI,KANYAKUMARI,AMBIGUOUS,0.4,CENSUS_REFERENCE,Census 2001/2011 District Aggregation,Direct match to Census district aggregate of urban/town populations.
+TN_POLICE_11,Karur,KARUR,KARUR,ONE_TO_ONE,0.9,CENSUS_REFERENCE,Census 2001/2011 District Aggregation,Direct match to Census district aggregate of urban/town populations.
+TN_POLICE_12,Krishnagiri,KRISHNAGIRI,KRISHNAGIRI,ONE_TO_ONE,0.9,CENSUS_REFERENCE,Census 2001/2011 District Aggregation,Direct match to Census district aggregate of urban/town populations.
+TN_POLICE_13,Madurai,MADURAI,MADURAI,ONE_TO_ONE,0.9,CENSUS_REFERENCE,Census 2001/2011 District Aggregation,Direct match to Census district aggregate of urban/town populations.
+TN_POLICE_14,Madurai City,MADURAI,MADURAI,PARTIAL,0.5,NAME_MATCH_ONLY,Census 2001/2011 District Aggregation,Urban Police Commissionerate embedded within district boundary; urban population split unavailable.
+TN_POLICE_15,Nagapattinam,NAGAPATTINAM,NAGAPATTINAM,ONE_TO_ONE,0.9,CENSUS_REFERENCE,Census 2001/2011 District Aggregation,Direct match to Census district aggregate of urban/town populations.
+TN_POLICE_16,Namakkal,NAMAKKAL,NAMAKKAL,ONE_TO_ONE,0.9,CENSUS_REFERENCE,Census 2001/2011 District Aggregation,Direct match to Census district aggregate of urban/town populations.
+TN_POLICE_17,Perambalur,PERAMBALUR,PERAMBALUR,ONE_TO_ONE,0.9,CENSUS_REFERENCE,Census 2001/2011 District Aggregation,Direct match to Census district aggregate of urban/town populations.
+TN_POLICE_18,Pudukkottai,PUDUKKOTTAI,PUDUKKOTTAI,ONE_TO_ONE,0.9,CENSUS_REFERENCE,Census 2001/2011 District Aggregation,Direct match to Census district aggregate of urban/town populations.
+TN_POLICE_19,Salem,SALEM,SALEM,ONE_TO_ONE,0.9,CENSUS_REFERENCE,Census 2001/2011 District Aggregation,Direct match to Census district aggregate of urban/town populations.
+TN_POLICE_20,Salem City,SALEM,SALEM,PARTIAL,0.5,NAME_MATCH_ONLY,Census 2001/2011 District Aggregation,Urban Police Commissionerate embedded within district boundary; urban population split unavailable.
+TN_POLICE_21,Sivagangai,SIVAGANGAI,SIVAGANGAI,AMBIGUOUS,0.4,CENSUS_REFERENCE,Census 2001/2011 District Aggregation,Direct match to Census district aggregate of urban/town populations.
+TN_POLICE_22,Thanjavur,THANJAVUR,THANJAVUR,ONE_TO_ONE,0.9,CENSUS_REFERENCE,Census 2001/2011 District Aggregation,Direct match to Census district aggregate of urban/town populations.
+TN_POLICE_23,The Nilgiris,NILGIRIS,NILGIRIS,AMBIGUOUS,0.4,CENSUS_REFERENCE,Census 2001/2011 District Aggregation,Direct match to Census district aggregate of urban/town populations.
+TN_POLICE_24,Theni,THENI,THENI,ONE_TO_ONE,0.9,CENSUS_REFERENCE,Census 2001/2011 District Aggregation,Direct match to Census district aggregate of urban/town populations.
+TN_POLICE_25,Tiruchirappalli,TIRUCHIRAPPALLI,TIRUCHIRAPPALLI,ONE_TO_ONE,0.9,CENSUS_REFERENCE,Census 2001/2011 District Aggregation,Direct match to Census district aggregate of urban/town populations.
+TN_POLICE_26,Tiruchirappalli City,TIRUCHIRAPPALLI,TIRUCHIRAPPALLI,PARTIAL,0.5,NAME_MATCH_ONLY,Census 2001/2011 District Aggregation,Urban Police Commissionerate embedded within district boundary; urban population split unavailable.
+TN_POLICE_27,Tirunelveli,TIRUNELVELI,TIRUNELVELI,ONE_TO_ONE,0.9,CENSUS_REFERENCE,Census 2001/2011 District Aggregation,Direct match to Census district aggregate of urban/town populations.
+TN_POLICE_28,Tirunelveli City,TIRUNELVELI,TIRUNELVELI,PARTIAL,0.5,NAME_MATCH_ONLY,Census 2001/2011 District Aggregation,Urban Police Commissionerate embedded within district boundary; urban population split unavailable.
+TN_POLICE_29,Tiruppur,TIRUPPUR,TIRUPPUR,ONE_TO_ONE,0.9,CENSUS_REFERENCE,Census 2001/2011 District Aggregation,Direct match to Census district aggregate of urban/town populations.
+TN_POLICE_30,Tiruppur City,TIRUPPUR,TIRUPPUR,PARTIAL,0.5,NAME_MATCH_ONLY,Census 2001/2011 District Aggregation,Urban Police Commissionerate embedded within district boundary; urban population split unavailable.
+TN_POLICE_31,Tiruvallur,TIRUVALLUR,TIRUVALLUR,AMBIGUOUS,0.4,CENSUS_REFERENCE,Census 2001/2011 District Aggregation,Direct match to Census district aggregate of urban/town populations.
+TN_POLICE_32,Tiruvannamalai,TIRUVANNAMALAI,TIRUVANNAMALAI,ONE_TO_ONE,0.9,CENSUS_REFERENCE,Census 2001/2011 District Aggregation,Direct match to Census district aggregate of urban/town populations.
+TN_POLICE_33,Tiruvarur,TIRUVARUR,TIRUVARUR,AMBIGUOUS,0.4,CENSUS_REFERENCE,Census 2001/2011 District Aggregation,Direct match to Census district aggregate of urban/town populations.
+TN_POLICE_34,Vellore,VELLORE,VELLORE,ONE_TO_ONE,0.9,CENSUS_REFERENCE,Census 2001/2011 District Aggregation,Direct match to Census district aggregate of urban/town populations.
+TN_POLICE_35,Villupuram,VILUPPURAM,VILUPPURAM,ONE_TO_ONE,0.9,CENSUS_REFERENCE,Census 2001/2011 District Aggregation,Direct match to Census district aggregate of urban/town populations.
+TN_POLICE_36,Virudhunagar,VIRUDHUNAGAR,VIRUDHUNAGAR,ONE_TO_ONE,0.9,CENSUS_REFERENCE,Census 2001/2011 District Aggregation,Direct match to Census district aggregate of urban/town populations.

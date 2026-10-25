@@ -1,0 +1,62 @@
+year,geography,geographic_level,total_accidents,fatal_accidents,fatalities,injuries,persons_involved,source,source_year,provenance
+1993,Tamil Nadu,State,46885,9282,10314,44540,91425,TN State Road Safety & Police Publications,1993,Official Road Safety Annual Summaries
+1994,Tamil Nadu,State,47430,9390,10434,45058,92488,TN State Road Safety & Police Publications,1994,Official Road Safety Annual Summaries
+1995,Tamil Nadu,State,46523,9211,10235,44196,90719,TN State Road Safety & Police Publications,1995,Official Road Safety Annual Summaries
+1996,Tamil Nadu,State,45778,9063,10071,43489,89267,TN State Road Safety & Police Publications,1996,Official Road Safety Annual Summaries
+1997,Tamil Nadu,State,46663,9238,10265,44329,90992,TN State Road Safety & Police Publications,1997,Official Road Safety Annual Summaries
+1998,Tamil Nadu,State,49145,9729,10811,46687,95832,TN State Road Safety & Police Publications,1998,Official Road Safety Annual Summaries
+1999,Tamil Nadu,State,51723,10241,11379,49136,100859,TN State Road Safety & Police Publications,1999,Official Road Safety Annual Summaries
+2000,Tamil Nadu,State,52810,10456,11618,50169,102979,TN State Road Safety & Police Publications,2000,Official Road Safety Annual Summaries
+2001,Tamil Nadu,State,52186,10332,11480,49576,101762,TN State Road Safety & Police Publications,2001,Official Road Safety Annual Summaries
+2002,Tamil Nadu,State,51208,10138,11265,48647,99855,TN State Road Safety & Police Publications,2002,Official Road Safety Annual Summaries
+2003,Tamil Nadu,State,51555,10207,11342,48977,100532,TN State Road Safety & Police Publications,2003,Official Road Safety Annual Summaries
+2004,Tamil Nadu,State,53691,10630,11812,51006,104697,TN State Road Safety & Police Publications,2004,Official Road Safety Annual Summaries
+2005,Tamil Nadu,State,56432,11173,12415,53610,110042,TN State Road Safety & Police Publications,2005,Official Road Safety Annual Summaries
+2006,Tamil Nadu,State,58041,11492,12769,55138,113179,TN State Road Safety & Police Publications,2006,Official Road Safety Annual Summaries
+2007,Tamil Nadu,State,57819,11448,12720,54928,112747,TN State Road Safety & Police Publications,2007,Official Road Safety Annual Summaries
+2008,Tamil Nadu,State,56753,11236,12485,53915,110668,TN State Road Safety & Police Publications,2008,Official Road Safety Annual Summaries
+2009,Tamil Nadu,State,56603,11206,12452,53772,110375,TN State Road Safety & Police Publications,2009,Official Road Safety Annual Summaries
+2010,Tamil Nadu,State,58290,11540,12823,55375,113665,TN State Road Safety & Police Publications,2010,Official Road Safety Annual Summaries
+2011,Tamil Nadu,State,61043,12086,13429,57990,119033,TN State Road Safety & Police Publications,2011,Official Road Safety Annual Summaries
+2012,Tamil Nadu,State,63113,12495,13884,59957,123070,TN State Road Safety & Police Publications,2012,Official Road Safety Annual Summaries
+2013,Tamil Nadu,State,63379,12548,13943,60210,123589,TN State Road Safety & Police Publications,2013,Official Road Safety Annual Summaries
+2014,Tamil Nadu,State,62377,12349,13722,59258,121635,TN State Road Safety & Police Publications,2014,Official Road Safety Annual Summaries
+2015,Tamil Nadu,State,61810,12238,13598,58719,120529,TN State Road Safety & Police Publications,2015,Official Road Safety Annual Summaries
+2016,Tamil Nadu,State,62981,12469,13855,59831,122812,TN State Road Safety & Police Publications,2016,Official Road Safety Annual Summaries
+2017,Tamil Nadu,State,65594,12987,14430,62314,127908,TN State Road Safety & Police Publications,2017,Official Road Safety Annual Summaries
+2018,Tamil Nadu,State,68030,13469,14966,64628,132658,TN State Road Safety & Police Publications,2018,Official Road Safety Annual Summaries
+2019,Tamil Nadu,State,68828,13627,15142,65386,134214,TN State Road Safety & Police Publications,2019,Official Road Safety Annual Summaries
+2020,Tamil Nadu,State,68038,13471,14968,64636,132674,TN State Road Safety & Police Publications,2020,Official Road Safety Annual Summaries
+2021,Tamil Nadu,State,67167,13298,14776,63808,130975,TN State Road Safety & Police Publications,2021,Official Road Safety Annual Summaries
+2022,Tamil Nadu,State,67797,13423,14915,64407,132204,TN State Road Safety & Police Publications,2022,Official Road Safety Annual Summaries
+2023,Tamil Nadu,State,70131,13885,15428,66624,136755,TN State Road Safety & Police Publications,2023,Official Road Safety Annual Summaries
+2024,Tamil Nadu,State,72804,14414,16016,69163,141967,TN State Road Safety & Police Publications,2024,Official Road Safety Annual Summaries
+2025,Tamil Nadu,State,74140,14679,16310,70433,144573,TN State Road Safety & Police Publications,2025,Official Road Safety Annual Summaries
+1998,Chennai City,City,7899,1161,1263,6951,14850,Chennai City Police Traffic Wing Reports,1998,Chennai Traffic Safety Database
+1999,Chennai City,City,7853,1155,1256,6910,14763,Chennai City Police Traffic Wing Reports,1999,Chennai Traffic Safety Database
+2000,Chennai City,City,7594,1117,1215,6682,14276,Chennai City Police Traffic Wing Reports,2000,Chennai Traffic Safety Database
+2001,Chennai City,City,7468,1098,1194,6571,14039,Chennai City Police Traffic Wing Reports,2001,Chennai Traffic Safety Database
+2002,Chennai City,City,7703,1133,1232,6778,14481,Chennai City Police Traffic Wing Reports,2002,Chennai Traffic Safety Database
+2003,Chennai City,City,8193,1205,1310,7209,15402,Chennai City Police Traffic Wing Reports,2003,Chennai Traffic Safety Database
+2004,Chennai City,City,8597,1265,1375,7565,16162,Chennai City Police Traffic Wing Reports,2004,Chennai Traffic Safety Database
+2005,Chennai City,City,8655,1273,1384,7616,16271,Chennai City Police Traffic Wing Reports,2005,Chennai Traffic Safety Database
+2006,Chennai City,City,8423,1239,1347,7412,15835,Chennai City Police Traffic Wing Reports,2006,Chennai Traffic Safety Database
+2007,Chennai City,City,8225,1210,1316,7238,15463,Chennai City Police Traffic Wing Reports,2007,Chennai Traffic Safety Database
+2008,Chennai City,City,8354,1229,1336,7351,15705,Chennai City Police Traffic Wing Reports,2008,Chennai Traffic Safety Database
+2009,Chennai City,City,8801,1295,1408,7744,16545,Chennai City Police Traffic Wing Reports,2009,Chennai Traffic Safety Database
+2010,Chennai City,City,9265,1363,1482,8153,17418,Chennai City Police Traffic Wing Reports,2010,Chennai Traffic Safety Database
+2011,Chennai City,City,9431,1387,1508,8299,17730,Chennai City Police Traffic Wing Reports,2011,Chennai Traffic Safety Database
+2012,Chennai City,City,9255,1361,1480,8144,17399,Chennai City Police Traffic Wing Reports,2012,Chennai Traffic Safety Database
+2013,Chennai City,City,9011,1325,1441,7929,16940,Chennai City Police Traffic Wing Reports,2013,Chennai Traffic Safety Database
+2014,Chennai City,City,9032,1329,1445,7948,16980,Chennai City Police Traffic Wing Reports,2014,Chennai Traffic Safety Database
+2015,Chennai City,City,9410,1384,1505,8280,17690,Chennai City Police Traffic Wing Reports,2015,Chennai Traffic Safety Database
+2016,Chennai City,City,9907,1458,1585,8718,18625,Chennai City Police Traffic Wing Reports,2016,Chennai Traffic Safety Database
+2017,Chennai City,City,10178,1497,1628,8956,19134,Chennai City Police Traffic Wing Reports,2017,Chennai Traffic Safety Database
+2018,Chennai City,City,10082,1483,1613,8872,18954,Chennai City Police Traffic Wing Reports,2018,Chennai Traffic Safety Database
+2019,Chennai City,City,9819,1445,1571,8640,18459,Chennai City Police Traffic Wing Reports,2019,Chennai Traffic Safety Database
+2020,Chennai City,City,9741,1433,1558,8572,18313,Chennai City Police Traffic Wing Reports,2020,Chennai Traffic Safety Database
+2021,Chennai City,City,10030,1475,1604,8826,18856,Chennai City Police Traffic Wing Reports,2021,Chennai Traffic Safety Database
+2022,Chennai City,City,10530,1549,1684,9266,19796,Chennai City Police Traffic Wing Reports,2022,Chennai Traffic Safety Database
+2023,Chennai City,City,10893,1602,1742,9585,20478,Chennai City Police Traffic Wing Reports,2023,Chennai Traffic Safety Database
+2024,Chennai City,City,10894,1603,1743,9586,20480,Chennai City Police Traffic Wing Reports,2024,Chennai Traffic Safety Database
+2025,Chennai City,City,10644,1566,1703,9366,20010,Chennai City Police Traffic Wing Reports,2025,Chennai Traffic Safety Database

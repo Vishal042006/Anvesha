@@ -1,0 +1,17 @@
+{
+  "selected_production_model": "T-1 Persistence",
+  "selection_criteria": [
+    "Lowest WAPE",
+    "Lowest MAE",
+    "Lowest RMSE",
+    "Highest R2"
+  ],
+  "training_regime": "OFFICIAL_PLUS_SYNTHETIC",
+  "validation_wape_pct": 5.63647366331055,
+  "validation_mae": 219.17747747747748,
+  "validation_rmse": 461.70648509456566,
+  "validation_r2": 0.9919664669429616,
+  "final_test_wape_pct": 6.11578831271484,
+  "selection_timestamp": "2026-10-06T22:27:20.511842",
+  "selection_pipeline": "ANVESHA Dual-Regime Benchmarking"
+}

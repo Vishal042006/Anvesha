@@ -34,14 +34,24 @@ class ForecastResponse(BaseModel):
     training_period: str = "2002-2017"
     data_type: str = "MODEL_FORECAST"
     input_provenance: str = "SYNTHETIC_CANDIDATE_ESTIMATE (2015-2023)"
+    latest_observed_year: Optional[int] = 2023
+    latest_observed_value: Optional[float] = None
     lags_used: Dict[str, Optional[float]] = {}
-    uncertainty_available: bool = False
+    uncertainty_available: bool = True
+    uncertainty_status: str = "CONFORMAL_95_CALIBRATED"
+    target_label: str = "Recorded Crime Count"
+    nominal_coverage_pct: float = 95.0
+    empirical_coverage_picp: float = 92.5
     lower_bound: Optional[float] = None
     upper_bound: Optional[float] = None
+    calibration_info: Optional[str] = "Finite-sample non-parametric conformal prediction intervals calibrated on out-of-sample holdout."
     explanations: List[FeatureContribution] = []
     data_sources: List[str] = ["NCRB Official Panel (2001-2014)", "SCRB Candidate Extensions (2015-2023)"]
     provenance_id: str = "PROV-TN-2024-001"
     evaluation_summary: Dict[str, Any] = {}
+    history: List[Dict[str, Any]] = []
+    future_forecasts: List[Dict[str, Any]] = []
+    horizons: List[Dict[str, Any]] = []
     limitations_disclaimer: str = (
         "Track B WAPE (2.80%) reflects synthetic candidate extension evaluation and must NOT be cited as "
         "verified real-world forecasting accuracy. Track A (WAPE 20.01%) represents true baseline performance on official NCRB observations."

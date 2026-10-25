@@ -1,0 +1,11 @@
+Model,Family,MAE ↓,RMSE ↓,WAPE (%) ↓,R² ↑,Best Epoch,Status
+Naïve T-1,Heuristic Baseline,269.76,629.15,6.12%,0.9899,N/A,RECOMMENDED
+ARIMA,Autoregressive,278.10,613.03,6.30%,0.9904,N/A,EVALUATED
+50-Epoch MLP Regressor,Deep Learning,299.26,597.73,6.78%,0.9908,48,EVALUATED
+Ridge Autoregressive (L2),Classical ML,350.78,692.27,7.95%,0.9878,N/A,EVALUATED
+Random Forest Regressor,Tree Ensemble,366.99,767.60,8.32%,0.9851,N/A,EVALUATED
+3-Year Historical Mean,Heuristic Baseline,443.09,847.83,10.04%,0.9819,N/A,EVALUATED
+LightGBM Regressor,Gradient Boosting,618.45,1920.12,14.02%,0.9059,N/A,EVALUATED
+XGBoost Regressor,Gradient Boosting,626.23,1942.36,14.20%,0.9037,N/A,EVALUATED
+Regime-Aware XGBoost,Hybrid Ensemble,627.18,1945.73,14.22%,0.9033,N/A,EVALUATED
+PyTorch LSTM (50 Epochs),Recurrent Neural Net,1145.80,2890.45,25.96%,0.7891,32,EVALUATED

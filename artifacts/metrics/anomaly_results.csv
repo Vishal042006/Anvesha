@@ -1,0 +1,2 @@
+experiment_id,model,task,framework,dataset,dataset_version,sample_count,feature_count,contamination,anomaly_count,anomaly_rate,mean_anomaly_score,training_wall_time_sec,inference_time_sec,model_size_mb
+ANV-ANOMALY-IF-001,IsolationForest,SPATIO_TEMPORAL_ANOMALY_DETECTION,scikit-learn,Tamil Nadu Panel (2004-2014),ANVESHA-DATA-v1.0,399,4,0.08,18,4.51,0.1685,0.1104,0.0,0.8982

@@ -1,0 +1,6 @@
+component,reason,replacement,status
+Complex Ensemble Multi-Model Stacking,Over-predicted during administrative reporting shifts; 3-Year Rolling Mean performs better empirically (MAE 31.21 vs 76.48).,3-Year Rolling Mean Baseline (`3Yr_Mean_Baseline`),MOVED_TO_BENCHMARK
+Individual Crime Risk Scoring / Profiling,"Ethically invalid, scientifically unsupportable, and violates ANVESHA's non-profiling mandate.",Area-Level Aggregated Pattern & Context Analysis,PERMANENTLY_REMOVED
+Loose Substring 'SC/ST' Keyword Matcher,"Accidentally matched words containing 'sc'/'st' (e.g. 'district', 'description').","Exact Phrase Boundary Classifier (`sc_st`, `against_sc`)",REFACTORED
+Generic AI Advice Generator without Citations,"Produced non-actionable fluff ('raise awareness', 'improve security').",Tangible Action Engine with Grounded DOIs & Limitations,REPLACED
+Sub-District Street Segment Recommendation Generation,ANVESHA dataset operates at the district level; generating street segments is unsupported.,"Strict Data-Granularity Scoped Actionability Levels (Level 1, 2, 3)",REFACTORED

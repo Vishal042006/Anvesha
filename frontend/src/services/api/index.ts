@@ -13,6 +13,7 @@ import type {
   ModelRegistryResponse,
   ExplainabilityResponse,
   ScholarlySearchResponse,
+  DistrictBriefingResponse,
 } from '../../types';
 
 export const healthApi = {
@@ -32,10 +33,10 @@ export const modelsApi = {
 };
 
 export const forecastApi = {
-  getForecast: (district: string = 'Pune', category: string = 'property_crime', year: number = 2024, model: string = 'T-1 Persistence') => {
+  getForecast: (district: string = 'CHENNAI', category: string = 'ALL_CRIME', year: number = 2026, model: string = 'Ridge') => {
     return fetchJson<ForecastResponse>(`/forecast?district=${encodeURIComponent(district)}&crime_category=${encodeURIComponent(category)}&year=${year}&model=${encodeURIComponent(model)}`);
   },
-  getForecastByDistrict: (district: string, category: string = 'property_crime', year: number = 2024, model: string = 'T-1 Persistence') => {
+  getForecastByDistrict: (district: string, category: string = 'ALL_CRIME', year: number = 2026, model: string = 'Ridge') => {
     return fetchJson<ForecastResponse>(`/forecast/${encodeURIComponent(district)}?crime_category=${encodeURIComponent(category)}&year=${year}&model=${encodeURIComponent(model)}`);
   },
   postForecast: (payload: { district: string; crime_category: string; year: number; model?: string }) => {
@@ -45,6 +46,8 @@ export const forecastApi = {
     });
   },
 };
+
+export const forecastingApi = forecastApi;
 
 export const trendApi = {
   getTrends: (district?: string, category?: string, threshold_pct: number = 5.0) => {
@@ -76,13 +79,14 @@ export const anomalyApi = {
 export const districtApi = {
   getSummary: () => fetchJson<SummaryResponse>('/crime/summary'),
   getCategories: () => fetchJson<CategorySummaryResponse>('/crime/categories'),
-  getDistrictAnalytics: (district: string, stateUt?: string, category: string = 'ipc_total') => {
+  getDistricts: (stateUt?: string) => geographyApi.getDistricts(stateUt),
+  getDistrictAnalytics: (district: string, stateUt?: string, category: string = 'ALL_CRIME') => {
     const params = new URLSearchParams();
     if (stateUt) params.append('state_ut', stateUt);
     params.append('category', category);
     return fetchJson<DistrictAnalyticsResponse>(`/districts/${encodeURIComponent(district)}/analytics?${params.toString()}`);
   },
-  getDistrictHistory: (unit: string, stateUt?: string, category: string = 'ipc_total') => {
+  getDistrictHistory: (unit: string, stateUt?: string, category: string = 'ALL_CRIME') => {
     const params = new URLSearchParams();
     if (stateUt) params.append('state_ut', stateUt);
     params.append('category', category);
@@ -90,8 +94,48 @@ export const districtApi = {
   },
 };
 
+export const policeStationsApi = {
+  getPoliceStations: () => fetchJson<any>('/police-stations'),
+};
+
 export const spatialApi = {
-  getSpatialCrime: (stateUt?: string, category: string = 'ipc_total', year: number = 2022, layer: string = 'observed') => {
+  getLevels: () => fetchJson<{ levels: Array<{ code: string; label: string; description: string }>; default_level: string }>('/spatial/levels'),
+  getCategories: () => fetchJson<{ categories: Array<{ code: string; label: string; description?: string }>; default_category: string }>('/spatial/categories'),
+  getSpatialMap: (params?: {
+    level?: string;
+    year?: number;
+    crime_category?: string;
+    metric?: string;
+    state?: string;
+    district?: string;
+    police_unit?: string;
+    regime?: string;
+    include_crimeshift?: boolean;
+  }) => {
+    const p = new URLSearchParams();
+    if (params?.level) p.append('level', params.level);
+    if (params?.year) p.append('year', params.year.toString());
+    if (params?.crime_category) p.append('crime_category', params.crime_category);
+    if (params?.metric) p.append('metric', params.metric);
+    if (params?.state) p.append('state', params.state);
+    if (params?.district) p.append('district', params.district);
+    if (params?.police_unit) p.append('police_unit', params.police_unit);
+    if (params?.regime) p.append('regime', params.regime);
+    if (params?.include_crimeshift !== undefined) p.append('include_crimeshift', params.include_crimeshift.toString());
+    return fetchJson<SpatialGeoJSONResponse>(`/spatial/map?${p.toString()}`);
+  },
+  getSpatialSummaryFiltered: (params?: { year?: number; category?: string; level?: string; state_ut?: string }) => {
+    const p = new URLSearchParams();
+    if (params?.year) p.append('year', params.year.toString());
+    if (params?.category) p.append('category', params.category);
+    if (params?.level) p.append('level', params.level);
+    if (params?.state_ut) p.append('state_ut', params.state_ut);
+    return fetchJson<any>(`/spatial/summary?${p.toString()}`);
+  },
+  getUnitDetails: (geographyId: string, yearCutoff: number = 2023, category: string = 'ALL_CRIME') => {
+    return fetchJson<any>(`/spatial/unit/${encodeURIComponent(geographyId)}?year_cutoff=${yearCutoff}&category=${encodeURIComponent(category)}`);
+  },
+  getSpatialCrime: (stateUt?: string, category: string = 'ALL_CRIME', year: number = 2026, layer: string = 'forecast') => {
     const params = new URLSearchParams();
     if (stateUt && stateUt.toUpperCase() !== 'ALL') params.append('state_ut', stateUt);
     params.append('category', category);
@@ -101,6 +145,7 @@ export const spatialApi = {
   },
   getSpatialSummary: () => fetchJson<SpatialGeoJSONResponse>('/spatial/summary'),
   getCities: () => fetchJson<any[]>('/spatial/cities'),
+  getPoliceStations: () => policeStationsApi.getPoliceStations(),
 };
 
 export const evidenceApi = {
@@ -131,19 +176,63 @@ export const classificationApi = {
   getClassification: () => fetchJson<any>('/classification'),
 };
 
+export const crimeshiftApi = {
+  analyzeCrimeshift: (unit: string = 'Chennai', category: string = 'ALL_CRIME', yearCutoff: number = 2023) => {
+    return fetchJson<any>(`/crimeshift/analyze?unit=${encodeURIComponent(unit)}&category=${encodeURIComponent(category)}&year_cutoff=${yearCutoff}`);
+  },
+  getTransitions: (unit?: string, category: string = 'ALL_CRIME', yearCutoff: number = 2023) => {
+    const q = unit ? `?unit=${encodeURIComponent(unit)}&category=${encodeURIComponent(category)}&year_cutoff=${yearCutoff}` : `?category=${encodeURIComponent(category)}&year_cutoff=${yearCutoff}`;
+    return fetchJson<any>(`/crimeshift/transitions${q}`);
+  },
+  getAvailability: (unit: string = 'Chennai', category: string = 'ALL_CRIME') => {
+    return fetchJson<any>(`/crimeshift/availability?unit=${encodeURIComponent(unit)}&category=${encodeURIComponent(category)}`);
+  },
+  getRegimes: (unit?: string) => {
+    const q = unit ? `?unit=${encodeURIComponent(unit)}` : '';
+    return fetchJson<any>(`/regimes${q}`);
+  },
+  getChangePoints: (unit?: string) => {
+    const q = unit ? `?unit=${encodeURIComponent(unit)}` : '';
+    return fetchJson<any>(`/change-points${q}`);
+  },
+  runPipeline: (payload: { unit: string; category: string; year_cutoff: number }) => {
+    return fetchJson<any>('/crimeshift/run-pipeline', {
+      method: 'POST',
+      body: JSON.stringify(payload)
+    });
+  },
+  getResearchHub: () => {
+    return fetchJson<any>('/crimeshift/research-hub');
+  },
+  exportBundle: () => {
+    return fetchJson<any>('/crimeshift/export');
+  },
+  simulate: (payload: { district: string; category?: string; intervention_type: string; intensity_pct: number; start_year?: number }) => {
+    return fetchJson<any>('/crimeshift/simulate', {
+      method: 'POST',
+      body: JSON.stringify(payload)
+    });
+  },
+  getSignificance: () => {
+    return fetchJson<any>('/crimeshift/significance');
+  },
+};
+
 export const riskApi = {
   getRiskIndications: () => fetchJson<any>('/risk'),
 };
 
-export const policeStationsApi = {
-  getPoliceStations: () => fetchJson<any>('/police-stations'),
+export const newsApi = {
+  searchNews: (district: string = 'Chennai', category: string = 'ALL_CRIME') => {
+    return fetchJson<{ status: string; count: number; articles: Array<{ headline: string; publisher: string; published_at: string; description: string; source: string; url: string }> }>(`/news/search?district=${encodeURIComponent(district)}&category=${encodeURIComponent(category)}`);
+  }
 };
 
 export const researchApi = {
   searchScholarly: (query: string) => {
     return fetchJson<ScholarlySearchResponse>(`/research/search?query=${encodeURIComponent(query)}`);
   },
-  explainAreaFindings: (payload: { query: string; district: string; category: string; trend_note?: string }) => {
+  explainAreaFindings: (payload: { query: string; district: string; category: string; year?: number; trend_note?: string; state_ut?: string }) => {
     return fetchJson<any>('/research/explain', {
       method: 'POST',
       body: JSON.stringify(payload),
@@ -157,7 +246,23 @@ export const researchApi = {
   },
 };
 
-// Unified api object for backward compatibility
+export const briefingApi = {
+  getDistrictBriefing: (params: {
+    district: string;
+    category: string;
+    year: number;
+    state_ut?: string;
+  }, signal?: AbortSignal) => {
+    const q = new URLSearchParams({
+      district: params.district,
+      category: params.category,
+      year: String(params.year),
+      ...(params.state_ut ? { state_ut: params.state_ut } : {})
+    });
+    return fetchJson<DistrictBriefingResponse>(`/briefing/district?${q.toString()}`, { signal });
+  }
+};
+
 export const api = {
   getHealth: healthApi.getHealth,
   getStates: geographyApi.getStates,
@@ -182,4 +287,7 @@ export const api = {
   searchScholarly: researchApi.searchScholarly,
   explainAreaFindings: researchApi.explainAreaFindings,
   generateActionPlan: researchApi.generateActionPlan,
+  searchNews: newsApi.searchNews,
+  getDistrictBriefing: briefingApi.getDistrictBriefing,
 };
+

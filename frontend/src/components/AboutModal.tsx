@@ -20,9 +20,11 @@ export const AboutModal: React.FC<AboutModalProps> = ({ isOpen, onClose, summary
         {/* Modal Header */}
         <div className="px-6 py-4 border-b border-[#D8D6D0] flex items-center justify-between bg-[#F1F0EB]">
           <div className="flex items-center space-x-3">
-            <div className="w-8 h-8 bg-[#1A1A1A] text-white flex items-center justify-center font-serif font-black text-base">
-              A
-            </div>
+            <img
+              src="/assets/anvesha_logo.png"
+              alt="ANVESHA 2.0"
+              className="h-9 w-auto object-contain filter drop-shadow-2xs"
+            />
             <div>
               <h2 className="text-base font-serif font-bold text-[#111111]">ANVESHA Framework & Ethical Governance</h2>
               <p className="text-xs text-[#4B4B4B] font-mono">Provenance-Aware Crime Intelligence Research Platform</p>

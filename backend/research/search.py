@@ -28,12 +28,17 @@ class ResearchSearchService:
             }
 
         clean_query = query.strip()
+        # Anchor search query with criminological domain context to prevent biology/cyber noise
+        crime_domain_anchors = ["crime", "police", "policing", "criminology", "law enforcement", "offense", "offence", "penal", "justice", "security"]
+        has_anchor = any(a in clean_query.lower() for a in crime_domain_anchors)
+        search_query_api = clean_query if has_anchor else f"{clean_query} crime policing"
+
         raw_papers: List[Dict[str, Any]] = []
         raw_counts = {"OpenAlex": 0, "Semantic Scholar": 0, "Crossref": 0}
 
         def fetch_openalex():
             try:
-                res = openalex_client.search(clean_query, limit=limit_per_source)
+                res = openalex_client.search(search_query_api, limit=limit_per_source)
                 return "OpenAlex", res
             except Exception as e:
                 logger.error(f"OpenAlex worker failed: {e}")
@@ -41,7 +46,7 @@ class ResearchSearchService:
 
         def fetch_semantic_scholar():
             try:
-                res = semantic_scholar_client.search(clean_query, limit=limit_per_source)
+                res = semantic_scholar_client.search(search_query_api, limit=limit_per_source)
                 return "Semantic Scholar", res
             except Exception as e:
                 logger.error(f"Semantic Scholar worker failed: {e}")
@@ -49,7 +54,7 @@ class ResearchSearchService:
 
         def fetch_crossref():
             try:
-                res = crossref_client.search(clean_query, limit=limit_per_source)
+                res = crossref_client.search(search_query_api, limit=limit_per_source)
                 return "Crossref", res
             except Exception as e:
                 logger.error(f"Crossref worker failed: {e}")

@@ -1,0 +1,49 @@
+{
+  "generated_at": "2026-10-06T10:44:22.984712",
+  "total_raw_records_processed": 2234,
+  "total_verified_physical_stations": 1730,
+  "spatial_duplicates_removed_50m": 504,
+  "sources_used": {
+    "c59ade2e-623c-4282-844f-3491bf1c64db.kml": 148,
+    "LivingAtlas_PoliceStations.geojsonl": 891,
+    "SOI_PoliceStations.geojsonl": 1195
+  },
+  "reporting_unit_distribution": {
+    "Chennai": 279,
+    "Madurai": 100,
+    "Tiruchirappalli": 88,
+    "Tirunelveli": 85,
+    "Cuddalore": 84,
+    "Kanchipuram": 80,
+    "Coimbatore": 78,
+    "Vellore": 76,
+    "Tiruvallur": 71,
+    "Salem": 68,
+    "Villupuram": 67,
+    "Thanjavur": 55,
+    "Ramanathapuram": 51,
+    "Virudhunagar": 50,
+    "Pudukkottai": 50,
+    "Sivagangai": 49,
+    "Dindigul": 45,
+    "Tiruvannamalai": 43,
+    "Krishnagiri": 41,
+    "Kanniyakumari": 41,
+    "Erode": 39,
+    "Tiruppur": 38,
+    "Namakkal": 30,
+    "Nagapattinam": 27,
+    "Tiruvarur": 25,
+    "Karur": 14,
+    "Theni": 13,
+    "Dharmapuri": 12,
+    "Ariyalur": 12,
+    "The Nilgiris": 10,
+    "Perambalur": 9
+  },
+  "coordinate_quality_metrics": {
+    "verified_percentage": 100.0,
+    "unmatched_percentage": 0.0,
+    "fabricated_percentage": 0.0
+  }
+}

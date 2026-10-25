@@ -1,0 +1,11 @@
+Model_Name,Temporal_Folds_N,Mean_CV_Accuracy,Std_CV_Accuracy,Min_CV_Accuracy,Max_CV_Accuracy,Mean_CV_Macro_F1,Mean_CV_Balanced_Acc
+Majority Class Baseline,10,0.5468,0.229,0.1032,0.7818,0.2248,0.3333
+Persistence Baseline,10,0.4904,0.1468,0.1818,0.6303,0.3407,0.3624
+Logistic Regression,10,0.4643,0.2028,0.1091,0.7515,0.3164,0.3601
+Random Forest (Unweighted Baseline),10,0.5168,0.1928,0.0909,0.75,0.4355,0.4611
+Random Forest (Tuned Balanced),10,0.4994,0.1889,0.1091,0.7667,0.4438,0.4828
+Extra Trees (Tuned Balanced),10,0.4957,0.196,0.0848,0.7394,0.4069,0.4341
+HistGradientBoosting,10,0.4955,0.1714,0.1879,0.7444,0.4277,0.4617
+XGBoost Classifier,10,0.5205,0.1775,0.1394,0.7611,0.4394,0.4692
+LightGBM Classifier,10,0.5086,0.1826,0.1333,0.7556,0.435,0.4657
+Voting Ensemble (RF + ET + XGB + HGB),10,0.5086,0.2,0.0909,0.7889,0.4374,0.4663

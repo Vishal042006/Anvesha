@@ -1,0 +1,11 @@
+metric,value
+total_dataset_files,25987
+total_valid_datasets,25978
+total_duplicate_datasets,0
+total_invalid_datasets,9
+total_domains,15
+total_tabular_datasets,24539
+total_pdf_reports,18
+total_rows_counted,48625161
+earliest_validated_year,1993
+latest_validated_year,2025

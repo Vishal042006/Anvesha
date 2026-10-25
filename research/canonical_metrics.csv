@@ -1,0 +1,10 @@
+domain,model,metric,value,unit,status
+Forecasting Track A,T-1 Persistence Baseline,MAE,171.5,Count,VERIFIED
+Forecasting Track A,T-1 Persistence Baseline,WAPE,16.58,Percentage,VERIFIED
+Forecasting Track A,T-1 Persistence Baseline,R2,0.9142,Coeff of Determination,VERIFIED
+Forecasting Track A,Ridge Regression,MAE,185.25,Count,VERIFIED
+Forecasting Track A,Ridge Regression,R2,0.9018,Coeff of Determination,VERIFIED
+Trend Classification,Random Forest Tuned,Accuracy,79.03,Percentage,VERIFIED
+Trend Classification,Random Forest Tuned,Macro-F1,0.6367,Score,VERIFIED
+Trend Classification,Voting Ensemble,Accuracy,80.59,Percentage,VERIFIED
+Trend Classification,Majority Baseline,Accuracy,76.06,Percentage,BASELINE

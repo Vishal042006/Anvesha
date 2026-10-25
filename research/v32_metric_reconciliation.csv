@@ -1,0 +1,13 @@
+Evaluation_Track,Model_or_Experiment,Evaluation_Window,Sample_Size_N,MAE,RMSE,WAPE_pct,R2,Status_Notes
+Track A Official Ground Truth,Previous-Year Persistence Baseline (T-1),2004-2014 (Expanding Window),2007,171.50,581.57,16.58%,0.9142,Selected Primary Point-Forecasting Model
+Track A Official Ground Truth,Ridge Regression (Experiment A),2004-2014 (Expanding Window),2007,185.25,622.25,17.91%,0.9018,Trained Parametric L2 Model
+Track A Official Ground Truth,3-Year Rolling Mean Baseline,2004-2014 (Expanding Window),2007,190.49,606.00,18.41%,0.9068,Auxiliary Baseline for Anomaly Windowing
+Track A Official Ground Truth,Extra Trees Regressor,2004-2014 (Expanding Window),2007,195.14,584.83,18.86%,0.9132,Evaluated Tree Ensemble
+Track A Official Ground Truth,Random Forest Regressor,2004-2014 (Expanding Window),2007,194.50,599.71,18.80%,0.9087,Evaluated Tree Ensemble
+Track A Official Ground Truth,HistGradientBoosting Regressor,2004-2014 (Expanding Window),2007,229.99,703.11,22.23%,0.8746,Evaluated Tree Ensemble
+Track A Official Ground Truth,Track A Held-Out Benchmark (3-Yr Mean),2013-2014 (Held-Out Test),363,244.75,820.29,20.01%,0.8743,Official Ground-Truth Held-Out Test
+Track B Extended Candidate,Track B Synthetic Extension Benchmark,2021-2023 (Candidate Panel),639,31.21,85.18,2.80%,0.9984,Experimental Synthetic Track (Not Real-World WAPE)
+Track A Ablation Study,Experiment A (Historical Lags Only),2004-2014 (Expanding Window),2007,185.25,622.25,17.91%,0.9018,Controlled Ablation Baseline
+Track A Ablation Study,Experiment B (+ Population & Density),2004-2014 (Expanding Window),2007,187.10,629.40,18.08%,0.8990,Demographic Feature Ablation
+Track A Ablation Study,Experiment C (+ Category Spatial Lag),2004-2014 (Expanding Window),2007,186.92,625.10,18.07%,0.9025,Spatial Feature Ablation
+Track A Ablation Study,Experiment D (Full Feature Set),2004-2014 (Expanding Window),2007,188.45,631.80,18.21%,0.8999,Combined Ablation

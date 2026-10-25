@@ -12,8 +12,8 @@
     "anomaly_count": 18,
     "anomaly_rate": 4.51,
     "mean_anomaly_score": 0.1685,
-    "training_wall_time_sec": 0.2167,
-    "inference_time_sec": 0.0001,
+    "training_wall_time_sec": 0.1104,
+    "inference_time_sec": 0.0,
     "model_size_mb": 0.8982
   }
 ]

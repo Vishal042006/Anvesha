@@ -1,22 +1,42 @@
-.env
-.DS_Store
+# Python
 __pycache__/
-*.pyc
-node_modules/
-.venv/
+*.py[cod]
+*.egg-info/
 venv/
+.venv/
+.env
+.env.*
+!.env.example
 
-# Large/local research data
-data/
-*.csv
-*.parquet
-*.pdf
-*.zip
+# Node
+node_modules/
+dist/
+build/
+.npm
 
-# Local ML artifacts
+# macOS
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.save
+
+# Raw data dumps, large archives, and binary models (>50MB / 100MB GitHub limit)
+anvesha_training_data/
+archive/
 models/
+artifacts/models/
+*.pdf
 *.pkl
-*.joblib
-*.h5
-*.pt
-*.pth
+scratch/extracted_ps/
+scratch/india_district_boundaries.geojson
+
+# Ignore raw data folders, preserve only canonical panel dataset
+data/*
+!data/canonical/
+!data/README.md

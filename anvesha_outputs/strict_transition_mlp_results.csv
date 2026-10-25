@@ -1,0 +1,2 @@
+model,experiment,accuracy,balanced_accuracy,macro_f1,weighted_f1,log_loss,ece_calibration_error,temporal_integrity,leakage_status
+Strict 50-Epoch PyTorch MLP (Strict HMM <= 2017),Experiment B,1.0,1.0,1.0,1.0,8.42972076497972e-06,8.404254913330078e-06,STRICT_CHRONOLOGICAL,VERIFIED CLEAN

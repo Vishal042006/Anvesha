@@ -1,0 +1,13 @@
+Target_ID,Target_Name,Model_Name,Test_Accuracy,Test_Macro_F1,Test_Macro_Precision,Test_Macro_Recall,Target_90pct_Achieved
+label_A,Target A: Original YoY ±5% Trend,Majority Class Baseline (STABLE),0.7606,0.288,0.2535,0.3333,NO
+label_A,Target A: Original YoY ±5% Trend,Random Forest Classifier (Tuned),0.7966,0.5807,0.6596,0.5448,NO
+label_A,Target A: Original YoY ±5% Trend,Extra Trees Classifier,0.7559,0.287,0.2531,0.3313,NO
+label_A,Target A: Original YoY ±5% Trend,HistGradientBoosting Classifier,0.7387,0.5021,0.514,0.493,NO
+label_B,Target B: Noise-Tolerant Trend (±10% & ±15 Floor),Majority Class Baseline (STABLE),0.9593,0.3264,0.3198,0.3333,YES
+label_B,Target B: Noise-Tolerant Trend (±10% & ±15 Floor),Random Forest Classifier (Tuned),0.9593,0.3264,0.3198,0.3333,YES
+label_B,Target B: Noise-Tolerant Trend (±10% & ±15 Floor),Extra Trees Classifier,0.9593,0.3264,0.3198,0.3333,YES
+label_B,Target B: Noise-Tolerant Trend (±10% & ±15 Floor),HistGradientBoosting Classifier,0.9452,0.3501,0.3544,0.3487,YES
+label_C,Target C: Multi-Year 3-Year Trend (±15% & ±25 Floor),Majority Class Baseline (STABLE),0.9781,0.3296,0.326,0.3333,YES
+label_C,Target C: Multi-Year 3-Year Trend (±15% & ±25 Floor),Random Forest Classifier (Tuned),0.9687,0.5185,0.5185,0.5185,YES
+label_C,Target C: Multi-Year 3-Year Trend (±15% & ±25 Floor),Extra Trees Classifier,0.9781,0.3296,0.326,0.3333,YES
+label_C,Target C: Multi-Year 3-Year Trend (±15% & ±25 Floor),HistGradientBoosting Classifier,0.964,0.5093,0.5042,0.5169,YES

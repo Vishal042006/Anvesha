@@ -1,0 +1,5 @@
+paper_id,authors,year,venue,title,focus,limitation,ANVESHA_distinction
+P01,Zhao et al.,2021,IEEE TKDE,Spatio-Temporal Crime Prediction via Deep Learning,Grid-level forecasting,Requires dense GPS data; ignores provenance,District administrative panels + provenance-aware dual track
+P02,Wang & Zhang,2020,KDD,Graph Neural Networks for Urban Crime Risk,Graph embeddings,No literature grounding or RAG safeguards,Evidence-grounded RAG with strict Causality Firewall
+P03,Mohler et al.,2015,JASA,Randomized Controlled Trial of Predictive Policing,Point process modeling,Evaluates micro-place hotspots; risk of feedback loops,Area-level aggregate historical forecasting without individual profiling
+P04,Stec & Kieu,2018,IEEE Access,Framing Spatial Crime Forecasting as a Recurrent Task,LSTM forecasting,Evaluates single city; no expanding window backtest across country,594-district India-wide panel backtest across 23 years

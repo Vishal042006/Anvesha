@@ -1,0 +1,1098 @@
+population_place_id,place_name_original,place_name_normalized,status,district_original,district_normalized,population_1991,population_2001,population_2011,population_source,source_file,source_row,data_quality_status
+TN_POP_0001,Abiramam,ABIRAMAM,Town Panchayat,Ramanathapuram,RAMANATHAPURAM,,6638.0,8144,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1,VALID
+TN_POP_0002,Achampudur,ACHAMPUDUR,Town Panchayat,Tirunelveli,TIRUNELVELI,,12406.0,13566,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,2,VALID
+TN_POP_0003,Acharapakkam,ACHARAPAKKAM,Town Panchayat,Kanchipuram,KANCHIPURAM,,9023.0,10362,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,3,VALID
+TN_POP_0004,Achipatti,ACHIPATTI,Census Town,Coimbatore,COIMBATORE,,7448.0,9849,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,4,VALID
+TN_POP_0005,Adaikkakuzhi,ADAIKKAKUZHI,Census Town,Kanniyakumari,KANNIYAKUMARI,,,8888,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,5,PARTIAL_CENSUS
+TN_POP_0006,Adikaratti,ADIKARATTI,Town Panchayat,The Nilgiris,THE NILGIRIS,,16003.0,14178,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,6,VALID
+TN_POP_0007,Adiramapattinam (Adirampattinam),ADIRAMAPATTINAM (ADIRAMPATTINAM),Town Panchayat,Thanjavur,THANJAVUR,26645.0,27657.0,31066,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,7,VALID
+TN_POP_0008,Adiyanuthu,ADIYANUTHU,Census Town,Dindigul,DINDIGUL,,11887.0,17851,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,8,VALID
+TN_POP_0009,Aduthurai (Maruthuvakudi),ADUTHURAI (MARUTHUVAKUDI),Town Panchayat,Thanjavur,THANJAVUR,,11479.0,11705,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,9,VALID
+TN_POP_0010,Agaram,AGARAM,Town Panchayat,Dindigul,DINDIGUL,,12784.0,15610,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,10,VALID
+TN_POP_0011,Agastheeswaram,AGASTHEESWARAM,Town Panchayat,Kanniyakumari,KANNIYAKUMARI,,8995.0,9717,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,11,VALID
+TN_POP_0012,Alagappapuram (Azhagappapuram),ALAGAPPAPURAM (AZHAGAPPAPURAM),Town Panchayat,Kanniyakumari,KANNIYAKUMARI,,8121.0,9626,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,12,VALID
+TN_POP_0013,Alamathi,ALAMATHI,Census Town,Thiruvallur,THIRUVALLUR,,5812.0,7424,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,13,VALID
+TN_POP_0014,Alamelumangapuram,ALAMELUMANGAPURAM,Census Town,Vellore,VELLORE,,5368.0,7900,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,14,VALID
+TN_POP_0015,Alampalayam,ALAMPALAYAM,Town Panchayat,Namakkal,NAMAKKAL,,15255.0,20286,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,15,VALID
+TN_POP_0016,Alandur,ALANDUR,Municipality,Kanchipuram,KANCHIPURAM,125244.0,146287.0,164430,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,16,VALID
+TN_POP_0017,Alanganallur,ALANGANALLUR,Town Panchayat,Madurai,MADURAI,,11078.0,12331,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,17,VALID
+TN_POP_0018,Alangayam,ALANGAYAM,Town Panchayat,Vellore,VELLORE,,16851.0,18327,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,18,VALID
+TN_POP_0019,Alangudi,ALANGUDI,Town Panchayat,Pudukkottai,PUDUKKOTTAI,10882.0,10761.0,12367,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,19,VALID
+TN_POP_0020,Alangulam,ALANGULAM,Census Town,Virudhunagar,VIRUDHUNAGAR,,4969.0,4930,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,20,VALID
+TN_POP_0021,Alangulam,ALANGULAM,Town Panchayat,Tirunelveli,TIRUNELVELI,,17923.0,20948,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,21,VALID
+TN_POP_0022,Alanthurai,ALANTHURAI,Town Panchayat,Coimbatore,COIMBATORE,,7130.0,7221,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,22,VALID
+TN_POP_0023,Alapakkam,ALAPAKKAM,Census Town,Kanchipuram,KANCHIPURAM,,5015.0,9404,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,23,VALID
+TN_POP_0024,Allapuram,ALLAPURAM,Town Panchayat,Vellore,VELLORE,21424.0,26948.0,31211,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,24,VALID
+TN_POP_0025,Alur (Aloor),ALUR (ALOOR),Town Panchayat,Kanniyakumari,KANNIYAKUMARI,,12379.0,15063,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,25,VALID
+TN_POP_0026,Alwarkurichi,ALWARKURICHI,Town Panchayat,Tirunelveli,TIRUNELVELI,,9459.0,10045,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,26,VALID
+TN_POP_0027,Alwarthirunagiri,ALWARTHIRUNAGIRI,Town Panchayat,Thoothukkudi,THOOTHUKKUDI,,8883.0,9289,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,27,VALID
+TN_POP_0028,Amathur,AMATHUR,Census Town,Virudhunagar,VIRUDHUNAGAR,,4163.0,4708,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,28,VALID
+TN_POP_0029,Ambasamudram,AMBASAMUDRAM,Municipality,Tirunelveli,TIRUNELVELI,33893.0,32739.0,35645,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,29,VALID
+TN_POP_0030,Ambattur,AMBATTUR,Municipality,Thiruvallur,THIRUVALLUR,215424.0,310967.0,466205,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,30,VALID
+TN_POP_0031,Ambur,AMBUR,Municipality,Vellore,VELLORE,75911.0,99624.0,114608,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,31,VALID
+TN_POP_0032,Ammainaickanur,AMMAINAICKANUR,Town Panchayat,Dindigul,DINDIGUL,,16604.0,19257,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,32,VALID
+TN_POP_0033,Ammanur,AMMANUR,Census Town,Vellore,VELLORE,,4903.0,7731,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,33,VALID
+TN_POP_0034,Ammapattinam,AMMAPATTINAM,Census Town,Pudukkottai,PUDUKKOTTAI,,,6652,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,34,PARTIAL_CENSUS
+TN_POP_0035,Ammapettai,AMMAPETTAI,Town Panchayat,Erode,ERODE,,9259.0,9677,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,35,VALID
+TN_POP_0036,Ammapettai,AMMAPETTAI,Town Panchayat,Thanjavur,THANJAVUR,,13901.0,14572,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,36,VALID
+TN_POP_0037,Ammavarikuppam,AMMAVARIKUPPAM,Census Town,Thiruvallur,THIRUVALLUR,7552.0,9384.0,10750,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,37,VALID
+TN_POP_0038,Ammoor,AMMOOR,Town Panchayat,Vellore,VELLORE,,11296.0,12513,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,38,VALID
+TN_POP_0039,Anaimalai,ANAIMALAI,Town Panchayat,Coimbatore,COIMBATORE,,16467.0,17208,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,39,VALID
+TN_POP_0040,Anaiyur,ANAIYUR,Municipality,Madurai,MADURAI,17659.0,38310.0,63917,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,40,VALID
+TN_POP_0041,Anaiyur,ANAIYUR,Census Town,Virudhunagar,VIRUDHUNAGAR,,19898.0,24436,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,41,VALID
+TN_POP_0042,Anakaputhur,ANAKAPUTHUR,Municipality,Kanchipuram,KANCHIPURAM,24345.0,31918.0,48050,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,42,VALID
+TN_POP_0043,Ananthapuram,ANANTHAPURAM,Town Panchayat,Viluppuram,VILUPPURAM,,6138.0,6892,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,43,VALID
+TN_POP_0044,Andankoil East,ANDANKOIL EAST,Census Town,Karur,KARUR,,19779.0,19779,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,44,VALID
+TN_POP_0045,Andipalayam,ANDIPALAYAM,Census Town,Tiruppur,TIRUPPUR,,11350.0,25539,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,45,VALID
+TN_POP_0046,Andipatti Jakkampatti,ANDIPATTI JAKKAMPATTI,Town Panchayat,Theni,THENI,19153.0,23002.0,27287,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,46,VALID
+TN_POP_0047,Anjugrammam (Anjugramam),ANJUGRAMMAM (ANJUGRAMAM),Town Panchayat,Kanniyakumari,KANNIYAKUMARI,,9353.0,10982,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,47,VALID
+TN_POP_0048,Annalagraharam,ANNALAGRAHARAM,Census Town,Thanjavur,THANJAVUR,,6266.0,11129,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,48,VALID
+TN_POP_0049,Annamalai Nagar,ANNAMALAI NAGAR,Town Panchayat,Cuddalore,CUDDALORE,9209.0,10062.0,16289,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,49,VALID
+TN_POP_0050,Annavasal,ANNAVASAL,Town Panchayat,Pudukkottai,PUDUKKOTTAI,,7657.0,8906,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,50,VALID
+TN_POP_0051,Annur,ANNUR,Town Panchayat,Coimbatore,COIMBATORE,13851.0,18052.0,20079,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,51,VALID
+TN_POP_0052,Anthiyur,ANTHIYUR,Town Panchayat,Erode,ERODE,24141.0,20071.0,21086,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,52,VALID
+TN_POP_0053,Anuppankulam,ANUPPANKULAM,Census Town,Virudhunagar,VIRUDHUNAGAR,,10990.0,13526,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,53,VALID
+TN_POP_0054,Appakudal,APPAKUDAL,Town Panchayat,Erode,ERODE,,9522.0,10610,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,54,VALID
+TN_POP_0055,Arachalur,ARACHALUR,Town Panchayat,Erode,ERODE,,12343.0,12034,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,55,VALID
+TN_POP_0056,Arakandanallur,ARAKANDANALLUR,Town Panchayat,Viluppuram,VILUPPURAM,4566.0,4405.0,5713,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,56,VALID
+TN_POP_0057,Arakonam (Arakkonam),ARAKONAM (ARAKKONAM),Municipality,Vellore,VELLORE,71928.0,78686.0,78395,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,57,VALID
+TN_POP_0058,Aralvaimozhi,ARALVAIMOZHI,Town Panchayat,Kanniyakumari,KANNIYAKUMARI,,19211.0,22846,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,58,VALID
+TN_POP_0059,Arani,ARANI,Town Panchayat,Thiruvallur,THIRUVALLUR,11422.0,12614.0,12833,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,59,VALID
+TN_POP_0060,Arani (Arni),ARANI (ARNI),Municipality,Tiruvannamalai,TIRUVANNAMALAI,54898.0,60815.0,63671,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,60,VALID
+TN_POP_0061,Aranthangi,ARANTHANGI,Municipality,Pudukkottai,PUDUKKOTTAI,30327.0,34134.0,40814,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,61,VALID
+TN_POP_0062,Arasiramani,ARASIRAMANI,Town Panchayat,Salem,SALEM,,13815.0,14834,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,62,VALID
+TN_POP_0063,Arasur,ARASUR,Census Town,Coimbatore,COIMBATORE,,8689.0,11510,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,63,VALID
+TN_POP_0064,Aravakurichi,ARAVAKURICHI,Town Panchayat,Karur,KARUR,,11519.0,12412,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,64,VALID
+TN_POP_0065,Aravankad (Aruvankadu),ARAVANKAD (ARUVANKADU),Township,The Nilgiris,THE NILGIRIS,5562.0,5309.0,4438,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,65,VALID
+TN_POP_0066,Arcot,ARCOT,Municipality,Vellore,VELLORE,45205.0,49953.0,55955,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,66,VALID
+TN_POP_0067,Arimalam,ARIMALAM,Town Panchayat,Pudukkottai,PUDUKKOTTAI,,7819.0,8948,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,67,VALID
+TN_POP_0068,Ariyalur,ARIYALUR,Municipality,Ariyalur,ARIYALUR,24141.0,27822.0,28902,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,68,VALID
+TN_POP_0069,Ariyappampalayam,ARIYAPPAMPALAYAM,Town Panchayat,Erode,ERODE,,12462.0,15706,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,69,VALID
+TN_POP_0070,Ariyur,ARIYUR,Census Town,Vellore,VELLORE,,5404.0,7251,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,70,VALID
+TN_POP_0071,Arumanai,ARUMANAI,Town Panchayat,Kanniyakumari,KANNIYAKUMARI,,15071.0,16283,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,71,VALID
+TN_POP_0072,Arumbanur,ARUMBANUR,Census Town,Madurai,MADURAI,,,6148,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,72,PARTIAL_CENSUS
+TN_POP_0073,Arumbavur,ARUMBAVUR,Town Panchayat,Perambalur,PERAMBALUR,,11695.0,12467,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,73,VALID
+TN_POP_0074,Arumuganeri,ARUMUGANERI,Town Panchayat,Thoothukkudi,THOOTHUKKUDI,23453.0,24856.0,27266,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,74,VALID
+TN_POP_0075,Aruppukkottai,ARUPPUKKOTTAI,Municipality,Virudhunagar,VIRUDHUNAGAR,78976.0,84029.0,87722,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,75,VALID
+TN_POP_0076,Asaripallam,ASARIPALLAM,Town Panchayat,Kanniyakumari,KANNIYAKUMARI,,12755.0,16822,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,76,VALID
+TN_POP_0077,Ashokapuram,ASHOKAPURAM,Census Town,Coimbatore,COIMBATORE,6306.0,9394.0,12993,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,77,VALID
+TN_POP_0078,Athani,ATHANI,Town Panchayat,Erode,ERODE,,8423.0,8430,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,78,VALID
+TN_POP_0079,Athanur,ATHANUR,Town Panchayat,Namakkal,NAMAKKAL,,9377.0,9827,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,79,VALID
+TN_POP_0080,Athimarapatti,ATHIMARAPATTI,Census Town,Thoothukkudi,THOOTHUKKUDI,,18767.0,22218,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,80,VALID
+TN_POP_0081,Athipatti,ATHIPATTI,Census Town,Virudhunagar,VIRUDHUNAGAR,,,8384,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,81,PARTIAL_CENSUS
+TN_POP_0082,Athipattu,ATHIPATTU,Census Town,Thiruvallur,THIRUVALLUR,,8513.0,11034,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,82,VALID
+TN_POP_0083,Athivilai,ATHIVILAI,Census Town,Kanniyakumari,KANNIYAKUMARI,,,7401,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,83,PARTIAL_CENSUS
+TN_POP_0084,Athur,ATHUR,Town Panchayat,Thoothukkudi,THOOTHUKKUDI,,9464.0,10138,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,84,VALID
+TN_POP_0085,Athur,ATHUR,Town Panchayat,Kanniyakumari,KANNIYAKUMARI,,11744.0,11910,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,85,VALID
+TN_POP_0086,Attayampatti,ATTAYAMPATTI,Town Panchayat,Salem,SALEM,10835.0,12698.0,13852,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,86,VALID
+TN_POP_0087,Attur,ATTUR,Municipality,Salem,SALEM,55667.0,57519.0,61793,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,87,VALID
+TN_POP_0088,Avadattur,AVADATTUR,Census Town,Salem,SALEM,,8976.0,9869,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,88,VALID
+TN_POP_0089,Avadi,AVADI,Municipality,Thiruvallur,THIRUVALLUR,183215.0,229403.0,345996,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,89,VALID
+TN_POP_0090,Avalapalli,AVALAPALLI,Census Town,Krishnagiri,KRISHNAGIRI,,10342.0,17859,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,90,VALID
+TN_POP_0091,Avalpoondurai,AVALPOONDURAI,Town Panchayat,Erode,ERODE,,11243.0,11789,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,91,VALID
+TN_POP_0092,Avanashi (Avinashi),AVANASHI (AVINASHI),Town Panchayat,Tiruppur,TIRUPPUR,17273.0,22336.0,28868,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,92,VALID
+TN_POP_0093,Avaniapuram,AVANIAPURAM,Municipality,Madurai,MADURAI,35810.0,53006.0,89635,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,93,VALID
+TN_POP_0094,A. Vellalapatti (Vellalapatti),A. VELLALAPATTI (VELLALAPATTI),Town Panchayat,Madurai,MADURAI,,7088.0,8325,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,94,VALID
+TN_POP_0095,Ayacode,AYACODE,Census Town,Kanniyakumari,KANNIYAKUMARI,,,8874,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,95,PARTIAL_CENSUS
+TN_POP_0096,Ayakudi,AYAKUDI,Town Panchayat,Dindigul,DINDIGUL,,23370.0,27156,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,96,VALID
+TN_POP_0097,Ayappakkam,AYAPPAKKAM,Census Town,Thiruvallur,THIRUVALLUR,,,29511,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,97,PARTIAL_CENSUS
+TN_POP_0098,Aygudi,AYGUDI,Town Panchayat,Tirunelveli,TIRUNELVELI,,12930.0,15129,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,98,VALID
+TN_POP_0099,Ayothiapattinam,AYOTHIAPATTINAM,Town Panchayat,Salem,SALEM,,9941.0,11517,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,99,VALID
+TN_POP_0100,Ayyalur,AYYALUR,Town Panchayat,Dindigul,DINDIGUL,,15203.0,17100,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,100,VALID
+TN_POP_0101,Ayyampalayam,AYYAMPALAYAM,Town Panchayat,Dindigul,DINDIGUL,,12163.0,12175,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,101,VALID
+TN_POP_0102,Ayyampettai,AYYAMPETTAI,Census Town,Kanchipuram,KANCHIPURAM,5713.0,6025.0,6610,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,102,VALID
+TN_POP_0103,Ayyampettai,AYYAMPETTAI,Town Panchayat,Thanjavur,THANJAVUR,13092.0,14212.0,16263,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,103,VALID
+TN_POP_0104,Ayyappanthangal,AYYAPPANTHANGAL,Census Town,Kanchipuram,KANCHIPURAM,,,23808,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,104,PARTIAL_CENSUS
+TN_POP_0105,Azhagiapandipuram (Azhagiapandiapuram),AZHAGIAPANDIPURAM (AZHAGIAPANDIAPURAM),Town Panchayat,Kanniyakumari,KANNIYAKUMARI,,12183.0,11392,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,105,VALID
+TN_POP_0106,Balakrishnampatti,BALAKRISHNAMPATTI,Town Panchayat,Tiruchirappalli,TIRUCHIRAPPALLI,,8582.0,8635,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,106,VALID
+TN_POP_0107,Balakrishnapuram,BALAKRISHNAPURAM,Census Town,Dindigul,DINDIGUL,,19568.0,25627,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,107,VALID
+TN_POP_0108,Balasamudram,BALASAMUDRAM,Town Panchayat,Dindigul,DINDIGUL,,12305.0,14179,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,108,VALID
+TN_POP_0109,Bargur,BARGUR,Town Panchayat,Krishnagiri,KRISHNAGIRI,,12582.0,16366,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,109,VALID
+TN_POP_0110,Batlagundu,BATLAGUNDU,Town Panchayat,Dindigul,DINDIGUL,,22011.0,22928,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,110,VALID
+TN_POP_0111,Belur,BELUR,Town Panchayat,Salem,SALEM,,9012.0,8736,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,111,VALID
+TN_POP_0112,Bhavani,BHAVANI,Municipality,Erode,ERODE,35196.0,38778.0,39225,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,112,VALID
+TN_POP_0113,Bhavanisagar,BHAVANISAGAR,Town Panchayat,Erode,ERODE,6005.0,4329.0,7710,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,113,VALID
+TN_POP_0114,Bhuvanagiri,BHUVANAGIRI,Town Panchayat,Cuddalore,CUDDALORE,17605.0,19879.0,21956,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,114,VALID
+TN_POP_0115,Bikketti,BIKKETTI,Town Panchayat,The Nilgiris,THE NILGIRIS,,6774.0,5864,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,115,VALID
+TN_POP_0116,B.Mallapuram,B.MALLAPURAM,Town Panchayat,Dharmapuri,DHARMAPURI,,11474.0,12705,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,116,VALID
+TN_POP_0117,B. Meenakshipuram,B. MEENAKSHIPURAM,Town Panchayat,Theni,THENI,,7227.0,7846,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,117,VALID
+TN_POP_0118,Bodinayakanur (Bodinayakkanur),BODINAYAKANUR (BODINAYAKKANUR),Municipality,Theni,THENI,66500.0,73410.0,75675,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,118,VALID
+TN_POP_0119,Boothapandi,BOOTHAPANDI,Town Panchayat,Kanniyakumari,KANNIYAKUMARI,,14743.0,15931,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,119,VALID
+TN_POP_0120,Boothipuram,BOOTHIPURAM,Town Panchayat,Theni,THENI,,9626.0,11022,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,120,VALID
+TN_POP_0121,Brahmana Periya Agraharam,BRAHMANA PERIYA AGRAHARAM,Town Panchayat,Erode,ERODE,16293.0,21458.0,24798,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,121,VALID
+TN_POP_0122,Chakkarapalli,CHAKKARAPALLI,Census Town,Thanjavur,THANJAVUR,,6082.0,6227,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,122,VALID
+TN_POP_0123,Chathirareddipatti,CHATHIRAREDDIPATTI,Census Town,Virudhunagar,VIRUDHUNAGAR,,,5360,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,123,PARTIAL_CENSUS
+TN_POP_0124,Chatrapatti,CHATRAPATTI,Census Town,Virudhunagar,VIRUDHUNAGAR,,,6948,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,124,PARTIAL_CENSUS
+TN_POP_0125,Chenbagaramanputhur,CHENBAGARAMANPUTHUR,Census Town,Kanniyakumari,KANNIYAKUMARI,,,5028,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,125,PARTIAL_CENSUS
+TN_POP_0126,Chengalpattu,CHENGALPATTU,Municipality,Kanchipuram,KANCHIPURAM,54127.0,62582.0,62579,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,126,VALID
+TN_POP_0127,Chengam,CHENGAM,Town Panchayat,Tiruvannamalai,TIRUVANNAMALAI,,23223.0,26980,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,127,VALID
+TN_POP_0128,Chengappalli,CHENGAPPALLI,Census Town,Tiruppur,TIRUPPUR,,,6587,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,128,PARTIAL_CENSUS
+TN_POP_0129,Chennagiri,CHENNAGIRI,Census Town,Salem,SALEM,,4806.0,5338,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,129,VALID
+TN_POP_0130,Chennai [Madras],CHENNAI [MADRAS],Municipal Corporation,Chennai,CHENNAI,3841396.0,4343645.0,4646732,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,130,VALID
+TN_POP_0131,Chennasamudram,CHENNASAMUDRAM,Town Panchayat,Erode,ERODE,,7342.0,8111,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,131,VALID
+TN_POP_0132,Chennimalai,CHENNIMALAI,Town Panchayat,Erode,ERODE,13453.0,15547.0,15500,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,132,VALID
+TN_POP_0133,Cheranmadevi,CHERANMADEVI,Town Panchayat,Tirunelveli,TIRUNELVELI,,16306.0,18327,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,133,VALID
+TN_POP_0134,Chetpet (Chettupattu),CHETPET (CHETTUPATTU),Town Panchayat,Tiruvannamalai,TIRUVANNAMALAI,,17841.0,19827,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,134,VALID
+TN_POP_0135,Chettiarpatti,CHETTIARPATTI,Town Panchayat,Virudhunagar,VIRUDHUNAGAR,11497.0,12993.0,17520,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,135,VALID
+TN_POP_0136,Chettinaickenpatti,CHETTINAICKENPATTI,Census Town,Dindigul,DINDIGUL,,,17701,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,136,PARTIAL_CENSUS
+TN_POP_0137,Chettipalayam,CHETTIPALAYAM,Census Town,Tiruppur,TIRUPPUR,19379.0,20184.0,37620,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,137,VALID
+TN_POP_0138,Chettipalayam,CHETTIPALAYAM,Town Panchayat,Coimbatore,COIMBATORE,,8103.0,10366,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,138,VALID
+TN_POP_0139,Chettithangal,CHETTITHANGAL,Census Town,Vellore,VELLORE,,6042.0,7780,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,139,VALID
+TN_POP_0140,Chidambaram,CHIDAMBARAM,Municipality,Cuddalore,CUDDALORE,58740.0,57733.0,62153,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,140,VALID
+TN_POP_0141,Chidambaram Nm,CHIDAMBARAM NM,Census Town,Cuddalore,CUDDALORE,,6039.0,6039,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,141,VALID
+TN_POP_0142,Chinna Anuppanadi,CHINNA ANUPPANADI,Census Town,Madurai,MADURAI,9231.0,15676.0,26158,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,142,VALID
+TN_POP_0143,Chinnakalayamputhur,CHINNAKALAYAMPUTHUR,Census Town,Dindigul,DINDIGUL,,,5162,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,143,PARTIAL_CENSUS
+TN_POP_0144,Chinnakkampalayam,CHINNAKKAMPALAYAM,Town Panchayat,Tiruppur,TIRUPPUR,,9694.0,11546,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,144,VALID
+TN_POP_0145,Chinnalapatti,CHINNALAPATTI,Town Panchayat,Dindigul,DINDIGUL,22866.0,23351.0,26285,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,145,VALID
+TN_POP_0146,Chinnamanur,CHINNAMANUR,Municipality,Theni,THENI,35397.0,38360.0,42305,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,146,VALID
+TN_POP_0147,Chinnampalayam (Chinniampalayam),CHINNAMPALAYAM (CHINNIAMPALAYAM),Census Town,Coimbatore,COIMBATORE,,7086.0,8695,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,147,VALID
+TN_POP_0148,Chinnamudalaipatti,CHINNAMUDALAIPATTI,Census Town,Namakkal,NAMAKKAL,,,8928,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,148,PARTIAL_CENSUS
+TN_POP_0149,Chinnasalem,CHINNASALEM,Town Panchayat,Viluppuram,VILUPPURAM,,19516.0,25106,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,149,VALID
+TN_POP_0150,Chinnasekkadu,CHINNASEKKADU,Town Panchayat,Thiruvallur,THIRUVALLUR,8421.0,9738.0,12396,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,150,VALID
+TN_POP_0151,Chinnathadagam,CHINNATHADAGAM,Census Town,Coimbatore,COIMBATORE,,8276.0,8407,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,151,VALID
+TN_POP_0152,Chinnavedampatti,CHINNAVEDAMPATTI,Town Panchayat,Coimbatore,COIMBATORE,7754.0,10981.0,20122,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,152,VALID
+TN_POP_0153,Chinniam palayam,CHINNIAM PALAYAM,Census Town,Coimbatore,COIMBATORE,,,8232,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,153,PARTIAL_CENSUS
+TN_POP_0154,Chithode,CHITHODE,Town Panchayat,Erode,ERODE,6993.0,7704.0,8550,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,154,VALID
+TN_POP_0155,Chitlapakkam,CHITLAPAKKAM,Town Panchayat,Kanchipuram,KANCHIPURAM,,25314.0,37906,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,155,VALID
+TN_POP_0156,Cholapuram,CHOLAPURAM,Town Panchayat,Thanjavur,THANJAVUR,,6385.0,6803,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,156,VALID
+TN_POP_0157,Choozhal,CHOOZHAL,Census Town,Kanniyakumari,KANNIYAKUMARI,,,6807,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,157,PARTIAL_CENSUS
+TN_POP_0158,Coimbatore,COIMBATORE,Municipal Corporation,Coimbatore,COIMBATORE,816321.0,930882.0,1050721,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,158,VALID
+TN_POP_0159,Colachel (Kolachal),COLACHEL (KOLACHAL),Municipality,Kanniyakumari,KANNIYAKUMARI,24305.0,23787.0,23227,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,159,VALID
+TN_POP_0160,Coonoor,COONOOR,Municipality,The Nilgiris,THE NILGIRIS,48003.0,50196.0,45494,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,160,VALID
+TN_POP_0161,Courtalam (Courtallam),COURTALAM (COURTALLAM),Town Panchayat,Tirunelveli,TIRUNELVELI,,2368.0,2089,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,161,VALID
+TN_POP_0162,Cuddalore,CUDDALORE,Municipality,Cuddalore,CUDDALORE,144561.0,158634.0,173636,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,162,VALID
+TN_POP_0163,Dalavaipatti,DALAVAIPATTI,Census Town,Salem,SALEM,,6224.0,7732,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,163,VALID
+TN_POP_0164,Damalerimuthur,DAMALERIMUTHUR,Census Town,Vellore,VELLORE,,4688.0,5250,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,164,VALID
+TN_POP_0165,Dasanaickenpatti,DASANAICKENPATTI,Census Town,Salem,SALEM,,,5857,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,165,PARTIAL_CENSUS
+TN_POP_0166,Denkanikottai,DENKANIKOTTAI,Town Panchayat,Krishnagiri,KRISHNAGIRI,,19328.0,24252,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,166,VALID
+TN_POP_0167,Desur,DESUR,Town Panchayat,Tiruvannamalai,TIRUVANNAMALAI,,5163.0,4597,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,167,VALID
+TN_POP_0168,Devadanapatti,DEVADANAPATTI,Town Panchayat,Theni,THENI,,13951.0,19285,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,168,VALID
+TN_POP_0169,Devakottai,DEVAKOTTAI,Municipality,Sivaganga,SIVAGANGA,38265.0,40497.0,51865,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,169,VALID
+TN_POP_0170,Devarshola,DEVARSHOLA,Town Panchayat,The Nilgiris,THE NILGIRIS,19762.0,23164.0,24954,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,170,VALID
+TN_POP_0171,Devasthanam,DEVASTHANAM,Census Town,Vellore,VELLORE,,,4963,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,171,PARTIAL_CENSUS
+TN_POP_0172,Devikapuram,DEVIKAPURAM,Census Town,Tiruvannamalai,TIRUVANNAMALAI,,8712.0,9800,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,172,VALID
+TN_POP_0173,Devipattinam,DEVIPATTINAM,Census Town,Ramanathapuram,RAMANATHAPURAM,,10166.0,11599,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,173,VALID
+TN_POP_0174,Dhalavoipuram,DHALAVOIPURAM,Census Town,Virudhunagar,VIRUDHUNAGAR,5485.0,5378.0,5474,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,174,VALID
+TN_POP_0175,Dhali,DHALI,Town Panchayat,Tiruppur,TIRUPPUR,,6143.0,5874,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,175,VALID
+TN_POP_0176,Dhaliyur,DHALIYUR,Town Panchayat,Coimbatore,COIMBATORE,,9658.0,11500,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,176,VALID
+TN_POP_0177,Dharamapuram,DHARAMAPURAM,Census Town,Kanniyakumari,KANNIYAKUMARI,,,17476,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,177,PARTIAL_CENSUS
+TN_POP_0178,Dharapadavedu,DHARAPADAVEDU,Municipality,Vellore,VELLORE,21207.0,30070.0,38833,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,178,VALID
+TN_POP_0179,Dharapuram,DHARAPURAM,Municipality,Tiruppur,TIRUPPUR,48393.0,64984.0,56007,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,179,VALID
+TN_POP_0180,Dharasuram (Darasuram),DHARASURAM (DARASURAM),Town Panchayat,Thanjavur,THANJAVUR,11057.0,13032.0,15326,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,180,VALID
+TN_POP_0181,Dharmapuri,DHARMAPURI,Municipality,Dharmapuri,DHARMAPURI,59318.0,64496.0,68619,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,181,VALID
+TN_POP_0182,Dindigul,DINDIGUL,Municipality,Dindigul,DINDIGUL,182477.0,196955.0,207327,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,182,VALID
+TN_POP_0183,Doramangalam,DORAMANGALAM,Census Town,Salem,SALEM,,4164.0,5322,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,183,VALID
+TN_POP_0184,Dusi,DUSI,Census Town,Tiruvannamalai,TIRUVANNAMALAI,,5116.0,5577,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,184,VALID
+TN_POP_0185,Edaganasalai,EDAGANASALAI,Town Panchayat,Salem,SALEM,,29635.0,33245,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,185,VALID
+TN_POP_0186,Edaicode (Edaikodu),EDAICODE (EDAIKODU),Town Panchayat,Kanniyakumari,KANNIYAKUMARI,,23453.0,25378,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,186,VALID
+TN_POP_0187,Edakalinadu,EDAKALINADU,Town Panchayat,Kanchipuram,KANCHIPURAM,,25793.0,28172,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,187,VALID
+TN_POP_0188,Edappadi,EDAPPADI,Municipality,Salem,SALEM,41190.0,48815.0,54823,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,188,VALID
+TN_POP_0189,Edayanchavadi,EDAYANCHAVADI,Census Town,Thiruvallur,THIRUVALLUR,,9128.0,12119,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,189,VALID
+TN_POP_0190,Elathur,ELATHUR,Town Panchayat,Erode,ERODE,,7678.0,7827,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,190,VALID
+TN_POP_0191,Elayirampannai,ELAYIRAMPANNAI,Census Town,Virudhunagar,VIRUDHUNAGAR,5937.0,6325.0,6814,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,191,VALID
+TN_POP_0192,Ellakkudy,ELLAKKUDY,Census Town,Tiruchirappalli,TIRUCHIRAPPALLI,,,16244,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,192,PARTIAL_CENSUS
+TN_POP_0193,Ellandaikuttai,ELLANDAIKUTTAI,Census Town,Namakkal,NAMAKKAL,,11591.0,16160,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,193,VALID
+TN_POP_0194,Elumalai,ELUMALAI,Town Panchayat,Madurai,MADURAI,,14130.0,15746,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,194,VALID
+TN_POP_0195,Eral,ERAL,Town Panchayat,Thoothukkudi,THOOTHUKKUDI,9376.0,9279.0,9478,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,195,VALID
+TN_POP_0196,Eranapuram,ERANAPURAM,Census Town,Salem,SALEM,,8517.0,8871,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,196,VALID
+TN_POP_0197,Eraniel,ERANIEL,Town Panchayat,Kanniyakumari,KANNIYAKUMARI,,9305.0,10375,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,197,VALID
+TN_POP_0198,Eriodu (Eriyodu),ERIODU (ERIYODU),Town Panchayat,Dindigul,DINDIGUL,,7875.0,8890,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,198,VALID
+TN_POP_0199,Erode,ERODE,Municipal Corporation,Erode,ERODE,159323.0,150541.0,157101,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,199,VALID
+TN_POP_0200,Erumaipatti,ERUMAIPATTI,Town Panchayat,Namakkal,NAMAKKAL,,9301.0,12085,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,200,VALID
+TN_POP_0201,Erumapalayam,ERUMAPALAYAM,Census Town,Salem,SALEM,,,10220,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,201,PARTIAL_CENSUS
+TN_POP_0202,Eruvadi,ERUVADI,Town Panchayat,Tirunelveli,TIRUNELVELI,13633.0,14755.0,18067,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,202,VALID
+TN_POP_0203,Ethapur,ETHAPUR,Town Panchayat,Salem,SALEM,,10058.0,10968,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,203,VALID
+TN_POP_0204,Ettayapuram,ETTAYAPURAM,Town Panchayat,Thoothukkudi,THOOTHUKKUDI,,12794.0,12772,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,204,VALID
+TN_POP_0205,Ettimadai,ETTIMADAI,Town Panchayat,Coimbatore,COIMBATORE,,7543.0,9352,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,205,VALID
+TN_POP_0206,Ezhudesam,EZHUDESAM,Town Panchayat,Kanniyakumari,KANNIYAKUMARI,,18741.0,24657,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,206,VALID
+TN_POP_0207,Ganapathipuram,GANAPATHIPURAM,Town Panchayat,Kanniyakumari,KANNIYAKUMARI,,13711.0,14598,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,207,VALID
+TN_POP_0208,Gandhinagar (Katpadi Extn),GANDHINAGAR (KATPADI EXTN),Town Panchayat,Vellore,VELLORE,,9487.0,9114,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,208,VALID
+TN_POP_0209,Gandipuram,GANDIPURAM,Census Town,Kanniyakumari,KANNIYAKUMARI,,,6106,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,209,PARTIAL_CENSUS
+TN_POP_0210,Gangaikondan,GANGAIKONDAN,Town Panchayat,Cuddalore,CUDDALORE,8809.0,10483.0,6434,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,210,VALID
+TN_POP_0211,Gangavalli,GANGAVALLI,Town Panchayat,Salem,SALEM,,10457.0,12015,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,211,VALID
+TN_POP_0212,Ganguvarpatti,GANGUVARPATTI,Town Panchayat,Theni,THENI,,10592.0,11942,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,212,VALID
+TN_POP_0213,Gerugambakkam,GERUGAMBAKKAM,Census Town,Kanchipuram,KANCHIPURAM,,,11551,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,213,PARTIAL_CENSUS
+TN_POP_0214,Gingee,GINGEE,Town Panchayat,Viluppuram,VILUPPURAM,,21251.0,27045,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,214,VALID
+TN_POP_0215,Gobichettipalayam,GOBICHETTIPALAYAM,Municipality,Erode,ERODE,48364.0,55158.0,59523,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,215,VALID
+TN_POP_0216,Gopalasamudram,GOPALASAMUDRAM,Town Panchayat,Tirunelveli,TIRUNELVELI,,10018.0,10694,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,216,VALID
+TN_POP_0217,Goundampalayam,GOUNDAMPALAYAM,Municipality,Coimbatore,COIMBATORE,,48276.0,83908,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,217,VALID
+TN_POP_0218,Gudalur,GUDALUR,Town Panchayat,The Nilgiris,THE NILGIRIS,36593.0,43096.0,49535,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,218,VALID
+TN_POP_0219,Gudalur,GUDALUR,Town Panchayat,Coimbatore,COIMBATORE,,21966.0,38859,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,219,VALID
+TN_POP_0220,Gudalur,GUDALUR,Town Panchayat,Theni,THENI,32603.0,35531.0,41915,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,220,VALID
+TN_POP_0221,Gudiyatham,GUDIYATHAM,Municipality,Vellore,VELLORE,83232.0,91452.0,91558,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,221,VALID
+TN_POP_0222,Gummidipoondi,GUMMIDIPOONDI,Town Panchayat,Thiruvallur,THIRUVALLUR,,16196.0,18891,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,222,VALID
+TN_POP_0223,Gunduuppalavadi,GUNDUUPPALAVADI,Census Town,Cuddalore,CUDDALORE,,,7281,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,223,PARTIAL_CENSUS
+TN_POP_0224,Hale-Dharmapuri,HALE DHARMAPURI,Census Town,Dharmapuri,DHARMAPURI,,,4902,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,224,PARTIAL_CENSUS
+TN_POP_0225,Hanumanthampatti,HANUMANTHAMPATTI,Town Panchayat,Theni,THENI,,9424.0,10619,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,225,VALID
+TN_POP_0226,Harur,HARUR,Town Panchayat,Dharmapuri,DHARMAPURI,19822.0,21523.0,25469,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,226,VALID
+TN_POP_0227,Harveypatti,HARVEYPATTI,Town Panchayat,Madurai,MADURAI,7437.0,8136.0,9016,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,227,VALID
+TN_POP_0228,Highways,HIGHWAYS,Town Panchayat,Theni,THENI,,7016.0,4882,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,228,VALID
+TN_POP_0229,Hosur,HOSUR,Municipality,Krishnagiri,KRISHNAGIRI,41739.0,84394.0,116821,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,229,VALID
+TN_POP_0230,Hubbathala,HUBBATHALA,Census Town,The Nilgiris,THE NILGIRIS,10383.0,11091.0,10852,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,230,VALID
+TN_POP_0231,Huligal,HULIGAL,Town Panchayat,The Nilgiris,THE NILGIRIS,,17054.0,12960,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,231,VALID
+TN_POP_0232,Idikarai,IDIKARAI,Town Panchayat,Coimbatore,COIMBATORE,,6333.0,8686,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,232,VALID
+TN_POP_0233,Iduvai,IDUVAI,Census Town,Tiruppur,TIRUPPUR,,4413.0,8006,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,233,VALID
+TN_POP_0234,Ilampillai (Elampillai),ILAMPILLAI (ELAMPILLAI),Town Panchayat,Salem,SALEM,,10615.0,11797,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,234,VALID
+TN_POP_0235,Ilanji,ILANJI,Town Panchayat,Tirunelveli,TIRUNELVELI,,9425.0,10282,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,235,VALID
+TN_POP_0236,Ilayangudi (Ilaiyangudi),ILAYANGUDI (ILAIYANGUDI),Town Panchayat,Sivaganga,SIVAGANGA,,19116.0,24767,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,236,VALID
+TN_POP_0237,Iluppaiyurani,ILUPPAIYURANI,Census Town,Thoothukkudi,THOOTHUKKUDI,,12005.0,18032,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,237,VALID
+TN_POP_0238,Iluppur,ILUPPUR,Town Panchayat,Pudukkottai,PUDUKKOTTAI,10795.0,12666.0,14127,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,238,VALID
+TN_POP_0239,Inam Karur,INAM KARUR,Municipality,Karur,KARUR,40251.0,45437.0,67131,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,239,VALID
+TN_POP_0240,Inam Maniyachi,INAM MANIYACHI,Census Town,Thoothukkudi,THOOTHUKKUDI,,11785.0,18258,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,240,VALID
+TN_POP_0241,Injambakkam,INJAMBAKKAM,Census Town,Kanchipuram,KANCHIPURAM,,10117.0,21158,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,241,VALID
+TN_POP_0242,Iravadanallur,IRAVADANALLUR,Census Town,Madurai,MADURAI,,4966.0,7423,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,242,VALID
+TN_POP_0243,Irugur,IRUGUR,Town Panchayat,Coimbatore,COIMBATORE,,18622.0,25691,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,243,VALID
+TN_POP_0244,Jaffrabad,JAFFRABAD,Census Town,Vellore,VELLORE,5187.0,6631.0,8121,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,244,VALID
+TN_POP_0245,Jagathala,JAGATHALA,Town Panchayat,The Nilgiris,THE NILGIRIS,14257.0,14677.0,14383,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,245,VALID
+TN_POP_0246,Jalakandapuram,JALAKANDAPURAM,Town Panchayat,Salem,SALEM,12831.0,14077.0,16184,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,246,VALID
+TN_POP_0247,Jalladiampet,JALLADIAMPET,Census Town,Kanchipuram,KANCHIPURAM,,7240.0,19100,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,247,VALID
+TN_POP_0248,Jambai,JAMBAI,Town Panchayat,Erode,ERODE,,15011.0,16522,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,248,VALID
+TN_POP_0249,Jayankondam,JAYANKONDAM,Municipality,Ariyalur,ARIYALUR,,31268.0,33945,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,249,VALID
+TN_POP_0250,Jolarpet,JOLARPET,Municipality,Vellore,VELLORE,23719.0,27167.0,29662,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,250,VALID
+TN_POP_0251,Kadambathur,KADAMBATHUR,Census Town,Thiruvallur,THIRUVALLUR,,,11235,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,251,PARTIAL_CENSUS
+TN_POP_0252,Kadambur,KADAMBUR,Town Panchayat,Thoothukkudi,THOOTHUKKUDI,,4370.0,4155,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,252,VALID
+TN_POP_0253,Kadaparai,KADAPARAI,Census Town,Karur,KARUR,,5675.0,9574,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,253,VALID
+TN_POP_0254,Kadathur,KADATHUR,Town Panchayat,Dharmapuri,DHARMAPURI,,10184.0,11382,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,254,VALID
+TN_POP_0255,Kadayal,KADAYAL,Town Panchayat,Kanniyakumari,KANNIYAKUMARI,,19183.0,21665,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,255,VALID
+TN_POP_0256,Kadayam,KADAYAM,Census Town,Tirunelveli,TIRUNELVELI,,,5430,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,256,PARTIAL_CENSUS
+TN_POP_0257,Kadayampatti,KADAYAMPATTI,Town Panchayat,Salem,SALEM,,9565.0,11390,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,257,VALID
+TN_POP_0258,Kadayanallur,KADAYANALLUR,Municipality,Tirunelveli,TIRUNELVELI,68819.0,75612.0,90364,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,258,VALID
+TN_POP_0259,Kadhirvedu,KADHIRVEDU,Census Town,Thiruvallur,THIRUVALLUR,,4870.0,7580,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,259,VALID
+TN_POP_0260,Kailasagiri,KAILASAGIRI,Census Town,Vellore,VELLORE,,8141.0,9421,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,260,VALID
+TN_POP_0261,Kakkalur,KAKKALUR,Census Town,Thiruvallur,THIRUVALLUR,,8942.0,14528,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,261,VALID
+TN_POP_0262,Kalakad (Kalakkad),KALAKAD (KALAKKAD),Town Panchayat,Tirunelveli,TIRUNELVELI,,27090.0,30921,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,262,VALID
+TN_POP_0263,Kalambur,KALAMBUR,Town Panchayat,Tiruvannamalai,TIRUVANNAMALAI,,13291.0,14304,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,263,VALID
+TN_POP_0264,Kalapatti,KALAPATTI,Town Panchayat,Coimbatore,COIMBATORE,,22034.0,39586,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,264,VALID
+TN_POP_0265,Kalappanaickenpatti,KALAPPANAICKENPATTI,Town Panchayat,Namakkal,NAMAKKAL,,10278.0,10831,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,265,VALID
+TN_POP_0266,Kalavai,KALAVAI,Town Panchayat,Vellore,VELLORE,,9763.0,9773,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,266,VALID
+TN_POP_0267,Kalinjur,KALINJUR,Town Panchayat,Vellore,VELLORE,11369.0,16853.0,19828,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,267,VALID
+TN_POP_0268,Kaliyakkavilai,KALIYAKKAVILAI,Town Panchayat,Kanniyakumari,KANNIYAKUMARI,,13311.0,15625,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,268,VALID
+TN_POP_0269,Kalladaikurichi,KALLADAIKURICHI,Town Panchayat,Tirunelveli,TIRUNELVELI,25768.0,25746.0,26398,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,269,VALID
+TN_POP_0270,Kallakkurichi (Kallakurichi),KALLAKKURICHI (KALLAKURICHI),Municipality,Viluppuram,VILUPPURAM,27894.0,36793.0,52507,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,270,VALID
+TN_POP_0271,Kallakudi (Kallakudy),KALLAKUDI (KALLAKUDY),Town Panchayat,Tiruchirappalli,TIRUCHIRAPPALLI,,11491.0,11604,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,271,VALID
+TN_POP_0272,Kallangudy,KALLANGUDY,Census Town,Pudukkottai,PUDUKKOTTAI,,,6396,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,272,PARTIAL_CENSUS
+TN_POP_0273,Kallukuttam,KALLUKUTTAM,Town Panchayat,Kanniyakumari,KANNIYAKUMARI,,16989.0,19093,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,273,VALID
+TN_POP_0274,Kalparapatti,KALPARAPATTI,Census Town,Salem,SALEM,,,5046,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,274,PARTIAL_CENSUS
+TN_POP_0275,Kalugumalai,KALUGUMALAI,Town Panchayat,Thoothukkudi,THOOTHUKKUDI,13122.0,14088.0,14738,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,275,VALID
+TN_POP_0276,Kamayagoundanpatti,KAMAYAGOUNDANPATTI,Town Panchayat,Theni,THENI,,12211.0,16134,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,276,VALID
+TN_POP_0277,Kambainallur,KAMBAINALLUR,Town Panchayat,Dharmapuri,DHARMAPURI,,10833.0,12194,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,277,VALID
+TN_POP_0278,Kambam (Cumbum),KAMBAM (CUMBUM),Municipality,Theni,THENI,52435.0,58891.0,68090,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,278,VALID
+TN_POP_0279,Kamuthi,KAMUTHI,Town Panchayat,Ramanathapuram,RAMANATHAPURAM,,13137.0,14754,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,279,VALID
+TN_POP_0280,Kanadukathan,KANADUKATHAN,Town Panchayat,Sivaganga,SIVAGANGA,,4796.0,5275,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,280,VALID
+TN_POP_0281,Kanakkampalayam (in: Udumalaipettai subdistrict),KANAKKAMPALAYAM (IN: UDUMALAIPETTAI SUBDISTRICT),Census Town,Tiruppur,TIRUPPUR,,12218.0,16459,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,281,VALID
+TN_POP_0282,Kanakkampalayam (in: Tiruppur subdistrict),KANAKKAMPALAYAM (IN: TIRUPPUR SUBDISTRICT),Census Town,Tiruppur,TIRUPPUR,,,12160,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,282,PARTIAL_CENSUS
+TN_POP_0283,Kanam,KANAM,Town Panchayat,Thoothukkudi,THOOTHUKKUDI,,3401.0,3134,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,283,VALID
+TN_POP_0284,Kancheepuram (Kanchipuram),KANCHEEPURAM (KANCHIPURAM),Municipality,Kanchipuram,KANCHIPURAM,144955.0,153140.0,164384,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,284,VALID
+TN_POP_0285,Kandanur,KANDANUR,Town Panchayat,Sivaganga,SIVAGANGA,6289.0,6455.0,7696,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,285,VALID
+TN_POP_0286,Kangeyam,KANGEYAM,Town Panchayat,Tiruppur,TIRUPPUR,21259.0,28258.0,32147,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,286,VALID
+TN_POP_0287,Kangeyanallur,KANGEYANALLUR,Census Town,Vellore,VELLORE,,12669.0,15177,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,287,VALID
+TN_POP_0288,Kaniyambadi,KANIYAMBADI,Census Town,Vellore,VELLORE,,8382.0,9597,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,288,VALID
+TN_POP_0289,Kaniyur,KANIYUR,Town Panchayat,Tiruppur,TIRUPPUR,,5836.0,6180,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,289,VALID
+TN_POP_0290,Kaniyur,KANIYUR,Census Town,Coimbatore,COIMBATORE,,8281.0,12011,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,290,VALID
+TN_POP_0291,Kanjikoil,KANJIKOIL,Town Panchayat,Erode,ERODE,,11040.0,11294,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,291,VALID
+TN_POP_0292,Kannamangalam,KANNAMANGALAM,Town Panchayat,Tiruvannamalai,TIRUVANNAMALAI,,7316.0,7399,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,292,VALID
+TN_POP_0293,Kannampalayam,KANNAMPALAYAM,Town Panchayat,Coimbatore,COIMBATORE,,11940.0,15868,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,293,VALID
+TN_POP_0294,Kannanendal (Kannadendal),KANNANENDAL (KANNADENDAL),Census Town,Madurai,MADURAI,,16013.0,31095,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,294,VALID
+TN_POP_0295,Kannankurichi,KANNANKURICHI,Town Panchayat,Salem,SALEM,,14994.0,19765,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,295,VALID
+TN_POP_0296,Kannanoor,KANNANOOR,Census Town,Kanniyakumari,KANNIYAKUMARI,,,7747,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,296,PARTIAL_CENSUS
+TN_POP_0297,Kannapalayam,KANNAPALAYAM,Census Town,Thiruvallur,THIRUVALLUR,,2776.0,4704,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,297,VALID
+TN_POP_0298,Kannivadi,KANNIVADI,Town Panchayat,Tiruppur,TIRUPPUR,,4412.0,4385,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,298,VALID
+TN_POP_0299,Kannivadi,KANNIVADI,Town Panchayat,Dindigul,DINDIGUL,,10417.0,10369,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,299,VALID
+TN_POP_0300,Kanniyakumari (Kanyakumari),KANNIYAKUMARI (KANYAKUMARI),Town Panchayat,Kanniyakumari,KANNIYAKUMARI,17225.0,19739.0,22453,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,300,VALID
+TN_POP_0301,Kappiyarai,KAPPIYARAI,Town Panchayat,Kanniyakumari,KANNIYAKUMARI,,13368.0,15998,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,301,VALID
+TN_POP_0302,Karadipatti,KARADIPATTI,Census Town,Madurai,MADURAI,,4491.0,7289,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,302,VALID
+TN_POP_0303,Karaikkudi (Karaikudi),KARAIKKUDI (KARAIKUDI),Municipality,Sivaganga,SIVAGANGA,71965.0,86596.0,106714,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,303,VALID
+TN_POP_0304,Karaipudur,KARAIPUDUR,Census Town,Tiruppur,TIRUPPUR,,15420.0,28602,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,304,VALID
+TN_POP_0305,Karamadai,KARAMADAI,Town Panchayat,Coimbatore,COIMBATORE,20065.0,27817.0,35166,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,305,VALID
+TN_POP_0306,Karambakkam,KARAMBAKKAM,Census Town,Thiruvallur,THIRUVALLUR,10467.0,14950.0,21376,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,306,VALID
+TN_POP_0307,Karambakkudi,KARAMBAKKUDI,Town Panchayat,Pudukkottai,PUDUKKOTTAI,,12056.0,14626,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,307,VALID
+TN_POP_0308,Kariamangalam,KARIAMANGALAM,Town Panchayat,Dharmapuri,DHARMAPURI,,12035.0,13511,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,308,VALID
+TN_POP_0309,Kariapatti,KARIAPATTI,Town Panchayat,Virudhunagar,VIRUDHUNAGAR,,13981.0,18191,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,309,VALID
+TN_POP_0310,Karugampattur,KARUGAMPATTUR,Census Town,Vellore,VELLORE,,5277.0,6343,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,310,VALID
+TN_POP_0311,Karukkalvadi,KARUKKALVADI,Census Town,Salem,SALEM,,7972.0,12052,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,311,VALID
+TN_POP_0312,Karumandi Chellipalayam,KARUMANDI CHELLIPALAYAM,Town Panchayat,Erode,ERODE,,20072.0,23868,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,312,VALID
+TN_POP_0313,Karumathampatti,KARUMATHAMPATTI,Town Panchayat,Coimbatore,COIMBATORE,,26477.0,35062,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,313,VALID
+TN_POP_0314,Karungal,KARUNGAL,Town Panchayat,Kanniyakumari,KANNIYAKUMARI,,15952.0,16691,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,314,VALID
+TN_POP_0315,Karunguzhi,KARUNGUZHI,Town Panchayat,Kanchipuram,KANCHIPURAM,,11372.0,12485,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,315,VALID
+TN_POP_0316,Karuppur,KARUPPUR,Town Panchayat,Salem,SALEM,,13880.0,13967,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,316,VALID
+TN_POP_0317,Karur,KARUR,Municipality,Karur,KARUR,73418.0,76336.0,70980,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,317,VALID
+TN_POP_0318,Kasinayagampatti,KASINAYAGAMPATTI,Census Town,Vellore,VELLORE,,,4779,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,318,PARTIAL_CENSUS
+TN_POP_0319,Kasipalayam (E),KASIPALAYAM (E),Municipality,Erode,ERODE,41304.0,52369.0,73425,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,319,VALID
+TN_POP_0320,Kasipalayam (G) (Kasipalayam-Gobi),KASIPALAYAM (G) (KASIPALAYAM GOBI),Town Panchayat,Erode,ERODE,,8570.0,9093,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,320,VALID
+TN_POP_0321,Katpadi,KATPADI,Town Panchayat,Vellore,VELLORE,,14912.0,28797,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,321,VALID
+TN_POP_0322,Kattathurai,KATTATHURAI,Census Town,Kanniyakumari,KANNIYAKUMARI,,,17271,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,322,PARTIAL_CENSUS
+TN_POP_0323,Kattiganapalli (Kathujuganapalli),KATTIGANAPALLI (KATHUJUGANAPALLI),Census Town,Krishnagiri,KRISHNAGIRI,,15962.0,22714,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,323,VALID
+TN_POP_0324,Kattimancode,KATTIMANCODE,Census Town,Kanniyakumari,KANNIYAKUMARI,,,8541,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,324,PARTIAL_CENSUS
+TN_POP_0325,Kattivakkam (Kathivakkam),KATTIVAKKAM (KATHIVAKKAM),Municipality,Thiruvallur,THIRUVALLUR,27169.0,32590.0,36617,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,325,VALID
+TN_POP_0326,Kattumannarkoil,KATTUMANNARKOIL,Town Panchayat,Cuddalore,CUDDALORE,,22426.0,27294,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,326,VALID
+TN_POP_0327,Kattupakkam,KATTUPAKKAM,Census Town,Thiruvallur,THIRUVALLUR,,,23910,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,327,PARTIAL_CENSUS
+TN_POP_0328,Kattuputhur,KATTUPUTHUR,Town Panchayat,Tiruchirappalli,TIRUCHIRAPPALLI,,11118.0,10933,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,328,VALID
+TN_POP_0329,Kaveripakkam,KAVERIPAKKAM,Town Panchayat,Vellore,VELLORE,12756.0,12545.0,14583,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,329,VALID
+TN_POP_0330,Kaveripattinam,KAVERIPATTINAM,Town Panchayat,Krishnagiri,KRISHNAGIRI,14719.0,14378.0,15006,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,330,VALID
+TN_POP_0331,Kayalpattinam,KAYALPATTINAM,Municipality,Thoothukkudi,THOOTHUKKUDI,24428.0,32664.0,40588,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,331,VALID
+TN_POP_0332,Kayatharu,KAYATHARU,Town Panchayat,Thoothukkudi,THOOTHUKKUDI,,9214.0,10400,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,332,VALID
+TN_POP_0333,Keelakarai (Kilakarai),KEELAKARAI (KILAKARAI),Municipality,Ramanathapuram,RAMANATHAPURAM,29928.0,30412.0,38355,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,333,VALID
+TN_POP_0334,Keelamanjakudi,KEELAMANJAKUDI,Census Town,Pudukkottai,PUDUKKOTTAI,,,6274,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,334,PARTIAL_CENSUS
+TN_POP_0335,Keeramangalam,KEERAMANGALAM,Town Panchayat,Pudukkottai,PUDUKKOTTAI,,7756.0,9357,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,335,VALID
+TN_POP_0336,Keeranur,KEERANUR,Town Panchayat,Dindigul,DINDIGUL,6183.0,6299.0,7200,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,336,VALID
+TN_POP_0337,Keeranur,KEERANUR,Town Panchayat,Pudukkottai,PUDUKKOTTAI,8413.0,10509.0,11667,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,337,VALID
+TN_POP_0338,Keeripatti,KEERIPATTI,Town Panchayat,Salem,SALEM,,9164.0,10208,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,338,VALID
+TN_POP_0339,Keezhkulam (Kilkulam),KEEZHKULAM (KILKULAM),Town Panchayat,Kanniyakumari,KANNIYAKUMARI,,17345.0,17327,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,339,VALID
+TN_POP_0340,Kelamangalam,KELAMANGALAM,Town Panchayat,Krishnagiri,KRISHNAGIRI,,11052.0,13321,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,340,VALID
+TN_POP_0341,Kembainaickenpalayam,KEMBAINAICKENPALAYAM,Town Panchayat,Erode,ERODE,,10308.0,11103,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,341,VALID
+TN_POP_0342,Kethi (Ketti),KETHI (KETTI),Town Panchayat,The Nilgiris,THE NILGIRIS,,24534.0,23229,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,342,VALID
+TN_POP_0343,Kila Ambur,KILA AMBUR,Census Town,Tirunelveli,TIRUNELVELI,,5784.0,6233,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,343,VALID
+TN_POP_0344,Kilampadi,KILAMPADI,Town Panchayat,Erode,ERODE,,6343.0,6422,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,344,VALID
+TN_POP_0345,Kilapavoor (Keezhapavur),KILAPAVOOR (KEEZHAPAVUR),Town Panchayat,Tirunelveli,TIRUNELVELI,,20422.0,22231,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,345,VALID
+TN_POP_0346,Kilkunda,KILKUNDA,Town Panchayat,The Nilgiris,THE NILGIRIS,,10163.0,8886,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,346,VALID
+TN_POP_0347,Killai,KILLAI,Town Panchayat,Cuddalore,CUDDALORE,,9899.0,13608,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,347,VALID
+TN_POP_0348,Killiyoor (Killiyur),KILLIYOOR (KILLIYUR),Town Panchayat,Kanniyakumari,KANNIYAKUMARI,,19273.0,20938,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,348,VALID
+TN_POP_0349,Kilmanavur,KILMANAVUR,Census Town,Vellore,VELLORE,,4239.0,5145,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,349,VALID
+TN_POP_0350,Kilpennathur (Kizh-Pennathur),KILPENNATHUR (KIZH PENNATHUR),Town Panchayat,Tiruvannamalai,TIRUVANNAMALAI,,12468.0,13718,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,350,VALID
+TN_POP_0351,Kilpudupakkam,KILPUDUPAKKAM,Census Town,Tiruvannamalai,TIRUVANNAMALAI,,5554.0,6912,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,351,VALID
+TN_POP_0352,Kilvaithinankuppam,KILVAITHINANKUPPAM,Census Town,Vellore,VELLORE,,4642.0,5321,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,352,VALID
+TN_POP_0353,Kilvelur,KILVELUR,Town Panchayat,Nagapattinam,NAGAPATTINAM,,7425.0,8272,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,353,VALID
+TN_POP_0354,Kinathukadavu,KINATHUKADAVU,Town Panchayat,Coimbatore,COIMBATORE,,8651.0,8653,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,354,VALID
+TN_POP_0355,K.Madapur,K.MADAPUR,Census Town,Coimbatore,COIMBATORE,,4469.0,5626,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,355,VALID
+TN_POP_0356,Kodaikanal,KODAIKANAL,Municipality,Dindigul,DINDIGUL,27423.0,32969.0,36501,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,356,VALID
+TN_POP_0357,Kodavasal (Kudavasal),KODAVASAL (KUDAVASAL),Town Panchayat,Thiruvarur,THIRUVARUR,,13256.0,14639,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,357,VALID
+TN_POP_0358,Kodivalasa,KODIVALASA,Census Town,Thiruvallur,THIRUVALLUR,,7447.0,9024,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,358,VALID
+TN_POP_0359,Kodumudi,KODUMUDI,Town Panchayat,Erode,ERODE,,12664.0,13225,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,359,VALID
+TN_POP_0360,Koilambakkam,KOILAMBAKKAM,Census Town,Kanchipuram,KANCHIPURAM,,,27374,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,360,PARTIAL_CENSUS
+TN_POP_0361,Koilpalayam,KOILPALAYAM,Census Town,Coimbatore,COIMBATORE,,,5025,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,361,PARTIAL_CENSUS
+TN_POP_0362,Kolappalur,KOLAPPALUR,Town Panchayat,Erode,ERODE,,9803.0,9607,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,362,VALID
+TN_POP_0363,Kolathupalayam,KOLATHUPALAYAM,Town Panchayat,Tiruppur,TIRUPPUR,,17438.0,17819,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,363,VALID
+TN_POP_0364,Kolathur,KOLATHUR,Town Panchayat,Salem,SALEM,,10254.0,12748,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,364,VALID
+TN_POP_0365,Kollancode (Kollankodu),KOLLANCODE (KOLLANKODU),Town Panchayat,Kanniyakumari,KANNIYAKUMARI,,34425.0,38385,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,365,VALID
+TN_POP_0366,Kollankoil,KOLLANKOIL,Town Panchayat,Erode,ERODE,,8754.0,9196,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,366,VALID
+TN_POP_0367,Komaralingam,KOMARALINGAM,Town Panchayat,Tiruppur,TIRUPPUR,,11769.0,13642,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,367,VALID
+TN_POP_0368,Kombai,KOMBAI,Town Panchayat,Theni,THENI,,12842.0,15960,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,368,VALID
+TN_POP_0369,Konavattam,KONAVATTAM,Census Town,Vellore,VELLORE,6975.0,9359.0,11472,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,369,VALID
+TN_POP_0370,Kondalampatti,KONDALAMPATTI,Census Town,Salem,SALEM,11230.0,16808.0,20318,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,370,VALID
+TN_POP_0371,Kondappanaickenpatti,KONDAPPANAICKENPATTI,Census Town,Salem,SALEM,,6892.0,6892,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,371,VALID
+TN_POP_0372,Kondasamudram,KONDASAMUDRAM,Census Town,Vellore,VELLORE,,,21335,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,372,PARTIAL_CENSUS
+TN_POP_0373,Kondichettipatti,KONDICHETTIPATTI,Census Town,Namakkal,NAMAKKAL,,5584.0,10300,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,373,VALID
+TN_POP_0374,Kondur,KONDUR,Census Town,Cuddalore,CUDDALORE,,,12506,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,374,PARTIAL_CENSUS
+TN_POP_0375,Konerikuppam,KONERIKUPPAM,Census Town,Kanchipuram,KANCHIPURAM,,,11406,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,375,PARTIAL_CENSUS
+TN_POP_0376,Konganapuram,KONGANAPURAM,Town Panchayat,Salem,SALEM,,8084.0,9286,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,376,VALID
+TN_POP_0377,Kooraikundu,KOORAIKUNDU,Census Town,Virudhunagar,VIRUDHUNAGAR,11238.0,19669.0,22361,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,377,VALID
+TN_POP_0378,Koothappar,KOOTHAPPAR,Town Panchayat,Tiruchirappalli,TIRUCHIRAPPALLI,,17056.0,15943,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,378,VALID
+TN_POP_0379,Koradacheri,KORADACHERI,Town Panchayat,Thiruvarur,THIRUVARUR,,5976.0,6450,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,379,VALID
+TN_POP_0380,Kosavampatti,KOSAVAMPATTI,Census Town,Namakkal,NAMAKKAL,,,10356,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,380,PARTIAL_CENSUS
+TN_POP_0381,Kotagiri,KOTAGIRI,Town Panchayat,The Nilgiris,THE NILGIRIS,29557.0,29192.0,28207,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,381,VALID
+TN_POP_0382,Kothanallur (Kothinallur),KOTHANALLUR (KOTHINALLUR),Town Panchayat,Kanniyakumari,KANNIYAKUMARI,,15880.0,17662,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,382,VALID
+TN_POP_0383,Kottagoundampatty,KOTTAGOUNDAMPATTY,Census Town,Salem,SALEM,,,7891,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,383,PARTIAL_CENSUS
+TN_POP_0384,Kottaiyur,KOTTAIYUR,Town Panchayat,Sivaganga,SIVAGANGA,8318.0,10633.0,14766,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,384,VALID
+TN_POP_0385,Kottakuppam,KOTTAKUPPAM,Town Panchayat,Viluppuram,VILUPPURAM,,24075.0,31726,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,385,VALID
+TN_POP_0386,Kottaram,KOTTARAM,Town Panchayat,Kanniyakumari,KANNIYAKUMARI,,9919.0,11055,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,386,VALID
+TN_POP_0387,Kottivakkam,KOTTIVAKKAM,Census Town,Kanchipuram,KANCHIPURAM,11856.0,13884.0,20217,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,387,VALID
+TN_POP_0388,Kottur,KOTTUR,Town Panchayat,Coimbatore,COIMBATORE,,25261.0,26627,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,388,VALID
+TN_POP_0389,Kovalam (Covelong),KOVALAM (COVELONG),Census Town,Kanchipuram,KANCHIPURAM,,,8124,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,389,PARTIAL_CENSUS
+TN_POP_0390,Kovilpatti,KOVILPATTI,Municipality,Thoothukkudi,THOOTHUKKUDI,78834.0,87450.0,95057,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,390,VALID
+TN_POP_0391,Kovur,KOVUR,Census Town,Kanchipuram,KANCHIPURAM,,5948.0,10961,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,391,VALID
+TN_POP_0392,Krishnagiri,KRISHNAGIRI,Municipality,Krishnagiri,KRISHNAGIRI,60315.0,64587.0,71323,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,392,VALID
+TN_POP_0393,Krishnarayapuram,KRISHNARAYAPURAM,Town Panchayat,Karur,KARUR,,10533.0,10792,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,393,VALID
+TN_POP_0394,Krishnasamudram,KRISHNASAMUDRAM,Census Town,Tiruchirappalli,TIRUCHIRAPPALLI,,9215.0,13146,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,394,VALID
+TN_POP_0395,Kuchanur,KUCHANUR,Town Panchayat,Theni,THENI,,6055.0,7024,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,395,VALID
+TN_POP_0396,Kuhalur,KUHALUR,Town Panchayat,Erode,ERODE,,11684.0,11753,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,396,VALID
+TN_POP_0397,Kulappuram,KULAPPURAM,Census Town,Kanniyakumari,KANNIYAKUMARI,,,7677,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,397,PARTIAL_CENSUS
+TN_POP_0398,Kulasekaram (Kulasekarapuram),KULASEKARAM (KULASEKARAPURAM),Town Panchayat,Kanniyakumari,KANNIYAKUMARI,,16351.0,17267,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,398,VALID
+TN_POP_0399,Kulathur (Kulathoor),KULATHUR (KULATHOOR),Census Town,Tiruchirappalli,TIRUCHIRAPPALLI,,9300.0,11083,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,399,VALID
+TN_POP_0400,Kulithalai,KULITHALAI,Municipality,Karur,KARUR,23996.0,26161.0,27910,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,400,VALID
+TN_POP_0401,Kullursandai,KULLURSANDAI,Census Town,Virudhunagar,VIRUDHUNAGAR,,4653.0,5383,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,401,VALID
+TN_POP_0402,Kumaragiri,KUMARAGIRI,Census Town,Thoothukkudi,THOOTHUKKUDI,,10997.0,13344,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,402,VALID
+TN_POP_0403,Kumarapalayam (Komarapalayam),KUMARAPALAYAM (KOMARAPALAYAM),Municipality,Namakkal,NAMAKKAL,57672.0,65868.0,71594,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,403,VALID
+TN_POP_0404,Kumarapuram,KUMARAPURAM,Town Panchayat,Kanniyakumari,KANNIYAKUMARI,,13938.0,14728,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,404,VALID
+TN_POP_0405,Kumbakonam,KUMBAKONAM,Municipality,Thanjavur,THANJAVUR,139483.0,139954.0,140156,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,405,VALID
+TN_POP_0406,Kundrathur,KUNDRATHUR,Town Panchayat with Outgrowth,Kanchipuram,KANCHIPURAM,,25007.0,54986,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,406,VALID
+TN_POP_0407,Kuniyamuthur,KUNIYAMUTHUR,Municipality,Coimbatore,COIMBATORE,37803.0,58900.0,95924,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,407,VALID
+TN_POP_0408,Kunnathur,KUNNATHUR,Town Panchayat,Tiruppur,TIRUPPUR,,7032.0,8774,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,408,VALID
+TN_POP_0409,Kurichi,KURICHI,Municipality,Coimbatore,COIMBATORE,64796.0,77853.0,123667,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,409,VALID
+TN_POP_0410,Kurinjipadi,KURINJIPADI,Town Panchayat,Cuddalore,CUDDALORE,23117.0,22883.0,27471,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,410,VALID
+TN_POP_0411,Kurudampalayam,KURUDAMPALAYAM,Census Town,Coimbatore,COIMBATORE,,13534.0,18749,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,411,VALID
+TN_POP_0412,Kurukkupatti,KURUKKUPATTI,Census Town,Salem,SALEM,,,5037,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,412,PARTIAL_CENSUS
+TN_POP_0413,Kurumbalur,KURUMBALUR,Town Panchayat,Perambalur,PERAMBALUR,,11126.0,12420,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,413,VALID
+TN_POP_0414,Kurumbapatti,KURUMBAPATTI,Census Town,Dindigul,DINDIGUL,,4416.0,6182,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,414,VALID
+TN_POP_0415,Kuruppanaickenpalayam,KURUPPANAICKENPALAYAM,Census Town,Erode,ERODE,,,7484,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,415,PARTIAL_CENSUS
+TN_POP_0416,Kuthalam,KUTHALAM,Town Panchayat,Nagapattinam,NAGAPATTINAM,,13444.0,16125,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,416,VALID
+TN_POP_0417,Kuthanallur,KUTHANALLUR,Municipality,Thiruvarur,THIRUVARUR,21870.0,22995.0,25423,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,417,VALID
+TN_POP_0418,Kuthankuzhi,KUTHANKUZHI,Census Town,Tirunelveli,TIRUNELVELI,,,5118,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,418,PARTIAL_CENSUS
+TN_POP_0419,Kuzhithurai,KUZHITHURAI,Municipality,Kanniyakumari,KANNIYAKUMARI,19226.0,20503.0,21307,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,419,VALID
+TN_POP_0420,Labbaikudikadu,LABBAIKUDIKADU,Town Panchayat,Perambalur,PERAMBALUR,,8741.0,11891,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,420,VALID
+TN_POP_0421,Lakkampatti,LAKKAMPATTI,Town Panchayat,Erode,ERODE,,11038.0,11716,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,421,VALID
+TN_POP_0422,Lakkiampatti,LAKKIAMPATTI,Census Town,Dharmapuri,DHARMAPURI,,,39697,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,422,PARTIAL_CENSUS
+TN_POP_0423,Lakshminarayanapuram,LAKSHMINARAYANAPURAM,Census Town,Cuddalore,CUDDALORE,,12648.0,12648,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,423,VALID
+TN_POP_0424,Lalgudi,LALGUDI,Town Panchayat,Tiruchirappalli,TIRUCHIRAPPALLI,21595.0,23405.0,23740,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,424,VALID
+TN_POP_0425,Lalpet,LALPET,Town Panchayat,Cuddalore,CUDDALORE,,13817.0,16561,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,425,VALID
+TN_POP_0426,Madaharpakkam,MADAHARPAKKAM,Census Town,Thiruvallur,THIRUVALLUR,,,4250,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,426,PARTIAL_CENSUS
+TN_POP_0427,Madambakkam,MADAMBAKKAM,Town Panchayat,Kanchipuram,KANCHIPURAM,,16996.0,31681,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,427,VALID
+TN_POP_0428,Madambakkam (in: Sriperumbudur subdistrict),MADAMBAKKAM (IN: SRIPERUMBUDUR SUBDISTRICT),Census Town,Kanchipuram,KANCHIPURAM,,,11673,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,428,PARTIAL_CENSUS
+TN_POP_0429,Madathukulam,MADATHUKULAM,Town Panchayat,Tiruppur,TIRUPPUR,,20352.0,20620,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,429,VALID
+TN_POP_0430,Madavaram (Madhavaram),MADAVARAM (MADHAVARAM),Municipality,Thiruvallur,THIRUVALLUR,49256.0,76093.0,119105,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,430,VALID
+TN_POP_0431,Madippakkam (Madipakkam),MADIPPAKKAM (MADIPAKKAM),Census Town,Kanchipuram,KANCHIPURAM,11437.0,15548.0,35752,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,431,VALID
+TN_POP_0432,Madukkarai,MADUKKARAI,Town Panchayat,Coimbatore,COIMBATORE,18110.0,26441.0,30357,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,432,VALID
+TN_POP_0433,Madukkur,MADUKKUR,Town Panchayat,Thanjavur,THANJAVUR,,15426.0,16266,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,433,VALID
+TN_POP_0434,Madurai,MADURAI,Municipal Corporation,Madurai,MADURAI,940989.0,928869.0,1017865,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,434,VALID
+TN_POP_0435,Maduranthakam,MADURANTHAKAM,Municipality,Kanchipuram,KANCHIPURAM,26947.0,29059.0,30796,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,435,VALID
+TN_POP_0436,Maduravoyal,MADURAVOYAL,Municipality,Thiruvallur,THIRUVALLUR,14881.0,43609.0,86195,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,436,VALID
+TN_POP_0437,Majaragollappatti,MAJARAGOLLAPPATTI,Census Town,Salem,SALEM,,4156.0,4727,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,437,VALID
+TN_POP_0438,Makkinampatti,MAKKINAMPATTI,Census Town,Coimbatore,COIMBATORE,,6372.0,8134,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,438,VALID
+TN_POP_0439,Malayadi,MALAYADI,Census Town,Kanniyakumari,KANNIYAKUMARI,,,7812,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,439,PARTIAL_CENSUS
+TN_POP_0440,Mallamooppampatti,MALLAMOOPPAMPATTI,Census Town,Salem,SALEM,6582.0,6783.0,10199,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,440,VALID
+TN_POP_0441,Mallankinaru,MALLANKINARU,Town Panchayat,Virudhunagar,VIRUDHUNAGAR,,11823.0,12986,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,441,VALID
+TN_POP_0442,Mallasamudram,MALLASAMUDRAM,Town Panchayat,Namakkal,NAMAKKAL,13062.0,17181.0,18007,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,442,VALID
+TN_POP_0443,Mallur,MALLUR,Town Panchayat,Salem,SALEM,7939.0,9503.0,10331,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,443,VALID
+TN_POP_0444,Malumichampatti,MALUMICHAMPATTI,Census Town,Coimbatore,COIMBATORE,,7176.0,12936,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,444,VALID
+TN_POP_0445,Mamallapuram (Mahabalipuram),MAMALLAPURAM (MAHABALIPURAM),Town Panchayat,Kanchipuram,KANCHIPURAM,,12345.0,15172,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,445,VALID
+TN_POP_0446,Mamsapuram,MAMSAPURAM,Town Panchayat,Virudhunagar,VIRUDHUNAGAR,,17927.0,18635,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,446,VALID
+TN_POP_0447,Manachanallur,MANACHANALLUR,Town Panchayat,Tiruchirappalli,TIRUCHIRAPPALLI,18611.0,21511.0,25931,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,447,VALID
+TN_POP_0448,Manakudi,MANAKUDI,Census Town,Kanniyakumari,KANNIYAKUMARI,,,4083,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,448,PARTIAL_CENSUS
+TN_POP_0449,Manali,MANALI,Municipality,Thiruvallur,THIRUVALLUR,19093.0,28597.0,35248,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,449,VALID
+TN_POP_0450,Manalmedu,MANALMEDU,Town Panchayat,Nagapattinam,NAGAPATTINAM,,9275.0,9017,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,450,VALID
+TN_POP_0451,Manalurpet,MANALURPET,Town Panchayat,Viluppuram,VILUPPURAM,,7401.0,8523,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,451,VALID
+TN_POP_0452,Manamadurai,MANAMADURAI,Town Panchayat,Sivaganga,SIVAGANGA,22879.0,26253.0,32257,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,452,VALID
+TN_POP_0453,Manapakkam,MANAPAKKAM,Census Town,Kanchipuram,KANCHIPURAM,,8605.0,13344,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,453,VALID
+TN_POP_0454,Manapparai,MANAPPARAI,Municipality,Tiruchirappalli,TIRUCHIRAPPALLI,31837.0,35770.0,40510,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,454,VALID
+TN_POP_0455,Manavalakurichi,MANAVALAKURICHI,Town Panchayat,Kanniyakumari,KANNIYAKUMARI,,10412.0,10969,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,455,VALID
+TN_POP_0456,Mancad,MANCAD,Census Town,Kanniyakumari,KANNIYAKUMARI,,,4889,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,456,PARTIAL_CENSUS
+TN_POP_0457,Mandaikadu,MANDAIKADU,Town Panchayat,Kanniyakumari,KANNIYAKUMARI,,12375.0,13317,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,457,VALID
+TN_POP_0458,Mandapam,MANDAPAM,Town Panchayat,Ramanathapuram,RAMANATHAPURAM,19935.0,16343.0,18427,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,458,VALID
+TN_POP_0459,Mangadu,MANGADU,Town Panchayat,Kanchipuram,KANCHIPURAM,,19420.0,38188,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,459,VALID
+TN_POP_0460,Mangalam,MANGALAM,Census Town,Tiruppur,TIRUPPUR,,10016.0,17699,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,460,VALID
+TN_POP_0461,Mangalampet,MANGALAMPET,Town Panchayat,Cuddalore,CUDDALORE,,7281.0,9278,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,461,VALID
+TN_POP_0462,Manickapuram,MANICKAPURAM,Census Town,Tiruppur,TIRUPPUR,,,6215,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,462,PARTIAL_CENSUS
+TN_POP_0463,Manimutharu,MANIMUTHARU,Town Panchayat,Tirunelveli,TIRUNELVELI,,12613.0,11323,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,463,VALID
+TN_POP_0464,Manjakollai,MANJAKOLLAI,Census Town,Nagapattinam,NAGAPATTINAM,,,5040,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,464,PARTIAL_CENSUS
+TN_POP_0465,Manjalumoodu,MANJALUMOODU,Census Town,Kanniyakumari,KANNIYAKUMARI,,,6840,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,465,PARTIAL_CENSUS
+TN_POP_0466,Mannarai,MANNARAI,Census Town,Tiruppur,TIRUPPUR,,,17261,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,466,PARTIAL_CENSUS
+TN_POP_0467,Mannargudi,MANNARGUDI,Municipality,Thiruvarur,THIRUVARUR,56552.0,61478.0,66999,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,467,VALID
+TN_POP_0468,Manthithoppu,MANTHITHOPPU,Census Town,Thoothukkudi,THOOTHUKKUDI,,4113.0,6143,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,468,VALID
+TN_POP_0469,Mappilaiurani,MAPPILAIURANI,Census Town,Thoothukkudi,THOOTHUKKUDI,13327.0,27361.0,40035,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,469,VALID
+TN_POP_0470,Maraimalainagar,MARAIMALAINAGAR,Municipality,Kanchipuram,KANCHIPURAM,,48463.0,81872,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,470,VALID
+TN_POP_0471,Marakkanam,MARAKKANAM,Town Panchayat,Viluppuram,VILUPPURAM,,19139.0,22034,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,471,VALID
+TN_POP_0472,Maramangalathupatti,MARAMANGALATHUPATTI,Census Town,Salem,SALEM,8311.0,11385.0,12448,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,472,VALID
+TN_POP_0473,Marandahalli,MARANDAHALLI,Town Panchayat,Dharmapuri,DHARMAPURI,,10177.0,12451,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,473,VALID
+TN_POP_0474,Markayankottai,MARKAYANKOTTAI,Town Panchayat,Theni,THENI,,5829.0,6135,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,474,VALID
+TN_POP_0475,Marudur,MARUDUR,Town Panchayat,Karur,KARUR,,10214.0,10925,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,475,VALID
+TN_POP_0476,Marungur (Marungoor),MARUNGUR (MARUNGOOR),Town Panchayat,Kanniyakumari,KANNIYAKUMARI,,10103.0,11236,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,476,VALID
+TN_POP_0477,Maruthancode,MARUTHANCODE,Census Town,Kanniyakumari,KANNIYAKUMARI,,,8277,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,477,PARTIAL_CENSUS
+TN_POP_0478,Masinaickenpatty,MASINAICKENPATTY,Census Town,Salem,SALEM,,,9098,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,478,PARTIAL_CENSUS
+TN_POP_0479,Mathicode,MATHICODE,Census Town,Kanniyakumari,KANNIYAKUMARI,,,6532,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,479,PARTIAL_CENSUS
+TN_POP_0480,Mathigiri,MATHIGIRI,Town Panchayat,Krishnagiri,KRISHNAGIRI,,15257.0,23129,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,480,VALID
+TN_POP_0481,Mathur,MATHUR,Census Town,Thiruvallur,THIRUVALLUR,,,27674,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,481,PARTIAL_CENSUS
+TN_POP_0482,Mayiladuthurai,MAYILADUTHURAI,Municipality,Nagapattinam,NAGAPATTINAM,76837.0,84505.0,85632,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,482,VALID
+TN_POP_0483,Mecheri,MECHERI,Town Panchayat,Salem,SALEM,,20455.0,25676,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,483,VALID
+TN_POP_0484,Medavakkam,MEDAVAKKAM,Census Town,Kanchipuram,KANCHIPURAM,,,29710,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,484,PARTIAL_CENSUS
+TN_POP_0485,Meenambakkam,MEENAMBAKKAM,Town Panchayat with Outgrowth,Kanchipuram,KANCHIPURAM,,3609.0,24334,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,485,VALID
+TN_POP_0486,Melacheval,MELACHEVAL,Town Panchayat,Tirunelveli,TIRUNELVELI,,7780.0,8435,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,486,VALID
+TN_POP_0487,Melachokkanathapuram,MELACHOKKANATHAPURAM,Town Panchayat,Theni,THENI,,11669.0,15625,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,487,VALID
+TN_POP_0488,Melagaram,MELAGARAM,Town Panchayat,Tirunelveli,TIRUNELVELI,,12897.0,14535,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,488,VALID
+TN_POP_0489,Melamadai,MELAMADAI,Census Town,Madurai,MADURAI,14086.0,29098.0,43797,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,489,VALID
+TN_POP_0490,Melaparthibanur,MELAPARTHIBANUR,Census Town,Ramanathapuram,RAMANATHAPURAM,,7752.0,8232,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,490,VALID
+TN_POP_0491,Melathiruppanthuruthi,MELATHIRUPPANTHURUTHI,Town Panchayat,Thanjavur,THANJAVUR,,8412.0,9074,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,491,VALID
+TN_POP_0492,Melattur,MELATTUR,Town Panchayat,Thanjavur,THANJAVUR,,8103.0,8131,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,492,VALID
+TN_POP_0493,Melpattampakkam,MELPATTAMPAKKAM,Town Panchayat,Cuddalore,CUDDALORE,,6598.0,6887,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,493,VALID
+TN_POP_0494,Melur,MELUR,Municipality,Madurai,MADURAI,32878.0,33881.0,40017,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,494,VALID
+TN_POP_0495,Melvisharam,MELVISHARAM,Municipality,Vellore,VELLORE,26613.0,36757.0,44786,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,495,VALID
+TN_POP_0496,Methukummal,METHUKUMMAL,Census Town,Kanniyakumari,KANNIYAKUMARI,,,19417,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,496,PARTIAL_CENSUS
+TN_POP_0497,Mettamalai,METTAMALAI,Census Town,Virudhunagar,VIRUDHUNAGAR,,4367.0,5175,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,497,VALID
+TN_POP_0498,Mettunasuvanpalayam,METTUNASUVANPALAYAM,Census Town,Erode,ERODE,,14278.0,17240,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,498,VALID
+TN_POP_0499,Mettupalayam,METTUPALAYAM,Municipality,Coimbatore,COIMBATORE,63479.0,66595.0,69213,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,499,VALID
+TN_POP_0500,Mettupalayam,METTUPALAYAM,Town Panchayat,Tiruchirappalli,TIRUCHIRAPPALLI,,7550.0,7681,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,500,VALID
+TN_POP_0501,Mettur,METTUR,Municipality,Salem,SALEM,45773.0,53633.0,52813,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,501,VALID
+TN_POP_0502,Mevalurkuppam,MEVALURKUPPAM,Census Town,Kanchipuram,KANCHIPURAM,,,3805,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,502,PARTIAL_CENSUS
+TN_POP_0503,Midalam,MIDALAM,Census Town,Kanniyakumari,KANNIYAKUMARI,,,8625,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,503,PARTIAL_CENSUS
+TN_POP_0504,Milavittan,MILAVITTAN,Census Town,Thoothukkudi,THOOTHUKKUDI,,30758.0,45863,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,504,VALID
+TN_POP_0505,Minampalli-Pachamadevi,MINAMPALLI PACHAMADEVI,Census Town,Karur,KARUR,,,9031,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,505,PARTIAL_CENSUS
+TN_POP_0506,Minjur,MINJUR,Town Panchayat,Thiruvallur,THIRUVALLUR,,23742.0,28337,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,506,VALID
+TN_POP_0507,Modakurichi,MODAKURICHI,Town Panchayat,Erode,ERODE,,10052.0,9907,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,507,VALID
+TN_POP_0508,Mohanur,MOHANUR,Town Panchayat,Namakkal,NAMAKKAL,,12468.0,14315,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,508,VALID
+TN_POP_0509,Molachur,MOLACHUR,Census Town,Kanchipuram,KANCHIPURAM,,6149.0,8887,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,509,VALID
+TN_POP_0510,Mookondapalli,MOOKONDAPALLI,Census Town,Krishnagiri,KRISHNAGIRI,,,39245,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,510,PARTIAL_CENSUS
+TN_POP_0511,Moolakaraipatti,MOOLAKARAIPATTI,Town Panchayat,Tirunelveli,TIRUNELVELI,,9742.0,11112,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,511,VALID
+TN_POP_0512,Moovarasampettai,MOOVARASAMPETTAI,Census Town,Kanchipuram,KANCHIPURAM,,6162.0,9672,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,512,VALID
+TN_POP_0513,Mopperipalayam,MOPPERIPALAYAM,Town Panchayat,Coimbatore,COIMBATORE,,8732.0,10923,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,513,VALID
+TN_POP_0514,Morattupalayam,MORATTUPALAYAM,Census Town,Tiruppur,TIRUPPUR,,,5798,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,514,PARTIAL_CENSUS
+TN_POP_0515,Mudukulathur,MUDUKULATHUR,Town Panchayat,Ramanathapuram,RAMANATHAPURAM,,13126.0,14789,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,515,VALID
+TN_POP_0516,Mugalivakkam,MUGALIVAKKAM,Census Town,Kanchipuram,KANCHIPURAM,,,25117,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,516,PARTIAL_CENSUS
+TN_POP_0517,Mukasipidariyur,MUKASIPIDARIYUR,Census Town,Erode,ERODE,9006.0,11012.0,14143,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,517,VALID
+TN_POP_0518,Mukkudal,MUKKUDAL,Town Panchayat,Tirunelveli,TIRUNELVELI,,13955.0,14983,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,518,VALID
+TN_POP_0519,Mulagumudu,MULAGUMUDU,Town Panchayat,Kanniyakumari,KANNIYAKUMARI,,18057.0,19538,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,519,VALID
+TN_POP_0520,Mulanur,MULANUR,Town Panchayat,Tiruppur,TIRUPPUR,,13827.0,15223,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,520,VALID
+TN_POP_0521,Mullipattu,MULLIPATTU,Census Town,Tiruvannamalai,TIRUVANNAMALAI,,4401.0,4956,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,521,VALID
+TN_POP_0522,Muruganpalayam,MURUGANPALAYAM,Census Town,Tiruppur,TIRUPPUR,,14440.0,26349,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,522,VALID
+TN_POP_0523,Musiri,MUSIRI,Town Panchayat,Tiruchirappalli,TIRUCHIRAPPALLI,22103.0,27941.0,28727,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,523,VALID
+TN_POP_0524,Muthanampalayam,MUTHANAMPALAYAM,Census Town,Tiruppur,TIRUPPUR,,,26014,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,524,PARTIAL_CENSUS
+TN_POP_0525,Muthugoundam Pudur,MUTHUGOUNDAM PUDUR,Census Town,Coimbatore,COIMBATORE,,,10259,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,525,PARTIAL_CENSUS
+TN_POP_0526,Muthukadu,MUTHUKADU,Census Town,Kanchipuram,KANCHIPURAM,,,7610,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,526,PARTIAL_CENSUS
+TN_POP_0527,Muthupet,MUTHUPET,Town Panchayat,Thiruvarur,THIRUVARUR,,17383.0,21722,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,527,VALID
+TN_POP_0528,Muthur,MUTHUR,Town Panchayat,Tiruppur,TIRUPPUR,,11880.0,13212,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,528,VALID
+TN_POP_0529,Muttayyapuram,MUTTAYYAPURAM,Census Town,Thoothukkudi,THOOTHUKKUDI,26005.0,31813.0,32494,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,529,VALID
+TN_POP_0530,Muzhucode,MUZHUCODE,Census Town,Kanniyakumari,KANNIYAKUMARI,,,8000,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,530,PARTIAL_CENSUS
+TN_POP_0531,Mylaudy (Myladi),MYLAUDY (MYLADI),Town Panchayat,Kanniyakumari,KANNIYAKUMARI,,9001.0,10070,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,531,VALID
+TN_POP_0532,Nadaikavu,NADAIKAVU,Census Town,Kanniyakumari,KANNIYAKUMARI,,,8727,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,532,PARTIAL_CENSUS
+TN_POP_0533,Nadukuthagai,NADUKUTHAGAI,Census Town,Thiruvallur,THIRUVALLUR,,6283.0,9251,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,533,VALID
+TN_POP_0534,Naduvaneri,NADUVANERI,Census Town,Salem,SALEM,,7463.0,8485,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,534,VALID
+TN_POP_0535,Naduvattam,NADUVATTAM,Town Panchayat,The Nilgiris,THE NILGIRIS,11578.0,11370.0,8505,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,535,VALID
+TN_POP_0536,Nagamalaipudukottai,NAGAMALAIPUDUKOTTAI,Census Town,Madurai,MADURAI,,,15769,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,536,PARTIAL_CENSUS
+TN_POP_0537,Nagamangalam,NAGAMANGALAM,Census Town,Tiruchirappalli,TIRUCHIRAPPALLI,,4322.0,5785,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,537,VALID
+TN_POP_0538,Nagapattinam,NAGAPATTINAM,Municipality,Nagapattinam,NAGAPATTINAM,86489.0,93148.0,102905,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,538,VALID
+TN_POP_0539,Nagavakulam,NAGAVAKULAM,Census Town,Madurai,MADURAI,,17803.0,23284,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,539,VALID
+TN_POP_0540,Nagercoil,NAGERCOIL,Municipality,Kanniyakumari,KANNIYAKUMARI,190084.0,208179.0,224849,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,540,VALID
+TN_POP_0541,Nagojanahalli,NAGOJANAHALLI,Town Panchayat,Krishnagiri,KRISHNAGIRI,,8409.0,9953,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,541,VALID
+TN_POP_0542,Nallampatti,NALLAMPATTI,Town Panchayat,Erode,ERODE,,3656.0,3874,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,542,VALID
+TN_POP_0543,Nallipalayam,NALLIPALAYAM,Census Town,Namakkal,NAMAKKAL,,,5078,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,543,PARTIAL_CENSUS
+TN_POP_0544,Nalloor (Nallur),NALLOOR (NALLUR),Town Panchayat,Kanniyakumari,KANNIYAKUMARI,,15563.0,17989,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,544,VALID
+TN_POP_0545,Nallur,NALLUR,Census Town,Tirunelveli,TIRUNELVELI,,,7828,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,545,PARTIAL_CENSUS
+TN_POP_0546,Nallur $,NALLUR $,Census Town,Thiruvallur,THIRUVALLUR,,,19595,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,546,PARTIAL_CENSUS
+TN_POP_0547,Namagiripettai,NAMAGIRIPETTAI,Town Panchayat,Namakkal,NAMAKKAL,,21446.0,21250,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,547,VALID
+TN_POP_0548,Namakkal,NAMAKKAL,Municipality,Namakkal,NAMAKKAL,45038.0,53055.0,55145,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,548,VALID
+TN_POP_0549,Nambiyur,NAMBIYUR,Town Panchayat,Erode,ERODE,,15854.0,16379,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,549,VALID
+TN_POP_0550,Nandambakkam,NANDAMBAKKAM,Town Panchayat,Kanchipuram,KANCHIPURAM,10563.0,9343.0,11239,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,550,VALID
+TN_POP_0551,Nandivaram - Guduvancheri,NANDIVARAM   GUDUVANCHERI,Town Panchayat,Kanchipuram,KANCHIPURAM,19347.0,26575.0,44098,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,551,VALID
+TN_POP_0552,Nangavalli,NANGAVALLI,Town Panchayat,Salem,SALEM,,9676.0,10809,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,552,VALID
+TN_POP_0553,Nangavaram,NANGAVARAM,Town Panchayat,Karur,KARUR,,16408.0,17629,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,553,VALID
+TN_POP_0554,Nanguneri,NANGUNERI,Town Panchayat,Tirunelveli,TIRUNELVELI,,6758.0,6640,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,554,VALID
+TN_POP_0555,Nanjikottai,NANJIKOTTAI,Census Town,Thanjavur,THANJAVUR,,21935.0,32689,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,555,VALID
+TN_POP_0556,Nannilam,NANNILAM,Town Panchayat,Thiruvarur,THIRUVARUR,,11056.0,12618,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,556,VALID
+TN_POP_0557,Naranammalpuram,NARANAMMALPURAM,Town Panchayat,Tirunelveli,TIRUNELVELI,14884.0,16318.0,17094,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,557,VALID
+TN_POP_0558,Naranapuram,NARANAPURAM,Census Town,Virudhunagar,VIRUDHUNAGAR,,9331.0,11665,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,558,VALID
+TN_POP_0559,Narasimhanaicken-palayam,NARASIMHANAICKEN PALAYAM,Town Panchayat,Coimbatore,COIMBATORE,,11271.0,17858,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,559,VALID
+TN_POP_0560,Narasingam,NARASINGAM,Census Town,Madurai,MADURAI,,,5971,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,560,PARTIAL_CENSUS
+TN_POP_0561,Narasingapuram,NARASINGAPURAM,Census Town,Vellore,VELLORE,,10563.0,11454,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,561,VALID
+TN_POP_0562,Narasingapuram,NARASINGAPURAM,Municipality,Salem,SALEM,,18690.0,23084,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,562,VALID
+TN_POP_0563,Naravarikuppam,NARAVARIKUPPAM,Town Panchayat,Thiruvallur,THIRUVALLUR,17409.0,18331.0,20946,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,563,VALID
+TN_POP_0564,Nasiyanur,NASIYANUR,Town Panchayat,Erode,ERODE,,9905.0,10970,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,564,VALID
+TN_POP_0565,Natchiarkoil,NATCHIARKOIL,Census Town,Thanjavur,THANJAVUR,,7128.0,7505,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,565,VALID
+TN_POP_0566,Natham,NATHAM,Town Panchayat,Dindigul,DINDIGUL,,22545.0,23660,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,566,VALID
+TN_POP_0567,Nathampannai,NATHAMPANNAI,Census Town,Pudukkottai,PUDUKKOTTAI,,6426.0,8915,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,567,VALID
+TN_POP_0568,Natrampalli,NATRAMPALLI,Town Panchayat,Vellore,VELLORE,,9134.0,10390,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,568,VALID
+TN_POP_0569,Nattalam,NATTALAM,Census Town,Kanniyakumari,KANNIYAKUMARI,,,7674,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,569,PARTIAL_CENSUS
+TN_POP_0570,Nattapettai,NATTAPETTAI,Census Town,Kanchipuram,KANCHIPURAM,9923.0,10111.0,19883,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,570,VALID
+TN_POP_0571,Nattarasankottai,NATTARASANKOTTAI,Town Panchayat,Sivaganga,SIVAGANGA,5693.0,6586.0,5860,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,571,VALID
+TN_POP_0572,Navalpattu,NAVALPATTU,Census Town,Tiruchirappalli,TIRUCHIRAPPALLI,13826.0,15394.0,16788,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,572,VALID
+TN_POP_0573,Navlock Garden,NAVLOCK GARDEN,Census Town,Vellore,VELLORE,,,20171,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,573,PARTIAL_CENSUS
+TN_POP_0574,Nazarathpettai,NAZARATHPETTAI,Census Town,Thiruvallur,THIRUVALLUR,,5157.0,8660,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,574,VALID
+TN_POP_0575,Nazerath,NAZERATH,Town Panchayat,Thoothukkudi,THOOTHUKKUDI,,16960.0,16584,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,575,VALID
+TN_POP_0576,Nedungundram,NEDUNGUNDRAM,Census Town,Kanchipuram,KANCHIPURAM,,,14390,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,576,PARTIAL_CENSUS
+TN_POP_0577,Needamangalam,NEEDAMANGALAM,Town Panchayat,Thiruvarur,THIRUVARUR,,8730.0,9336,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,577,VALID
+TN_POP_0578,Neelagiri,NEELAGIRI,Census Town,Thanjavur,THANJAVUR,,11044.0,16197,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,578,VALID
+TN_POP_0579,Neelambur,NEELAMBUR,Census Town,Coimbatore,COIMBATORE,,,8382,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,579,PARTIAL_CENSUS
+TN_POP_0580,Neelankarai,NEELANKARAI,Census Town,Kanchipuram,KANCHIPURAM,,15637.0,28458,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,580,VALID
+TN_POP_0581,Neikkarapatti,NEIKKARAPATTI,Town Panchayat,Dindigul,DINDIGUL,,12099.0,11753,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,581,VALID
+TN_POP_0582,Nellikuppam,NELLIKUPPAM,Municipality,Cuddalore,CUDDALORE,42783.0,44222.0,46678,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,582,VALID
+TN_POP_0583,Nelliyalam,NELLIYALAM,Municipality,The Nilgiris,THE NILGIRIS,37787.0,41837.0,44590,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,583,VALID
+TN_POP_0584,Nemili,NEMILI,Town Panchayat,Vellore,VELLORE,,9217.0,10806,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,584,VALID
+TN_POP_0585,Nemilicheri,NEMILICHERI,Census Town,Thiruvallur,THIRUVALLUR,,4831.0,5743,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,585,VALID
+TN_POP_0586,Neripperichal,NERIPPERICHAL,Census Town,Tiruppur,TIRUPPUR,,16372.0,53579,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,586,VALID
+TN_POP_0587,Nerkunram (Nerkundram),NERKUNRAM (NERKUNDRAM),Census Town,Thiruvallur,THIRUVALLUR,21338.0,39826.0,59790,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,587,VALID
+TN_POP_0588,Nerkuppai,NERKUPPAI,Town Panchayat,Sivaganga,SIVAGANGA,,5689.0,7165,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,588,VALID
+TN_POP_0589,Nerunjipettai,NERUNJIPETTAI,Town Panchayat,Erode,ERODE,,6925.0,6791,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,589,VALID
+TN_POP_0590,Neykkarappatti,NEYKKARAPPATTI,Census Town,Salem,SALEM,7645.0,9869.0,12090,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,590,VALID
+TN_POP_0591,Neyveli,NEYVELI,Township,Cuddalore,CUDDALORE,118080.0,127552.0,105731,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,591,VALID
+TN_POP_0592,Neyyoor,NEYYOOR,Town Panchayat,Kanniyakumari,KANNIYAKUMARI,,12288.0,12917,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,592,VALID
+TN_POP_0593,Nilaiyur I Bit,NILAIYUR I BIT,Census Town,Madurai,MADURAI,,,14684,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,593,PARTIAL_CENSUS
+TN_POP_0594,Nilakkottai,NILAKKOTTAI,Town Panchayat,Dindigul,DINDIGUL,14770.0,19615.0,22197,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,594,VALID
+TN_POP_0595,Nolambur,NOLAMBUR,Census Town,Thiruvallur,THIRUVALLUR,,,21973,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,595,PARTIAL_CENSUS
+TN_POP_0596,Nullivilai,NULLIVILAI,Census Town,Kanniyakumari,KANNIYAKUMARI,,,16138,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,596,PARTIAL_CENSUS
+TN_POP_0597,Odaipatti,ODAIPATTI,Town Panchayat,Theni,THENI,,13183.0,13892,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,597,VALID
+TN_POP_0598,Odaiyakulam,ODAIYAKULAM,Town Panchayat,Coimbatore,COIMBATORE,,11999.0,13370,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,598,VALID
+TN_POP_0599,Oddanchatram,ODDANCHATRAM,Town Panchayat,Dindigul,DINDIGUL,,24132.0,30064,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,599,VALID
+TN_POP_0600,Odugathur,ODUGATHUR,Town Panchayat,Vellore,VELLORE,,8148.0,8998,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,600,VALID
+TN_POP_0601,Oggiyamduraipakkam,OGGIYAMDURAIPAKKAM,Census Town,Kanchipuram,KANCHIPURAM,,25952.0,76600,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,601,VALID
+TN_POP_0602,Olagadam,OLAGADAM,Town Panchayat,Erode,ERODE,,9370.0,9958,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,602,VALID
+TN_POP_0603,Omalur,OMALUR,Town Panchayat,Salem,SALEM,11884.0,13291.0,16279,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,603,VALID
+TN_POP_0604,Orathanadu (Mukthambalpuram),ORATHANADU (MUKTHAMBALPURAM),Town Panchayat,Thanjavur,THANJAVUR,,10172.0,10247,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,604,VALID
+TN_POP_0605,Orikkai,ORIKKAI,Census Town,Kanchipuram,KANCHIPURAM,,,12638,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,605,PARTIAL_CENSUS
+TN_POP_0606,Othakadai,OTHAKADAI,Census Town,Madurai,MADURAI,8912.0,12185.0,15152,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,606,VALID
+TN_POP_0607,Othakalmandapam,OTHAKALMANDAPAM,Town Panchayat,Coimbatore,COIMBATORE,,10320.0,12207,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,607,VALID
+TN_POP_0608,Ottapparai,OTTAPPARAI,Census Town,Erode,ERODE,6423.0,9208.0,9493,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,608,VALID
+TN_POP_0609,O' Valley,O' VALLEY,Town Panchayat,The Nilgiris,THE NILGIRIS,22713.0,24793.0,21943,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,609,VALID
+TN_POP_0610,Overi,OVERI,Census Town,Tirunelveli,TIRUNELVELI,,,5694,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,610,PARTIAL_CENSUS
+TN_POP_0611,Pachchal,PACHCHAL,Census Town,Vellore,VELLORE,,15288.0,16789,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,611,VALID
+TN_POP_0612,Pacode,PACODE,Town Panchayat,Kanniyakumari,KANNIYAKUMARI,,22781.0,24050,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,612,VALID
+TN_POP_0613,Padaiveedu,PADAIVEEDU,Town Panchayat,Namakkal,NAMAKKAL,,10066.0,10451,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,613,VALID
+TN_POP_0614,Padandal,PADANDAL,Census Town,Virudhunagar,VIRUDHUNAGAR,,,8429,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,614,PARTIAL_CENSUS
+TN_POP_0615,Padappai,PADAPPAI,Census Town,Kanchipuram,KANCHIPURAM,,8285.0,14063,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,615,VALID
+TN_POP_0616,Padianallur,PADIANALLUR,Census Town,Thiruvallur,THIRUVALLUR,18004.0,20938.0,23819,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,616,VALID
+TN_POP_0617,Padikkasu vaithanpatti,PADIKKASU VAITHANPATTI,Census Town,Virudhunagar,VIRUDHUNAGAR,,6805.0,9538,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,617,VALID
+TN_POP_0618,Padirikuppam,PADIRIKUPPAM,Census Town,Cuddalore,CUDDALORE,,16075.0,18745,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,618,VALID
+TN_POP_0619,Padmanabhapuram,PADMANABHAPURAM,Municipality,Kanniyakumari,KANNIYAKUMARI,19269.0,20075.0,21342,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,619,VALID
+TN_POP_0620,Painkulam,PAINKULAM,Census Town,Kanniyakumari,KANNIYAKUMARI,,21337.0,23630,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,620,VALID
+TN_POP_0621,Paiyur,PAIYUR,Census Town,Tiruvannamalai,TIRUVANNAMALAI,,5818.0,7555,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,621,VALID
+TN_POP_0622,Palaganangudy,PALAGANANGUDY,Census Town,Tiruchirappalli,TIRUCHIRAPPALLI,,9210.0,13469,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,622,VALID
+TN_POP_0623,Palakkodu,PALAKKODU,Town Panchayat,Dharmapuri,DHARMAPURI,15853.0,18667.0,20959,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,623,VALID
+TN_POP_0624,Palamedu,PALAMEDU,Town Panchayat,Madurai,MADURAI,,8183.0,10493,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,624,VALID
+TN_POP_0625,Palangarai,PALANGARAI,Census Town,Tiruppur,TIRUPPUR,,9821.0,17248,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,625,VALID
+TN_POP_0626,Palani,PALANI,Municipality,Dindigul,DINDIGUL,68907.0,67231.0,70467,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,626,VALID
+TN_POP_0627,Palani Chettipatti,PALANI CHETTIPATTI,Town Panchayat,Theni,THENI,,11750.0,14879,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,627,VALID
+TN_POP_0628,Palappallam,PALAPPALLAM,Town Panchayat,Kanniyakumari,KANNIYAKUMARI,,16652.0,18589,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,628,VALID
+TN_POP_0629,Palavakkam,PALAVAKKAM,Census Town,Kanchipuram,KANCHIPURAM,,14361.0,26766,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,629,VALID
+TN_POP_0630,Palavansathu,PALAVANSATHU,Census Town,Vellore,VELLORE,7883.0,16962.0,22176,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,630,VALID
+TN_POP_0631,Palayam,PALAYAM,Town Panchayat,Dindigul,DINDIGUL,,13300.0,15336,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,631,VALID
+TN_POP_0632,Palayampatti,PALAYAMPATTI,Census Town,Virudhunagar,VIRUDHUNAGAR,,14017.0,18576,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,632,VALID
+TN_POP_0633,Palladam,PALLADAM,Municipality,Tiruppur,TIRUPPUR,22406.0,30016.0,42225,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,633,VALID
+TN_POP_0634,Pallanthurai,PALLANTHURAI,Census Town,Kanniyakumari,KANNIYAKUMARI,,,5386,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,634,PARTIAL_CENSUS
+TN_POP_0635,Pallapalayam,PALLAPALAYAM,Town Panchayat,Erode,ERODE,,6505.0,7263,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,635,VALID
+TN_POP_0636,Pallapalayam,PALLAPALAYAM,Town Panchayat,Coimbatore,COIMBATORE,,9898.0,11910,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,636,VALID
+TN_POP_0637,Pallapatti,PALLAPATTI,Town Panchayat,Karur,KARUR,,19039.0,30624,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,637,VALID
+TN_POP_0638,Pallapatti,PALLAPATTI,Census Town,Virudhunagar,VIRUDHUNAGAR,18991.0,24326.0,27925,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,638,VALID
+TN_POP_0639,Pallathur,PALLATHUR,Town Panchayat,Sivaganga,SIVAGANGA,,7982.0,9580,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,639,VALID
+TN_POP_0640,Pallavaram,PALLAVARAM,Municipality with Outgrowth,Kanchipuram,KANCHIPURAM,111866.0,144623.0,233984,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,640,VALID
+TN_POP_0641,Pallikaranai,PALLIKARANAI,Town Panchayat,Kanchipuram,KANCHIPURAM,7822.0,22070.0,43493,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,641,VALID
+TN_POP_0642,Pallikonda,PALLIKONDA,Town Panchayat,Vellore,VELLORE,18672.0,20771.0,23067,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,642,VALID
+TN_POP_0643,Pallipalayam,PALLIPALAYAM,Municipality,Namakkal,NAMAKKAL,36657.0,35635.0,40140,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,643,VALID
+TN_POP_0644,Pallipalayam Agraharam,PALLIPALAYAM AGRAHARAM,Census Town,Namakkal,NAMAKKAL,,9997.0,16479,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,644,VALID
+TN_POP_0645,Pallipattu,PALLIPATTU,Town Panchayat,Thiruvallur,THIRUVALLUR,,8654.0,8721,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,645,VALID
+TN_POP_0646,Pallippadai,PALLIPPADAI,Census Town,Cuddalore,CUDDALORE,,4499.0,6369,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,646,VALID
+TN_POP_0647,Paloor,PALOOR,Census Town,Kanniyakumari,KANNIYAKUMARI,,,6818,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,647,PARTIAL_CENSUS
+TN_POP_0648,Palugal,PALUGAL,Town Panchayat,Kanniyakumari,KANNIYAKUMARI,,17686.0,18276,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,648,VALID
+TN_POP_0649,Pammal,PAMMAL,Municipality,Kanchipuram,KANCHIPURAM,36506.0,49999.0,75870,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,649,VALID
+TN_POP_0650,Panagudi,PANAGUDI,Town Panchayat,Tirunelveli,TIRUNELVELI,,25501.0,29895,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,650,VALID
+TN_POP_0651,Panaimarathupatti,PANAIMARATHUPATTI,Town Panchayat,Salem,SALEM,,8125.0,9368,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,651,VALID
+TN_POP_0652,Panapakkam,PANAPAKKAM,Town Panchayat,Vellore,VELLORE,,10151.0,11536,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,652,VALID
+TN_POP_0653,Pandamangalam,PANDAMANGALAM,Town Panchayat,Namakkal,NAMAKKAL,,5952.0,7259,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,653,VALID
+TN_POP_0654,Pandavarmangalam,PANDAVARMANGALAM,Census Town,Thoothukkudi,THOOTHUKKUDI,,10407.0,14954,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,654,VALID
+TN_POP_0655,Pannaikadu,PANNAIKADU,Town Panchayat,Dindigul,DINDIGUL,,9473.0,8731,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,655,VALID
+TN_POP_0656,Pannaipuram,PANNAIPURAM,Town Panchayat,Theni,THENI,,8347.0,9323,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,656,VALID
+TN_POP_0657,Panpoli,PANPOLI,Town Panchayat,Tirunelveli,TIRUNELVELI,,8553.0,9313,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,657,VALID
+TN_POP_0658,Panruti,PANRUTI,Municipality,Cuddalore,CUDDALORE,51394.0,55346.0,60323,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,658,VALID
+TN_POP_0659,Papanasam,PAPANASAM,Town Panchayat,Thanjavur,THANJAVUR,14997.0,16404.0,17548,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,659,VALID
+TN_POP_0660,Pappankurichi,PAPPANKURICHI,Census Town,Tiruchirappalli,TIRUCHIRAPPALLI,,20371.0,24023,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,660,VALID
+TN_POP_0661,Papparapatti,PAPPARAPATTI,Town Panchayat,Dharmapuri,DHARMAPURI,,11276.0,12174,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,661,VALID
+TN_POP_0662,Papparapatti,PAPPARAPATTI,Census Town,Salem,SALEM,,9021.0,9592,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,662,VALID
+TN_POP_0663,Pappireddipatti,PAPPIREDDIPATTI,Town Panchayat,Dharmapuri,DHARMAPURI,,8583.0,9369,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,663,VALID
+TN_POP_0664,Paramakudi,PARAMAKUDI,Municipality,Ramanathapuram,RAMANATHAPURAM,72321.0,84321.0,95579,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,664,VALID
+TN_POP_0665,Paramathi,PARAMATHI,Town Panchayat,Namakkal,NAMAKKAL,,11124.0,11986,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,665,VALID
+TN_POP_0666,Parangipettai,PARANGIPETTAI,Town Panchayat,Cuddalore,CUDDALORE,23550.0,20912.0,25541,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,666,VALID
+TN_POP_0667,Paraniputhur,PARANIPUTHUR,Census Town,Kanchipuram,KANCHIPURAM,,,15225,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,667,PARTIAL_CENSUS
+TN_POP_0668,Paravai,PARAVAI,Town Panchayat,Madurai,MADURAI,12732.0,16248.0,20042,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,668,VALID
+TN_POP_0669,Pasur,PASUR,Town Panchayat,Erode,ERODE,,3870.0,3670,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,669,VALID
+TN_POP_0670,Pathamadai (Pattamadai),PATHAMADAI (PATTAMADAI),Town Panchayat,Tirunelveli,TIRUNELVELI,,14957.0,16625,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,670,VALID
+TN_POP_0671,Pattanam,PATTANAM,Census Town,Coimbatore,COIMBATORE,,6477.0,9196,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,671,VALID
+TN_POP_0672,Pattinam,PATTINAM,Town Panchayat,Namakkal,NAMAKKAL,,8213.0,8912,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,672,VALID
+TN_POP_0673,Pattinamkattan,PATTINAMKATTAN,Census Town,Ramanathapuram,RAMANATHAPURAM,,14244.0,17601,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,673,VALID
+TN_POP_0674,Pattiveeranpatti,PATTIVEERANPATTI,Town Panchayat,Dindigul,DINDIGUL,,7772.0,8602,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,674,VALID
+TN_POP_0675,Pattukkottai,PATTUKKOTTAI,Municipality,Thanjavur,THANJAVUR,58062.0,65533.0,73135,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,675,VALID
+TN_POP_0676,Pavali,PAVALI,Census Town,Virudhunagar,VIRUDHUNAGAR,,,7622,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,676,PARTIAL_CENSUS
+TN_POP_0677,Peddikuppam,PEDDIKUPPAM,Census Town,Thiruvallur,THIRUVALLUR,,5797.0,8044,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,677,VALID
+TN_POP_0678,Peerkankaranai,PEERKANKARANAI,Town Panchayat with Outgrowth,Kanchipuram,KANCHIPURAM,10739.0,17511.0,29250,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,678,VALID
+TN_POP_0679,Pennadam,PENNADAM,Town Panchayat,Cuddalore,CUDDALORE,,18166.0,19494,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,679,VALID
+TN_POP_0680,Pennagaram,PENNAGARAM,Town Panchayat,Dharmapuri,DHARMAPURI,,15306.0,17480,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,680,VALID
+TN_POP_0681,Pennathur,PENNATHUR,Town Panchayat,Vellore,VELLORE,,8151.0,9425,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,681,VALID
+TN_POP_0682,Peraiyur,PERAIYUR,Town Panchayat,Madurai,MADURAI,7830.0,9614.0,10394,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,682,VALID
+TN_POP_0683,Peralam,PERALAM,Town Panchayat,Thiruvarur,THIRUVARUR,,5842.0,6149,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,683,VALID
+TN_POP_0684,Perambakkam,PERAMBAKKAM,Census Town,Thiruvallur,THIRUVALLUR,,5398.0,6462,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,684,VALID
+TN_POP_0685,Perambalur,PERAMBALUR,Municipality,Perambalur,PERAMBALUR,26451.0,37631.0,49648,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,685,VALID
+TN_POP_0686,Peranamallur,PERANAMALLUR,Town Panchayat,Tiruvannamalai,TIRUVANNAMALAI,,5557.0,5801,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,686,VALID
+TN_POP_0687,Peravurani,PERAVURANI,Town Panchayat,Thanjavur,THANJAVUR,,21045.0,22084,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,687,VALID
+TN_POP_0688,Periagaram,PERIAGARAM,Census Town,Vellore,VELLORE,,4539.0,4916,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,688,VALID
+TN_POP_0689,Periakottai,PERIAKOTTAI,Census Town,Tiruppur,TIRUPPUR,,,17356,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,689,PARTIAL_CENSUS
+TN_POP_0690,Periapattinam (Periyapattinam),PERIAPATTINAM (PERIYAPATTINAM),Census Town,Ramanathapuram,RAMANATHAPURAM,,9478.0,9730,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,690,VALID
+TN_POP_0691,Periyakodiveri,PERIYAKODIVERI,Town Panchayat,Erode,ERODE,,12405.0,12330,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,691,VALID
+TN_POP_0692,Periyakulam,PERIYAKULAM,Municipality,Theni,THENI,46744.0,42012.0,42976,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,692,VALID
+TN_POP_0693,Periyakurichi,PERIYAKURICHI,Census Town,Cuddalore,CUDDALORE,,6306.0,7599,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,693,VALID
+TN_POP_0694,Periyamanali,PERIYAMANALI,Census Town,Namakkal,NAMAKKAL,,,6878,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,694,PARTIAL_CENSUS
+TN_POP_0695,Periyanaicken-palayam,PERIYANAICKEN PALAYAM,Town Panchayat,Coimbatore,COIMBATORE,18043.0,22844.0,25930,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,695,VALID
+TN_POP_0696,Periya Negamam,PERIYA NEGAMAM,Town Panchayat,Coimbatore,COIMBATORE,,7683.0,7098,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,696,VALID
+TN_POP_0697,Periyapatti,PERIYAPATTI,Census Town,Namakkal,NAMAKKAL,,5772.0,15690,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,697,VALID
+TN_POP_0698,Periyasemur,PERIYASEMUR,Municipality,Erode,ERODE,,32024.0,55282,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,698,VALID
+TN_POP_0699,Pernampattu,PERNAMPATTU,Municipality,Vellore,VELLORE,36195.0,41499.0,51271,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,699,VALID
+TN_POP_0700,Perumagalur,PERUMAGALUR,Town Panchayat,Thanjavur,THANJAVUR,,5405.0,5604,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,700,VALID
+TN_POP_0701,Perumagoundampatti,PERUMAGOUNDAMPATTI,Census Town,Salem,SALEM,,,7796,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,701,PARTIAL_CENSUS
+TN_POP_0702,Perumanallur,PERUMANALLUR,Census Town,Tiruppur,TIRUPPUR,,4994.0,7356,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,702,VALID
+TN_POP_0703,Perumandi,PERUMANDI,Census Town,Thanjavur,THANJAVUR,,7001.0,8620,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,703,VALID
+TN_POP_0704,Perundurai,PERUNDURAI,Town Panchayat,Erode,ERODE,,16943.0,24930,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,704,VALID
+TN_POP_0705,Perungalathur,PERUNGALATHUR,Town Panchayat,Kanchipuram,KANCHIPURAM,,19594.0,37342,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,705,VALID
+TN_POP_0706,Perungudi,PERUNGUDI,Town Panchayat,Kanchipuram,KANCHIPURAM,9709.0,23581.0,43111,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,706,VALID
+TN_POP_0707,Perungulam,PERUNGULAM,Town Panchayat,Thoothukkudi,THOOTHUKKUDI,,6452.0,7203,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,707,VALID
+TN_POP_0708,Perur,PERUR,Town Panchayat,Coimbatore,COIMBATORE,6823.0,7965.0,8004,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,708,VALID
+TN_POP_0709,Perur Chettipalayam,PERUR CHETTIPALAYAM,Census Town,Coimbatore,COIMBATORE,,12932.0,17809,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,709,VALID
+TN_POP_0710,Peruvilai,PERUVILAI,Census Town,Kanniyakumari,KANNIYAKUMARI,,,6090,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,710,PARTIAL_CENSUS
+TN_POP_0711,Pethampalayam,PETHAMPALAYAM,Town Panchayat,Erode,ERODE,,7120.0,7152,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,711,VALID
+TN_POP_0712,Pethanaickenpalayam,PETHANAICKENPALAYAM,Town Panchayat,Salem,SALEM,,16396.0,17678,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,712,VALID
+TN_POP_0713,Pichandarkovil,PICHANDARKOVIL,Census Town,Tiruchirappalli,TIRUCHIRAPPALLI,,10164.0,17257,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,713,VALID
+TN_POP_0714,Pillanallur,PILLANALLUR,Town Panchayat,Namakkal,NAMAKKAL,8405.0,9161.0,11181,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,714,VALID
+TN_POP_0715,P. J. Cholapuram,P. J. CHOLAPURAM,Town Panchayat,Karur,KARUR,,6552.0,7484,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,715,VALID
+TN_POP_0716,P. Mettupalayam,P. METTUPALAYAM,Town Panchayat,Erode,ERODE,,9115.0,9109,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,716,VALID
+TN_POP_0717,P. N. Patti,P. N. PATTI,Town Panchayat,Salem,SALEM,,23331.0,25133,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,717,VALID
+TN_POP_0718,Polichalur,POLICHALUR,Census Town,Kanchipuram,KANCHIPURAM,9816.0,14760.0,21906,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,718,VALID
+TN_POP_0719,Pollachi,POLLACHI,Municipality,Coimbatore,COIMBATORE,86897.0,88302.0,90180,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,719,VALID
+TN_POP_0720,Polur,POLUR,Town Panchayat,Tiruvannamalai,TIRUVANNAMALAI,23046.0,25505.0,28123,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,720,VALID
+TN_POP_0721,Ponmanai,PONMANAI,Town Panchayat,Kanniyakumari,KANNIYAKUMARI,,13480.0,15554,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,721,VALID
+TN_POP_0722,Ponnamaravathi,PONNAMARAVATHI,Town Panchayat,Pudukkottai,PUDUKKOTTAI,,11776.0,12676,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,722,VALID
+TN_POP_0723,Ponnampatti,PONNAMPATTI,Town Panchayat,Tiruchirappalli,TIRUCHIRAPPALLI,,10660.0,12167,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,723,VALID
+TN_POP_0724,Ponneri,PONNERI,Town Panchayat,Thiruvallur,THIRUVALLUR,22375.0,24309.0,31025,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,724,VALID
+TN_POP_0725,Poolambadi,POOLAMBADI,Town Panchayat,Perambalur,PERAMBALUR,,10027.0,10737,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,725,VALID
+TN_POP_0726,Poolampatti,POOLAMPATTI,Town Panchayat,Salem,SALEM,,8999.0,9477,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,726,VALID
+TN_POP_0727,Poolankinar,POOLANKINAR,Census Town,Tiruppur,TIRUPPUR,,4779.0,4849,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,727,VALID
+TN_POP_0728,Pooluvapatti,POOLUVAPATTI,Town Panchayat,Coimbatore,COIMBATORE,,11964.0,12853,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,728,VALID
+TN_POP_0729,Poonamallee,POONAMALLEE,Municipality with Outgrowth,Thiruvallur,THIRUVALLUR,28827.0,42604.0,60607,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,729,VALID
+TN_POP_0730,Poravacheri,PORAVACHERI,Census Town,Nagapattinam,NAGAPATTINAM,,4115.0,4422,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,730,VALID
+TN_POP_0731,Porur,PORUR,Town Panchayat,Thiruvallur,THIRUVALLUR,19507.0,28924.0,46690,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,731,VALID
+TN_POP_0732,Pothanur,POTHANUR,Town Panchayat,Namakkal,NAMAKKAL,,13728.0,18455,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,732,VALID
+TN_POP_0733,Pothatturpettai,POTHATTURPETTAI,Town Panchayat,Thiruvallur,THIRUVALLUR,,18715.0,22040,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,733,VALID
+TN_POP_0734,Pudiyamputhur,PUDIYAMPUTHUR,Census Town,Thoothukkudi,THOOTHUKKUDI,,,8012,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,734,PARTIAL_CENSUS
+TN_POP_0735,Pudukkottai,PUDUKKOTTAI,Census Town,Pudukkottai,PUDUKKOTTAI,11091.0,17607.0,26116,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,735,VALID
+TN_POP_0736,Pudukkottai,PUDUKKOTTAI,Municipality,Pudukkottai,PUDUKKOTTAI,99058.0,109217.0,117630,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,736,VALID
+TN_POP_0737,Pudupalayam,PUDUPALAYAM,Town Panchayat,Tiruvannamalai,TIRUVANNAMALAI,,10005.0,11382,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,737,VALID
+TN_POP_0738,Pudupalayam Agraharam,PUDUPALAYAM AGRAHARAM,Census Town,Namakkal,NAMAKKAL,,5419.0,5704,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,738,VALID
+TN_POP_0739,Pudupatti,PUDUPATTI,Town Panchayat,Theni,THENI,,10015.0,11511,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,739,VALID
+TN_POP_0740,Pudupattinam,PUDUPATTINAM,Census Town,Kanchipuram,KANCHIPURAM,15044.0,20901.0,21151,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,740,VALID
+TN_POP_0741,Pudupattinam,PUDUPATTINAM,Census Town,Thanjavur,THANJAVUR,,7261.0,10210,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,741,VALID
+TN_POP_0742,Pudur (S),PUDUR (S),Town Panchayat,Tirunelveli,TIRUNELVELI,,11110.0,12457,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,742,VALID
+TN_POP_0743,Puduvayal,PUDUVAYAL,Town Panchayat,Sivaganga,SIVAGANGA,7381.0,9255.0,11284,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,743,VALID
+TN_POP_0744,Puliankudi (Puliyankudi),PULIANKUDI (PULIYANKUDI),Municipality,Tirunelveli,TIRUNELVELI,53287.0,60080.0,66034,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,744,VALID
+TN_POP_0745,Puliyoorsalai,PULIYOORSALAI,Census Town,Kanniyakumari,KANNIYAKUMARI,,,6361,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,745,PARTIAL_CENSUS
+TN_POP_0746,Puliyur,PULIYUR,Town Panchayat,Karur,KARUR,,11491.0,12720,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,746,VALID
+TN_POP_0747,Pullampadi (Pullambadi),PULLAMPADI (PULLAMBADI),Town Panchayat,Tiruchirappalli,TIRUCHIRAPPALLI,,11215.0,10241,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,747,VALID
+TN_POP_0748,Punjaipugalur,PUNJAIPUGALUR,Town Panchayat,Karur,KARUR,16191.0,20309.0,23408,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,748,VALID
+TN_POP_0749,Punjaipuliampatti,PUNJAIPULIAMPATTI,Municipality,Erode,ERODE,15075.0,14832.0,18967,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,749,VALID
+TN_POP_0750,Punjai Thottakurichi,PUNJAI THOTTAKURICHI,Town Panchayat,Karur,KARUR,,9649.0,10969,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,750,VALID
+TN_POP_0751,Puthagaram,PUTHAGARAM,Census Town,Thiruvallur,THIRUVALLUR,,6451.0,10263,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,751,VALID
+TN_POP_0752,Puthalam,PUTHALAM,Town Panchayat,Kanniyakumari,KANNIYAKUMARI,,11835.0,13073,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,752,VALID
+TN_POP_0753,Putheri,PUTHERI,Census Town,Kanniyakumari,KANNIYAKUMARI,,,5576,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,753,PARTIAL_CENSUS
+TN_POP_0754,Puthukkadai,PUTHUKKADAI,Town Panchayat,Kanniyakumari,KANNIYAKUMARI,,9037.0,9909,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,754,VALID
+TN_POP_0755,Puthur Agraharam,PUTHUR AGRAHARAM,Census Town,Salem,SALEM,,,11173,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,755,PARTIAL_CENSUS
+TN_POP_0756,Puvalur (Poovalur),PUVALUR (POOVALUR),Town Panchayat,Tiruchirappalli,TIRUCHIRAPPALLI,8109.0,8906.0,7905,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,756,VALID
+TN_POP_0757,Puzhal,PUZHAL,Town Panchayat,Thiruvallur,THIRUVALLUR,15868.0,20639.0,31665,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,757,VALID
+TN_POP_0758,Puzhithivakkam (Ullagaram),PUZHITHIVAKKAM (ULLAGARAM),Municipality,Kanchipuram,KANCHIPURAM,16133.0,30422.0,53322,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,758,VALID
+TN_POP_0759,Rajapalayam,RAJAPALAYAM,Municipality,Virudhunagar,VIRUDHUNAGAR,114202.0,122307.0,130442,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,759,VALID
+TN_POP_0760,Rajapalayam,RAJAPALAYAM,Census Town,Salem,SALEM,,,5807,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,760,PARTIAL_CENSUS
+TN_POP_0761,Ramalingapuram,RAMALINGAPURAM,Census Town,Virudhunagar,VIRUDHUNAGAR,,3912.0,4505,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,761,VALID
+TN_POP_0762,Ramanathapuram,RAMANATHAPURAM,Municipality,Ramanathapuram,RAMANATHAPURAM,52879.0,62050.0,61440,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,762,VALID
+TN_POP_0763,Ramapuram,RAMAPURAM,Census Town,Thiruvallur,THIRUVALLUR,,27895.0,52295,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,763,VALID
+TN_POP_0764,Rameswaram,RAMESWARAM,Municipality,Ramanathapuram,RAMANATHAPURAM,32721.0,37968.0,44856,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,764,VALID
+TN_POP_0765,Ranipettai (Ranipet),RANIPETTAI (RANIPET),Municipality,Vellore,VELLORE,42583.0,47243.0,50764,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,765,VALID
+TN_POP_0766,Rasipuram,RASIPURAM,Municipality,Namakkal,NAMAKKAL,39386.0,46330.0,50244,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,766,VALID
+TN_POP_0767,Rayagiri,RAYAGIRI,Town Panchayat,Tirunelveli,TIRUNELVELI,,10855.0,11223,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,767,VALID
+TN_POP_0768,Reethapuram,REETHAPURAM,Town Panchayat,Kanniyakumari,KANNIYAKUMARI,,11887.0,21177,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,768,VALID
+TN_POP_0769,Rosalpatti,ROSALPATTI,Census Town,Virudhunagar,VIRUDHUNAGAR,15957.0,19701.0,22524,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,769,VALID
+TN_POP_0770,R. Pudupatti,R. PUDUPATTI,Town Panchayat,Namakkal,NAMAKKAL,,11915.0,7478,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,770,VALID
+TN_POP_0771,R. S. Mangalam,R. S. MANGALAM,Town Panchayat,Ramanathapuram,RAMANATHAPURAM,,11043.0,14565,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,771,VALID
+TN_POP_0772,Rudravathi,RUDRAVATHI,Town Panchayat,Tiruppur,TIRUPPUR,,6107.0,6807,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,772,VALID
+TN_POP_0773,Sakkarakottai,SAKKARAKOTTAI,Census Town,Ramanathapuram,RAMANATHAPURAM,,,15355,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,773,PARTIAL_CENSUS
+TN_POP_0774,Sakkimangalam,SAKKIMANGALAM,Census Town,Madurai,MADURAI,,6368.0,10854,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,774,VALID
+TN_POP_0775,Salamedu,SALAMEDU,Census Town,Viluppuram,VILUPPURAM,,,20854,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,775,PARTIAL_CENSUS
+TN_POP_0776,Salangapalayam,SALANGAPALAYAM,Town Panchayat,Erode,ERODE,,14702.0,15609,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,776,VALID
+TN_POP_0777,Salem,SALEM,Municipal Corporation,Salem,SALEM,366712.0,696760.0,829267,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,777,VALID
+TN_POP_0778,Samalapuram,SAMALAPURAM,Town Panchayat,Tiruppur,TIRUPPUR,,14705.0,20691,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,778,VALID
+TN_POP_0779,Samanatham,SAMANATHAM,Census Town,Madurai,MADURAI,,,4477,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,779,PARTIAL_CENSUS
+TN_POP_0780,Samathur,SAMATHUR,Town Panchayat,Coimbatore,COIMBATORE,,5812.0,5762,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,780,VALID
+TN_POP_0781,Samayanallur,SAMAYANALLUR,Census Town,Madurai,MADURAI,,8622.0,9227,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,781,VALID
+TN_POP_0782,Sambavar Vadagarai,SAMBAVAR VADAGARAI,Town Panchayat,Tirunelveli,TIRUNELVELI,,14647.0,16709,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,782,VALID
+TN_POP_0783,Samusigapuram,SAMUSIGAPURAM,Census Town,Virudhunagar,VIRUDHUNAGAR,,11651.0,14601,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,783,VALID
+TN_POP_0784,Sankaramanallur,SANKARAMANALLUR,Town Panchayat,Tiruppur,TIRUPPUR,,9543.0,10283,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,784,VALID
+TN_POP_0785,Sankarankoil (Sankarankovil),SANKARANKOIL (SANKARANKOVIL),Municipality,Tirunelveli,TIRUNELVELI,48846.0,53606.0,57277,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,785,VALID
+TN_POP_0786,Sankaraperi,SANKARAPERI,Census Town,Thoothukkudi,THOOTHUKKUDI,,11551.0,19844,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,786,VALID
+TN_POP_0787,Sankarapuram,SANKARAPURAM,Town Panchayat,Viluppuram,VILUPPURAM,5456.0,12263.0,15664,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,787,VALID
+TN_POP_0788,Sankarapuram,SANKARAPURAM,Census Town,Sivaganga,SIVAGANGA,,,26536,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,788,PARTIAL_CENSUS
+TN_POP_0789,Sankari (Sankagiri),SANKARI (SANKAGIRI),Town Panchayat,Salem,SALEM,,27454.0,29467,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,789,VALID
+TN_POP_0790,Sankarnagar,SANKARNAGAR,Town Panchayat,Tirunelveli,TIRUNELVELI,4533.0,5203.0,7095,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,790,VALID
+TN_POP_0791,Sanniyasigundu,SANNIYASIGUNDU,Census Town,Salem,SALEM,,,7823,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,791,PARTIAL_CENSUS
+TN_POP_0792,Saravanampatti,SARAVANAMPATTI,Town Panchayat,Coimbatore,COIMBATORE,10753.0,17737.0,32920,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,792,VALID
+TN_POP_0793,Sarcarsamakulam,SARCARSAMAKULAM,Town Panchayat,Coimbatore,COIMBATORE,,7982.0,10289,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,793,VALID
+TN_POP_0794,Sathankulam,SATHANKULAM,Town Panchayat,Thoothukkudi,THOOTHUKKUDI,,14206.0,14193,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,794,VALID
+TN_POP_0795,Sathiyavijayanagaram,SATHIYAVIJAYANAGARAM,Census Town,Tiruvannamalai,TIRUVANNAMALAI,,5681.0,5894,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,795,VALID
+TN_POP_0796,Sathkar,SATHKAR,Census Town,Vellore,VELLORE,,,8632,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,796,PARTIAL_CENSUS
+TN_POP_0797,Sathuvachari (Sathuvacheri),SATHUVACHARI (SATHUVACHERI),Municipality,Vellore,VELLORE,,44942.0,56951,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,797,VALID
+TN_POP_0798,Sathyamangalam,SATHYAMANGALAM,Municipality,Erode,ERODE,32417.0,33722.0,37816,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,798,VALID
+TN_POP_0799,Sattur,SATTUR,Municipality,Virudhunagar,VIRUDHUNAGAR,29226.0,31443.0,29398,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,799,VALID
+TN_POP_0800,Sayalgudi,SAYALGUDI,Town Panchayat,Ramanathapuram,RAMANATHAPURAM,,12052.0,14801,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,800,VALID
+TN_POP_0801,Sayapuram,SAYAPURAM,Town Panchayat,Thoothukkudi,THOOTHUKKUDI,,12771.0,12792,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,801,VALID
+TN_POP_0802,Seerapalli,SEERAPALLI,Town Panchayat,Namakkal,NAMAKKAL,,11753.0,12403,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,802,VALID
+TN_POP_0803,Seithur,SEITHUR,Town Panchayat,Virudhunagar,VIRUDHUNAGAR,,18012.0,20228,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,803,VALID
+TN_POP_0804,Selathampatti,SELATHAMPATTI,Census Town,Salem,SALEM,,4721.0,6659,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,804,VALID
+TN_POP_0805,Sembakkam,SEMBAKKAM,Town Panchayat,Kanchipuram,KANCHIPURAM,13516.0,21492.0,45356,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,805,VALID
+TN_POP_0806,Sembedu,SEMBEDU,Census Town,Vellore,VELLORE,,11305.0,12548,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,806,VALID
+TN_POP_0807,Sembianallur,SEMBIANALLUR,Census Town,Tiruppur,TIRUPPUR,,4514.0,7586,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,807,VALID
+TN_POP_0808,Semmipalayam,SEMMIPALAYAM,Census Town,Tiruppur,TIRUPPUR,,6184.0,8429,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,808,VALID
+TN_POP_0809,Senapiratti,SENAPIRATTI,Census Town,Karur,KARUR,,15083.0,22447,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,809,VALID
+TN_POP_0810,Sengamalanachiarpatti,SENGAMALANACHIARPATTI,Census Town,Virudhunagar,VIRUDHUNAGAR,,,13811,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,810,PARTIAL_CENSUS
+TN_POP_0811,Senneerkuppam,SENNEERKUPPAM,Census Town,Thiruvallur,THIRUVALLUR,,,16237,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,811,PARTIAL_CENSUS
+TN_POP_0812,Senthamangalam,SENTHAMANGALAM,Town Panchayat,Namakkal,NAMAKKAL,,18116.0,19750,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,812,VALID
+TN_POP_0813,Sentharapatti,SENTHARAPATTI,Town Panchayat,Salem,SALEM,,13896.0,14308,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,813,VALID
+TN_POP_0814,Senur,SENUR,Census Town,Vellore,VELLORE,,7569.0,9078,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,814,VALID
+TN_POP_0815,Sethiathoppu,SETHIATHOPPU,Town Panchayat,Cuddalore,CUDDALORE,,7963.0,8824,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,815,VALID
+TN_POP_0816,Sevilimedu,SEVILIMEDU,Town Panchayat,Kanchipuram,KANCHIPURAM,13433.0,16125.0,23454,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,816,VALID
+TN_POP_0817,Sevugampatti,SEVUGAMPATTI,Town Panchayat,Dindigul,DINDIGUL,,9902.0,11730,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,817,VALID
+TN_POP_0818,Sevur,SEVUR,Census Town,Vellore,VELLORE,5206.0,8663.0,11356,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,818,VALID
+TN_POP_0819,Sevur,SEVUR,Census Town,Tiruvannamalai,TIRUVANNAMALAI,,9298.0,10299,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,819,VALID
+TN_POP_0820,Shenbakkam,SHENBAKKAM,Town Panchayat,Vellore,VELLORE,,13390.0,17109,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,820,VALID
+TN_POP_0821,Shenkottai (Sengottai),SHENKOTTAI (SENGOTTAI),Municipality,Tirunelveli,TIRUNELVELI,25820.0,26838.0,26823,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,821,VALID
+TN_POP_0822,Sholavandan,SHOLAVANDAN,Town Panchayat,Madurai,MADURAI,,21638.0,22578,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,822,VALID
+TN_POP_0823,Sholinganallur,SHOLINGANALLUR,Town Panchayat with Outgrowth,Kanchipuram,KANCHIPURAM,,15557.0,35602,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,823,VALID
+TN_POP_0824,Sholingur (Sholinghur),SHOLINGUR (SHOLINGHUR),Town Panchayat,Vellore,VELLORE,21412.0,26652.0,30856,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,824,VALID
+TN_POP_0825,Sholur,SHOLUR,Town Panchayat,The Nilgiris,THE NILGIRIS,,11152.0,9745,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,825,VALID
+TN_POP_0826,Sikkarayapuram,SIKKARAYAPURAM,Census Town,Kanchipuram,KANCHIPURAM,,6051.0,10187,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,826,VALID
+TN_POP_0827,Silaiman,SILAIMAN,Census Town,Madurai,MADURAI,,5250.0,6436,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,827,VALID
+TN_POP_0828,Silapadi,SILAPADI,Census Town,Dindigul,DINDIGUL,,17938.0,17824,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,828,VALID
+TN_POP_0829,Singampuneri (Singampunari),SINGAMPUNERI (SINGAMPUNARI),Town Panchayat,Sivaganga,SIVAGANGA,,16858.0,18143,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,829,VALID
+TN_POP_0830,Singaperumalkoil,SINGAPERUMALKOIL,Census Town,Kanchipuram,KANCHIPURAM,,8083.0,13566,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,830,VALID
+TN_POP_0831,Sircar Periapalayam,SIRCAR PERIAPALAYAM,Census Town,Tiruppur,TIRUPPUR,,,5986,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,831,PARTIAL_CENSUS
+TN_POP_0832,Sirkali (Sirkazhi),SIRKALI (SIRKAZHI),Municipality,Nagapattinam,NAGAPATTINAM,28980.0,32228.0,34927,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,832,VALID
+TN_POP_0833,Sirugamani,SIRUGAMANI,Town Panchayat,Tiruchirappalli,TIRUCHIRAPPALLI,,9994.0,10743,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,833,VALID
+TN_POP_0834,Sirukalathur,SIRUKALATHUR,Census Town,Kanchipuram,KANCHIPURAM,,,6117,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,834,PARTIAL_CENSUS
+TN_POP_0835,Sirukaveripakkam,SIRUKAVERIPAKKAM,Census Town,Kanchipuram,KANCHIPURAM,,,8032,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,835,PARTIAL_CENSUS
+TN_POP_0836,Sirumugai,SIRUMUGAI,Town Panchayat,Coimbatore,COIMBATORE,,19383.0,18223,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,836,VALID
+TN_POP_0837,Sithayankottai,SITHAYANKOTTAI,Town Panchayat,Dindigul,DINDIGUL,,12099.0,13634,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,837,VALID
+TN_POP_0838,Sithurajapuram,SITHURAJAPURAM,Census Town,Virudhunagar,VIRUDHUNAGAR,9358.0,13273.0,16860,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,838,VALID
+TN_POP_0839,Sivaganga,SIVAGANGA,Municipality,Sivaganga,SIVAGANGA,33190.0,40220.0,40403,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,839,VALID
+TN_POP_0840,Sivagiri,SIVAGIRI,Town Panchayat,Erode,ERODE,,16255.0,17979,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,840,VALID
+TN_POP_0841,Sivagiri,SIVAGIRI,Town Panchayat,Tirunelveli,TIRUNELVELI,,20380.0,23040,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,841,VALID
+TN_POP_0842,Sivagiripatti,SIVAGIRIPATTI,Census Town,Dindigul,DINDIGUL,,,17306,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,842,PARTIAL_CENSUS
+TN_POP_0843,Sivagnanapuram,SIVAGNANAPURAM,Census Town,Virudhunagar,VIRUDHUNAGAR,,,10107,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,843,PARTIAL_CENSUS
+TN_POP_0844,Sivakasi,SIVAKASI,Municipality,Virudhunagar,VIRUDHUNAGAR,65593.0,72168.0,71040,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,844,VALID
+TN_POP_0845,Sivanthipuram,SIVANTHIPURAM,Census Town,Tirunelveli,TIRUNELVELI,11912.0,13819.0,14281,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,845,VALID
+TN_POP_0846,Somayampalayam,SOMAYAMPALAYAM,Census Town,Coimbatore,COIMBATORE,,8963.0,14787,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,846,VALID
+TN_POP_0847,Soolakkarai,SOOLAKKARAI,Census Town,Virudhunagar,VIRUDHUNAGAR,,4304.0,4990,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,847,VALID
+TN_POP_0848,Soorapattu,SOORAPATTU,Census Town,Thiruvallur,THIRUVALLUR,,,10444,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,848,PARTIAL_CENSUS
+TN_POP_0849,South Kannanur,SOUTH KANNANUR,Town Panchayat,Tiruchirappalli,TIRUCHIRAPPALLI,,11782.0,13073,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,849,VALID
+TN_POP_0850,South Kodikulam,SOUTH KODIKULAM,Town Panchayat,Virudhunagar,VIRUDHUNAGAR,,11988.0,12713,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,850,VALID
+TN_POP_0851,South Nallur,SOUTH NALLUR,Municipality,Tiruppur,TIRUPPUR,,29495.0,70115,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,851,VALID
+TN_POP_0852,Srikalikapuram,SRIKALIKAPURAM,Census Town,Thiruvallur,THIRUVALLUR,,,5044,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,852,PARTIAL_CENSUS
+TN_POP_0853,Srimushnam,SRIMUSHNAM,Town Panchayat,Cuddalore,CUDDALORE,,11992.0,13971,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,853,VALID
+TN_POP_0854,Sriperumbudur,SRIPERUMBUDUR,Town Panchayat,Kanchipuram,KANCHIPURAM,13091.0,16156.0,24864,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,854,VALID
+TN_POP_0855,Sriramapuram,SRIRAMAPURAM,Town Panchayat,Dindigul,DINDIGUL,,8933.0,10653,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,855,VALID
+TN_POP_0856,Srivaikuntam,SRIVAIKUNTAM,Town Panchayat,Thoothukkudi,THOOTHUKKUDI,17459.0,16221.0,15847,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,856,VALID
+TN_POP_0857,Srivilliputhur,SRIVILLIPUTHUR,Municipality,Virudhunagar,VIRUDHUNAGAR,68644.0,73183.0,75396,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,857,VALID
+TN_POP_0858,St. Thomas Mount-cum-Pallavaram,ST. THOMAS MOUNT CUM PALLAVARAM,Cantonment (Board),Kanchipuram,KANCHIPURAM,39744.0,42153.0,43795,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,858,VALID
+TN_POP_0859,Suchindrum (Suchindram),SUCHINDRUM (SUCHINDRAM),Town Panchayat,Kanniyakumari,KANNIYAKUMARI,,12052.0,13193,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,859,VALID
+TN_POP_0860,Suleeswaranpatti,SULEESWARANPATTI,Town Panchayat,Coimbatore,COIMBATORE,14164.0,18211.0,20104,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,860,VALID
+TN_POP_0861,Sulur,SULUR,Town Panchayat,Coimbatore,COIMBATORE,19715.0,24152.0,27909,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,861,VALID
+TN_POP_0862,Sumaitheerthapuram,SUMAITHEERTHAPURAM,Census Town,Tirunelveli,TIRUNELVELI,,,6879,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,862,PARTIAL_CENSUS
+TN_POP_0863,Sundarapandiam,SUNDARAPANDIAM,Town Panchayat,Virudhunagar,VIRUDHUNAGAR,,8549.0,8513,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,863,VALID
+TN_POP_0864,Sundarapandianpattinam,SUNDARAPANDIANPATTINAM,Census Town,Ramanathapuram,RAMANATHAPURAM,,,4007,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,864,PARTIAL_CENSUS
+TN_POP_0865,Sundarapandiapuram,SUNDARAPANDIAPURAM,Town Panchayat,Tirunelveli,TIRUNELVELI,,7711.0,8987,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,865,VALID
+TN_POP_0866,SuPallipattu,SUPALLIPATTU,Census Town,Vellore,VELLORE,,,4998,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,866,PARTIAL_CENSUS
+TN_POP_0867,Surampatti,SURAMPATTI,Municipality,Erode,ERODE,24209.0,31948.0,41782,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,867,VALID
+TN_POP_0868,Surandai,SURANDAI,Town Panchayat,Tirunelveli,TIRUNELVELI,,28146.0,35272,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,868,VALID
+TN_POP_0869,Suriyampalayam,SURIYAMPALAYAM,Town Panchayat,Erode,ERODE,,21923.0,28585,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,869,VALID
+TN_POP_0870,Swamimalai,SWAMIMALAI,Town Panchayat,Thanjavur,THANJAVUR,,6982.0,7289,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,870,VALID
+TN_POP_0871,Tajpura,TAJPURA,Census Town,Vellore,VELLORE,,5810.0,8075,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,871,VALID
+TN_POP_0872,Tambaram,TAMBARAM,Municipality,Kanchipuram,KANCHIPURAM,107187.0,137933.0,174787,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,872,VALID
+TN_POP_0873,Tenkasi,TENKASI,Municipality,Tirunelveli,TIRUNELVELI,55189.0,63432.0,70545,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,873,VALID
+TN_POP_0874,Terkukallikulam,TERKUKALLIKULAM,Census Town,Tirunelveli,TIRUNELVELI,,5323.0,5980,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,874,VALID
+TN_POP_0875,Thadikarankonam,THADIKARANKONAM,Census Town,Kanniyakumari,KANNIYAKUMARI,,,6241,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,875,PARTIAL_CENSUS
+TN_POP_0876,Thadikombu,THADIKOMBU,Town Panchayat,Dindigul,DINDIGUL,,16081.0,18838,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,876,VALID
+TN_POP_0877,Thakkolam,THAKKOLAM,Town Panchayat,Vellore,VELLORE,,9908.0,13983,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,877,VALID
+TN_POP_0878,Thalainayar,THALAINAYAR,Town Panchayat,Nagapattinam,NAGAPATTINAM,,11635.0,12798,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,878,VALID
+TN_POP_0879,Thalakudi,THALAKUDI,Census Town,Tiruchirappalli,TIRUCHIRAPPALLI,,,5740,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,879,PARTIAL_CENSUS
+TN_POP_0880,Thamaraikulam,THAMARAIKULAM,Town Panchayat,Theni,THENI,,10391.0,12372,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,880,VALID
+TN_POP_0881,Thammampatti,THAMMAMPATTI,Town Panchayat,Salem,SALEM,,20751.0,21503,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,881,VALID
+TN_POP_0882,Thanakkankulam,THANAKKANKULAM,Census Town,Madurai,MADURAI,,9748.0,14328,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,882,VALID
+TN_POP_0883,Thanjavur,THANJAVUR,Municipality,Thanjavur,THANJAVUR,202013.0,215314.0,222943,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,883,VALID
+TN_POP_0884,Thanthoni,THANTHONI,Municipality,Karur,KARUR,,31592.0,53854,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,884,VALID
+TN_POP_0885,Thappakuttai,THAPPAKUTTAI,Census Town,Salem,SALEM,,,6986,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,885,PARTIAL_CENSUS
+TN_POP_0886,Tharamangalam,THARAMANGALAM,Town Panchayat,Salem,SALEM,17795.0,22144.0,30222,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,886,VALID
+TN_POP_0887,Tharangambadi,THARANGAMBADI,Town Panchayat,Nagapattinam,NAGAPATTINAM,18881.0,20843.0,23191,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,887,VALID
+TN_POP_0888,Thathaiyangarpet,THATHAIYANGARPET,Town Panchayat,Tiruchirappalli,TIRUCHIRAPPALLI,,12286.0,12980,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,888,VALID
+TN_POP_0889,Thathankuttai,THATHANKUTTAI,Census Town,Namakkal,NAMAKKAL,,,24708,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,889,PARTIAL_CENSUS
+TN_POP_0890,Thazhakudy,THAZHAKUDY,Town Panchayat,Kanniyakumari,KANNIYAKUMARI,,8568.0,8992,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,890,VALID
+TN_POP_0891,Thedavur,THEDAVUR,Town Panchayat,Salem,SALEM,,7461.0,8230,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,891,VALID
+TN_POP_0892,Theerthagiriyampattu,THEERTHAGIRIYAMPATTU,Census Town,Thiruvallur,THIRUVALLUR,,3328.0,5412,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,892,VALID
+TN_POP_0893,Thenambakkam,THENAMBAKKAM,Census Town,Kanchipuram,KANCHIPURAM,,9357.0,13994,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,893,VALID
+TN_POP_0894,Thengampudur,THENGAMPUDUR,Town Panchayat,Kanniyakumari,KANNIYAKUMARI,,12675.0,14538,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,894,VALID
+TN_POP_0895,Theni Allinagaram,THENI ALLINAGARAM,Municipality,Theni,THENI,66050.0,85498.0,94453,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,895,VALID
+TN_POP_0896,Thenkarai,THENKARAI,Town Panchayat,Coimbatore,COIMBATORE,,7247.0,7349,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,896,VALID
+TN_POP_0897,Thenkarai,THENKARAI,Town Panchayat,Theni,THENI,,11597.0,14838,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,897,VALID
+TN_POP_0898,Thenthamaraikulam,THENTHAMARAIKULAM,Town Panchayat,Kanniyakumari,KANNIYAKUMARI,,11106.0,11872,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,898,VALID
+TN_POP_0899,Thenthiruperai,THENTHIRUPERAI,Town Panchayat,Thoothukkudi,THOOTHUKKUDI,,5096.0,4934,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,899,VALID
+TN_POP_0900,Therur (Theroor),THERUR (THEROOR),Town Panchayat,Kanniyakumari,KANNIYAKUMARI,,6937.0,7615,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,900,VALID
+TN_POP_0901,Thevaram,THEVARAM,Town Panchayat,Theni,THENI,,14637.0,16079,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,901,VALID
+TN_POP_0902,Thevur,THEVUR,Town Panchayat,Salem,SALEM,,8115.0,8548,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,902,VALID
+TN_POP_0903,Thiagadurgam,THIAGADURGAM,Town Panchayat,Viluppuram,VILUPPURAM,,13633.0,18605,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,903,VALID
+TN_POP_0904,Thikkanamcode,THIKKANAMCODE,Census Town,Kanniyakumari,KANNIYAKUMARI,,,14086,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,904,PARTIAL_CENSUS
+TN_POP_0905,Thindal,THINDAL,Census Town,Erode,ERODE,,,15440,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,905,PARTIAL_CENSUS
+TN_POP_0906,Thingalnagar,THINGALNAGAR,Town Panchayat,Kanniyakumari,KANNIYAKUMARI,,12562.0,13567,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,906,VALID
+TN_POP_0907,Thirparappu (Thiruparappu),THIRPARAPPU (THIRUPARAPPU),Town Panchayat,Kanniyakumari,KANNIYAKUMARI,,21736.0,22401,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,907,VALID
+TN_POP_0908,Thirukarungudi,THIRUKARUNGUDI,Town Panchayat,Tirunelveli,TIRUNELVELI,,8875.0,9342,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,908,VALID
+TN_POP_0909,Thirukkattupalli,THIRUKKATTUPALLI,Town Panchayat,Thanjavur,THANJAVUR,,12567.0,12972,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,909,VALID
+TN_POP_0910,Thirumalayampalayam,THIRUMALAYAMPALAYAM,Town Panchayat,Coimbatore,COIMBATORE,,11136.0,12164,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,910,VALID
+TN_POP_0911,Thirumalpur,THIRUMALPUR,Census Town,Vellore,VELLORE,,4799.0,4803,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,911,VALID
+TN_POP_0912,Thirumangalam (Tirumangalam),THIRUMANGALAM (TIRUMANGALAM),Municipality,Madurai,MADURAI,34601.0,43631.0,51194,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,912,VALID
+TN_POP_0913,Thirumazhisai,THIRUMAZHISAI,Town Panchayat,Thiruvallur,THIRUVALLUR,,16291.0,19733,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,913,VALID
+TN_POP_0914,Thirumuruganpoondi,THIRUMURUGANPOONDI,Town Panchayat,Tiruppur,TIRUPPUR,,18557.0,31528,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,914,VALID
+TN_POP_0915,Thirunagar,THIRUNAGAR,Town Panchayat,Madurai,MADURAI,,15547.0,16598,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,915,VALID
+TN_POP_0916,Thirunageswaram,THIRUNAGESWARAM,Town Panchayat,Thanjavur,THANJAVUR,,13797.0,15082,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,916,VALID
+TN_POP_0917,Thiruneermalai,THIRUNEERMALAI,Town Panchayat,Kanchipuram,KANCHIPURAM,,19228.0,30702,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,917,VALID
+TN_POP_0918,Thirunindravur (Thiruninravur),THIRUNINDRAVUR (THIRUNINRAVUR),Town Panchayat,Thiruvallur,THIRUVALLUR,,29332.0,37095,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,918,VALID
+TN_POP_0919,Thiruparankundram,THIRUPARANKUNDRAM,Municipality with Outgrowth,Madurai,MADURAI,30078.0,39048.0,50004,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,919,VALID
+TN_POP_0920,Thiruporur,THIRUPORUR,Town Panchayat,Kanchipuram,KANCHIPURAM,,8299.0,13666,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,920,VALID
+TN_POP_0921,Thiruppalai,THIRUPPALAI,Census Town,Madurai,MADURAI,,,19305,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,921,PARTIAL_CENSUS
+TN_POP_0922,Thiruppanandal,THIRUPPANANDAL,Town Panchayat,Thanjavur,THANJAVUR,,10376.0,11169,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,922,VALID
+TN_POP_0923,Thirupuvanam (Thirubuvanam),THIRUPUVANAM (THIRUBUVANAM),Town Panchayat,Thanjavur,THANJAVUR,,14135.0,14989,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,923,VALID
+TN_POP_0924,Thirupuvanam,THIRUPUVANAM,Town Panchayat,Sivaganga,SIVAGANGA,,21589.0,24554,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,924,VALID
+TN_POP_0925,Thiruthangal,THIRUTHANGAL,Municipality,Virudhunagar,VIRUDHUNAGAR,36582.0,49190.0,55362,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,925,VALID
+TN_POP_0926,Thiruthuraipoondi,THIRUTHURAIPOONDI,Municipality,Thiruvarur,THIRUVARUR,23328.0,22905.0,24404,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,926,VALID
+TN_POP_0927,Thiruvaiyaru,THIRUVAIYARU,Town Panchayat,Thanjavur,THANJAVUR,14495.0,14511.0,16164,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,927,VALID
+TN_POP_0928,Thiruvalam,THIRUVALAM,Town Panchayat,Vellore,VELLORE,,7936.0,9153,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,928,VALID
+TN_POP_0929,Thiruvallur (Tiruvallur),THIRUVALLUR (TIRUVALLUR),Municipality,Thiruvallur,THIRUVALLUR,38564.0,45732.0,56074,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,929,VALID
+TN_POP_0930,Thiruvarur,THIRUVARUR,Municipality,Thiruvarur,THIRUVARUR,49195.0,56341.0,58301,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,930,VALID
+TN_POP_0931,Thiruvattar,THIRUVATTAR,Town Panchayat,Kanniyakumari,KANNIYAKUMARI,,18272.0,18985,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,931,VALID
+TN_POP_0932,Thiruvenkadam,THIRUVENKADAM,Town Panchayat,Tirunelveli,TIRUNELVELI,,7353.0,8337,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,932,VALID
+TN_POP_0933,Thiruvennainallur,THIRUVENNAINALLUR,Town Panchayat,Viluppuram,VILUPPURAM,,8582.0,9623,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,933,VALID
+TN_POP_0934,Thiruverumbur,THIRUVERUMBUR,Town Panchayat,Tiruchirappalli,TIRUCHIRAPPALLI,,16824.0,23156,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,934,VALID
+TN_POP_0935,Thiruvidaimarudur,THIRUVIDAIMARUDUR,Town Panchayat,Thanjavur,THANJAVUR,,13765.0,14786,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,935,VALID
+TN_POP_0936,Thiruvithancode (Thiruvithamcode),THIRUVITHANCODE (THIRUVITHAMCODE),Town Panchayat,Kanniyakumari,KANNIYAKUMARI,,16397.0,18723,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,936,VALID
+TN_POP_0937,Thisayanvilai,THISAYANVILAI,Town Panchayat,Tirunelveli,TIRUNELVELI,,19559.0,23702,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,937,VALID
+TN_POP_0938,Thondamuthur,THONDAMUTHUR,Town Panchayat,Coimbatore,COIMBATORE,,9340.0,11492,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,938,VALID
+TN_POP_0939,Thondi,THONDI,Town Panchayat,Ramanathapuram,RAMANATHAPURAM,,15304.0,18465,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,939,VALID
+TN_POP_0940,Thoothukkudi (Thoothukudi),THOOTHUKKUDI (THOOTHUKUDI),Municipal Corporation,Thoothukkudi,THOOTHUKKUDI,199854.0,216054.0,237830,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,940,VALID
+TN_POP_0941,Thorapadi,THORAPADI,Town Panchayat,Vellore,VELLORE,,13924.0,16700,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,941,VALID
+TN_POP_0942,Thorapadi,THORAPADI,Town Panchayat,Cuddalore,CUDDALORE,,5523.0,7659,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,942,VALID
+TN_POP_0943,Thottipalayam,THOTTIPALAYAM,Census Town,Tiruppur,TIRUPPUR,,26818.0,40503,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,943,VALID
+TN_POP_0944,Thottiyam,THOTTIYAM,Town Panchayat,Tiruchirappalli,TIRUCHIRAPPALLI,,13683.0,14909,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,944,VALID
+TN_POP_0945,Thozhur,THOZHUR,Census Town,Thiruvallur,THIRUVALLUR,,4893.0,5698,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,945,VALID
+TN_POP_0946,Thudiyalur,THUDIYALUR,Town Panchayat,Coimbatore,COIMBATORE,,21004.0,33924,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,946,VALID
+TN_POP_0947,Thuraiyur,THURAIYUR,Municipality,Tiruchirappalli,TIRUCHIRAPPALLI,27640.0,31005.0,32439,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,947,VALID
+TN_POP_0948,Thuthipattu,THUTHIPATTU,Census Town,Vellore,VELLORE,,6984.0,9143,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,948,VALID
+TN_POP_0949,Thuvakudi,THUVAKUDI,Municipality,Tiruchirappalli,TIRUCHIRAPPALLI,,35428.0,38887,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,949,VALID
+TN_POP_0950,Timiri,TIMIRI,Town Panchayat,Vellore,VELLORE,,14953.0,16246,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,950,VALID
+TN_POP_0951,Tindivanam,TINDIVANAM,Municipality,Viluppuram,VILUPPURAM,61579.0,67737.0,72796,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,951,VALID
+TN_POP_0952,Tiruchendur (Thiruchendur),TIRUCHENDUR (THIRUCHENDUR),Town Panchayat,Thoothukkudi,THOOTHUKKUDI,27420.0,29581.0,32171,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,952,VALID
+TN_POP_0953,Tiruchengode,TIRUCHENGODE,Municipality,Namakkal,NAMAKKAL,63027.0,80187.0,95335,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,953,VALID
+TN_POP_0954,Tiruchirappalli,TIRUCHIRAPPALLI,Municipal Corporation,Tiruchirappalli,TIRUCHIRAPPALLI,387223.0,752066.0,847387,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,954,VALID
+TN_POP_0955,Tirukalukundram,TIRUKALUKUNDRAM,Town Panchayat,Kanchipuram,KANCHIPURAM,23333.0,23715.0,29391,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,955,VALID
+TN_POP_0956,Tirukkoyilur (Tirukoilur),TIRUKKOYILUR (TIRUKOILUR),Town Panchayat,Viluppuram,VILUPPURAM,23636.0,27197.0,30212,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,956,VALID
+TN_POP_0957,Tirumalaigiri,TIRUMALAIGIRI,Census Town,Salem,SALEM,,,4107,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,957,PARTIAL_CENSUS
+TN_POP_0958,Tirunelveli,TIRUNELVELI,Municipal Corporation,Tirunelveli,TIRUNELVELI,135825.0,411831.0,473637,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,958,VALID
+TN_POP_0959,Tirupathur (Tiruppattur),TIRUPATHUR (TIRUPPATTUR),Municipality,Vellore,VELLORE,55282.0,60876.0,64125,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,959,VALID
+TN_POP_0960,Tirupathur,TIRUPATHUR,Town Panchayat,Sivaganga,SIVAGANGA,23564.0,23559.0,25980,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,960,VALID
+TN_POP_0961,Tirupattur,TIRUPATTUR,Census Town,Vellore,VELLORE,,13377.0,19487,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,961,VALID
+TN_POP_0962,Tiruppur,TIRUPPUR,Municipal Corporation,Tiruppur,TIRUPPUR,235661.0,344543.0,444352,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,962,VALID
+TN_POP_0963,Tirusulam,TIRUSULAM,Census Town,Kanchipuram,KANCHIPURAM,5572.0,5973.0,14086,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,963,VALID
+TN_POP_0964,Tiruttani (Thiruttani),TIRUTTANI (THIRUTTANI),Municipality,Thiruvallur,THIRUVALLUR,34363.0,38314.0,44781,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,964,VALID
+TN_POP_0965,Tiruvannamalai,TIRUVANNAMALAI,Municipality,Tiruvannamalai,TIRUVANNAMALAI,109196.0,130567.0,145278,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,965,VALID
+TN_POP_0966,Tiruverkadu,TIRUVERKADU,Municipality with Outgrowth,Thiruvallur,THIRUVALLUR,22313.0,32221.0,64698,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,966,VALID
+TN_POP_0967,Tiruvethipuram (Cheyyar),TIRUVETHIPURAM (CHEYYAR),Municipality,Tiruvannamalai,TIRUVANNAMALAI,31210.0,35201.0,37802,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,967,VALID
+TN_POP_0968,Tiruvottiyur,TIRUVOTTIYUR,Municipality,Thiruvallur,THIRUVALLUR,168642.0,212281.0,249446,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,968,VALID
+TN_POP_0969,Tittacheri,TITTACHERI,Town Panchayat,Nagapattinam,NAGAPATTINAM,,8490.0,9245,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,969,VALID
+TN_POP_0970,Tittakudi,TITTAKUDI,Town Panchayat,Cuddalore,CUDDALORE,,20735.0,22894,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,970,VALID
+TN_POP_0971,Tittangulam,TITTANGULAM,Census Town,Thoothukkudi,THOOTHUKKUDI,,5677.0,9115,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,971,VALID
+TN_POP_0972,T.Kallupatti,T.KALLUPATTI,Town Panchayat,Madurai,MADURAI,,9416.0,10762,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,972,VALID
+TN_POP_0973,TNPL Pugalur,TNPL PUGALUR,Town Panchayat,Karur,KARUR,,5865.0,5556,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,973,VALID
+TN_POP_0974,Udangudi,UDANGUDI,Town Panchayat,Thoothukkudi,THOOTHUKKUDI,19915.0,19390.0,19738,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,974,VALID
+TN_POP_0975,Udayarpalayam,UDAYARPALAYAM,Town Panchayat,Ariyalur,ARIYALUR,,11320.0,12688,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,975,VALID
+TN_POP_0976,Udhagamandalam (Ooty),UDHAGAMANDALAM (OOTY),Municipality,The Nilgiris,THE NILGIRIS,81763.0,93987.0,88430,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,976,VALID
+TN_POP_0977,Udumalaipettai,UDUMALAIPETTAI,Municipality,Tiruppur,TIRUPPUR,58678.0,59668.0,61133,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,977,VALID
+TN_POP_0978,Ullur,ULLUR,Census Town,Thanjavur,THANJAVUR,,7781.0,11673,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,978,VALID
+TN_POP_0979,Ulundurpettai,ULUNDURPETTAI,Town Panchayat,Viluppuram,VILUPPURAM,,19258.0,23734,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,979,VALID
+TN_POP_0980,Unjalur,UNJALUR,Town Panchayat,Erode,ERODE,,2628.0,2482,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,980,VALID
+TN_POP_0981,Unnamalaikadai,UNNAMALAIKADAI,Town Panchayat,Kanniyakumari,KANNIYAKUMARI,,20666.0,23656,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,981,VALID
+TN_POP_0982,Uppidamangalam,UPPIDAMANGALAM,Town Panchayat,Karur,KARUR,,10151.0,11292,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,982,VALID
+TN_POP_0983,Uppiliapuram,UPPILIAPURAM,Town Panchayat,Tiruchirappalli,TIRUCHIRAPPALLI,,6699.0,7705,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,983,VALID
+TN_POP_0984,Urapakkam,URAPAKKAM,Census Town,Kanchipuram,KANCHIPURAM,,13445.0,29122,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,984,VALID
+TN_POP_0985,Usilampatti,USILAMPATTI,Municipality,Madurai,MADURAI,26413.0,30601.0,35219,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,985,VALID
+TN_POP_0986,Usuppur,USUPPUR,Census Town,Cuddalore,CUDDALORE,,8043.0,8221,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,986,VALID
+TN_POP_0987,Uthamapalayam,UTHAMAPALAYAM,Town Panchayat,Theni,THENI,22703.0,22104.0,29050,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,987,VALID
+TN_POP_0988,Uthangarai,UTHANGARAI,Town Panchayat,Krishnagiri,KRISHNAGIRI,,15443.0,18470,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,988,VALID
+TN_POP_0989,Uthayendram,UTHAYENDRAM,Town Panchayat,Vellore,VELLORE,,11567.0,13837,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,989,VALID
+TN_POP_0990,Uthiramerur,UTHIRAMERUR,Town Panchayat,Kanchipuram,KANCHIPURAM,21568.0,23656.0,25194,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,990,VALID
+TN_POP_0991,Uthukkottai (Uthukottai),UTHUKKOTTAI (UTHUKOTTAI),Town Panchayat,Thiruvallur,THIRUVALLUR,,10626.0,12740,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,991,VALID
+TN_POP_0992,Uthukuli,UTHUKULI,Town Panchayat,Tiruppur,TIRUPPUR,,8294.0,10130,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,992,VALID
+TN_POP_0993,Vadakarai Keezhpadugai,VADAKARAI KEEZHPADUGAI,Town Panchayat,Tirunelveli,TIRUNELVELI,,17349.0,20821,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,993,VALID
+TN_POP_0994,Vadakkanandal,VADAKKANANDAL,Town Panchayat,Viluppuram,VILUPPURAM,,19846.0,23034,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,994,VALID
+TN_POP_0995,Vadakkuvalliyur,VADAKKUVALLIYUR,Town Panchayat,Tirunelveli,TIRUNELVELI,,24023.0,29417,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,995,VALID
+TN_POP_0996,Vadalur,VADALUR,Town Panchayat,Cuddalore,CUDDALORE,,26016.0,39514,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,996,VALID
+TN_POP_0997,Vadamadurai,VADAMADURAI,Town Panchayat,Dindigul,DINDIGUL,,15549.0,18015,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,997,VALID
+TN_POP_0998,Vadavalli,VADAVALLI,Town Panchayat,Coimbatore,COIMBATORE,,24779.0,39873,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,998,VALID
+TN_POP_0999,Vaddakkankulam,VADDAKKANKULAM,Census Town,Tirunelveli,TIRUNELVELI,,,9220,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,999,PARTIAL_CENSUS
+TN_POP_1000,Vadi,VADI,Census Town,Virudhunagar,VIRUDHUNAGAR,,4745.0,4937,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1000,VALID
+TN_POP_1001,Vadipatti,VADIPATTI,Town Panchayat,Madurai,MADURAI,,21833.0,26830,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1001,VALID
+TN_POP_1002,Vadugapatti,VADUGAPATTI,Town Panchayat,Erode,ERODE,,10921.0,9657,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1002,VALID
+TN_POP_1003,Vadugapatti,VADUGAPATTI,Town Panchayat,Theni,THENI,,12377.0,13204,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1003,VALID
+TN_POP_1004,Vaitheeswarankoil,VAITHEESWARANKOIL,Town Panchayat,Nagapattinam,NAGAPATTINAM,6490.0,7511.0,7676,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1004,VALID
+TN_POP_1005,Valangaiman,VALANGAIMAN,Town Panchayat,Thiruvarur,THIRUVARUR,,11281.0,11754,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1005,VALID
+TN_POP_1006,Valasaravakkam,VALASARAVAKKAM,Municipality,Thiruvallur,THIRUVALLUR,21953.0,30978.0,47378,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1006,VALID
+TN_POP_1007,Valathur,VALATHUR,Census Town,Vellore,VELLORE,,5102.0,5529,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1007,VALID
+TN_POP_1008,Valavandankottai,VALAVANDANKOTTAI,Census Town,Tiruchirappalli,TIRUCHIRAPPALLI,,6969.0,9202,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1008,VALID
+TN_POP_1009,Valavanur,VALAVANUR,Town Panchayat,Viluppuram,VILUPPURAM,,14083.0,16745,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1009,VALID
+TN_POP_1010,Valayambattu,VALAYAMBATTU,Census Town,Vellore,VELLORE,,7213.0,10076,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1010,VALID
+TN_POP_1011,Vallam,VALLAM,Town Panchayat,Thanjavur,THANJAVUR,,14816.0,16758,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1011,VALID
+TN_POP_1012,Vallam,VALLAM,Census Town,Kanchipuram,KANCHIPURAM,,6412.0,7745,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1012,VALID
+TN_POP_1013,Valparai,VALPARAI,Municipality,Coimbatore,COIMBATORE,106523.0,95107.0,70859,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1013,VALID
+TN_POP_1014,Valvaithankoshtam,VALVAITHANKOSHTAM,Town Panchayat,Kanniyakumari,KANNIYAKUMARI,,16686.0,16965,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1014,VALID
+TN_POP_1015,Vanagaram,VANAGARAM,Census Town,Thiruvallur,THIRUVALLUR,,,19208,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1015,PARTIAL_CENSUS
+TN_POP_1016,Vanapadi,VANAPADI,Census Town,Vellore,VELLORE,,4777.0,5334,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1016,VALID
+TN_POP_1017,Vanavasi,VANAVASI,Town Panchayat,Salem,SALEM,,6780.0,7130,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1017,VALID
+TN_POP_1018,Vandalur,VANDALUR,Census Town,Kanchipuram,KANCHIPURAM,,13375.0,16852,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1018,VALID
+TN_POP_1019,Vandavasi,VANDAVASI,Municipality,Tiruvannamalai,TIRUVANNAMALAI,24578.0,29610.0,31320,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1019,VALID
+TN_POP_1020,Vandiyur,VANDIYUR,Census Town,Madurai,MADURAI,,21977.0,28646,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1020,VALID
+TN_POP_1021,Vanganur,VANGANUR,Census Town,Thiruvallur,THIRUVALLUR,,5760.0,6584,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1021,VALID
+TN_POP_1022,Vaniputhur,VANIPUTHUR,Town Panchayat,Erode,ERODE,,12207.0,12044,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1022,VALID
+TN_POP_1023,Vaniyambadi,VANIYAMBADI,Municipality,Vellore,VELLORE,72426.0,85752.0,95061,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1023,VALID
+TN_POP_1024,Vanniyoor,VANNIYOOR,Census Town,Kanniyakumari,KANNIYAKUMARI,,,4319,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1024,PARTIAL_CENSUS
+TN_POP_1025,Varadarajanpettai,VARADARAJANPETTAI,Town Panchayat,Ariyalur,ARIYALUR,,8575.0,8259,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1025,VALID
+TN_POP_1026,Vasudevanallur,VASUDEVANALLUR,Town Panchayat,Tirunelveli,TIRUNELVELI,,19062.0,21361,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1026,VALID
+TN_POP_1027,Vathirairuppu,VATHIRAIRUPPU,Town Panchayat,Virudhunagar,VIRUDHUNAGAR,,16007.0,16784,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1027,VALID
+TN_POP_1028,Vavarai,VAVARAI,Census Town,Kanniyakumari,KANNIYAKUMARI,,,8362,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1028,PARTIAL_CENSUS
+TN_POP_1029,Vazhapadi,VAZHAPADI,Town Panchayat,Salem,SALEM,,16104.0,17559,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1029,VALID
+TN_POP_1030,Vedapatti,VEDAPATTI,Town Panchayat,Coimbatore,COIMBATORE,,9732.0,11658,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1030,VALID
+TN_POP_1031,Vedaranyam,VEDARANYAM,Municipality,Nagapattinam,NAGAPATTINAM,29832.0,31627.0,34266,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1031,VALID
+TN_POP_1032,Vedasandur,VEDASANDUR,Town Panchayat,Dindigul,DINDIGUL,7541.0,10813.0,11730,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1032,VALID
+TN_POP_1033,Veeraganur,VEERAGANUR,Town Panchayat,Salem,SALEM,,10547.0,11624,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1033,VALID
+TN_POP_1034,Veerakeralam,VEERAKERALAM,Town Panchayat,Coimbatore,COIMBATORE,10572.0,19994.0,23841,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1034,VALID
+TN_POP_1035,Veerakkalpudur,VEERAKKALPUDUR,Town Panchayat,Salem,SALEM,,16424.0,16665,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1035,VALID
+TN_POP_1036,Veerapandi,VEERAPANDI,Census Town,Tiruppur,TIRUPPUR,8515.0,21848.0,50301,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1036,VALID
+TN_POP_1037,Veerapandi,VEERAPANDI,Town Panchayat,Coimbatore,COIMBATORE,8515.0,12794.0,16953,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1037,VALID
+TN_POP_1038,Veerapandi,VEERAPANDI,Town Panchayat,Theni,THENI,9325.0,14294.0,16158,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1038,VALID
+TN_POP_1039,Veerapandianpattinam Town,VEERAPANDIANPATTINAM TOWN,Census Town,Thoothukkudi,THOOTHUKKUDI,,,6015,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1039,PARTIAL_CENSUS
+TN_POP_1040,Veerappanchatiram (Veerappanchatram),VEERAPPANCHATIRAM (VEERAPPANCHATRAM),Municipality,Erode,ERODE,61649.0,72703.0,84453,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1040,VALID
+TN_POP_1041,Veeravanallur,VEERAVANALLUR,Town Panchayat,Tirunelveli,TIRUNELVELI,,19785.0,19585,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1041,VALID
+TN_POP_1042,Velampalayam,VELAMPALAYAM,Municipality,Tiruppur,TIRUPPUR,26248.0,45679.0,87427,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1042,VALID
+TN_POP_1043,Velankanni,VELANKANNI,Town Panchayat,Nagapattinam,NAGAPATTINAM,,10151.0,11108,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1043,VALID
+TN_POP_1044,Velayudampalayam,VELAYUDAMPALAYAM,Census Town,Tiruppur,TIRUPPUR,,6064.0,9192,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1044,VALID
+TN_POP_1045,Vellakinar,VELLAKINAR,Town Panchayat,Coimbatore,COIMBATORE,,9772.0,15998,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1045,VALID
+TN_POP_1046,Vellakkalpatty,VELLAKKALPATTY,Census Town,Salem,SALEM,,5475.0,5475,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1046,VALID
+TN_POP_1047,Vellakoil,VELLAKOIL,Municipality,Tiruppur,TIRUPPUR,,34438.0,40359,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1047,VALID
+TN_POP_1048,Vellalur (Vellalore),VELLALUR (VELLALORE),Town Panchayat,Coimbatore,COIMBATORE,,17340.0,24872,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1048,VALID
+TN_POP_1049,Vellamcode,VELLAMCODE,Census Town,Kanniyakumari,KANNIYAKUMARI,,,12715,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1049,PARTIAL_CENSUS
+TN_POP_1050,Vellaravalli,VELLARAVALLI,Census Town,Tiruppur,TIRUPPUR,,,5070,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1050,PARTIAL_CENSUS
+TN_POP_1051,Vellimalai,VELLIMALAI,Town Panchayat,Kanniyakumari,KANNIYAKUMARI,,11760.0,13182,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1051,VALID
+TN_POP_1052,Vellore,VELLORE,Municipal Corporation,Vellore,VELLORE,175061.0,177230.0,185803,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1052,VALID
+TN_POP_1053,Vellottamparappu,VELLOTTAMPARAPPU,Town Panchayat,Erode,ERODE,,8131.0,7621,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1053,VALID
+TN_POP_1054,Velur,VELUR,Town Panchayat,Namakkal,NAMAKKAL,,18413.0,25012,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1054,VALID
+TN_POP_1055,Vembadithalam,VEMBADITHALAM,Census Town,Salem,SALEM,,6022.0,7331,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1055,VALID
+TN_POP_1056,Vengampudur,VENGAMPUDUR,Town Panchayat,Erode,ERODE,,7632.0,7443,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1056,VALID
+TN_POP_1057,Vengathur,VENGATHUR,Census Town,Thiruvallur,THIRUVALLUR,10799.0,17076.0,23292,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1057,VALID
+TN_POP_1058,Vengavasal,VENGAVASAL,Census Town,Kanchipuram,KANCHIPURAM,,8892.0,13671,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1058,VALID
+TN_POP_1059,Vengikkal,VENGIKKAL,Census Town,Tiruvannamalai,TIRUVANNAMALAI,,,18244,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1059,PARTIAL_CENSUS
+TN_POP_1060,Venkarai,VENKARAI,Town Panchayat,Namakkal,NAMAKKAL,,8928.0,9330,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1060,VALID
+TN_POP_1061,Venkatachalapuram,VENKATACHALAPURAM,Census Town,Virudhunagar,VIRUDHUNAGAR,,,9540,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1061,PARTIAL_CENSUS
+TN_POP_1062,Venkatapuram,VENKATAPURAM,Census Town,Krishnagiri,KRISHNAGIRI,,,7430,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1062,PARTIAL_CENSUS
+TN_POP_1063,Vennanthur,VENNANTHUR,Town Panchayat,Namakkal,NAMAKKAL,,13482.0,14568,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1063,VALID
+TN_POP_1064,Veppathur,VEPPATHUR,Town Panchayat,Thanjavur,THANJAVUR,,7417.0,7949,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1064,VALID
+TN_POP_1065,Verkilambi,VERKILAMBI,Town Panchayat,Kanniyakumari,KANNIYAKUMARI,,18003.0,19730,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1065,VALID
+TN_POP_1066,Vettaikaranpudur,VETTAIKARANPUDUR,Town Panchayat,Coimbatore,COIMBATORE,,18360.0,17392,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1066,VALID
+TN_POP_1067,Vettavalam,VETTAVALAM,Town Panchayat,Tiruvannamalai,TIRUVANNAMALAI,,13402.0,15506,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1067,VALID
+TN_POP_1068,Vijayapuri,VIJAYAPURI,Census Town,Erode,ERODE,,6517.0,7222,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1068,VALID
+TN_POP_1069,Vikramasingapuram,VIKRAMASINGAPURAM,Municipality,Tirunelveli,TIRUNELVELI,49834.0,48309.0,47241,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1069,VALID
+TN_POP_1070,Vikravandi,VIKRAVANDI,Town Panchayat,Viluppuram,VILUPPURAM,,10145.0,12022,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1070,VALID
+TN_POP_1071,Vilacheri,VILACHERI,Census Town,Madurai,MADURAI,,,7787,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1071,PARTIAL_CENSUS
+TN_POP_1072,Vilangudi,VILANGUDI,Town Panchayat,Madurai,MADURAI,14040.0,21167.0,30884,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1072,VALID
+TN_POP_1073,Vilankurichi,VILANKURICHI,Census Town,Coimbatore,COIMBATORE,5130.0,9124.0,24235,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1073,VALID
+TN_POP_1074,Vilapakkam,VILAPAKKAM,Town Panchayat,Vellore,VELLORE,,8052.0,8174,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1074,VALID
+TN_POP_1075,Vilar,VILAR,Census Town,Thanjavur,THANJAVUR,,5628.0,9028,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1075,VALID
+TN_POP_1076,Vilathikulam,VILATHIKULAM,Town Panchayat,Thoothukkudi,THOOTHUKKUDI,,13542.0,15277,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1076,VALID
+TN_POP_1077,Vilathurai,VILATHURAI,Census Town,Kanniyakumari,KANNIYAKUMARI,,,19758,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1077,PARTIAL_CENSUS
+TN_POP_1078,Vilavancode,VILAVANCODE,Census Town,Kanniyakumari,KANNIYAKUMARI,,,6731,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1078,PARTIAL_CENSUS
+TN_POP_1079,Vilavur,VILAVUR,Town Panchayat,Kanniyakumari,KANNIYAKUMARI,,13672.0,14320,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1079,VALID
+TN_POP_1080,Villukuri,VILLUKURI,Town Panchayat,Kanniyakumari,KANNIYAKUMARI,,13696.0,15304,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1080,VALID
+TN_POP_1081,Viluppuram,VILUPPURAM,Municipality,Viluppuram,VILUPPURAM,88788.0,95455.0,96253,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1081,VALID
+TN_POP_1082,Viraganur,VIRAGANUR,Census Town,Madurai,MADURAI,,5284.0,7121,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1082,VALID
+TN_POP_1083,Viralimalai,VIRALIMALAI,Census Town,Pudukkottai,PUDUKKOTTAI,,7184.0,10883,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1083,VALID
+TN_POP_1084,Virinchipuram,VIRINCHIPURAM,Census Town,Vellore,VELLORE,,6245.0,7699,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1084,VALID
+TN_POP_1085,Virudampattu,VIRUDAMPATTU,Census Town,Vellore,VELLORE,,5352.0,7662,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1085,VALID
+TN_POP_1086,Virudhachalam,VIRUDHACHALAM,Municipality,Cuddalore,CUDDALORE,52819.0,60164.0,73585,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1086,VALID
+TN_POP_1087,Virudhunagar,VIRUDHUNAGAR,Municipality,Virudhunagar,VIRUDHUNAGAR,70971.0,72081.0,72296,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1087,VALID
+TN_POP_1088,Virupakshipuram,VIRUPAKSHIPURAM,Census Town,Vellore,VELLORE,,12885.0,14779,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1088,VALID
+TN_POP_1089,Viswanatham,VISWANATHAM,Census Town,Virudhunagar,VIRUDHUNAGAR,14899.0,22154.0,25555,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1089,VALID
+TN_POP_1090,V.Pudupatti,V.PUDUPATTI,Town Panchayat,Virudhunagar,VIRUDHUNAGAR,,7855.0,8316,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1090,VALID
+TN_POP_1091,V. Pudur,V. PUDUR,Town Panchayat,Thoothukkudi,THOOTHUKKUDI,,8091.0,8891,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1091,VALID
+TN_POP_1092,Walajabad,WALAJABAD,Town Panchayat,Kanchipuram,KANCHIPURAM,11532.0,10853.0,14684,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1092,VALID
+TN_POP_1093,Walajapet,WALAJAPET,Municipality with Outgrowth,Vellore,VELLORE,26972.0,29475.0,47498,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1093,VALID
+TN_POP_1094,Wellington,WELLINGTON,Cantonment (Board),The Nilgiris,THE NILGIRIS,19764.0,20217.0,19462,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1094,VALID
+TN_POP_1095,Yercaud,YERCAUD,Census Town,Salem,SALEM,,8750.0,11582,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1095,VALID
+TN_POP_1096,Zamin Uthukuli,ZAMIN UTHUKULI,Town Panchayat,Coimbatore,COIMBATORE,,14859.0,16354,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1096,VALID
+TN_POP_1097,Zuzuvadi,ZUZUVADI,Census Town,Krishnagiri,KRISHNAGIRI,,,32474,Census of India 1991/2001/2011,_TN Population - Sheet1.csv,1097,PARTIAL_CENSUS

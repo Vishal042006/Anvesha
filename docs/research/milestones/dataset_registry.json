@@ -1,0 +1,25 @@
+{
+  "primary_benchmark": {
+    "dataset_name": "ANVESHA-NCRB-OFFICIAL-2001-2014",
+    "version": "ANVESHA-DATA-v1.0",
+    "time_range": "2001-2014",
+    "source": "Official NCRB Crime in India Annual Reports",
+    "total_rows": 9866,
+    "official_rows": 9866,
+    "synthetic_rows": 0,
+    "synthetic_fraction_in_primary": 0.0,
+    "geographic_granularity": "District / Police Reporting Unit",
+    "temporal_granularity": "Annual (Calendar Year)",
+    "target": "NEXT_YEAR_TOTAL_IPC",
+    "target_definition": "Aggregate IPC crime count in year t+1 for reporting unit i",
+    "provenance_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "sensitivity_benchmark": {
+    "dataset_name": "ANVESHA-SENSITIVITY-GAPFILLED",
+    "version": "ANVESHA-GAPFILL-v1.0",
+    "time_range": "2001-2014",
+    "official_rows": 9866,
+    "synthetic_rows": 482,
+    "synthetic_purpose": "Secondary sensitivity experiment evaluating impact of matrix completion / gap filling on ML models."
+  }
+}

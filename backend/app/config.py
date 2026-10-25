@@ -1,8 +1,12 @@
 import os
+from pathlib import Path
+
+# Always anchor to the project root directory
+_PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 
 try:
     from dotenv import load_dotenv
-    load_dotenv(os.path.abspath(".env"))
+    load_dotenv(_PROJECT_ROOT / ".env")
 except ImportError:
     pass
 
@@ -16,8 +20,11 @@ class Settings:
         "http://127.0.0.1:5173",
         "*"
     ]
-    DATA_DIR: str = os.path.abspath("data")
-    MODELS_DIR: str = os.path.abspath("models")
+    PROJECT_ROOT: str = str(_PROJECT_ROOT)
+    DATA_DIR: str = str(_PROJECT_ROOT / "data")
+    MODELS_DIR: str = str(_PROJECT_ROOT / "models")
+    OUTPUTS_DIR: str = str(_PROJECT_ROOT / "outputs")
+    ANVESHA_OUTPUTS_DIR: str = str(_PROJECT_ROOT / "anvesha_outputs")
 
     # API Credentials for Scholarly Research Engine
     HF_TOKEN: str = os.getenv("HF_TOKEN", "")

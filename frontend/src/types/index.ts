@@ -71,6 +71,17 @@ export interface CategorySummaryResponse {
 
 export interface DistrictAnalyticsResponse {
   status: string;
+  district?: string;
+  state_ut?: string;
+  geo_id?: string;
+  category?: string;
+  admin_level?: string;
+  latest_year?: number;
+  latest_volume?: number;
+  yoy_change_pct?: number;
+  trend?: string;
+  data_status?: string;
+  historical_trajectory?: Array<{ year: number; crime_count: number; is_synthetic?: boolean; provenance?: string }>;
   metadata?: {
     district: string;
     dataset_layer: string;
@@ -127,7 +138,10 @@ export interface ForecastResponse {
   }>;
   data_sources: string[];
   provenance_id: string;
-  history?: Array<{ year: number; crime_count: number }>;
+  latest_observed_year?: number;
+  latest_observed_value?: number;
+  history?: Array<{ year: number; observed_value?: number; crime_count?: number; status?: string }>;
+  future_forecasts?: Array<{ year: number; forecast_value: number; horizon: string; change_vs_2023_pct: number; status: string; uncertainty_status?: string; forecast_concern?: string }>;
   evaluation_summary?: {
     track_a_official?: TrackMetrics;
     track_b_extended?: TrackMetrics;
@@ -363,3 +377,167 @@ export interface ScholarlySearchResponse {
   total_results: number;
   papers: ScholarlyPaperItem[];
 }
+
+export interface DistrictBriefingResponse {
+  context: {
+    district: string;
+    reporting_unit: string;
+    parent_district: string;
+    canonical_id: string;
+    state_ut: string;
+    is_union_territory: boolean;
+    category: string;
+    category_label: string;
+    cutoff_year: number;
+    population: number;
+    population_lakhs: number;
+    last_retrieved: string;
+    data_availability: string;
+    evidence_coverage: 'Strong evidence' | 'Limited evidence' | 'Inconclusive' | string;
+  };
+  observed_pattern: {
+    latest_count: number | null;
+    latest_year: number;
+    crime_rate_pct: number | null;
+    population: number;
+    population_lakhs: number;
+    formula?: string;
+    is_missing: boolean;
+    missing_reason?: string;
+    data_status?: string;
+    trajectory: Array<{
+      year: number;
+      count: number;
+      crime_rate_pct: number | null;
+      provenance: string;
+      is_synthetic: boolean;
+      is_forecast: boolean;
+    }>;
+    detected_change_point_year?: number | null;
+    change_point_confidence_pct?: number;
+    current_regime?: string;
+    persistence_probability_pct?: number;
+    reporting_notes?: string[];
+  };
+  historical_comparison: {
+    latest_year?: number;
+    latest_count?: number | null;
+    prev_year?: number | null;
+    prev_count?: number | null;
+    abs_change?: number | null;
+    pct_change?: number | null;
+    pct_change_valid?: boolean;
+    comparison_note: string;
+    long_term_trend: 'INCREASING' | 'DECREASING' | 'STABLE' | 'INSUFFICIENT_DATA';
+  };
+  local_news: {
+    has_local: boolean;
+    local_articles: Array<{
+      headline: string;
+      publisher: string;
+      published_at: string;
+      description?: string;
+      url: string;
+      location_relevance: string;
+      crime_relevance: string;
+      scope: string;
+      stage: string;
+      factual_summary: string;
+      why_relevant: string;
+      is_local: boolean;
+      publication_year?: number;
+    }>;
+    regional_articles: Array<{
+      headline: string;
+      publisher: string;
+      published_at: string;
+      description?: string;
+      url: string;
+      location_relevance: string;
+      crime_relevance: string;
+      scope: string;
+      stage: string;
+      factual_summary: string;
+      why_relevant: string;
+      is_local: boolean;
+      publication_year?: number;
+    }>;
+    message: string;
+    cutoff_year_applied?: number;
+  };
+  research_evidence: {
+    studies: Array<{
+      citation_index: string;
+      title: string;
+      authors: string;
+      year: number;
+      venue: string;
+      doi: string;
+      url: string;
+      geographic_scope: string;
+      research_method: string;
+      has_abstract: boolean;
+      key_finding: string;
+      applicability: string;
+      limitations: string;
+    }>;
+    total_studies: number;
+    local_studies_count: number;
+  };
+  interpretation: {
+    observed: string;
+    reported: string;
+    interpretation: string;
+    citations: Array<{
+      index: string;
+      title: string;
+      doi: string;
+    }>;
+    unsupported_causality_warning: string;
+    conflicting_evidence_note: string;
+  };
+  safety_guidance: {
+    local_contact: {
+      unit: string;
+      control_room: string;
+      emergency: string;
+      address: string;
+      portal: string;
+    };
+    district_specific: Array<{
+      guidance: string;
+      relevance: string;
+      source: string;
+      verified_date: string;
+    }>;
+    general_guidance: Array<{
+      guidance: string;
+      relevance: string;
+      source: string;
+      verified_date: string;
+    }>;
+    general_disclaimer: string;
+  };
+  evidence_quality: {
+    overall_rating: 'Strong evidence' | 'Limited evidence' | 'Inconclusive';
+    score_points: number;
+    criteria: {
+      official_observations: string;
+      historical_completeness: string;
+      news_reporting_coverage: string;
+      scholarly_grounding: string;
+      geographic_matching: string;
+      administrative_boundary_stability: string;
+    };
+    limitations_list: string[];
+  };
+  source_provenance: {
+    official_crime_data: string;
+    news_providers: string[];
+    research_indexes: string[];
+    police_advisories: string;
+    population_baseline: string;
+  };
+  generated_at: string;
+}
+

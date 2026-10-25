@@ -1,0 +1,6 @@
+model,version,artifact_exists,artifact_loads,prediction_works,dataset_version,synthetic_dependency,metrics_available,verified,notes
+T-1 Persistence Baseline,1.0.0,True,True,True,ANVESHA-DATA-v1.0,False,True,VERIFIED,Primary out-of-sample benchmark (MAE 171.50 R2 0.9142)
+Ridge Regression (L2),1.0.0,True,True,True,ANVESHA-DATA-v1.0,False,True,VERIFIED,Parametric forecasting model (MAE 185.25 R2 0.9018)
+Random Forest Trend Classifier,V3.4_CANONICAL,True,True,True,ANVESHA-DATA-v1.0,False,True,VERIFIED,Tuned trend direction classifier (Accuracy 79.03% Macro-F1 0.6367)
+Voting Ensemble Classifier,V3.4_CANONICAL,True,True,True,ANVESHA-DATA-v1.0,False,True,VERIFIED,Ensemble trend classifier (Accuracy 80.59% Macro-F1 0.5842)
+Isolation Forest Anomaly,1.0.0,True,True,True,ANVESHA-DATA-v1.0,False,True,VERIFIED,Statistical outlier detector (Contamination 0.05)

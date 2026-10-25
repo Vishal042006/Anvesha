@@ -1,0 +1,41 @@
+state_ut,district,bocpd_year,pelt_year,bocpd_prob,exact_match,tolerance_1yr,tolerance_2yr,year_diff,shift_type
+TAMIL NADU,ARIYALUR,2012,2012,0.0,True,True,True,0,Trajectory Transition
+TAMIL NADU,CHENGAI,2015,2015,0.0,True,True,True,0,Level Discontinuity (CCTNS / Policy)
+TAMIL NADU,CHENNAI,2005,2005,0.0,True,True,True,0,Trajectory Transition
+TAMIL NADU,CHENNAI RLY.,2005,2005,0.0,True,True,True,0,Trajectory Transition
+TAMIL NADU,COIMBATORE RURAL,2005,2005,0.0,True,True,True,0,Trajectory Transition
+TAMIL NADU,COIMBATORE URBAN,2008,2005,0.08,False,False,False,3,Trajectory Transition
+TAMIL NADU,CUDDALORE,2005,2005,0.0,True,True,True,0,Trajectory Transition
+TAMIL NADU,DHARMAPURI,2005,2005,0.0,True,True,True,0,Trajectory Transition
+TAMIL NADU,DINDIGUL,2005,2005,0.0,True,True,True,0,Trajectory Transition
+TAMIL NADU,ERODE,2005,2005,0.0,True,True,True,0,Trajectory Transition
+TAMIL NADU,KANCHIPURAM,2005,2005,0.0,True,True,True,0,Trajectory Transition
+TAMIL NADU,KANYAKUMARI,2005,2005,0.0,True,True,True,0,Trajectory Transition
+TAMIL NADU,KARUR,2005,2005,0.0,True,True,True,0,Trajectory Transition
+TAMIL NADU,KRISHNAGIRI,2008,2008,0.0,True,True,True,0,Trajectory Transition
+TAMIL NADU,MADURAI RURAL,2005,2005,0.0,True,True,True,0,Trajectory Transition
+TAMIL NADU,MADURAI URBAN,2005,2005,0.0,True,True,True,0,Trajectory Transition
+TAMIL NADU,NAGAPATTINAM,2005,2005,0.0,True,True,True,0,Trajectory Transition
+TAMIL NADU,NAMAKKAL,2005,2005,0.0,True,True,True,0,Trajectory Transition
+TAMIL NADU,NILGIRIS,2005,2005,0.08,True,True,True,0,Trajectory Transition
+TAMIL NADU,PERAMBALUR,2005,2005,0.0,True,True,True,0,Trajectory Transition
+TAMIL NADU,PUDUKOTTAI,2005,2005,0.0,True,True,True,0,Trajectory Transition
+TAMIL NADU,RAMNATHAPURAM,2017,2005,0.08,False,False,False,12,Trajectory Transition
+TAMIL NADU,SALEM RURAL,2005,2005,0.0,True,True,True,0,Trajectory Transition
+TAMIL NADU,SALEM URBAN,2005,2005,0.0,True,True,True,0,Trajectory Transition
+TAMIL NADU,SIVAGANGAI,2005,2005,0.0,True,True,True,0,Trajectory Transition
+TAMIL NADU,THANJAVUR,2005,2005,0.0,True,True,True,0,Trajectory Transition
+TAMIL NADU,THENI,2005,2005,0.0,True,True,True,0,Trajectory Transition
+TAMIL NADU,THIRUNELVELI RURAL,2005,2005,0.0,True,True,True,0,Trajectory Transition
+TAMIL NADU,THIRUNELVELI URBAN,2005,2005,0.0,True,True,True,0,Trajectory Transition
+TAMIL NADU,THIRUVALLUR,2005,2005,0.0,True,True,True,0,Trajectory Transition
+TAMIL NADU,THIRUVANNAMALAI,2005,2005,0.0,True,True,True,0,Trajectory Transition
+TAMIL NADU,THIRUVARUR,2005,2005,0.0,True,True,True,0,Trajectory Transition
+TAMIL NADU,THOOTHUGUDI,2005,2005,0.0,True,True,True,0,Trajectory Transition
+TAMIL NADU,TIRUPPUR,2015,2015,0.0,True,True,True,0,Level Discontinuity (CCTNS / Policy)
+TAMIL NADU,TRICHY RLY.,2007,2005,0.08,False,False,True,2,Trajectory Transition
+TAMIL NADU,TRICHY RURAL,2005,2005,0.0,True,True,True,0,Trajectory Transition
+TAMIL NADU,TRICHY URBAN,2005,2005,0.0,True,True,True,0,Trajectory Transition
+TAMIL NADU,VELLORE,2005,2005,0.0,True,True,True,0,Trajectory Transition
+TAMIL NADU,VILLUPURAM,2006,2006,0.0,True,True,True,0,Trajectory Transition
+TAMIL NADU,VIRUDHUNAGAR,2005,2005,0.0,True,True,True,0,Trajectory Transition

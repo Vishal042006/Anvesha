@@ -31,37 +31,16 @@ export const Navbar: React.FC<NavbarProps> = ({
     <>
       <header className="w-full bg-white border-b border-[#E4EAF1] sticky top-0 z-40 shadow-xs font-sans">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between gap-4">
-          {/* Left: Branding & Geometric Logo */}
-          <div className="flex items-center space-x-3 shrink-0">
-            {/* Geometric ANVESHA Brand Symbol */}
-            <div className="w-9 h-9 rounded-xl bg-[#2457A7] text-white flex items-center justify-center shadow-xs">
-              <svg 
-                viewBox="0 0 24 24" 
-                fill="none" 
-                stroke="currentColor" 
-                strokeWidth="2.2" 
-                strokeLinecap="round" 
-                strokeLinejoin="round" 
-                className="w-5 h-5 text-white"
-              >
-                <circle cx="12" cy="12" r="9" />
-                <path d="M12 3v18M3 12h18" strokeOpacity="0.4" />
-                <polygon points="12,7 15,12 12,17 9,12" fill="currentColor" fillOpacity="0.25" />
-                <circle cx="12" cy="12" r="2.5" fill="currentColor" />
-              </svg>
-            </div>
-
-            <div>
-              <div className="flex items-center gap-2">
-                <span className="font-extrabold text-lg text-[#17243B] tracking-tight">ANVESHA</span>
-                <span className="text-[10px] font-semibold bg-slate-100 text-[#64748B] px-2 py-0.5 rounded-full border border-slate-200">
-                  TN Research
-                </span>
-              </div>
-              <p className="text-[11px] text-[#64748B] font-medium leading-none hidden sm:block">
-                Crime Intelligence & Research Platform
-              </p>
-            </div>
+          {/* Left: Branding & Proper Logo */}
+          <div 
+            className="flex items-center space-x-3 shrink-0 cursor-pointer"
+            onClick={() => onSelectSection('overview')}
+          >
+            <img
+              src="/assets/anvesha_logo.png"
+              alt="ANVESHA 2.0"
+              className="h-10 sm:h-12 w-auto object-contain filter drop-shadow-2xs"
+            />
           </div>
 
           {/* Center: 4 Navigation Items */}

@@ -1,0 +1,189 @@
+source_city_name,canonical_city_name,state_ut,district,city_id,geo_id,match_method,match_confidence,source
+Delhi,Delhi,Delhi,Delhi,IN_CITY_0001,IN_ADM2_0120,POLYGON_CENTROID_LOOKUP,1.0,india_city_locations.csv
+Mumbai,Mumbai,Mahārāshtra,Mumbai,IN_CITY_0002,IN_CITY_IN_CITY_0002,NAME_SIMILARITY,0.95,india_city_locations.csv
+Kolkāta,Kolkāta,West Bengal,Kolkāta,IN_CITY_0003,IN_CITY_IN_CITY_0003,NAME_SIMILARITY,0.95,india_city_locations.csv
+Bangalore,Bangalore,Karnātaka,Bangalore,IN_CITY_0004,IN_CITY_IN_CITY_0004,NAME_SIMILARITY,0.95,india_city_locations.csv
+Chennai,Chennai,Tamil Nādu,Chennai,IN_CITY_0005,IN_CITY_IN_CITY_0005,NAME_SIMILARITY,0.95,india_city_locations.csv
+Hyderābād,Hyderābād,Telangana,Hyderābād,IN_CITY_0006,IN_CITY_IN_CITY_0006,NAME_SIMILARITY,0.95,india_city_locations.csv
+Pune,Pune,Mahārāshtra,Pune,IN_CITY_0007,IN_CITY_IN_CITY_0007,NAME_SIMILARITY,0.95,india_city_locations.csv
+Ahmadābād,Ahmadābād,Gujarāt,Ahmadābād,IN_CITY_0008,IN_CITY_IN_CITY_0008,NAME_SIMILARITY,0.95,india_city_locations.csv
+Sūrat,Sūrat,Gujarāt,Sūrat,IN_CITY_0009,IN_CITY_IN_CITY_0009,NAME_SIMILARITY,0.95,india_city_locations.csv
+Lucknow,Lucknow,Uttar Pradesh,Lucknow,IN_CITY_0010,IN_ADM2_0537,POLYGON_CENTROID_LOOKUP,1.0,india_city_locations.csv
+Jaipur,Jaipur,Rājasthān,Jaipur,IN_CITY_0011,IN_CITY_IN_CITY_0011,NAME_SIMILARITY,0.95,india_city_locations.csv
+Cawnpore,Cawnpore,Uttar Pradesh,Cawnpore,IN_CITY_0012,IN_CITY_IN_CITY_0012,NAME_SIMILARITY,0.95,india_city_locations.csv
+Mirzāpur,Mirzāpur,Uttar Pradesh,Mirzāpur,IN_CITY_0013,IN_CITY_IN_CITY_0013,NAME_SIMILARITY,0.95,india_city_locations.csv
+Nāgpur,Nāgpur,Mahārāshtra,Nāgpur,IN_CITY_0014,IN_CITY_IN_CITY_0014,NAME_SIMILARITY,0.95,india_city_locations.csv
+Ghāziābād,Ghāziābād,Uttar Pradesh,Ghāziābād,IN_CITY_0015,IN_CITY_IN_CITY_0015,NAME_SIMILARITY,0.95,india_city_locations.csv
+Indore,Indore,Madhya Pradesh,Indore,IN_CITY_0016,IN_ADM2_0277,POLYGON_CENTROID_LOOKUP,1.0,india_city_locations.csv
+Vadodara,Vadodara,Gujarāt,Vadodara,IN_CITY_0017,IN_CITY_IN_CITY_0017,NAME_SIMILARITY,0.95,india_city_locations.csv
+Visakhapatnam,Visakhapatnam,Andhra Pradesh,Visakhapatnam,IN_CITY_0018,IN_CITY_IN_CITY_0018,NAME_SIMILARITY,0.95,india_city_locations.csv
+Bhopāl,Bhopāl,Madhya Pradesh,Bhopāl,IN_CITY_0019,IN_CITY_IN_CITY_0019,NAME_SIMILARITY,0.95,india_city_locations.csv
+Chinchvad,Chinchvad,Mahārāshtra,Chinchvad,IN_CITY_0020,IN_CITY_IN_CITY_0020,NAME_SIMILARITY,0.95,india_city_locations.csv
+Patna,Patna,Bihār,Patna,IN_CITY_0021,IN_CITY_IN_CITY_0021,NAME_SIMILARITY,0.95,india_city_locations.csv
+Ludhiāna,Ludhiāna,Punjab,Ludhiāna,IN_CITY_0022,IN_CITY_IN_CITY_0022,NAME_SIMILARITY,0.95,india_city_locations.csv
+Āgra,Āgra,Uttar Pradesh,Āgra,IN_CITY_0023,IN_CITY_IN_CITY_0023,NAME_SIMILARITY,0.95,india_city_locations.csv
+Kalyān,Kalyān,Mahārāshtra,Kalyān,IN_CITY_0024,IN_CITY_IN_CITY_0024,NAME_SIMILARITY,0.95,india_city_locations.csv
+Madurai,Madurai,Tamil Nādu,Madurai,IN_CITY_0025,IN_CITY_IN_CITY_0025,NAME_SIMILARITY,0.95,india_city_locations.csv
+Jamshedpur,Jamshedpur,Jharkhand,Jamshedpur,IN_CITY_0026,IN_CITY_IN_CITY_0026,NAME_SIMILARITY,0.95,india_city_locations.csv
+Nashik,Nashik,Mahārāshtra,Nashik,IN_CITY_0027,IN_CITY_IN_CITY_0027,NAME_SIMILARITY,0.95,india_city_locations.csv
+Farīdābād,Farīdābād,Haryāna,Farīdābād,IN_CITY_0028,IN_CITY_IN_CITY_0028,NAME_SIMILARITY,0.95,india_city_locations.csv
+Aurangābād,Aurangābād,Mahārāshtra,Aurangābād,IN_CITY_0029,IN_CITY_IN_CITY_0029,NAME_SIMILARITY,0.95,india_city_locations.csv
+Rājkot,Rājkot,Gujarāt,Rājkot,IN_CITY_0030,IN_CITY_IN_CITY_0030,NAME_SIMILARITY,0.95,india_city_locations.csv
+Meerut,Meerut,Uttar Pradesh,Meerut,IN_CITY_0031,IN_ADM2_0543,POLYGON_CENTROID_LOOKUP,1.0,india_city_locations.csv
+Jabalpur,Jabalpur,Madhya Pradesh,Jabalpur,IN_CITY_0032,IN_ADM2_0278,POLYGON_CENTROID_LOOKUP,1.0,india_city_locations.csv
+Thāne,Thāne,Mahārāshtra,Thāne,IN_CITY_0033,IN_CITY_IN_CITY_0033,NAME_SIMILARITY,0.95,india_city_locations.csv
+Dhanbād,Dhanbād,Jharkhand,Dhanbād,IN_CITY_0034,IN_CITY_IN_CITY_0034,NAME_SIMILARITY,0.95,india_city_locations.csv
+Allahābād,Allahābād,Uttar Pradesh,Allahābād,IN_CITY_0035,IN_CITY_IN_CITY_0035,NAME_SIMILARITY,0.95,india_city_locations.csv
+Vārānasi,Vārānasi,Uttar Pradesh,Vārānasi,IN_CITY_0036,IN_CITY_IN_CITY_0036,NAME_SIMILARITY,0.95,india_city_locations.csv
+Srīnagar,Srīnagar,Jammu and Kashmīr,Srīnagar,IN_CITY_0037,IN_CITY_IN_CITY_0037,NAME_SIMILARITY,0.95,india_city_locations.csv
+Amritsar,Amritsar,Punjab,Amritsar,IN_CITY_0038,IN_ADM2_0405,POLYGON_CENTROID_LOOKUP,1.0,india_city_locations.csv
+Alīgarh,Alīgarh,Uttar Pradesh,Alīgarh,IN_CITY_0039,IN_CITY_IN_CITY_0039,NAME_SIMILARITY,0.95,india_city_locations.csv
+Bhiwandi,Bhiwandi,Mahārāshtra,Bhiwandi,IN_CITY_0040,IN_CITY_IN_CITY_0040,NAME_SIMILARITY,0.95,india_city_locations.csv
+Gwalior,Gwalior,Madhya Pradesh,Gwalior,IN_CITY_0041,IN_ADM2_0274,POLYGON_CENTROID_LOOKUP,1.0,india_city_locations.csv
+Bhilai,Bhilai,Chhattīsgarh,Bhilai,IN_CITY_0042,IN_CITY_IN_CITY_0042,NAME_SIMILARITY,0.95,india_city_locations.csv
+Hāora,Hāora,West Bengal,Hāora,IN_CITY_0043,IN_CITY_IN_CITY_0043,NAME_SIMILARITY,0.95,india_city_locations.csv
+Rānchi,Rānchi,Jharkhand,Rānchi,IN_CITY_0044,IN_CITY_IN_CITY_0044,NAME_SIMILARITY,0.95,india_city_locations.csv
+Bezwāda,Bezwāda,Andhra Pradesh,Bezwāda,IN_CITY_0045,IN_CITY_IN_CITY_0045,NAME_SIMILARITY,0.95,india_city_locations.csv
+Chandīgarh,Chandīgarh,Chandīgarh,Chandīgarh,IN_CITY_0046,IN_CITY_IN_CITY_0046,NAME_SIMILARITY,0.95,india_city_locations.csv
+Mysore,Mysore,Karnātaka,Mysore,IN_CITY_0047,IN_CITY_IN_CITY_0047,NAME_SIMILARITY,0.95,india_city_locations.csv
+Raipur,Raipur,Chhattīsgarh,Raipur,IN_CITY_0048,IN_CITY_IN_CITY_0048,NAME_SIMILARITY,0.95,india_city_locations.csv
+Kota,Kota,Rājasthān,Kota,IN_CITY_0049,IN_CITY_IN_CITY_0049,NAME_SIMILARITY,0.95,india_city_locations.csv
+Bareilly,Bareilly,Uttar Pradesh,Bareilly,IN_CITY_0050,IN_ADM2_0505,POLYGON_CENTROID_LOOKUP,1.0,india_city_locations.csv
+Jodhpur,Jodhpur,Rājasthān,Jodhpur,IN_CITY_0051,IN_CITY_IN_CITY_0051,NAME_SIMILARITY,0.95,india_city_locations.csv
+Coimbatore,Coimbatore,Tamil Nādu,Coimbatore,IN_CITY_0052,IN_CITY_IN_CITY_0052,NAME_SIMILARITY,0.95,india_city_locations.csv
+Dispur,Dispur,Assam,Dispur,IN_CITY_0053,IN_CITY_IN_CITY_0053,NAME_SIMILARITY,0.95,india_city_locations.csv
+Guwāhāti,Guwāhāti,Assam,Guwāhāti,IN_CITY_0054,IN_CITY_IN_CITY_0054,NAME_SIMILARITY,0.95,india_city_locations.csv
+Solāpur,Solāpur,Mahārāshtra,Solāpur,IN_CITY_0055,IN_CITY_IN_CITY_0055,NAME_SIMILARITY,0.95,india_city_locations.csv
+Trichinopoly,Trichinopoly,Tamil Nādu,Trichinopoly,IN_CITY_0056,IN_CITY_IN_CITY_0056,NAME_SIMILARITY,0.95,india_city_locations.csv
+Hubli,Hubli,Karnātaka,Hubli,IN_CITY_0057,IN_CITY_IN_CITY_0057,NAME_SIMILARITY,0.95,india_city_locations.csv
+Jalandhar,Jalandhar,Punjab,Jalandhar,IN_CITY_0058,IN_ADM2_0412,POLYGON_CENTROID_LOOKUP,1.0,india_city_locations.csv
+Bhubaneshwar,Bhubaneshwar,Odisha,Bhubaneshwar,IN_CITY_0059,IN_CITY_IN_CITY_0059,NAME_SIMILARITY,0.95,india_city_locations.csv
+Bhayandar,Bhayandar,Mahārāshtra,Bhayandar,IN_CITY_0060,IN_CITY_IN_CITY_0060,NAME_SIMILARITY,0.95,india_city_locations.csv
+Morādābād,Morādābād,Uttar Pradesh,Morādābād,IN_CITY_0061,IN_CITY_IN_CITY_0061,NAME_SIMILARITY,0.95,india_city_locations.csv
+Kolhāpur,Kolhāpur,Mahārāshtra,Kolhāpur,IN_CITY_0062,IN_CITY_IN_CITY_0062,NAME_SIMILARITY,0.95,india_city_locations.csv
+Thiruvananthapuram,Thiruvananthapuram,Kerala,Thiruvananthapuram,IN_CITY_0063,IN_ADM2_0253,POLYGON_CENTROID_LOOKUP,1.0,india_city_locations.csv
+Sahāranpur,Sahāranpur,Uttar Pradesh,Sahāranpur,IN_CITY_0064,IN_CITY_IN_CITY_0064,NAME_SIMILARITY,0.95,india_city_locations.csv
+Warangal,Warangal,Telangana,Warangal,IN_CITY_0065,IN_CITY_IN_CITY_0065,NAME_SIMILARITY,0.95,india_city_locations.csv
+Salem,Salem,Tamil Nādu,Salem,IN_CITY_0066,IN_CITY_IN_CITY_0066,NAME_SIMILARITY,0.95,india_city_locations.csv
+Mālegaon,Mālegaon,Mahārāshtra,Mālegaon,IN_CITY_0067,IN_CITY_IN_CITY_0067,NAME_SIMILARITY,0.95,india_city_locations.csv
+Kochi,Kochi,Kerala,Kochi,IN_CITY_0068,IN_CITY_IN_CITY_0068,NAME_SIMILARITY,0.95,india_city_locations.csv
+Gorakhpur,Gorakhpur,Uttar Pradesh,Gorakhpur,IN_CITY_0069,IN_ADM2_0522,POLYGON_CENTROID_LOOKUP,1.0,india_city_locations.csv
+Shimoga,Shimoga,Karnātaka,Shimoga,IN_CITY_0070,IN_CITY_IN_CITY_0070,NAME_SIMILARITY,0.95,india_city_locations.csv
+Tiruppūr,Tiruppūr,Tamil Nādu,Tiruppūr,IN_CITY_0071,IN_CITY_IN_CITY_0071,NAME_SIMILARITY,0.95,india_city_locations.csv
+Guntūr,Guntūr,Andhra Pradesh,Guntūr,IN_CITY_0072,IN_CITY_IN_CITY_0072,NAME_SIMILARITY,0.95,india_city_locations.csv
+Raurkela,Raurkela,Odisha,Raurkela,IN_CITY_0073,IN_CITY_IN_CITY_0073,NAME_SIMILARITY,0.95,india_city_locations.csv
+Mangalore,Mangalore,Karnātaka,Mangalore,IN_CITY_0074,IN_CITY_IN_CITY_0074,NAME_SIMILARITY,0.95,india_city_locations.csv
+Nānded,Nānded,Mahārāshtra,Nānded,IN_CITY_0075,IN_CITY_IN_CITY_0075,NAME_SIMILARITY,0.95,india_city_locations.csv
+Cuttack,Cuttack,Odisha,Cuttack,IN_CITY_0076,IN_CITY_IN_CITY_0076,NAME_SIMILARITY,0.95,india_city_locations.csv
+Chānda,Chānda,Mahārāshtra,Chānda,IN_CITY_0077,IN_CITY_IN_CITY_0077,NAME_SIMILARITY,0.95,india_city_locations.csv
+Dehra Dūn,Dehra Dūn,Uttarakhand,Dehra Dūn,IN_CITY_0078,IN_CITY_IN_CITY_0078,NAME_SIMILARITY,0.95,india_city_locations.csv
+Durgāpur,Durgāpur,West Bengal,Durgāpur,IN_CITY_0079,IN_CITY_IN_CITY_0079,NAME_SIMILARITY,0.95,india_city_locations.csv
+Āsansol,Āsansol,West Bengal,Āsansol,IN_CITY_0080,IN_CITY_IN_CITY_0080,NAME_SIMILARITY,0.95,india_city_locations.csv
+Bhāvnagar,Bhāvnagar,Gujarāt,Bhāvnagar,IN_CITY_0081,IN_CITY_IN_CITY_0081,NAME_SIMILARITY,0.95,india_city_locations.csv
+Amrāvati,Amrāvati,Mahārāshtra,Amrāvati,IN_CITY_0082,IN_CITY_IN_CITY_0082,NAME_SIMILARITY,0.95,india_city_locations.csv
+Nellore,Nellore,Andhra Pradesh,Nellore,IN_CITY_0083,IN_ADM2_0016,POLYGON_CENTROID_LOOKUP,1.0,india_city_locations.csv
+Ajmer,Ajmer,Rājasthān,Ajmer,IN_CITY_0084,IN_CITY_IN_CITY_0084,NAME_SIMILARITY,0.95,india_city_locations.csv
+Tinnevelly,Tinnevelly,Tamil Nādu,Tinnevelly,IN_CITY_0085,IN_CITY_IN_CITY_0085,NAME_SIMILARITY,0.95,india_city_locations.csv
+Bīkaner,Bīkaner,Rājasthān,Bīkaner,IN_CITY_0086,IN_CITY_IN_CITY_0086,NAME_SIMILARITY,0.95,india_city_locations.csv
+Agartala,Agartala,Tripura,Agartala,IN_CITY_0087,IN_CITY_IN_CITY_0087,NAME_SIMILARITY,0.95,india_city_locations.csv
+Ujjain,Ujjain,Madhya Pradesh,Ujjain,IN_CITY_0088,IN_ADM2_0301,POLYGON_CENTROID_LOOKUP,1.0,india_city_locations.csv
+Jhānsi,Jhānsi,Uttar Pradesh,Jhānsi,IN_CITY_0089,IN_CITY_IN_CITY_0089,NAME_SIMILARITY,0.95,india_city_locations.csv
+Ulhāsnagar,Ulhāsnagar,Mahārāshtra,Ulhāsnagar,IN_CITY_0090,IN_CITY_IN_CITY_0090,NAME_SIMILARITY,0.95,india_city_locations.csv
+Davangere,Davangere,Karnātaka,Davangere,IN_CITY_0091,IN_CITY_IN_CITY_0091,NAME_SIMILARITY,0.95,india_city_locations.csv
+Jammu,Jammu,Jammu and Kashmīr,Jammu,IN_CITY_0092,IN_CITY_IN_CITY_0092,NAME_SIMILARITY,0.95,india_city_locations.csv
+Belgaum,Belgaum,Karnātaka,Belgaum,IN_CITY_0093,IN_CITY_IN_CITY_0093,NAME_SIMILARITY,0.95,india_city_locations.csv
+Gulbarga,Gulbarga,Karnātaka,Gulbarga,IN_CITY_0094,IN_CITY_IN_CITY_0094,NAME_SIMILARITY,0.95,india_city_locations.csv
+Jāmnagar,Jāmnagar,Gujarāt,Jāmnagar,IN_CITY_0095,IN_CITY_IN_CITY_0095,NAME_SIMILARITY,0.95,india_city_locations.csv
+Dhūlia,Dhūlia,Mahārāshtra,Dhūlia,IN_CITY_0096,IN_CITY_IN_CITY_0096,NAME_SIMILARITY,0.95,india_city_locations.csv
+Gaya,Gaya,Bihār,Gaya,IN_CITY_0097,IN_CITY_IN_CITY_0097,NAME_SIMILARITY,0.95,india_city_locations.csv
+Jalgaon,Jalgaon,Mahārāshtra,Jalgaon,IN_CITY_0098,IN_CITY_IN_CITY_0098,NAME_SIMILARITY,0.95,india_city_locations.csv
+Kurnool,Kurnool,Andhra Pradesh,Kurnool,IN_CITY_0099,IN_ADM2_0012,POLYGON_CENTROID_LOOKUP,1.0,india_city_locations.csv
+Udaipur,Udaipur,Rājasthān,Udaipur,IN_CITY_0100,IN_CITY_IN_CITY_0100,NAME_SIMILARITY,0.95,india_city_locations.csv
+Bellary,Bellary,Karnātaka,Bellary,IN_CITY_0101,IN_CITY_IN_CITY_0101,NAME_SIMILARITY,0.95,india_city_locations.csv
+Sāngli,Sāngli,Mahārāshtra,Sāngli,IN_CITY_0102,IN_CITY_IN_CITY_0102,NAME_SIMILARITY,0.95,india_city_locations.csv
+Tuticorin,Tuticorin,Tamil Nādu,Tuticorin,IN_CITY_0103,IN_CITY_IN_CITY_0103,NAME_SIMILARITY,0.95,india_city_locations.csv
+Calicut,Calicut,Kerala,Calicut,IN_CITY_0104,IN_CITY_IN_CITY_0104,NAME_SIMILARITY,0.95,india_city_locations.csv
+Akola,Akola,Mahārāshtra,Akola,IN_CITY_0105,IN_CITY_IN_CITY_0105,NAME_SIMILARITY,0.95,india_city_locations.csv
+Bhāgalpur,Bhāgalpur,Bihār,Bhāgalpur,IN_CITY_0106,IN_CITY_IN_CITY_0106,NAME_SIMILARITY,0.95,india_city_locations.csv
+Sīkar,Sīkar,Rājasthān,Sīkar,IN_CITY_0107,IN_CITY_IN_CITY_0107,NAME_SIMILARITY,0.95,india_city_locations.csv
+Tumkūr,Tumkūr,Karnātaka,Tumkūr,IN_CITY_0108,IN_CITY_IN_CITY_0108,NAME_SIMILARITY,0.95,india_city_locations.csv
+Quilon,Quilon,Kerala,Quilon,IN_CITY_0109,IN_CITY_IN_CITY_0109,NAME_SIMILARITY,0.95,india_city_locations.csv
+Muzaffarnagar,Muzaffarnagar,Uttar Pradesh,Muzaffarnagar,IN_CITY_0110,IN_ADM2_0546,POLYGON_CENTROID_LOOKUP,1.0,india_city_locations.csv
+Bhīlwāra,Bhīlwāra,Rājasthān,Bhīlwāra,IN_CITY_0111,IN_CITY_IN_CITY_0111,NAME_SIMILARITY,0.95,india_city_locations.csv
+Nizāmābād,Nizāmābād,Telangana,Nizāmābād,IN_CITY_0112,IN_CITY_IN_CITY_0112,NAME_SIMILARITY,0.95,india_city_locations.csv
+Bhātpāra,Bhātpāra,West Bengal,Bhātpāra,IN_CITY_0113,IN_CITY_IN_CITY_0113,NAME_SIMILARITY,0.95,india_city_locations.csv
+Kākināda,Kākināda,Andhra Pradesh,Kākināda,IN_CITY_0114,IN_CITY_IN_CITY_0114,NAME_SIMILARITY,0.95,india_city_locations.csv
+Parbhani,Parbhani,Mahārāshtra,Parbhani,IN_CITY_0115,IN_CITY_IN_CITY_0115,NAME_SIMILARITY,0.95,india_city_locations.csv
+Pānihāti,Pānihāti,West Bengal,Pānihāti,IN_CITY_0116,IN_CITY_IN_CITY_0116,NAME_SIMILARITY,0.95,india_city_locations.csv
+Lātūr,Lātūr,Mahārāshtra,Lātūr,IN_CITY_0117,IN_CITY_IN_CITY_0117,NAME_SIMILARITY,0.95,india_city_locations.csv
+Rohtak,Rohtak,Haryāna,Rohtak,IN_CITY_0118,IN_CITY_IN_CITY_0118,NAME_SIMILARITY,0.95,india_city_locations.csv
+Rājapālaiyam,Rājapālaiyam,Tamil Nādu,Rājapālaiyam,IN_CITY_0119,IN_CITY_IN_CITY_0119,NAME_SIMILARITY,0.95,india_city_locations.csv
+Ahmadnagar,Ahmadnagar,Mahārāshtra,Ahmadnagar,IN_CITY_0120,IN_CITY_IN_CITY_0120,NAME_SIMILARITY,0.95,india_city_locations.csv
+Cuddapah,Cuddapah,Andhra Pradesh,Cuddapah,IN_CITY_0121,IN_ADM2_0005,POLYGON_CENTROID_LOOKUP,1.0,india_city_locations.csv
+Rājahmundry,Rājahmundry,Andhra Pradesh,Rājahmundry,IN_CITY_0122,IN_CITY_IN_CITY_0122,NAME_SIMILARITY,0.95,india_city_locations.csv
+Alwar,Alwar,Rājasthān,Alwar,IN_CITY_0123,IN_CITY_IN_CITY_0123,NAME_SIMILARITY,0.95,india_city_locations.csv
+Muzaffarpur,Muzaffarpur,Bihār,Muzaffarpur,IN_CITY_0124,IN_CITY_IN_CITY_0124,NAME_SIMILARITY,0.95,india_city_locations.csv
+Bilāspur,Bilāspur,Chhattīsgarh,Bilāspur,IN_CITY_0125,IN_CITY_IN_CITY_0125,NAME_SIMILARITY,0.95,india_city_locations.csv
+Mathura,Mathura,Uttar Pradesh,Mathura,IN_CITY_0126,IN_ADM2_0541,POLYGON_CENTROID_LOOKUP,1.0,india_city_locations.csv
+Kāmārhāti,Kāmārhāti,West Bengal,Kāmārhāti,IN_CITY_0127,IN_CITY_IN_CITY_0127,NAME_SIMILARITY,0.95,india_city_locations.csv
+Patiāla,Patiāla,Punjab,Patiāla,IN_CITY_0128,IN_CITY_IN_CITY_0128,NAME_SIMILARITY,0.95,india_city_locations.csv
+Saugor,Saugor,Madhya Pradesh,Saugor,IN_CITY_0129,IN_CITY_IN_CITY_0129,NAME_SIMILARITY,0.95,india_city_locations.csv
+Bijāpur,Bijāpur,Karnātaka,Bijāpur,IN_CITY_0130,IN_CITY_IN_CITY_0130,NAME_SIMILARITY,0.95,india_city_locations.csv
+Brahmapur,Brahmapur,Odisha,Brahmapur,IN_CITY_0131,IN_CITY_IN_CITY_0131,NAME_SIMILARITY,0.95,india_city_locations.csv
+Shāhjānpur,Shāhjānpur,Uttar Pradesh,Shāhjānpur,IN_CITY_0132,IN_CITY_IN_CITY_0132,NAME_SIMILARITY,0.95,india_city_locations.csv
+Trichūr,Trichūr,Kerala,Trichūr,IN_CITY_0133,IN_CITY_IN_CITY_0133,NAME_SIMILARITY,0.95,india_city_locations.csv
+Barddhamān,Barddhamān,West Bengal,Barddhamān,IN_CITY_0134,IN_CITY_IN_CITY_0134,NAME_SIMILARITY,0.95,india_city_locations.csv
+Kulti,Kulti,West Bengal,Kulti,IN_CITY_0135,IN_CITY_IN_CITY_0135,NAME_SIMILARITY,0.95,india_city_locations.csv
+Sambalpur,Sambalpur,Odisha,Sambalpur,IN_CITY_0136,IN_CITY_IN_CITY_0136,NAME_SIMILARITY,0.95,india_city_locations.csv
+Purnea,Purnea,Bihār,Purnea,IN_CITY_0137,IN_CITY_IN_CITY_0137,NAME_SIMILARITY,0.95,india_city_locations.csv
+Hisar,Hisar,Haryāna,Hisar,IN_CITY_0138,IN_CITY_IN_CITY_0138,NAME_SIMILARITY,0.95,india_city_locations.csv
+Fīrozābād,Fīrozābād,Uttar Pradesh,Fīrozābād,IN_CITY_0139,IN_CITY_IN_CITY_0139,NAME_SIMILARITY,0.95,india_city_locations.csv
+Bīdar,Bīdar,Karnātaka,Bīdar,IN_CITY_0140,IN_CITY_IN_CITY_0140,NAME_SIMILARITY,0.95,india_city_locations.csv
+Rāmpur,Rāmpur,Uttar Pradesh,Rāmpur,IN_CITY_0141,IN_CITY_IN_CITY_0141,NAME_SIMILARITY,0.95,india_city_locations.csv
+Shiliguri,Shiliguri,West Bengal,Shiliguri,IN_CITY_0142,IN_CITY_IN_CITY_0142,NAME_SIMILARITY,0.95,india_city_locations.csv
+Bāli,Bāli,West Bengal,Bāli,IN_CITY_0143,IN_CITY_IN_CITY_0143,NAME_SIMILARITY,0.95,india_city_locations.csv
+Pānīpat,Pānīpat,Haryāna,Pānīpat,IN_CITY_0144,IN_CITY_IN_CITY_0144,NAME_SIMILARITY,0.95,india_city_locations.csv
+Karīmnagar,Karīmnagar,Telangana,Karīmnagar,IN_CITY_0145,IN_CITY_IN_CITY_0145,NAME_SIMILARITY,0.95,india_city_locations.csv
+Bhuj,Bhuj,Gujarāt,Bhuj,IN_CITY_0146,IN_CITY_IN_CITY_0146,NAME_SIMILARITY,0.95,india_city_locations.csv
+Ichalkaranji,Ichalkaranji,Mahārāshtra,Ichalkaranji,IN_CITY_0147,IN_CITY_IN_CITY_0147,NAME_SIMILARITY,0.95,india_city_locations.csv
+Tirupati,Tirupati,Andhra Pradesh,Tirupati,IN_CITY_0148,IN_CITY_IN_CITY_0148,NAME_SIMILARITY,0.95,india_city_locations.csv
+Hospet,Hospet,Karnātaka,Hospet,IN_CITY_0149,IN_CITY_IN_CITY_0149,NAME_SIMILARITY,0.95,india_city_locations.csv
+Āīzawl,Āīzawl,Mizoram,Āīzawl,IN_CITY_0150,IN_CITY_IN_CITY_0150,NAME_SIMILARITY,0.95,india_city_locations.csv
+Sannai,Sannai,Madhya Pradesh,Sannai,IN_CITY_0151,IN_CITY_IN_CITY_0151,NAME_SIMILARITY,0.95,india_city_locations.csv
+Bārāsat,Bārāsat,West Bengal,Bārāsat,IN_CITY_0152,IN_CITY_IN_CITY_0152,NAME_SIMILARITY,0.95,india_city_locations.csv
+Ratlām,Ratlām,Madhya Pradesh,Ratlām,IN_CITY_0153,IN_CITY_IN_CITY_0153,NAME_SIMILARITY,0.95,india_city_locations.csv
+Handwāra,Handwāra,Jammu and Kashmīr,Handwāra,IN_CITY_0154,IN_CITY_IN_CITY_0154,NAME_SIMILARITY,0.95,india_city_locations.csv
+Drug,Drug,Chhattīsgarh,Drug,IN_CITY_0155,IN_CITY_IN_CITY_0155,NAME_SIMILARITY,0.95,india_city_locations.csv
+Imphāl,Imphāl,Manipur,Imphāl,IN_CITY_0156,IN_CITY_IN_CITY_0156,NAME_SIMILARITY,0.95,india_city_locations.csv
+Anantapur,Anantapur,Andhra Pradesh,Anantapur,IN_CITY_0157,IN_ADM2_0003,POLYGON_CENTROID_LOOKUP,1.0,india_city_locations.csv
+Etāwah,Etāwah,Uttar Pradesh,Etāwah,IN_CITY_0158,IN_CITY_IN_CITY_0158,NAME_SIMILARITY,0.95,india_city_locations.csv
+Rāichūr,Rāichūr,Karnātaka,Rāichūr,IN_CITY_0159,IN_CITY_IN_CITY_0159,NAME_SIMILARITY,0.95,india_city_locations.csv
+Ongole,Ongole,Andhra Pradesh,Ongole,IN_CITY_0160,IN_CITY_IN_CITY_0160,NAME_SIMILARITY,0.95,india_city_locations.csv
+Bharatpur,Bharatpur,Rājasthān,Bharatpur,IN_CITY_0161,IN_CITY_IN_CITY_0161,NAME_SIMILARITY,0.95,india_city_locations.csv
+Begusarai,Begusarai,Bihār,Begusarai,IN_CITY_0162,IN_CITY_IN_CITY_0162,NAME_SIMILARITY,0.95,india_city_locations.csv
+Sonīpat,Sonīpat,Haryāna,Sonīpat,IN_CITY_0163,IN_CITY_IN_CITY_0163,NAME_SIMILARITY,0.95,india_city_locations.csv
+Rāmgundam,Rāmgundam,Telangana,Rāmgundam,IN_CITY_0164,IN_CITY_IN_CITY_0164,NAME_SIMILARITY,0.95,india_city_locations.csv
+Hāpur,Hāpur,Uttar Pradesh,Hāpur,IN_CITY_0165,IN_CITY_IN_CITY_0165,NAME_SIMILARITY,0.95,india_city_locations.csv
+Uluberiya,Uluberiya,West Bengal,Uluberiya,IN_CITY_0166,IN_CITY_IN_CITY_0166,NAME_SIMILARITY,0.95,india_city_locations.csv
+Porbandar,Porbandar,Gujarāt,Porbandar,IN_CITY_0167,IN_CITY_IN_CITY_0167,NAME_SIMILARITY,0.95,india_city_locations.csv
+Pāli,Pāli,Rājasthān,Pāli,IN_CITY_0168,IN_CITY_IN_CITY_0168,NAME_SIMILARITY,0.95,india_city_locations.csv
+Vizianagaram,Vizianagaram,Andhra Pradesh,Vizianagaram,IN_CITY_0169,IN_ADM2_0022,POLYGON_CENTROID_LOOKUP,1.0,india_city_locations.csv
+Puducherry,Puducherry,Puducherry,Puducherry,IN_CITY_0170,IN_ADM2_0403,POLYGON_CENTROID_LOOKUP,1.0,india_city_locations.csv
+Karnāl,Karnāl,Haryāna,Karnāl,IN_CITY_0171,IN_CITY_IN_CITY_0171,NAME_SIMILARITY,0.95,india_city_locations.csv
+Nāgercoil,Nāgercoil,Tamil Nādu,Nāgercoil,IN_CITY_0172,IN_CITY_IN_CITY_0172,NAME_SIMILARITY,0.95,india_city_locations.csv
+Tanjore,Tanjore,Tamil Nādu,Tanjore,IN_CITY_0173,IN_CITY_IN_CITY_0173,NAME_SIMILARITY,0.95,india_city_locations.csv
+Sambhal,Sambhal,Uttar Pradesh,Sambhal,IN_CITY_0174,IN_CITY_IN_CITY_0174,NAME_SIMILARITY,0.95,india_city_locations.csv
+Shimla,Shimla,Himāchal Pradesh,Shimla,IN_CITY_0175,IN_CITY_IN_CITY_0175,NAME_SIMILARITY,0.95,india_city_locations.csv
+Ghāndīnagar,Ghāndīnagar,Gujarāt,Ghāndīnagar,IN_CITY_0176,IN_CITY_IN_CITY_0176,NAME_SIMILARITY,0.95,india_city_locations.csv
+Shillong,Shillong,Meghālaya,Shillong,IN_CITY_0177,IN_CITY_IN_CITY_0177,NAME_SIMILARITY,0.95,india_city_locations.csv
+New Delhi,New Delhi,Delhi,Delhi,IN_CITY_0178,IN_ADM2_0120,POLYGON_CENTROID_LOOKUP,1.0,india_city_locations.csv
+Port Blair,Port Blair,Andaman and Nicobar Islands,Port Blair,IN_CITY_0179,IN_CITY_IN_CITY_0179,NAME_SIMILARITY,0.95,india_city_locations.csv
+Gangtok,Gangtok,Sikkim,Gangtok,IN_CITY_0180,IN_CITY_IN_CITY_0180,NAME_SIMILARITY,0.95,india_city_locations.csv
+Kohīma,Kohīma,Nāgāland,Kohīma,IN_CITY_0181,IN_CITY_IN_CITY_0181,NAME_SIMILARITY,0.95,india_city_locations.csv
+Itānagar,Itānagar,Arunāchal Pradesh,Itānagar,IN_CITY_0182,IN_CITY_IN_CITY_0182,NAME_SIMILARITY,0.95,india_city_locations.csv
+Panaji,Panaji,Goa,Panaji,IN_CITY_0183,IN_CITY_IN_CITY_0183,NAME_SIMILARITY,0.95,india_city_locations.csv
+Damān,Damān,Gujarāt,Damān,IN_CITY_0184,IN_CITY_IN_CITY_0184,NAME_SIMILARITY,0.95,india_city_locations.csv
+Kavaratti,Kavaratti,Lakshadweep,Kavaratti,IN_CITY_0185,IN_ADM2_0256,POLYGON_CENTROID_LOOKUP,1.0,india_city_locations.csv
+Panchkula,Panchkula,Haryāna,Panchkula,IN_CITY_0186,IN_CITY_IN_CITY_0186,NAME_SIMILARITY,0.95,india_city_locations.csv
+Kagaznāgār,Kagaznāgār,Telangana,Kagaznāgār,IN_CITY_0187,IN_CITY_IN_CITY_0187,NAME_SIMILARITY,0.95,india_city_locations.csv
+Bengaluru,Bengaluru,nan,Bengaluru,IN_CITY_0188,IN_CITY_IN_CITY_0188,NAME_SIMILARITY,0.95,india_city_locations.csv

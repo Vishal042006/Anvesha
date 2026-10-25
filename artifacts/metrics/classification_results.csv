@@ -1,0 +1,2 @@
+experiment_id,model,task,framework,dataset,dataset_version,train_rows,validation_rows,test_rows,epochs,best_epoch,accuracy,precision,recall,macro_f1,weighted_f1,balanced_accuracy,training_wall_time_sec,inference_time_sec,model_size_mb
+ANV-CLASS-TFIDF-LOGREG-001,TFIDF_LogisticRegression,CRIME_CATEGORY_CLASSIFICATION,scikit-learn,Crime Taxonomy Benchmark,1.0,132,0,33,N/A,N/A,0.9394,0.9592,0.9286,0.9286,0.9343,0.9394,0.0738,0.0,0.011

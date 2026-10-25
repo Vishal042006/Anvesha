@@ -1,0 +1,2 @@
+total_source_records,official_source_records,synthetic_source_records,clean_training_records,official_validation_records,official_test_records,reporting_units_count,start_year,end_year,missing_zeros_filled,synthetic_in_validation_test
+17761,10678,7083,8327,2220,2220,740,2001,2023,False,False

@@ -1,0 +1,2 @@
+metric,IoU,Dice,reason
+Spatial Hotspot Detection,NOT_ESTIMABLE,NOT_ESTIMABLE,No independent ground-truth spatial mask/polygon

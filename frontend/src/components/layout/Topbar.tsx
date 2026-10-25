@@ -1,246 +1,145 @@
-import React, { useState, useEffect } from 'react';
-import { Info, Server, ShieldAlert } from 'lucide-react';
-import type { SummaryResponse } from '../../types';
-import { AboutModal } from '../AboutModal';
-import { geographyApi } from '../../services/api';
+import React, { useState } from 'react';
+import { Search, Upload } from 'lucide-react';
+import { useAnalyticalContext } from '../../context/AnalyticalContext';
+
+export type NavSectionId =
+  | 'overview'
+  | 'crimeshift'
+  | 'map'
+  | 'forecasts'
+  | 'research';
 
 interface TopbarProps {
-  selectedState?: string;
-  onSelectState?: (state: string) => void;
-  selectedUnit: string;
-  onSelectUnit: (unit: string) => void;
-  selectedCategory: string;
-  onSelectCategory: (category: string) => void;
-  selectedYear: number;
-  onSelectYear: (year: number) => void;
-  summary: SummaryResponse | null;
-  backendOnline: boolean;
-  policeUnits?: string[];
-  categories?: string[];
+  currentSection?: NavSectionId;
+  onSelectSection?: (section: NavSectionId) => void;
+  onSearch?: (query: string) => void;
+  onOpenProvenance?: () => void;
+  onRunAnalysis?: () => void;
+  onExport?: () => void;
+  isExecuting?: boolean;
 }
 
-export const Topbar: React.FC<TopbarProps> = ({
-  selectedState = 'All',
-  onSelectState,
-  selectedUnit,
-  onSelectUnit,
-  selectedCategory,
-  onSelectCategory,
-  selectedYear,
-  onSelectYear,
-  summary,
-  backendOnline,
-  policeUnits = ['Pune', 'Chennai', 'Mumbai', 'Lucknow', 'Bangalore', 'Kolkata', 'Delhi', 'Jaipur', 'Hyderabad', 'Ahmedabad'],
-  categories = ['ipc_total', 'property_crime_derived', 'violent_crime_derived', 'crime_against_women_derived', 'murder', 'rape', 'robbery', 'theft', 'riots'],
+export const TopBar: React.FC<TopbarProps> = ({
+  currentSection = 'overview',
+  onSelectSection,
+  onSearch,
+  onRunAnalysis,
+  onExport,
+  isExecuting = false,
 }) => {
-  const [isAboutOpen, setIsAboutOpen] = useState(false);
-  const [isStatusOpen, setIsStatusOpen] = useState(false);
-  const [statesList, setStatesList] = useState<string[]>(['All']);
-  const [districtsList, setDistrictsList] = useState<string[]>(policeUnits);
+  const [searchQuery, setSearchQuery] = useState('');
+  const { district, category, year } = useAnalyticalContext();
 
-  useEffect(() => {
-    geographyApi.getStates()
-      .then((res) => {
-        if (res?.states?.length) {
-          setStatesList(['All', ...res.states]);
-        }
-      })
-      .catch(() => {});
-  }, []);
+  const handleSearchSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (onSearch) onSearch(searchQuery);
+  };
 
-  useEffect(() => {
-    geographyApi.getDistricts(selectedState === 'All' ? undefined : selectedState)
-      .then((res) => {
-        if (res?.districts?.length) {
-          setDistrictsList(res.districts);
-        }
-      })
-      .catch(() => {});
-  }, [selectedState]);
-
-  const yearOptions = Array.from({ length: 23 }, (_, i) => 2001 + i); // 2001..2023
+  const navItems: { id: NavSectionId; label: string }[] = [
+    { id: 'overview', label: 'OVERVIEW' },
+    { id: 'crimeshift', label: 'CRIME-SHIFT' },
+    { id: 'map', label: 'GEOGRAPHIC INTELLIGENCE' },
+    { id: 'forecasts', label: 'FORECAST INTELLIGENCE' },
+    { id: 'research', label: 'DECISION & MODEL LAB' },
+  ];
 
   return (
-    <>
-      <header className="bg-[#FFFFFF] border-b border-[#D8D6D0] px-5 py-2.5 flex flex-wrap items-center justify-between gap-3 text-[#111111] font-sans">
-        {/* Left: Editorial Tag & Subtitle */}
-        <div className="flex items-center space-x-3">
-          <span className="font-mono text-[10px] uppercase font-bold text-[#A61B1B] bg-[#F1F0EB] px-2 py-0.5 border border-[#D8D6D0]">
-            INDIA CRIME INTELLIGENCE
-          </span>
-          <span className="text-[#D8D6D0] hidden md:inline">|</span>
-          <span className="text-xs text-[#4B4B4B] font-sans hidden md:inline">
-            Evidence-Grounded Spatio-Temporal Platform
-          </span>
+    <header className="h-20 bg-white border-b border-[#E5E7EB] px-6 md:px-10 flex items-center justify-between shrink-0 font-sans sticky top-0 z-40 transition-all">
+      {/* Left Brand & Context Capsule */}
+      <div className="flex items-center space-x-4">
+        <div
+          className="flex items-center cursor-pointer transition-opacity hover:opacity-90"
+          onClick={() => onSelectSection && onSelectSection('overview')}
+          title="Return to Overview"
+        >
+          <img
+            src="/assets/anvesha_logo.png"
+            alt="ANVESHA 2.0"
+            className="h-12 sm:h-14 md:h-[58px] w-auto object-contain filter drop-shadow-2xs"
+          />
         </div>
 
-        {/* Center: Global Filter Selectors */}
-        <div className="flex flex-wrap items-center gap-2 text-xs font-sans">
-          {/* State / UT */}
-          {onSelectState && (
-            <div className="flex items-center bg-[#F1F0EB] border border-[#D8D6D0] px-2.5 py-1">
-              <span className="text-[#777777] font-mono text-[10px] mr-2 uppercase font-bold">STATE:</span>
-              <select
-                value={selectedState}
-                onChange={(e) => onSelectState(e.target.value)}
-                className="bg-transparent text-[#111111] font-bold focus:outline-hidden cursor-pointer text-xs pr-1 font-sans"
-              >
-                {statesList.map((s) => (
-                  <option key={s} value={s} className="bg-white text-[#111111]">
-                    {s}
-                  </option>
-                ))}
-              </select>
-            </div>
+        <div className="h-6 w-px bg-[#E5E7EB]" />
+
+        <div className="flex items-center space-x-2 text-xs">
+          <span className="font-semibold text-[#111827]">Crime-Shift</span>
+          <span className="text-[#9CA3AF]">/</span>
+          <span className="bg-[#F3F4F6] px-2.5 py-1 rounded-full text-[11px] font-medium text-[#374151] flex items-center space-x-1.5" title={`${category.replace('_', ' ')} (${year})`}>
+            <span className="w-1.5 h-1.5 rounded-full bg-[#10B981] animate-pulse" />
+            <span className="font-bold text-[#111827]">{district}</span>
+            <span className="text-[#6B7280] text-[10px] hidden sm:inline">({category.replace('_', ' ')})</span>
+          </span>
+        </div>
+      </div>
+
+      {/* Center Navigation Capsule */}
+      <div className="bg-[#F3F4F6] p-1 rounded-full flex items-center space-x-0.5 overflow-x-auto">
+        {navItems.map((item) => {
+          const isActive = currentSection === item.id;
+          return (
+            <button
+              key={item.id}
+              onClick={() => onSelectSection && onSelectSection(item.id)}
+              className={`px-3 py-1 text-[11px] font-mono font-semibold tracking-wide rounded-full transition-all cursor-pointer whitespace-nowrap ${
+                isActive
+                  ? 'bg-white text-[#111827] shadow-2xs'
+                  : 'text-[#6B7280] hover:text-[#111827]'
+              }`}
+            >
+              {item.label}
+            </button>
+          );
+        })}
+      </div>
+
+      {/* Right Search & Action Controls */}
+      <div className="flex items-center space-x-2.5">
+        {/* Search Input */}
+        <form onSubmit={handleSearchSubmit} className="relative hidden xl:block">
+          <Search className="w-3.5 h-3.5 absolute left-3 top-1/2 -translate-y-1/2 text-[#9CA3AF]" />
+          <input
+            type="text"
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            placeholder="Search precincts, IPC codes..."
+            className="w-48 pl-8 pr-3 py-1.5 text-xs bg-[#F3F4F6] border-none rounded-full text-[#111827] placeholder-[#9CA3AF] focus:outline-none focus:ring-1 focus:ring-[#0D9488] font-sans transition-all"
+          />
+        </form>
+
+        {/* Export Button */}
+        <button
+          onClick={onExport || (() => window.open('/api/v1/crimeshift/export', '_blank'))}
+          className="inline-flex items-center space-x-1.5 px-3.5 py-1.5 text-xs font-medium text-[#374151] bg-white border border-[#E5E7EB] rounded-full hover:bg-[#F9FAFB] transition-all cursor-pointer shadow-2xs"
+          title="Export Verified Research & Dataset Bundle (JSON/Parquet)"
+        >
+          <Upload className="w-3.5 h-3.5 text-[#6B7280]" />
+          <span>Export Bundle</span>
+        </button>
+
+        {/* Primary Retest Button with live state */}
+        <button
+          onClick={onRunAnalysis}
+          disabled={isExecuting}
+          className={`inline-flex items-center space-x-1.5 px-4 py-1.5 text-xs font-semibold rounded-full shadow-2xs transition-all cursor-pointer ${
+            isExecuting
+              ? 'bg-[#0D9488] text-white opacity-90 cursor-wait'
+              : 'text-white bg-[#0F172A] hover:bg-[#1E293B]'
+          }`}
+          title="Trigger CRIME-SHIFT Spatio-Temporal Pipeline Execution"
+        >
+          {isExecuting ? (
+            <>
+              <span className="w-3 h-3 border-2 border-white border-t-transparent rounded-full animate-spin" />
+              <span>Running ML Pipeline...</span>
+            </>
+          ) : (
+            <>
+              <span className="w-2 h-2 rounded-full bg-[#10B981] animate-pulse" />
+              <span>Run Pipeline</span>
+            </>
           )}
-
-          {/* District / Administrative Unit */}
-          <div className="flex items-center bg-[#F1F0EB] border border-[#D8D6D0] px-2.5 py-1">
-            <span className="text-[#777777] font-mono text-[10px] mr-2 uppercase font-bold">DISTRICT:</span>
-            <select
-              value={selectedUnit}
-              onChange={(e) => onSelectUnit(e.target.value)}
-              className="bg-transparent text-[#111111] font-bold focus:outline-hidden cursor-pointer text-xs pr-1 font-sans"
-            >
-              {districtsList.map((u) => (
-                <option key={u} value={u} className="bg-white text-[#111111]">
-                  {u.replace(/_/g, ' ')}
-                </option>
-              ))}
-            </select>
-          </div>
-
-          {/* Crime Category */}
-          <div className="flex items-center bg-[#F1F0EB] border border-[#D8D6D0] px-2.5 py-1">
-            <span className="text-[#777777] font-mono text-[10px] mr-2 uppercase font-bold">CATEGORY:</span>
-            <select
-              value={selectedCategory}
-              onChange={(e) => onSelectCategory(e.target.value)}
-              className="bg-transparent text-[#111111] font-bold focus:outline-hidden cursor-pointer text-xs pr-1 font-sans"
-            >
-              {categories.map((c) => (
-                <option key={c} value={c} className="bg-white text-[#111111]">
-                  {c.replace(/_/g, ' ').toUpperCase()}
-                </option>
-              ))}
-            </select>
-          </div>
-
-          {/* Target Year */}
-          <div className="flex items-center bg-[#F1F0EB] border border-[#D8D6D0] px-2.5 py-1">
-            <span className="text-[#777777] font-mono text-[10px] mr-2 uppercase font-bold">YEAR:</span>
-            <select
-              value={selectedYear}
-              onChange={(e) => onSelectYear(Number(e.target.value))}
-              className="bg-transparent text-[#111111] font-bold focus:outline-hidden cursor-pointer text-xs pr-1 font-mono font-bold"
-            >
-              {yearOptions.map((y) => (
-                <option key={y} value={y} className="bg-white text-[#111111]">
-                  {y}
-                </option>
-              ))}
-            </select>
-          </div>
-        </div>
-
-        {/* Right: Telemetry Status & Info Modal Trigger */}
-        <div className="flex items-center space-x-2">
-          <button
-            onClick={() => setIsStatusOpen(true)}
-            className={`px-2.5 py-1 text-xs font-mono font-bold flex items-center space-x-1.5 transition-colors border cursor-pointer ${
-              backendOnline
-                ? 'bg-[#ECFDF5] text-[#26734D] border-[#A7F3D0] hover:bg-[#D1FAE5]'
-                : 'bg-[#FEF2F2] text-[#A61B1B] border-[#FECACA] hover:bg-[#FEE2E2]'
-            }`}
-          >
-            <span className={`w-1.5 h-1.5 rounded-full ${backendOnline ? 'bg-[#26734D]' : 'bg-[#A61B1B]'}`} />
-            <span>API {backendOnline ? 'ONLINE' : 'OFFLINE'}</span>
-          </button>
-
-          <button
-            onClick={() => setIsAboutOpen(true)}
-            className="p-1 text-[#4B4B4B] hover:text-[#111111] hover:bg-[#F1F0EB] border border-[#D8D6D0] transition-colors cursor-pointer"
-            title="Ethics & Research Principles"
-          >
-            <Info className="w-4 h-4" />
-          </button>
-        </div>
-      </header>
-
-      {/* Ethics & Principles Modal */}
-      <AboutModal
-        isOpen={isAboutOpen}
-        onClose={() => setIsAboutOpen(false)}
-        summary={summary}
-      />
-
-      {/* System Lineage & Status Modal */}
-      {isStatusOpen && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/40 font-sans">
-          <div className="bg-[#FFFFFF] border-2 border-[#1A1A1A] max-w-lg w-full p-6 space-y-4 text-[#111111] shadow-lg">
-            <div className="flex items-center justify-between border-b border-[#D8D6D0] pb-3">
-              <div className="flex items-center space-x-2">
-                <Server className="w-5 h-5 text-[#A61B1B]" />
-                <h3 className="font-serif font-bold text-base text-[#111111]">
-                  ANVESHA Backend Status & System Lineage
-                </h3>
-              </div>
-              <button
-                onClick={() => setIsStatusOpen(false)}
-                className="text-[#777777] hover:text-[#111111] text-xs font-mono cursor-pointer font-bold"
-              >
-                [ESC] ✕
-              </button>
-            </div>
-
-            <div className="space-y-2 text-xs font-mono">
-              <div className="flex justify-between p-2.5 bg-[#F1F0EB] border border-[#D8D6D0]">
-                <span className="text-[#777777]">FastAPI Server:</span>
-                <span className="text-[#111111] font-bold">http://localhost:8000/api/v1</span>
-              </div>
-
-              <div className="flex justify-between p-2.5 bg-[#F1F0EB] border border-[#D8D6D0]">
-                <span className="text-[#777777]">Status Code:</span>
-                <span className={backendOnline ? 'text-[#26734D] font-bold' : 'text-[#A61B1B] font-bold'}>
-                  {backendOnline ? '200 OK — ACTIVE' : 'DISCONNECTED'}
-                </span>
-              </div>
-
-              <div className="flex justify-between p-2.5 bg-[#F1F0EB] border border-[#D8D6D0]">
-                <span className="text-[#777777]">Official Data Track:</span>
-                <span className="text-[#111111] font-semibold">2001–2014 NCRB District Observations</span>
-              </div>
-
-              <div className="flex justify-between p-2.5 bg-[#F1F0EB] border border-[#D8D6D0]">
-                <span className="text-[#777777]">Synthetic Gap-Fill Track:</span>
-                <span className="text-[#111111] font-semibold">2015–2023 Statistically Constrained</span>
-              </div>
-
-              <div className="flex justify-between p-2.5 bg-[#F1F0EB] border border-[#D8D6D0]">
-                <span className="text-[#777777]">Primary Baseline:</span>
-                <span className="text-[#111111] font-semibold">T-1 Persistence (MAE 171.50, R² 0.9142)</span>
-              </div>
-            </div>
-
-            <div className="text-xs text-[#4B4B4B] bg-[#F8F7F3] p-3 border border-[#D8D6D0] leading-relaxed font-sans">
-              <div className="font-bold text-[#111111] mb-1 flex items-center gap-1.5">
-                <ShieldAlert className="w-3.5 h-3.5 text-[#B7791F]" />
-                PROVENANCE PROTECTION GUARANTEE
-              </div>
-              ANVESHA enforces strict boundary isolation between official observations and synthetic candidate estimates.
-            </div>
-
-            <div className="flex justify-end pt-2">
-              <button
-                onClick={() => setIsStatusOpen(false)}
-                className="px-4 py-2 bg-[#1A1A1A] hover:bg-[#A61B1B] text-white text-xs font-mono font-bold transition-colors cursor-pointer"
-              >
-                ACKNOWLEDGE & CLOSE
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
-    </>
+        </button>
+      </div>
+    </header>
   );
 };

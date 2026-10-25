@@ -1,0 +1,11 @@
+{
+  "primary_research_question": "How effectively can leakage-safe spatio-temporal machine-learning models forecast next-year aggregate crime counts across heterogeneous Indian police reporting units under incomplete historical data?",
+  "secondary_research_questions": {
+    "RQ1": "Does temporal history provide the strongest predictive signal?",
+    "RQ2": "Do population features improve forecasting accuracy?",
+    "RQ3": "Do spatial features improve forecasting accuracy?",
+    "RQ4": "Can deep temporal models (MLP, LSTM, GRU) outperform strong classical baselines (Persistence, Ridge, Random Forest, XGBoost)?",
+    "RQ5": "How stable are model results across chronological backtest folds?",
+    "RQ6": "How does controlled synthetic gap filling affect model performance?"
+  }
+}

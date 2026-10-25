@@ -37,6 +37,13 @@ class AnalyticsService:
             
             self.df_master = pd.concat(dfs, ignore_index=True) if dfs else pd.DataFrame()
 
+        # Precompute canonical geographic IDs for instant zero-lag queries
+        if not self.df_master.empty and "district" in self.df_master.columns:
+            from backend.app.services.geography_registry import canonicalize_unit_name
+            unique_dists = self.df_master["district"].dropna().unique()
+            dist_map = {d: (canonicalize_unit_name(str(d)) or {}).get("id") for d in unique_dists}
+            self.df_master["canon_id"] = self.df_master["district"].map(dist_map)
+
         # Load city metrics dataset
         if os.path.exists(self.city_master_path):
             try:
@@ -57,13 +64,22 @@ class AnalyticsService:
         }
 
     def get_districts(self, state_ut: str = None):
+        from backend.app.services.geography_registry import get_canonical_reporting_units
+        st_upper = state_ut.strip().upper() if state_ut else "TAMIL NADU"
+        if st_upper in ["TAMIL NADU", "TN", "ALL"]:
+            districts = get_canonical_reporting_units("TAMIL NADU", include_railways=False)
+            return {
+                "status": "success",
+                "state_ut": "TAMIL NADU",
+                "count": len(districts),
+                "districts": districts
+            }
+
         if self.df_master.empty:
             return {"status": "NO_DATA", "districts": []}
-        df = self.df_master
-        if state_ut and state_ut.upper() != "ALL":
-            df = df[df['state_ut'].str.upper() == state_ut.strip().upper()]
-        
-        districts = sorted([d for d in df['district'].dropna().unique() if str(d).strip()])
+            
+        df = self.df_master[self.df_master['state_ut'].str.upper() == st_upper]
+        districts = sorted([d for d in df['district'].dropna().unique() if str(d).strip() and str(d).strip().upper() not in ["TOTAL", "ZZ TOTAL", "OTHER UNITS", "CYBER CELL"] and not str(d).strip().lower().endswith(" city")])
         return {
             "status": "success",
             "state_ut": state_ut,
@@ -92,24 +108,20 @@ class AnalyticsService:
         }
 
     def get_crime_categories(self):
-        standard_cats = [
-            {"id": "ipc_total", "name": "Total IPC Crime", "level": "TOTAL"},
-            {"id": "property_crime_derived", "name": "Property Crime", "level": "AGENCY_DERIVED"},
-            {"id": "violent_crime_derived", "name": "Violent Crime", "level": "AGENCY_DERIVED"},
-            {"id": "crime_against_women_derived", "name": "Crime Against Women", "level": "AGENCY_DERIVED"},
-            {"id": "murder", "name": "Murder", "level": "SPECIFIC_IPC"},
-            {"id": "rape", "name": "Rape", "level": "SPECIFIC_IPC"},
-            {"id": "robbery", "name": "Robbery", "level": "SPECIFIC_IPC"},
-            {"id": "burglary", "name": "Burglary", "level": "SPECIFIC_IPC"},
-            {"id": "theft", "name": "Theft", "level": "SPECIFIC_IPC"},
-            {"id": "riots", "name": "Riots", "level": "SPECIFIC_IPC"},
-            {"id": "arson", "name": "Arson", "level": "SPECIFIC_IPC"},
-            {"id": "cheating", "name": "Cheating", "level": "SPECIFIC_IPC"}
+        canonical_cats = [
+            {"id": "ALL_CRIME", "name": "All Recorded Crime", "label": "All Recorded Crime"},
+            {"id": "VIOLENT", "name": "Violent Crime", "label": "Violent Crime"},
+            {"id": "PROPERTY", "name": "Property Crime", "label": "Property Crime"},
+            {"id": "ECONOMIC", "name": "Economic Crime", "label": "Economic Crime"},
+            {"id": "CYBER", "name": "Cyber Crime", "label": "Cyber Crime"},
+            {"id": "WOMEN_AND_CHILDREN", "name": "Women & Children", "label": "Women & Children"},
+            {"id": "PUBLIC_ORDER", "name": "Public Order", "label": "Public Order"},
+            {"id": "OTHER", "name": "Other", "label": "Other"}
         ]
         return {
             "status": "success",
-            "count": len(standard_cats),
-            "categories": standard_cats
+            "count": len(canonical_cats),
+            "categories": canonical_cats
         }
 
     def get_summary(self):
@@ -160,34 +172,89 @@ class AnalyticsService:
         if state_ut and state_ut.upper() != "ALL":
             df = df[df['state_ut'].str.upper() == state_ut.strip().upper()]
 
-        dist_norm = district.strip().upper()
-        matched_dist = None
-        for u in df['district'].dropna().unique():
-            if u.upper() == dist_norm:
-                matched_dist = u
-                break
+        from backend.app.services.geography_registry import canonicalize_unit_name
 
-        if not matched_dist:
-            for u in self.df_master['district'].dropna().unique():
+        canon_meta = canonicalize_unit_name(district)
+        df_dist = pd.DataFrame()
+        matched_dist = None
+        geo_id = None
+
+        if canon_meta and canon_meta.get("id"):
+            target_id = canon_meta["id"]
+            if "canon_id" in df.columns:
+                match_rows = df[df["canon_id"] == target_id]
+            else:
+                match_rows = df[df["district"].apply(lambda d: (canonicalize_unit_name(d) or {}).get("id")) == target_id]
+            if not match_rows.empty:
+                matched_dist = canon_meta["display_name"]
+                geo_id = target_id
+                num_cols = match_rows.select_dtypes(include=[np.number]).columns.drop("year", errors="ignore")
+                agg_dict = {c: "sum" for c in num_cols}
+                if "is_synthetic" in match_rows.columns:
+                    agg_dict["is_synthetic"] = "any"
+                if "provenance" in match_rows.columns:
+                    agg_dict["provenance"] = "last"
+                df_dist = match_rows.groupby("year").agg(agg_dict).reset_index().sort_values("year")
+
+        if df_dist.empty:
+            dist_norm = district.strip().upper()
+            for u in df["district"].dropna().unique():
                 if u.upper() == dist_norm:
                     matched_dist = u
                     break
 
-        if not matched_dist:
-            return {
-                "status": "unsupported",
-                "district": district,
-                "message": f"No data found for district '{district}'."
-            }
+            if not matched_dist:
+                for u in self.df_master["district"].dropna().unique():
+                    if u.upper() == dist_norm:
+                        matched_dist = u
+                        break
 
-        df_dist = self.df_master[self.df_master['district'] == matched_dist].copy().sort_values('year')
-        col = category if category in df_dist.columns else ('ipc_total' if 'ipc_total' in df_dist.columns else 'crime_count')
+            if not matched_dist:
+                return {
+                    "status": "unsupported",
+                    "district": district,
+                    "message": f"No data found for district '{district}'."
+                }
+
+            df_dist = self.df_master[self.df_master["district"] == matched_dist].copy().sort_values("year")
+            geo_id = str(df_dist.iloc[0]["geo_id"]) if "geo_id" in df_dist.columns else f"IN_{matched_dist}"
+
+        cat_upper = category.upper()
         
+        # Component column definitions for aggregate crime categories
+        property_cols = [c for c in ['robbery', 'dacoity', 'burglary', 'theft', 'auto_theft'] if c in df_dist.columns]
+        violent_cols = [c for c in ['murder', 'attempt_murder', 'culpable_homicide', 'rape', 'kidnapping', 'riots', 'arson', 'hurt'] if c in df_dist.columns]
+        women_cols = [c for c in ['dowry_deaths', 'assault_women', 'cruelty_women', 'rape'] if c in df_dist.columns]
+
         historical = []
         for _, r in df_dist.iterrows():
+            if cat_upper == "PROPERTY":
+                if "property_crime_derived" in r and pd.notna(r["property_crime_derived"]) and float(r["property_crime_derived"]) > 0:
+                    val = float(r["property_crime_derived"])
+                else:
+                    val = float(sum(r[c] for c in property_cols if pd.notna(r[c])))
+            elif cat_upper in ["VIOLENT", "VIOLENT_CRIME"]:
+                if "violent_crime_derived" in r and pd.notna(r["violent_crime_derived"]) and float(r["violent_crime_derived"]) > 0:
+                    val = float(r["violent_crime_derived"])
+                else:
+                    val = float(sum(r[c] for c in violent_cols if pd.notna(r[c])))
+            elif cat_upper in ["WOMEN", "WOMEN_AND_CHILDREN", "CRIMES_AGAINST_WOMEN"]:
+                if "crime_against_women_derived" in r and pd.notna(r["crime_against_women_derived"]) and float(r["crime_against_women_derived"]) > 0:
+                    val = float(r["crime_against_women_derived"])
+                else:
+                    val = float(sum(r[c] for c in women_cols if pd.notna(r[c])))
+            elif cat_upper == "ECONOMIC":
+                val = float(r["cheating"]) if "cheating" in r and pd.notna(r["cheating"]) else 0.0
+            elif cat_upper in df_dist.columns:
+                val = float(r[cat_upper]) if pd.notna(r[cat_upper]) else 0.0
+            elif category.lower() in df_dist.columns:
+                val = float(r[category.lower()]) if pd.notna(r[category.lower()]) else 0.0
+            else:
+                val = float(r['ipc_total']) if 'ipc_total' in r and pd.notna(r['ipc_total']) else 0.0
+
             historical.append({
                 "year": int(r['year']),
-                "crime_count": float(r[col]) if pd.notna(r[col]) else 0.0,
+                "crime_count": val,
                 "is_synthetic": bool(r.get('is_synthetic', False)),
                 "provenance": str(r.get('provenance', 'OFFICIAL_OBSERVED' if int(r['year']) <= 2014 else 'SYNTHETIC_GAP_FILL'))
             })
@@ -199,15 +266,15 @@ class AnalyticsService:
         prev_count = prev_rec["crime_count"]
         pct_change = round(((latest_count - prev_count) / (prev_count + 1e-5)) * 100.0, 1) if prev_count > 0 else 0.0
 
-        state_name = str(df_dist.iloc[0]['state_ut']) if not df_dist.empty else "India"
-        geo_id = str(df_dist.iloc[0]['geo_id']) if not df_dist.empty and 'geo_id' in df_dist.columns else f"IN_{matched_dist}"
+        state_name = str(df_dist.iloc[0]['state_ut']) if not df_dist.empty and 'state_ut' in df_dist.columns else ("TAMIL NADU" if canon_meta else "India")
+        final_geo_id = geo_id or (str(df_dist.iloc[0]['geo_id']) if not df_dist.empty and 'geo_id' in df_dist.columns else f"IN_{matched_dist}")
 
         return {
             "status": "success",
             "district": matched_dist,
             "state_ut": state_name,
-            "geo_id": geo_id,
-            "category": col,
+            "geo_id": final_geo_id,
+            "category": category,
             "admin_level": "DISTRICT",
             "latest_year": latest_rec["year"],
             "latest_volume": latest_count,
@@ -240,6 +307,22 @@ class AnalyticsService:
         }
 
     def get_population_info(self, unit: str):
+        from backend.app.services.geography_registry import get_district_population_record
+        rec = get_district_population_record(unit)
+        if rec and rec.get("population"):
+            return {
+                "status": "success",
+                "unit": unit,
+                "city": unit,
+                "state_ut": "TAMIL NADU",
+                "population": float(rec["population"]),
+                "population_lakhs": rec["pop_lakhs"],
+                "area_sqkm": rec.get("area_sqkm"),
+                "density_per_sqkm": rec.get("density"),
+                "is_synthetic": False,
+                "provenance": "OFFICIAL_BENCHMARK_POPULATION"
+            }
+
         if os.path.exists(self.city_csv):
             city_df = pd.read_csv(self.city_csv)
             match = city_df[city_df['city'].str.upper() == unit.strip().upper()]

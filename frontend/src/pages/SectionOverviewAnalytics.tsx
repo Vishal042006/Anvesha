@@ -17,18 +17,17 @@ interface HistoryPoint {
 
 export const SectionOverviewAnalytics: React.FC<SectionOverviewProps> = ({ onNavigate }) => {
   const [summaryData, setSummaryData] = useState<SummaryData | null>(null);
-  const [selectedDistrict, setSelectedDistrict] = useState<string>('Chennai City');
+  const [selectedDistrict, setSelectedDistrict] = useState<string>('Chennai');
   const [historyData, setHistoryData] = useState<HistoryPoint[]>([]);
   const [categoryBreakdown, setCategoryBreakdown] = useState<{ name: string; count: number }[]>([]);
 
   const districts = [
-    'Ariyalur', 'Chennai City', 'Coimbatore', 'Coimbatore City', 'Cuddalore', 'Dharmapuri',
+    'Ariyalur', 'Chennai', 'Coimbatore', 'Cuddalore', 'Dharmapuri',
     'Dindigul', 'Erode', 'Kancheepuram', 'Kanniyakumari', 'Karur', 'Krishnagiri',
-    'Madurai', 'Madurai City', 'Nagapattinam', 'Namakkal', 'Perambalur', 'Pudukkottai',
-    'Salem', 'Salem City', 'Sivagangai', 'Thanjavur', 'The Nilgiris', 'Theni',
-    'Tiruchirappalli', 'Tiruchirappalli City', 'Tirunelveli', 'Tirunelveli City',
-    'Tiruppur', 'Tiruppur City', 'Tiruvallur', 'Tiruvannamalai', 'Tiruvarur', 'Vellore',
-    'Villupuram', 'Virudhunagar'
+    'Madurai', 'Nagapattinam', 'Namakkal', 'Perambalur', 'Pudukkottai',
+    'Salem', 'Sivagangai', 'Thanjavur', 'The Nilgiris', 'Theni',
+    'Tiruchirappalli', 'Tirunelveli', 'Tiruppur', 'Tiruvallur', 'Tiruvannamalai',
+    'Tiruvarur', 'Vellore', 'Villupuram', 'Virudhunagar'
   ];
 
   useEffect(() => {

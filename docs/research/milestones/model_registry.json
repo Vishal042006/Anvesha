@@ -1,0 +1,74 @@
+{
+  "ridge": {
+    "model_id": "ridge",
+    "model_name": "Ridge",
+    "model_family": "Classical",
+    "epochs": "N/A",
+    "metrics": {
+      "mae": 118.75,
+      "rmse": 142.03,
+      "wape": 3.8,
+      "r2": 0.9844
+    }
+  },
+  "random_forest": {
+    "model_id": "random_forest",
+    "model_name": "Random Forest",
+    "model_family": "Classical",
+    "epochs": "N/A",
+    "metrics": {
+      "mae": 124.17,
+      "rmse": 149.29,
+      "wape": 3.97,
+      "r2": 0.9829
+    }
+  },
+  "3-year_mean": {
+    "model_id": "3-year_mean",
+    "model_name": "3-Year Mean",
+    "model_family": "Baseline",
+    "epochs": "N/A",
+    "metrics": {
+      "mae": 127.06,
+      "rmse": 153.16,
+      "wape": 4.07,
+      "r2": 0.982
+    }
+  },
+  "t-1_persistence": {
+    "model_id": "t-1_persistence",
+    "model_name": "T-1 Persistence",
+    "model_family": "Baseline",
+    "epochs": "N/A",
+    "metrics": {
+      "mae": 145.51,
+      "rmse": 177.15,
+      "wape": 4.66,
+      "r2": 0.9757
+    }
+  },
+  "mlp": {
+    "model_id": "mlp",
+    "model_name": "MLP",
+    "model_family": "Deep Learning",
+    "epochs": 40.0,
+    "metrics": {
+      "mae": 1324.45,
+      "rmse": 1504.13,
+      "wape": 43.1,
+      "r2": -1.1414
+    }
+  },
+  "lstm": {
+    "model_id": "lstm",
+    "model_name": "LSTM",
+    "model_family": "Deep Learning",
+    "epochs": 40.0,
+    "metrics": {
+      "mae": 3044.32,
+      "rmse": 3256.87,
+      "wape": 97.85,
+      "r2": -6.9209
+    }
+  }
+}

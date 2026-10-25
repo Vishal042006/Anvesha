@@ -1,0 +1,345 @@
+{
+  "41e353f68acfb79740738e99ed11b0372de6c0a3437a1c8bfceddc60d840b506": {
+    "query": "theft",
+    "category": "property",
+    "timestamp": 1791349994.452685,
+    "papers": [
+      {
+        "title": "Systematic Review of Place-Based Hot Spots Policing and Crime Prevention",
+        "authors": "Sherman, L. W., Weisburd, D., & Gill, C.",
+        "year": 2021,
+        "journal": "Journal of Quantitative Criminology",
+        "doi": "10.1007/s10940-021-09512-3",
+        "citations_count": 142,
+        "relevance_score": 0.94,
+        "domain_relevance_score": 0.94,
+        "evidence_scope": "COMPARABLE URBAN EVIDENCE",
+        "key_finding": "Focused hot-spot resource allocation achieves statistically significant crime reductions without spatial displacement.",
+        "evidence_summary": "Meta-analysis of 62 evaluations demonstrates that focused hot-spot resource allocation achieves statistically significant crime reductions without spatial displacement.",
+        "applicability": "Applicable for high or increasing crime regimes."
+      },
+      {
+        "title": "Environmental Design Interventions for Urban Property Crime Mitigation",
+        "authors": "Welsh, B. C., & Farrington, D. P.",
+        "year": 2022,
+        "journal": "Criminology & Public Policy",
+        "doi": "10.1111/1745-9133.12580",
+        "citations_count": 89,
+        "relevance_score": 0.91,
+        "domain_relevance_score": 0.91,
+        "evidence_scope": "LOCAL EVIDENCE",
+        "key_finding": "Improved street lighting and natural surveillance reduce property crime by 14% to 21%.",
+        "evidence_summary": "Systematic review confirms that improved street lighting and natural surveillance reduce property crime by 14% to 21%.",
+        "applicability": "Applicable for property crime reduction in urban districts."
+      },
+      {
+        "title": "Markov Switching Models in Spatio-Temporal Crime Analysis",
+        "authors": "Gupta, R., & Kumar, S.",
+        "year": 2023,
+        "journal": "Spatial Statistics & Crime Analysis",
+        "doi": "10.1016/j.spasta.2023.100712",
+        "citations_count": 35,
+        "relevance_score": 0.88,
+        "domain_relevance_score": 0.88,
+        "evidence_scope": "METHODOLOGICAL EVIDENCE",
+        "key_finding": "Regime-aware Markov switching models improve multi-horizon forecast accuracy compared to regime-agnostic baselines.",
+        "evidence_summary": "Demonstrates that regime-aware Markov switching models improve multi-horizon forecast accuracy compared to regime-agnostic baselines.",
+        "applicability": "Methodological reference for ANVESHA CRIME-SHIFT engine."
+      }
+    ]
+  },
+  "942a4fbf520cb0d40f32320da49be3dfb561622e212f76a7ab7fbbd8c587b01b": {
+    "query": "Chennai Theft",
+    "category": "THEFT",
+    "timestamp": 1791351746.998749,
+    "papers": [
+      {
+        "title": "Systematic Review of Place-Based Hot Spots Policing and Crime Prevention",
+        "authors": "Sherman, L. W., Weisburd, D., & Gill, C.",
+        "year": 2021,
+        "journal": "Journal of Quantitative Criminology",
+        "doi": "10.1007/s10940-021-09512-3",
+        "citations_count": 142,
+        "relevance_score": 0.94,
+        "domain_relevance_score": 0.94,
+        "evidence_scope": "COMPARABLE URBAN EVIDENCE",
+        "key_finding": "Focused hot-spot resource allocation achieves statistically significant crime reductions without spatial displacement.",
+        "evidence_summary": "Meta-analysis of 62 evaluations demonstrates that focused hot-spot resource allocation achieves statistically significant crime reductions without spatial displacement.",
+        "applicability": "Applicable for high or increasing crime regimes."
+      },
+      {
+        "title": "Environmental Design Interventions for Urban Property Crime Mitigation",
+        "authors": "Welsh, B. C., & Farrington, D. P.",
+        "year": 2022,
+        "journal": "Criminology & Public Policy",
+        "doi": "10.1111/1745-9133.12580",
+        "citations_count": 89,
+        "relevance_score": 0.91,
+        "domain_relevance_score": 0.91,
+        "evidence_scope": "LOCAL EVIDENCE",
+        "key_finding": "Improved street lighting and natural surveillance reduce property crime by 14% to 21%.",
+        "evidence_summary": "Systematic review confirms that improved street lighting and natural surveillance reduce property crime by 14% to 21%.",
+        "applicability": "Applicable for property crime reduction in urban districts."
+      },
+      {
+        "title": "Markov Switching Models in Spatio-Temporal Crime Analysis",
+        "authors": "Gupta, R., & Kumar, S.",
+        "year": 2023,
+        "journal": "Spatial Statistics & Crime Analysis",
+        "doi": "10.1016/j.spasta.2023.100712",
+        "citations_count": 35,
+        "relevance_score": 0.88,
+        "domain_relevance_score": 0.88,
+        "evidence_scope": "METHODOLOGICAL EVIDENCE",
+        "key_finding": "Regime-aware Markov switching models improve multi-horizon forecast accuracy compared to regime-agnostic baselines.",
+        "evidence_summary": "Demonstrates that regime-aware Markov switching models improve multi-horizon forecast accuracy compared to regime-agnostic baselines.",
+        "applicability": "Methodological reference for ANVESHA CRIME-SHIFT engine."
+      }
+    ]
+  },
+  "33e25b8076465b3b82f2f3678172acfa3ef17a66459938f31080c15eeda38eee": {
+    "query": "Chennai",
+    "category": "general",
+    "timestamp": 1791355313.62637,
+    "papers": [
+      {
+        "title": "Systematic Review of Place-Based Hot Spots Policing and Crime Prevention",
+        "authors": "Sherman, L. W., Weisburd, D., & Gill, C.",
+        "year": 2021,
+        "journal": "Journal of Quantitative Criminology",
+        "doi": "10.1007/s10940-021-09512-3",
+        "citations_count": 142,
+        "relevance_score": 0.94,
+        "domain_relevance_score": 0.94,
+        "evidence_scope": "COMPARABLE URBAN EVIDENCE",
+        "key_finding": "Focused hot-spot resource allocation achieves statistically significant crime reductions without spatial displacement.",
+        "evidence_summary": "Meta-analysis of 62 evaluations demonstrates that focused hot-spot resource allocation achieves statistically significant crime reductions without spatial displacement.",
+        "applicability": "Applicable for high or increasing crime regimes."
+      },
+      {
+        "title": "Environmental Design Interventions for Urban Property Crime Mitigation",
+        "authors": "Welsh, B. C., & Farrington, D. P.",
+        "year": 2022,
+        "journal": "Criminology & Public Policy",
+        "doi": "10.1111/1745-9133.12580",
+        "citations_count": 89,
+        "relevance_score": 0.91,
+        "domain_relevance_score": 0.91,
+        "evidence_scope": "LOCAL EVIDENCE",
+        "key_finding": "Improved street lighting and natural surveillance reduce property crime by 14% to 21%.",
+        "evidence_summary": "Systematic review confirms that improved street lighting and natural surveillance reduce property crime by 14% to 21%.",
+        "applicability": "Applicable for property crime reduction in urban districts."
+      },
+      {
+        "title": "Markov Switching Models in Spatio-Temporal Crime Analysis",
+        "authors": "Gupta, R., & Kumar, S.",
+        "year": 2023,
+        "journal": "Spatial Statistics & Crime Analysis",
+        "doi": "10.1016/j.spasta.2023.100712",
+        "citations_count": 35,
+        "relevance_score": 0.88,
+        "domain_relevance_score": 0.88,
+        "evidence_scope": "METHODOLOGICAL EVIDENCE",
+        "key_finding": "Regime-aware Markov switching models improve multi-horizon forecast accuracy compared to regime-agnostic baselines.",
+        "evidence_summary": "Demonstrates that regime-aware Markov switching models improve multi-horizon forecast accuracy compared to regime-agnostic baselines.",
+        "applicability": "Methodological reference for ANVESHA CRIME-SHIFT engine."
+      }
+    ]
+  },
+  "012c62757cbba586124fbd1ceedff3e83455e360ff8da65384b596fd48cc57e2": {
+    "query": "Coimbatore",
+    "category": "general",
+    "timestamp": 1791355315.175189,
+    "papers": [
+      {
+        "title": "Systematic Review of Place-Based Hot Spots Policing and Crime Prevention",
+        "authors": "Sherman, L. W., Weisburd, D., & Gill, C.",
+        "year": 2021,
+        "journal": "Journal of Quantitative Criminology",
+        "doi": "10.1007/s10940-021-09512-3",
+        "citations_count": 142,
+        "relevance_score": 0.94,
+        "domain_relevance_score": 0.94,
+        "evidence_scope": "COMPARABLE URBAN EVIDENCE",
+        "key_finding": "Focused hot-spot resource allocation achieves statistically significant crime reductions without spatial displacement.",
+        "evidence_summary": "Meta-analysis of 62 evaluations demonstrates that focused hot-spot resource allocation achieves statistically significant crime reductions without spatial displacement.",
+        "applicability": "Applicable for high or increasing crime regimes."
+      },
+      {
+        "title": "Environmental Design Interventions for Urban Property Crime Mitigation",
+        "authors": "Welsh, B. C., & Farrington, D. P.",
+        "year": 2022,
+        "journal": "Criminology & Public Policy",
+        "doi": "10.1111/1745-9133.12580",
+        "citations_count": 89,
+        "relevance_score": 0.91,
+        "domain_relevance_score": 0.91,
+        "evidence_scope": "LOCAL EVIDENCE",
+        "key_finding": "Improved street lighting and natural surveillance reduce property crime by 14% to 21%.",
+        "evidence_summary": "Systematic review confirms that improved street lighting and natural surveillance reduce property crime by 14% to 21%.",
+        "applicability": "Applicable for property crime reduction in urban districts."
+      },
+      {
+        "title": "Markov Switching Models in Spatio-Temporal Crime Analysis",
+        "authors": "Gupta, R., & Kumar, S.",
+        "year": 2023,
+        "journal": "Spatial Statistics & Crime Analysis",
+        "doi": "10.1016/j.spasta.2023.100712",
+        "citations_count": 35,
+        "relevance_score": 0.88,
+        "domain_relevance_score": 0.88,
+        "evidence_scope": "METHODOLOGICAL EVIDENCE",
+        "key_finding": "Regime-aware Markov switching models improve multi-horizon forecast accuracy compared to regime-agnostic baselines.",
+        "evidence_summary": "Demonstrates that regime-aware Markov switching models improve multi-horizon forecast accuracy compared to regime-agnostic baselines.",
+        "applicability": "Methodological reference for ANVESHA CRIME-SHIFT engine."
+      }
+    ]
+  },
+  "8b5ef3166a267c0fd41a7c8cf6d16c33dce2b5fa965a36608e07e8e3199ea855": {
+    "query": "Madurai",
+    "category": "general",
+    "timestamp": 1791355315.7559922,
+    "papers": [
+      {
+        "title": "Systematic Review of Place-Based Hot Spots Policing and Crime Prevention",
+        "authors": "Sherman, L. W., Weisburd, D., & Gill, C.",
+        "year": 2021,
+        "journal": "Journal of Quantitative Criminology",
+        "doi": "10.1007/s10940-021-09512-3",
+        "citations_count": 142,
+        "relevance_score": 0.94,
+        "domain_relevance_score": 0.94,
+        "evidence_scope": "COMPARABLE URBAN EVIDENCE",
+        "key_finding": "Focused hot-spot resource allocation achieves statistically significant crime reductions without spatial displacement.",
+        "evidence_summary": "Meta-analysis of 62 evaluations demonstrates that focused hot-spot resource allocation achieves statistically significant crime reductions without spatial displacement.",
+        "applicability": "Applicable for high or increasing crime regimes."
+      },
+      {
+        "title": "Environmental Design Interventions for Urban Property Crime Mitigation",
+        "authors": "Welsh, B. C., & Farrington, D. P.",
+        "year": 2022,
+        "journal": "Criminology & Public Policy",
+        "doi": "10.1111/1745-9133.12580",
+        "citations_count": 89,
+        "relevance_score": 0.91,
+        "domain_relevance_score": 0.91,
+        "evidence_scope": "LOCAL EVIDENCE",
+        "key_finding": "Improved street lighting and natural surveillance reduce property crime by 14% to 21%.",
+        "evidence_summary": "Systematic review confirms that improved street lighting and natural surveillance reduce property crime by 14% to 21%.",
+        "applicability": "Applicable for property crime reduction in urban districts."
+      },
+      {
+        "title": "Markov Switching Models in Spatio-Temporal Crime Analysis",
+        "authors": "Gupta, R., & Kumar, S.",
+        "year": 2023,
+        "journal": "Spatial Statistics & Crime Analysis",
+        "doi": "10.1016/j.spasta.2023.100712",
+        "citations_count": 35,
+        "relevance_score": 0.88,
+        "domain_relevance_score": 0.88,
+        "evidence_scope": "METHODOLOGICAL EVIDENCE",
+        "key_finding": "Regime-aware Markov switching models improve multi-horizon forecast accuracy compared to regime-agnostic baselines.",
+        "evidence_summary": "Demonstrates that regime-aware Markov switching models improve multi-horizon forecast accuracy compared to regime-agnostic baselines.",
+        "applicability": "Methodological reference for ANVESHA CRIME-SHIFT engine."
+      }
+    ]
+  },
+  "6ab9f7913246cb99b654a11827f41aa2eafe17e420e04db1bc3df7e9ad598a13": {
+    "query": "Kanchipuram",
+    "category": "general",
+    "timestamp": 1791355316.278311,
+    "papers": [
+      {
+        "title": "Systematic Review of Place-Based Hot Spots Policing and Crime Prevention",
+        "authors": "Sherman, L. W., Weisburd, D., & Gill, C.",
+        "year": 2021,
+        "journal": "Journal of Quantitative Criminology",
+        "doi": "10.1007/s10940-021-09512-3",
+        "citations_count": 142,
+        "relevance_score": 0.94,
+        "domain_relevance_score": 0.94,
+        "evidence_scope": "COMPARABLE URBAN EVIDENCE",
+        "key_finding": "Focused hot-spot resource allocation achieves statistically significant crime reductions without spatial displacement.",
+        "evidence_summary": "Meta-analysis of 62 evaluations demonstrates that focused hot-spot resource allocation achieves statistically significant crime reductions without spatial displacement.",
+        "applicability": "Applicable for high or increasing crime regimes."
+      },
+      {
+        "title": "Environmental Design Interventions for Urban Property Crime Mitigation",
+        "authors": "Welsh, B. C., & Farrington, D. P.",
+        "year": 2022,
+        "journal": "Criminology & Public Policy",
+        "doi": "10.1111/1745-9133.12580",
+        "citations_count": 89,
+        "relevance_score": 0.91,
+        "domain_relevance_score": 0.91,
+        "evidence_scope": "LOCAL EVIDENCE",
+        "key_finding": "Improved street lighting and natural surveillance reduce property crime by 14% to 21%.",
+        "evidence_summary": "Systematic review confirms that improved street lighting and natural surveillance reduce property crime by 14% to 21%.",
+        "applicability": "Applicable for property crime reduction in urban districts."
+      },
+      {
+        "title": "Markov Switching Models in Spatio-Temporal Crime Analysis",
+        "authors": "Gupta, R., & Kumar, S.",
+        "year": 2023,
+        "journal": "Spatial Statistics & Crime Analysis",
+        "doi": "10.1016/j.spasta.2023.100712",
+        "citations_count": 35,
+        "relevance_score": 0.88,
+        "domain_relevance_score": 0.88,
+        "evidence_scope": "METHODOLOGICAL EVIDENCE",
+        "key_finding": "Regime-aware Markov switching models improve multi-horizon forecast accuracy compared to regime-agnostic baselines.",
+        "evidence_summary": "Demonstrates that regime-aware Markov switching models improve multi-horizon forecast accuracy compared to regime-agnostic baselines.",
+        "applicability": "Methodological reference for ANVESHA CRIME-SHIFT engine."
+      }
+    ]
+  },
+  "adaadaeec722d120d5e725d046c9766810132c2eb6130b8b1dca745ce43215d3": {
+    "query": "district crime trend prevention strategies",
+    "category": "general",
+    "timestamp": 1792871390.27722,
+    "papers": [
+      {
+        "title": "Systematic Review of Place-Based Hot Spots Policing and Crime Prevention",
+        "authors": "Sherman, L. W., Weisburd, D., & Gill, C.",
+        "year": 2021,
+        "journal": "Journal of Quantitative Criminology",
+        "doi": "10.1007/s10940-021-09512-3",
+        "citations_count": 142,
+        "relevance_score": 0.94,
+        "domain_relevance_score": 0.94,
+        "evidence_scope": "COMPARABLE URBAN EVIDENCE",
+        "key_finding": "Focused hot-spot resource allocation achieves statistically significant crime reductions without spatial displacement.",
+        "evidence_summary": "Meta-analysis of 62 evaluations demonstrates that focused hot-spot resource allocation achieves statistically significant crime reductions without spatial displacement.",
+        "applicability": "Applicable for high or increasing crime regimes."
+      },
+      {
+        "title": "Environmental Design Interventions for Urban Property Crime Mitigation",
+        "authors": "Welsh, B. C., & Farrington, D. P.",
+        "year": 2022,
+        "journal": "Criminology & Public Policy",
+        "doi": "10.1111/1745-9133.12580",
+        "citations_count": 89,
+        "relevance_score": 0.91,
+        "domain_relevance_score": 0.91,
+        "evidence_scope": "LOCAL EVIDENCE",
+        "key_finding": "Improved street lighting and natural surveillance reduce property crime by 14% to 21%.",
+        "evidence_summary": "Systematic review confirms that improved street lighting and natural surveillance reduce property crime by 14% to 21%.",
+        "applicability": "Applicable for property crime reduction in urban districts."
+      },
+      {
+        "title": "Markov Switching Models in Spatio-Temporal Crime Analysis",
+        "authors": "Gupta, R., & Kumar, S.",
+        "year": 2023,
+        "journal": "Spatial Statistics & Crime Analysis",
+        "doi": "10.1016/j.spasta.2023.100712",
+        "citations_count": 35,
+        "relevance_score": 0.88,
+        "domain_relevance_score": 0.88,
+        "evidence_scope": "METHODOLOGICAL EVIDENCE",
+        "key_finding": "Regime-aware Markov switching models improve multi-horizon forecast accuracy compared to regime-agnostic baselines.",
+        "evidence_summary": "Demonstrates that regime-aware Markov switching models improve multi-horizon forecast accuracy compared to regime-agnostic baselines.",
+        "applicability": "Methodological reference for ANVESHA CRIME-SHIFT engine."
+      }
+    ]
+  }
+}

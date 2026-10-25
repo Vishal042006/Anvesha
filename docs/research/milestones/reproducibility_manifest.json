@@ -1,0 +1,22 @@
+{
+  "manifest_version": "ANVESHA-REPRO-v1.0",
+  "timestamp": "2026-10-05T06:21:02.488505+00:00",
+  "python_version": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:11:29) [Clang 20.1.8 ]",
+  "environment": {
+    "os": "macOS",
+    "pandas": "2.3.3",
+    "numpy": "2.3.5"
+  },
+  "reproduction_commands": [
+    "python3 scripts/execute_final_consolidation_and_cleanup.py",
+    "python3 scripts/execute_research_integrity_and_ieee_gate.py",
+    "PYTHONPATH=. pytest"
+  ],
+  "master_dataset_hashes": {
+    "anvesha_india_official.parquet": "bdfdc539805ed5161f9c9c7042e6bea0a700aa3222007e816d1926bcb6b826b4",
+    "anvesha_india_derived.parquet": "0a0069144a92861175f784c3eeb516fe48de7a4c1da5a14d10b9557dbf8fb521",
+    "anvesha_india_synthetic_gapfill.parquet": "a03f9ff618a955a85a6d8b44bb9302e8328f28ca60e67f1cd6fb4af21f466504",
+    "anvesha_india_extended.parquet": "11fa81a89d6dfb71463bc1b45a223c1165799ee0b747de09abea49a7d9b5a7d4",
+    "anvesha_india_model_ready.parquet": "6cfa5a22d6aca107abefe239f60e20d8f1de17bf0890769330dcb94191044631"
+  }
+}

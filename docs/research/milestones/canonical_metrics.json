@@ -1,0 +1,12 @@
+{
+  "dataset_release": "ANVESHA-DATA-v1.0",
+  "geography_release": "ANVESHA-GEO-v1.0",
+  "forecasting_best_mae_model": "Ridge Regression",
+  "forecasting_best_mae_value": 350.78,
+  "forecasting_best_r2_model": "Ridge Regression",
+  "forecasting_best_r2_value": 0.9447,
+  "classification_best_acc_model": "Random Forest",
+  "classification_best_acc_value": 1.0,
+  "classification_best_macro_f1_model": "Random Forest",
+  "classification_best_macro_f1_value": 1.0
+}

@@ -8,9 +8,21 @@ router = APIRouter()
 
 WORKSPACE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "..", ".."))
 
+def find_first_existing(relative_paths: list[str]) -> str:
+    for p in relative_paths:
+        full_p = os.path.join(WORKSPACE_DIR, p)
+        if os.path.exists(full_p):
+            return full_p
+    return os.path.join(WORKSPACE_DIR, relative_paths[0])
+
 @router.get("/dataset")
 def get_dataset_metadata():
-    reg_path = os.path.join(WORKSPACE_DIR, "research", "dataset_registry.json")
+    reg_path = find_first_existing([
+        "docs/research/milestones/dataset_registry.json",
+        "docs/research/dataset_registry.json",
+        "data/processed/dataset_registry.json",
+        "research/dataset_registry.json"
+    ])
     if os.path.exists(reg_path):
         with open(reg_path, "r") as f:
             return json.load(f)
@@ -25,14 +37,24 @@ def get_dataset_metadata():
 @router.get("/models")
 def get_models_registry():
     models_list = []
-    reg_path = os.path.join(WORKSPACE_DIR, "research", "model_registry.json")
+    reg_path = find_first_existing([
+        "docs/research/milestones/model_registry.json",
+        "docs/research/model_registry.json",
+        "models/metadata/model_registry.json",
+        "outputs/metrics/model_registry.json",
+        "research/model_registry.json"
+    ])
     if os.path.exists(reg_path):
         with open(reg_path, "r") as f:
             models_dict = json.load(f)
             models_list = list(models_dict.values())
     
     if not models_list:
-        csv_path = os.path.join(WORKSPACE_DIR, "results", "model_comparison.csv")
+        csv_path = find_first_existing([
+            "outputs/metrics/model_comparison.csv",
+            "artifacts/metrics/model_comparison.csv",
+            "results/model_comparison.csv"
+        ])
         if os.path.exists(csv_path):
             df = pd.read_csv(csv_path).fillna("N/A")
             models_list = df.to_dict(orient="records")
@@ -137,8 +159,10 @@ def get_training_logs(run_id: str):
 @router.get("/results")
 def get_results_summary():
     csv_path = os.path.join(WORKSPACE_DIR, "results", "model_comparison.csv")
+    if not os.path.exists(csv_path):
+        csv_path = os.path.join(WORKSPACE_DIR, "anvesha_outputs", "crimeshift_model_comparison.csv")
     if os.path.exists(csv_path):
-        df = pd.read_csv(csv_path)
+        df = pd.read_csv(csv_path).fillna("—")
         return {
             "status": "VERIFIED",
             "comparison_table": df.to_dict(orient="records")

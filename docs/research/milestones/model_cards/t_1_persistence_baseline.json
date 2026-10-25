@@ -1,0 +1,15 @@
+{
+  "model_name": "T-1 Persistence Baseline",
+  "version": "1.0.0",
+  "purpose": "Primary non-parametric forecasting benchmark (y_t = y_{t-1})",
+  "target": "Next-Year District IPC Total Count",
+  "training_data": "Track A Official Observed NCRB Data (2001-2014)",
+  "metrics": {
+    "MAE": 171.5,
+    "RMSE": 581.57,
+    "WAPE_pct": 16.58,
+    "R2": 0.9142
+  },
+  "limitations": "Cannot anticipate structural trend reversals or sudden policy/boundary shifts.",
+  "ethical_constraints": "Area-level aggregate count prediction only. Zero individual profiling."
+}

@@ -1,0 +1,5 @@
+model,experiment,accuracy,balanced_accuracy,macro_f1,weighted_f1,log_loss,ece_calibration_error,temporal_integrity,leakage_status
+Exploratory Full-Series XGBoost (Transductive HMM),Experiment A,1.0,1.0,1.0,1.0,1.013279643302667e-06,1.0132789611816406e-06,POTENTIALLY_TRANSDUCTIVE,Potentially Transductive
+Strict Temporal XGBoost (Strict HMM <= 2017),Experiment B,1.0,1.0,1.0,1.0,1.013279643302667e-06,1.0132789611816406e-06,STRICT_CHRONOLOGICAL,VERIFIED CLEAN
+Strict 50-Epoch PyTorch MLP (Strict HMM <= 2017),Experiment B,1.0,1.0,1.0,1.0,8.42972076497972e-06,8.404254913330078e-06,STRICT_CHRONOLOGICAL,VERIFIED CLEAN
+Naïve Persistence Baseline (Regime_t -> Regime_t+1),Baseline,1.0,1.0,1.0,1.0,2.2204460492503136e-16,0.0,STRICT_CHRONOLOGICAL,VERIFIED CLEAN

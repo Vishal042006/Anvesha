@@ -39,8 +39,7 @@ class BGEM3Retriever:
 
     def _get_hf_embeddings(self, texts: List[str]) -> List[List[float]]:
         """Call Hugging Face Feature Extraction API for BAAI/bge-m3."""
-        if not self.token:
-            logger.info("No HF_TOKEN provided; skipping remote HF embedding API call.")
+        if getattr(self, "_hf_disabled", False) or not self.token:
             return []
 
         headers = {
@@ -50,7 +49,7 @@ class BGEM3Retriever:
         payload = {"inputs": texts, "options": {"wait_for_model": True}}
 
         try:
-            response = requests.post(self.HF_API_URL, json=payload, headers=headers, timeout=12)
+            response = requests.post(self.HF_API_URL, json=payload, headers=headers, timeout=1.5)
             if response.status_code == 200:
                 embeddings = response.json()
                 # Handle nested array format [seq_len, dim] or pooled [dim]
@@ -71,7 +70,8 @@ class BGEM3Retriever:
                 logger.warning(f"HF BGE-M3 API returned status {response.status_code}: {response.text[:200]}")
                 return []
         except Exception as e:
-            logger.warning(f"Failed to fetch BGE-M3 embeddings from HF API: {e}")
+            self._hf_disabled = True
+            logger.info(f"Remote HF API bypassed: {e}")
             return []
 
         return []

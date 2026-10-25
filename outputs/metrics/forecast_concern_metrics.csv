@@ -1,0 +1,2 @@
+metric,status,reason
+Forecast Concern Classification,NOT_ESTIMABLE,No independent ground-truth concern labels

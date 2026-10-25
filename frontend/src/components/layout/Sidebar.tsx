@@ -1,27 +1,24 @@
 import React from 'react';
 import {
   LayoutDashboard,
-  LineChart,
-  AlertTriangle,
+  Activity,
   MapPin,
+  TrendingUp,
   BookOpen,
-  FileCode,
+  CheckCircle2,
+  FileCode2,
   Info
 } from 'lucide-react';
 
-export type SectionId = 
+export type SectionId =
   | 'overview'
-  | 'command_center'
-  | 'analysis'
-  | 'anomalies'
+  | 'crimeshift'
   | 'map'
-  | 'research'
+  | 'forecasts'
+  | 'evidence'
+  | 'validation'
   | 'methodology'
-  | 'about'
-  | 'forecast'
-  | 'explain'
-  | 'data'
-  | 'classification';
+  | 'about';
 
 interface SidebarProps {
   currentSection: SectionId;
@@ -36,17 +33,21 @@ interface NavItem {
   icon: React.ElementType;
 }
 
-const primaryNavItems: NavItem[] = [
-  { id: 'overview', label: 'Overview', subtitle: 'Crime patterns & forecast signals', icon: LayoutDashboard },
-  { id: 'analysis', label: 'Analysis', subtitle: 'Historical & forecasted trends', icon: LineChart },
-  { id: 'anomalies', label: 'Anomalies', subtitle: 'Statistically unusual changes', icon: AlertTriangle },
-  { id: 'map', label: 'Map', subtitle: 'Spatial GIS intelligence', icon: MapPin },
-  { id: 'research', label: 'Research', subtitle: 'Models & literature matrix', icon: BookOpen },
+const analysisItems: NavItem[] = [
+  { id: 'overview', label: 'Overview', subtitle: 'Research Briefing & Baseline', icon: LayoutDashboard },
+  { id: 'crimeshift', label: 'CRIME-SHIFT Engine', subtitle: 'BOCPD, HMM & Transition', icon: Activity },
+  { id: 'map', label: 'Geographic Intelligence', subtitle: 'Interactive GIS Workstation', icon: MapPin },
+  { id: 'forecasts', label: 'Forecast Intelligence', subtitle: 'Multi-Horizon & Conformal', icon: TrendingUp },
 ];
 
-const systemNavItems: NavItem[] = [
-  { id: 'methodology', label: 'Methodology', subtitle: 'Technical details & validation', icon: FileCode },
-  { id: 'about', label: 'About', subtitle: 'System overview & scope', icon: Info },
+const researchItems: NavItem[] = [
+  { id: 'evidence', label: 'Research Evidence', subtitle: 'Literature & Citations', icon: BookOpen },
+  { id: 'validation', label: 'Validation & Audits', subtitle: 'Chronological Out-of-Sample', icon: CheckCircle2 },
+];
+
+const systemItems: NavItem[] = [
+  { id: 'methodology', label: 'Methodology', subtitle: 'Mathematical Definitions', icon: FileCode2 },
+  { id: 'about', label: 'About & Provenance', subtitle: 'Governance & Data Lineage', icon: Info },
 ];
 
 export const Sidebar: React.FC<SidebarProps> = ({
@@ -54,103 +55,150 @@ export const Sidebar: React.FC<SidebarProps> = ({
   onSelectSection,
   backendOnline,
 }) => {
-  const activeSection = currentSection === 'command_center' ? 'overview' : currentSection;
-
   return (
-    <aside className="w-60 bg-white border-r border-[#E2E8F0] flex flex-col h-screen shrink-0 text-[#0F172A] font-sans selection:bg-[#2563EB] selection:text-white">
+    <aside className="w-[240px] bg-[#FFFFFF] border-r border-[#DCDDD8] flex flex-col h-screen shrink-0 text-[#17202A] font-sans">
       {/* Brand Header */}
-      <div className="p-4 border-b border-[#E2E8F0] bg-[#F8FAFC]">
-        <div className="flex items-center space-x-2.5">
-          <div className="w-7 h-7 bg-[#0F172A] text-white flex items-center justify-center font-mono font-bold text-sm rounded-xs">
-            A
-          </div>
-          <div>
-            <h1 className="font-sans font-bold text-base tracking-tight text-[#0F172A] leading-none">
-              ANVESHA
-            </h1>
-            <p className="text-[10px] text-[#64748B] font-medium tracking-wide mt-1">
-              Aggregate Crime Intelligence
-            </p>
-          </div>
+      <div className="p-4 border-b border-[#DCDDD8] bg-[#F8F8F5]">
+        <div className="flex items-center space-x-2.5 cursor-pointer" onClick={() => onSelectSection('overview')}>
+          <img
+            src="/assets/anvesha_logo.png"
+            alt="ANVESHA 2.0"
+            className="h-10 w-auto object-contain filter drop-shadow-2xs"
+          />
         </div>
       </div>
 
-      {/* Navigation Links */}
-      <nav className="flex-1 overflow-y-auto py-3 px-2 space-y-1">
-        <div className="px-3 pb-1 text-[9px] font-mono font-bold text-[#94A3B8] uppercase tracking-wider">
-          INTELLIGENCE
+      {/* Navigation Sections */}
+      <nav className="flex-1 overflow-y-auto py-3 px-2 space-y-4">
+        {/* ANALYSIS */}
+        <div>
+          <div className="px-3 pb-1 text-[9px] font-mono font-bold text-[#9AA1A5] uppercase tracking-wider">
+            ANALYSIS WORKSTATION
+          </div>
+          <div className="space-y-0.5">
+            {analysisItems.map((item) => {
+              const Icon = item.icon;
+              const isActive = currentSection === item.id;
+              return (
+                <button
+                  key={item.id}
+                  onClick={() => onSelectSection(item.id)}
+                  className={`w-full px-3 py-2 text-left transition-all flex items-center space-x-2.5 cursor-pointer rounded-xs relative ${
+                    isActive
+                      ? 'bg-[#F8F8F5] text-[#0B7F78] font-semibold'
+                      : 'text-[#68727A] hover:bg-[#F8F8F5] hover:text-[#17202A]'
+                  }`}
+                >
+                  {isActive && (
+                    <div className="absolute left-0 top-1 bottom-1 w-1 bg-[#0B7F78] rounded-r-xs" />
+                  )}
+                  <Icon className={`w-4 h-4 shrink-0 ${isActive ? 'text-[#0B7F78]' : 'text-[#9AA1A5]'}`} />
+                  <div className="truncate">
+                    <div className={`text-xs font-sans truncate ${isActive ? 'font-bold text-[#0B7F78]' : 'font-medium'}`}>
+                      {item.label}
+                    </div>
+                    <div className={`text-[10px] font-sans truncate ${isActive ? 'text-[#075E59]' : 'text-[#9AA1A5]'}`}>
+                      {item.subtitle}
+                    </div>
+                  </div>
+                </button>
+              );
+            })}
+          </div>
         </div>
-        {primaryNavItems.map((item) => {
-          const Icon = item.icon;
-          const isActive = activeSection === item.id;
-          return (
-            <button
-              key={item.id}
-              onClick={() => onSelectSection(item.id)}
-              className={`w-full px-3 py-2 text-left transition-all flex items-center space-x-2.5 group cursor-pointer rounded-xs ${
-                isActive
-                  ? 'bg-[#EFF6FF] text-[#1E40AF] font-semibold border-l-3 border-[#2563EB]'
-                  : 'text-[#475569] hover:bg-[#F8FAFC] hover:text-[#0F172A] border-l-3 border-transparent'
-              }`}
-            >
-              <Icon className={`w-4 h-4 shrink-0 ${isActive ? 'text-[#2563EB]' : 'text-[#94A3B8] group-hover:text-[#0F172A]'}`} />
-              <div className="truncate">
-                <div className={`text-xs font-sans truncate ${isActive ? 'font-bold text-[#1E40AF]' : 'font-medium'}`}>
-                  {item.label}
-                </div>
-                <div className={`text-[10px] font-sans truncate ${isActive ? 'text-[#2563EB]' : 'text-[#94A3B8]'}`}>
-                  {item.subtitle}
-                </div>
-              </div>
-            </button>
-          );
-        })}
 
-        {/* Subtle Divider */}
-        <div className="pt-3 pb-1 px-3">
-          <div className="border-t border-[#E2E8F0]" />
+        {/* RESEARCH */}
+        <div>
+          <div className="px-3 pb-1 text-[9px] font-mono font-bold text-[#9AA1A5] uppercase tracking-wider">
+            RESEARCH & EVIDENCE
+          </div>
+          <div className="space-y-0.5">
+            {researchItems.map((item) => {
+              const Icon = item.icon;
+              const isActive = currentSection === item.id;
+              return (
+                <button
+                  key={item.id}
+                  onClick={() => onSelectSection(item.id)}
+                  className={`w-full px-3 py-2 text-left transition-all flex items-center space-x-2.5 cursor-pointer rounded-xs relative ${
+                    isActive
+                      ? 'bg-[#F8F8F5] text-[#0B7F78] font-semibold'
+                      : 'text-[#68727A] hover:bg-[#F8F8F5] hover:text-[#17202A]'
+                  }`}
+                >
+                  {isActive && (
+                    <div className="absolute left-0 top-1 bottom-1 w-1 bg-[#0B7F78] rounded-r-xs" />
+                  )}
+                  <Icon className={`w-4 h-4 shrink-0 ${isActive ? 'text-[#0B7F78]' : 'text-[#9AA1A5]'}`} />
+                  <div className="truncate">
+                    <div className={`text-xs font-sans truncate ${isActive ? 'font-bold text-[#0B7F78]' : 'font-medium'}`}>
+                      {item.label}
+                    </div>
+                    <div className={`text-[10px] font-sans truncate ${isActive ? 'text-[#075E59]' : 'text-[#9AA1A5]'}`}>
+                      {item.subtitle}
+                    </div>
+                  </div>
+                </button>
+              );
+            })}
+          </div>
         </div>
 
-        <div className="px-3 pb-1 text-[9px] font-mono font-bold text-[#94A3B8] uppercase tracking-wider">
-          SYSTEM
+        {/* SYSTEM */}
+        <div>
+          <div className="px-3 pb-1 text-[9px] font-mono font-bold text-[#9AA1A5] uppercase tracking-wider">
+            SYSTEM & GOVERNANCE
+          </div>
+          <div className="space-y-0.5">
+            {systemItems.map((item) => {
+              const Icon = item.icon;
+              const isActive = currentSection === item.id;
+              return (
+                <button
+                  key={item.id}
+                  onClick={() => onSelectSection(item.id)}
+                  className={`w-full px-3 py-2 text-left transition-all flex items-center space-x-2.5 cursor-pointer rounded-xs relative ${
+                    isActive
+                      ? 'bg-[#F8F8F5] text-[#0B7F78] font-semibold'
+                      : 'text-[#68727A] hover:bg-[#F8F8F5] hover:text-[#17202A]'
+                  }`}
+                >
+                  {isActive && (
+                    <div className="absolute left-0 top-1 bottom-1 w-1 bg-[#0B7F78] rounded-r-xs" />
+                  )}
+                  <Icon className={`w-4 h-4 shrink-0 ${isActive ? 'text-[#0B7F78]' : 'text-[#9AA1A5]'}`} />
+                  <div className="truncate">
+                    <div className={`text-xs font-sans truncate ${isActive ? 'font-bold text-[#0B7F78]' : 'font-medium'}`}>
+                      {item.label}
+                    </div>
+                    <div className={`text-[10px] font-sans truncate ${isActive ? 'text-[#075E59]' : 'text-[#9AA1A5]'}`}>
+                      {item.subtitle}
+                    </div>
+                  </div>
+                </button>
+              );
+            })}
+          </div>
         </div>
-        {systemNavItems.map((item) => {
-          const Icon = item.icon;
-          const isActive = activeSection === item.id;
-          return (
-            <button
-              key={item.id}
-              onClick={() => onSelectSection(item.id)}
-              className={`w-full px-3 py-2 text-left transition-all flex items-center space-x-2.5 group cursor-pointer rounded-xs ${
-                isActive
-                  ? 'bg-[#EFF6FF] text-[#1E40AF] font-semibold border-l-3 border-[#2563EB]'
-                  : 'text-[#475569] hover:bg-[#F8FAFC] hover:text-[#0F172A] border-l-3 border-transparent'
-              }`}
-            >
-              <Icon className={`w-4 h-4 shrink-0 ${isActive ? 'text-[#2563EB]' : 'text-[#94A3B8] group-hover:text-[#0F172A]'}`} />
-              <div className="truncate">
-                <div className={`text-xs font-sans truncate ${isActive ? 'font-bold text-[#1E40AF]' : 'font-medium'}`}>
-                  {item.label}
-                </div>
-                <div className={`text-[10px] font-sans truncate ${isActive ? 'text-[#2563EB]' : 'text-[#94A3B8]'}`}>
-                  {item.subtitle}
-                </div>
-              </div>
-            </button>
-          );
-        })}
       </nav>
 
-      {/* Footer Metadata */}
-      <div className="p-3 border-t border-[#E2E8F0] bg-[#F8FAFC] text-[10px] font-mono">
+      {/* Footer System Status */}
+      <div className="p-3 border-t border-[#DCDDD8] bg-[#F8F8F5] text-[10px] font-mono space-y-1.5">
         <div className="flex items-center justify-between">
-          <span className="text-[#64748B]">SYSTEM STATUS:</span>
-          <span className={`inline-flex items-center space-x-1 font-bold ${backendOnline ? 'text-[#166534]' : 'text-[#DC2626]'}`}>
-            <span>{backendOnline ? 'ONLINE' : 'OFFLINE'}</span>
+          <span className="text-[#68727A]">DATA STATUS:</span>
+          <span className={`inline-flex items-center space-x-1 font-bold ${backendOnline ? 'text-[#0B7F78]' : 'text-[#8E3B3B]'}`}>
+            <span>● {backendOnline ? 'Connected' : 'Offline'}</span>
           </span>
+        </div>
+        <div className="flex items-center justify-between">
+          <span className="text-[#68727A]">MODEL ENGINE:</span>
+          <span className="text-[#0B7F78] font-bold">● Ready</span>
+        </div>
+        <div className="pt-1 border-t border-[#DCDDD8] flex items-center justify-between text-[9px] text-[#9AA1A5]">
+          <span>ANVESHA 2.0</span>
+          <span>NCRB/SCRB Panel</span>
         </div>
       </div>
     </aside>
   );
 };
-

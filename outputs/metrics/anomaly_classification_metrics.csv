@@ -1,0 +1,9 @@
+metric,value,reason
+Accuracy,NOT_ESTIMABLE,No independent ground-truth anomaly labels available
+Precision,NOT_ESTIMABLE,No independent ground-truth anomaly labels available
+Recall,NOT_ESTIMABLE,No independent ground-truth anomaly labels available
+F1,NOT_ESTIMABLE,No independent ground-truth anomaly labels available
+anomaly_count,690,Isolation Forest Contamination Count
+anomaly_rate_pct,5.00%,Isolation Forest Contamination Rate
+anomaly_score_mean,-0.4153,Isolation Forest Score Distribution
+anomaly_score_std,0.0659,Isolation Forest Score Distribution
